@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:controls="clr-namespace:WpfHandler.UI.Controls;assembly=WpfHandler">
+
+    <!--Define colors for the light blue theme.-->
+  
+    <SolidColorBrush x:Key="canvasBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="canvasForground" Color="#00A8E8"/>
+	
+	  <SolidColorBrush x:Key="highlightsBackgroundT1" Color="#DBDBDB"/>
+	  <SolidColorBrush x:Key="highlightsBackgroundT2" Color="#DBDBDB"/>
+	
+    <SolidColorBrush x:Key="controlMenuBackground" Color="#00171F"/>	
+	
+    <SolidColorBrush x:Key="unfocusedCatalogButtonBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="focusedCatalogButtonBackground" Color="#00A8E8"/>
+    <SolidColorBrush x:Key="catalogButtonForeground" Color="#FFFFFF"/>
+		
+    <SolidColorBrush x:Key="textButtonBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="textButtonForground" Color="#003459"/>
+	
+    <SolidColorBrush x:Key="textboxForeground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="textboxBackground" Color="#00a9e9"/>
+
+</ResourceDictionary>
+    

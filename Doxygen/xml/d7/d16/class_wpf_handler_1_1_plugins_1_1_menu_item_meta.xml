@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d7/d16/class_wpf_handler_1_1_plugins_1_1_menu_item_meta" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::Plugins::MenuItemMeta</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/d16/class_wpf_handler_1_1_plugins_1_1_menu_item_meta_1a029f2a5b3bfe5165d6e00ae76afed48e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WpfHandler.Plugins.MenuItemMeta.domain</definition>
+        <argsstring></argsstring>
+        <name>domain</name>
+        <initializer>= &quot;0_main.0_new_plugin&quot;</initializer>
+        <briefdescription>
+<para>Path of item in menu hierarchy. </para>        </briefdescription>
+        <detaileddescription>
+<para>Domain fragment format: [prority]_domainPart. Priority will be used for sorting of plugins in menu. If not defined then will be auto changed to SUBDOMAIN.GetHashcode(). </para><para>Attention: 0_DomainName != DomainName 0_DomainName.SubdomainName != 10_DomainName.SubdomainName</para><para>Example of plugins menu map: 0_main 0_main.0_plugin_1 0_main.1_plugin_2</para><para>big_plugin_3 big_plugin_3.10_plugin1 big_plugin_3.20_pl_2 big_plugin_3.20_pl_2.minor_plugin big_plugin_3.p_3</para><para>big_plugin_3 // Dublicated plugin&apos;s domain. Will be added to menu but all childs will applied to first entry plugin. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/MenuItemMeta.cs" line="54" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/MenuItemMeta.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d16/class_wpf_handler_1_1_plugins_1_1_menu_item_meta_1ad86b56cff5215164499143cf088c2bf8" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WpfHandler.Plugins.MenuItemMeta.titleDictionaryCode</definition>
+        <argsstring></argsstring>
+        <name>titleDictionaryCode</name>
+        <initializer>= &quot;p_author_myPlugin_title&quot;</initializer>
+        <briefdescription>
+<para>Code of resource in language xaml dictionary that will contain translated title. </para>        </briefdescription>
+        <detaileddescription>
+<para>For avoidance of conflicts recommended naming format is: &quot;p_&quot; + author + &quot;_&quot; + plugin_name + &quot;_&quot; + title. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/MenuItemMeta.cs" line="62" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/MenuItemMeta.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d16/class_wpf_handler_1_1_plugins_1_1_menu_item_meta_1a8071dad94e312ee2c0038e7c1689df23" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WpfHandler.Plugins.MenuItemMeta.defaultTitle</definition>
+        <argsstring></argsstring>
+        <name>defaultTitle</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Title that will be showed in case if dictionary not found. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/MenuItemMeta.cs" line="67" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/MenuItemMeta.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d16/class_wpf_handler_1_1_plugins_1_1_menu_item_meta_1aa4fb81675356848e0e44b87cbfb6b76b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.Plugins.MenuItemMeta.MenuItemMeta</definition>
+        <argsstring>()</argsstring>
+        <name>MenuItemMeta</name>
+        <briefdescription>
+<para>Default empty constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/MenuItemMeta.cs" line="74" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/MenuItemMeta.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d16/class_wpf_handler_1_1_plugins_1_1_menu_item_meta_1a0151fef18aa63b197c0dda26fd3a01eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.Plugins.MenuItemMeta.MenuItemMeta</definition>
+        <argsstring>(string domain, string titleDictionaryCode)</argsstring>
+        <name>MenuItemMeta</name>
+        <param>
+          <type>string</type>
+          <declname>domain</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>titleDictionaryCode</declname>
+        </param>
+        <briefdescription>
+<para>Initializing core memebers. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>domain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Item domain into hierarchy.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>titleDictionaryCode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The resource key in XAML resource dictionary for getting the title.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/MenuItemMeta.cs" line="81" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/MenuItemMeta.cs" bodystart="81" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Contain information that will be used for connection to the automatic navigation menu in client application </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/MenuItemMeta.cs" line="27" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/MenuItemMeta.cs" bodystart="26" bodyend="87"/>
+    <listofallmembers>
+      <member refid="d7/d16/class_wpf_handler_1_1_plugins_1_1_menu_item_meta_1a8071dad94e312ee2c0038e7c1689df23" prot="public" virt="non-virtual"><scope>WpfHandler::Plugins::MenuItemMeta</scope><name>defaultTitle</name></member>
+      <member refid="d7/d16/class_wpf_handler_1_1_plugins_1_1_menu_item_meta_1a029f2a5b3bfe5165d6e00ae76afed48e" prot="public" virt="non-virtual"><scope>WpfHandler::Plugins::MenuItemMeta</scope><name>domain</name></member>
+      <member refid="d7/d16/class_wpf_handler_1_1_plugins_1_1_menu_item_meta_1aa4fb81675356848e0e44b87cbfb6b76b" prot="public" virt="non-virtual"><scope>WpfHandler::Plugins::MenuItemMeta</scope><name>MenuItemMeta</name></member>
+      <member refid="d7/d16/class_wpf_handler_1_1_plugins_1_1_menu_item_meta_1a0151fef18aa63b197c0dda26fd3a01eb" prot="public" virt="non-virtual"><scope>WpfHandler::Plugins::MenuItemMeta</scope><name>MenuItemMeta</name></member>
+      <member refid="d7/d16/class_wpf_handler_1_1_plugins_1_1_menu_item_meta_1ad86b56cff5215164499143cf088c2bf8" prot="public" virt="non-virtual"><scope>WpfHandler::Plugins::MenuItemMeta</scope><name>titleDictionaryCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

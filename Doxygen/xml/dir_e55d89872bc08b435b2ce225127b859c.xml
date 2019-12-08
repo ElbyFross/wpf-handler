@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_e55d89872bc08b435b2ce225127b859c" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/AutoLayout/Controls</compoundname>
+    <innerfile refid="d5/d36/_release_2_u_i_2_auto_layout_2_controls_2_auto_layout_veiw_8g_8cs">AutoLayoutVeiw.g.cs</innerfile>
+    <innerfile refid="dc/d0a/_release_2_u_i_2_auto_layout_2_controls_2_auto_layout_veiw_8g_8i_8cs">AutoLayoutVeiw.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/AutoLayout/Controls/"/>
+  </compounddef>
+</doxygen>

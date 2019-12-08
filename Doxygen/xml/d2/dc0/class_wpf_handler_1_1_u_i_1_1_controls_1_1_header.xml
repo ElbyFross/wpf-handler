@@ -1,0 +1,677 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::Controls::Header</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.IGUIField</basecompoundref>
+    <basecompoundref refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label" prot="public" virt="non-virtual">WpfHandler.UI.Controls.ILabel</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1ac6b6eb0ae388af1282a5dde380abd4f1" prot="package" static="no" mutable="no">
+        <type><ref refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header" kindref="compound">WpfHandler.UI.Controls.Header</ref></type>
+        <definition>WpfHandler UI Controls Header WpfHandler.UI.Controls.Header::main</definition>
+        <argsstring></argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" line="46" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a0c41a0e112b170298f34dd1afe555466" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button WpfHandler.UI.Controls.Header::button</definition>
+        <argsstring></argsstring>
+        <name>button</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" line="54" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a4dca87c9678237c9b2af0dd3dc0bb2e0" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Canvas</type>
+        <definition>System Windows Controls Canvas WpfHandler.UI.Controls.Header::listControlUi</definition>
+        <argsstring></argsstring>
+        <name>listControlUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" line="62" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a457a413551d46e0674c51d22cbc1dd4f" prot="package" static="no" mutable="no">
+        <type>System.Windows.Shapes.Polygon</type>
+        <definition>System Windows Shapes Polygon WpfHandler.UI.Controls.Header::listControlUi_Showed</definition>
+        <argsstring></argsstring>
+        <name>listControlUi_Showed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a1fc08ceb38e9267375a64117ea03cfae" prot="package" static="no" mutable="no">
+        <type>System.Windows.Shapes.Polygon</type>
+        <definition>System Windows Shapes Polygon WpfHandler.UI.Controls.Header::listControlUi_Hided</definition>
+        <argsstring></argsstring>
+        <name>listControlUi_Hided</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" line="78" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1ab10ca0ccba374875757330fdd30ddab0" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label WpfHandler.UI.Controls.Header::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" line="86" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a90429ce83ea8bb00102a0e1bd2c660c1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.Header::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" line="91" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a69d6de68c4cb8c83f31b15efbd0323dc" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.Header.LabelProperty</definition>
+        <argsstring></argsstring>
+        <name>LabelProperty</name>
+        <initializer>= DependencyProperty.Register(
+            &quot;Label&quot;, typeof(string), typeof(<ref refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header" kindref="compound">Header</ref>), new PropertyMetadata(&quot;Sample&quot;))</initializer>
+        <briefdescription>
+<para>Bridging XAML declaring and the member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="44" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1afc03b2a1c85957c525b20e793ce9cfe4" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.Header.GUIContentProperty</definition>
+        <argsstring></argsstring>
+        <name>GUIContentProperty</name>
+        <initializer>= DependencyProperty.Register(
+            &quot;GUIContent&quot;, typeof(<ref refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content" kindref="compound">GUIContent</ref>), typeof(<ref refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header" kindref="compound">Header</ref>))</initializer>
+        <briefdescription>
+<para>Bridging XAML declaring and the member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="50" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a8d052187be3a68e9da2d4436bea3b504" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.Header.ActiveProperty</definition>
+        <argsstring></argsstring>
+        <name>ActiveProperty</name>
+        <initializer>= DependencyProperty.Register(
+            &quot;Active&quot;, typeof(bool), typeof(<ref refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header" kindref="compound">Header</ref>), new PropertyMetadata(true))</initializer>
+        <briefdescription>
+<para>Bridging XAML declaring and the member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="56" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1aa3473a8ebaf39118c2ec51ddc0fcfce7" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.Header.ArrowVisibleProperty</definition>
+        <argsstring></argsstring>
+        <name>ArrowVisibleProperty</name>
+        <initializer>= DependencyProperty.Register(
+            &quot;ArrowVisible&quot;, typeof(bool), typeof(<ref refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header" kindref="compound">Header</ref>), new PropertyMetadata(true))</initializer>
+        <briefdescription>
+<para>Bridging XAML declaring and the member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="62" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a0934846d1b0bafdabb4997d47fb01b6c" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> &gt;</type>
+        <definition>Action&lt;IGUIField&gt; WpfHandler.UI.Controls.Header.ValueChanged</definition>
+        <argsstring></argsstring>
+        <name>ValueChanged</name>
+        <briefdescription>
+<para>Event that will occure in case if value of the field will be changed. Will cause updating of the BindedMember value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="71" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a520cdfcc6671c954b6b889f61082244c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>MemberInfo</type>
+        <definition>MemberInfo WpfHandler.UI.Controls.Header.BindedMember</definition>
+        <argsstring></argsstring>
+        <name>BindedMember</name>
+        <briefdescription>
+<para>Memeber that will be used as source for the value into <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="76" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a3947ddcb07258827b26c25d9ca0f242d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer" kindref="compound">LayoutLayer</ref></type>
+        <definition>LayoutLayer WpfHandler.UI.Controls.Header.ChildLayer</definition>
+        <argsstring></argsstring>
+        <name>ChildLayer</name>
+        <briefdescription>
+<para>Layer thst will be managed by that header. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="81" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a6ea05d5b82deba64afc724e79a93275e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.Controls.Header.Label</definition>
+        <argsstring></argsstring>
+        <name>Label</name>
+        <briefdescription>
+<para>Text in label field. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="86" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a020e75c12da978773cd2a3f0089e0644" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.Header.Active</definition>
+        <argsstring></argsstring>
+        <name>Active</name>
+        <briefdescription>
+<para>Is this header active. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="95" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="96" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a982c296a72324bf0fab5076cebd60928" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.Header.ArrowVisible</definition>
+        <argsstring></argsstring>
+        <name>ArrowVisible</name>
+        <briefdescription>
+<para>Is this header active state arrow is visible. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="131" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="132" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a0039e7d4594591d0d9ca1bf99a1ee497" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content" kindref="compound">GUIContent</ref></type>
+        <definition>GUIContent WpfHandler.UI.Controls.Header.GUIContent</definition>
+        <argsstring></argsstring>
+        <name>GUIContent</name>
+        <briefdescription>
+<para>Is this header active state arrow is visible. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="149" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="150" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a905e42505bb758f31a2178730e41aa19" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object WpfHandler.UI.Controls.Header.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+<para>Uniform value of that property. Allow only bool. Deine state of  property. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="174" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="175" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a09034cb3d506198643c0d13b4b10cfdb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float WpfHandler.UI.Controls.Header.LabelWidth</definition>
+        <argsstring></argsstring>
+        <name>LabelWidth</name>
+        <briefdescription>
+<para>Not supported. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="189" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="189" bodyend="189"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a3bc7092e9a7ce867b8f29cad1c1d3f2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Header.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" line="98" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" bodystart="98" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a3bc7092e9a7ce867b8f29cad1c1d3f2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Header.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.i.cs" line="98" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.i.cs" bodystart="98" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a3bc7092e9a7ce867b8f29cad1c1d3f2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Header.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Header.g.cs" line="98" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Header.g.cs" bodystart="98" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a3bc7092e9a7ce867b8f29cad1c1d3f2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Header.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Header.g.i.cs" line="98" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Header.g.i.cs" bodystart="98" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a58551b76c66c4da201070cf01d0561f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.Controls.Header.Header</definition>
+        <argsstring>()</argsstring>
+        <name>Header</name>
+        <briefdescription>
+<para>Default costructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="195" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="195" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a23ac86ea123581ee90d1aa9b6a81dadd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Header.OnLayout</definition>
+        <argsstring>(ref LayoutLayer layer, params object[] args)</argsstring>
+        <name>OnLayout</name>
+        <reimplements refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element_1a0ff16956f8e8187d51e1b36b6b9f894e">OnLayout</reimplements>
+        <param>
+          <type>ref <ref refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer" kindref="compound">LayoutLayer</ref></type>
+          <declname>layer</declname>
+        </param>
+        <param>
+          <type>params object []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Connecting element to the <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> handler. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>layer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> layer.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Must contains: UIDescriptor and MemberInfo</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="206" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="206" bodyend="246"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a51aa62d103bb6008eb6760c6ff8a9a3d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.Controls.Header.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" line="118" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" bodystart="118" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a51aa62d103bb6008eb6760c6ff8a9a3d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.Controls.Header.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.i.cs" line="118" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.i.cs" bodystart="118" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a51aa62d103bb6008eb6760c6ff8a9a3d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.Controls.Header.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Header.g.cs" line="118" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Header.g.cs" bodystart="118" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a51aa62d103bb6008eb6760c6ff8a9a3d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.Controls.Header.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Header.g.i.cs" line="118" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Header.g.i.cs" bodystart="118" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1ae986415a1ad448e5d3a6c5b88504f11d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Header.Button_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Occurs when layer state button was clicked. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="253" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="253" bodyend="257"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header" kindref="compound">Header</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para>Interaction logic for Header.xaml </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="248">
+        <label>IGUIField</label>
+        <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
+        <childnode refid="249" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="246">
+        <label>WpfHandler.UI.Controls.Header</label>
+        <link refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+        <childnode refid="248" relation="public-inheritance">
+        </childnode>
+        <childnode refid="250" relation="public-inheritance">
+        </childnode>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="252" relation="public-inheritance">
+        </childnode>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="252" relation="public-inheritance">
+        </childnode>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="252" relation="public-inheritance">
+        </childnode>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="252" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="249">
+        <label>IGUIElement</label>
+        <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
+      </node>
+      <node id="251">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="252">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="247">
+        <label>UserControl</label>
+      </node>
+      <node id="250">
+        <label>ILabel</label>
+        <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="255">
+        <label>IGUIField</label>
+        <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
+        <childnode refid="256" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="260">
+        <label>Controls</label>
+      </node>
+      <node id="253">
+        <label>WpfHandler.UI.Controls.Header</label>
+        <link refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header"/>
+        <childnode refid="254" relation="public-inheritance">
+        </childnode>
+        <childnode refid="255" relation="public-inheritance">
+        </childnode>
+        <childnode refid="257" relation="public-inheritance">
+        </childnode>
+        <childnode refid="258" relation="public-inheritance">
+        </childnode>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+        <childnode refid="258" relation="public-inheritance">
+        </childnode>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+        <childnode refid="258" relation="public-inheritance">
+        </childnode>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+        <childnode refid="258" relation="public-inheritance">
+        </childnode>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+        <childnode refid="260" relation="usage">
+          <edgelabel>main</edgelabel>
+        </childnode>
+        <childnode refid="261" relation="usage">
+          <edgelabel>listControlUi_Showed</edgelabel>
+          <edgelabel>button</edgelabel>
+          <edgelabel>listControlUi</edgelabel>
+          <edgelabel>label</edgelabel>
+          <edgelabel>listControlUi_Hided</edgelabel>
+        </childnode>
+      </node>
+      <node id="256">
+        <label>IGUIElement</label>
+        <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
+      </node>
+      <node id="261">
+        <label>System</label>
+      </node>
+      <node id="258">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="259">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="254">
+        <label>UserControl</label>
+      </node>
+      <node id="257">
+        <label>ILabel</label>
+        <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Header.g.cs" bodystart="41" bodyend="148"/>
+    <listofallmembers>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a90429ce83ea8bb00102a0e1bd2c660c1" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>_contentLoaded</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a020e75c12da978773cd2a3f0089e0644" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>Active</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a8d052187be3a68e9da2d4436bea3b504" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>ActiveProperty</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a982c296a72324bf0fab5076cebd60928" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>ArrowVisible</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1aa3473a8ebaf39118c2ec51ddc0fcfce7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>ArrowVisibleProperty</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a520cdfcc6671c954b6b889f61082244c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>BindedMember</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a0c41a0e112b170298f34dd1afe555466" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>button</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1ae986415a1ad448e5d3a6c5b88504f11d" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>Button_Click</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a3947ddcb07258827b26c25d9ca0f242d" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>ChildLayer</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a51aa62d103bb6008eb6760c6ff8a9a3d" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>Connect</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a51aa62d103bb6008eb6760c6ff8a9a3d" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>Connect</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a51aa62d103bb6008eb6760c6ff8a9a3d" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>Connect</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a51aa62d103bb6008eb6760c6ff8a9a3d" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>Connect</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a0039e7d4594591d0d9ca1bf99a1ee497" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>GUIContent</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1afc03b2a1c85957c525b20e793ce9cfe4" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>GUIContentProperty</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a58551b76c66c4da201070cf01d0561f6" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>Header</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a3bc7092e9a7ce867b8f29cad1c1d3f2f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>InitializeComponent</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a3bc7092e9a7ce867b8f29cad1c1d3f2f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>InitializeComponent</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a3bc7092e9a7ce867b8f29cad1c1d3f2f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>InitializeComponent</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a3bc7092e9a7ce867b8f29cad1c1d3f2f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>InitializeComponent</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1ab10ca0ccba374875757330fdd30ddab0" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>label</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a6ea05d5b82deba64afc724e79a93275e" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>Label</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a69d6de68c4cb8c83f31b15efbd0323dc" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>LabelProperty</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a09034cb3d506198643c0d13b4b10cfdb" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>LabelWidth</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a4dca87c9678237c9b2af0dd3dc0bb2e0" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>listControlUi</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a1fc08ceb38e9267375a64117ea03cfae" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>listControlUi_Hided</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a457a413551d46e0674c51d22cbc1dd4f" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>listControlUi_Showed</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1ac6b6eb0ae388af1282a5dde380abd4f1" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>main</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a23ac86ea123581ee90d1aa9b6a81dadd" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>OnLayout</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a905e42505bb758f31a2178730e41aa19" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>Value</name></member>
+      <member refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a0934846d1b0bafdabb4997d47fb01b6c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Header</scope><name>ValueChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d1/d18/class_wpf_handler_1_1_dictionaries_1_1_domain_container" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::Dictionaries::DomainContainer</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/d18/class_wpf_handler_1_1_dictionaries_1_1_domain_container_1ac87b2b5f12c34ef7c585f789a48667eb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WpfHandler.Dictionaries.DomainContainer.key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+<para>Key code of this dictionary. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/DomainContainer.cs" line="25" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/DomainContainer.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d18/class_wpf_handler_1_1_dictionaries_1_1_domain_container_1a364742e0754175046839e274bd1f1a1d" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WpfHandler.Dictionaries.DomainContainer.pluginDomain</definition>
+        <argsstring></argsstring>
+        <name>pluginDomain</name>
+        <briefdescription>
+<para>Full domain of plugin. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/DomainContainer.cs" line="30" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/DomainContainer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d18/class_wpf_handler_1_1_dictionaries_1_1_domain_container_1a4b434bec866ecf4747ae30248fcbf760" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WpfHandler.Dictionaries.DomainContainer.path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <briefdescription>
+<para>Path to dictionary xaml. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/DomainContainer.cs" line="35" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/DomainContainer.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that provide information about dictionary domain. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/DomainContainer.cs" line="21" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/DomainContainer.cs" bodystart="20" bodyend="36"/>
+    <listofallmembers>
+      <member refid="d1/d18/class_wpf_handler_1_1_dictionaries_1_1_domain_container_1ac87b2b5f12c34ef7c585f789a48667eb" prot="public" virt="non-virtual"><scope>WpfHandler::Dictionaries::DomainContainer</scope><name>key</name></member>
+      <member refid="d1/d18/class_wpf_handler_1_1_dictionaries_1_1_domain_container_1a4b434bec866ecf4747ae30248fcbf760" prot="public" virt="non-virtual"><scope>WpfHandler::Dictionaries::DomainContainer</scope><name>path</name></member>
+      <member refid="d1/d18/class_wpf_handler_1_1_dictionaries_1_1_domain_container_1a364742e0754175046839e274bd1f1a1d" prot="public" virt="non-virtual"><scope>WpfHandler::Dictionaries::DomainContainer</scope><name>pluginDomain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

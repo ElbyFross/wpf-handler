@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::Options::MaxWidthAttribute</compoundname>
+    <basecompoundref refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute" prot="public" virt="non-virtual">WpfHandler.UI.Controls.LayoutSizeAttribute</basecompoundref>
+    <basecompoundref refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.IGUILayoutOption</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute_1a3429e7c52bbf6e67c2e712afad4631fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Options.MaxWidthAttribute.MaxWidthAttribute</definition>
+        <argsstring>()</argsstring>
+        <name>MaxWidthAttribute</name>
+        <briefdescription>
+<para>Default constructor. Using auto width. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/MaxWidthAttribute.cs" line="38" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/MaxWidthAttribute.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute_1acd322def2c9a5f6cd36b385d1acf2866" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Options.MaxWidthAttribute.MaxWidthAttribute</definition>
+        <argsstring>(double width)</argsstring>
+        <name>MaxWidthAttribute</name>
+        <param>
+          <type>double</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>Set requested max height as Size. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Element&apos;s maximum width.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/MaxWidthAttribute.cs" line="44" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/MaxWidthAttribute.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute_1ab7c7bf52114b1aa465f70debaeccf5f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.Options.MaxWidthAttribute.ApplyLayoutOption</definition>
+        <argsstring>(FrameworkElement element)</argsstring>
+        <name>ApplyLayoutOption</name>
+        <reimplements refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option_1ac2d2fa8aeaf753b3248381399f991005">ApplyLayoutOption</reimplements>
+        <param>
+          <type>FrameworkElement</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+<para>Define max width of the GUI element. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Shared <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/MaxWidthAttribute.cs" line="50" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/MaxWidthAttribute.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Define max width of the GUI element. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="485">
+        <label>ILayoutSize</label>
+        <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
+      </node>
+      <node id="484">
+        <label>Attribute</label>
+      </node>
+      <node id="483">
+        <label>LayoutSizeAttribute</label>
+        <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
+        <childnode refid="484" relation="public-inheritance">
+        </childnode>
+        <childnode refid="485" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="482">
+        <label>WpfHandler.UI.AutoLayout.Options.MaxWidthAttribute</label>
+        <link refid="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute"/>
+        <childnode refid="483" relation="public-inheritance">
+        </childnode>
+        <childnode refid="486" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="486">
+        <label>IGUILayoutOption</label>
+        <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="490">
+        <label>ILayoutSize</label>
+        <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
+      </node>
+      <node id="489">
+        <label>Attribute</label>
+      </node>
+      <node id="488">
+        <label>LayoutSizeAttribute</label>
+        <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
+        <childnode refid="489" relation="public-inheritance">
+        </childnode>
+        <childnode refid="490" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="487">
+        <label>WpfHandler.UI.AutoLayout.Options.MaxWidthAttribute</label>
+        <link refid="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute"/>
+        <childnode refid="488" relation="public-inheritance">
+        </childnode>
+        <childnode refid="491" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="491">
+        <label>IGUILayoutOption</label>
+        <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/MaxWidthAttribute.cs" line="33" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/MaxWidthAttribute.cs" bodystart="32" bodyend="54"/>
+    <listofallmembers>
+      <member refid="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute_1ab7c7bf52114b1aa465f70debaeccf5f4" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::MaxWidthAttribute</scope><name>ApplyLayoutOption</name></member>
+      <member refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute_1ade163e9b2952d02cda556e26bf6be52f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::MaxWidthAttribute</scope><name>LayoutSizeAttribute</name></member>
+      <member refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute_1a35d91131ec3931e5bde8cf3b026ff23c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::MaxWidthAttribute</scope><name>LayoutSizeAttribute</name></member>
+      <member refid="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute_1a3429e7c52bbf6e67c2e712afad4631fe" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::MaxWidthAttribute</scope><name>MaxWidthAttribute</name></member>
+      <member refid="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute_1acd322def2c9a5f6cd36b385d1acf2866" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::MaxWidthAttribute</scope><name>MaxWidthAttribute</name></member>
+      <member refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute_1a3cf68aa208cfd09f789773f844683f87" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::MaxWidthAttribute</scope><name>Size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

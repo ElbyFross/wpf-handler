@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d4/db4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_style_attribute" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::Options::StyleAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <basecompoundref refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.IGUILayoutOption</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d4/db4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_style_attribute_1a25d5446eb9674e30cf46c642734648fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.AutoLayout.Options.StyleAttribute.ResourceKey</definition>
+        <argsstring></argsstring>
+        <name>ResourceKey</name>
+        <briefdescription>
+<para>Resource key that would be looking for style loading. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/StyleAttribute.cs" line="30" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/StyleAttribute.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="d4/db4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_style_attribute_1a86e104f756eca13578f07d3c04832a7a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.AutoLayout.Options.StyleAttribute.ShowErrorMessages</definition>
+        <argsstring></argsstring>
+        <name>ShowErrorMessages</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Marker that enable or disabling showing of error messages. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/StyleAttribute.cs" line="35" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/StyleAttribute.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/db4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_style_attribute_1a4507ba7b9729b527b0c4f57bffaac0be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.Options.StyleAttribute.ApplyLayoutOption</definition>
+        <argsstring>(FrameworkElement element)</argsstring>
+        <name>ApplyLayoutOption</name>
+        <reimplements refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option_1ac2d2fa8aeaf753b3248381399f991005">ApplyLayoutOption</reimplements>
+        <param>
+          <type>FrameworkElement</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+<para>Trying to apply requested style. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Shared <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/StyleAttribute.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/StyleAttribute.cs" bodystart="41" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Define custom style from resources that would be applied to the GUI element. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="582">
+        <label>Attribute</label>
+      </node>
+      <node id="581">
+        <label>WpfHandler.UI.AutoLayout.Options.StyleAttribute</label>
+        <link refid="d4/db4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_style_attribute"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+        <childnode refid="583" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="583">
+        <label>IGUILayoutOption</label>
+        <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="585">
+        <label>Attribute</label>
+      </node>
+      <node id="584">
+        <label>WpfHandler.UI.AutoLayout.Options.StyleAttribute</label>
+        <link refid="d4/db4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_style_attribute"/>
+        <childnode refid="585" relation="public-inheritance">
+        </childnode>
+        <childnode refid="586" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="586">
+        <label>IGUILayoutOption</label>
+        <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/StyleAttribute.cs" line="26" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/StyleAttribute.cs" bodystart="25" bodyend="62"/>
+    <listofallmembers>
+      <member refid="d4/db4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_style_attribute_1a4507ba7b9729b527b0c4f57bffaac0be" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::StyleAttribute</scope><name>ApplyLayoutOption</name></member>
+      <member refid="d4/db4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_style_attribute_1a25d5446eb9674e30cf46c642734648fa" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::StyleAttribute</scope><name>ResourceKey</name></member>
+      <member refid="d4/db4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_style_attribute_1a86e104f756eca13578f07d3c04832a7a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::StyleAttribute</scope><name>ShowErrorMessages</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,913 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::Controls::CollectionControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.IGUIField</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IList</basecompoundref>
+    <derivedcompoundref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" prot="public" virt="non-virtual">WpfHandler.UI.Controls.AutoCollection</derivedcompoundref>
+    <derivedcompoundref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" prot="public" virt="non-virtual">WpfHandler.UI.Controls.AutoCollection</derivedcompoundref>
+    <derivedcompoundref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" prot="public" virt="non-virtual">WpfHandler.UI.Controls.AutoCollection</derivedcompoundref>
+    <derivedcompoundref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" prot="public" virt="non-virtual">WpfHandler.UI.Controls.AutoCollection</derivedcompoundref>
+    <derivedcompoundref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" prot="public" virt="non-virtual">WpfHandler.UI.Controls.AutoCollection</derivedcompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1aea4afe7ae229937f9c99809d720d8875" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.CollectionControl.DragAllowedProperty</definition>
+        <argsstring></argsstring>
+        <name>DragAllowedProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;DragAllowed&quot;, typeof(bool), typeof(<ref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control" kindref="compound">CollectionControl</ref>),
+          new PropertyMetadata(true))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="49" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a93748b307999d44bfa539f0a799af1de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>virtual bool WpfHandler.UI.Controls.CollectionControl.DragAllowed</definition>
+        <argsstring></argsstring>
+        <name>DragAllowed</name>
+        <briefdescription>
+<para>Is list allows to drag elements. </para>        </briefdescription>
+        <detaileddescription>
+<para>Can be true only in case if<ref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1aa95fcae30ed2356bfff8154bcceecc8a" kindref="member">IsFixedSize</ref> is false. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="61" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="62" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1af98966a5a52deff891275181f1a82b17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>abstract ListBox</type>
+        <definition>abstract ListBox WpfHandler.UI.Controls.CollectionControl.ListContent</definition>
+        <argsstring></argsstring>
+        <name>ListContent</name>
+        <briefdescription>
+<para>Reference to the list box that will contains spawned elements. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="77" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a130ec8fe8e45683069833138833e9356" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object WpfHandler.UI.Controls.CollectionControl.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+<para>Source collection applied to the <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Object must has implemented IList interface. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="85" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="86" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ac5f779f05470058d2506b4f37cade718" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>MemberInfo</type>
+        <definition>MemberInfo WpfHandler.UI.Controls.CollectionControl.BindedMember</definition>
+        <argsstring></argsstring>
+        <name>BindedMember</name>
+        <briefdescription>
+<para>Member from UIDescriptor binded to the <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> leement. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="105" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ade5772e31978f3f8764f50d7483d27f4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ObservableCollection&lt; FrameworkElement &gt;</type>
+        <definition>ObservableCollection&lt;FrameworkElement&gt; WpfHandler.UI.Controls.CollectionControl.Elements</definition>
+        <argsstring></argsstring>
+        <name>Elements</name>
+        <initializer>= new ObservableCollection&lt;FrameworkElement&gt;()</initializer>
+        <briefdescription>
+<para><ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> elemets existing into the current collection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="110" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a47291558ce667430c006d9e294f714bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ObservableCollection&lt; <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> &gt;</type>
+        <definition>ObservableCollection&lt;IGUIField&gt; WpfHandler.UI.Controls.CollectionControl.Fields</definition>
+        <argsstring></argsstring>
+        <name>Fields</name>
+        <initializer>= new ObservableCollection&lt;<ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref>&gt;()</initializer>
+        <briefdescription>
+<para>Collection that contains instiniated GUI fields. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="115" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="property" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ade95cee1fcd80188e8b5e5a15b33d43f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object WpfHandler.UI.Controls.CollectionControl.this[int index]</definition>
+        <argsstring></argsstring>
+        <name>this[int index]</name>
+        <briefdescription>
+<para>Gets or sets the element at the specified index. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The zero-based index of the element to get or set</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The element at the specified index.</para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ArgumentOutOfRangeException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index is not a valid index in the System.Collections.IList. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NotSupportedException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The property is set and the System.Collections.IList is read-only. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="154" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="155" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a2e1f163821f2cbc367ef40d3dcf652eb" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.CollectionControl.IsReadOnly</definition>
+        <argsstring></argsstring>
+        <name>IsReadOnly</name>
+        <initializer>=&gt; source.IsReadOnly</initializer>
+        <briefdescription>
+<para>Gets a value indicating whether the System.Collections.IList is read-only. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="120" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1aa95fcae30ed2356bfff8154bcceecc8a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.CollectionControl.IsFixedSize</definition>
+        <argsstring></argsstring>
+        <name>IsFixedSize</name>
+        <initializer>=&gt; source.IsFixedSize</initializer>
+        <briefdescription>
+<para>Gets a value indicating whether the System.Collections.IList has a fixed size. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="125" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1af4796b6959bcb870bde22f6d32379242" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WpfHandler.UI.Controls.CollectionControl.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <initializer>=&gt; source.Count</initializer>
+        <briefdescription>
+<para>Gets the number of elements contained in the System.Collections.ICollection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="130" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a4ab9c597654cf0ca762f2fa13e807fc7" prot="public" static="no" mutable="no">
+        <type>object</type>
+        <definition>object WpfHandler.UI.Controls.CollectionControl.SyncRoot</definition>
+        <argsstring></argsstring>
+        <name>SyncRoot</name>
+        <initializer>=&gt; throw new NotImplementedException()</initializer>
+        <briefdescription>
+<para>Gets an object that can be used to synchronize access to the System.Collections.ICollection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="135" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a0a40907daa815eb6c01be8677eb09450" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.CollectionControl.IsSynchronized</definition>
+        <argsstring></argsstring>
+        <name>IsSynchronized</name>
+        <initializer>=&gt; throw new NotImplementedException()</initializer>
+        <briefdescription>
+<para>Gets a value indicating whether access to the System.Collections.ICollection is synchronized (thread safe). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="141" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a7c24ead5af7dadce18f017f0a93706a2" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> &gt;</type>
+        <definition>Action&lt;IGUIField&gt; WpfHandler.UI.Controls.CollectionControl.ValueChanged</definition>
+        <argsstring></argsstring>
+        <name>ValueChanged</name>
+        <briefdescription>
+<para>Will occure when source or one from elements will change. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="165" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1af3a8d4c03474bbb80d8d461f4a8e33e8" prot="protected" static="no" mutable="no">
+        <type>readonly Hashtable</type>
+        <definition>readonly Hashtable WpfHandler.UI.Controls.CollectionControl.indexMap</definition>
+        <argsstring></argsstring>
+        <name>indexMap</name>
+        <initializer>= new Hashtable()</initializer>
+        <briefdescription>
+<para>Mapp of GUI elements binding. IGUIField - key int - index in the list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="174" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" prot="protected" static="no" mutable="no">
+        <type>IList</type>
+        <definition>IList WpfHandler.UI.Controls.CollectionControl.source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+<para>Bufer that contains source sollection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="179" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a5228b3f2d5efec75b178a160bfd9a558" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.Controls.CollectionControl.CollectionControl</definition>
+        <argsstring>()</argsstring>
+        <name>CollectionControl</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="186" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="186" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae17242c33bd29c2545a06bba9c93a1df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WpfHandler.UI.Controls.CollectionControl.Add</definition>
+        <argsstring>(object value)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Adds an item to the System.Collections.IList. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to add to the System.Collections.IList.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The position into which the new element was inserted, or -1 to indicate that the item was not inserted into the collection. </para></simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.NotSupportedException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The System.Collections.IList is read-only.-or- The System.Collections.IList has a fixed size.-or- IGUIField for the object type not registred. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="215" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="215" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae703be50b290be72a7a40acbfe65b04c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.CollectionControl.Contains</definition>
+        <argsstring>(object value)</argsstring>
+        <name>Contains</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Determines whether the System.Collections.IList contains a specific value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to locate in the System.Collections.IList.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the System.Object is found in the System.Collections.IList; otherwise, false. </para></simplesect>
+</para><para>In case if value is IGUIField then looking via registred <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> fileds.-or- Otherwise looking via the <ref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" kindref="member">source</ref> list. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="239" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="239" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a1f1a7fd996c4e15ec7fe3b2724e962d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.CollectionControl.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+<para>Removes all items from the System.Collections.IList. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.NotSupportedException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The System.Collections.IList is read-only. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="254" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="254" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ad2021b989a7f5aae430e12727a918982" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WpfHandler.UI.Controls.CollectionControl.IndexOf</definition>
+        <argsstring>(object value)</argsstring>
+        <name>IndexOf</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Determines the index of a specific item in the System.Collections.IList. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to locate in the System.Collections.IList.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The index of value if found in the list; otherwise, -1.</para></simplesect>
+</para><para>In case if value is IGUIField then looking via registred <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> fileds.-or- Otherwise looking via the <ref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" kindref="member">source</ref> list. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="281" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="281" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae89cb3b260d441186bac7ee953f4c028" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.CollectionControl.Insert</definition>
+        <argsstring>(int index, object value)</argsstring>
+        <name>Insert</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Inserts an item to the System.Collections.IList at the specified index. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The zero-based index at which value should be inserted.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to insert into the System.Collections.IList.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentOutOfRangeException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index is not a valid index in the System.Collections.IList. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>System.NotSupportedException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The System.Collections.IList is read-only.-or- The System.Collections.IList has a fixed size. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>System.NullReferenceException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value is null reference in the System.Collections.IList. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="304" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="304" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1acc5c3b3a95e4d58b6cda68e5f61089fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.CollectionControl.Remove</definition>
+        <argsstring>(object value)</argsstring>
+        <name>Remove</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Removes the first occurrence of a specific object from the System.Collections.IList. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to remove from the System.Collections.IList.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.NotSupportedException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The System.Collections.IList is read-only.-or- The System.Collections.IList has a fixed size. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="361" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="361" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ab9ea70c06d17283a4e07195b0f9b0de7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.CollectionControl.RemoveAt</definition>
+        <argsstring>(int index)</argsstring>
+        <name>RemoveAt</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Removes the System.Collections.IList item at the specified index. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The zero-based index of the item to remove.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentOutOfRangeException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index is not a valid index in the System.Collections.IList. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>System.NotSupportedException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The System.Collections.IList is read-only.-or- The System.Collections.IList has a fixed size. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="384" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="384" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a1cf65910d88b69192fd7dd764a63609a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.CollectionControl.CopyTo</definition>
+        <argsstring>(Array array, int index)</argsstring>
+        <name>CopyTo</name>
+        <param>
+          <type>Array</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Copies the elements of the <ref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" kindref="member">source</ref> to an System.Array, starting at a particular System.Array index. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The one-dimensional System.Array that is the destination of the elements copied from System.Collections.ICollection. The System.Array must have zero-based indexing.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The zero-based index in array at which copying begins.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentNullException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array is null. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentOutOfRangeException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index is less than zero. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>System.ArgumentNullException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array is multidimensional.-or- The number of elements in the source System.Collections.ICollection is greater than the available space from index to the end of the destination array.-or-The type of the source System.Collections.ICollection cannot be cast automatically to the type of the destination array. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="448" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="448" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a63509ef1e8df1c4901f3b83ff9473236" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator WpfHandler.UI.Controls.CollectionControl.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+<para>Returns an enumerator that iterates through a collection. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An System.Collections.IEnumerator object that can be used to iterate through the collection. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="461" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="461" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a54cf416fee122e600059ed8713d75bb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WpfHandler.UI.Controls.CollectionControl.OnLayout</definition>
+        <argsstring>(ref LayoutLayer layer, params object[] args)</argsstring>
+        <name>OnLayout</name>
+        <reimplements refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element_1a0ff16956f8e8187d51e1b36b6b9f894e">OnLayout</reimplements>
+        <param>
+          <type>ref <ref refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer" kindref="compound">LayoutLayer</ref></type>
+          <declname>layer</declname>
+        </param>
+        <param>
+          <type>params object []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Configurating collection and binding element to the descriptors handler. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>layer</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="472" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="472" bodyend="490"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a6df510adc9706b127f2179a6cc123799" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.CollectionControl.UpdateElementsWidth</definition>
+        <argsstring>(object sender, SizeChangedEventArgs e)</argsstring>
+        <name>UpdateElementsWidth</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SizeChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Requiesting recomputing of the elements width. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="498" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="498" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a5fdb64f8a451f387f2a36686f0fec014" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.CollectionControl.ConfigurateStyles</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigurateStyles</name>
+        <briefdescription>
+<para>Configurating styles applyed to the controls. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="526" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="526" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1af375cbcb4d351b4d104b2706d39b8303" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>FrameworkElement</type>
+        <definition>virtual FrameworkElement WpfHandler.UI.Controls.CollectionControl.ItemRegistration</definition>
+        <argsstring>(int index)</argsstring>
+        <name>ItemRegistration</name>
+        <reimplementedby refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a7cea6362ca2a31dca7bca6ab1f39142d">ItemRegistration</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Regestrating element for source collection. Allow to create bachward binding of <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> to the source object. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the element into the <ref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" kindref="member">source</ref> collection.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="565" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="565" bodyend="592"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a2372fa8b10c175bb81d5901f36cbf8f7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WpfHandler.UI.Controls.CollectionControl.CollectionElementValueChanged</definition>
+        <argsstring>(IGUIField obj)</argsstring>
+        <name>CollectionElementValueChanged</name>
+        <param>
+          <type><ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Occurs when field&apos;s valu will be changed via <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The GUI element that initialize event.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="598" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="598" bodyend="614"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ad6c991f82c204e789f32f21d28d48524" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WpfHandler.UI.Controls.CollectionControl.OnPreviewMouseLeftButtonDown</definition>
+        <argsstring>(object sender, MouseButtonEventArgs e)</argsstring>
+        <name>OnPreviewMouseLeftButtonDown</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseButtonEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Occurs when item is selected by LMB click. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="621" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="621" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae52c8e47654ca10e714a1e87a193331b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WpfHandler.UI.Controls.CollectionControl.OnItemDrop</definition>
+        <argsstring>(object sender, DragEventArgs e)</argsstring>
+        <name>OnItemDrop</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DragEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Occurs when an element was droped after drag. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="643" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="643" bodyend="661"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Abstract class that provides common API for implementin collection controls. </para>    </briefdescription>
+    <detaileddescription>
+<para>Fully compatible with UIDescriptor and auto layout handlers. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="86">
+        <label>IGUIField</label>
+        <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>WpfHandler.UI.Controls.CollectionControl</label>
+        <link refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control"/>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>WpfHandler.UI.Controls.AutoCollection</label>
+        <link refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>IList</label>
+      </node>
+      <node id="87">
+        <label>IGUIElement</label>
+        <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
+      </node>
+      <node id="85">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="92">
+        <label>IGUIField</label>
+        <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>WpfHandler.UI.Controls.CollectionControl</label>
+        <link refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>IList</label>
+      </node>
+      <node id="93">
+        <label>IGUIElement</label>
+        <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
+      </node>
+      <node id="91">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="44" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="43" bodyend="663"/>
+    <listofallmembers>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae17242c33bd29c2545a06bba9c93a1df" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>Add</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ac5f779f05470058d2506b4f37cade718" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>BindedMember</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a1f1a7fd996c4e15ec7fe3b2724e962d3" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>Clear</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a5228b3f2d5efec75b178a160bfd9a558" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>CollectionControl</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a2372fa8b10c175bb81d5901f36cbf8f7" prot="protected" virt="virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>CollectionElementValueChanged</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a5fdb64f8a451f387f2a36686f0fec014" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>ConfigurateStyles</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae703be50b290be72a7a40acbfe65b04c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>Contains</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a1cf65910d88b69192fd7dd764a63609a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>CopyTo</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1af4796b6959bcb870bde22f6d32379242" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>Count</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a93748b307999d44bfa539f0a799af1de" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>DragAllowed</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1aea4afe7ae229937f9c99809d720d8875" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>DragAllowedProperty</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ade5772e31978f3f8764f50d7483d27f4" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>Elements</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a47291558ce667430c006d9e294f714bb" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>Fields</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a63509ef1e8df1c4901f3b83ff9473236" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>GetEnumerator</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1af3a8d4c03474bbb80d8d461f4a8e33e8" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>indexMap</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ad2021b989a7f5aae430e12727a918982" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>IndexOf</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae89cb3b260d441186bac7ee953f4c028" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>Insert</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1aa95fcae30ed2356bfff8154bcceecc8a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>IsFixedSize</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a2e1f163821f2cbc367ef40d3dcf652eb" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>IsReadOnly</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a0a40907daa815eb6c01be8677eb09450" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>IsSynchronized</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1af375cbcb4d351b4d104b2706d39b8303" prot="protected" virt="virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>ItemRegistration</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1af98966a5a52deff891275181f1a82b17" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>ListContent</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae52c8e47654ca10e714a1e87a193331b" prot="protected" virt="virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>OnItemDrop</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a54cf416fee122e600059ed8713d75bb0" prot="public" virt="virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>OnLayout</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ad6c991f82c204e789f32f21d28d48524" prot="protected" virt="virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>OnPreviewMouseLeftButtonDown</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1acc5c3b3a95e4d58b6cda68e5f61089fd" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>Remove</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ab9ea70c06d17283a4e07195b0f9b0de7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>RemoveAt</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>source</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a4ab9c597654cf0ca762f2fa13e807fc7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>SyncRoot</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ade95cee1fcd80188e8b5e5a15b33d43f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>this[int index]</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a6df510adc9706b127f2179a6cc123799" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>UpdateElementsWidth</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a130ec8fe8e45683069833138833e9356" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>Value</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a7c24ead5af7dadce18f017f0a93706a2" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>ValueChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

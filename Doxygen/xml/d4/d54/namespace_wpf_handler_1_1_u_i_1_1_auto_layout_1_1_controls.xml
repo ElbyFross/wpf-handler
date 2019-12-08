@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d4/d54/namespace_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls" kind="namespace" language="C#">
+    <compoundname>WpfHandler::UI::AutoLayout::Controls</compoundname>
+    <innerclass refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw" prot="public">WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</innerclass>
+    <innerclass refid="d1/d32/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_header_attribute" prot="public">WpfHandler::UI::AutoLayout::Controls::HeaderAttribute</innerclass>
+    <innerclass refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute" prot="public">WpfHandler::UI::AutoLayout::Controls::LabelAttribute</innerclass>
+    <innerclass refid="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute" prot="public">WpfHandler::UI::AutoLayout::Controls::SpaceAttribute</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" line="35" column="1"/>
+  </compounddef>
+</doxygen>

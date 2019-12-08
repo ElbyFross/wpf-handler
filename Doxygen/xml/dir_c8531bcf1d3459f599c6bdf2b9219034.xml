@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_c8531bcf1d3459f599c6bdf2b9219034" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects</compoundname>
+    <innerfile refid="d3/dba/_blur_effect_8cs">BlurEffect.cs</innerfile>
+    <innerfile refid="de/dd8/_rect_blur_effect_8cs">RectBlurEffect.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/"/>
+  </compounddef>
+</doxygen>

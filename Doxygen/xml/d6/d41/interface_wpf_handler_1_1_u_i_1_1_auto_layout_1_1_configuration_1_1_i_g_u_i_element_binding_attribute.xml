@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d6/d41/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_i_g_u_i_element_binding_attribute" kind="interface" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::Configuration::IGUIElementBindingAttribute</compoundname>
+    <derivedcompoundref refid="d2/dc3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enumerable_compatible_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Configuration.EnumerableCompatibleAttribute</derivedcompoundref>
+    <derivedcompoundref refid="dd/db3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enums_compatible_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Configuration.EnumsCompatibleAttribute</derivedcompoundref>
+    <derivedcompoundref refid="dc/d7e/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_types_compatible_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Configuration.TypesCompatibleAttribute</derivedcompoundref>
+    <briefdescription>
+<para>Implementing of that inerface mark attribute like the one who using into specifing of the GUI element binding process. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="309">
+        <label>WpfHandler.UI.AutoLayout.Configuration.IGUIElementBindingAttribute</label>
+        <link refid="d6/d41/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_i_g_u_i_element_binding_attribute"/>
+      </node>
+      <node id="312">
+        <label>WpfHandler.UI.AutoLayout.Configuration.TypesCompatibleAttribute</label>
+        <link refid="dc/d7e/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_types_compatible_attribute"/>
+        <childnode refid="309" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="311">
+        <label>WpfHandler.UI.AutoLayout.Configuration.EnumsCompatibleAttribute</label>
+        <link refid="dd/db3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enums_compatible_attribute"/>
+        <childnode refid="309" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="310">
+        <label>WpfHandler.UI.AutoLayout.Configuration.EnumerableCompatibleAttribute</label>
+        <link refid="d2/dc3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enumerable_compatible_attribute"/>
+        <childnode refid="309" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/IGUIElementBindingAttribute.cs" line="27" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/IGUIElementBindingAttribute.cs" bodystart="27" bodyend="27"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

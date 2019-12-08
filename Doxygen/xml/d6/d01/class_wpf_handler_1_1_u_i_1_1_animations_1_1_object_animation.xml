@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d6/d01/class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::Animations::ObjectAnimation</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/d01/class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_1ac96433e1be9908688f99df2ce31522cb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Storyboard</type>
+        <definition>static Storyboard WpfHandler.UI.Animations.ObjectAnimation.StartStoryboard</definition>
+        <argsstring>(FrameworkElement parent, string propertyName, PropertyPath propertyPath, TimeSpan duration, object from, object to, FillBehavior fillBehavior, Action&lt; Storyboard &gt; initHandler)</argsstring>
+        <name>StartStoryboard</name>
+        <param>
+          <type>FrameworkElement</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <param>
+          <type>PropertyPath</type>
+          <declname>propertyPath</declname>
+        </param>
+        <param>
+          <type>TimeSpan</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>FillBehavior</type>
+          <declname>fillBehavior</declname>
+        </param>
+        <param>
+          <type>Action&lt; Storyboard &gt;</type>
+          <declname>initHandler</declname>
+        </param>
+        <briefdescription>
+<para>Start object animation. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object that contains property.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>propertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A name of the property.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>propertyPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A path that describe the dependency property to be animated.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>How many time would take transit.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Start value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Finish value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fillBehavior</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specifies how a System.Windows.Media.Animation.Timeline behaves when it is outside its active period but its parent is inside its active or hold period.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initHandler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Handler that would be called before animation start. There you can subscrube on events or reconfigurate settigns.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Created storyboard.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ObjectAnimation.cs" line="47" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ObjectAnimation.cs" bodystart="47" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d01/class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_1a15ee07796f01bd55b0fc64b328388365" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Storyboard</type>
+        <definition>static Storyboard WpfHandler.UI.Animations.ObjectAnimation.StartStoryboard</definition>
+        <argsstring>(FrameworkElement parent, DependencyObject obj, PropertyPath propertyPath, TimeSpan duration, object from, object to, FillBehavior fillBehavior, Action&lt; Storyboard &gt; initHandler)</argsstring>
+        <name>StartStoryboard</name>
+        <param>
+          <type>FrameworkElement</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>DependencyObject</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>PropertyPath</type>
+          <declname>propertyPath</declname>
+        </param>
+        <param>
+          <type>TimeSpan</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>FillBehavior</type>
+          <declname>fillBehavior</declname>
+        </param>
+        <param>
+          <type>Action&lt; Storyboard &gt;</type>
+          <declname>initHandler</declname>
+        </param>
+        <briefdescription>
+<para>Start object animation. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object that contains property.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object that will animated.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>propertyPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A path that describe the dependency property to be animated.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>How many time would take transit.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Start value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Finish value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fillBehavior</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specifies how a System.Windows.Media.Animation.Timeline behaves when it is outside its active period but its parent is inside its active or hold period.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initHandler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Handler that would be called before animation start. There you can subscrube on events or reconfigurate settigns.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Created storyboard.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ObjectAnimation.cs" line="83" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ObjectAnimation.cs" bodystart="83" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d6/d01/class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_1ab4a73302bd6186812494d099f0b6c469" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Storyboard</type>
+        <definition>static Storyboard WpfHandler.UI.Animations.ObjectAnimation.StartStoryboard</definition>
+        <argsstring>(FrameworkElement parent, string propertyName, DependencyObject obj, PropertyPath propertyPath, TimeSpan duration, object from, object to, FillBehavior fillBehavior, Action&lt; Storyboard &gt; initHandler)</argsstring>
+        <name>StartStoryboard</name>
+        <param>
+          <type>FrameworkElement</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <param>
+          <type>DependencyObject</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>PropertyPath</type>
+          <declname>propertyPath</declname>
+        </param>
+        <param>
+          <type>TimeSpan</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>FillBehavior</type>
+          <declname>fillBehavior</declname>
+        </param>
+        <param>
+          <type>Action&lt; Storyboard &gt;</type>
+          <declname>initHandler</declname>
+        </param>
+        <briefdescription>
+<para>Start object animation. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object that contains property.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>propertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A name of the property.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object that will animated. Using in case if  is null.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>propertyPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A path that describe the dependency property to be animated.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>How many time would take transit.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Start value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Finish value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fillBehavior</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specifies how a System.Windows.Media.Animation.Timeline behaves when it is outside its active period but its parent is inside its active or hold period.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initHandler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Handler that would be called before animation start. There you can subscrube on events or reconfigurate settigns.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Created storyboard.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ObjectAnimation.cs" line="120" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ObjectAnimation.cs" bodystart="120" bodyend="185"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Profides API for managinf objects animations. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ObjectAnimation.cs" line="31" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ObjectAnimation.cs" bodystart="30" bodyend="186"/>
+    <listofallmembers>
+      <member refid="d6/d01/class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_1ac96433e1be9908688f99df2ce31522cb" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Animations::ObjectAnimation</scope><name>StartStoryboard</name></member>
+      <member refid="d6/d01/class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_1a15ee07796f01bd55b0fc64b328388365" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Animations::ObjectAnimation</scope><name>StartStoryboard</name></member>
+      <member refid="d6/d01/class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_1ab4a73302bd6186812494d099f0b6c469" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Animations::ObjectAnimation</scope><name>StartStoryboard</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

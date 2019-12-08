@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_3dce77704826168f4dc936a2601049a9" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options</compoundname>
+    <innerfile refid="db/dbf/_auto_collection_properties_attribute_8cs">AutoCollectionPropertiesAttribute.cs</innerfile>
+    <innerfile refid="d0/d6a/_background_attribute_8cs">BackgroundAttribute.cs</innerfile>
+    <innerfile refid="d2/dd4/_font_size_attribute_8cs">FontSizeAttribute.cs</innerfile>
+    <innerfile refid="dd/dc1/_foreground_attribute_8cs">ForegroundAttribute.cs</innerfile>
+    <innerfile refid="d6/db8/_height_attribute_8cs">HeightAttribute.cs</innerfile>
+    <innerfile refid="d9/d9d/_horizontal_align_attribute_8cs">HorizontalAlignAttribute.cs</innerfile>
+    <innerfile refid="dd/de3/_label_width_attribute_8cs">LabelWidthAttribute.cs</innerfile>
+    <innerfile refid="da/d97/_max_height_attribute_8cs">MaxHeightAttribute.cs</innerfile>
+    <innerfile refid="d3/dc2/_max_width_attribute_8cs">MaxWidthAttribute.cs</innerfile>
+    <innerfile refid="df/dd8/_min_height_attribute_8cs">MinHeightAttribute.cs</innerfile>
+    <innerfile refid="d3/df1/_min_width_attribute_8cs">MinWidthAttribute.cs</innerfile>
+    <innerfile refid="d6/d11/_orientation_attribute_8cs">OrientationAttribute.cs</innerfile>
+    <innerfile refid="d4/d8b/_style_attribute_8cs">StyleAttribute.cs</innerfile>
+    <innerfile refid="d5/dc7/_vertical_align_attribute_8cs">VerticalAlignAttribute.cs</innerfile>
+    <innerfile refid="d8/df6/_width_attribute_8cs">WidthAttribute.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/"/>
+  </compounddef>
+</doxygen>

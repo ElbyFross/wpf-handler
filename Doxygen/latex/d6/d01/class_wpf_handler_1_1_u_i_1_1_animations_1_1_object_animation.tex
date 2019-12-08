@@ -1,0 +1,130 @@
+\hypertarget{class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation}{}\section{Wpf\+Handler.\+U\+I.\+Animations.\+Object\+Animation Class Reference}
+\label{class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation}\index{Wpf\+Handler.\+U\+I.\+Animations.\+Object\+Animation@{Wpf\+Handler.\+U\+I.\+Animations.\+Object\+Animation}}
+
+
+Profides A\+PI for managinf objects animations.  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Storyboard \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_ac96433e1be9908688f99df2ce31522cb}{Start\+Storyboard}} (Framework\+Element parent, string property\+Name, Property\+Path property\+Path, Time\+Span duration, object from, object to, Fill\+Behavior fill\+Behavior, Action$<$ Storyboard $>$ init\+Handler)
+\begin{DoxyCompactList}\small\item\em Start object animation. \end{DoxyCompactList}\item 
+static Storyboard \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_a15ee07796f01bd55b0fc64b328388365}{Start\+Storyboard}} (Framework\+Element parent, Dependency\+Object obj, Property\+Path property\+Path, Time\+Span duration, object from, object to, Fill\+Behavior fill\+Behavior, Action$<$ Storyboard $>$ init\+Handler)
+\begin{DoxyCompactList}\small\item\em Start object animation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Storyboard \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_ab4a73302bd6186812494d099f0b6c469}{Start\+Storyboard}} (Framework\+Element parent, string property\+Name, Dependency\+Object obj, Property\+Path property\+Path, Time\+Span duration, object from, object to, Fill\+Behavior fill\+Behavior, Action$<$ Storyboard $>$ init\+Handler)
+\begin{DoxyCompactList}\small\item\em Start object animation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Profides A\+PI for managinf objects animations. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_ac96433e1be9908688f99df2ce31522cb}\label{class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_ac96433e1be9908688f99df2ce31522cb}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Animations\+::\+Object\+Animation@{Wpf\+Handler\+::\+U\+I\+::\+Animations\+::\+Object\+Animation}!Start\+Storyboard@{Start\+Storyboard}}
+\index{Start\+Storyboard@{Start\+Storyboard}!Wpf\+Handler\+::\+U\+I\+::\+Animations\+::\+Object\+Animation@{Wpf\+Handler\+::\+U\+I\+::\+Animations\+::\+Object\+Animation}}
+\subsubsection{\texorpdfstring{Start\+Storyboard()}{StartStoryboard()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily static Storyboard Wpf\+Handler.\+U\+I.\+Animations.\+Object\+Animation.\+Start\+Storyboard (\begin{DoxyParamCaption}\item[{Framework\+Element}]{parent,  }\item[{string}]{property\+Name,  }\item[{Property\+Path}]{property\+Path,  }\item[{Time\+Span}]{duration,  }\item[{object}]{from,  }\item[{object}]{to,  }\item[{Fill\+Behavior}]{fill\+Behavior,  }\item[{Action$<$ Storyboard $>$}]{init\+Handler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Start object animation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & Object that contains property.\\
+\hline
+{\em property\+Name} & A name of the property.\\
+\hline
+{\em property\+Path} & A path that describe the dependency property to be animated.\\
+\hline
+{\em duration} & How many time would take transit.\\
+\hline
+{\em from} & Start value.\\
+\hline
+{\em to} & Finish value.\\
+\hline
+{\em fill\+Behavior} & Specifies how a System.\+Windows.\+Media.\+Animation.\+Timeline behaves when it is outside its active period but its parent is inside its active or hold period.\\
+\hline
+{\em init\+Handler} & Handler that would be called before animation start. There you can subscrube on events or reconfigurate settigns.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Created storyboard.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_a15ee07796f01bd55b0fc64b328388365}\label{class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_a15ee07796f01bd55b0fc64b328388365}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Animations\+::\+Object\+Animation@{Wpf\+Handler\+::\+U\+I\+::\+Animations\+::\+Object\+Animation}!Start\+Storyboard@{Start\+Storyboard}}
+\index{Start\+Storyboard@{Start\+Storyboard}!Wpf\+Handler\+::\+U\+I\+::\+Animations\+::\+Object\+Animation@{Wpf\+Handler\+::\+U\+I\+::\+Animations\+::\+Object\+Animation}}
+\subsubsection{\texorpdfstring{Start\+Storyboard()}{StartStoryboard()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily static Storyboard Wpf\+Handler.\+U\+I.\+Animations.\+Object\+Animation.\+Start\+Storyboard (\begin{DoxyParamCaption}\item[{Framework\+Element}]{parent,  }\item[{Dependency\+Object}]{obj,  }\item[{Property\+Path}]{property\+Path,  }\item[{Time\+Span}]{duration,  }\item[{object}]{from,  }\item[{object}]{to,  }\item[{Fill\+Behavior}]{fill\+Behavior,  }\item[{Action$<$ Storyboard $>$}]{init\+Handler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Start object animation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & Object that contains property.\\
+\hline
+{\em obj} & object that will animated.\\
+\hline
+{\em property\+Path} & A path that describe the dependency property to be animated.\\
+\hline
+{\em duration} & How many time would take transit.\\
+\hline
+{\em from} & Start value.\\
+\hline
+{\em to} & Finish value.\\
+\hline
+{\em fill\+Behavior} & Specifies how a System.\+Windows.\+Media.\+Animation.\+Timeline behaves when it is outside its active period but its parent is inside its active or hold period.\\
+\hline
+{\em init\+Handler} & Handler that would be called before animation start. There you can subscrube on events or reconfigurate settigns.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Created storyboard.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_ab4a73302bd6186812494d099f0b6c469}\label{class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation_ab4a73302bd6186812494d099f0b6c469}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Animations\+::\+Object\+Animation@{Wpf\+Handler\+::\+U\+I\+::\+Animations\+::\+Object\+Animation}!Start\+Storyboard@{Start\+Storyboard}}
+\index{Start\+Storyboard@{Start\+Storyboard}!Wpf\+Handler\+::\+U\+I\+::\+Animations\+::\+Object\+Animation@{Wpf\+Handler\+::\+U\+I\+::\+Animations\+::\+Object\+Animation}}
+\subsubsection{\texorpdfstring{Start\+Storyboard()}{StartStoryboard()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily static Storyboard Wpf\+Handler.\+U\+I.\+Animations.\+Object\+Animation.\+Start\+Storyboard (\begin{DoxyParamCaption}\item[{Framework\+Element}]{parent,  }\item[{string}]{property\+Name,  }\item[{Dependency\+Object}]{obj,  }\item[{Property\+Path}]{property\+Path,  }\item[{Time\+Span}]{duration,  }\item[{object}]{from,  }\item[{object}]{to,  }\item[{Fill\+Behavior}]{fill\+Behavior,  }\item[{Action$<$ Storyboard $>$}]{init\+Handler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Start object animation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & Object that contains property.\\
+\hline
+{\em property\+Name} & A name of the property.\\
+\hline
+{\em obj} & Object that will animated. Using in case if  is null.\\
+\hline
+{\em property\+Path} & A path that describe the dependency property to be animated.\\
+\hline
+{\em duration} & How many time would take transit.\\
+\hline
+{\em from} & Start value.\\
+\hline
+{\em to} & Finish value.\\
+\hline
+{\em fill\+Behavior} & Specifies how a System.\+Windows.\+Media.\+Animation.\+Timeline behaves when it is outside its active period but its parent is inside its active or hold period.\\
+\hline
+{\em init\+Handler} & Handler that would be called before animation start. There you can subscrube on events or reconfigurate settigns.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Created storyboard.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Work/\+Git\+Hub/wpf-\/handler/\+Wpf\+Handler/\+U\+I/\+Animations/Object\+Animation.\+cs\end{DoxyCompactItemize}

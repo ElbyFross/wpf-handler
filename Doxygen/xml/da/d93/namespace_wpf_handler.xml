@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="da/d93/namespace_wpf_handler" kind="namespace" language="C#">
+    <compoundname>WpfHandler</compoundname>
+    <innernamespace refid="d5/de9/namespace_wpf_handler_1_1_dictionaries">WpfHandler::Dictionaries</innernamespace>
+    <innernamespace refid="d3/dfd/namespace_wpf_handler_1_1_plugins">WpfHandler::Plugins</innernamespace>
+    <innernamespace refid="d9/dc7/namespace_wpf_handler_1_1_properties">WpfHandler::Properties</innernamespace>
+    <innernamespace refid="df/dea/namespace_wpf_handler_1_1_u_i">WpfHandler::UI</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

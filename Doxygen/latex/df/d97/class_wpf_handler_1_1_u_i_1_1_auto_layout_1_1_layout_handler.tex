@@ -1,0 +1,228 @@
+\hypertarget{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler}{}\section{Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler Class Reference}
+\label{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler}\index{Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler@{Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler}}
+
+
+Provides core methods for layout controls.  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_af450dc0f251144cbdb3c64c4756c8025}{Horizontal\+Layout\+Add\+Child}} (I\+Add\+Child parent, Framework\+Element element)
+\begin{DoxyCompactList}\small\item\em Adding child to horizontal grid. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_aa974993604b1fe101eccab0fe966170a}{Vertical\+Layout\+Add\+Child}} (I\+Add\+Child parent, Framework\+Element element)
+\begin{DoxyCompactList}\small\item\em Adding child to the bertical layout group. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a2ae3e871977ebeaed8c265ccf98e46a9}{Registrate\+Field}} (this \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field}{I\+G\+U\+I\+Field}} control, \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor}{U\+I\+Descriptor}} descriptor, Member\+Info member, object defautlt\+Value)
+\begin{DoxyCompactList}\small\item\em Registrating bool property into auto layout ui. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a14720e6297e28f2502765ac372f32155}{Unregistrate\+Field}} (this \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field}{I\+G\+U\+I\+Field}} control)
+\begin{DoxyCompactList}\small\item\em Unbind layout control from auto layout handler. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a68b385db6f1fb9795be73195401a3175}{Rescan\+Assemblies}} ()
+\begin{DoxyCompactList}\small\item\em Rescaning solution for Layout controls bindings. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_ad580450c00d9a58be2c85399e7cf4b26}{Bind\+Layout\+Control\+To\+Type}} (Hashtable table, Type control\+Type, Type source\+Type)
+\begin{DoxyCompactList}\small\item\em Binds \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field}{I\+G\+U\+I\+Field}} to the source type to using into auto generate ui panels based on \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor}{U\+I\+Descriptor}} content. \end{DoxyCompactList}\item 
+static Type \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_adbcbc84c8b00500646fd088f9dfba3c4}{Get\+Binded\+Control}} (Type source\+Type, bool is\+Inherited)
+\begin{DoxyCompactList}\small\item\em Looking got control binded to the source type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_af5019f7dbd2cfafc9d5c5fce4382ff8f}{Layout\+Handler}} ()
+\begin{DoxyCompactList}\small\item\em Scaning asseblies to find descriptions of controls. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static readonly Hashtable \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a15ec26f7b47df47d599c8e649b766463}{Default\+Controls\+Bindings}} = new Hashtable()
+\begin{DoxyCompactList}\small\item\em Contains declared bindings from types to default layout controls. \end{DoxyCompactList}\item 
+static readonly Hashtable \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_ae61aae6b0256f71e33dc8c8ed1403ff0}{Enum\+Controls\+Bindings}} = new Hashtable()
+\begin{DoxyCompactList}\small\item\em Contains declared bindings from types to default layout controls comaptible with a enum members. \end{DoxyCompactList}\item 
+static readonly Hashtable \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a9838c1e408adbcb072a03521be50e6fe}{Enumerable\+Controls\+Bindings}} = new Hashtable()
+\begin{DoxyCompactList}\small\item\em Contains declared bindings from types to default layout controls comaptible with an enumerable types. \end{DoxyCompactList}\item 
+static readonly Hashtable \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_afda300c91d5d5e45c7fb51d1154fcf4b}{Registred\+Callbacks}} = new Hashtable()
+\begin{DoxyCompactList}\small\item\em Table that contains all registread value update callbacks. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides core methods for layout controls. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_af5019f7dbd2cfafc9d5c5fce4382ff8f}\label{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_af5019f7dbd2cfafc9d5c5fce4382ff8f}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}!Layout\+Handler@{Layout\+Handler}}
+\index{Layout\+Handler@{Layout\+Handler}!Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}}
+\subsubsection{\texorpdfstring{Layout\+Handler()}{LayoutHandler()}}
+{\footnotesize\ttfamily static Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler.\+Layout\+Handler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Scaning asseblies to find descriptions of controls. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_ad580450c00d9a58be2c85399e7cf4b26}\label{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_ad580450c00d9a58be2c85399e7cf4b26}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}!Bind\+Layout\+Control\+To\+Type@{Bind\+Layout\+Control\+To\+Type}}
+\index{Bind\+Layout\+Control\+To\+Type@{Bind\+Layout\+Control\+To\+Type}!Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}}
+\subsubsection{\texorpdfstring{Bind\+Layout\+Control\+To\+Type()}{BindLayoutControlToType()}}
+{\footnotesize\ttfamily static void Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler.\+Bind\+Layout\+Control\+To\+Type (\begin{DoxyParamCaption}\item[{Hashtable}]{table,  }\item[{Type}]{control\+Type,  }\item[{Type}]{source\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Binds \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field}{I\+G\+U\+I\+Field}} to the source type to using into auto generate ui panels based on \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor}{U\+I\+Descriptor}} content. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em table} & Target table for binding the element.\\
+\hline
+{\em control\+Type} & Type with implemented \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field}{I\+G\+U\+I\+Field}} interface.\\
+\hline
+{\em source\+Type} & Type that will cause spawning of binded \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field}{I\+G\+U\+I\+Field}} during building of auto-\/generated U\+Is.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_adbcbc84c8b00500646fd088f9dfba3c4}\label{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_adbcbc84c8b00500646fd088f9dfba3c4}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}!Get\+Binded\+Control@{Get\+Binded\+Control}}
+\index{Get\+Binded\+Control@{Get\+Binded\+Control}!Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}}
+\subsubsection{\texorpdfstring{Get\+Binded\+Control()}{GetBindedControl()}}
+{\footnotesize\ttfamily static Type Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler.\+Get\+Binded\+Control (\begin{DoxyParamCaption}\item[{Type}]{source\+Type,  }\item[{bool}]{is\+Inherited }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Looking got control binded to the source type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em source\+Type} & Type of the member that will be applied to the \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}} control.\\
+\hline
+{\em is\+Inherited} & Should it look into entire inheritance hierarchy of the source type till not found the binded one?\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Type of found control. Null if not found.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_af450dc0f251144cbdb3c64c4756c8025}\label{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_af450dc0f251144cbdb3c64c4756c8025}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}!Horizontal\+Layout\+Add\+Child@{Horizontal\+Layout\+Add\+Child}}
+\index{Horizontal\+Layout\+Add\+Child@{Horizontal\+Layout\+Add\+Child}!Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}}
+\subsubsection{\texorpdfstring{Horizontal\+Layout\+Add\+Child()}{HorizontalLayoutAddChild()}}
+{\footnotesize\ttfamily static void Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler.\+Horizontal\+Layout\+Add\+Child (\begin{DoxyParamCaption}\item[{I\+Add\+Child}]{parent,  }\item[{Framework\+Element}]{element }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Adding child to horizontal grid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & Grid that will contain child.\\
+\hline
+{\em element} & Element that will be added to the grid as child.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a2ae3e871977ebeaed8c265ccf98e46a9}\label{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a2ae3e871977ebeaed8c265ccf98e46a9}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}!Registrate\+Field@{Registrate\+Field}}
+\index{Registrate\+Field@{Registrate\+Field}!Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}}
+\subsubsection{\texorpdfstring{Registrate\+Field()}{RegistrateField()}}
+{\footnotesize\ttfamily static void Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler.\+Registrate\+Field (\begin{DoxyParamCaption}\item[{this \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field}{I\+G\+U\+I\+Field}}}]{control,  }\item[{\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor}{U\+I\+Descriptor}}}]{descriptor,  }\item[{Member\+Info}]{member,  }\item[{object}]{defautlt\+Value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Registrating bool property into auto layout ui. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em control} & Instiniated layout control.\\
+\hline
+{\em descriptor} & Descriptor that hold fields or properties.\\
+\hline
+{\em member} & Member in descriptor instance that will be used as target for value update.\\
+\hline
+{\em defautlt\+Value} & Value that will be setted by default.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a68b385db6f1fb9795be73195401a3175}\label{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a68b385db6f1fb9795be73195401a3175}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}!Rescan\+Assemblies@{Rescan\+Assemblies}}
+\index{Rescan\+Assemblies@{Rescan\+Assemblies}!Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}}
+\subsubsection{\texorpdfstring{Rescan\+Assemblies()}{RescanAssemblies()}}
+{\footnotesize\ttfamily static void Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler.\+Rescan\+Assemblies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Rescaning solution for Layout controls bindings. 
+
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a14720e6297e28f2502765ac372f32155}\label{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a14720e6297e28f2502765ac372f32155}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}!Unregistrate\+Field@{Unregistrate\+Field}}
+\index{Unregistrate\+Field@{Unregistrate\+Field}!Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}}
+\subsubsection{\texorpdfstring{Unregistrate\+Field()}{UnregistrateField()}}
+{\footnotesize\ttfamily static void Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler.\+Unregistrate\+Field (\begin{DoxyParamCaption}\item[{this \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field}{I\+G\+U\+I\+Field}}}]{control }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Unbind layout control from auto layout handler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em control} & Target layout control.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_aa974993604b1fe101eccab0fe966170a}\label{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_aa974993604b1fe101eccab0fe966170a}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}!Vertical\+Layout\+Add\+Child@{Vertical\+Layout\+Add\+Child}}
+\index{Vertical\+Layout\+Add\+Child@{Vertical\+Layout\+Add\+Child}!Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}}
+\subsubsection{\texorpdfstring{Vertical\+Layout\+Add\+Child()}{VerticalLayoutAddChild()}}
+{\footnotesize\ttfamily static void Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler.\+Vertical\+Layout\+Add\+Child (\begin{DoxyParamCaption}\item[{I\+Add\+Child}]{parent,  }\item[{Framework\+Element}]{element }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Adding child to the bertical layout group. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & Vertical\+Stack\+Panel that will contin child.\\
+\hline
+{\em element} & Element that will be added to the panel as child.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a15ec26f7b47df47d599c8e649b766463}\label{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a15ec26f7b47df47d599c8e649b766463}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}!Default\+Controls\+Bindings@{Default\+Controls\+Bindings}}
+\index{Default\+Controls\+Bindings@{Default\+Controls\+Bindings}!Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}}
+\subsubsection{\texorpdfstring{Default\+Controls\+Bindings}{DefaultControlsBindings}}
+{\footnotesize\ttfamily readonly Hashtable Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler.\+Default\+Controls\+Bindings = new Hashtable()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Contains declared bindings from types to default layout controls. 
+
+Key -\/ The source Type Value -\/ The binded Type of the \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field}{I\+G\+U\+I\+Field}} suitable for displaing a source data. \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_ae61aae6b0256f71e33dc8c8ed1403ff0}\label{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_ae61aae6b0256f71e33dc8c8ed1403ff0}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}!Enum\+Controls\+Bindings@{Enum\+Controls\+Bindings}}
+\index{Enum\+Controls\+Bindings@{Enum\+Controls\+Bindings}!Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}}
+\subsubsection{\texorpdfstring{Enum\+Controls\+Bindings}{EnumControlsBindings}}
+{\footnotesize\ttfamily readonly Hashtable Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler.\+Enum\+Controls\+Bindings = new Hashtable()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Contains declared bindings from types to default layout controls comaptible with a enum members. 
+
+Key -\/ The source Type Value -\/ The binded Type of the \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field}{I\+G\+U\+I\+Field}} suitable for displaing a source data. \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a9838c1e408adbcb072a03521be50e6fe}\label{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_a9838c1e408adbcb072a03521be50e6fe}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}!Enumerable\+Controls\+Bindings@{Enumerable\+Controls\+Bindings}}
+\index{Enumerable\+Controls\+Bindings@{Enumerable\+Controls\+Bindings}!Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}}
+\subsubsection{\texorpdfstring{Enumerable\+Controls\+Bindings}{EnumerableControlsBindings}}
+{\footnotesize\ttfamily readonly Hashtable Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler.\+Enumerable\+Controls\+Bindings = new Hashtable()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Contains declared bindings from types to default layout controls comaptible with an enumerable types. 
+
+Key -\/ The source Type Value -\/ The binded Type of the \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field}{I\+G\+U\+I\+Field}} suitable for displaing a source data. \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_afda300c91d5d5e45c7fb51d1154fcf4b}\label{class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_afda300c91d5d5e45c7fb51d1154fcf4b}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}!Registred\+Callbacks@{Registred\+Callbacks}}
+\index{Registred\+Callbacks@{Registred\+Callbacks}!Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Auto\+Layout\+::\+Layout\+Handler}}
+\subsubsection{\texorpdfstring{Registred\+Callbacks}{RegistredCallbacks}}
+{\footnotesize\ttfamily readonly Hashtable Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+Layout\+Handler.\+Registred\+Callbacks = new Hashtable()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Table that contains all registread value update callbacks. 
+
+Key = Type of the binded \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field}{I\+G\+U\+I\+Field}} 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Work/\+Git\+Hub/wpf-\/handler/\+Wpf\+Handler/\+U\+I/\+Auto\+Layout/Layout\+Handler.\+cs\end{DoxyCompactItemize}

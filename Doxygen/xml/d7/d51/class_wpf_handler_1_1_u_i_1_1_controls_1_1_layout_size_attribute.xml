@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::Controls::LayoutSizeAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <basecompoundref refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size" prot="public" virt="non-virtual">WpfHandler.UI.Controls.ILayoutSize</basecompoundref>
+    <derivedcompoundref refid="d8/d4b/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_height_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Options.HeightAttribute</derivedcompoundref>
+    <derivedcompoundref refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Options.LabelWidthAttribute</derivedcompoundref>
+    <derivedcompoundref refid="d8/d31/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_height_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Options.MaxHeightAttribute</derivedcompoundref>
+    <derivedcompoundref refid="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Options.MaxWidthAttribute</derivedcompoundref>
+    <derivedcompoundref refid="d7/dff/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_min_height_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Options.MinHeightAttribute</derivedcompoundref>
+    <derivedcompoundref refid="d2/d96/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_min_width_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Options.MinWidthAttribute</derivedcompoundref>
+    <derivedcompoundref refid="d6/d44/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_width_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Options.WidthAttribute</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute_1a3cf68aa208cfd09f789773f844683f87" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double WpfHandler.UI.Controls.LayoutSizeAttribute.Size</definition>
+        <argsstring></argsstring>
+        <name>Size</name>
+        <initializer>= double.NaN</initializer>
+        <briefdescription>
+<para>Value that will be used in the element&apos;s propeties. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LayoutSizeAttribute.cs" line="32" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LayoutSizeAttribute.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute_1ade163e9b2952d02cda556e26bf6be52f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.Controls.LayoutSizeAttribute.LayoutSizeAttribute</definition>
+        <argsstring>()</argsstring>
+        <name>LayoutSizeAttribute</name>
+        <briefdescription>
+<para>Default constructor. Use auto width. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LayoutSizeAttribute.cs" line="38" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LayoutSizeAttribute.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute_1a35d91131ec3931e5bde8cf3b026ff23c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.Controls.LayoutSizeAttribute.LayoutSizeAttribute</definition>
+        <argsstring>(double width)</argsstring>
+        <name>LayoutSizeAttribute</name>
+        <param>
+          <type>double</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>Set requested width as Size. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LayoutSizeAttribute.cs" line="44" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LayoutSizeAttribute.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Attribute for managing layout size of some element. Provides base members. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="422">
+        <label>WpfHandler.UI.AutoLayout.Options.HeightAttribute</label>
+        <link refid="d8/d4b/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_height_attribute"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="421">
+        <label>ILayoutSize</label>
+        <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
+      </node>
+      <node id="420">
+        <label>Attribute</label>
+      </node>
+      <node id="419">
+        <label>WpfHandler.UI.Controls.LayoutSizeAttribute</label>
+        <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
+        <childnode refid="420" relation="public-inheritance">
+        </childnode>
+        <childnode refid="421" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="425">
+        <label>WpfHandler.UI.AutoLayout.Options.MaxWidthAttribute</label>
+        <link refid="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="426">
+        <label>WpfHandler.UI.AutoLayout.Options.MinHeightAttribute</label>
+        <link refid="d7/dff/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_min_height_attribute"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="424">
+        <label>WpfHandler.UI.AutoLayout.Options.MaxHeightAttribute</label>
+        <link refid="d8/d31/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_height_attribute"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="427">
+        <label>WpfHandler.UI.AutoLayout.Options.MinWidthAttribute</label>
+        <link refid="d2/d96/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_min_width_attribute"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="428">
+        <label>WpfHandler.UI.AutoLayout.Options.WidthAttribute</label>
+        <link refid="d6/d44/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_width_attribute"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="423">
+        <label>WpfHandler.UI.AutoLayout.Options.LabelWidthAttribute</label>
+        <link refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="431">
+        <label>ILayoutSize</label>
+        <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
+      </node>
+      <node id="430">
+        <label>Attribute</label>
+      </node>
+      <node id="429">
+        <label>WpfHandler.UI.Controls.LayoutSizeAttribute</label>
+        <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
+        <childnode refid="430" relation="public-inheritance">
+        </childnode>
+        <childnode refid="431" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LayoutSizeAttribute.cs" line="28" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LayoutSizeAttribute.cs" bodystart="27" bodyend="48"/>
+    <listofallmembers>
+      <member refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute_1ade163e9b2952d02cda556e26bf6be52f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::LayoutSizeAttribute</scope><name>LayoutSizeAttribute</name></member>
+      <member refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute_1a35d91131ec3931e5bde8cf3b026ff23c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::LayoutSizeAttribute</scope><name>LayoutSizeAttribute</name></member>
+      <member refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute_1a3cf68aa208cfd09f789773f844683f87" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::LayoutSizeAttribute</scope><name>Size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

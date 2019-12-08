@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_4ac0ad8b70c947d07b02d1b8eeb4cbe2" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/GLSL/WPFShaders</compoundname>
+    <innerfile refid="db/ddc/dllmain_8cpp">dllmain.cpp</innerfile>
+    <innerfile refid="d6/d29/framework_8h">framework.h</innerfile>
+    <innerfile refid="dd/d2e/pch_8cpp">pch.cpp</innerfile>
+    <innerfile refid="de/d3a/pch_8h">pch.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/GLSL/WPFShaders/"/>
+  </compounddef>
+</doxygen>

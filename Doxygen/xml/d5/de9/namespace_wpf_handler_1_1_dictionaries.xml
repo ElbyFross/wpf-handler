@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d5/de9/namespace_wpf_handler_1_1_dictionaries" kind="namespace" language="C#">
+    <compoundname>WpfHandler::Dictionaries</compoundname>
+    <innerclass refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i" prot="public">WpfHandler::Dictionaries::API</innerclass>
+    <innerclass refid="d1/d18/class_wpf_handler_1_1_dictionaries_1_1_domain_container" prot="public">WpfHandler::Dictionaries::DomainContainer</innerclass>
+    <innerclass refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute" prot="public">WpfHandler::Dictionaries::LocalizableContentAttribute</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" line="26" column="1"/>
+  </compounddef>
+</doxygen>

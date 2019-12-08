@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dd/db3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enums_compatible_attribute" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::Configuration::EnumsCompatibleAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <basecompoundref refid="d6/d41/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_i_g_u_i_element_binding_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Configuration.IGUIElementBindingAttribute</basecompoundref>
+    <briefdescription>
+<para>Marking GUI elemt as compatible with enum source fields. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="135">
+        <label>Attribute</label>
+      </node>
+      <node id="134">
+        <label>WpfHandler.UI.AutoLayout.Configuration.EnumsCompatibleAttribute</label>
+        <link refid="dd/db3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enums_compatible_attribute"/>
+        <childnode refid="135" relation="public-inheritance">
+        </childnode>
+        <childnode refid="136" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>IGUIElementBindingAttribute</label>
+        <link refid="d6/d41/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_i_g_u_i_element_binding_attribute"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="138">
+        <label>Attribute</label>
+      </node>
+      <node id="137">
+        <label>WpfHandler.UI.AutoLayout.Configuration.EnumsCompatibleAttribute</label>
+        <link refid="dd/db3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enums_compatible_attribute"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+        <childnode refid="139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>IGUIElementBindingAttribute</label>
+        <link refid="d6/d41/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_i_g_u_i_element_binding_attribute"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/EnumsCompatibleAttribute.cs" line="27" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/EnumsCompatibleAttribute.cs" bodystart="27" bodyend="27"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

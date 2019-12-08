@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d1/def/namespace_wpf_handler_1_1_u_i_1_1_controls" kind="namespace" language="C#">
+    <compoundname>WpfHandler::UI::Controls</compoundname>
+    <innerclass refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" prot="public">WpfHandler::UI::Controls::AutoCollection</innerclass>
+    <innerclass refid="d0/d24/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_button" prot="public">WpfHandler::UI::Controls::CatalogButton</innerclass>
+    <innerclass refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control" prot="public">WpfHandler::UI::Controls::CollectionControl</innerclass>
+    <innerclass refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button" prot="public">WpfHandler::UI::Controls::FlatButton</innerclass>
+    <innerclass refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box" prot="public">WpfHandler::UI::Controls::FlatPasswordBox</innerclass>
+    <innerclass refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box" prot="public">WpfHandler::UI::Controls::FlatTextBox</innerclass>
+    <innerclass refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group" prot="public">WpfHandler::UI::Controls::FlatTogglesGroup</innerclass>
+    <innerclass refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header" prot="public">WpfHandler::UI::Controls::Header</innerclass>
+    <innerclass refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label" prot="public">WpfHandler::UI::Controls::ILabel</innerclass>
+    <innerclass refid="d2/d03/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_orientation" prot="public">WpfHandler::UI::Controls::ILayoutOrientation</innerclass>
+    <innerclass refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size" prot="public">WpfHandler::UI::Controls::ILayoutSize</innerclass>
+    <innerclass refid="d9/de5/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_selectable_control" prot="public">WpfHandler::UI::Controls::ISelectableControl</innerclass>
+    <innerclass refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute" prot="public">WpfHandler::UI::Controls::LayoutSizeAttribute</innerclass>
+    <innerclass refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen" prot="public">WpfHandler::UI::Controls::LockScreen</innerclass>
+    <innerclass refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button" prot="public">WpfHandler::UI::Controls::SelectableFlatButton</innerclass>
+    <innerclass refid="de/dc7/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_grid" prot="public">WpfHandler::UI::Controls::SelectableGrid</innerclass>
+    <innerclass refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel" prot="public">WpfHandler::UI::Controls::SwitchPanel</innerclass>
+    <innerclass refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control" prot="public">WpfHandler::UI::Controls::TextFieldControl</innerclass>
+    <innernamespace refid="dc/d3c/namespace_wpf_handler_1_1_u_i_1_1_controls_1_1_logon">WpfHandler::UI::Controls::Logon</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" line="35" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="db/d11/namespace_wpf_handler_1_1_u_i_1_1_effects" kind="namespace" language="C#">
+    <compoundname>WpfHandler::UI::Effects</compoundname>
+    <innerclass refid="d8/d29/class_wpf_handler_1_1_u_i_1_1_effects_1_1_blur_effect" prot="public">WpfHandler::UI::Effects::BlurEffect</innerclass>
+    <innerclass refid="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect" prot="public">WpfHandler::UI::Effects::RectBlurEffect</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/BlurEffect.cs" line="25" column="1"/>
+  </compounddef>
+</doxygen>

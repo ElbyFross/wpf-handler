@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_d266066602d1552ea3cfb4a1ecc819b4" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI</compoundname>
+    <innerdir refid="dir_e3f30623178770a0610b59b97cd7a0d3">D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout</innerdir>
+    <innerdir refid="dir_86349704d6a91ed9eaf95b6510407e2c">D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/"/>
+  </compounddef>
+</doxygen>

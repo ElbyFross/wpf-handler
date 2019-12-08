@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::Options::ForegroundAttribute</compoundname>
+    <basecompoundref refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute" prot="public" virt="non-virtual">WpfHandler.UI.ColorAttribute</basecompoundref>
+    <basecompoundref refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.IGUILayoutOption</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute_1abae0ce13aea7130e5e9c72c208443380" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Options.ForegroundAttribute.ForegroundAttribute</definition>
+        <argsstring>(Brush brush)</argsstring>
+        <name>ForegroundAttribute</name>
+        <param>
+          <type><ref refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute_1afa14c4542d8023b3ddad6aba74993877" kindref="member">Brush</ref></type>
+          <declname>brush</declname>
+        </param>
+        <briefdescription>
+<para>Instiniating attribute with applied brush. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>brush</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target brush.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>No supported via attribute.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/ForegroundAttribute.cs" line="39" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/ForegroundAttribute.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute_1a3c0591313938a963293a9b2df51e130b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Options.ForegroundAttribute.ForegroundAttribute</definition>
+        <argsstring>(SolidColorBrush brush)</argsstring>
+        <name>ForegroundAttribute</name>
+        <param>
+          <type>SolidColorBrush</type>
+          <declname>brush</declname>
+        </param>
+        <briefdescription>
+<para>Instiniating attribute with applied brush. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>brush</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target brush.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>No supported via attribute.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/ForegroundAttribute.cs" line="46" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/ForegroundAttribute.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute_1ae4e67116f7dcce84028e700262afd1cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Options.ForegroundAttribute.ForegroundAttribute</definition>
+        <argsstring>(string colorCode)</argsstring>
+        <name>ForegroundAttribute</name>
+        <param>
+          <type>string</type>
+          <declname>colorCode</declname>
+        </param>
+        <briefdescription>
+<para>Instiniating attribute with applied brush. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>colorCode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Trying to apply string color code as brush by using ColorConverter rules. Not throw excption in case if color&apos;s code invalid to prevent <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> crash.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/ForegroundAttribute.cs" line="54" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/ForegroundAttribute.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute_1ab3c65b68928d5ad4ccedee5b7baa337c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Options.ForegroundAttribute.ForegroundAttribute</definition>
+        <argsstring>(Color color)</argsstring>
+        <name>ForegroundAttribute</name>
+        <param>
+          <type><ref refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute_1a6c5c2202427bd48877142ecf85327843" kindref="member">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Instiniating attribute with applied color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target color.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>No supported via attribute.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/ForegroundAttribute.cs" line="61" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/ForegroundAttribute.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute_1a5231ed2afb4d2d26eac9eab670adca45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.Options.ForegroundAttribute.ApplyLayoutOption</definition>
+        <argsstring>(FrameworkElement element)</argsstring>
+        <name>ApplyLayoutOption</name>
+        <reimplements refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option_1ac2d2fa8aeaf753b3248381399f991005">ApplyLayoutOption</reimplements>
+        <param>
+          <type>FrameworkElement</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+<para>Define GUI element&apos;s foreground brush. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Shared <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element. Must be inheirted from <computeroutput>System.Windows.Controls.Control</computeroutput> to affect the font properties. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/ForegroundAttribute.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/ForegroundAttribute.cs" bodystart="70" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Define GUI element&apos;s foreground brush. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="219">
+        <label>Attribute</label>
+      </node>
+      <node id="220">
+        <label>IGUILayoutOption</label>
+        <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
+      </node>
+      <node id="218">
+        <label>ColorAttribute</label>
+        <link refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>WpfHandler.UI.AutoLayout.Options.ForegroundAttribute</label>
+        <link refid="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute"/>
+        <childnode refid="218" relation="public-inheritance">
+        </childnode>
+        <childnode refid="220" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="223">
+        <label>Attribute</label>
+      </node>
+      <node id="224">
+        <label>IGUILayoutOption</label>
+        <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
+      </node>
+      <node id="222">
+        <label>ColorAttribute</label>
+        <link refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute"/>
+        <childnode refid="223" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="221">
+        <label>WpfHandler.UI.AutoLayout.Options.ForegroundAttribute</label>
+        <link refid="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute"/>
+        <childnode refid="222" relation="public-inheritance">
+        </childnode>
+        <childnode refid="224" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/ForegroundAttribute.cs" line="33" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/ForegroundAttribute.cs" bodystart="32" bodyend="78"/>
+    <listofallmembers>
+      <member refid="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute_1a5231ed2afb4d2d26eac9eab670adca45" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::ForegroundAttribute</scope><name>ApplyLayoutOption</name></member>
+      <member refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute_1afa14c4542d8023b3ddad6aba74993877" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::ForegroundAttribute</scope><name>Brush</name></member>
+      <member refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute_1a6c5c2202427bd48877142ecf85327843" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::ForegroundAttribute</scope><name>Color</name></member>
+      <member refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute_1a55398dce3088472e741cfa5682090e4f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::ForegroundAttribute</scope><name>ColorAttribute</name></member>
+      <member refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute_1a5a07f18b18eff772c26e484a764b38f3" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::ForegroundAttribute</scope><name>ColorAttribute</name></member>
+      <member refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute_1adc45633c132e90d33ae037b138e31250" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::ForegroundAttribute</scope><name>ColorAttribute</name></member>
+      <member refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute_1a4f6a8ef0ae7f5da318a1c18eafdfbc98" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::ForegroundAttribute</scope><name>ColorAttribute</name></member>
+      <member refid="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute_1abae0ce13aea7130e5e9c72c208443380" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::ForegroundAttribute</scope><name>ForegroundAttribute</name></member>
+      <member refid="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute_1a3c0591313938a963293a9b2df51e130b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::ForegroundAttribute</scope><name>ForegroundAttribute</name></member>
+      <member refid="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute_1ae4e67116f7dcce84028e700262afd1cf" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::ForegroundAttribute</scope><name>ForegroundAttribute</name></member>
+      <member refid="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute_1ab3c65b68928d5ad4ccedee5b7baa337c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::ForegroundAttribute</scope><name>ForegroundAttribute</name></member>
+      <member refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute_1a2f09d55a6dfaf3912f2941910e1936e8" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::ForegroundAttribute</scope><name>StringColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

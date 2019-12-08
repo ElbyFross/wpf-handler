@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kind="interface" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::IGUIField</compoundname>
+    <basecompoundref refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.IGUIElement</basecompoundref>
+    <derivedcompoundref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control" prot="public" virt="non-virtual">WpfHandler.UI.Controls.CollectionControl</derivedcompoundref>
+    <derivedcompoundref refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box" prot="public" virt="non-virtual">WpfHandler.UI.Controls.FlatPasswordBox</derivedcompoundref>
+    <derivedcompoundref refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box" prot="public" virt="non-virtual">WpfHandler.UI.Controls.FlatTextBox</derivedcompoundref>
+    <derivedcompoundref refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group" prot="public" virt="non-virtual">WpfHandler.UI.Controls.FlatTogglesGroup</derivedcompoundref>
+    <derivedcompoundref refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header" prot="public" virt="non-virtual">WpfHandler.UI.Controls.Header</derivedcompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field_1a97d9c046f0ed12e42560f2c7fb414d5f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.Action&lt; <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> &gt;</type>
+        <definition>System.Action&lt;IGUIField&gt; WpfHandler.UI.AutoLayout.IGUIField.ValueChanged</definition>
+        <argsstring></argsstring>
+        <name>ValueChanged</name>
+        <briefdescription>
+<para>Event that will occure in case if value of the field will be changed. Will cause updating of the BindedMember value. </para>        </briefdescription>
+        <detaileddescription>
+<para><ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> - sender. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Interfaces/IGUIField.cs" line="30" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Interfaces/IGUIField.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field_1a6603f5bb3eeee52e2d061d6d0f40720a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object WpfHandler.UI.AutoLayout.IGUIField.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+<para>Value of that control. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Interfaces/IGUIField.cs" line="35" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Interfaces/IGUIField.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field_1a063a35928be8b8f839f560d3c8af33e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>MemberInfo</type>
+        <definition>MemberInfo WpfHandler.UI.AutoLayout.IGUIField.BindedMember</definition>
+        <argsstring></argsstring>
+        <name>BindedMember</name>
+        <briefdescription>
+<para>Memeber that will be used as source for the value into <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Interfaces/IGUIField.cs" line="40" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Interfaces/IGUIField.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation of that interface allow to use that control in auto layout user interfaces. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="318">
+        <label>WpfHandler.UI.Controls.FlatPasswordBox</label>
+        <link refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box"/>
+        <childnode refid="314" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>WpfHandler.UI.Controls.Header</label>
+        <link refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header"/>
+        <childnode refid="314" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="320">
+        <label>WpfHandler.UI.Controls.FlatTogglesGroup</label>
+        <link refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group"/>
+        <childnode refid="314" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="316">
+        <label>WpfHandler.UI.Controls.CollectionControl</label>
+        <link refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control"/>
+        <childnode refid="314" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="314">
+        <label>WpfHandler.UI.AutoLayout.IGUIField</label>
+        <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
+        <childnode refid="315" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="319">
+        <label>WpfHandler.UI.Controls.FlatTextBox</label>
+        <link refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box"/>
+        <childnode refid="314" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="317">
+        <label>WpfHandler.UI.Controls.AutoCollection</label>
+        <link refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection"/>
+        <childnode refid="316" relation="public-inheritance">
+        </childnode>
+        <childnode refid="316" relation="public-inheritance">
+        </childnode>
+        <childnode refid="316" relation="public-inheritance">
+        </childnode>
+        <childnode refid="316" relation="public-inheritance">
+        </childnode>
+        <childnode refid="316" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="315">
+        <label>IGUIElement</label>
+        <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="322">
+        <label>WpfHandler.UI.AutoLayout.IGUIField</label>
+        <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
+        <childnode refid="323" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="323">
+        <label>IGUIElement</label>
+        <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Interfaces/IGUIField.cs" line="23" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Interfaces/IGUIField.cs" bodystart="22" bodyend="41"/>
+    <listofallmembers>
+      <member refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field_1a063a35928be8b8f839f560d3c8af33e7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::IGUIField</scope><name>BindedMember</name></member>
+      <member refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element_1a0ff16956f8e8187d51e1b36b6b9f894e" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::IGUIField</scope><name>OnLayout</name></member>
+      <member refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field_1a6603f5bb3eeee52e2d061d6d0f40720a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::IGUIField</scope><name>Value</name></member>
+      <member refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field_1a97d9c046f0ed12e42560f2c7fb414d5f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::IGUIField</scope><name>ValueChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

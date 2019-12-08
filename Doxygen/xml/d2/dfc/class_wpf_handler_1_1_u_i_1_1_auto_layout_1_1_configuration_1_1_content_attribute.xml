@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</compoundname>
+    <basecompoundref refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute" prot="public" virt="non-virtual">WpfHandler.UI.GUIContentAttribute</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a7342c312b16ecde3884a20ae56879485" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute" kindref="compound">ContentAttribute</ref></type>
+        <definition>ContentAttribute WpfHandler.UI.AutoLayout.Configuration.ContentAttribute.Empty</definition>
+        <argsstring></argsstring>
+        <name>Empty</name>
+        <briefdescription>
+<para>Return new attribute instance with None content. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" line="33" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" bodystart="34" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a27ac4fe8d5fdf953c624a099b7c33ac4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label" kindref="compound">ILabel</ref></type>
+        <definition>ILabel WpfHandler.UI.AutoLayout.Configuration.ContentAttribute.BindedLabel</definition>
+        <argsstring></argsstring>
+        <name>BindedLabel</name>
+        <briefdescription>
+<para>Instiniated control with a label. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" line="47" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1ac04878f4eb3c6ceb3c3f5c726fc34d50" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>MemberInfo</type>
+        <definition>MemberInfo WpfHandler.UI.AutoLayout.Configuration.ContentAttribute.BindedMember</definition>
+        <argsstring></argsstring>
+        <name>BindedMember</name>
+        <briefdescription>
+<para>Member info that will be used to auto generation of the field&apos;s label content. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" line="52" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1acdfac4309551dd388a4f039b9e9263dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Configuration.ContentAttribute.ContentAttribute</definition>
+        <argsstring>()</argsstring>
+        <name>ContentAttribute</name>
+        <briefdescription>
+<para>Instiniate new atribute with null GUI content. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" line="57" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1ac65e5b234d917c37a95b5471ef8b41b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Configuration.ContentAttribute.ContentAttribute</definition>
+        <argsstring>(string title)</argsstring>
+        <name>ContentAttribute</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+<para>Auto initialize content with shared title value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title that will be showed up into the label.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1ac44c492fbdc06f7a28f77c4dcb50e828" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Configuration.ContentAttribute.ContentAttribute</definition>
+        <argsstring>(string title, string description)</argsstring>
+        <name>ContentAttribute</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+<para>Constructor that allow to set title. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title of that element.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Description of that element.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1ab0c84b73301dd184abc00bbf5204c178" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Configuration.ContentAttribute.ContentAttribute</definition>
+        <argsstring>(string defaultTitle, string defaultDescription, string decriptionLocalizationResourseKey)</argsstring>
+        <name>ContentAttribute</name>
+        <param>
+          <type>string</type>
+          <declname>defaultTitle</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultDescription</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>decriptionLocalizationResourseKey</declname>
+        </param>
+        <briefdescription>
+<para>Initialize all allowed fields. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultTitle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title that would be used by default if localization dictionary not found.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultDescription</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Default description if localization dictionary not found.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>decriptionLocalizationResourseKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key of description content in localized dynamic dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" line="78" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" bodystart="78" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a54c8ed64b08dbbf380bfb47cbe2829e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Configuration.ContentAttribute.ContentAttribute</definition>
+        <argsstring>(string defaultTitle, string defaultDescription, string titleLocalizationResourseKey, string decriptionLocalizationResourseKey)</argsstring>
+        <name>ContentAttribute</name>
+        <param>
+          <type>string</type>
+          <declname>defaultTitle</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultDescription</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>titleLocalizationResourseKey</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>decriptionLocalizationResourseKey</declname>
+        </param>
+        <briefdescription>
+<para>Initialize all allowed fields. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultTitle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title that would be used by default if localization dictionary not found.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultDescription</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Default description if localization dictionary not found.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>titleLocalizationResourseKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key of title content in localized dynamic dictionary.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>decriptionLocalizationResourseKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key of description content in localized dynamic dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" line="91" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" bodystart="91" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a498818bc121b7f408af302eb4085056a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void WpfHandler.UI.AutoLayout.Configuration.ContentAttribute.LanguagesDictionariesUpdated</definition>
+        <argsstring>()</argsstring>
+        <name>LanguagesDictionariesUpdated</name>
+        <reimplements refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1a001e110c7ad42422bc02a44d9eedc801">LanguagesDictionariesUpdated</reimplements>
+        <briefdescription>
+<para>Callback that will occurs in case of updating of the language dictionaries. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" line="101" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" bodystart="101" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a6e768c541979b771942cf038e8ac084a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.Configuration.ContentAttribute.BindToLable</definition>
+        <argsstring>(ILabel lable)</argsstring>
+        <name>BindToLable</name>
+        <param>
+          <type><ref refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label" kindref="compound">ILabel</ref></type>
+          <declname>lable</declname>
+        </param>
+        <briefdescription>
+<para>Connecting instiniated control with label to localization updates. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> control that has a lable to content bridging.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" line="120" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" bodystart="120" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a6b3765fe9e02052ae0d76d6964205f97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.Configuration.ContentAttribute.BindToLable</definition>
+        <argsstring>(ILabel lable, MemberInfo sourceMember)</argsstring>
+        <name>BindToLable</name>
+        <param>
+          <type><ref refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label" kindref="compound">ILabel</ref></type>
+          <declname>lable</declname>
+        </param>
+        <param>
+          <type>MemberInfo</type>
+          <declname>sourceMember</declname>
+        </param>
+        <briefdescription>
+<para>Connecting instiniated control with label to localization updates. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> control that has a lable to content bridging.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sourceMember</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Member infor that could be used as source for auto generated title in case if <ref refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content" kindref="compound">GUIContent</ref> not provided in resources.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" line="133" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" bodystart="133" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Defining content applied to the member. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="106">
+        <label>Attribute</label>
+      </node>
+      <node id="103">
+        <label>WpfHandler.UI.AutoLayout.Configuration.ContentAttribute</label>
+        <link refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>GUIContentAttribute</label>
+        <link refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>LocalizableContentAttribute</label>
+        <link refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="110">
+        <label>Attribute</label>
+      </node>
+      <node id="107">
+        <label>WpfHandler.UI.AutoLayout.Configuration.ContentAttribute</label>
+        <link refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>GUIContentAttribute</label>
+        <link refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute"/>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>LocalizableContentAttribute</label>
+        <link refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute"/>
+        <childnode refid="110" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" line="29" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/ContentAttribute.cs" bodystart="28" bodyend="147"/>
+    <listofallmembers>
+      <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a27ac4fe8d5fdf953c624a099b7c33ac4" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>BindedLabel</name></member>
+      <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1ac04878f4eb3c6ceb3c3f5c726fc34d50" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>BindedMember</name></member>
+      <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a6e768c541979b771942cf038e8ac084a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>BindToLable</name></member>
+      <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a6b3765fe9e02052ae0d76d6964205f97" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>BindToLable</name></member>
+      <member refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute_1a300bccba346680f1baa6812f557209c5" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>Content</name></member>
+      <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1acdfac4309551dd388a4f039b9e9263dc" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>ContentAttribute</name></member>
+      <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1ac65e5b234d917c37a95b5471ef8b41b0" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>ContentAttribute</name></member>
+      <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1ac44c492fbdc06f7a28f77c4dcb50e828" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>ContentAttribute</name></member>
+      <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1ab0c84b73301dd184abc00bbf5204c178" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>ContentAttribute</name></member>
+      <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a54c8ed64b08dbbf380bfb47cbe2829e2" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>ContentAttribute</name></member>
+      <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a7342c312b16ecde3884a20ae56879485" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>Empty</name></member>
+      <member refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute_1ac2a5bef97b1df0ab4dfd1e9764710d06" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>GUIContentAttribute</name></member>
+      <member refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute_1a26546834215fbd36a79b7811ddc0adfe" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>GUIContentAttribute</name></member>
+      <member refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute_1ad64c2fed8f65549ff65ba1bfa3185e05" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>GUIContentAttribute</name></member>
+      <member refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute_1a251d3d3299dcd8fed8ae91e315cf8a1c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>GUIContentAttribute</name></member>
+      <member refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute_1ac5a1a11874d2effe5743f2a4b5532fd2" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>GUIContentAttribute</name></member>
+      <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a498818bc121b7f408af302eb4085056a" prot="public" virt="virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>LanguagesDictionariesUpdated</name></member>
+      <member refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1abba3c6699a97cc5a417eebc194979acd" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::ContentAttribute</scope><name>LocalizableContentAttribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

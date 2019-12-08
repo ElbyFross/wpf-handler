@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>WpfHandler::Dictionaries::LocalizableContentAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <derivedcompoundref refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute" prot="public" virt="non-virtual">WpfHandler.UI.GUIContentAttribute</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1abba3c6699a97cc5a417eebc194979acd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.Dictionaries.LocalizableContentAttribute.LocalizableContentAttribute</definition>
+        <argsstring>()</argsstring>
+        <name>LocalizableContentAttribute</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" line="34" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1a001e110c7ad42422bc02a44d9eedc801" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void WpfHandler.Dictionaries.LocalizableContentAttribute.LanguagesDictionariesUpdated</definition>
+        <argsstring>()</argsstring>
+        <name>LanguagesDictionariesUpdated</name>
+        <reimplementedby refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a3ed5f61dc946ffd5ce385cc4ef60362d">LanguagesDictionariesUpdated</reimplementedby>
+        <reimplementedby refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a498818bc121b7f408af302eb4085056a">LanguagesDictionariesUpdated</reimplementedby>
+        <reimplementedby refid="d1/d32/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_header_attribute_1ae2587a69606cda16cc87e901140f113a">LanguagesDictionariesUpdated</reimplementedby>
+        <briefdescription>
+<para>Occurs when would reloaded dynamic dictionaries. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1a38a1f37df12d6f6205ab32933ddeb5b1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.Dictionaries.LocalizableContentAttribute.~LocalizableContentAttribute</definition>
+        <argsstring>()</argsstring>
+        <name>~LocalizableContentAttribute</name>
+        <briefdescription>
+<para>Unsubscribe from events. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" line="42" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base attribute that binding <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element to the common auto localization system. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="433">
+        <label>Attribute</label>
+      </node>
+      <node id="434">
+        <label>WpfHandler.UI.GUIContentAttribute</label>
+        <link refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute"/>
+        <childnode refid="432" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="435">
+        <label>WpfHandler.UI.AutoLayout.Configuration.ContentAttribute</label>
+        <link refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute"/>
+        <childnode refid="434" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="432">
+        <label>WpfHandler.Dictionaries.LocalizableContentAttribute</label>
+        <link refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute"/>
+        <childnode refid="433" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="437">
+        <label>WpfHandler.UI.AutoLayout.Controls.LabelAttribute</label>
+        <link refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute"/>
+        <childnode refid="434" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="436">
+        <label>WpfHandler.UI.AutoLayout.Controls.HeaderAttribute</label>
+        <link refid="d1/d32/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_header_attribute"/>
+        <childnode refid="434" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="439">
+        <label>Attribute</label>
+      </node>
+      <node id="438">
+        <label>WpfHandler.Dictionaries.LocalizableContentAttribute</label>
+        <link refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute"/>
+        <childnode refid="439" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" line="30" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" bodystart="29" bodyend="51"/>
+    <listofallmembers>
+      <member refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1a001e110c7ad42422bc02a44d9eedc801" prot="public" virt="pure-virtual"><scope>WpfHandler::Dictionaries::LocalizableContentAttribute</scope><name>LanguagesDictionariesUpdated</name></member>
+      <member refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1abba3c6699a97cc5a417eebc194979acd" prot="public" virt="non-virtual"><scope>WpfHandler::Dictionaries::LocalizableContentAttribute</scope><name>LocalizableContentAttribute</name></member>
+      <member refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1a38a1f37df12d6f6205ab32933ddeb5b1" prot="private" virt="non-virtual"><scope>WpfHandler::Dictionaries::LocalizableContentAttribute</scope><name>~LocalizableContentAttribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

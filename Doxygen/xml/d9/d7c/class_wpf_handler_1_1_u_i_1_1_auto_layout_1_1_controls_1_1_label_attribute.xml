@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</compoundname>
+    <basecompoundref refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute" prot="public" virt="non-virtual">WpfHandler.UI.GUIContentAttribute</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1af52c1a4d96d9ab17f369a6c6423f58fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Controls.LabelAttribute.LabelAttribute</definition>
+        <argsstring>(string title)</argsstring>
+        <name>LabelAttribute</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+<para>Auto initialize content with shared title value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title that will be showed up into the label.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" line="21" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a961e0cd1faee5baad4ced251193adcc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Controls.LabelAttribute.LabelAttribute</definition>
+        <argsstring>(string title, string description)</argsstring>
+        <name>LabelAttribute</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+<para>Constructor that allow to set title. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title of that element.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Description of that element.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" line="28" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1ae3fc540124479e4cdc343ab23ae1a1c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Controls.LabelAttribute.LabelAttribute</definition>
+        <argsstring>(string defaultTitle, string defaultDescription, string decriptionLocalizationResourseKey)</argsstring>
+        <name>LabelAttribute</name>
+        <param>
+          <type>string</type>
+          <declname>defaultTitle</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultDescription</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>decriptionLocalizationResourseKey</declname>
+        </param>
+        <briefdescription>
+<para>Initialize all allowed fields. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultTitle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title that would be used by default if localization dictionary not found.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultDescription</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Default description if localization dictionary not found.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>decriptionLocalizationResourseKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key of description content in localized dynamic dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" line="36" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1abfc5ebdb910630168db5f10fdbb713b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Controls.LabelAttribute.LabelAttribute</definition>
+        <argsstring>(string defaultTitle, string defaultDescription, string titleLocalizationResourseKey, string decriptionLocalizationResourseKey)</argsstring>
+        <name>LabelAttribute</name>
+        <param>
+          <type>string</type>
+          <declname>defaultTitle</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultDescription</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>titleLocalizationResourseKey</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>decriptionLocalizationResourseKey</declname>
+        </param>
+        <briefdescription>
+<para>Initialize all allowed fields. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultTitle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title that would be used by default if localization dictionary not found.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultDescription</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Default description if localization dictionary not found.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>titleLocalizationResourseKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key of title content in localized dynamic dictionary.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>decriptionLocalizationResourseKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key of description content in localized dynamic dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" line="49" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" bodystart="49" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a86bdaaa6d028cbdee8536138e63d0159" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WpfHandler.UI.AutoLayout.Controls.LabelAttribute.OnGUI</definition>
+        <argsstring>(ref LayoutLayer layer, params object[] args)</argsstring>
+        <name>OnGUI</name>
+        <param>
+          <type>ref <ref refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer" kindref="compound">LayoutLayer</ref></type>
+          <declname>layer</declname>
+        </param>
+        <param>
+          <type>params object []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Spawn label element into the <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>layer</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" line="61" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" bodystart="61" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a3ed5f61dc946ffd5ce385cc4ef60362d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void WpfHandler.UI.AutoLayout.Controls.LabelAttribute.LanguagesDictionariesUpdated</definition>
+        <argsstring>()</argsstring>
+        <name>LanguagesDictionariesUpdated</name>
+        <reimplements refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1a001e110c7ad42422bc02a44d9eedc801">LanguagesDictionariesUpdated</reimplements>
+        <briefdescription>
+<para>TODO: Callback that occurs when content dictionaries are reloaded. Updating label&apos;s content. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" line="78" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" bodystart="78" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Allow to add custom label element to the <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="400">
+        <label>Attribute</label>
+      </node>
+      <node id="397">
+        <label>WpfHandler.UI.AutoLayout.Controls.LabelAttribute</label>
+        <link refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute"/>
+        <childnode refid="398" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="398">
+        <label>GUIContentAttribute</label>
+        <link refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute"/>
+        <childnode refid="399" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="399">
+        <label>LocalizableContentAttribute</label>
+        <link refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute"/>
+        <childnode refid="400" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="404">
+        <label>Attribute</label>
+      </node>
+      <node id="401">
+        <label>WpfHandler.UI.AutoLayout.Controls.LabelAttribute</label>
+        <link refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute"/>
+        <childnode refid="402" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="402">
+        <label>GUIContentAttribute</label>
+        <link refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute"/>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="403">
+        <label>LocalizableContentAttribute</label>
+        <link refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute"/>
+        <childnode refid="404" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" line="16" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" bodystart="15" bodyend="82"/>
+    <listofallmembers>
+      <member refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute_1a300bccba346680f1baa6812f557209c5" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>Content</name></member>
+      <member refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute_1ac2a5bef97b1df0ab4dfd1e9764710d06" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>GUIContentAttribute</name></member>
+      <member refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute_1a26546834215fbd36a79b7811ddc0adfe" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>GUIContentAttribute</name></member>
+      <member refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute_1ad64c2fed8f65549ff65ba1bfa3185e05" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>GUIContentAttribute</name></member>
+      <member refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute_1a251d3d3299dcd8fed8ae91e315cf8a1c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>GUIContentAttribute</name></member>
+      <member refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute_1ac5a1a11874d2effe5743f2a4b5532fd2" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>GUIContentAttribute</name></member>
+      <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1af52c1a4d96d9ab17f369a6c6423f58fb" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>LabelAttribute</name></member>
+      <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a961e0cd1faee5baad4ced251193adcc4" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>LabelAttribute</name></member>
+      <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1ae3fc540124479e4cdc343ab23ae1a1c9" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>LabelAttribute</name></member>
+      <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1abfc5ebdb910630168db5f10fdbb713b7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>LabelAttribute</name></member>
+      <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a3ed5f61dc946ffd5ce385cc4ef60362d" prot="public" virt="virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>LanguagesDictionariesUpdated</name></member>
+      <member refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1abba3c6699a97cc5a417eebc194979acd" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>LocalizableContentAttribute</name></member>
+      <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a86bdaaa6d028cbdee8536138e63d0159" prot="public" virt="virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>OnGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

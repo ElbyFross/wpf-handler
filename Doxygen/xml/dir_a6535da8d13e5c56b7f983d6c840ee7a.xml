@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_a6535da8d13e5c56b7f983d6c840ee7a" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/WpfHandler/obj</compoundname>
+    <innerdir refid="dir_6cb68ed37af5e2b8bf6f2246a1561fdd">D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug</innerdir>
+    <innerdir refid="dir_0d93638625f82603384cdcb57afe8a57">D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="df/d55/class_wpf_handler_1_1_plugins_1_1_constants" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::Plugins::Constants</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="df/d55/class_wpf_handler_1_1_plugins_1_1_constants_1a96f55ef86fe92a534722f4788340f390" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string WpfHandler.Plugins.Constants.PLUGINS_DIR</definition>
+        <argsstring></argsstring>
+        <name>PLUGINS_DIR</name>
+        <initializer>= &quot;plugins/&quot;</initializer>
+        <briefdescription>
+<para>Relative directory with plugins. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/Constants.cs" line="26" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/Constants.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d55/class_wpf_handler_1_1_plugins_1_1_constants_1aa7969fd3e77b585b42f0c99a5440dbb2" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string WpfHandler.Plugins.Constants.THEMES_DIR</definition>
+        <argsstring></argsstring>
+        <name>THEMES_DIR</name>
+        <initializer>= &quot;plugins/themes/&quot;</initializer>
+        <briefdescription>
+<para>Relative directory with themes xaml files. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/Constants.cs" line="31" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/Constants.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/Constants.cs" line="22" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/Constants.cs" bodystart="21" bodyend="32"/>
+    <listofallmembers>
+      <member refid="df/d55/class_wpf_handler_1_1_plugins_1_1_constants_1a96f55ef86fe92a534722f4788340f390" prot="public" virt="non-virtual"><scope>WpfHandler::Plugins::Constants</scope><name>PLUGINS_DIR</name></member>
+      <member refid="df/d55/class_wpf_handler_1_1_plugins_1_1_constants_1aa7969fd3e77b585b42f0c99a5440dbb2" prot="public" virt="non-virtual"><scope>WpfHandler::Plugins::Constants</scope><name>THEMES_DIR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

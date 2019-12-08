@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_79eed6a11e5db461180c4b8784046486" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls</compoundname>
+    <innerdir refid="dir_6f369bcdc09b922b3cbd50c7f5cc6beb">D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon</innerdir>
+    <innerfile refid="d0/dbc/_auto_collection_8xaml_8cs">AutoCollection.xaml.cs</innerfile>
+    <innerfile refid="dd/d6d/_catalog_button_8xaml_8cs">CatalogButton.xaml.cs</innerfile>
+    <innerfile refid="df/d2a/_collection_control_8cs">CollectionControl.cs</innerfile>
+    <innerfile refid="d4/da9/_flat_button_8xaml_8cs">FlatButton.xaml.cs</innerfile>
+    <innerfile refid="da/db6/_flat_password_box_8xaml_8cs">FlatPasswordBox.xaml.cs</innerfile>
+    <innerfile refid="de/dbf/_flat_text_box_8xaml_8cs">FlatTextBox.xaml.cs</innerfile>
+    <innerfile refid="d8/d5b/_flat_toggles_group_8xaml_8cs">FlatTogglesGroup.xaml.cs</innerfile>
+    <innerfile refid="df/d21/_header_8xaml_8cs">Header.xaml.cs</innerfile>
+    <innerfile refid="d4/d42/_i_label_8cs">ILabel.cs</innerfile>
+    <innerfile refid="d9/d9e/_i_layout_orientation_8cs">ILayoutOrientation.cs</innerfile>
+    <innerfile refid="d7/d1b/_i_layout_size_8cs">ILayoutSize.cs</innerfile>
+    <innerfile refid="d3/ded/_i_selectable_control_8cs">ISelectableControl.cs</innerfile>
+    <innerfile refid="d4/d9d/_layout_size_attribute_8cs">LayoutSizeAttribute.cs</innerfile>
+    <innerfile refid="dc/d66/_lock_screen_8xaml_8cs">LockScreen.xaml.cs</innerfile>
+    <innerfile refid="db/de6/_selectable_flat_button_8xaml_8cs">SelectableFlatButton.xaml.cs</innerfile>
+    <innerfile refid="dc/dab/_selectable_grid_8xaml_8cs">SelectableGrid.xaml.cs</innerfile>
+    <innerfile refid="dd/d0b/_switch_panel_8xaml_8cs">SwitchPanel.xaml.cs</innerfile>
+    <innerfile refid="d4/d07/_text_field_control_8cs">TextFieldControl.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/"/>
+  </compounddef>
+</doxygen>

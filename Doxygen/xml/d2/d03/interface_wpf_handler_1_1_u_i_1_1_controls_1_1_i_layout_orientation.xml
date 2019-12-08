@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d2/d03/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_orientation" kind="interface" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::Controls::ILayoutOrientation</compoundname>
+    <derivedcompoundref refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group" prot="public" virt="non-virtual">WpfHandler.UI.Controls.FlatTogglesGroup</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d2/d03/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_orientation_1ae6ef94c906753022926767578498721a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Orientation</type>
+        <definition>Orientation WpfHandler.UI.Controls.ILayoutOrientation.Orientation</definition>
+        <argsstring></argsstring>
+        <name>Orientation</name>
+        <briefdescription>
+<para>Orientation of the <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/ILayoutOrientation.cs" line="27" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/ILayoutOrientation.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementing of that interface make <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element compatible with orientation modifiers. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="376">
+        <label>WpfHandler.UI.Controls.FlatTogglesGroup</label>
+        <link refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group"/>
+        <childnode refid="375" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="375">
+        <label>WpfHandler.UI.Controls.ILayoutOrientation</label>
+        <link refid="d2/d03/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_orientation"/>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/ILayoutOrientation.cs" line="23" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/ILayoutOrientation.cs" bodystart="22" bodyend="28"/>
+    <listofallmembers>
+      <member refid="d2/d03/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_orientation_1ae6ef94c906753022926767578498721a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::ILayoutOrientation</scope><name>Orientation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

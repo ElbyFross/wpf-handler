@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9A1F206B-1F7A-43DF-8A08-D86F26B8FC81}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <RootNamespace>WpfHandler</RootNamespace>
+    <AssemblyName>WpfHandler</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
+    <DocumentationFile>bin\Debug\WpfHandler.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework.Classic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UniformDataOperator, Version=1.0.9.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Frameworks\uniform-data-operator\UniformDataOperator.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UI\AutoLayout\Configuration\ContentAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Configuration\EnumerableCompatibleAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Configuration\EnumsCompatibleAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Configuration\IGUIElementBindingAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\AutoCollectionPropertiesAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\LabelWidthAttribute.cs" />
+    <Compile Include="UI\Controls\CollectionControl.cs" />
+    <Compile Include="UI\Controls\LayoutSizeAttribute.cs" />
+    <Compile Include="UI\Effects\BlurEffect.cs" />
+    <Compile Include="UI\Animations\FloatAnimation.cs" />
+    <Compile Include="UI\Animations\GridLengthAnimation.cs" />
+    <Compile Include="UI\Animations\ObjectAnimation.cs" />
+    <Compile Include="UI\Animations\ThinknessAnimation.cs" />
+    <Compile Include="UI\AutoLayout\Configuration\OrderAttribute.cs" />
+    <Compile Include="UI\Controls\AutoCollection.xaml.cs">
+      <DependentUpon>AutoCollection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AutoLayout\Configuration\BeginHorizontalGroupAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Configuration\BeginVerticalGroupAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Configuration\CustomControlAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Configuration\EndGroupAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Controls\HeaderAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Configuration\HideInInspectorAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Controls\LabelAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\BackgroundAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\FontSizeAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\ForegroundAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\HeightAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\HorizontalAlignAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\MaxHeightAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\MaxWidthAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\MinHeightAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\MinWidthAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\OrientationAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\StyleAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\VerticalAlignAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\WidthAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Controls\SpaceAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Configuration\TypesCompatibleAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Controls\AutoLayoutVeiw.xaml.cs">
+      <DependentUpon>AutoLayoutVeiw.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ColorAttribute.cs" />
+    <Compile Include="UI\GUIContent.cs" />
+    <Compile Include="UI\AutoLayout\Interfaces\IGUIElement.cs" />
+    <Compile Include="UI\AutoLayout\Interfaces\IGUILayoutOption.cs" />
+    <Compile Include="UI\Controls\ILabel.cs" />
+    <Compile Include="UI\AutoLayout\Interfaces\Layers\ILayerAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Interfaces\Layers\ILayerBeginAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Interfaces\Layers\ILayerEndAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Interfaces\IGUIField.cs" />
+    <Compile Include="UI\Controls\ILayoutOrientation.cs" />
+    <Compile Include="UI\Controls\ILayoutSize.cs" />
+    <Compile Include="UI\Controls\ISelectableControl.cs" />
+    <Compile Include="Dictionaries\LocalizableContentAttribute.cs" />
+    <Compile Include="UI\AutoLayout\LayoutHandler.cs" />
+    <Compile Include="UI\AutoLayout\LayoutLayer.cs" />
+    <Compile Include="UI\AutoLayout\UIDescriptor.cs" />
+    <Compile Include="UI\Controls\CatalogButton.xaml.cs">
+      <DependentUpon>CatalogButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dictionaries\API.cs" />
+    <Compile Include="Dictionaries\DomainContainer.cs" />
+    <Compile Include="Plugins\API.cs" />
+    <Compile Include="Plugins\Constants.cs" />
+    <Compile Include="Plugins\Interfaces\IPlugin.cs" />
+    <Compile Include="Plugins\Interfaces\IPluginSettings.cs" />
+    <Compile Include="Plugins\MenuItemMeta.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UI\Controls\FlatButton.xaml.cs">
+      <DependentUpon>FlatButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\FlatPasswordBox.xaml.cs">
+      <DependentUpon>FlatPasswordBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\FlatTextBox.xaml.cs">
+      <DependentUpon>FlatTextBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Header.xaml.cs">
+      <DependentUpon>Header.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\LockScreen.xaml.cs">
+      <DependentUpon>LockScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Logon\LogonPanel.xaml.cs">
+      <DependentUpon>LogonPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Logon\LogonScreen.xaml.cs">
+      <DependentUpon>LogonScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Logon\RegistrationPanel.xaml.cs">
+      <DependentUpon>RegistrationPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\SelectableFlatButton.xaml.cs">
+      <DependentUpon>SelectableFlatButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\SelectableGrid.xaml.cs">
+      <DependentUpon>SelectableGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\SwitchPanel.xaml.cs">
+      <DependentUpon>SwitchPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\FlatTogglesGroup.xaml.cs">
+      <DependentUpon>FlatTogglesGroup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Effects\RectBlurEffect.cs" />
+    <Compile Include="UI\GUIContentAttribute.cs" />
+    <Compile Include="UI\Controls\TextFieldControl.cs" />
+    <Page Include="UI\Styles\Thems\base.theme.blueTheme.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Resource Include="Shaders\RectBlurEffect.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Page Include="UI\Controls\AutoCollection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\AutoLayout\Controls\AutoLayoutVeiw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Controls\CatalogButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\Controls\FlatButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Controls\FlatPasswordBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\Controls\FlatTextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Controls\Header.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Controls\LockScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Controls\Logon\LogonPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Controls\Logon\LogonScreen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\Controls\Logon\RegistrationPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Controls\SelectableFlatButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Controls\SelectableGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Controls\SwitchPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Controls\FlatTogglesGroup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Styles\BlackAndWhite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Styles\ControlsDescriptor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::UIDescriptor</compoundname>
+    <innerclass refid="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler" prot="public">WpfHandler::UI::AutoLayout::UIDescriptor::MembersHandler</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a2e1bd8a01df4160b293fd79f639ce962" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.AutoLayout.UIDescriptor.IsLoaded</definition>
+        <argsstring></argsstring>
+        <name>IsLoaded</name>
+        <briefdescription>
+<para>Is that descriptor loaded? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="38" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a6c63f0a13186cb7eae1928ec8907aea2" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Hashtable</type>
+        <definition>Hashtable WpfHandler.UI.AutoLayout.UIDescriptor.RegistredFields</definition>
+        <argsstring></argsstring>
+        <name>RegistredFields</name>
+        <initializer>= new Hashtable()</initializer>
+        <briefdescription>
+<para>The table that contais instiniated elements. Key - MemberInfo. Value - <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="57" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1abaa60ede8bf9e59734238f1beadaf50e" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor" kindref="compound">UIDescriptor</ref> &gt;</type>
+        <definition>Action&lt;UIDescriptor&gt; WpfHandler.UI.AutoLayout.UIDescriptor.Loaded</definition>
+        <argsstring></argsstring>
+        <name>Loaded</name>
+        <briefdescription>
+<para>Will occurs when the descripot get loaded state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="43" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a5870ffc200ecb9f352cb250b497b3df2" prot="private" static="no" mutable="no">
+        <type><ref refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer" kindref="compound">LayoutLayer</ref></type>
+        <definition>LayoutLayer WpfHandler.UI.AutoLayout.UIDescriptor.activeLayer</definition>
+        <argsstring></argsstring>
+        <name>activeLayer</name>
+        <initializer>= new <ref refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer" kindref="compound">LayoutLayer</ref>()</initializer>
+        <briefdescription>
+<para>Cyrrent active <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> layer. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="49" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1af342f6e3f3a3fc86eed3e998bbce1cc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.UIDescriptor.BindTo</definition>
+        <argsstring>(Panel root)</argsstring>
+        <name>BindTo</name>
+        <param>
+          <type>Panel</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+<para>Insiniate <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> by descriptor&apos;s attributes map and add it as child to parent element. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>root</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element that would contain instiniated <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> elemets.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="63" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1aa2a2328a6283c4df8aad0b8f925922e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.UIDescriptor.UnbindFrom</definition>
+        <argsstring>(Panel root)</argsstring>
+        <name>UnbindFrom</name>
+        <param>
+          <type>Panel</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+<para>Unbinding descriptor from panel. Will affect only memeber defied into descriptor and leave and other GUI elements childed to the panel. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>root</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Root panle that was binding target for descriptor.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="279" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="279" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a2862ba93b12a9698b88795d41c672f97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.UIDescriptor.ControlSignUp</definition>
+        <argsstring>(IGUIField control, MemberInfo member, object value)</argsstring>
+        <name>ControlSignUp</name>
+        <param>
+          <type><ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref></type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>MemberInfo</type>
+          <declname>member</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Safely init layout control element and sighn up on internal hadler events. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>control</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The GUI control that will be instiniated.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>member</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The member that will be binded to the GUI.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value that will applied as default.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="348" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="348" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1af39e8fdd24e6de1956b0e3b60fa74368" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref></type>
+        <definition>IGUIField WpfHandler.UI.AutoLayout.UIDescriptor.GetFieldByMember</definition>
+        <argsstring>(string memberName)</argsstring>
+        <name>GetFieldByMember</name>
+        <param>
+          <type>string</type>
+          <declname>memberName</declname>
+        </param>
+        <briefdescription>
+<para>Return an <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> field binded to the member. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>memberName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the member from the source descriptor.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A GUI Field binded to the member.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="367" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="367" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1ab965d93a86ca10bb9e7b30ac14fcfad8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref></type>
+        <definition>IGUIField WpfHandler.UI.AutoLayout.UIDescriptor.GetFieldByMember</definition>
+        <argsstring>(MemberInfo member)</argsstring>
+        <name>GetFieldByMember</name>
+        <param>
+          <type>MemberInfo</type>
+          <declname>member</declname>
+        </param>
+        <briefdescription>
+<para>Return an <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> field binded to the member. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>member</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The member from the source descriptor.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A GUI Field binded to the member.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="381" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="381" bodyend="384"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a51be997d431bb7a6d73de302f60f6dd9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool WpfHandler.UI.AutoLayout.UIDescriptor.TryToBindControl</definition>
+        <argsstring>(IGUIField control, params object[] args)</argsstring>
+        <name>TryToBindControl</name>
+        <param>
+          <type><ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref></type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>params object []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Trying to bind control to the auto layout handler. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>control</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Control that would be binded.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Must contains <ref refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor" kindref="compound">UIDescriptor</ref> and MemberInfo for success performing.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Is control was binded?</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="393" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="393" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a129506a55a400487664febab7ea85266" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WpfHandler.UI.AutoLayout.UIDescriptor.ToBindControl</definition>
+        <argsstring>(IGUIField control, params object[] args)</argsstring>
+        <name>ToBindControl</name>
+        <param>
+          <type><ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref></type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>params object []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Bind control to the auto layout handler. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>control</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Control that would be binded.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Must contains <ref refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor" kindref="compound">UIDescriptor</ref> and MemberInfo.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="415" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="415" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a763e1f50836b07edf0a3e6579454c335" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WpfHandler.UI.AutoLayout.UIDescriptor.ToBindControl</definition>
+        <argsstring>(IGUIField control, UIDescriptor descriptor, MemberInfo member)</argsstring>
+        <name>ToBindControl</name>
+        <param>
+          <type><ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref></type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor" kindref="compound">UIDescriptor</ref></type>
+          <declname>descriptor</declname>
+        </param>
+        <param>
+          <type>MemberInfo</type>
+          <declname>member</declname>
+        </param>
+        <briefdescription>
+<para>Bind control to the auto layout handler. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>control</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Control that would be binded.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>descriptor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source descriptor.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>member</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Member from the descriptor.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="438" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="438" bodyend="455"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that provides adopting of members by <ref refid="d2/d27/namespace_wpf_handler_1_1_u_i_1_1_auto_layout" kindref="compound">AutoLayout</ref> <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="613">
+        <label>WpfHandler.UI.AutoLayout.UIDescriptor</label>
+        <link refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor"/>
+        <childnode refid="614" relation="usage">
+          <edgelabel>activeLayer</edgelabel>
+        </childnode>
+      </node>
+      <node id="614">
+        <label>WpfHandler.UI.AutoLayout.LayoutLayer</label>
+        <link refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer"/>
+        <childnode refid="614" relation="usage">
+          <edgelabel>_Parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="33" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="32" bodyend="552"/>
+    <listofallmembers>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a5870ffc200ecb9f352cb250b497b3df2" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>activeLayer</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1af342f6e3f3a3fc86eed3e998bbce1cc5" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>BindTo</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a2862ba93b12a9698b88795d41c672f97" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>ControlSignUp</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1af39e8fdd24e6de1956b0e3b60fa74368" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>GetFieldByMember</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1ab965d93a86ca10bb9e7b30ac14fcfad8" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>GetFieldByMember</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a2e1bd8a01df4160b293fd79f639ce962" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>IsLoaded</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1abaa60ede8bf9e59734238f1beadaf50e" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>Loaded</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a6c63f0a13186cb7eae1928ec8907aea2" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>RegistredFields</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a129506a55a400487664febab7ea85266" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>ToBindControl</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a763e1f50836b07edf0a3e6579454c335" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>ToBindControl</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a51be997d431bb7a6d73de302f60f6dd9" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>TryToBindControl</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1aa2a2328a6283c4df8aad0b8f925922e8" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>UnbindFrom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

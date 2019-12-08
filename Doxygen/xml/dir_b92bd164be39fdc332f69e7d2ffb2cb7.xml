@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_b92bd164be39fdc332f69e7d2ffb2cb7" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls</compoundname>
+    <innerdir refid="dir_c09ccc61c0f99831ea7574a55120fa2f">D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon</innerdir>
+    <innerfile refid="d9/d54/_release_2_u_i_2_controls_2_auto_collection_8g_8cs">AutoCollection.g.cs</innerfile>
+    <innerfile refid="dc/db8/_release_2_u_i_2_controls_2_auto_collection_8g_8i_8cs">AutoCollection.g.i.cs</innerfile>
+    <innerfile refid="dc/d86/_release_2_u_i_2_controls_2_catalog_button_8g_8cs">CatalogButton.g.cs</innerfile>
+    <innerfile refid="d2/d19/_release_2_u_i_2_controls_2_catalog_button_8g_8i_8cs">CatalogButton.g.i.cs</innerfile>
+    <innerfile refid="d7/d05/_release_2_u_i_2_controls_2_flat_button_8g_8cs">FlatButton.g.cs</innerfile>
+    <innerfile refid="d7/d8c/_release_2_u_i_2_controls_2_flat_button_8g_8i_8cs">FlatButton.g.i.cs</innerfile>
+    <innerfile refid="da/d33/_release_2_u_i_2_controls_2_flat_password_box_8g_8cs">FlatPasswordBox.g.cs</innerfile>
+    <innerfile refid="d9/d54/_release_2_u_i_2_controls_2_flat_password_box_8g_8i_8cs">FlatPasswordBox.g.i.cs</innerfile>
+    <innerfile refid="d0/d5e/_release_2_u_i_2_controls_2_flat_text_box_8g_8cs">FlatTextBox.g.cs</innerfile>
+    <innerfile refid="dc/d9a/_release_2_u_i_2_controls_2_flat_text_box_8g_8i_8cs">FlatTextBox.g.i.cs</innerfile>
+    <innerfile refid="dd/db0/_release_2_u_i_2_controls_2_flat_toggles_group_8g_8cs">FlatTogglesGroup.g.cs</innerfile>
+    <innerfile refid="de/d09/_release_2_u_i_2_controls_2_flat_toggles_group_8g_8i_8cs">FlatTogglesGroup.g.i.cs</innerfile>
+    <innerfile refid="d9/dd4/_release_2_u_i_2_controls_2_header_8g_8cs">Header.g.cs</innerfile>
+    <innerfile refid="d8/dbf/_release_2_u_i_2_controls_2_header_8g_8i_8cs">Header.g.i.cs</innerfile>
+    <innerfile refid="d7/d2c/_release_2_u_i_2_controls_2_lock_screen_8g_8cs">LockScreen.g.cs</innerfile>
+    <innerfile refid="d9/d23/_release_2_u_i_2_controls_2_lock_screen_8g_8i_8cs">LockScreen.g.i.cs</innerfile>
+    <innerfile refid="d4/d2a/_release_2_u_i_2_controls_2_selectable_flat_button_8g_8cs">SelectableFlatButton.g.cs</innerfile>
+    <innerfile refid="da/d73/_release_2_u_i_2_controls_2_selectable_flat_button_8g_8i_8cs">SelectableFlatButton.g.i.cs</innerfile>
+    <innerfile refid="dd/d1c/_release_2_u_i_2_controls_2_selectable_grid_8g_8cs">SelectableGrid.g.cs</innerfile>
+    <innerfile refid="db/da0/_release_2_u_i_2_controls_2_selectable_grid_8g_8i_8cs">SelectableGrid.g.i.cs</innerfile>
+    <innerfile refid="d6/daf/_release_2_u_i_2_controls_2_switch_panel_8g_8cs">SwitchPanel.g.cs</innerfile>
+    <innerfile refid="dd/d8b/_release_2_u_i_2_controls_2_switch_panel_8g_8i_8cs">SwitchPanel.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/"/>
+  </compounddef>
+</doxygen>

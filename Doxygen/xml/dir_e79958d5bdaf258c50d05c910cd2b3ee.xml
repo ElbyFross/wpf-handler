@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_e79958d5bdaf258c50d05c910cd2b3ee" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/Interfaces</compoundname>
+    <innerfile refid="d0/d6a/_i_plugin_8cs">IPlugin.cs</innerfile>
+    <innerfile refid="d8/dfe/_i_plugin_settings_8cs">IPluginSettings.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/Interfaces/"/>
+  </compounddef>
+</doxygen>

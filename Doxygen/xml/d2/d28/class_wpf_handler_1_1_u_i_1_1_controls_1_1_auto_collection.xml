@@ -1,0 +1,960 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::Controls::AutoCollection</compoundname>
+    <basecompoundref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control" prot="public" virt="non-virtual">WpfHandler.UI.Controls.CollectionControl</basecompoundref>
+    <basecompoundref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control" prot="public" virt="non-virtual">WpfHandler.UI.Controls.CollectionControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control" prot="public" virt="non-virtual">WpfHandler.UI.Controls.CollectionControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control" prot="public" virt="non-virtual">WpfHandler.UI.Controls.CollectionControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control" prot="public" virt="non-virtual">WpfHandler.UI.Controls.CollectionControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a7dc53e4e449c84aaf0224e67178c75ee" prot="package" static="no" mutable="no">
+        <type>System.Windows.Shapes.Rectangle</type>
+        <definition>System Windows Shapes Rectangle WpfHandler.UI.Controls.AutoCollection::buttonsBridge</definition>
+        <argsstring></argsstring>
+        <name>buttonsBridge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" line="46" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a7789a472b03e85cbe2549c9013be00bf" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid WpfHandler.UI.Controls.AutoCollection::addButtonGroup</definition>
+        <argsstring></argsstring>
+        <name>addButtonGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" line="54" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a13695c847269d9dbe772f19a851fe3e2" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid WpfHandler.UI.Controls.AutoCollection::removeButtonGroup</definition>
+        <argsstring></argsstring>
+        <name>removeButtonGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" line="62" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a63c727fa284523170ce868104ff84fdd" prot="package" static="no" mutable="no">
+        <type>System.Windows.Shapes.Rectangle</type>
+        <definition>System Windows Shapes Rectangle WpfHandler.UI.Controls.AutoCollection::cornerBackplate</definition>
+        <argsstring></argsstring>
+        <name>cornerBackplate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a9ac5ea400a66d488ed009aaf7ed690f3" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid WpfHandler.UI.Controls.AutoCollection::collectionPanel</definition>
+        <argsstring></argsstring>
+        <name>collectionPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" line="78" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a02f27ec31a3f8119adb18c4d7985d8df" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ScrollViewer</type>
+        <definition>System Windows Controls ScrollViewer WpfHandler.UI.Controls.AutoCollection::veiw</definition>
+        <argsstring></argsstring>
+        <name>veiw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" line="86" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a8c09e909985500e234de87514b262f6c" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ListBox</type>
+        <definition>System Windows Controls ListBox WpfHandler.UI.Controls.AutoCollection::contentPanel</definition>
+        <argsstring></argsstring>
+        <name>contentPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" line="94" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a9b1198e458151ced3611a7f6062506e9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.AutoCollection::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" line="99" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1ad8966a126d82307e2796bba38737518e" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.AutoCollection.BackplateBackgroundProperty</definition>
+        <argsstring></argsstring>
+        <name>BackplateBackgroundProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;BackplateBackground&quot;, typeof(Brush), typeof(<ref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" kindref="compound">AutoCollection</ref>),
+          new PropertyMetadata(Brushes.WhiteSmoke))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="48" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a0d827839ba40e106ecbe9470a7e4c53b" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.AutoCollection.SpliterColorProperty</definition>
+        <argsstring></argsstring>
+        <name>SpliterColorProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;SpliterColor&quot;, typeof(Brush), typeof(<ref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" kindref="compound">AutoCollection</ref>),
+          new PropertyMetadata(Brushes.LightGray))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="55" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a7f269c1eaefddc9f23e9aa7c523740de" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.AutoCollection.CornerRadiusProperty</definition>
+        <argsstring></argsstring>
+        <name>CornerRadiusProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;CornerRadius&quot;, typeof(double), typeof(<ref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" kindref="compound">AutoCollection</ref>),
+          new PropertyMetadata(7.0d))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="62" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a142911c55327f71205f61bf4f32f2e35" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.AutoCollection.SplitersDrawProperty</definition>
+        <argsstring></argsstring>
+        <name>SplitersDrawProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;SplitersDraw&quot;, typeof(bool), typeof(<ref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" kindref="compound">AutoCollection</ref>),
+          new PropertyMetadata(true))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="69" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1aff46124c0cd77747b466fa231ce4f264" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.AutoCollection.AddButtonVisibileProperty</definition>
+        <argsstring></argsstring>
+        <name>AddButtonVisibileProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;AddButtonVisibile&quot;, typeof(bool), typeof(<ref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" kindref="compound">AutoCollection</ref>),
+          new PropertyMetadata(true))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="76" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a85a427be17693babbaa5943c04c2ca2d" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.AutoCollection.RemoveButtonVisibileProperty</definition>
+        <argsstring></argsstring>
+        <name>RemoveButtonVisibileProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;RemoveButtonVisibile&quot;, typeof(bool), typeof(<ref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" kindref="compound">AutoCollection</ref>),
+          new PropertyMetadata(true))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="83" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1adb3a377a24d9b0fefc0d58cf0c8e6289" prot="public" static="yes" mutable="no">
+        <type>readonly RoutedEvent</type>
+        <definition>readonly RoutedEvent WpfHandler.UI.Controls.AutoCollection.OnAddEvent</definition>
+        <argsstring></argsstring>
+        <name>OnAddEvent</name>
+        <initializer>= EventManager.RegisterRoutedEvent(&quot;OnAddClick&quot;,
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(<ref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" kindref="compound">AutoCollection</ref>))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="90" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a55213a701b1defa4c6a490d25f083fe4" prot="public" static="yes" mutable="no">
+        <type>readonly RoutedEvent</type>
+        <definition>readonly RoutedEvent WpfHandler.UI.Controls.AutoCollection.OnRemoveEvent</definition>
+        <argsstring></argsstring>
+        <name>OnRemoveEvent</name>
+        <initializer>= EventManager.RegisterRoutedEvent(&quot;OnRemoveClick&quot;,
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(<ref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" kindref="compound">AutoCollection</ref>))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="96" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a5b53cdaeabbf4958eb0391475f060771" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.AutoCollection.AddButtonVisibile</definition>
+        <argsstring></argsstring>
+        <name>AddButtonVisibile</name>
+        <briefdescription>
+<para>If the add button available for an user. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="104" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="105" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1af64aaec7162358b87294c5b7f77c8e54" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.AutoCollection.RemoveButtonVisibile</definition>
+        <argsstring></argsstring>
+        <name>RemoveButtonVisibile</name>
+        <briefdescription>
+<para>Is the remove button available for an user. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="120" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="121" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a78b75144a4f57f1ec4d6027388afbd5d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.AutoCollection.SplitersDraw</definition>
+        <argsstring></argsstring>
+        <name>SplitersDraw</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Is the spliting lines between content elements are visible. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="136" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a0a78d9c621857e9a61e19cba5001589d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double WpfHandler.UI.Controls.AutoCollection.CornerRadius</definition>
+        <argsstring></argsstring>
+        <name>CornerRadius</name>
+        <briefdescription>
+<para>Radius of the rounded corders. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="141" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="142" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a9234690dcc653145332286c86afa4904" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Brush</type>
+        <definition>Brush WpfHandler.UI.Controls.AutoCollection.SpliterColor</definition>
+        <argsstring></argsstring>
+        <name>SpliterColor</name>
+        <briefdescription>
+<para>Color of the spliters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="150" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="151" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1af74226c7fb905acd0a3040ba4b677713" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Brush</type>
+        <definition>Brush WpfHandler.UI.Controls.AutoCollection.BackplateBackground</definition>
+        <argsstring></argsstring>
+        <name>BackplateBackground</name>
+        <briefdescription>
+<para>Color of the backplate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="184" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="185" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a144774a121d36e2207fd0e39dd67a074" prot="public" static="no" mutable="no">
+        <type>override ListBox</type>
+        <definition>override ListBox WpfHandler.UI.Controls.AutoCollection.ListContent</definition>
+        <argsstring></argsstring>
+        <name>ListContent</name>
+        <initializer>=&gt; contentPanel</initializer>
+        <briefdescription>
+<para>Bindted lsit element that will manage items. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="193" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a996c2d451bb6e072a9ff03ce6a21b5fc" prot="public" static="no" mutable="no">
+        <type>Action&lt; object &gt;</type>
+        <definition>Action&lt;object&gt; WpfHandler.UI.Controls.AutoCollection.OnAddClick</definition>
+        <argsstring></argsstring>
+        <name>OnAddClick</name>
+        <briefdescription>
+<para>The delegate that will be called during Add button click. In case if initialized then will be called instead default. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="199" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a6130a353d0fadfaaf9bc17881406354f" prot="public" static="no" mutable="no">
+        <type>Action&lt; object &gt;</type>
+        <definition>Action&lt;object&gt; WpfHandler.UI.Controls.AutoCollection.OnRemoveClick</definition>
+        <argsstring></argsstring>
+        <name>OnRemoveClick</name>
+        <briefdescription>
+<para>The delegate that will be called during Remove button click. In case if initialized then will be called instead default. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="205" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a625f859b619ad02bc4943b8086a95dfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.AutoCollection.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" line="106" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" bodystart="106" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a625f859b619ad02bc4943b8086a95dfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.AutoCollection.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.i.cs" line="106" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.i.cs" bodystart="106" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a625f859b619ad02bc4943b8086a95dfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.AutoCollection.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/AutoCollection.g.cs" line="106" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/AutoCollection.g.cs" bodystart="106" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a625f859b619ad02bc4943b8086a95dfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.AutoCollection.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/AutoCollection.g.i.cs" line="106" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/AutoCollection.g.i.cs" bodystart="106" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a8bc71a7c43dfeca1d6ff113b12088c28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.Controls.AutoCollection.AutoCollection</definition>
+        <argsstring>()</argsstring>
+        <name>AutoCollection</name>
+        <briefdescription>
+<para>Initialize that component. Looking for the <computeroutput><ref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" kindref="compound">AutoCollection</ref></computeroutput> Style resource. Use default if not found. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="213" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="213" bodyend="232"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a99c959811ba90ac28a922c4fca6354c5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Delegate</type>
+        <definition>System.Delegate WpfHandler.UI.Controls.AutoCollection._CreateDelegate</definition>
+        <argsstring>(System.Type delegateType, string handler)</argsstring>
+        <name>_CreateDelegate</name>
+        <param>
+          <type>System.Type</type>
+          <declname>delegateType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" line="123" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" bodystart="123" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a99c959811ba90ac28a922c4fca6354c5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Delegate</type>
+        <definition>System.Delegate WpfHandler.UI.Controls.AutoCollection._CreateDelegate</definition>
+        <argsstring>(System.Type delegateType, string handler)</argsstring>
+        <name>_CreateDelegate</name>
+        <param>
+          <type>System.Type</type>
+          <declname>delegateType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.i.cs" line="123" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.i.cs" bodystart="123" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a99c959811ba90ac28a922c4fca6354c5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Delegate</type>
+        <definition>System.Delegate WpfHandler.UI.Controls.AutoCollection._CreateDelegate</definition>
+        <argsstring>(System.Type delegateType, string handler)</argsstring>
+        <name>_CreateDelegate</name>
+        <param>
+          <type>System.Type</type>
+          <declname>delegateType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/AutoCollection.g.cs" line="123" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/AutoCollection.g.cs" bodystart="123" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a99c959811ba90ac28a922c4fca6354c5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Delegate</type>
+        <definition>System.Delegate WpfHandler.UI.Controls.AutoCollection._CreateDelegate</definition>
+        <argsstring>(System.Type delegateType, string handler)</argsstring>
+        <name>_CreateDelegate</name>
+        <param>
+          <type>System.Type</type>
+          <declname>delegateType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/AutoCollection.g.i.cs" line="123" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/AutoCollection.g.i.cs" bodystart="123" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1ae27a9f5902ca092611b2dfcae06aac84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.Controls.AutoCollection.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" line="133" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" bodystart="133" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1ae27a9f5902ca092611b2dfcae06aac84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.Controls.AutoCollection.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.i.cs" line="133" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.i.cs" bodystart="133" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1ae27a9f5902ca092611b2dfcae06aac84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.Controls.AutoCollection.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/AutoCollection.g.cs" line="133" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/AutoCollection.g.cs" bodystart="133" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1ae27a9f5902ca092611b2dfcae06aac84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.Controls.AutoCollection.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/AutoCollection.g.i.cs" line="133" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/AutoCollection.g.i.cs" bodystart="133" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a1a849b598ba5dadbb9466b3b758377cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.AutoCollection.AutoCollection_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>AutoCollection_Loaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Occurs when the contol is loaded. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="371" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="371" bodyend="374"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a01ab069c42e1737cebb4bb813ec8aa06" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.AutoCollection.RecomputeLayout</definition>
+        <argsstring>()</argsstring>
+        <name>RecomputeLayout</name>
+        <briefdescription>
+<para>Recomputing element layout. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="238" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="238" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a7cea6362ca2a31dca7bca6ab1f39142d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override FrameworkElement</type>
+        <definition>override FrameworkElement WpfHandler.UI.Controls.AutoCollection.ItemRegistration</definition>
+        <argsstring>(int index)</argsstring>
+        <name>ItemRegistration</name>
+        <reimplements refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1af375cbcb4d351b4d104b2706d39b8303">ItemRegistration</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Registrating an item of the list. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An index of item into the source collection.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="273" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="273" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1ac229b39e23e0d2d9895f4897d1116e70" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.AutoCollection.OnAdd</definition>
+        <argsstring>(object sender)</argsstring>
+        <name>OnAdd</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+<para>Occurs when user pressing add button. Adding an element of the type that described in the first generic type argument of the source IList. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An element that caused that callback.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="315" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="315" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1addd4df92578229539c28bc4db8121d68" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.AutoCollection.OnRemove</definition>
+        <argsstring>(object sender)</argsstring>
+        <name>OnRemove</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+<para>Occurs when user pressing remove button. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>&gt;An element that caused that callback.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" line="350" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/AutoCollection.xaml.cs" bodystart="350" bodyend="364"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" kindref="compound">AutoCollection</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para>Creating <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element for work with binded collections. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>IGUIField</label>
+        <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>CollectionControl</label>
+        <link refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>WpfHandler::UI::Controls::CollectionControl</label>
+        <link refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>WpfHandler.UI.Controls.AutoCollection</label>
+        <link refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>IList</label>
+      </node>
+      <node id="10">
+        <label>IGUIElement</label>
+        <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
+      </node>
+      <node id="13">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="8">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="17">
+        <label>IGUIField</label>
+        <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>CollectionControl</label>
+        <link refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>WpfHandler::UI::Controls::CollectionControl</label>
+        <link refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>WpfHandler.UI.Controls.AutoCollection</label>
+        <link refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+        <childnode refid="22" relation="usage">
+          <edgelabel>addButtonGroup</edgelabel>
+          <edgelabel>collectionPanel</edgelabel>
+          <edgelabel>cornerBackplate</edgelabel>
+          <edgelabel>buttonsBridge</edgelabel>
+          <edgelabel>removeButtonGroup</edgelabel>
+          <edgelabel>veiw</edgelabel>
+          <edgelabel>contentPanel</edgelabel>
+        </childnode>
+      </node>
+      <node id="19">
+        <label>IList</label>
+      </node>
+      <node id="18">
+        <label>IGUIElement</label>
+        <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
+      </node>
+      <node id="22">
+        <label>System</label>
+      </node>
+      <node id="21">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="16">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/AutoCollection.g.cs" bodystart="41" bodyend="160"/>
+    <listofallmembers>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a9b1198e458151ced3611a7f6062506e9" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>_contentLoaded</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a99c959811ba90ac28a922c4fca6354c5" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>_CreateDelegate</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a99c959811ba90ac28a922c4fca6354c5" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>_CreateDelegate</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a99c959811ba90ac28a922c4fca6354c5" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>_CreateDelegate</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a99c959811ba90ac28a922c4fca6354c5" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>_CreateDelegate</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae17242c33bd29c2545a06bba9c93a1df" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>Add</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a7789a472b03e85cbe2549c9013be00bf" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>addButtonGroup</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a5b53cdaeabbf4958eb0391475f060771" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>AddButtonVisibile</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1aff46124c0cd77747b466fa231ce4f264" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>AddButtonVisibileProperty</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a8bc71a7c43dfeca1d6ff113b12088c28" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>AutoCollection</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a1a849b598ba5dadbb9466b3b758377cf" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>AutoCollection_Loaded</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1af74226c7fb905acd0a3040ba4b677713" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>BackplateBackground</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1ad8966a126d82307e2796bba38737518e" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>BackplateBackgroundProperty</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ac5f779f05470058d2506b4f37cade718" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>BindedMember</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a7dc53e4e449c84aaf0224e67178c75ee" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>buttonsBridge</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a1f1a7fd996c4e15ec7fe3b2724e962d3" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>Clear</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a5228b3f2d5efec75b178a160bfd9a558" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>CollectionControl</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a2372fa8b10c175bb81d5901f36cbf8f7" prot="protected" virt="virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>CollectionElementValueChanged</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a9ac5ea400a66d488ed009aaf7ed690f3" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>collectionPanel</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a5fdb64f8a451f387f2a36686f0fec014" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>ConfigurateStyles</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1ae27a9f5902ca092611b2dfcae06aac84" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>Connect</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1ae27a9f5902ca092611b2dfcae06aac84" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>Connect</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1ae27a9f5902ca092611b2dfcae06aac84" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>Connect</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1ae27a9f5902ca092611b2dfcae06aac84" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>Connect</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae703be50b290be72a7a40acbfe65b04c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>Contains</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a8c09e909985500e234de87514b262f6c" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>contentPanel</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a1cf65910d88b69192fd7dd764a63609a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>CopyTo</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a63c727fa284523170ce868104ff84fdd" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>cornerBackplate</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a0a78d9c621857e9a61e19cba5001589d" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>CornerRadius</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a7f269c1eaefddc9f23e9aa7c523740de" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>CornerRadiusProperty</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1af4796b6959bcb870bde22f6d32379242" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>Count</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a93748b307999d44bfa539f0a799af1de" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>DragAllowed</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1aea4afe7ae229937f9c99809d720d8875" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>DragAllowedProperty</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ade5772e31978f3f8764f50d7483d27f4" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>Elements</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a47291558ce667430c006d9e294f714bb" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>Fields</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a63509ef1e8df1c4901f3b83ff9473236" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>GetEnumerator</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1af3a8d4c03474bbb80d8d461f4a8e33e8" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>indexMap</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ad2021b989a7f5aae430e12727a918982" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>IndexOf</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a625f859b619ad02bc4943b8086a95dfd" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>InitializeComponent</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a625f859b619ad02bc4943b8086a95dfd" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>InitializeComponent</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a625f859b619ad02bc4943b8086a95dfd" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>InitializeComponent</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a625f859b619ad02bc4943b8086a95dfd" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>InitializeComponent</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae89cb3b260d441186bac7ee953f4c028" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>Insert</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1aa95fcae30ed2356bfff8154bcceecc8a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>IsFixedSize</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a2e1f163821f2cbc367ef40d3dcf652eb" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>IsReadOnly</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a0a40907daa815eb6c01be8677eb09450" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>IsSynchronized</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a7cea6362ca2a31dca7bca6ab1f39142d" prot="protected" virt="virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>ItemRegistration</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a144774a121d36e2207fd0e39dd67a074" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>ListContent</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1ac229b39e23e0d2d9895f4897d1116e70" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>OnAdd</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a996c2d451bb6e072a9ff03ce6a21b5fc" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>OnAddClick</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1adb3a377a24d9b0fefc0d58cf0c8e6289" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>OnAddEvent</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae52c8e47654ca10e714a1e87a193331b" prot="protected" virt="virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>OnItemDrop</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a54cf416fee122e600059ed8713d75bb0" prot="public" virt="virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>OnLayout</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ad6c991f82c204e789f32f21d28d48524" prot="protected" virt="virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>OnPreviewMouseLeftButtonDown</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1addd4df92578229539c28bc4db8121d68" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>OnRemove</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a6130a353d0fadfaaf9bc17881406354f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>OnRemoveClick</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a55213a701b1defa4c6a490d25f083fe4" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>OnRemoveEvent</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a01ab069c42e1737cebb4bb813ec8aa06" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>RecomputeLayout</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1acc5c3b3a95e4d58b6cda68e5f61089fd" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>Remove</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ab9ea70c06d17283a4e07195b0f9b0de7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>RemoveAt</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a13695c847269d9dbe772f19a851fe3e2" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>removeButtonGroup</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1af64aaec7162358b87294c5b7f77c8e54" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>RemoveButtonVisibile</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a85a427be17693babbaa5943c04c2ca2d" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>RemoveButtonVisibileProperty</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>source</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a9234690dcc653145332286c86afa4904" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>SpliterColor</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a0d827839ba40e106ecbe9470a7e4c53b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>SpliterColorProperty</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a78b75144a4f57f1ec4d6027388afbd5d" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>SplitersDraw</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a142911c55327f71205f61bf4f32f2e35" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>SplitersDrawProperty</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a4ab9c597654cf0ca762f2fa13e807fc7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>SyncRoot</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ade95cee1fcd80188e8b5e5a15b33d43f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>this[int index]</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a6df510adc9706b127f2179a6cc123799" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>UpdateElementsWidth</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a130ec8fe8e45683069833138833e9356" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>Value</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a7c24ead5af7dadce18f017f0a93706a2" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>ValueChanged</name></member>
+      <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a02f27ec31a3f8119adb18c4d7985d8df" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::AutoCollection</scope><name>veiw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

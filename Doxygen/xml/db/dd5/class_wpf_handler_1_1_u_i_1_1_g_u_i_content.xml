@@ -1,0 +1,557 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::GUIContent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FrameworkElement</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a165b9cf266e359c62f576b07ee9865ad" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content" kindref="compound">GUIContent</ref> &gt;</type>
+        <definition>Action&lt;GUIContent&gt; WpfHandler.UI.GUIContent.ContentUpdated</definition>
+        <argsstring></argsstring>
+        <name>ContentUpdated</name>
+        <briefdescription>
+<para>Event that will occure when content properties will updated. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="34" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a9d8259c5a572b9ab33faab8166fc6053" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content" kindref="compound">GUIContent</ref></type>
+        <definition>GUIContent WpfHandler.UI.GUIContent.None</definition>
+        <argsstring></argsstring>
+        <name>None</name>
+        <briefdescription>
+<para>Empty content. Can&apos;t change none state after instiniation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="40" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="41" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1afa422133cdb4b7e81ab4041e3bcb93ca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.GUIContent.DefaultTitle</definition>
+        <argsstring></argsstring>
+        <name>DefaultTitle</name>
+        <briefdescription>
+<para>Title that would be used by default in case if dynamic dictionry not found. in case if null then would be automaticly generated from the name of the binded member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="57" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1afc956b837fa7495d33e25aba7995297b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.GUIContent.DefaultDescription</definition>
+        <argsstring></argsstring>
+        <name>DefaultDescription</name>
+        <briefdescription>
+<para>Description that would be used by default in case if dynamic dictionry not found. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="71" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a3d8843f4aaceba1bb1174f33c925bab2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.GUIContent.TitleLocalizationResourseKey</definition>
+        <argsstring></argsstring>
+        <name>TitleLocalizationResourseKey</name>
+        <briefdescription>
+<para>Key of resource from dynamic dictionary that would be used for loading of localized title. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="83" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="84" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a03f871ffe5fe0858b5be321e356393ee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.GUIContent.DecriptionLocalizationResourseKey</definition>
+        <argsstring></argsstring>
+        <name>DecriptionLocalizationResourseKey</name>
+        <briefdescription>
+<para>Key of resource from dynamic dictionary that would be used for loading of localized description. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="96" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="97" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="property" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ab8044a6651911a3b52f47b4cc6c485cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.GUIContent.IsNone</definition>
+        <argsstring></argsstring>
+        <name>IsNone</name>
+        <briefdescription>
+<para>Is that conent is defult none. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="109" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="110" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1af02b5c5e573d3bb9a92dfd9063690d1d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.GUIContent._Title</definition>
+        <argsstring></argsstring>
+        <name>_Title</name>
+        <briefdescription>
+<para>Bufer that contains last defined title. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="119" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a2589ade8a7b670ed7091b7c658863bb7" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.GUIContent._Description</definition>
+        <argsstring></argsstring>
+        <name>_Description</name>
+        <briefdescription>
+<para>Bufer that contains last defined description. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="124" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1afffba81fad8d7a802ec0f55a6c8b9da7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.GUIContent._isNone</definition>
+        <argsstring></argsstring>
+        <name>_isNone</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>is that content is none. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="129" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a7bfdcdd062eaf3f8cadcdb34eed52d2f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.GUIContent._DefaultTitle</definition>
+        <argsstring></argsstring>
+        <name>_DefaultTitle</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Title that would be used by default in case if dynamic dictionry not found. in case if null then would be automaticly generated from the name of the binded member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="135" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a7d0ce7f98f08a7e1373eb150231d0c56" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.GUIContent._DefaultDescription</definition>
+        <argsstring></argsstring>
+        <name>_DefaultDescription</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Description that would be used by default in case if dynamic dictionry not found. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="140" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ac878075c0d59c6ce0c7b54a82b5843c8" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.GUIContent._TitleLocalizationResourseKey</definition>
+        <argsstring></argsstring>
+        <name>_TitleLocalizationResourseKey</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Key of resource from dynamic dictionary that would be used for loading of localized title. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="145" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a067181a637a28c683c1a24ed06e577ae" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.GUIContent._DecriptionLocalizationResourseKey</definition>
+        <argsstring></argsstring>
+        <name>_DecriptionLocalizationResourseKey</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Key of resource from dynamic dictionary that would be used for loading of localized description. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="150" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a94df176704a9da39956a31d4cc1f3aeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.GUIContent.GUIContent</definition>
+        <argsstring>()</argsstring>
+        <name>GUIContent</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="157" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="157" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a4608943cf14878430faed858fb93b6fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.GUIContent.GUIContent</definition>
+        <argsstring>(string title)</argsstring>
+        <name>GUIContent</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+<para>Constructor that allow to set title. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title of the element.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="167" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="167" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a1b6b06ba3dceb601146432dc2366240f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.GUIContent.GUIContent</definition>
+        <argsstring>(string title, string description)</argsstring>
+        <name>GUIContent</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+<para>Constructor that allow to set title. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title of that element.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Description of that element.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="180" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="180" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a04d4c3d50ac71b80f193a3f8539a70ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.GUIContent.GUIContent</definition>
+        <argsstring>(string defaultTitle, string defaultDescription, string decriptionLocalizationResourseKey)</argsstring>
+        <name>GUIContent</name>
+        <param>
+          <type>string</type>
+          <declname>defaultTitle</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultDescription</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>decriptionLocalizationResourseKey</declname>
+        </param>
+        <briefdescription>
+<para>Initialize all allowed fields. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultTitle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title that would be used by default if localization dictionary not found.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultDescription</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Default description if localization dictionary not found.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>decriptionLocalizationResourseKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key of description content in localized dynamic dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="195" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="195" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a20eef2a05ca7432cdb0b56731f1ec47b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.GUIContent.GUIContent</definition>
+        <argsstring>(string defaultTitle, string defaultDescription, string titleLocalizationResourseKey, string decriptionLocalizationResourseKey)</argsstring>
+        <name>GUIContent</name>
+        <param>
+          <type>string</type>
+          <declname>defaultTitle</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultDescription</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>titleLocalizationResourseKey</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>decriptionLocalizationResourseKey</declname>
+        </param>
+        <briefdescription>
+<para>Initialize all allowed fields. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultTitle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Title that would be used by default if localization dictionary not found.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultDescription</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Default description if localization dictionary not found.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>titleLocalizationResourseKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key of title content in localized dynamic dictionary.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>decriptionLocalizationResourseKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Key of description content in localized dynamic dictionary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="215" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="215" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a06b4859ce09ed1dc91545154cdb9d5c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string WpfHandler.UI.GUIContent.GetTitle</definition>
+        <argsstring>()</argsstring>
+        <name>GetTitle</name>
+        <briefdescription>
+<para>Define relevant title for certain member. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Relevant title based on internal data of content.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="245" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="245" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a36c48561703ca7b73f21187ee9ff08bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string WpfHandler.UI.GUIContent.GetTitle</definition>
+        <argsstring>(MemberInfo member)</argsstring>
+        <name>GetTitle</name>
+        <param>
+          <type>MemberInfo</type>
+          <declname>member</declname>
+        </param>
+        <briefdescription>
+<para>Define relevant title for certain member. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>member</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Binded member that would be used as source of auto generated member title.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Relevant title of the member.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="255" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="255" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a98ca8cae768fad4160df1aba48d6f7f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string WpfHandler.UI.GUIContent.GetDescription</definition>
+        <argsstring>()</argsstring>
+        <name>GetDescription</name>
+        <briefdescription>
+<para>Define relevant description for certain member. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Relevant description of the member.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="285" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="285" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ad37327acd55ad09e036f284970d1e022" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string WpfHandler.UI.GUIContent.Format</definition>
+        <argsstring>(string memberName)</argsstring>
+        <name>Format</name>
+        <param>
+          <type>string</type>
+          <declname>memberName</declname>
+        </param>
+        <briefdescription>
+<para>Format member name to user reandly veiw. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>memberName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the member.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Formated name.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="309" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="309" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ae691340b5a25a5497d9f64d4b0adddd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.GUIContent.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+<para>Clearing current data. To allow update. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="349" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="349" bodyend="353"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a6bd38c606c795603ab17e2d6acfec72f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.GUIContent.~GUIContent</definition>
+        <argsstring>()</argsstring>
+        <name>~GUIContent</name>
+        <briefdescription>
+<para>Resliasing unmanged memory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="233" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="233" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a05536bbfc1d91f3c2db9bea9ae2dc468" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.GUIContent.API_LanguagesDictionariesUpdated</definition>
+        <argsstring>()</argsstring>
+        <name>API_LanguagesDictionariesUpdated</name>
+        <briefdescription>
+<para>WIll occure when new pool of language dictionaries will loaded. Drop current value to allow reloading. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="361" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="361" bodyend="365"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Define content of GUI lement. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="233">
+        <label>WpfHandler.UI.GUIContent</label>
+        <link refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content"/>
+        <childnode refid="234" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>FrameworkElement</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="235">
+        <label>WpfHandler.UI.GUIContent</label>
+        <link refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content"/>
+        <childnode refid="236" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>FrameworkElement</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="30" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="29" bodyend="367"/>
+    <listofallmembers>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a067181a637a28c683c1a24ed06e577ae" prot="private" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>_DecriptionLocalizationResourseKey</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a7d0ce7f98f08a7e1373eb150231d0c56" prot="private" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>_DefaultDescription</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a7bfdcdd062eaf3f8cadcdb34eed52d2f" prot="private" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>_DefaultTitle</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a2589ade8a7b670ed7091b7c658863bb7" prot="private" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>_Description</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1afffba81fad8d7a802ec0f55a6c8b9da7" prot="private" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>_isNone</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1af02b5c5e573d3bb9a92dfd9063690d1d" prot="private" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>_Title</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ac878075c0d59c6ce0c7b54a82b5843c8" prot="private" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>_TitleLocalizationResourseKey</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a05536bbfc1d91f3c2db9bea9ae2dc468" prot="private" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>API_LanguagesDictionariesUpdated</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ae691340b5a25a5497d9f64d4b0adddd6" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>Clear</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a165b9cf266e359c62f576b07ee9865ad" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>ContentUpdated</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a03f871ffe5fe0858b5be321e356393ee" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>DecriptionLocalizationResourseKey</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1afc956b837fa7495d33e25aba7995297b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>DefaultDescription</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1afa422133cdb4b7e81ab4041e3bcb93ca" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>DefaultTitle</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ad37327acd55ad09e036f284970d1e022" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>Format</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a98ca8cae768fad4160df1aba48d6f7f6" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>GetDescription</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a06b4859ce09ed1dc91545154cdb9d5c3" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>GetTitle</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a36c48561703ca7b73f21187ee9ff08bb" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>GetTitle</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a94df176704a9da39956a31d4cc1f3aeb" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>GUIContent</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a4608943cf14878430faed858fb93b6fa" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>GUIContent</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a1b6b06ba3dceb601146432dc2366240f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>GUIContent</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a04d4c3d50ac71b80f193a3f8539a70ac" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>GUIContent</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a20eef2a05ca7432cdb0b56731f1ec47b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>GUIContent</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ab8044a6651911a3b52f47b4cc6c485cd" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>IsNone</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a9d8259c5a572b9ab33faab8166fc6053" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>None</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a3d8843f4aaceba1bb1174f33c925bab2" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>TitleLocalizationResourseKey</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a6bd38c606c795603ab17e2d6acfec72f" prot="private" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>~GUIContent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

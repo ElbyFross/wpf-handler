@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::Configuration::CustomControlAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute_1a71f151123c78381231004ac155570be0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Type</type>
+        <definition>Type WpfHandler.UI.AutoLayout.Configuration.CustomControlAttribute.ControlType</definition>
+        <argsstring></argsstring>
+        <name>ControlType</name>
+        <briefdescription>
+<para>Control&apos;s type that would be instiniated into GUI. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/CustomControlAttribute.cs" line="34" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/CustomControlAttribute.cs" bodystart="35" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute_1a3099e2b45323143744f788f5f9db22ab" prot="private" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type WpfHandler.UI.AutoLayout.Configuration.CustomControlAttribute._ControlType</definition>
+        <argsstring></argsstring>
+        <name>_ControlType</name>
+        <briefdescription>
+<para>Buffer tht contains stored type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/CustomControlAttribute.cs" line="56" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/CustomControlAttribute.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute_1a7a46691a6fae1c36fb9812923e90cf8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Configuration.CustomControlAttribute.CustomControlAttribute</definition>
+        <argsstring>(Type controlType)</argsstring>
+        <name>CustomControlAttribute</name>
+        <param>
+          <type>Type</type>
+          <declname>controlType</declname>
+        </param>
+        <briefdescription>
+<para>Configurating attribute. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controlType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type that would be instiniated during GUI spawn.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/CustomControlAttribute.cs" line="62" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/CustomControlAttribute.cs" bodystart="62" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Allow to override of default control for relative field type to custom one. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="112">
+        <label>Attribute</label>
+      </node>
+      <node id="111">
+        <label>WpfHandler.UI.AutoLayout.Configuration.CustomControlAttribute</label>
+        <link refid="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute"/>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="114">
+        <label>Attribute</label>
+      </node>
+      <node id="113">
+        <label>WpfHandler.UI.AutoLayout.Configuration.CustomControlAttribute</label>
+        <link refid="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute"/>
+        <childnode refid="114" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/CustomControlAttribute.cs" line="30" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/CustomControlAttribute.cs" bodystart="29" bodyend="67"/>
+    <listofallmembers>
+      <member refid="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute_1a3099e2b45323143744f788f5f9db22ab" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::CustomControlAttribute</scope><name>_ControlType</name></member>
+      <member refid="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute_1a71f151123c78381231004ac155570be0" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::CustomControlAttribute</scope><name>ControlType</name></member>
+      <member refid="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute_1a7a46691a6fae1c36fb9812923e90cf8a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::CustomControlAttribute</scope><name>CustomControlAttribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

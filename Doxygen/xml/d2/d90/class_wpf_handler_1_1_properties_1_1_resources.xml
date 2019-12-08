@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d2/d90/class_wpf_handler_1_1_properties_1_1_resources" kind="class" language="C#" prot="package">
+    <compoundname>WpfHandler::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d2/d90/class_wpf_handler_1_1_properties_1_1_resources_1a70255d9bbf2306b40e8bed65c3ec52ae" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager WpfHandler.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Properties/Resources.Designer.cs" line="26" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Properties/Resources.Designer.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d90/class_wpf_handler_1_1_properties_1_1_resources_1a32f5b165404b01ed52a1aa141dbee00f" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo WpfHandler.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Properties/Resources.Designer.cs" line="28" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Properties/Resources.Designer.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d2/d90/class_wpf_handler_1_1_properties_1_1_resources_1a4908c4924066b6d42cc0e042fdae5079" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager WpfHandler.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>Returns the cached ResourceManager instance used by this class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Properties/Resources.Designer.cs" line="38" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Properties/Resources.Designer.cs" bodystart="38" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/d90/class_wpf_handler_1_1_properties_1_1_resources_1a9d6eb037cf7891a3ed5b2370e7dfdc23" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo WpfHandler.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>Overrides the current thread&apos;s CurrentUICulture property for all resource lookups using this strongly typed resource class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Properties/Resources.Designer.cs" line="53" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Properties/Resources.Designer.cs" bodystart="53" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="d2/d90/class_wpf_handler_1_1_properties_1_1_resources_1a1716741adf60fb090a9a65b5b0314240" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Properties/Resources.Designer.cs" line="31" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Properties/Resources.Designer.cs" bodystart="31" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A strongly-typed resource class, for looking up localized strings, etc. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="544">
+        <label>WpfHandler.Properties.Resources</label>
+        <link refid="d2/d90/class_wpf_handler_1_1_properties_1_1_resources"/>
+        <childnode refid="544" relation="usage">
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+        <childnode refid="545" relation="usage">
+          <edgelabel>resourceCulture</edgelabel>
+        </childnode>
+      </node>
+      <node id="545">
+        <label>Globalization</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Properties/Resources.Designer.cs" line="24" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Properties/Resources.Designer.cs" bodystart="24" bodyend="61"/>
+    <listofallmembers>
+      <member refid="d2/d90/class_wpf_handler_1_1_properties_1_1_resources_1a9d6eb037cf7891a3ed5b2370e7dfdc23" prot="package" virt="non-virtual"><scope>WpfHandler::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="d2/d90/class_wpf_handler_1_1_properties_1_1_resources_1a32f5b165404b01ed52a1aa141dbee00f" prot="private" virt="non-virtual"><scope>WpfHandler::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="d2/d90/class_wpf_handler_1_1_properties_1_1_resources_1a70255d9bbf2306b40e8bed65c3ec52ae" prot="private" virt="non-virtual"><scope>WpfHandler::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="d2/d90/class_wpf_handler_1_1_properties_1_1_resources_1a4908c4924066b6d42cc0e042fdae5079" prot="package" virt="non-virtual"><scope>WpfHandler::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="d2/d90/class_wpf_handler_1_1_properties_1_1_resources_1a1716741adf60fb090a9a65b5b0314240" prot="package" virt="non-virtual"><scope>WpfHandler::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

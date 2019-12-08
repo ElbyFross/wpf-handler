@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::Options::LabelWidthAttribute</compoundname>
+    <basecompoundref refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute" prot="public" virt="non-virtual">WpfHandler.UI.Controls.LayoutSizeAttribute</basecompoundref>
+    <basecompoundref refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.IGUILayoutOption</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute_1ae3a052219f7ebdf78dc6e47962a9f8b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>FrameworkElement</type>
+        <definition>FrameworkElement WpfHandler.UI.AutoLayout.Options.LabelWidthAttribute.BindedLabel</definition>
+        <argsstring></argsstring>
+        <name>BindedLabel</name>
+        <briefdescription>
+<para>Lalbe binded to that attribute. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/LabelWidthAttribute.cs" line="37" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/LabelWidthAttribute.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute_1a466768b6dfd74a49bcae860cb52ab7ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Options.LabelWidthAttribute.LabelWidthAttribute</definition>
+        <argsstring>()</argsstring>
+        <name>LabelWidthAttribute</name>
+        <briefdescription>
+<para>Default constructor. Using auto width. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/LabelWidthAttribute.cs" line="43" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/LabelWidthAttribute.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute_1a24991b7cdbc8d575106a41fd7573ad92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Options.LabelWidthAttribute.LabelWidthAttribute</definition>
+        <argsstring>(double width)</argsstring>
+        <name>LabelWidthAttribute</name>
+        <param>
+          <type>double</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>Set requested maximum height as Size. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target lable width.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/LabelWidthAttribute.cs" line="49" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/LabelWidthAttribute.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute_1ab8dae5f847875d310747599429c5054a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.Options.LabelWidthAttribute.ApplyLayoutOption</definition>
+        <argsstring>(FrameworkElement element)</argsstring>
+        <name>ApplyLayoutOption</name>
+        <reimplements refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option_1ac2d2fa8aeaf753b3248381399f991005">ApplyLayoutOption</reimplements>
+        <param>
+          <type>FrameworkElement</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+<para>Define max allowed height of the GUI element. NaN size value will skiped. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Shared <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element. Must has implemented  interface.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/LabelWidthAttribute.cs" line="56" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/LabelWidthAttribute.cs" bodystart="56" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute_1a16e03ce7309091450367210b02392b1b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.Options.LabelWidthAttribute.LabelWidthAttribute_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>LabelWidthAttribute_Loaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Occurs when lable element will load. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/LabelWidthAttribute.cs" line="95" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/LabelWidthAttribute.cs" bodystart="95" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Redefines lable width for the ILable objects. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="408">
+        <label>ILayoutSize</label>
+        <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
+      </node>
+      <node id="407">
+        <label>Attribute</label>
+      </node>
+      <node id="406">
+        <label>LayoutSizeAttribute</label>
+        <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
+        <childnode refid="407" relation="public-inheritance">
+        </childnode>
+        <childnode refid="408" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="409">
+        <label>IGUILayoutOption</label>
+        <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
+      </node>
+      <node id="405">
+        <label>WpfHandler.UI.AutoLayout.Options.LabelWidthAttribute</label>
+        <link refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute"/>
+        <childnode refid="406" relation="public-inheritance">
+        </childnode>
+        <childnode refid="409" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="413">
+        <label>ILayoutSize</label>
+        <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
+      </node>
+      <node id="412">
+        <label>Attribute</label>
+      </node>
+      <node id="411">
+        <label>LayoutSizeAttribute</label>
+        <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
+        <childnode refid="412" relation="public-inheritance">
+        </childnode>
+        <childnode refid="413" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>IGUILayoutOption</label>
+        <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
+      </node>
+      <node id="410">
+        <label>WpfHandler.UI.AutoLayout.Options.LabelWidthAttribute</label>
+        <link refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute"/>
+        <childnode refid="411" relation="public-inheritance">
+        </childnode>
+        <childnode refid="414" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/LabelWidthAttribute.cs" line="33" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/LabelWidthAttribute.cs" bodystart="32" bodyend="106"/>
+    <listofallmembers>
+      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute_1ab8dae5f847875d310747599429c5054a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::LabelWidthAttribute</scope><name>ApplyLayoutOption</name></member>
+      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute_1ae3a052219f7ebdf78dc6e47962a9f8b9" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::LabelWidthAttribute</scope><name>BindedLabel</name></member>
+      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute_1a466768b6dfd74a49bcae860cb52ab7ab" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::LabelWidthAttribute</scope><name>LabelWidthAttribute</name></member>
+      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute_1a24991b7cdbc8d575106a41fd7573ad92" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::LabelWidthAttribute</scope><name>LabelWidthAttribute</name></member>
+      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute_1a16e03ce7309091450367210b02392b1b" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::LabelWidthAttribute</scope><name>LabelWidthAttribute_Loaded</name></member>
+      <member refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute_1ade163e9b2952d02cda556e26bf6be52f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::LabelWidthAttribute</scope><name>LayoutSizeAttribute</name></member>
+      <member refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute_1a35d91131ec3931e5bde8cf3b026ff23c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::LabelWidthAttribute</scope><name>LayoutSizeAttribute</name></member>
+      <member refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute_1a3cf68aa208cfd09f789773f844683f87" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::LabelWidthAttribute</scope><name>Size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

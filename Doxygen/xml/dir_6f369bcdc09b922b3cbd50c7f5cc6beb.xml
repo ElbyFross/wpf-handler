@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_6f369bcdc09b922b3cbd50c7f5cc6beb" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon</compoundname>
+    <innerfile refid="d7/dea/_logon_panel_8xaml_8cs">LogonPanel.xaml.cs</innerfile>
+    <innerfile refid="df/d8c/_logon_screen_8xaml_8cs">LogonScreen.xaml.cs</innerfile>
+    <innerfile refid="d9/d0b/_registration_panel_8xaml_8cs">RegistrationPanel.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/"/>
+  </compounddef>
+</doxygen>

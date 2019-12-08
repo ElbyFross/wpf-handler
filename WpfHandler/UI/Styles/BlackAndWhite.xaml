@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:controls="clr-namespace:WpfHandler.UI.Controls">
+
+    <Style x:Key="MenuButtonBW" TargetType="controls:CatalogButton">
+        <Setter Property="UnfocusedBackgroundColor" Value="{DynamicResource unfocusedCatalogButtonBackground}"/>
+        <Setter Property="FocusedBackgroundColor" Value="{DynamicResource focusedCatalogButtonBackground}"/>
+        <Setter Property="TextColor" Value="{DynamicResource catalogButtonForeground}"/>
+    </Style>
+
+    <Style x:Key="FlatTextBoxBW" TargetType="controls:FlatTextBox">
+        <Setter Property="Background" Value="{DynamicResource canvasBackground}"/>
+        <Setter Property="TextBoxForeground" Value="{DynamicResource textboxForeground}"/>
+        <Setter Property="TextBoxBackground" Value="{DynamicResource textboxBackground}"/>
+    </Style>
+
+    <Style x:Key="FlatPasswordBoxBW" TargetType="controls:FlatPasswordBox">
+        <Setter Property="Background" Value="{DynamicResource canvasBackground}"/>
+        <Setter Property="TextBoxForeground" Value="{DynamicResource textboxForeground}"/>
+        <Setter Property="TextBoxBackground" Value="{DynamicResource textboxBackground}"/>
+    </Style>
+
+    <Style x:Key="FlatButtonBW" TargetType="controls:FlatButton">
+        <Setter Property="Background" Value="{DynamicResource textButtonBackground}" />
+        <Setter Property="Foreground" Value="{DynamicResource textButtonForground}" />
+    </Style>
+
+</ResourceDictionary>

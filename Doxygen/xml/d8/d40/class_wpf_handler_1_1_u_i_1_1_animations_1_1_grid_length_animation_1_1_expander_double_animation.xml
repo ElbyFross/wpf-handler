@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::Animations::GridLengthAnimation::ExpanderDoubleAnimation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DoubleAnimationBase</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1a07d113740c7fc7eb161b5a0e38148462" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Animations.GridLengthAnimation.ExpanderDoubleAnimation.FromProperty</definition>
+        <argsstring></argsstring>
+        <name>FromProperty</name>
+        <initializer>= DependencyProperty.Register(&quot;From&quot;, typeof(double?),
+                    typeof(<ref refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation" kindref="compound">ExpanderDoubleAnimation</ref>))</initializer>
+        <briefdescription>
+<para>Dependency property for the From property </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" line="244" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1ae633ca54f3b0259e8a469f95a3a2f14b" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Animations.GridLengthAnimation.ExpanderDoubleAnimation.ToProperty</definition>
+        <argsstring></argsstring>
+        <name>ToProperty</name>
+        <initializer>= DependencyProperty.Register(&quot;To&quot;, typeof(double?),
+                    typeof(<ref refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation" kindref="compound">ExpanderDoubleAnimation</ref>))</initializer>
+        <briefdescription>
+<para>Dependency property for the To property </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" line="265" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1a31911e20e670e43ed1fc9b112f28ef68" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Animations.GridLengthAnimation.ExpanderDoubleAnimation.ReverseValueProperty</definition>
+        <argsstring></argsstring>
+        <name>ReverseValueProperty</name>
+        <initializer>=
+                DependencyProperty.Register(&quot;ReverseValue&quot;, typeof(double?), typeof(<ref refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation" kindref="compound">ExpanderDoubleAnimation</ref>), new UIPropertyMetadata(0.0))</initializer>
+        <briefdescription>
+<para>Sets the reverse value for the second animation </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" line="295" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1a2273bd2ccab6914f1b20bacf5c213ec7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double WpfHandler.UI.Animations.GridLengthAnimation.ExpanderDoubleAnimation.From</definition>
+        <argsstring></argsstring>
+        <name>From</name>
+        <briefdescription>
+<para>CLR Wrapper for the From depenendency property </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" line="250" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" bodystart="251" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1aecdf2e18236eeb5bafc523b556c80641" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double WpfHandler.UI.Animations.GridLengthAnimation.ExpanderDoubleAnimation.To</definition>
+        <argsstring></argsstring>
+        <name>To</name>
+        <briefdescription>
+<para>CLR Wrapper for the To property </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" line="271" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" bodystart="272" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1afe3c498fad9f7f6be927b5d1d1f7514b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double WpfHandler.UI.Animations.GridLengthAnimation.ExpanderDoubleAnimation.ReverseValue</definition>
+        <argsstring></argsstring>
+        <name>ReverseValue</name>
+        <briefdescription>
+<para>Sets the reverse value for the second animation </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" line="286" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" bodystart="287" bodyend="290"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1a5645ce2b57d614b780066d0488b6dbd2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Freezable</type>
+        <definition>override Freezable WpfHandler.UI.Animations.GridLengthAnimation.ExpanderDoubleAnimation.CreateInstanceCore</definition>
+        <argsstring>()</argsstring>
+        <name>CreateInstanceCore</name>
+        <briefdescription>
+<para>Creates an instance of the animation </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" line="303" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" bodystart="303" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1a49199d29a79cc39beb113376997e5973" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override double</type>
+        <definition>override double WpfHandler.UI.Animations.GridLengthAnimation.ExpanderDoubleAnimation.GetCurrentValueCore</definition>
+        <argsstring>(double defaultOriginValue, double defaultDestinationValue, AnimationClock animationClock)</argsstring>
+        <name>GetCurrentValueCore</name>
+        <param>
+          <type>double</type>
+          <declname>defaultOriginValue</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>defaultDestinationValue</declname>
+        </param>
+        <param>
+          <type>AnimationClock</type>
+          <declname>animationClock</declname>
+        </param>
+        <briefdescription>
+<para>Animates the double value </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultOriginValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The original value to animate</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultDestinationValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The final value</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>animationClock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The animation clock (timer)</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns the new double to set</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" line="315" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" bodystart="315" bodyend="332"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Animates a double value </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="141">
+        <label>DoubleAnimationBase</label>
+      </node>
+      <node id="140">
+        <label>WpfHandler.UI.Animations.GridLengthAnimation.ExpanderDoubleAnimation</label>
+        <link refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation"/>
+        <childnode refid="141" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="143">
+        <label>DoubleAnimationBase</label>
+      </node>
+      <node id="142">
+        <label>WpfHandler.UI.Animations.GridLengthAnimation.ExpanderDoubleAnimation</label>
+        <link refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation"/>
+        <childnode refid="143" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" line="240" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/GridLengthAnimation.cs" bodystart="239" bodyend="333"/>
+    <listofallmembers>
+      <member refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1a5645ce2b57d614b780066d0488b6dbd2" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Animations::GridLengthAnimation::ExpanderDoubleAnimation</scope><name>CreateInstanceCore</name></member>
+      <member refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1a2273bd2ccab6914f1b20bacf5c213ec7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Animations::GridLengthAnimation::ExpanderDoubleAnimation</scope><name>From</name></member>
+      <member refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1a07d113740c7fc7eb161b5a0e38148462" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Animations::GridLengthAnimation::ExpanderDoubleAnimation</scope><name>FromProperty</name></member>
+      <member refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1a49199d29a79cc39beb113376997e5973" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Animations::GridLengthAnimation::ExpanderDoubleAnimation</scope><name>GetCurrentValueCore</name></member>
+      <member refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1afe3c498fad9f7f6be927b5d1d1f7514b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Animations::GridLengthAnimation::ExpanderDoubleAnimation</scope><name>ReverseValue</name></member>
+      <member refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1a31911e20e670e43ed1fc9b112f28ef68" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Animations::GridLengthAnimation::ExpanderDoubleAnimation</scope><name>ReverseValueProperty</name></member>
+      <member refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1aecdf2e18236eeb5bafc523b556c80641" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Animations::GridLengthAnimation::ExpanderDoubleAnimation</scope><name>To</name></member>
+      <member refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1ae633ca54f3b0259e8a469f95a3a2f14b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Animations::GridLengthAnimation::ExpanderDoubleAnimation</scope><name>ToProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

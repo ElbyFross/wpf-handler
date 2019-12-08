@@ -1,0 +1,581 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::Controls::TextFieldControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label" prot="public" virt="non-virtual">WpfHandler.UI.Controls.ILabel</basecompoundref>
+    <derivedcompoundref refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box" prot="public" virt="non-virtual">WpfHandler.UI.Controls.FlatPasswordBox</derivedcompoundref>
+    <derivedcompoundref refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box" prot="public" virt="non-virtual">WpfHandler.UI.Controls.FlatPasswordBox</derivedcompoundref>
+    <derivedcompoundref refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box" prot="public" virt="non-virtual">WpfHandler.UI.Controls.FlatPasswordBox</derivedcompoundref>
+    <derivedcompoundref refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box" prot="public" virt="non-virtual">WpfHandler.UI.Controls.FlatPasswordBox</derivedcompoundref>
+    <derivedcompoundref refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box" prot="public" virt="non-virtual">WpfHandler.UI.Controls.FlatPasswordBox</derivedcompoundref>
+    <derivedcompoundref refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box" prot="public" virt="non-virtual">WpfHandler.UI.Controls.FlatTextBox</derivedcompoundref>
+    <derivedcompoundref refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box" prot="public" virt="non-virtual">WpfHandler.UI.Controls.FlatTextBox</derivedcompoundref>
+    <derivedcompoundref refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box" prot="public" virt="non-virtual">WpfHandler.UI.Controls.FlatTextBox</derivedcompoundref>
+    <derivedcompoundref refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box" prot="public" virt="non-virtual">WpfHandler.UI.Controls.FlatTextBox</derivedcompoundref>
+    <derivedcompoundref refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box" prot="public" virt="non-virtual">WpfHandler.UI.Controls.FlatTextBox</derivedcompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a99939f3d8500812661376afa5ee1a31d" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Mode</name>
+        <enumvalue id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a99939f3d8500812661376afa5ee1a31daec0fc0100c4fc1ce4eea230c3dc10360" prot="public">
+          <name>Undefined</name>
+          <briefdescription>
+<para>Type not defined yet. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a99939f3d8500812661376afa5ee1a31da27118326006d3829667a400ad23d5d98" prot="public">
+          <name>String</name>
+          <briefdescription>
+<para>Allow any string value. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a99939f3d8500812661376afa5ee1a31da1686a6c336b71b36d77354cea19a8b52" prot="public">
+          <name>Int</name>
+          <briefdescription>
+<para>Allow only int formated values. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a99939f3d8500812661376afa5ee1a31da22ae0e2b89e5e3d477f988cc36d3272b" prot="public">
+          <name>Float</name>
+          <briefdescription>
+<para>Allow only float values. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a99939f3d8500812661376afa5ee1a31dad909d38d705ce75386dd86e611a82f5b" prot="public">
+          <name>Double</name>
+          <briefdescription>
+<para>Allow only double values. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a99939f3d8500812661376afa5ee1a31da86f600672d32a7be1dd6cb035ac61577" prot="public">
+          <name>Regex</name>
+          <briefdescription>
+<para>TODO: Use custom regex to define if value is valid. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Mode of value operating. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="40" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a333e66e23a4653713e1a4b27571b7553" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.TextFieldControl.TextProperty</definition>
+        <argsstring></argsstring>
+        <name>TextProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;Text&quot;, typeof(string), typeof(<ref refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control" kindref="compound">TextFieldControl</ref>))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="72" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a062dfc30849f6fff2dee9ea75ab272ef" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.TextFieldControl.ValueModeProperty</definition>
+        <argsstring></argsstring>
+        <name>ValueModeProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;ValueMode&quot;, typeof(<ref refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a99939f3d8500812661376afa5ee1a31d" kindref="member">Mode</ref>), typeof(<ref refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control" kindref="compound">TextFieldControl</ref>))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="78" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1af4ec0cb3db2339845ead75a90d0f18ff" prot="public" static="yes" mutable="no">
+        <type>readonly RoutedEvent</type>
+        <definition>readonly RoutedEvent WpfHandler.UI.Controls.TextFieldControl.TextChangedEvent</definition>
+        <argsstring></argsstring>
+        <name>TextChangedEvent</name>
+        <initializer>= EventManager.RegisterRoutedEvent(&quot;TextChanged&quot;,
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(<ref refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control" kindref="compound">TextFieldControl</ref>))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="84" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1acead52c79405215bbfd50ff38fe08145" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.TextFieldControl.LabelProperty</definition>
+        <argsstring></argsstring>
+        <name>LabelProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;Label&quot;, typeof(string), typeof(<ref refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control" kindref="compound">TextFieldControl</ref>))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="90" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a8dbe89b4efe3eb38c82799e8ce68cf2c" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.TextFieldControl.LabelWidthProperty</definition>
+        <argsstring></argsstring>
+        <name>LabelWidthProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;LabelWidth&quot;, typeof(float), typeof(<ref refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control" kindref="compound">TextFieldControl</ref>), new PropertyMetadata(120.0f))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="96" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1aef80cc7a4cde41c24e8a599a5702956c" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.TextFieldControl.TextBoxForegroundProperty</definition>
+        <argsstring></argsstring>
+        <name>TextBoxForegroundProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;TextBoxForeground&quot;, typeof(Brush), typeof(<ref refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control" kindref="compound">TextFieldControl</ref>),
+          new PropertyMetadata(new SolidColorBrush((Color)ColorConverter.ConvertFromString(&quot;#FFFFFF&quot;))))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="102" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab49579689a93b206513268c77d6343c7" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.TextFieldControl.TextBoxBackgroundProperty</definition>
+        <argsstring></argsstring>
+        <name>TextBoxBackgroundProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;TextBoxBackground&quot;, typeof(Brush), typeof(<ref refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control" kindref="compound">TextFieldControl</ref>),
+          new PropertyMetadata(new SolidColorBrush((Color)ColorConverter.ConvertFromString(&quot;#00a9e9&quot;))))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="109" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a402232775f61db3f7b693c1771993324" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>TextChangedEventHandler</type>
+        <definition>TextChangedEventHandler WpfHandler.UI.Controls.TextFieldControl.TextChanged</definition>
+        <argsstring></argsstring>
+        <name>TextChanged</name>
+        <briefdescription>
+<para>Occurs when content changes in the text element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="118" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="119" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a33311103774ab41a0af23f6181ef7d2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>virtual string WpfHandler.UI.Controls.TextFieldControl.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <briefdescription>
+<para>Text in textbox. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="135" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="136" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a3d56cbedf03f93150117a1d999b828dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a99939f3d8500812661376afa5ee1a31d" kindref="member">Mode</ref></type>
+        <definition>virtual Mode WpfHandler.UI.Controls.TextFieldControl.ValueMode</definition>
+        <argsstring></argsstring>
+        <name>ValueMode</name>
+        <briefdescription>
+<para>Text in textbox. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="144" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab4b06ba1470f467c920ad28f100a4ae2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new object</type>
+        <definition>new object WpfHandler.UI.Controls.TextFieldControl.Content</definition>
+        <argsstring></argsstring>
+        <name>Content</name>
+        <briefdescription>
+<para>Applyong value as lable content. </para>        </briefdescription>
+        <detaileddescription>
+<para>Allow only the string values.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="155" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="156" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a3ddca328a79686b354a61f609abc163b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>virtual object WpfHandler.UI.Controls.TextFieldControl.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+<para>Uniform value. Allowed type depends from . </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="165" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="166" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a10cec1ad9b5fb5bb48d59e07d4cf2675" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.Controls.TextFieldControl.Label</definition>
+        <argsstring></argsstring>
+        <name>Label</name>
+        <briefdescription>
+<para>Text in label field. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="214" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="215" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab2089e6e1caddd925e2fa23d0ce481cb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float WpfHandler.UI.Controls.TextFieldControl.LabelWidth</definition>
+        <argsstring></argsstring>
+        <name>LabelWidth</name>
+        <briefdescription>
+<para>Width of label field. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="223" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="224" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a3ae60ed0a18d02385cb019fc9857b6d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Brush</type>
+        <definition>Brush WpfHandler.UI.Controls.TextFieldControl.TextBoxForeground</definition>
+        <argsstring></argsstring>
+        <name>TextBoxForeground</name>
+        <briefdescription>
+<para>Color of the text in textbox. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="247" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="248" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a15be413d59498274a43e43aebe172221" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Brush</type>
+        <definition>Brush WpfHandler.UI.Controls.TextFieldControl.TextBoxBackground</definition>
+        <argsstring></argsstring>
+        <name>TextBoxBackground</name>
+        <briefdescription>
+<para>Collor of the text box backplate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="256" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="257" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a7fcc5e59ea300a5660285170f98eb097" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>abstract FrameworkElement</type>
+        <definition>abstract FrameworkElement WpfHandler.UI.Controls.TextFieldControl.LabelElement</definition>
+        <argsstring></argsstring>
+        <name>LabelElement</name>
+        <briefdescription>
+<para>Returns reference to the label block of <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="267" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="267" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1aa2cb0bc5918aba314439476a88453bdb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>abstract FrameworkElement</type>
+        <definition>abstract FrameworkElement WpfHandler.UI.Controls.TextFieldControl.FieldElement</definition>
+        <argsstring></argsstring>
+        <name>FieldElement</name>
+        <briefdescription>
+<para>Returns reference to the field block of <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="272" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="272" bodyend="272"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab30d14bb8af0855cdadbc2c2713273ad" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WpfHandler.UI.Controls.TextFieldControl._LabelWidth</definition>
+        <argsstring></argsstring>
+        <name>_LabelWidth</name>
+        <briefdescription>
+<para>Bufer that contains las requested label width. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="242" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a90ff02e9ee1b2b63d034a3376594ddf4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.Controls.TextFieldControl.TextFieldControl</definition>
+        <argsstring>()</argsstring>
+        <name>TextFieldControl</name>
+        <briefdescription>
+<para>Initizlize base UserControl contructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="279" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="279" bodyend="284"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab7456e1fe411f936385192629583fb5b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.Controls.TextFieldControl.~TextFieldControl</definition>
+        <argsstring>()</argsstring>
+        <name>~TextFieldControl</name>
+        <briefdescription>
+<para>Releasing unmanaged memory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="289" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="289" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a54beb83e4ba522eea92f86eab02f9071" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.TextFieldControl.TextFieldControl_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>TextFieldControl_Loaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Init configs when all properties applied. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="351" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="351" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab07c1f1ee9bd33207b99d5b31bcec8b4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.TextFieldControl.TextFieldControl_SizeChanged</definition>
+        <argsstring>(object sender, SizeChangedEventArgs e)</argsstring>
+        <name>TextFieldControl_SizeChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SizeChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Occurs when element size will shanged. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="365" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="365" bodyend="371"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1aaf6c7c81a06ea18f7fd0b709fb9f26b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WpfHandler.UI.Controls.TextFieldControl.RecomputeLayout</definition>
+        <argsstring>()</argsstring>
+        <name>RecomputeLayout</name>
+        <reimplementedby refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box_1abe285f06393d65f13af4b293f9eb0941">RecomputeLayout</reimplementedby>
+        <reimplementedby refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box_1af96bd0b4244565a1ca7a137d56296cda">RecomputeLayout</reimplementedby>
+        <briefdescription>
+<para>Recomputing dinamic layout values for providing hight quiality view. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="301" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="301" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a0b8ff332028f0277379658e84edadbd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.TextFieldControl.DefineModeByType</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>DefineModeByType</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Defining an element mode by the target type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type applyied to that field.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="330" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="330" bodyend="342"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Defines base members for all text field for providing uniform way to operate with GUI elemetns. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="599">
+        <label>WpfHandler.UI.Controls.FlatPasswordBox</label>
+        <link refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box"/>
+        <childnode refid="596" relation="public-inheritance">
+        </childnode>
+        <childnode refid="596" relation="public-inheritance">
+        </childnode>
+        <childnode refid="596" relation="public-inheritance">
+        </childnode>
+        <childnode refid="596" relation="public-inheritance">
+        </childnode>
+        <childnode refid="596" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="596">
+        <label>WpfHandler.UI.Controls.TextFieldControl</label>
+        <link refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control"/>
+        <childnode refid="597" relation="public-inheritance">
+        </childnode>
+        <childnode refid="598" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="600">
+        <label>WpfHandler.UI.Controls.FlatTextBox</label>
+        <link refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box"/>
+        <childnode refid="596" relation="public-inheritance">
+        </childnode>
+        <childnode refid="596" relation="public-inheritance">
+        </childnode>
+        <childnode refid="596" relation="public-inheritance">
+        </childnode>
+        <childnode refid="596" relation="public-inheritance">
+        </childnode>
+        <childnode refid="596" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="597">
+        <label>UserControl</label>
+      </node>
+      <node id="598">
+        <label>ILabel</label>
+        <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="601">
+        <label>WpfHandler.UI.Controls.TextFieldControl</label>
+        <link refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control"/>
+        <childnode refid="602" relation="public-inheritance">
+        </childnode>
+        <childnode refid="603" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="602">
+        <label>UserControl</label>
+      </node>
+      <node id="603">
+        <label>ILabel</label>
+        <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="36" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="35" bodyend="373"/>
+    <listofallmembers>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab30d14bb8af0855cdadbc2c2713273ad" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>_LabelWidth</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab4b06ba1470f467c920ad28f100a4ae2" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>Content</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a0b8ff332028f0277379658e84edadbd7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>DefineModeByType</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1aa2cb0bc5918aba314439476a88453bdb" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>FieldElement</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a10cec1ad9b5fb5bb48d59e07d4cf2675" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>Label</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a7fcc5e59ea300a5660285170f98eb097" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>LabelElement</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1acead52c79405215bbfd50ff38fe08145" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>LabelProperty</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab2089e6e1caddd925e2fa23d0ce481cb" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>LabelWidth</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a8dbe89b4efe3eb38c82799e8ce68cf2c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>LabelWidthProperty</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a99939f3d8500812661376afa5ee1a31d" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>Mode</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1aaf6c7c81a06ea18f7fd0b709fb9f26b3" prot="public" virt="virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>RecomputeLayout</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a33311103774ab41a0af23f6181ef7d2c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>Text</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a15be413d59498274a43e43aebe172221" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>TextBoxBackground</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab49579689a93b206513268c77d6343c7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>TextBoxBackgroundProperty</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a3ae60ed0a18d02385cb019fc9857b6d0" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>TextBoxForeground</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1aef80cc7a4cde41c24e8a599a5702956c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>TextBoxForegroundProperty</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a402232775f61db3f7b693c1771993324" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>TextChanged</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1af4ec0cb3db2339845ead75a90d0f18ff" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>TextChangedEvent</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a90ff02e9ee1b2b63d034a3376594ddf4" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>TextFieldControl</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a54beb83e4ba522eea92f86eab02f9071" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>TextFieldControl_Loaded</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab07c1f1ee9bd33207b99d5b31bcec8b4" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>TextFieldControl_SizeChanged</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a333e66e23a4653713e1a4b27571b7553" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>TextProperty</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a3ddca328a79686b354a61f609abc163b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>Value</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a3d56cbedf03f93150117a1d999b828dc" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>ValueMode</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a062dfc30849f6fff2dee9ea75ab272ef" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>ValueModeProperty</name></member>
+      <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab7456e1fe411f936385192629583fb5b" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>~TextFieldControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

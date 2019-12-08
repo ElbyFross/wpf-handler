@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::Controls::SpaceAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <basecompoundref refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size" prot="public" virt="non-virtual">WpfHandler.UI.Controls.ILayoutSize</basecompoundref>
+    <basecompoundref refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.IGUIElement</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute_1a68206a96d773373166c9754a2aff971f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double WpfHandler.UI.AutoLayout.Controls.SpaceAttribute.Size</definition>
+        <argsstring></argsstring>
+        <name>Size</name>
+        <initializer>= double.NaN</initializer>
+        <briefdescription>
+<para>Size of the space. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/SpaceAttribute.cs" line="35" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/SpaceAttribute.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute_1a074e315606e279957f2a10c9c86e2094" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Controls.SpaceAttribute.SpaceAttribute</definition>
+        <argsstring>()</argsstring>
+        <name>SpaceAttribute</name>
+        <briefdescription>
+<para>Initialize space into 10 points. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/SpaceAttribute.cs" line="40" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/SpaceAttribute.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute_1a4c2a99ed228d57fa34d0641003d568e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Controls.SpaceAttribute.SpaceAttribute</definition>
+        <argsstring>(float space)</argsstring>
+        <name>SpaceAttribute</name>
+        <param>
+          <type>float</type>
+          <declname>space</declname>
+        </param>
+        <briefdescription>
+<para>Set custom step value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>space</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of step.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/SpaceAttribute.cs" line="49" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/SpaceAttribute.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute_1abc4dedcaa52529fb4f0e227fb2386866" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.Controls.SpaceAttribute.OnLayout</definition>
+        <argsstring>(ref LayoutLayer layer, params object[] args)</argsstring>
+        <name>OnLayout</name>
+        <reimplements refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element_1a0ff16956f8e8187d51e1b36b6b9f894e">OnLayout</reimplements>
+        <param>
+          <type>ref <ref refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer" kindref="compound">LayoutLayer</ref></type>
+          <declname>layer</declname>
+        </param>
+        <param>
+          <type>params object []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Instiniating Space GUI lement. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>layer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target GUI layer.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Not using in that element.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/SpaceAttribute.cs" line="59" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/SpaceAttribute.cs" bodystart="59" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Adding space between <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> elements. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="575">
+        <label>ILayoutSize</label>
+        <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
+      </node>
+      <node id="574">
+        <label>Attribute</label>
+      </node>
+      <node id="573">
+        <label>WpfHandler.UI.AutoLayout.Controls.SpaceAttribute</label>
+        <link refid="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute"/>
+        <childnode refid="574" relation="public-inheritance">
+        </childnode>
+        <childnode refid="575" relation="public-inheritance">
+        </childnode>
+        <childnode refid="576" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="576">
+        <label>IGUIElement</label>
+        <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="579">
+        <label>ILayoutSize</label>
+        <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
+      </node>
+      <node id="578">
+        <label>Attribute</label>
+      </node>
+      <node id="577">
+        <label>WpfHandler.UI.AutoLayout.Controls.SpaceAttribute</label>
+        <link refid="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute"/>
+        <childnode refid="578" relation="public-inheritance">
+        </childnode>
+        <childnode refid="579" relation="public-inheritance">
+        </childnode>
+        <childnode refid="580" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="580">
+        <label>IGUIElement</label>
+        <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/SpaceAttribute.cs" line="31" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/SpaceAttribute.cs" bodystart="30" bodyend="77"/>
+    <listofallmembers>
+      <member refid="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute_1abc4dedcaa52529fb4f0e227fb2386866" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::SpaceAttribute</scope><name>OnLayout</name></member>
+      <member refid="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute_1a68206a96d773373166c9754a2aff971f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::SpaceAttribute</scope><name>Size</name></member>
+      <member refid="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute_1a074e315606e279957f2a10c9c86e2094" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::SpaceAttribute</scope><name>SpaceAttribute</name></member>
+      <member refid="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute_1a4c2a99ed228d57fa34d0641003d568e6" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::SpaceAttribute</scope><name>SpaceAttribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

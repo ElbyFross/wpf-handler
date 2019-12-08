@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::LayoutHandler</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a15ec26f7b47df47d599c8e649b766463" prot="private" static="yes" mutable="no">
+        <type>readonly Hashtable</type>
+        <definition>readonly Hashtable WpfHandler.UI.AutoLayout.LayoutHandler.DefaultControlsBindings</definition>
+        <argsstring></argsstring>
+        <name>DefaultControlsBindings</name>
+        <initializer>= new Hashtable()</initializer>
+        <briefdescription>
+<para>Contains declared bindings from types to default layout controls. </para>        </briefdescription>
+        <detaileddescription>
+<para>Key - The source Type Value - The binded Type of the <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> suitable for displaing a source data. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="49" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1ae61aae6b0256f71e33dc8c8ed1403ff0" prot="private" static="yes" mutable="no">
+        <type>readonly Hashtable</type>
+        <definition>readonly Hashtable WpfHandler.UI.AutoLayout.LayoutHandler.EnumControlsBindings</definition>
+        <argsstring></argsstring>
+        <name>EnumControlsBindings</name>
+        <initializer>= new Hashtable()</initializer>
+        <briefdescription>
+<para>Contains declared bindings from types to default layout controls comaptible with a enum members. </para>        </briefdescription>
+        <detaileddescription>
+<para>Key - The source Type Value - The binded Type of the <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> suitable for displaing a source data. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="58" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a9838c1e408adbcb072a03521be50e6fe" prot="private" static="yes" mutable="no">
+        <type>readonly Hashtable</type>
+        <definition>readonly Hashtable WpfHandler.UI.AutoLayout.LayoutHandler.EnumerableControlsBindings</definition>
+        <argsstring></argsstring>
+        <name>EnumerableControlsBindings</name>
+        <initializer>= new Hashtable()</initializer>
+        <briefdescription>
+<para>Contains declared bindings from types to default layout controls comaptible with an enumerable types. </para>        </briefdescription>
+        <detaileddescription>
+<para>Key - The source Type Value - The binded Type of the <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> suitable for displaing a source data. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="67" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1afda300c91d5d5e45c7fb51d1154fcf4b" prot="private" static="yes" mutable="no">
+        <type>readonly Hashtable</type>
+        <definition>readonly Hashtable WpfHandler.UI.AutoLayout.LayoutHandler.RegistredCallbacks</definition>
+        <argsstring></argsstring>
+        <name>RegistredCallbacks</name>
+        <initializer>= new Hashtable()</initializer>
+        <briefdescription>
+<para>Table that contains all registread value update callbacks. </para>        </briefdescription>
+        <detaileddescription>
+<para>Key = Type of the binded <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="74" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1af5019f7dbd2cfafc9d5c5fce4382ff8f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static WpfHandler.UI.AutoLayout.LayoutHandler.LayoutHandler</definition>
+        <argsstring>()</argsstring>
+        <name>LayoutHandler</name>
+        <briefdescription>
+<para>Scaning asseblies to find descriptions of controls. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="79" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="79" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1af450dc0f251144cbdb3c64c4756c8025" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WpfHandler.UI.AutoLayout.LayoutHandler.HorizontalLayoutAddChild</definition>
+        <argsstring>(IAddChild parent, FrameworkElement element)</argsstring>
+        <name>HorizontalLayoutAddChild</name>
+        <param>
+          <type>IAddChild</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>FrameworkElement</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+<para>Adding child to horizontal grid. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Grid that will contain child.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Element that will be added to the grid as child.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="89" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="89" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1aa974993604b1fe101eccab0fe966170a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WpfHandler.UI.AutoLayout.LayoutHandler.VerticalLayoutAddChild</definition>
+        <argsstring>(IAddChild parent, FrameworkElement element)</argsstring>
+        <name>VerticalLayoutAddChild</name>
+        <param>
+          <type>IAddChild</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>FrameworkElement</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+<para>Adding child to the bertical layout group. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>VerticalStackPanel that will contin child.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Element that will be added to the panel as child.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="119" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="119" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a2ae3e871977ebeaed8c265ccf98e46a9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WpfHandler.UI.AutoLayout.LayoutHandler.RegistrateField</definition>
+        <argsstring>(this IGUIField control, UIDescriptor descriptor, MemberInfo member, object defautltValue)</argsstring>
+        <name>RegistrateField</name>
+        <param>
+          <type>this <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref></type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor" kindref="compound">UIDescriptor</ref></type>
+          <declname>descriptor</declname>
+        </param>
+        <param>
+          <type>MemberInfo</type>
+          <declname>member</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>defautltValue</declname>
+        </param>
+        <briefdescription>
+<para>Registrating bool property into auto layout ui. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>control</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Instiniated layout control.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>descriptor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Descriptor that hold fields or properties.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>member</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Member in descriptor instance that will be used as target for value update.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defautltValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value that will be setted by default.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="138" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="138" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a14720e6297e28f2502765ac372f32155" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WpfHandler.UI.AutoLayout.LayoutHandler.UnregistrateField</definition>
+        <argsstring>(this IGUIField control)</argsstring>
+        <name>UnregistrateField</name>
+        <param>
+          <type>this <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref></type>
+          <declname>control</declname>
+        </param>
+        <briefdescription>
+<para>Unbind layout control from auto layout handler. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>control</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target layout control.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="195" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="195" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a68b385db6f1fb9795be73195401a3175" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WpfHandler.UI.AutoLayout.LayoutHandler.RescanAssemblies</definition>
+        <argsstring>()</argsstring>
+        <name>RescanAssemblies</name>
+        <briefdescription>
+<para>Rescaning solution for Layout controls bindings. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="214" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="214" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1ad580450c00d9a58be2c85399e7cf4b26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WpfHandler.UI.AutoLayout.LayoutHandler.BindLayoutControlToType</definition>
+        <argsstring>(Hashtable table, Type controlType, Type sourceType)</argsstring>
+        <name>BindLayoutControlToType</name>
+        <param>
+          <type>Hashtable</type>
+          <declname>table</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>controlType</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>sourceType</declname>
+        </param>
+        <briefdescription>
+<para>Binds <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> to the source type to using into auto generate ui panels based on <ref refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor" kindref="compound">UIDescriptor</ref> content. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>table</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target table for binding the element.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>controlType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type with implemented <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> interface.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sourceType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type that will cause spawning of binded <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> during building of auto-generated UIs.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="281" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="281" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1adbcbc84c8b00500646fd088f9dfba3c4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Type</type>
+        <definition>static Type WpfHandler.UI.AutoLayout.LayoutHandler.GetBindedControl</definition>
+        <argsstring>(Type sourceType, bool isInherited)</argsstring>
+        <name>GetBindedControl</name>
+        <param>
+          <type>Type</type>
+          <declname>sourceType</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isInherited</declname>
+        </param>
+        <briefdescription>
+<para>Looking got control binded to the source type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sourceType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the member that will be applied to the <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> control.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isInherited</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Should it look into entire inheritance hierarchy of the source type till not found the binded one?</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Type of found control. Null if not found.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="301" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="301" bodyend="380"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides core methods for layout controls. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="40" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="39" bodyend="381"/>
+    <listofallmembers>
+      <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1ad580450c00d9a58be2c85399e7cf4b26" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>BindLayoutControlToType</name></member>
+      <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a15ec26f7b47df47d599c8e649b766463" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>DefaultControlsBindings</name></member>
+      <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1ae61aae6b0256f71e33dc8c8ed1403ff0" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>EnumControlsBindings</name></member>
+      <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a9838c1e408adbcb072a03521be50e6fe" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>EnumerableControlsBindings</name></member>
+      <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1adbcbc84c8b00500646fd088f9dfba3c4" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>GetBindedControl</name></member>
+      <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1af450dc0f251144cbdb3c64c4756c8025" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>HorizontalLayoutAddChild</name></member>
+      <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1af5019f7dbd2cfafc9d5c5fce4382ff8f" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>LayoutHandler</name></member>
+      <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a2ae3e871977ebeaed8c265ccf98e46a9" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>RegistrateField</name></member>
+      <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1afda300c91d5d5e45c7fb51d1154fcf4b" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>RegistredCallbacks</name></member>
+      <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a68b385db6f1fb9795be73195401a3175" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>RescanAssemblies</name></member>
+      <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a14720e6297e28f2502765ac372f32155" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>UnregistrateField</name></member>
+      <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1aa974993604b1fe101eccab0fe966170a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>VerticalLayoutAddChild</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

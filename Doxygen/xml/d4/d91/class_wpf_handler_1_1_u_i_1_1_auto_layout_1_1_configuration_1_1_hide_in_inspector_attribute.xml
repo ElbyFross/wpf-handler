@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d4/d91/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_hide_in_inspector_attribute" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::Configuration::HideInInspectorAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <briefdescription>
+<para>Exclude member from auto-builded inspector. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="283">
+        <label>Attribute</label>
+      </node>
+      <node id="282">
+        <label>WpfHandler.UI.AutoLayout.Configuration.HideInInspectorAttribute</label>
+        <link refid="d4/d91/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_hide_in_inspector_attribute"/>
+        <childnode refid="283" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="285">
+        <label>Attribute</label>
+      </node>
+      <node id="284">
+        <label>WpfHandler.UI.AutoLayout.Configuration.HideInInspectorAttribute</label>
+        <link refid="d4/d91/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_hide_in_inspector_attribute"/>
+        <childnode refid="285" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/HideInInspectorAttribute.cs" line="30" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/HideInInspectorAttribute.cs" bodystart="30" bodyend="30"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

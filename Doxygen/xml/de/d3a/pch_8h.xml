@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="de/d3a/pch_8h" kind="file" language="C++">
+    <compoundname>pch.h</compoundname>
+    <includes refid="d6/d29/framework_8h" local="yes">framework.h</includes>
+    <includedby refid="db/ddc/dllmain_8cpp" local="yes">D:/Work/GitHub/wpf-handler/GLSL/WPFShaders/dllmain.cpp</includedby>
+    <includedby refid="dd/d2e/pch_8cpp" local="yes">D:/Work/GitHub/wpf-handler/GLSL/WPFShaders/pch.cpp</includedby>
+    <incdepgraph>
+      <node id="14">
+        <label>D:/Work/GitHub/wpf-handler/GLSL/WPFShaders/pch.h</label>
+        <link refid="de/d3a/pch_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>windows.h</label>
+      </node>
+      <node id="15">
+        <label>framework.h</label>
+        <link refid="d6/d29/framework_8h_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>pch.h:<sp/>This<sp/>is<sp/>a<sp/>precompiled<sp/>header<sp/>file.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Files<sp/>listed<sp/>below<sp/>are<sp/>compiled<sp/>only<sp/>once,<sp/>improving<sp/>build<sp/>performance<sp/>for<sp/>future<sp/>builds.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>also<sp/>affects<sp/>IntelliSense<sp/>performance,<sp/>including<sp/>code<sp/>completion<sp/>and<sp/>many<sp/>code<sp/>browsing<sp/>features.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>However,<sp/>files<sp/>listed<sp/>here<sp/>are<sp/>ALL<sp/>re-compiled<sp/>if<sp/>any<sp/>one<sp/>of<sp/>them<sp/>is<sp/>updated<sp/>between<sp/>builds.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Do<sp/>not<sp/>add<sp/>files<sp/>here<sp/>that<sp/>you<sp/>will<sp/>be<sp/>updating<sp/>frequently<sp/>as<sp/>this<sp/>negates<sp/>the<sp/>performance<sp/>advantage.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>PCH_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PCH_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>add<sp/>headers<sp/>that<sp/>you<sp/>want<sp/>to<sp/>pre-compile<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;framework.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//PCH_H</highlight></codeline>
+    </programlisting>
+    <location file="D:/Work/GitHub/wpf-handler/GLSL/WPFShaders/pch.h"/>
+  </compounddef>
+</doxygen>

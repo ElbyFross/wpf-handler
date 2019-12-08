@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_246b672eadb3d421a88ecba6a39c6b9f" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration</compoundname>
+    <innerfile refid="d9/d58/_begin_horizontal_group_attribute_8cs">BeginHorizontalGroupAttribute.cs</innerfile>
+    <innerfile refid="d0/dfb/_begin_vertical_group_attribute_8cs">BeginVerticalGroupAttribute.cs</innerfile>
+    <innerfile refid="df/dfe/_content_attribute_8cs">ContentAttribute.cs</innerfile>
+    <innerfile refid="d5/d42/_custom_control_attribute_8cs">CustomControlAttribute.cs</innerfile>
+    <innerfile refid="db/d3c/_end_group_attribute_8cs">EndGroupAttribute.cs</innerfile>
+    <innerfile refid="df/d34/_enumerable_compatible_attribute_8cs">EnumerableCompatibleAttribute.cs</innerfile>
+    <innerfile refid="dd/dd9/_enums_compatible_attribute_8cs">EnumsCompatibleAttribute.cs</innerfile>
+    <innerfile refid="dc/de0/_hide_in_inspector_attribute_8cs">HideInInspectorAttribute.cs</innerfile>
+    <innerfile refid="db/d1b/_i_g_u_i_element_binding_attribute_8cs">IGUIElementBindingAttribute.cs</innerfile>
+    <innerfile refid="d2/d7e/_order_attribute_8cs">OrderAttribute.cs</innerfile>
+    <innerfile refid="d9/d24/_types_compatible_attribute_8cs">TypesCompatibleAttribute.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/"/>
+  </compounddef>
+</doxygen>

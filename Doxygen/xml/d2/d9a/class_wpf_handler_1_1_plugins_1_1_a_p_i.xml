@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::Plugins::API</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1ae2d2c46617f63533ddc20f08166b6c6e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="d2/d34/interface_wpf_handler_1_1_plugins_1_1_i_plugin" kindref="compound">IPlugin</ref> &gt;</type>
+        <definition>static IEnumerable&lt;IPlugin&gt; WpfHandler.Plugins.API.LoadPluginsEnumerable</definition>
+        <argsstring>()</argsstring>
+        <name>LoadPluginsEnumerable</name>
+        <briefdescription>
+<para>Load plugins from assembly and instiniate them to list. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" line="34" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" bodystart="34" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1aa797a592049cf57860ee422586fcccac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.ObjectModel.ObservableCollection&lt; <ref refid="d2/d34/interface_wpf_handler_1_1_plugins_1_1_i_plugin" kindref="compound">IPlugin</ref> &gt;</type>
+        <definition>static System.Collections.ObjectModel.ObservableCollection&lt;IPlugin&gt; WpfHandler.Plugins.API.LoadPluginsCollection</definition>
+        <argsstring>()</argsstring>
+        <name>LoadPluginsCollection</name>
+        <briefdescription>
+<para>Load plugins from assembly and instiniate them to list. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>list</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" line="61" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" bodystart="61" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1a4dbfd1cc62cfb8def6f17d8c622e0fd8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WpfHandler.Plugins.API.OpenGUI</definition>
+        <argsstring>(IPlugin plugin, string panelName=&quot;canvas&quot;)</argsstring>
+        <name>OpenGUI</name>
+        <param>
+          <type><ref refid="d2/d34/interface_wpf_handler_1_1_plugins_1_1_i_plugin" kindref="compound">IPlugin</ref></type>
+          <declname>plugin</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>panelName</declname>
+          <defval>&quot;canvas&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Oppenig plugin GUI. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>plugin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target plugin.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>panelName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the Panel control that would contrin content.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" line="95" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" bodystart="95" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1aaa094e4b6d27c336e8f0f76acc04ba20" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WpfHandler.Plugins.API.SortByDomains</definition>
+        <argsstring>(ICollection&lt; IPlugin &gt; plugins)</argsstring>
+        <name>SortByDomains</name>
+        <param>
+          <type>ICollection&lt; <ref refid="d2/d34/interface_wpf_handler_1_1_plugins_1_1_i_plugin" kindref="compound">IPlugin</ref> &gt;</type>
+          <declname>plugins</declname>
+        </param>
+        <briefdescription>
+<para>Sorting items in collection by tomain recommended orders and hierarchy depth. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>plugins</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" line="120" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" bodystart="120" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that profide simplifyed way to integrate WPF plugins to client. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" line="29" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" bodystart="28" bodyend="173"/>
+    <listofallmembers>
+      <member refid="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1aa797a592049cf57860ee422586fcccac" prot="public" virt="non-virtual"><scope>WpfHandler::Plugins::API</scope><name>LoadPluginsCollection</name></member>
+      <member refid="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1ae2d2c46617f63533ddc20f08166b6c6e" prot="public" virt="non-virtual"><scope>WpfHandler::Plugins::API</scope><name>LoadPluginsEnumerable</name></member>
+      <member refid="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1a4dbfd1cc62cfb8def6f17d8c622e0fd8" prot="public" virt="non-virtual"><scope>WpfHandler::Plugins::API</scope><name>OpenGUI</name></member>
+      <member refid="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1aaa094e4b6d27c336e8f0f76acc04ba20" prot="public" virt="non-virtual"><scope>WpfHandler::Plugins::API</scope><name>SortByDomains</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

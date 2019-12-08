@@ -1,0 +1,102 @@
+\hypertarget{class_wpf_handler_1_1_dictionaries_1_1_a_p_i}{}\section{Wpf\+Handler.\+Dictionaries.\+A\+PI Class Reference}
+\label{class_wpf_handler_1_1_dictionaries_1_1_a_p_i}\index{Wpf\+Handler.\+Dictionaries.\+A\+PI@{Wpf\+Handler.\+Dictionaries.\+A\+PI}}
+
+
+Class that provide methods for controll W\+PF application localization.  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_wpf_handler_1_1_dictionaries_1_1_a_p_i_ac9aafbe351f06f0c20de39508d3e8852}{Load\+X\+A\+M\+L\+\_\+\+Thems}} (string theme\+Code)
+\begin{DoxyCompactList}\small\item\em Scaning for language dictionaries in X\+A\+ML files, and load them to Merged dictionaries. Loading new theme by code if found. Leave already loaded if overrided dictionary not found. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_wpf_handler_1_1_dictionaries_1_1_a_p_i_ad5c415a6377e871aff2020a9489815ff}{Load\+X\+A\+M\+L\+\_\+\+Lang\+Dicts}} (Culture\+Info target\+Culture, Culture\+Info secondary\+Culture)
+\begin{DoxyCompactList}\small\item\em Scaning for language dictionaries in X\+A\+ML files, and load them to Merged dictionaries. Load relative to new culture if found. Leave previous culture if not. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_wpf_handler_1_1_dictionaries_1_1_a_p_i_a0de06b29ec542383dbdc470bb9a7c98e}{Update\+Dictionaries\+Group}} (string directory, string group\+Code, params string\mbox{[}$\,$\mbox{]} sub\+Codes)
+\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+static Action \mbox{\hyperlink{class_wpf_handler_1_1_dictionaries_1_1_a_p_i_a1d26084678af47b609f686215de5a171}{Languages\+Dictionaries\+Updated}}
+\begin{DoxyCompactList}\small\item\em Event that will occure when languages dictionary will be loaded. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class that provide methods for controll W\+PF application localization. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_wpf_handler_1_1_dictionaries_1_1_a_p_i_ad5c415a6377e871aff2020a9489815ff}\label{class_wpf_handler_1_1_dictionaries_1_1_a_p_i_ad5c415a6377e871aff2020a9489815ff}} 
+\index{Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI@{Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI}!Load\+X\+A\+M\+L\+\_\+\+Lang\+Dicts@{Load\+X\+A\+M\+L\+\_\+\+Lang\+Dicts}}
+\index{Load\+X\+A\+M\+L\+\_\+\+Lang\+Dicts@{Load\+X\+A\+M\+L\+\_\+\+Lang\+Dicts}!Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI@{Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI}}
+\subsubsection{\texorpdfstring{Load\+X\+A\+M\+L\+\_\+\+Lang\+Dicts()}{LoadXAML\_LangDicts()}}
+{\footnotesize\ttfamily static void Wpf\+Handler.\+Dictionaries.\+A\+P\+I.\+Load\+X\+A\+M\+L\+\_\+\+Lang\+Dicts (\begin{DoxyParamCaption}\item[{Culture\+Info}]{target\+Culture,  }\item[{Culture\+Info}]{secondary\+Culture }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Scaning for language dictionaries in X\+A\+ML files, and load them to Merged dictionaries. Load relative to new culture if found. Leave previous culture if not. 
+
+Require files format\+: $\ast$.lang.\+C\+U\+L\+T\+U\+R\+E\+\_\+\+C\+O\+D\+E.\+xaml, where culture code equal current translation of the app. Example\+: plugin.\+feed.\+lang.\+en-\/\+U\+S.\+xaml 
+
+
+\begin{DoxyParams}{Parameters}
+{\em target\+Culture} & Culture that will be serched with hightest priority.\\
+\hline
+{\em secondary\+Culture} & Culture that will be prefured in case of target not implemented. If also not implemented than will be used first entry.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wpf_handler_1_1_dictionaries_1_1_a_p_i_ac9aafbe351f06f0c20de39508d3e8852}\label{class_wpf_handler_1_1_dictionaries_1_1_a_p_i_ac9aafbe351f06f0c20de39508d3e8852}} 
+\index{Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI@{Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI}!Load\+X\+A\+M\+L\+\_\+\+Thems@{Load\+X\+A\+M\+L\+\_\+\+Thems}}
+\index{Load\+X\+A\+M\+L\+\_\+\+Thems@{Load\+X\+A\+M\+L\+\_\+\+Thems}!Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI@{Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI}}
+\subsubsection{\texorpdfstring{Load\+X\+A\+M\+L\+\_\+\+Thems()}{LoadXAML\_Thems()}}
+{\footnotesize\ttfamily static void Wpf\+Handler.\+Dictionaries.\+A\+P\+I.\+Load\+X\+A\+M\+L\+\_\+\+Thems (\begin{DoxyParamCaption}\item[{string}]{theme\+Code }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Scaning for language dictionaries in X\+A\+ML files, and load them to Merged dictionaries. Loading new theme by code if found. Leave already loaded if overrided dictionary not found. 
+
+Require files format\+: $\ast$.theme.\+T\+H\+E\+M\+E\+\_\+\+C\+O\+D\+E.\+xaml, where theme code equal current theme selected on the app. Example\+: plugin.\+feed.\+theme.\+blue\+Theme.\+xaml 
+
+
+\begin{DoxyParams}{Parameters}
+{\em theme\+Code} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wpf_handler_1_1_dictionaries_1_1_a_p_i_a0de06b29ec542383dbdc470bb9a7c98e}\label{class_wpf_handler_1_1_dictionaries_1_1_a_p_i_a0de06b29ec542383dbdc470bb9a7c98e}} 
+\index{Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI@{Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI}!Update\+Dictionaries\+Group@{Update\+Dictionaries\+Group}}
+\index{Update\+Dictionaries\+Group@{Update\+Dictionaries\+Group}!Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI@{Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI}}
+\subsubsection{\texorpdfstring{Update\+Dictionaries\+Group()}{UpdateDictionariesGroup()}}
+{\footnotesize\ttfamily static void Wpf\+Handler.\+Dictionaries.\+A\+P\+I.\+Update\+Dictionaries\+Group (\begin{DoxyParamCaption}\item[{string}]{directory,  }\item[{string}]{group\+Code,  }\item[{params string \mbox{[}$\,$\mbox{]}}]{sub\+Codes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em directory} & \\
+\hline
+{\em group\+Code} & \\
+\hline
+{\em sub\+Codes} & Codes that will be required from group of plugins. Will be looced in order of prefernces. Lower index -\/ more prefered. Will load any exist in case if any requested code not found.\\
+\hline
+\end{DoxyParams}
+Exmples\+: Culture code for localization plugins. Theme code for design plugins. 
+
+\subsection{Event Documentation}
+\mbox{\Hypertarget{class_wpf_handler_1_1_dictionaries_1_1_a_p_i_a1d26084678af47b609f686215de5a171}\label{class_wpf_handler_1_1_dictionaries_1_1_a_p_i_a1d26084678af47b609f686215de5a171}} 
+\index{Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI@{Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI}!Languages\+Dictionaries\+Updated@{Languages\+Dictionaries\+Updated}}
+\index{Languages\+Dictionaries\+Updated@{Languages\+Dictionaries\+Updated}!Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI@{Wpf\+Handler\+::\+Dictionaries\+::\+A\+PI}}
+\subsubsection{\texorpdfstring{Languages\+Dictionaries\+Updated}{LanguagesDictionariesUpdated}}
+{\footnotesize\ttfamily Action Wpf\+Handler.\+Dictionaries.\+A\+P\+I.\+Languages\+Dictionaries\+Updated\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Event that will occure when languages dictionary will be loaded. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Work/\+Git\+Hub/wpf-\/handler/\+Wpf\+Handler/\+Dictionaries/A\+P\+I.\+cs\end{DoxyCompactItemize}

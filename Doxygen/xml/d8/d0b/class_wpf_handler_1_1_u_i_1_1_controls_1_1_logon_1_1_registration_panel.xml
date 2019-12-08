@@ -1,0 +1,949 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::Controls::Logon::RegistrationPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ac14ea75c8f7062307d7260af118ca341" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid WpfHandler.UI.Controls.Logon.RegistrationPanel::main</definition>
+        <argsstring></argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="46" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ab1bcecd52be11848f03bbec1e96cb0fa" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.StackPanel</type>
+        <definition>System Windows Controls StackPanel WpfHandler.UI.Controls.Logon.RegistrationPanel::regPanel_FormBlock</definition>
+        <argsstring></argsstring>
+        <name>regPanel_FormBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="54" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a761d743d6667aae4fbb10729c105038a" prot="package" static="no" mutable="no">
+        <type><ref refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box" kindref="compound">WpfHandler.UI.Controls.FlatTextBox</ref></type>
+        <definition>WpfHandler UI Controls FlatTextBox WpfHandler.UI.Controls.Logon.RegistrationPanel::regLoginField</definition>
+        <argsstring></argsstring>
+        <name>regLoginField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="62" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1aa7cc2ca9c02e8600c76c3853f91600aa" prot="package" static="no" mutable="no">
+        <type><ref refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box" kindref="compound">WpfHandler.UI.Controls.FlatPasswordBox</ref></type>
+        <definition>WpfHandler UI Controls FlatPasswordBox WpfHandler.UI.Controls.Logon.RegistrationPanel::regPasswordField</definition>
+        <argsstring></argsstring>
+        <name>regPasswordField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a5bca8248a3d8843b1e45eea2416b264c" prot="package" static="no" mutable="no">
+        <type><ref refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box" kindref="compound">WpfHandler.UI.Controls.FlatPasswordBox</ref></type>
+        <definition>WpfHandler UI Controls FlatPasswordBox WpfHandler.UI.Controls.Logon.RegistrationPanel::regPasswordField2</definition>
+        <argsstring></argsstring>
+        <name>regPasswordField2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="78" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a040e76a570eb6560f1b5f6ebbd0e61ca" prot="package" static="no" mutable="no">
+        <type><ref refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box" kindref="compound">WpfHandler.UI.Controls.FlatTextBox</ref></type>
+        <definition>WpfHandler UI Controls FlatTextBox WpfHandler.UI.Controls.Logon.RegistrationPanel::regFNameField</definition>
+        <argsstring></argsstring>
+        <name>regFNameField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="86" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a2861818158d989e7166da9158282def3" prot="package" static="no" mutable="no">
+        <type><ref refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box" kindref="compound">WpfHandler.UI.Controls.FlatTextBox</ref></type>
+        <definition>WpfHandler UI Controls FlatTextBox WpfHandler.UI.Controls.Logon.RegistrationPanel::regMNameField</definition>
+        <argsstring></argsstring>
+        <name>regMNameField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="94" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a4c4e085fd6c4d861d82586b3eeeee9cf" prot="package" static="no" mutable="no">
+        <type><ref refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box" kindref="compound">WpfHandler.UI.Controls.FlatTextBox</ref></type>
+        <definition>WpfHandler UI Controls FlatTextBox WpfHandler.UI.Controls.Logon.RegistrationPanel::regLNameField</definition>
+        <argsstring></argsstring>
+        <name>regLNameField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="102" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a861fceb00f8a334e86ed4fb6c166af6d" prot="package" static="no" mutable="no">
+        <type><ref refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button" kindref="compound">WpfHandler.UI.Controls.FlatButton</ref></type>
+        <definition>WpfHandler UI Controls FlatButton WpfHandler.UI.Controls.Logon.RegistrationPanel::regBack</definition>
+        <argsstring></argsstring>
+        <name>regBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="110" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a70804e968bf3ebfd9476ab5a57b4f69c" prot="package" static="no" mutable="no">
+        <type><ref refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button" kindref="compound">WpfHandler.UI.Controls.FlatButton</ref></type>
+        <definition>WpfHandler UI Controls FlatButton WpfHandler.UI.Controls.Logon.RegistrationPanel::regContinue</definition>
+        <argsstring></argsstring>
+        <name>regContinue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="118" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a238fdf2bd9df827a989a8677c81639b0" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label WpfHandler.UI.Controls.Logon.RegistrationPanel::regPanel_error_server</definition>
+        <argsstring></argsstring>
+        <name>regPanel_error_server</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="126" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1aba35a21a7032f0c95be462ae591b07dd" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label WpfHandler.UI.Controls.Logon.RegistrationPanel::regPanel_error_lPNM</definition>
+        <argsstring></argsstring>
+        <name>regPanel_error_lPNM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="134" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1aed13115a5a985f5c7e238bcd887c62ca" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label WpfHandler.UI.Controls.Logon.RegistrationPanel::regPanel_error_lFAF</definition>
+        <argsstring></argsstring>
+        <name>regPanel_error_lFAF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="142" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a952c9b5d4435669a5f3446869e8e004c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.Logon.RegistrationPanel::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="147" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ae2306dea3d2ed9ef33d24e846e06c250" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.Logon.RegistrationPanel.ContinueCallbackProperty</definition>
+        <argsstring></argsstring>
+        <name>ContinueCallbackProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;ContinueCallback&quot;, typeof(Action&lt;object&gt;), typeof(<ref refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel" kindref="compound">RegistrationPanel</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="37" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ab31a831af5a6c9be9f96671b983cada3" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.Logon.RegistrationPanel.BackCallbackProperty</definition>
+        <argsstring></argsstring>
+        <name>BackCallbackProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;BackCallback&quot;, typeof(Action&lt;object&gt;), typeof(<ref refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel" kindref="compound">RegistrationPanel</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="40" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1abaec8de066eb2e0300849e2d649aa451" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Action&lt; object &gt;</type>
+        <definition>Action&lt;object&gt; WpfHandler.UI.Controls.Logon.RegistrationPanel.ContinueCallback</definition>
+        <argsstring></argsstring>
+        <name>ContinueCallback</name>
+        <briefdescription>
+<para>Method that will has been calling during click on button. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="47" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a52f6e9d84b5d3011ddb8313426fd06ab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Action&lt; object &gt;</type>
+        <definition>Action&lt;object&gt; WpfHandler.UI.Controls.Logon.RegistrationPanel.BackCallback</definition>
+        <argsstring></argsstring>
+        <name>BackCallback</name>
+        <briefdescription>
+<para>Method that will has been calling during click on button. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="56" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ad05f4bb773e52b1715229a854cf3a8ad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Thickness</type>
+        <definition>Thickness WpfHandler.UI.Controls.Logon.RegistrationPanel.RegFormMargin</definition>
+        <argsstring></argsstring>
+        <name>RegFormMargin</name>
+        <briefdescription>
+<para>Margine of scalable panel. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="65" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="66" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a91323c1b7f498e79c891dbb9a968537d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double WpfHandler.UI.Controls.Logon.RegistrationPanel.RegFormWidth</definition>
+        <argsstring></argsstring>
+        <name>RegFormWidth</name>
+        <briefdescription>
+<para>Auto-scalable form width. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="76" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="77" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a8cb28db1c4476e3261428c359171aa1b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.Controls.Logon.RegistrationPanel.Login</definition>
+        <argsstring></argsstring>
+        <name>Login</name>
+        <briefdescription>
+<para>Current login value in the field. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="87" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ad0c2680bd73c2f4d9bc18f776276a98c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.Controls.Logon.RegistrationPanel.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <briefdescription>
+<para>Current password value in the field. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="96" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a3cd22277d691338136b2834f3eb4b2de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.Controls.Logon.RegistrationPanel.PasswordConfirmation</definition>
+        <argsstring></argsstring>
+        <name>PasswordConfirmation</name>
+        <briefdescription>
+<para>Current password&apos;s confirmation value in the field. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="105" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ac60741ba9e6cde499f9d6c5f42c5835f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.Controls.Logon.RegistrationPanel.FirstName</definition>
+        <argsstring></argsstring>
+        <name>FirstName</name>
+        <briefdescription>
+<para>Current first name value in the field. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="114" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a0456bb0003a90fe81d1b7e2e33203658" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.Controls.Logon.RegistrationPanel.MiddleName</definition>
+        <argsstring></argsstring>
+        <name>MiddleName</name>
+        <briefdescription>
+<para>Current first name value in the field. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="123" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="124" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a5413cdd4b2a61834dd40f460fed905d7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.Controls.Logon.RegistrationPanel.LastName</definition>
+        <argsstring></argsstring>
+        <name>LastName</name>
+        <briefdescription>
+<para>Current first name value in the field. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="132" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a57ee6ead500ba0ecbc1ec033bedfa1ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.Logon.RegistrationPanel.PasswordNotMatchErrorLabel</definition>
+        <argsstring></argsstring>
+        <name>PasswordNotMatchErrorLabel</name>
+        <briefdescription>
+<para>Does &quot;password not match&quot; error label is enabled. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="141" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="142" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1af34f2ada32926ac1f4551b250e7544db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.Logon.RegistrationPanel.FillAllFieldErrorLabel</definition>
+        <argsstring></argsstring>
+        <name>FillAllFieldErrorLabel</name>
+        <briefdescription>
+<para>Does &quot;fiill all field&quot; error label is enabled. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="150" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1afaf0825575b64dcf5613320bbf6f5b10" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.Controls.Logon.RegistrationPanel.ErrorMessage</definition>
+        <argsstring></argsstring>
+        <name>ErrorMessage</name>
+        <briefdescription>
+<para>Error message tha twould displayed at <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref>&apos;s label. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="159" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="160" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1aff8fcb491529663fb55cb90bb1f844d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.Controls.Logon.RegistrationPanel.IsPasswordsTheSame</definition>
+        <argsstring></argsstring>
+        <name>IsPasswordsTheSame</name>
+        <briefdescription>
+<para>Check if passwords is the same and not null. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="179" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="180" bodyend="191"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a32e00deb7cab659d0c7b677bc32bea18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Logon.RegistrationPanel.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="154" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="154" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a32e00deb7cab659d0c7b677bc32bea18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Logon.RegistrationPanel.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.i.cs" line="154" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.i.cs" bodystart="154" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a32e00deb7cab659d0c7b677bc32bea18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Logon.RegistrationPanel.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon/RegistrationPanel.g.cs" line="154" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="154" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a32e00deb7cab659d0c7b677bc32bea18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Logon.RegistrationPanel.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon/RegistrationPanel.g.i.cs" line="154" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon/RegistrationPanel.g.i.cs" bodystart="154" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a51c83efa00ed6ca56e65be059adc76b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.Controls.Logon.RegistrationPanel.RegistrationPanel</definition>
+        <argsstring>()</argsstring>
+        <name>RegistrationPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="195" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="195" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a0cedeb04a8dd51c128dfb4f44d9dd5fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Logon.RegistrationPanel.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+<para>Clear all data filled to form. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="224" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="224" bodyend="235"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a73139da2616614c832bb2898d3ed5d64" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Delegate</type>
+        <definition>System.Delegate WpfHandler.UI.Controls.Logon.RegistrationPanel._CreateDelegate</definition>
+        <argsstring>(System.Type delegateType, string handler)</argsstring>
+        <name>_CreateDelegate</name>
+        <param>
+          <type>System.Type</type>
+          <declname>delegateType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="171" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="171" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a73139da2616614c832bb2898d3ed5d64" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Delegate</type>
+        <definition>System.Delegate WpfHandler.UI.Controls.Logon.RegistrationPanel._CreateDelegate</definition>
+        <argsstring>(System.Type delegateType, string handler)</argsstring>
+        <name>_CreateDelegate</name>
+        <param>
+          <type>System.Type</type>
+          <declname>delegateType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.i.cs" line="171" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.i.cs" bodystart="171" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a73139da2616614c832bb2898d3ed5d64" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Delegate</type>
+        <definition>System.Delegate WpfHandler.UI.Controls.Logon.RegistrationPanel._CreateDelegate</definition>
+        <argsstring>(System.Type delegateType, string handler)</argsstring>
+        <name>_CreateDelegate</name>
+        <param>
+          <type>System.Type</type>
+          <declname>delegateType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon/RegistrationPanel.g.cs" line="171" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="171" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a73139da2616614c832bb2898d3ed5d64" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Delegate</type>
+        <definition>System.Delegate WpfHandler.UI.Controls.Logon.RegistrationPanel._CreateDelegate</definition>
+        <argsstring>(System.Type delegateType, string handler)</argsstring>
+        <name>_CreateDelegate</name>
+        <param>
+          <type>System.Type</type>
+          <declname>delegateType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon/RegistrationPanel.g.i.cs" line="171" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon/RegistrationPanel.g.i.cs" bodystart="171" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1abe43d5c4cbe12784e4da3d78df3ff1c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.Controls.Logon.RegistrationPanel.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="181" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="181" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1abe43d5c4cbe12784e4da3d78df3ff1c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.Controls.Logon.RegistrationPanel.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.i.cs" line="181" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.i.cs" bodystart="181" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1abe43d5c4cbe12784e4da3d78df3ff1c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.Controls.Logon.RegistrationPanel.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon/RegistrationPanel.g.cs" line="181" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="181" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1abe43d5c4cbe12784e4da3d78df3ff1c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.Controls.Logon.RegistrationPanel.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon/RegistrationPanel.g.i.cs" line="181" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon/RegistrationPanel.g.i.cs" bodystart="181" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a9453dfee5457f47b9fe0fc25ed3028ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.Controls.Logon.RegistrationPanel.~RegistrationPanel</definition>
+        <argsstring>()</argsstring>
+        <name>~RegistrationPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="210" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="210" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1af7dcb01e3a28df3dbf53b5eb2a58b1ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Logon.RegistrationPanel.MainWindow_SizeChanged</definition>
+        <argsstring>(object sender, SizeChangedEventArgs e)</argsstring>
+        <name>MainWindow_SizeChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SizeChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Callback that will has been calling when widow size will be changed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="243" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="243" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a4ee6df9a19b36e88c71e85fdc295a806" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Logon.RegistrationPanel.LogonPanel_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>LogonPanel_Loaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Callback that will caling when panel will loaded. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="257" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="257" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ae186646427b48ea8fbce2a8a208484c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Logon.RegistrationPanel.ContinueCallbackHandler</definition>
+        <argsstring>(object sender)</argsstring>
+        <name>ContinueCallbackHandler</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+<para>Callback to continue button. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="267" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="267" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1adc95d35879b50f9b35504bb7610ce5d9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.Logon.RegistrationPanel.BackCallbackHandler</definition>
+        <argsstring>(object sender)</argsstring>
+        <name>BackCallbackHandler</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+<para>Callback to back button. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" line="276" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/RegistrationPanel.xaml.cs" bodystart="276" bodyend="279"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel" kindref="compound">RegistrationPanel</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para>Interaction logic for RegistrationPanel.xaml </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="533">
+        <label>WpfHandler.UI.Controls.Logon.RegistrationPanel</label>
+        <link refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel"/>
+        <childnode refid="534" relation="public-inheritance">
+        </childnode>
+        <childnode refid="535" relation="public-inheritance">
+        </childnode>
+        <childnode refid="536" relation="public-inheritance">
+        </childnode>
+        <childnode refid="535" relation="public-inheritance">
+        </childnode>
+        <childnode refid="536" relation="public-inheritance">
+        </childnode>
+        <childnode refid="535" relation="public-inheritance">
+        </childnode>
+        <childnode refid="536" relation="public-inheritance">
+        </childnode>
+        <childnode refid="535" relation="public-inheritance">
+        </childnode>
+        <childnode refid="536" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="535">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="536">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="534">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="541">
+        <label>Controls</label>
+      </node>
+      <node id="537">
+        <label>WpfHandler.UI.Controls.Logon.RegistrationPanel</label>
+        <link refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel"/>
+        <childnode refid="538" relation="public-inheritance">
+        </childnode>
+        <childnode refid="539" relation="public-inheritance">
+        </childnode>
+        <childnode refid="540" relation="public-inheritance">
+        </childnode>
+        <childnode refid="539" relation="public-inheritance">
+        </childnode>
+        <childnode refid="540" relation="public-inheritance">
+        </childnode>
+        <childnode refid="539" relation="public-inheritance">
+        </childnode>
+        <childnode refid="540" relation="public-inheritance">
+        </childnode>
+        <childnode refid="539" relation="public-inheritance">
+        </childnode>
+        <childnode refid="540" relation="public-inheritance">
+        </childnode>
+        <childnode refid="541" relation="usage">
+          <edgelabel>regPasswordField2</edgelabel>
+          <edgelabel>regContinue</edgelabel>
+          <edgelabel>regBack</edgelabel>
+          <edgelabel>regPasswordField</edgelabel>
+          <edgelabel>regLNameField</edgelabel>
+          <edgelabel>regFNameField</edgelabel>
+          <edgelabel>regMNameField</edgelabel>
+          <edgelabel>regLoginField</edgelabel>
+        </childnode>
+        <childnode refid="542" relation="usage">
+          <edgelabel>regPanel_error_lFAF</edgelabel>
+          <edgelabel>regPanel_error_server</edgelabel>
+          <edgelabel>main</edgelabel>
+          <edgelabel>regPanel_error_lPNM</edgelabel>
+          <edgelabel>regPanel_FormBlock</edgelabel>
+        </childnode>
+      </node>
+      <node id="542">
+        <label>System</label>
+      </node>
+      <node id="539">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="540">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="538">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/RegistrationPanel.g.cs" bodystart="41" bodyend="232"/>
+    <listofallmembers>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a952c9b5d4435669a5f3446869e8e004c" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>_contentLoaded</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a73139da2616614c832bb2898d3ed5d64" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>_CreateDelegate</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a73139da2616614c832bb2898d3ed5d64" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>_CreateDelegate</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a73139da2616614c832bb2898d3ed5d64" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>_CreateDelegate</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a73139da2616614c832bb2898d3ed5d64" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>_CreateDelegate</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a52f6e9d84b5d3011ddb8313426fd06ab" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>BackCallback</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1adc95d35879b50f9b35504bb7610ce5d9" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>BackCallbackHandler</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ab31a831af5a6c9be9f96671b983cada3" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>BackCallbackProperty</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a0cedeb04a8dd51c128dfb4f44d9dd5fa" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>Clear</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1abe43d5c4cbe12784e4da3d78df3ff1c1" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>Connect</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1abe43d5c4cbe12784e4da3d78df3ff1c1" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>Connect</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1abe43d5c4cbe12784e4da3d78df3ff1c1" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>Connect</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1abe43d5c4cbe12784e4da3d78df3ff1c1" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>Connect</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1abaec8de066eb2e0300849e2d649aa451" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>ContinueCallback</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ae186646427b48ea8fbce2a8a208484c9" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>ContinueCallbackHandler</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ae2306dea3d2ed9ef33d24e846e06c250" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>ContinueCallbackProperty</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1afaf0825575b64dcf5613320bbf6f5b10" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>ErrorMessage</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1af34f2ada32926ac1f4551b250e7544db" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>FillAllFieldErrorLabel</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ac60741ba9e6cde499f9d6c5f42c5835f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>FirstName</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a32e00deb7cab659d0c7b677bc32bea18" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>InitializeComponent</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a32e00deb7cab659d0c7b677bc32bea18" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>InitializeComponent</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a32e00deb7cab659d0c7b677bc32bea18" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>InitializeComponent</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a32e00deb7cab659d0c7b677bc32bea18" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>InitializeComponent</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1aff8fcb491529663fb55cb90bb1f844d9" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>IsPasswordsTheSame</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a5413cdd4b2a61834dd40f460fed905d7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>LastName</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a8cb28db1c4476e3261428c359171aa1b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>Login</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a4ee6df9a19b36e88c71e85fdc295a806" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>LogonPanel_Loaded</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ac14ea75c8f7062307d7260af118ca341" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>main</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1af7dcb01e3a28df3dbf53b5eb2a58b1ac" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>MainWindow_SizeChanged</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a0456bb0003a90fe81d1b7e2e33203658" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>MiddleName</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ad0c2680bd73c2f4d9bc18f776276a98c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>Password</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a3cd22277d691338136b2834f3eb4b2de" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>PasswordConfirmation</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a57ee6ead500ba0ecbc1ec033bedfa1ce" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>PasswordNotMatchErrorLabel</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a861fceb00f8a334e86ed4fb6c166af6d" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>regBack</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a70804e968bf3ebfd9476ab5a57b4f69c" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>regContinue</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a040e76a570eb6560f1b5f6ebbd0e61ca" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>regFNameField</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ad05f4bb773e52b1715229a854cf3a8ad" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>RegFormMargin</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a91323c1b7f498e79c891dbb9a968537d" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>RegFormWidth</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a51c83efa00ed6ca56e65be059adc76b8" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>RegistrationPanel</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a4c4e085fd6c4d861d82586b3eeeee9cf" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>regLNameField</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a761d743d6667aae4fbb10729c105038a" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>regLoginField</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a2861818158d989e7166da9158282def3" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>regMNameField</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1aed13115a5a985f5c7e238bcd887c62ca" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>regPanel_error_lFAF</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1aba35a21a7032f0c95be462ae591b07dd" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>regPanel_error_lPNM</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a238fdf2bd9df827a989a8677c81639b0" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>regPanel_error_server</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ab1bcecd52be11848f03bbec1e96cb0fa" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>regPanel_FormBlock</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1aa7cc2ca9c02e8600c76c3853f91600aa" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>regPasswordField</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a5bca8248a3d8843b1e45eea2416b264c" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>regPasswordField2</name></member>
+      <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a9453dfee5457f47b9fe0fc25ed3028ba" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::RegistrationPanel</scope><name>~RegistrationPanel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

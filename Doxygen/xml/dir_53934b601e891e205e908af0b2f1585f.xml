@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_53934b601e891e205e908af0b2f1585f" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon</compoundname>
+    <innerfile refid="d0/d86/_debug_2_u_i_2_controls_2_logon_2_logon_panel_8g_8cs">LogonPanel.g.cs</innerfile>
+    <innerfile refid="d5/dcb/_debug_2_u_i_2_controls_2_logon_2_logon_panel_8g_8i_8cs">LogonPanel.g.i.cs</innerfile>
+    <innerfile refid="d4/d34/_debug_2_u_i_2_controls_2_logon_2_logon_screen_8g_8cs">LogonScreen.g.cs</innerfile>
+    <innerfile refid="df/d0f/_debug_2_u_i_2_controls_2_logon_2_logon_screen_8g_8i_8cs">LogonScreen.g.i.cs</innerfile>
+    <innerfile refid="d5/dd9/_debug_2_u_i_2_controls_2_logon_2_registration_panel_8g_8cs">RegistrationPanel.g.cs</innerfile>
+    <innerfile refid="df/d05/_debug_2_u_i_2_controls_2_logon_2_registration_panel_8g_8i_8cs">RegistrationPanel.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/"/>
+  </compounddef>
+</doxygen>

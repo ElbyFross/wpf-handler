@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a40493f222d9ffcdd653b767b68c52a44" prot="package" static="no" mutable="no">
+        <type><ref refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw" kindref="compound">WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw</ref></type>
+        <definition>WpfHandler UI AutoLayout Controls AutoLayoutVeiw WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw::main</definition>
+        <argsstring></argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" line="46" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a7918966372bf9bad5dd25c837b748517" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.StackPanel</type>
+        <definition>System Windows Controls StackPanel WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw::root</definition>
+        <argsstring></argsstring>
+        <name>root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" line="54" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1aee334a65367c5ca61fb4bf3bff5e72d0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" line="59" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1abd1e3e95a1ed31eb35a7c6a531f51588" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor" kindref="compound">UIDescriptor</ref></type>
+        <definition>UIDescriptor WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw.Descriptor</definition>
+        <argsstring></argsstring>
+        <name>Descriptor</name>
+        <briefdescription>
+<para>Descriptor binded to the view. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/AutoLayoutVeiw.xaml.cs" line="40" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/AutoLayoutVeiw.xaml.cs" bodystart="41" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1abbafb7ec000393dc0cbffd3c1f1a8239" prot="protected" static="no" mutable="no">
+        <type><ref refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor" kindref="compound">UIDescriptor</ref></type>
+        <definition>UIDescriptor WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw._Descriptor</definition>
+        <argsstring></argsstring>
+        <name>_Descriptor</name>
+        <briefdescription>
+<para>BUfer that contains connected descriptor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/AutoLayoutVeiw.xaml.cs" line="59" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/AutoLayoutVeiw.xaml.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a9f1091c6f4daf3c752f2787d8ae1a4b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" line="66" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" bodystart="66" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a9f1091c6f4daf3c752f2787d8ae1a4b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.i.cs" line="66" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.i.cs" bodystart="66" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a9f1091c6f4daf3c752f2787d8ae1a4b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" line="66" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" bodystart="66" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a9f1091c6f4daf3c752f2787d8ae1a4b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/AutoLayout/Controls/AutoLayoutVeiw.g.i.cs" line="66" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/AutoLayout/Controls/AutoLayoutVeiw.g.i.cs" bodystart="66" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a1bfcdfad104151ab6060168e0cbd0623" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw.AutoLayoutVeiw</definition>
+        <argsstring>()</argsstring>
+        <name>AutoLayoutVeiw</name>
+        <briefdescription>
+<para>Initialize component. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/AutoLayoutVeiw.xaml.cs" line="64" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/AutoLayoutVeiw.xaml.cs" bodystart="64" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1af70d3c35cfef9f3e0c611ef4f01fcf35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" line="86" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" bodystart="86" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1af70d3c35cfef9f3e0c611ef4f01fcf35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.i.cs" line="86" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.i.cs" bodystart="86" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1af70d3c35cfef9f3e0c611ef4f01fcf35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" line="86" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" bodystart="86" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1af70d3c35cfef9f3e0c611ef4f01fcf35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/AutoLayout/Controls/AutoLayoutVeiw.g.i.cs" line="86" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/AutoLayout/Controls/AutoLayoutVeiw.g.i.cs" bodystart="86" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a1a6e98c4dc79f492b2174080f07c6705" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw.~AutoLayoutVeiw</definition>
+        <argsstring>()</argsstring>
+        <name>~AutoLayoutVeiw</name>
+        <briefdescription>
+<para>Releasing unmanaged memory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/AutoLayoutVeiw.xaml.cs" line="75" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/AutoLayoutVeiw.xaml.cs" bodystart="75" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a651648035cd4ac0e459c8cf1daa81116" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw.Main_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Main_Loaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Update dat after loading. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/AutoLayoutVeiw.xaml.cs" line="86" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/AutoLayoutVeiw.xaml.cs" bodystart="86" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw" kindref="compound">AutoLayoutVeiw</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para>Allow to connect auto generated GUI to the XAML descriptor. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw</label>
+        <link refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="32">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="30">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="38">
+        <label>WpfHandler.UI.AutoLayout.UIDescriptor</label>
+        <link refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor"/>
+        <childnode refid="39" relation="usage">
+          <edgelabel>activeLayer</edgelabel>
+        </childnode>
+      </node>
+      <node id="37">
+        <label>AutoLayout</label>
+      </node>
+      <node id="39">
+        <label>WpfHandler.UI.AutoLayout.LayoutLayer</label>
+        <link refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer"/>
+        <childnode refid="39" relation="usage">
+          <edgelabel>_Parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="40">
+        <label>System</label>
+      </node>
+      <node id="33">
+        <label>WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw</label>
+        <link refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+        <childnode refid="37" relation="usage">
+          <edgelabel>main</edgelabel>
+        </childnode>
+        <childnode refid="38" relation="usage">
+          <edgelabel>_Descriptor</edgelabel>
+        </childnode>
+        <childnode refid="40" relation="usage">
+          <edgelabel>root</edgelabel>
+        </childnode>
+      </node>
+      <node id="35">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="36">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="34">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls/AutoLayoutVeiw.g.cs" bodystart="41" bodyend="98"/>
+    <listofallmembers>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1aee334a65367c5ca61fb4bf3bff5e72d0" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>_contentLoaded</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1abbafb7ec000393dc0cbffd3c1f1a8239" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>_Descriptor</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a1bfcdfad104151ab6060168e0cbd0623" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>AutoLayoutVeiw</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1af70d3c35cfef9f3e0c611ef4f01fcf35" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>Connect</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1af70d3c35cfef9f3e0c611ef4f01fcf35" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>Connect</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1af70d3c35cfef9f3e0c611ef4f01fcf35" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>Connect</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1af70d3c35cfef9f3e0c611ef4f01fcf35" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>Connect</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1abd1e3e95a1ed31eb35a7c6a531f51588" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>Descriptor</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a9f1091c6f4daf3c752f2787d8ae1a4b6" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>InitializeComponent</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a9f1091c6f4daf3c752f2787d8ae1a4b6" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>InitializeComponent</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a9f1091c6f4daf3c752f2787d8ae1a4b6" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>InitializeComponent</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a9f1091c6f4daf3c752f2787d8ae1a4b6" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>InitializeComponent</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a40493f222d9ffcdd653b767b68c52a44" prot="package" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>main</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a651648035cd4ac0e459c8cf1daa81116" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>Main_Loaded</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a7918966372bf9bad5dd25c837b748517" prot="package" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>root</name></member>
+      <member refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw_1a1a6e98c4dc79f492b2174080f07c6705" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</scope><name>~AutoLayoutVeiw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

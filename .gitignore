@@ -1,0 +1,15 @@
+**/bin
+**/obj
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+*.suo
+*.dtbcache
+**/.vs
+*.pfx
+**/publish
+*.user
+**/packages
+**/Debug
+**/Release

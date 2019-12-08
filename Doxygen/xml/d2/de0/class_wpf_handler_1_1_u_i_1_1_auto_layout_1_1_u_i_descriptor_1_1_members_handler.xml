@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::UIDescriptor::MembersHandler</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler_1ab01eefa74f07555d76c813ac0f104b54" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool WpfHandler.UI.AutoLayout.UIDescriptor.MembersHandler.GetSpecifiedMemberInfo</definition>
+        <argsstring>(MemberInfo member, out PropertyInfo propInfo, out FieldInfo fieldInfo)</argsstring>
+        <name>GetSpecifiedMemberInfo</name>
+        <param>
+          <type>MemberInfo</type>
+          <declname>member</declname>
+        </param>
+        <param>
+          <type>out PropertyInfo</type>
+          <declname>propInfo</declname>
+        </param>
+        <param>
+          <type>out FieldInfo</type>
+          <declname>fieldInfo</declname>
+        </param>
+        <briefdescription>
+<para>Get info suitable for field and properties members. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>member</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>propInfo</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fieldInfo</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Is the member is property of field?</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="469" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="469" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler_1a1bd9d1aaca70397519f3043059bebb63" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WpfHandler.UI.AutoLayout.UIDescriptor.MembersHandler.SetValue</definition>
+        <argsstring>(MemberInfo member, object target, object value)</argsstring>
+        <name>SetValue</name>
+        <param>
+          <type>MemberInfo</type>
+          <declname>member</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Setingt value to the member. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>member</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PropertyInfo ot FieldInfo instance.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object that contains member.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to set.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="498" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="498" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler_1a3bf47759ce16ab35678709a5ddf121f6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WpfHandler.UI.AutoLayout.UIDescriptor.MembersHandler.GetValue</definition>
+        <argsstring>(MemberInfo member, object target)</argsstring>
+        <name>GetValue</name>
+        <param>
+          <type>MemberInfo</type>
+          <declname>member</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+<para>Getting value to the member. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>member</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PropertyInfo ot FieldInfo instance.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Object that contains member.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="517" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="517" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler_1a0a6dfae144a9878366a3b81ef52b7145" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Type</type>
+        <definition>static Type WpfHandler.UI.AutoLayout.UIDescriptor.MembersHandler.GetSpecifiedMemberType</definition>
+        <argsstring>(MemberInfo member)</argsstring>
+        <name>GetSpecifiedMemberType</name>
+        <param>
+          <type>MemberInfo</type>
+          <declname>member</declname>
+        </param>
+        <briefdescription>
+<para>Getting the type of the member. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>member</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Member for looking type. Allowed PropertyInfo or FieldInfo. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Type of the member.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="538" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="538" bodyend="550"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Handling tasks with members suitable for <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> descriptor&apos;s operations. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="461" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="460" bodyend="551"/>
+    <listofallmembers>
+      <member refid="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler_1ab01eefa74f07555d76c813ac0f104b54" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor::MembersHandler</scope><name>GetSpecifiedMemberInfo</name></member>
+      <member refid="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler_1a0a6dfae144a9878366a3b81ef52b7145" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor::MembersHandler</scope><name>GetSpecifiedMemberType</name></member>
+      <member refid="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler_1a3bf47759ce16ab35678709a5ddf121f6" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor::MembersHandler</scope><name>GetValue</name></member>
+      <member refid="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler_1a1bd9d1aaca70397519f3043059bebb63" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor::MembersHandler</scope><name>SetValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

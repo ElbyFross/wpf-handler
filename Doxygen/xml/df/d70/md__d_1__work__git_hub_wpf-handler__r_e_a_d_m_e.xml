@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="df/d70/md__d_1__work__git_hub_wpf-handler__r_e_a_d_m_e" kind="page">
+    <compoundname>md_D:_Work_GitHub_wpf-handler_README</compoundname>
+    <title>wpf-handler</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The flexible framework that highly simplify your work with WPF. New controls | Auto building of an UI | Localization | Plugins managment </para>    </detaileddescription>
+  </compounddef>
+</doxygen>
