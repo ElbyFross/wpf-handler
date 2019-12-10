@@ -343,7 +343,8 @@ namespace WpfHandler.UI.Controls
             // Informing subscribers.
             ValueChanged?.Invoke(this);
 
-            FrameworkElement GetRoot(FrameworkElement element)
+            // Looking for the root element.
+            static FrameworkElement GetRoot(FrameworkElement element)
             {
                 if (element.Parent != null) return GetRoot(element.Parent as FrameworkElement);
                 else return element;

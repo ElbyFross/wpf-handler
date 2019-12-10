@@ -72,9 +72,12 @@ namespace WpfHandler.UI.AutoLayout.Configuration
         /// <summary>
         /// Initialize all allowed fields.
         /// </summary>
-        /// <param name="defaultTitle">Title that would be used by default if localization dictionary not found.</param>
-        /// <param name="defaultDescription">Default description if localization dictionary not found.</param>
-        /// <param name="decriptionLocalizationResourseKey">Key of description content in localized dynamic dictionary.</param>
+        /// <param name="defaultTitle">
+        /// Title that would be used by default if localization dictionary not found.</param>
+        /// <param name="defaultDescription">
+        /// Default description if localization dictionary not found.</param>
+        /// <param name="decriptionLocalizationResourseKey">
+        /// Key of description content in localized dynamic dictionary.</param>
         public ContentAttribute(
             string defaultTitle,
             string defaultDescription,
@@ -84,16 +87,23 @@ namespace WpfHandler.UI.AutoLayout.Configuration
         /// <summary>
         /// Initialize all allowed fields.
         /// </summary>
-        /// <param name="defaultTitle">Title that would be used by default if localization dictionary not found.</param>
-        /// <param name="defaultDescription">Default description if localization dictionary not found.</param>
-        /// <param name="titleLocalizationResourseKey">Key of title content in localized dynamic dictionary.</param>
-        /// <param name="decriptionLocalizationResourseKey">Key of description content in localized dynamic dictionary.</param>
+        /// <param name="defaultTitle">
+        /// Title that would be used by default if localization dictionary not found.</param>
+        /// <param name="defaultDescription">
+        /// Default description if localization dictionary not found.</param>
+        /// <param name="titleLocalizationResourseKey"
+        /// >Key of title content in localized dynamic dictionary.</param>
+        /// <param name="decriptionLocalizationResourseKey">
+        /// Key of description content in localized dynamic dictionary.</param>
         public ContentAttribute(
             string defaultTitle,
             string defaultDescription,
             string titleLocalizationResourseKey,
             string decriptionLocalizationResourseKey) :
-            base(defaultTitle, defaultDescription, titleLocalizationResourseKey, decriptionLocalizationResourseKey) { }
+            base(defaultTitle, 
+                 defaultDescription, 
+                 titleLocalizationResourseKey, 
+                 decriptionLocalizationResourseKey) { }
 
         /// <summary>
         /// Callback that will occurs in case of updating of the language dictionaries.

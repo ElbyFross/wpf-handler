@@ -157,7 +157,7 @@ namespace WpfHandler.UI
         public GUIContent() 
         {
             // Subscribe on events.
-            Dictionaries.API.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
+            LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
         }
 
         /// <summary>
@@ -169,7 +169,7 @@ namespace WpfHandler.UI
             DefaultTitle = title;
 
             // Subscribe on events.
-            Dictionaries.API.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
+            LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
         }
 
         /// <summary>
@@ -183,7 +183,7 @@ namespace WpfHandler.UI
             DefaultDescription = description;
 
             // Subscribe on events.
-            Dictionaries.API.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
+            LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
         }
 
         /// <summary>
@@ -202,7 +202,7 @@ namespace WpfHandler.UI
             this.DecriptionLocalizationResourseKey = decriptionLocalizationResourseKey;
 
             // Subscribe on events.
-            Dictionaries.API.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
+            LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
         }
 
         /// <summary>
@@ -224,7 +224,7 @@ namespace WpfHandler.UI
             this.DecriptionLocalizationResourseKey = decriptionLocalizationResourseKey;
 
             // Subscribe on events.
-            Dictionaries.API.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
+            LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
         }
 
         /// <summary>
@@ -233,7 +233,7 @@ namespace WpfHandler.UI
         ~GUIContent()
         {
             // Unsubscribe from events.
-            Dictionaries.API.LanguagesDictionariesUpdated -= API_LanguagesDictionariesUpdated;
+            LocalizationHandler.LanguagesDictionariesUpdated -= API_LanguagesDictionariesUpdated;
         }
         #endregion
 

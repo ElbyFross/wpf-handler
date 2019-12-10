@@ -17,6 +17,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WpfHandler.UI;
 
 namespace WpfHandler.Dictionaries
 {
@@ -33,7 +34,7 @@ namespace WpfHandler.Dictionaries
         /// </summary>
         public LocalizableContentAttribute()
         {
-            API.LanguagesDictionariesUpdated += LanguagesDictionariesUpdated;
+            LocalizationHandler.LanguagesDictionariesUpdated += LanguagesDictionariesUpdated;
         }
 
         /// <summary>
@@ -41,7 +42,7 @@ namespace WpfHandler.Dictionaries
         /// </summary>
         ~LocalizableContentAttribute()
         {
-            API.LanguagesDictionariesUpdated -= LanguagesDictionariesUpdated;
+            LocalizationHandler.LanguagesDictionariesUpdated -= LanguagesDictionariesUpdated;
         }
 
         /// <summary>

@@ -30,11 +30,6 @@ namespace WpfHandler.Dictionaries
     public static class API
     {
         /// <summary>
-        /// Event that will occure when languages dictionary will be loaded.
-        /// </summary>
-        public static event Action LanguagesDictionariesUpdated;
-
-        /// <summary>
         /// Scaning for language dictionaries in XAML files, and load them to Merged dictionaries.
         /// Loading new theme by code if found. Leave already loaded if overrided dictionary not found.
         /// 
@@ -57,40 +52,15 @@ namespace WpfHandler.Dictionaries
         }
 
         /// <summary>
-        /// Scaning for language dictionaries in XAML files, and load them to Merged dictionaries.
-        /// Load relative to new culture if found. Leave previous culture if not.
-        /// 
-        /// Require files format: *.lang.CULTURE_CODE.xaml, where culture code equal current translation of the app. 
-        /// Example: plugin.feed.lang.en-US.xaml
+        /// Updating dictionaries loaded for certain group.
         /// </summary>
-        /// <param name="targetCulture">Culture that will be serched with hightest priority.</param>
-        /// <param name="secondaryCulture">Culture that will be prefured in case of target not implemented. If also not implemented than will be used first entry.</param>
-        public static void LoadXAML_LangDicts(CultureInfo targetCulture, CultureInfo secondaryCulture)
-        {
-            #region Validate and fix base conditions
-            // Validate directory.
-            if (!Directory.Exists(Plugins.Constants.PLUGINS_DIR))
-            {
-                Directory.CreateDirectory(Plugins.Constants.PLUGINS_DIR);
-                Console.WriteLine("PLUGINS DIRECTORY NOT FOUND. NEW ONE WAS CREATED.");
-            }
-            #endregion
-
-            // Request dictionaries update.
-            UpdateDictionariesGroup(Plugins.Constants.PLUGINS_DIR, "lang", targetCulture.Name, secondaryCulture.Name);
-            
-            // Update culture.
-            System.Threading.Thread.CurrentThread.CurrentUICulture = targetCulture;
-
-            // Inform subscribers.
-            LanguagesDictionariesUpdated?.Invoke();
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="directory"></param>
-        /// <param name="groupCode"></param>
+        /// <param name="directory">
+        /// The directory where stored dicrionaties. 
+        /// Using <see cref="SearchOption.AllDirectories"/> suring search.
+        /// </param>
+        /// <param name="groupCode">
+        /// The unique code of the dictioaries group. 
+        /// Allows to determite the diferend purposes of the plugins like localization, UI themes, etc.</param>
         /// <param name="subCodes">Codes that will be required from group of plugins.
         /// Will be looced in order of prefernces. Lower index - more prefered.
         /// Will load any exist in case if any requested code not found.
@@ -101,7 +71,6 @@ namespace WpfHandler.Dictionaries
         /// </param>
         public static void UpdateDictionariesGroup(string directory, string groupCode, params string[] subCodes)
         {
-
             #region Find localization files
             // Load all lang files.
             Regex searchPattern = new Regex(@"\w*."+ groupCode + ".[0-9a-z-]*.xaml", RegexOptions.IgnoreCase);
