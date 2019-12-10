@@ -4,20 +4,37 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:wpfh="clr-namespace:WpfHandler.UI.Controls;assembly=WpfHandler"
+        xmlns:ui="clr-namespace:WpfHandler.UI;assembly=WpfHandler"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="Localized button" Height="60" Width="200">
+        Title="Localized button" 
+        Height="200" MinHeight="200" MaxHeight="200"
+        Width="300" MinWidth="300" MaxWidth="300">
+    <Window.Resources>
+        <x:Array Type="{x:Type ui:GUIContent}" x:Key="localizationOptions">
+            <ui:GUIContent DefaultTitle="En" TitleLocalizationResourseKey="langEn"/>
+            <ui:GUIContent DefaultTitle="Ru" TitleLocalizationResourseKey="langRu"/>
+            <ui:GUIContent DefaultTitle="Built in"  TitleLocalizationResourseKey="langNone"/>
+        </x:Array>
+    </Window.Resources>
     <Grid>
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
+            <ColumnDefinition Width="20"/>
             <ColumnDefinition Width="0.5"/>
+            <ColumnDefinition Width="20"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         
         <!--The button that will be localized-->
-        <wpfh:FlatButton Name="localizedButton"/>
+        <wpfh:FlatButton Name="localizedButton" HorizontalAlignment="Right"/>
 
-        <Grid Background="Black" Grid.Column="1"/>
+        <Grid Background="Black" Grid.Column="2"/>
 
-        <wpfh:FlatTogglesGroup Grid.Column="2"/>
+        <wpfh:FlatTogglesGroup x:Name="langPanel"
+                               Grid.Column="4"
+                               VerticalAlignment="Center" 
+                               FieldsContent="{StaticResource localizationOptions}"/>
     </Grid>
 </Window>

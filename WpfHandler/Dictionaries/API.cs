@@ -60,7 +60,8 @@ namespace WpfHandler.Dictionaries
         /// </param>
         /// <param name="groupCode">
         /// The unique code of the dictioaries group. 
-        /// Allows to determite the diferend purposes of the plugins like localization, UI themes, etc.</param>
+        /// Allows to determite the diferend purposes of the plugins 
+        /// like localization (lang), UI themes (theme), etc.</param>
         /// <param name="subCodes">Codes that will be required from group of plugins.
         /// Will be looced in order of prefernces. Lower index - more prefered.
         /// Will load any exist in case if any requested code not found.
@@ -71,8 +72,11 @@ namespace WpfHandler.Dictionaries
         /// </param>
         public static void UpdateDictionariesGroup(string directory, string groupCode, params string[] subCodes)
         {
+            // Drop if sub codes not requestd.
+            if (subCodes.Length == 0) return;
+
             #region Find localization files
-            // Load all lang files.
+            // Load all files.
             Regex searchPattern = new Regex(@"\w*."+ groupCode + ".[0-9a-z-]*.xaml", RegexOptions.IgnoreCase);
             var xamlDicts = Directory.EnumerateFiles(directory, "*.xaml", SearchOption.AllDirectories)
                 .Where(s => searchPattern.IsMatch(s));
@@ -165,7 +169,7 @@ namespace WpfHandler.Dictionaries
             }
             #endregion
 
-            #region Change localization.
+            #region Change group's loaded dicts.
             // Bufer for dict loading. 
             foreach (DomainContainer domain in relevantDomains)
             {
@@ -207,6 +211,43 @@ namespace WpfHandler.Dictionaries
                 }
             }
             #endregion
+        }
+
+        /// <summary>
+        /// Clearing all loaded dictionaries from certain group.
+        /// </summary>
+        /// <param name="groupCode">
+        /// The unique code of the dictioaries group. 
+        /// Allows to determite the diferend purposes of the plugins 
+        /// like localization (lang), UI themes (theme), etc.</param>
+        public static void ClearDictionariesGroup(string groupCode)
+        {
+            // Array that will contain dictionaries for remove.
+            List<ResourceDictionary> rdForRemove = new List<ResourceDictionary>();
+            
+            // Dict pattern.
+            Regex regex = new Regex(@"\w*." + groupCode + ".[0-9a-z-]*.xaml", RegexOptions.IgnoreCase);
+
+            // Looking for loaded dictionaries.
+            foreach (ResourceDictionary conflict_rd in Application.Current.Resources.MergedDictionaries)
+            {
+                // Check os the file if match to patern.
+                if (regex.IsMatch(conflict_rd.Source.OriginalString))
+                {
+                    // Set as target for remove.
+                    rdForRemove.Add(conflict_rd);
+                    break;
+                }
+            }
+
+            // Removing all found lang dictionaries.
+            foreach(ResourceDictionary rd in rdForRemove)
+            {
+                Application.Current.Resources.MergedDictionaries.Remove(rd);
+            }
+
+            // Releasing memory.
+            rdForRemove.Clear();
         }
     }
 }

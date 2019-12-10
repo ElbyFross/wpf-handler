@@ -1,5 +1,8 @@
 ﻿using System.Windows;
+using System.Globalization;
 using WpfHandler.UI;
+using WpfHandler.UI.AutoLayout;
+using WpfHandler.UI.Controls;
 
 namespace LocalizationSample
 {
@@ -30,10 +33,38 @@ namespace LocalizationSample
             #region Loading localization dictionaries
             LocalizationHandler.LoadDictionaries(
                 // Request english localization as prior.
-                new System.Globalization.CultureInfo("en-US"), 
+                new CultureInfo("en-US"), 
                 // Request russian localization as secondary in case if english not found.
-                new System.Globalization.CultureInfo("ru-RU")); 
+                new CultureInfo("ru-RU"));
             #endregion
+
+
+            // Subscribing on the event of the language change.
+            langPanel.ValueChanged += LangPanel_ValueChanged;
+        }
+
+        /// <summary>
+        /// Occurs when user decide to change the current app's language.
+        /// </summary>
+        /// <param name="obj"></param>
+        private void LangPanel_ValueChanged(IGUIField obj)
+        {
+            var togglePanel = obj as FlatTogglesGroup;
+
+            switch (togglePanel.Index)
+            {
+                case 0: 
+                    LocalizationHandler.LoadDictionaries(new CultureInfo("en-US"));
+                    break;
+
+                case 1:
+                    LocalizationHandler.LoadDictionaries(new CultureInfo("ru-RU"));
+                    break;
+
+                default:
+                    LocalizationHandler.UnloadDictionaries();
+                    break;
+            }
         }
     }
 }

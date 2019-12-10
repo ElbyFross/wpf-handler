@@ -52,6 +52,12 @@ namespace WpfHandler.UI.Controls
         /// </summary>
         public static readonly DependencyProperty LabelWidthProperty = DependencyProperty.Register(
           "LabelWidth", typeof(float), typeof(FlatTogglesGroup), new PropertyMetadata(float.NaN));
+        
+        /// <summary>
+        /// Property that bridging control's property between XAML and code.
+        /// </summary>
+        public static readonly DependencyProperty FieldsContentProperty = DependencyProperty.Register(
+          "FieldsContent", typeof(Array), typeof(FlatTogglesGroup));
         #endregion
 
         #region Public members
@@ -121,6 +127,15 @@ namespace WpfHandler.UI.Controls
                 _Elements = value;
             }
         }
+        
+        /// <summary>
+        /// Text in label field.
+        /// </summary>
+        public Array FieldsContent
+        {
+            get { return (Array)GetValue(FieldsContentProperty); }
+            set { SetValue(FieldsContentProperty, value); }
+        }
 
         /// <summary>
         /// Text in label field.
@@ -153,6 +168,10 @@ namespace WpfHandler.UI.Controls
         /// <summary>
         /// Value of that control.
         /// </summary>
+        /// <remarks>
+        /// Set allowed only for the enum values.
+        /// For applying custom list use <see cref="FieldsContent"/> property.
+        /// </remarks>
         public object Value
         {
             get => Values.GetValue(Index);
@@ -411,6 +430,57 @@ namespace WpfHandler.UI.Controls
         /// </summary>
         protected void InstiniateElements()
         {
+            if (BindedEnumType != null) InstiniateEnumElements();
+            else InstiniateCustomElements();
+        }
+
+        /// <summary>
+        /// Instiniating elelements for the custom <see cref="FieldsContent"/> list.
+        /// </summary>
+        protected void InstiniateCustomElements()
+        {
+            // Instiniating the array.
+            Elements = new FrameworkElement[FieldsContent.Length];
+
+            // Generating uniquem token for that UI group.
+            var groupToken = Guid.NewGuid().ToString();
+
+            // Perform oparation for every element.
+            for (int i = 0; i < FieldsContent.Length; i++)
+            {
+                // Store index relavant for that element for local methods.
+                var localIndexBufer = i;
+
+                // Instiniating new UI element.
+                var element = new SelectableFlatButton()
+                {
+                    Group = groupToken,
+                    ClickCallback = delegate (object sender)
+                    {
+                        // Updating current selected index.
+                        _Index = localIndexBufer;
+
+                        // Inform subscribers.
+                        ValueChanged?.Invoke(this);
+                    }
+                };
+
+                // Adding to the collection.
+                Elements[i] = element;
+
+                // Binding the content to the field.
+                ((GUIContent)FieldsContent.GetValue(i)).BindToLable(element);
+            }
+
+            // Activating current option.
+            ((SelectableFlatButton)Elements[Index]).Selected = true;
+        }
+
+        /// <summary>
+        /// Instiniated elements by the binded Enum type.
+        /// </summary>
+        protected void InstiniateEnumElements()
+        {
             #region Getting meta data
             // Getting default members.
             var names = BindedEnumType.GetEnumNames();
@@ -452,15 +522,15 @@ namespace WpfHandler.UI.Controls
                 Elements[i] = element;
 
                 // Applying lable's value
-                try 
+                try
                 {
                     // Trying to bind a dynamic content.
                     int index = i + 1;
                     if (memberContents?.Count() > index)
                         memberContents[index].BindToLable(element);
                     else
-                        typeContents[i + 1].BindToLable(element); 
-                } 
+                        typeContents[i + 1].BindToLable(element);
+                }
                 catch { element.Label = names[i]; } // Loading fom the member's data..
             }
 

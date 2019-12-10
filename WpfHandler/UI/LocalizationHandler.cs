@@ -77,9 +77,8 @@ namespace WpfHandler.UI
         /// Require files format: *.lang.CULTURE_CODE.xaml, where culture code equal current translation of the app. 
         /// Example: plugin.feed.lang.en-US.xaml
         /// </summary>
-        /// <param name="targetCulture">Culture that will be serched with hightest priority.</param>
-        /// <param name="secondaryCulture">Culture that will be prefured in case of target not implemented. If also not implemented than will be used first entry.</param>
-        public static void LoadDictionaries(CultureInfo targetCulture, CultureInfo secondaryCulture)
+        /// <param name="culturesOrder">Array of cultures reuested to loading in the priiority oreder.</param>
+        public static void LoadDictionaries(params CultureInfo[] culturesOrder)
         {
             #region Validate and fix base conditions
             // Validate directory.
@@ -90,11 +89,31 @@ namespace WpfHandler.UI
             }
             #endregion
 
+            // Getting the keys.
+            string[] cutureKeys = new string[culturesOrder.Length];
+            for(int i = 0; i < culturesOrder.Length; i++)
+            {
+                CultureInfo info = culturesOrder[i];
+                cutureKeys[i] = info.Name;
+            }
+
             // Request dictionaries update.
-            Dictionaries.API.UpdateDictionariesGroup(Plugins.Constants.PLUGINS_DIR, "lang", targetCulture.Name, secondaryCulture.Name);
+            Dictionaries.API.UpdateDictionariesGroup(Plugins.Constants.PLUGINS_DIR, "lang", cutureKeys);
 
             // Update culture.
-            System.Threading.Thread.CurrentThread.CurrentUICulture = targetCulture;
+            System.Threading.Thread.CurrentThread.CurrentUICulture = culturesOrder[0];
+
+            // Inform subscribers.
+            LanguagesDictionariesUpdated?.Invoke();
+        }
+
+        /// <summary>
+        /// Unloading all current loaded localization dictionaries.
+        /// </summary>
+        public static void UnloadDictionaries()
+        {
+            // Clearing current loaded dicts.
+            Dictionaries.API.ClearDictionariesGroup("lang");
 
             // Inform subscribers.
             LanguagesDictionariesUpdated?.Invoke();
