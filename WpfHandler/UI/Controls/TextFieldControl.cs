@@ -173,7 +173,7 @@ namespace WpfHandler.UI.Controls
                 }
                 catch { }
 
-                return null;
+                return "";
             }
             set
             {
@@ -273,6 +273,8 @@ namespace WpfHandler.UI.Controls
             // Subscribing on the base events.
             SizeChanged += TextFieldControl_SizeChanged; 
             Loaded += TextFieldControl_Loaded;
+
+            Value = "";
         }
 
         /// <summary>

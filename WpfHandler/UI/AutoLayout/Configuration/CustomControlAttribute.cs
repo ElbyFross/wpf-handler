@@ -37,7 +37,7 @@ namespace WpfHandler.UI.AutoLayout.Configuration
             set
             {
                 // Check if type has implementation of ILayoutControl
-                if (value is IGUIField)
+                if (value.GetInterface(typeof(IGUIField).FullName) != null)
                 {
                     _ControlType = value;
                 }
