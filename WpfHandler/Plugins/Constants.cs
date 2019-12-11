@@ -18,6 +18,9 @@ using System.Text;
 
 namespace WpfHandler.Plugins
 {
+    /// <summary>
+    /// Contains constant members.
+    /// </summary>
     public static class Constants
     {
         /// <summary>

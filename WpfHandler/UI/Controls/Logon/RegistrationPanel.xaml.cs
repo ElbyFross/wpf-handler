@@ -53,8 +53,8 @@ namespace WpfHandler.UI.Controls.Logon
         /// </summary>
         public event RoutedEventHandler ContinueCallback
         {
-            add => base.AddHandler(ContinueClickEvent, value);
-            remove => base.RemoveHandler(ContinueClickEvent, value);
+            add => regContinue.AddHandler(FlatButton.ClickEvent, value);
+            remove => regContinue.RemoveHandler(FlatButton.ClickEvent, value);
         }
 
         /// <summary>
@@ -62,8 +62,8 @@ namespace WpfHandler.UI.Controls.Logon
         /// </summary>
         public event RoutedEventHandler BackCallback
         {
-            add => base.AddHandler(BackClickEvent, value);
-            remove => base.RemoveHandler(BackClickEvent, value);
+            add => regBack.AddHandler(FlatButton.ClickEvent, value);
+            remove => regBack.RemoveHandler(FlatButton.ClickEvent, value);
         }
 
         /// <summary>

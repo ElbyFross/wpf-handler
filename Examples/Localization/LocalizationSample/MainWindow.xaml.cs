@@ -25,11 +25,11 @@ namespace LocalizationSample
                 DefaultTitle = "Native title", 
 
                 // Adding the key that will be looking into the loaded dictionaries.
-                TitleLocalizationResourseKey = "localizedLableCustomKey"
+                TitleLocalizationResourseKey = "localizedLabelCustomKey"
             };
 
-            // Binding the content to the button's lable.
-            content.BindToLable(localizedButton);
+            // Binding the content to the button's label.
+            content.BindToLabel(localizedButton);
             #endregion
 
             #region Loading localization dictionaries
@@ -90,8 +90,7 @@ namespace LocalizationSample
                     message = "Russian localization is selected.";
                     break;
             }
-
-
+            
             MessageBox.Show(message);
         }
     }

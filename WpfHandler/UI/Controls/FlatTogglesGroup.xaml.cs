@@ -155,10 +155,10 @@ namespace WpfHandler.UI.Controls
             set
             {
                 // Buferize requested value.
-                LastLableWidth = value;
+                LastLabelWidth = value;
 
                 // Set value but apply at least 25 point to input field.
-                float appliedSize = (float)Math.Min(LastLableWidth, ActualWidth - 25);
+                float appliedSize = (float)Math.Min(LastLabelWidth, ActualWidth - 25);
 
                 // Appling value.
                 SetValue(LabelWidthProperty, appliedSize);              
@@ -251,7 +251,7 @@ namespace WpfHandler.UI.Controls
         /// <summary>
         /// Bufer that contains las requested label width.
         /// </summary>
-        protected float LastLableWidth = 0;
+        protected float LastLabelWidth = 0;
 
         /// <summary>
         /// Bufer that contains current layout orientation.
@@ -305,7 +305,7 @@ namespace WpfHandler.UI.Controls
         /// <param name="args">Shared arguments. Must contains <see cref="MemberInfo"/>.</param>
         /// <remarks>
         /// Allow castomization enum's element by adding multiply <see cref="ContentAttribute"/>. 
-        /// First attribute will applied to the common lable. 
+        /// First attribute will applied to the common label. 
         /// Any next <see cref="ContentAttribute"/> will be related to the elements by the direct order.
         /// </remarks>
         public void OnLayout(ref LayoutLayer layer, params object[] args)
@@ -398,9 +398,9 @@ namespace WpfHandler.UI.Controls
             canvas.Children.Add(ItemsPanel);
 
             // Defining visibility.
-            if (LastLableWidth <= 0 || string.IsNullOrEmpty(Label))
+            if (LastLabelWidth <= 0 || string.IsNullOrEmpty(Label))
             {
-                // Hide the lable.
+                // Hide the label.
                 label.Visibility = Visibility.Collapsed;
 
                 // Expand an items panel.
@@ -412,7 +412,7 @@ namespace WpfHandler.UI.Controls
             }
             else
             {
-                // Show the lable.
+                // Show the label.
                 label.Visibility = Visibility.Visible;
 
                 // Warping an items panel.
@@ -469,7 +469,7 @@ namespace WpfHandler.UI.Controls
                 Elements[i] = element;
 
                 // Binding the content to the field.
-                ((GUIContent)FieldsContent.GetValue(i)).BindToLable(element);
+                ((GUIContent)FieldsContent.GetValue(i)).BindToLabel(element);
             }
 
             // Activating current option.
@@ -521,15 +521,15 @@ namespace WpfHandler.UI.Controls
                 // Adding to the collection.
                 Elements[i] = element;
 
-                // Applying lable's value
+                // Applying label's value
                 try
                 {
                     // Trying to bind a dynamic content.
                     int index = i + 1;
                     if (memberContents?.Count() > index)
-                        memberContents[index].BindToLable(element);
+                        memberContents[index].BindToLabel(element);
                     else
-                        typeContents[i + 1].BindToLable(element);
+                        typeContents[i + 1].BindToLabel(element);
                 }
                 catch { element.Label = names[i]; } // Loading fom the member's data..
             }
@@ -546,7 +546,7 @@ namespace WpfHandler.UI.Controls
         /// <param name="e"></param>
         protected void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
-            LastLableWidth = (float)label.Width;
+            LastLabelWidth = (float)label.Width;
 
             // Set elements to the layout.
             UpdateElementsLayout();

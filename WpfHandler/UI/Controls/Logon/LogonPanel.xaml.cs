@@ -51,8 +51,8 @@ namespace WpfHandler.UI.Controls.Logon
         /// </summary>
         public event RoutedEventHandler SingUpCallback
         {
-            add => base.AddHandler(SingUpClickEvent, value); 
-            remove => base.RemoveHandler(SingUpClickEvent, value); 
+            add => singupButton.AddHandler(FlatButton.ClickEvent, value); 
+            remove => singupButton.RemoveHandler(FlatButton.ClickEvent, value); 
         }
 
         /// <summary>
@@ -60,8 +60,8 @@ namespace WpfHandler.UI.Controls.Logon
         /// </summary>
         public event RoutedEventHandler LoginCallback
         {
-            add => base.AddHandler(LoginClickEvent, value);
-            remove => base.RemoveHandler(LoginClickEvent, value);
+            add => loginButton.AddHandler(FlatButton.ClickEvent, value);
+            remove => loginButton.RemoveHandler(FlatButton.ClickEvent, value);
         }
 
         /// <summary>

@@ -19,6 +19,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Threading;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -37,17 +38,15 @@ namespace WpfHandler.UI.Controls
     public partial class FlatButton : UserControl, ILabel
     {
         /// <summary>
-        /// Bridging XAML declaring and the member.
+        /// Event that will be called when button will be pressed.
         /// </summary>
-        public static readonly DependencyProperty LabelProperty = DependencyProperty.Register(
-          "Label", typeof(string), typeof(FlatButton), new PropertyMetadata("Sample"));
-
+        public static readonly RoutedEvent ClickEvent;
 
         /// <summary>
         /// Bridging XAML declaring and the member.
         /// </summary>
-        public static readonly DependencyProperty ClickProperty = DependencyProperty.Register(
-          "Click", typeof(RoutedEventHandler), typeof(FlatButton));
+        public static readonly DependencyProperty LabelProperty = DependencyProperty.Register(
+          "Label", typeof(string), typeof(FlatButton), new PropertyMetadata("Sample"));
 
         /// <summary>
         /// Text that will be displayed on the button.
@@ -73,16 +72,23 @@ namespace WpfHandler.UI.Controls
         /// <summary>
         /// Occurs when a <see cref="FlatButton"/>> is clicked.
         /// </summary>
-        public RoutedEventHandler Click
+        public event RoutedEventHandler Click
         {
-            get => (RoutedEventHandler)base.GetValue(ClickProperty);
-            set => base.SetValue(ClickProperty, value);
+            add => this.AddHandler(FlatButton.ClickEvent, value);
+            remove => this.RemoveHandler(FlatButton.ClickEvent, value);
         }
 
         /// <summary>
         /// Not supported.
         /// </summary>
         public float LabelWidth { get => throw new NotSupportedException(); set => throw new NotSupportedException(); }
+
+        static FlatButton()
+        {
+            ClickEvent = EventManager.RegisterRoutedEvent(
+                 "Click", RoutingStrategy.Bubble,
+                 typeof(RoutedEventHandler), typeof(FlatButton));
+        }
 
         /// <summary>
         /// Default constuctor.
@@ -106,9 +112,15 @@ namespace WpfHandler.UI.Controls
             }
         }
 
-        private void FlatButton_Click(object _, RoutedEventArgs e)
+        /// <summary>
+        /// Occurs when internal button clicked.
+        /// </summary>
+        /// <param name="_"></param>
+        /// <param name="__"></param>
+        private void FlatButton_Click(object _, RoutedEventArgs __)
         {
-            Click?.Invoke(this, e);
+            RoutedEventArgs e = new RoutedEventArgs(ClickEvent, this);
+            RaiseEvent(e);
         }
     }
 }

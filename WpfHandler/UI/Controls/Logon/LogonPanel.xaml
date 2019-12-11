@@ -79,8 +79,7 @@ limitations under the License.-->
                                   HorizontalAlignment="Right" 
                                   FontSize="15"
                                   Grid.Column="1" 
-                                  Width="51"
-                                  Click="{Binding LoginCallback}"/>
+                                  Width="51"/>
             </Grid>
         </StackPanel>
 
@@ -90,8 +89,7 @@ limitations under the License.-->
                           HorizontalAlignment="Left" 
                           VerticalAlignment="Bottom" 
                           FontSize="15"
-                          Width="60"
-                          Click="{Binding SingUpCallback}"/>
+                          Width="60"/>
 
         <!--Profile restore button-->
         <local:FlatButton x:Name="restoreButton"

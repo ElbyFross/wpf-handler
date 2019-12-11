@@ -113,7 +113,7 @@ namespace WpfHandler.UI.AutoLayout.Configuration
             // Updating label.
             if (Content != null)
             {
-                // Updating lable's value.
+                // Updating label's value.
                 BindedLabel.Label = Content.GetTitle(BindedMember);
             }
             else
@@ -126,24 +126,24 @@ namespace WpfHandler.UI.AutoLayout.Configuration
         /// <summary>
         /// Connecting instiniated control with label to localization updates.
         /// </summary>
-        /// <param name="lable">UI control that has a lable to content bridging.</param>
-        public void BindToLable(ILabel lable)
+        /// <param name="label">UI control that has a label to content bridging.</param>
+        public void BindToLabel(ILabel label)
         {
             // Forwarding request.
-            BindToLable(lable, null);
+            BindToLabel(label, null);
         }
 
         /// <summary>
         /// Connecting instiniated control with label to localization updates.
         /// </summary>
-        /// <param name="lable">UI control that has a lable to content bridging.</param>
+        /// <param name="label">UI control that has a label to content bridging.</param>
         /// <param name="sourceMember">
         /// Member infor that could be used as source for auto generated 
         /// title in case if GUIContent not provided in resources.</param>
-        public void BindToLable(ILabel lable, MemberInfo sourceMember)
+        public void BindToLabel(ILabel label, MemberInfo sourceMember)
         {
             // Store shared references as binded.
-            BindedLabel = lable;
+            BindedLabel = label;
             BindedMember = sourceMember;
 
             // Throw exception if control not shared.

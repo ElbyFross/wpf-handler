@@ -113,8 +113,7 @@ limitations under the License.-->
                                   HorizontalAlignment="Left" 
                                   FontSize="15"
                                   Grid.Column="1" 
-                                  Width="60"
-                                  Click="{Binding BackCallback}"/>
+                                  Width="60"/>
 
                 <!--Continue registration button-->
                 <local:FlatButton x:Name="regContinue"
@@ -123,8 +122,7 @@ limitations under the License.-->
                                   HorizontalAlignment="Right" 
                                   FontSize="15"
                                   Grid.Column="2" 
-                                  Width="70"
-                                  Click="{Binding ContinueCallback}"/>
+                                  Width="70"/>
             </Grid>
         </StackPanel>
 

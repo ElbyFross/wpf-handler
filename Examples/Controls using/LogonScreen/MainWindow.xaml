@@ -1,0 +1,20 @@
+﻿<Window x:Class="LogonScreen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:logon="clr-namespace:WpfHandler.UI.Controls.Logon;assembly=WpfHandler"
+        xmlns:local="clr-namespace:LogonScreen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <logon:LogonScreen Name="logonScreen" 
+                           Grid.ColumnSpan="2" 
+                           Margin="0,-0.5,0,0"
+                           Opacity="1"
+                           LogonPanel_LoginCallback="LogonScreen_LogonPanel_LoginCallback"
+                           LogonPanel_SingUpCallback="LogonScreen_LogonPanel_SingUpCallback"
+                           RegPanel_ContinueCallback="LogonScreen_RegPanel_ContinueCallback"
+                           RegPanel_BackCallback="LogonScreen_RegPanel_BackCallback"/>
+    </Grid>
+</Window>

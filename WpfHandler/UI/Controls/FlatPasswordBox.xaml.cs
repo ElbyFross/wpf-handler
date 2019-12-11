@@ -60,7 +60,7 @@ namespace WpfHandler.UI.Controls
         /// <summary>
         /// Returns reference to the label block of UI element.
         /// </summary>
-        public override FrameworkElement LabelElement { get { return lableElement; } }
+        public override FrameworkElement LabelElement { get { return labelElement; } }
 
         /// <summary>
         /// Returns reference to the field block of UI element.
