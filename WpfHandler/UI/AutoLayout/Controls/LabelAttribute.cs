@@ -12,7 +12,7 @@ namespace WpfHandler.UI.AutoLayout.Controls
     /// <summary>
     /// Allow to add custom label element to the UI.
     /// </summary>
-    public class LabelAttribute : GUIContentAttribute
+    public class LabelAttribute : GUIContentAttribute, IGUIElement
     {
         /// <summary>
         /// Auto initialize content with shared title value.
@@ -58,7 +58,7 @@ namespace WpfHandler.UI.AutoLayout.Controls
         /// </summary>
         /// <param name="layer"></param>
         /// <param name="args"></param>
-        public virtual void OnGUI(ref LayoutLayer layer, params object[] args)
+        public virtual void OnLayout(ref LayoutLayer layer, params object[] args)
         {
             // Instiniate element.
             var element = new System.Windows.Controls.Label

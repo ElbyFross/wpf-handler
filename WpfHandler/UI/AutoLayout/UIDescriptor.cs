@@ -106,7 +106,7 @@ namespace WpfHandler.UI.AutoLayout
                 #endregion
 
                 // Getting all attributes.
-                var attributes = member.GetCustomAttributes<Attribute>(true);
+                IEnumerable<Attribute> attributes = member.GetCustomAttributes<Attribute>(true);
 
                 // Allocating and defining types.
                 var memberType = MembersHandler.GetSpecifiedMemberType(member);
@@ -132,8 +132,7 @@ namespace WpfHandler.UI.AutoLayout
                 // Check if default control was overrided by custom one.
                 var customControlDesc = member.GetCustomAttribute<CustomControlAttribute>();
                 if (customControlDesc != null && // Is overriding requested?
-                    customControlDesc.ControlType != null && // Is target type is not null?
-                    customControlDesc.ControlType.IsSubclassOf(typeof(IGUIField))) // Is target type has correct inherience
+                    customControlDesc.ControlType != null) // Is target type is not null
                 {
                     // Set redefined control like target to instinitation.
                     controlType = customControlDesc.ControlType;

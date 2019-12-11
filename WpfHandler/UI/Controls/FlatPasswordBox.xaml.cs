@@ -110,7 +110,15 @@ namespace WpfHandler.UI.Controls
         /// <param name="args"></param>
         public void OnLayout(ref LayoutLayer layer, params object[] args)
         {
-            throw new NotSupportedException();
+            // Trying to get shared properties.
+            foreach (object obj in args)
+            {
+                if (obj is MemberInfo)
+                {
+                    BindedMember = (MemberInfo)obj;
+                    break;
+                }
+            }
         }
                
         /// <summary>
