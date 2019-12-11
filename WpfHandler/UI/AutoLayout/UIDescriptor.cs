@@ -183,7 +183,7 @@ namespace WpfHandler.UI.AutoLayout
                         }
 
                         // Binding spawned element to the conent.
-                        localizationHandler.BindToLable(label, member);
+                        localizationHandler.BindToLabel(label, member);
                     }
                     #endregion
 

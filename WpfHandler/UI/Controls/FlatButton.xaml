@@ -18,6 +18,7 @@ limitations under the License.-->
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfHandler.UI.Controls"
+             xmlns:primitives="clr-namespace:System.Windows.Controls.Primitives;assembly=PresentationFramework"
              mc:Ignorable="d" 
              d:DesignHeight="25" d:DesignWidth="70"
              Height="25"
@@ -28,7 +29,7 @@ limitations under the License.-->
     <Button x:Name="flatButton"
             FontWeight="Thin"
             BorderThickness="0"
-            Click="CatalogButton_Click"
+            Click="FlatButton_Click"
             VerticalAlignment="Center">
         <Button.Style>
             <Style TargetType="{x:Type Button}">

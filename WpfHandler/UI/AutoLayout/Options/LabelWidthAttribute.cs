@@ -24,7 +24,7 @@ using WpfHandler.UI.Controls;
 namespace WpfHandler.UI.AutoLayout.Options
 {
     /// <summary>
-    /// Redefines lable width for the ILable objects.
+    /// Redefines label width for the ILable objects.
     /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property |
                     AttributeTargets.Class | AttributeTargets.Struct,
@@ -45,14 +45,14 @@ namespace WpfHandler.UI.AutoLayout.Options
         /// <summary>
         /// Set requested maximum height as Size.
         /// </summary>
-        /// <param name="width">Target lable width.</param>
+        /// <param name="width">Target label width.</param>
         public LabelWidthAttribute(double width) : base(width) { }
 
         /// <summary>
         /// Define max allowed height of the GUI element.
         /// NaN size value will skiped.
         /// </summary>
-        /// <param name="element">Shared UI element. Must has implemented @ILable interface.</param>
+        /// <param name="element">Shared UI element. Must has implemented <see cref="ILabel"/> interface.</param>
         public void ApplyLayoutOption(FrameworkElement element)
         {
             // Skip if undefined.
@@ -61,8 +61,8 @@ namespace WpfHandler.UI.AutoLayout.Options
             // Buferize shared element.
             BindedLabel = element;
 
-            // Try to cast as lable.
-            if (element is ILabel lable)
+            // Try to cast as label.
+            if (element is ILabel label)
             {
                 try
                 {
@@ -70,7 +70,7 @@ namespace WpfHandler.UI.AutoLayout.Options
                     if (element.IsLoaded)
                     {
                         // Applying shared size.
-                        lable.LabelWidth = (float)Size;
+                        label.LabelWidth = (float)Size;
                     }
                     // Wait till loading in other case.
                     else
@@ -82,13 +82,13 @@ namespace WpfHandler.UI.AutoLayout.Options
                 catch (Exception ex)
                 {
                     // Log error.
-                    MessageBox.Show("Lable width configuration failed.\n\n Details:\n" + ex.Message);
+                    MessageBox.Show("Label width configuration failed.\n\n Details:\n" + ex.Message);
                 }
             }
         }
 
         /// <summary>
-        /// Occurs when lable element will load.
+        /// Occurs when label element will load.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -98,9 +98,9 @@ namespace WpfHandler.UI.AutoLayout.Options
             BindedLabel.Loaded -= LabelWidthAttribute_Loaded;
 
             // Apply requested size.
-            if (BindedLabel is ILabel lable)
+            if (BindedLabel is ILabel label)
             {
-                lable.LabelWidth = (float)Size;
+                label.LabelWidth = (float)Size;
             }
         }
     }

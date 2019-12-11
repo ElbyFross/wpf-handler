@@ -34,29 +34,36 @@ namespace WpfHandler.UI.Controls.Logon
     /// </summary>
     public partial class RegistrationPanel : UserControl
     {
-        public static readonly DependencyProperty ContinueCallbackProperty = DependencyProperty.Register(
-          "ContinueCallback", typeof(Action<object>), typeof(RegistrationPanel));
 
-        public static readonly DependencyProperty BackCallbackProperty = DependencyProperty.Register(
-          "BackCallback", typeof(Action<object>), typeof(RegistrationPanel));
+        /// <summary>
+        /// Property that bridging control's property between XAML and code.
+        /// </summary>
+        public static readonly RoutedEvent ContinueClickEvent = EventManager.RegisterRoutedEvent("ContinueCallback",
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(RegistrationPanel));
+
+        /// <summary>
+        /// Property that bridging control's property between XAML and code.
+        /// </summary>
+        public static readonly RoutedEvent BackClickEvent = EventManager.RegisterRoutedEvent("BackCallback",
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(RegistrationPanel));
 
         #region Properties
         /// <summary>
         /// Method that will has been calling during click on button.
         /// </summary>
-        public Action<object> ContinueCallback
+        public event RoutedEventHandler ContinueCallback
         {
-            get { return (Action<object>)this.GetValue(ContinueCallbackProperty); }
-            set { this.SetValue(ContinueCallbackProperty, value); }
+            add => regContinue.AddHandler(FlatButton.ClickEvent, value);
+            remove => regContinue.RemoveHandler(FlatButton.ClickEvent, value);
         }
 
         /// <summary>
         /// Method that will has been calling during click on button.
         /// </summary>
-        public Action<object> BackCallback
+        public event RoutedEventHandler BackCallback
         {
-            get { return (Action<object>)this.GetValue(BackCallbackProperty); }
-            set { this.SetValue(BackCallbackProperty, value); }
+            add => regBack.AddHandler(FlatButton.ClickEvent, value);
+            remove => regBack.RemoveHandler(FlatButton.ClickEvent, value);
         }
 
         /// <summary>
@@ -192,6 +199,9 @@ namespace WpfHandler.UI.Controls.Logon
         #endregion
 
         #region Constructor\desctructor
+        /// <summary>
+        /// The defulat constuctor.
+        /// </summary>
         public RegistrationPanel()
         {
             #region WPF Init
@@ -200,21 +210,16 @@ namespace WpfHandler.UI.Controls.Logon
 
             // Subscribe on events
             SizeChanged += MainWindow_SizeChanged;
-
-            // Subscribe delegate on buttons.
-            regBack.ClickCallback += BackCallbackHandler;
-            regContinue.ClickCallback += ContinueCallbackHandler;
             #endregion
         }
 
+        /// <summary>
+        /// Releasing unmanaged memory.
+        /// </summary>
         ~RegistrationPanel()
         {
             // Unsubscribe from events.
             SizeChanged -= MainWindow_SizeChanged;
-
-            // Unsubscribe delegate from buttons.
-            try { regBack.ClickCallback -= BackCallbackHandler; } catch { };
-            try { regContinue.ClickCallback -= ContinueCallbackHandler; } catch { };
         }
         #endregion
 
@@ -258,24 +263,6 @@ namespace WpfHandler.UI.Controls.Logon
         {
             // Call recomputing of size.
             MainWindow_SizeChanged(sender, null);
-        }
-
-        /// <summary>
-        /// Callback to continue button.
-        /// </summary>
-        /// <param name="sender"></param>
-        private void ContinueCallbackHandler(object sender)
-        {
-            ContinueCallback?.Invoke(sender);
-        }
-
-        /// <summary>
-        /// Callback to back button.
-        /// </summary>
-        /// <param name="sender"></param>
-        private void BackCallbackHandler(object sender)
-        {
-            BackCallback?.Invoke(sender);
         }
         #endregion
     }

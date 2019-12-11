@@ -11,6 +11,8 @@ namespace LocalizationSample
     /// </summary>
     public partial class MainWindow : Window
     {
+        public int LangIndex { get; protected set; } = 0;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -23,11 +25,11 @@ namespace LocalizationSample
                 DefaultTitle = "Native title", 
 
                 // Adding the key that will be looking into the loaded dictionaries.
-                TitleLocalizationResourseKey = "localizedLableCustomKey"
+                TitleLocalizationResourseKey = "localizedLabelCustomKey"
             };
 
-            // Binding the content to the button's lable.
-            content.BindToLable(localizedButton);
+            // Binding the content to the button's label.
+            content.BindToLabel(localizedButton);
             #endregion
 
             #region Loading localization dictionaries
@@ -37,7 +39,6 @@ namespace LocalizationSample
                 // Request russian localization as secondary in case if english not found.
                 new CultureInfo("ru-RU"));
             #endregion
-
 
             // Subscribing on the event of the language change.
             langPanel.ValueChanged += LangPanel_ValueChanged;
@@ -65,6 +66,32 @@ namespace LocalizationSample
                     LocalizationHandler.UnloadDictionaries();
                     break;
             }
+
+            // Buferizing current index.
+            LangIndex = togglePanel.Index;
+        }
+
+        /// <summary>
+        /// Occurs when button is pressed.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void LocalizedButton_Click(object sender, RoutedEventArgs e)
+        {
+            string message = "Localization not selected. Used default content.";
+
+            switch (LangIndex)
+            {
+                case 0:
+                    message = "English localization is selected.";
+                    break;
+
+                case 1:
+                    message = "Russian localization is selected.";
+                    break;
+            }
+            
+            MessageBox.Show(message);
         }
     }
 }

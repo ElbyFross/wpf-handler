@@ -24,6 +24,9 @@ using System.Windows.Controls;
 
 namespace WpfHandler.UI.Animations
 {
+    /// <summary>
+    /// Provides the API to manage thinkness animations.
+    /// </summary>
     public class ThinknessAnimation
     {
         /// <summary>

@@ -34,28 +34,34 @@ namespace WpfHandler.UI.Controls.Logon
     /// </summary>
     public partial class LogonPanel : UserControl
     {
-        public static readonly DependencyProperty LoginCallbackProperty = DependencyProperty.Register(
-          "LoginCallback", typeof(Action<object>), typeof(LogonPanel));
+        /// <summary>
+        /// Property that bridging control's property between XAML and code.
+        /// </summary>
+        public static readonly RoutedEvent LoginClickEvent = EventManager.RegisterRoutedEvent("LoginCallback",
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(LogonPanel));
 
-        public static readonly DependencyProperty SingUpCallbackProperty = DependencyProperty.Register(
-          "SingUpCallback", typeof(Action<object>), typeof(LogonPanel));
+        /// <summary>
+        /// Property that bridging control's property between XAML and code.
+        /// </summary>
+        public static readonly RoutedEvent SingUpClickEvent = EventManager.RegisterRoutedEvent("SingUpCallback",
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(LogonPanel));
 
         /// <summary>
         /// Method that will has been calling during click on button.
         /// </summary>
-        public Action<object> SingUpCallback
+        public event RoutedEventHandler SingUpCallback
         {
-            get { return (Action<object>)this.GetValue(SingUpCallbackProperty); }
-            set { this.SetValue(SingUpCallbackProperty, value); }
+            add => singupButton.AddHandler(FlatButton.ClickEvent, value); 
+            remove => singupButton.RemoveHandler(FlatButton.ClickEvent, value); 
         }
 
         /// <summary>
         /// Method that will has been calling during click on button.
         /// </summary>
-        public Action<object> LoginCallback
+        public event RoutedEventHandler LoginCallback
         {
-            get { return (Action<object>)this.GetValue(LoginCallbackProperty); }
-            set { this.SetValue(LoginCallbackProperty, value); }
+            add => loginButton.AddHandler(FlatButton.ClickEvent, value);
+            remove => loginButton.RemoveHandler(FlatButton.ClickEvent, value);
         }
 
         /// <summary>
@@ -120,25 +126,24 @@ namespace WpfHandler.UI.Controls.Logon
         }
 
         #region Constructor\destructor
+        /// <summary>
+        /// Default constructor.
+        /// </summary>
         public LogonPanel()
         {
             InitializeComponent();
             DataContext = this;
 
             SizeChanged += MainWindow_SizeChanged;
-
-            // Cubscribe delegate on login click button.
-            loginButton.ClickCallback += LoginCallbackHandler;
-            singupButton.ClickCallback += SingUpCallbackHandler;
         }
 
+        /// <summary>
+        /// Releasing an unmanaged memory.
+        /// </summary>
         ~LogonPanel()
         {
             // Unsubscribe from events.
             SizeChanged -= MainWindow_SizeChanged;
-
-            try { loginButton.ClickCallback -= LoginCallbackHandler; }catch { }
-            try { singupButton.ClickCallback -= SingUpCallbackHandler; } catch { }
         }
         #endregion
 
@@ -173,24 +178,6 @@ namespace WpfHandler.UI.Controls.Logon
         {
             // Call recomputing of size.
             MainWindow_SizeChanged(sender, null);
-        }
-
-        /// <summary>
-        /// Callback to login button.
-        /// </summary>
-        /// <param name="sender"></param>
-        private void LoginCallbackHandler(object sender)
-        {
-            LoginCallback?.Invoke(sender);
-        }
-
-        /// <summary>
-        /// Callback to sing up button.
-        /// </summary>
-        /// <param name="sender"></param>
-        private void SingUpCallbackHandler(object sender)
-        {
-            SingUpCallback?.Invoke(sender);
         }
         #endregion
     }

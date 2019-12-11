@@ -88,13 +88,13 @@ namespace WpfHandler.UI.Controls
         /// Property that bridging control's property between XAML and code.
         /// </summary>
         public static readonly RoutedEvent OnAddEvent = EventManager.RegisterRoutedEvent("OnAddClick",
-            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(AutoCollection));
+            RoutingStrategy.Bubble, typeof(Action<object>), typeof(AutoCollection));
 
         /// <summary>
         /// Property that bridging control's property between XAML and code.
         /// </summary>
         public static readonly RoutedEvent OnRemoveEvent = EventManager.RegisterRoutedEvent("OnRemoveClick",
-            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(AutoCollection));
+            RoutingStrategy.Bubble, typeof(Action<object>), typeof(AutoCollection));
         #endregion
 
         #region Public members
@@ -312,7 +312,8 @@ namespace WpfHandler.UI.Controls
         /// in the first generic type argument of the source <see cref="IList"/>.
         /// </summary>
         /// <param name="sender">An element that caused that callback.</param>
-        protected void OnAdd(object sender)
+        /// <param name="e">Shred arguments.</param>
+        protected void OnAdd(object sender, RoutedEventArgs e)
         {
             // Call the custom callback instead default.
             if(OnAddClick != null)
@@ -347,7 +348,8 @@ namespace WpfHandler.UI.Controls
         /// Occurs when user pressing remove button.
         /// </summary>
         /// <param name="sender">>An element that caused that callback.</param>
-        protected void OnRemove(object sender)
+        /// <param name="e">Shared arguments.</param>
+        protected void OnRemove(object sender, RoutedEventArgs e)
         {
             // Call the custom callback instead default.
             if (OnRemoveClick != null)

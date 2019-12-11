@@ -42,31 +42,33 @@ namespace WpfHandler.UI
         /// <summary>
         /// Connecting instiniated control with label to localization updates.
         /// </summary>
-        /// <param name="lable">UI control that has a lable to content bridging.</param>
-        public static void BindToLable(this GUIContent content, ILabel lable)
+        /// <param name="content">Content handler that will manage the label.</param>
+        /// <param name="label">UI control that has a label to content bridging.</param>
+        public static void BindToLabel(this GUIContent content, ILabel label)
         {
             // Forwarding request.
-            content.BindToLable(lable, null);
+            content.BindToLabel(label, null);
         }
 
         /// <summary>
         /// Connecting instiniated control with label to localization updates.
         /// </summary>
-        /// <param name="lable">UI control that has a lable to content bridging.</param>
+        /// <param name="content">Content handler that will manage the label.</param>
+        /// <param name="label">UI control that has a label to content bridging.</param>
         /// <param name="sourceMember">
         /// Member infor that could be used as source for auto generated 
         /// title in case if GUIContent not provided in resources.</param>
-        public static void BindToLable(this GUIContent content, ILabel lable, MemberInfo sourceMember)
+        public static void BindToLabel(this GUIContent content, ILabel label, MemberInfo sourceMember)
         {
-            // Innstiniating localization attribute that will manage the lable.
+            // Innstiniating localization attribute that will manage the label.
             var localizationAttribute = new ContentAttribute
             {
                 // Applying shared content.
                 Content = content
             };
 
-            // Binding content to the lable.
-            localizationAttribute.BindToLable(lable, sourceMember);
+            // Binding content to the label.
+            localizationAttribute.BindToLabel(label, sourceMember);
         }
 
         /// <summary>

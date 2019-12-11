@@ -57,7 +57,6 @@ namespace WpfHandler.Plugins
         /// <summary>
         /// Load plugins from assembly and instiniate them to list.
         /// </summary>
-        /// <param name="list"></param>
         public static System.Collections.ObjectModel.ObservableCollection<IPlugin> LoadPluginsCollection()
         {
             System.Collections.ObjectModel.ObservableCollection<IPlugin> collection = 

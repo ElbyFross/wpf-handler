@@ -30,7 +30,16 @@ namespace WpfHandler.UI.AutoLayout.Configuration
     public sealed class OrderAttribute : Attribute
     {
         private readonly int order;
+
+        /// <summary>
+        /// The prority order of an element.
+        /// </summary>
         public int Order { get { return order; } }
+
+        /// <summary>
+        /// Default constuctor.
+        /// </summary>
+        /// <param name="order">The prority order of an element.</param>
         public OrderAttribute(int order) { this.order = order; }
     }
 }

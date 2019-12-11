@@ -34,51 +34,79 @@ namespace WpfHandler.UI.Controls.Logon
     /// </summary>
     public partial class LogonScreen : UserControl
     {
-        public static readonly DependencyProperty OperationCancelCallbackProperty = DependencyProperty.Register(
-          "OperationCancelCallback", typeof(Action<object>), typeof(LogonScreen));
+        #region Dependancy properties
+        /// <summary>
+        /// Property that bridging control's property between XAML and code.
+        /// </summary>
+        public static readonly RoutedEvent OperationCancelCallbackProperty = EventManager.RegisterRoutedEvent("OperationCancelCallback",
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(LogonScreen));
 
+        /// <summary>
+        /// Property that bridging control's property between XAML and code.
+        /// </summary>
+        public static readonly RoutedEvent LogonPanel_LoginCallbackProperty = EventManager.RegisterRoutedEvent("LogonPanel_LoginCallback",
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(LogonScreen));
+
+        /// <summary>
+        /// Property that bridging control's property between XAML and code.
+        /// </summary>
+        public static readonly RoutedEvent LogonPanel_SingUpCallbackProperty = EventManager.RegisterRoutedEvent("LogonPanel_SingUpCallback",
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(LogonScreen));
+
+        /// <summary>
+        /// Property that bridging control's property between XAML and code.
+        /// </summary>
+        public static readonly RoutedEvent RegPanel_ContinueCallbackProperty = EventManager.RegisterRoutedEvent("RegPanel_ContinueCallback",
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(LogonScreen));
+
+        /// <summary>
+        /// Property that bridging control's property between XAML and code.
+        /// </summary>
+        public static readonly RoutedEvent RegPanel_BackCallbackProperty = EventManager.RegisterRoutedEvent("RegPanel_BackCallback",
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(LogonScreen));
+        #endregion
 
         /// <summary>
         /// Method that will has been calling during click on button.
         /// </summary>
-        public Action<object> LogonPanel_LoginCallback
+        public event RoutedEventHandler LogonPanel_LoginCallback
         {
-            get { return logonPanel.LoginCallback; }
-            set { logonPanel.LoginCallback = value; }
+            add => logonPanel.loginButton.Click += value;
+            remove => logonPanel.loginButton.Click -= value;
         }
-        
+
         /// <summary>
         /// Method that will has been calling during click on button.
         /// </summary>
-        public Action<object> LogonPanel_SingUpCallback
+        public event RoutedEventHandler LogonPanel_SingUpCallback
         {
-            get { return logonPanel.SingUpCallback; }
-            set { logonPanel.SingUpCallback = value; }
+            add => logonPanel.singupButton.Click += value;
+            remove => logonPanel.singupButton.Click -= value;
         }
 
 
         /// <summary>
         /// Method that will has been calling during continue on button.
         /// </summary>
-        public Action<object> RegPanel_ContinueCallback
+        public event RoutedEventHandler RegPanel_ContinueCallback
         {
-            get { return registrationPanel.ContinueCallback; }
-            set { registrationPanel.ContinueCallback = value; }
+            add => registrationPanel.regContinue.Click += value;
+            remove => registrationPanel.regContinue.Click -= value;
         }
 
         /// <summary>
         /// Method that will has been calling during back on button.
         /// </summary>
-        public Action<object> RegPanel_BackCallback
+        public event RoutedEventHandler RegPanel_BackCallback
         {
-            get { return registrationPanel.BackCallback; }
-            set { registrationPanel.BackCallback = value; }
+            add => registrationPanel.regBack.Click += value;
+            remove => registrationPanel.regBack.Click -= value;
         }
 
         /// <summary>
         /// Method that will has been calling during click on operation cancel button.
         /// </summary>
-        public Action<object> OperationCancelCallback { get; set; }
+        public RoutedEventHandler OperationCancelCallback { get; set; }
 
         /// <summary>
         /// How many time will take swich animation of forms.
@@ -113,6 +141,9 @@ namespace WpfHandler.UI.Controls.Logon
         /// </summary>
         public readonly RegistrationPanel registrationPanel = new RegistrationPanel();
 
+        /// <summary>
+        /// Default constructor.
+        /// </summary>
         public LogonScreen()
         {
             #region WPF Init
@@ -127,6 +158,9 @@ namespace WpfHandler.UI.Controls.Logon
             RegPanel_ContinueCallback += RegPanel_ContinueCallbackHandler;
         }
 
+        /// <summary>
+        /// Releasing unmanaged memeory.
+        /// </summary>
         ~LogonScreen()
         {
             try { LogonPanel_SingUpCallback -= LogonPanel_SingUpCallbackHandler; } catch { };
@@ -151,23 +185,23 @@ namespace WpfHandler.UI.Controls.Logon
             switchPanel.current.Children.Add(logonPanel);
         }
 
-        private void LogonPanel_SingUpCallbackHandler(object sender)
+        private void LogonPanel_SingUpCallbackHandler(object sender, RoutedEventArgs e)
         {
             switchPanel.SwitchTo(registrationPanel, SwitchPanel.AnimationType.AlphaSwipe);
         }
 
-        private void LogonPanel_LoginCallbackHandler(object sender)
+        private void LogonPanel_LoginCallbackHandler(object sender, RoutedEventArgs e)
         {
             //switchPanel.SwitchTo(registrationPanel);
         }
 
 
-        private void RegPanel_BackCallbackHandler(object sender)
+        private void RegPanel_BackCallbackHandler(object sender, RoutedEventArgs e)
         {
             switchPanel.SwitchTo(logonPanel, SwitchPanel.AnimationType.AlphaSwipe);
         }
 
-        private void RegPanel_ContinueCallbackHandler(object sender)
+        private void RegPanel_ContinueCallbackHandler(object sender, RoutedEventArgs e)
         {
             //MessageBox.Show("Operation indefined.");
         }

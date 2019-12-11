@@ -55,14 +55,14 @@ limitations under the License.-->
                    HorizontalAlignment="Center"/>
 
         <local:FlatButton x:Name="lockCancelButton"
-                              ClickCallback="LockCancelCallbackHandler"
-                              Label="CANCEL" 
-                              Grid.Column="1"
-                              Grid.Row="3"
-                              FontSize="20"
-                              Width="120"
-                              HorizontalContentAlignment="Center"
-                              IsHitTestVisible="False"
-                              Opacity="0"/>
+                          Click="LockCancelCallbackHandler"
+                          Label="CANCEL" 
+                          Grid.Column="1"
+                          Grid.Row="3"
+                          FontSize="20"
+                          Width="120"
+                          HorizontalContentAlignment="Center"
+                          IsHitTestVisible="False"
+                          Opacity="0"/>
     </Grid>
 </UserControl>

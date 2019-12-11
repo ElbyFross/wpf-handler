@@ -117,16 +117,8 @@ namespace WpfHandler.UI.Controls
         /// </summary>
         public event TextChangedEventHandler TextChanged
         {
-            add
-            {
-                // добавление обработчика
-                base.AddHandler(TextBox.TextChangedEvent, value);
-            }
-            remove
-            {
-                // удаление обработчика
-                base.RemoveHandler(TextBox.TextChangedEvent, value);
-            }
+            add => base.AddHandler(TextBox.TextChangedEvent, value);
+            remove => base.RemoveHandler(TextBox.TextChangedEvent, value);
         }
 
         /// <summary>
@@ -148,7 +140,7 @@ namespace WpfHandler.UI.Controls
         }
 
         /// <summary>
-        /// Applyong value as lable content.
+        /// Applyong value as label content.
         /// </summary>
         /// <remarks>
         /// Allow only the <see cref="string"/> values.</remarks>
@@ -300,9 +292,9 @@ namespace WpfHandler.UI.Controls
         /// </summary>
         public virtual void RecomputeLayout()
         {
-            var lableExist = !string.IsNullOrEmpty(Label);
+            var labelExist = !string.IsNullOrEmpty(Label);
 
-            if (lableExist)
+            if (labelExist)
             {
                 // Show label.
                 LabelElement.Visibility = Visibility.Visible;

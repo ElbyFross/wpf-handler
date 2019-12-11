@@ -20,26 +20,44 @@ using System.Reflection;
 
 namespace WpfHandler.UI.Effects
 {
+    /// <summary>
+    /// Effect that allow to blur elements under the rect.
+    /// </summary>
     public class RectBlurEffect : ShaderEffect
     {
         private static readonly PixelShader pixelShader = new PixelShader();
         private static readonly PropertyInfo propertyInfo;
 
+        /// <summary>
+        /// Bind the Input property from the shader to the code behind.
+        /// </summary>
         public static readonly DependencyProperty InputProperty =
             ShaderEffect.RegisterPixelShaderSamplerProperty("Input", typeof(RectBlurEffect), 0);
 
+        /// <summary>
+        /// Bind the UpLeftCornerProperty property from the shader to the code behind.
+        /// </summary>
         public static readonly DependencyProperty UpLeftCornerProperty =
             DependencyProperty.Register("UpLeftCorner", typeof(Point), typeof(RectBlurEffect),
                 new UIPropertyMetadata(new Point(0, 0), PixelShaderConstantCallback(0)));
 
+        /// <summary>
+        /// Bind the LowRightCornerProperty property from the shader to the code behind.
+        /// </summary>
         public static readonly DependencyProperty LowRightCornerProperty =
             DependencyProperty.Register("LowRightCorner", typeof(Point), typeof(RectBlurEffect),
                 new UIPropertyMetadata(new Point(1, 1), PixelShaderConstantCallback(1)));
 
+        /// <summary>
+        /// Bind the FrameworkElementProperty property from the shader to the code behind.
+        /// </summary>
         public static readonly DependencyProperty FrameworkElementProperty =
             DependencyProperty.Register("FrameworkElement", typeof(FrameworkElement), typeof(RectBlurEffect),
             new PropertyMetadata(null, OnFrameworkElementPropertyChanged));
 
+        /// <summary>
+        /// Getting the shader executable source.
+        /// </summary>
         static RectBlurEffect()
         {
             Uri shaderUri = MakePackUri("Shaders/RectBlurEffect.ps");
@@ -48,8 +66,12 @@ namespace WpfHandler.UI.Effects
                 BindingFlags.Instance | BindingFlags.NonPublic);
         }
 
-        // MakePackUri is a utility method for computing a pack uri
-        // for the given resource. 
+        /// <summary>
+        /// MakePackUri is a utility method for computing a pack uri
+        /// for the given resource. 
+        /// </summary>
+        /// <param name="relativeFile">Path to the file.</param>
+        /// <returns>URI to the file.</returns>
         public static Uri MakePackUri(string relativeFile)
         {
             Assembly a = typeof(RectBlurEffect).Assembly;
@@ -65,7 +87,9 @@ namespace WpfHandler.UI.Effects
             return new Uri(uriString);
         }
 
-
+        /// <summary>
+        /// Instiniate the shader effect.
+        /// </summary>
         public RectBlurEffect()
         {
             PixelShader = pixelShader;
@@ -74,24 +98,36 @@ namespace WpfHandler.UI.Effects
             UpdateShaderValue(LowRightCornerProperty);
         }
 
+        /// <summary>
+        /// Defines input brush.
+        /// </summary>
         public Brush Input
         {
             get { return (Brush)GetValue(InputProperty); }
             set { SetValue(InputProperty, value); }
         }
 
+        /// <summary>
+        /// Defines up left corner of the rect.
+        /// </summary>
         public Point UpLeftCorner
         {
             get { return (Point)GetValue(UpLeftCornerProperty); }
             set { SetValue(UpLeftCornerProperty, value); }
         }
 
+        /// <summary>
+        /// Defines low right corner of the rect.
+        /// </summary>
         public Point LowRightCorner
         {
             get { return (Point)GetValue(LowRightCornerProperty); }
             set { SetValue(LowRightCornerProperty, value); }
         }
 
+        /// <summary>
+        /// Defines binded framwork element.
+        /// </summary>
         public FrameworkElement FrameworkElement
         {
             get { return (FrameworkElement)GetValue(FrameworkElementProperty); }

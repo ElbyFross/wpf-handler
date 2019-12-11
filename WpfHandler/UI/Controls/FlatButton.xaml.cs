@@ -19,6 +19,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Threading;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -27,6 +28,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfHandler.UI.AutoLayout;
+using System.Windows.Controls.Primitives;
 
 namespace WpfHandler.UI.Controls
 {
@@ -36,24 +38,23 @@ namespace WpfHandler.UI.Controls
     public partial class FlatButton : UserControl, ILabel
     {
         /// <summary>
+        /// Event that will be called when button will be pressed.
+        /// </summary>
+        public static readonly RoutedEvent ClickEvent;
+
+        /// <summary>
         /// Bridging XAML declaring and the member.
         /// </summary>
         public static readonly DependencyProperty LabelProperty = DependencyProperty.Register(
           "Label", typeof(string), typeof(FlatButton), new PropertyMetadata("Sample"));
 
         /// <summary>
-        /// Bridging XAML declaring and the member.
-        /// </summary>
-        public static readonly DependencyProperty ClickCallbackProperty = DependencyProperty.Register(
-          "ClickCallback", typeof(Action<object>), typeof(FlatButton));
-
-        /// <summary>
         /// Text that will be displayed on the button.
         /// </summary>
         public string Label
         {
-            get { return (string)this.GetValue(LabelProperty); }
-            set { this.SetValue(LabelProperty, value); }
+            get { return (string)base.GetValue(LabelProperty); }
+            set { base.SetValue(LabelProperty, value); }
         }
 
         /// <summary>
@@ -69,17 +70,24 @@ namespace WpfHandler.UI.Controls
         }
 
         /// <summary>
+        /// Occurs when a <see cref="FlatButton"/>> is clicked.
+        /// </summary>
+        public event RoutedEventHandler Click
+        {
+            add => this.AddHandler(FlatButton.ClickEvent, value);
+            remove => this.RemoveHandler(FlatButton.ClickEvent, value);
+        }
+
+        /// <summary>
         /// Not supported.
         /// </summary>
         public float LabelWidth { get => throw new NotSupportedException(); set => throw new NotSupportedException(); }
 
-        /// <summary>
-        /// Method that will has been calling during click on button.
-        /// </summary>
-        public Action<object> ClickCallback
+        static FlatButton()
         {
-            get { return (Action<object>)this.GetValue(ClickCallbackProperty); }
-            set { this.SetValue(ClickCallbackProperty, value); }
+            ClickEvent = EventManager.RegisterRoutedEvent(
+                 "Click", RoutingStrategy.Bubble,
+                 typeof(RoutedEventHandler), typeof(FlatButton));
         }
 
         /// <summary>
@@ -88,31 +96,31 @@ namespace WpfHandler.UI.Controls
         public FlatButton()
         {
             InitializeComponent();
-            DataContext = this;
+            base.DataContext = this;
 
             // Try to load default style
             try
             {
                 if (Application.Current.FindResource("FlatButton") is Style style)
                 {
-                    this.Style = style;
+                    base.Style = style;
                 }
             }
             catch
-            { 
+            {
                 // Not found in dictionary. Not important.
             }
         }
 
         /// <summary>
-        /// Callback that will has been calling when button will be clicked.
+        /// Occurs when internal button clicked.
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void CatalogButton_Click(object sender, RoutedEventArgs e)
+        /// <param name="_"></param>
+        /// <param name="__"></param>
+        private void FlatButton_Click(object _, RoutedEventArgs __)
         {
-            // Call target handler if avalaiable.
-            ClickCallback?.Invoke(this);
+            RoutedEventArgs e = new RoutedEventArgs(ClickEvent, this);
+            RaiseEvent(e);
         }
     }
 }

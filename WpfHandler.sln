@@ -23,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{7065
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalizationSample", "Examples\Localization\LocalizationSample\LocalizationSample.csproj", "{20617544-3A3B-4B9F-BC19-5B8358DA86A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controls using", "Controls using", "{D97B584E-0A89-4DA1-AC33-1EDD3998550B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogonScreen", "Examples\Controls using\LogonScreen\LogonScreen.csproj", "{B405E810-EB2F-4DFF-8B8B-E69869AB9F01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,18 @@ Global
 		{20617544-3A3B-4B9F-BC19-5B8358DA86A5}.Release|x64.Build.0 = Release|Any CPU
 		{20617544-3A3B-4B9F-BC19-5B8358DA86A5}.Release|x86.ActiveCfg = Release|Any CPU
 		{20617544-3A3B-4B9F-BC19-5B8358DA86A5}.Release|x86.Build.0 = Release|Any CPU
+		{B405E810-EB2F-4DFF-8B8B-E69869AB9F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B405E810-EB2F-4DFF-8B8B-E69869AB9F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B405E810-EB2F-4DFF-8B8B-E69869AB9F01}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B405E810-EB2F-4DFF-8B8B-E69869AB9F01}.Debug|x64.Build.0 = Debug|Any CPU
+		{B405E810-EB2F-4DFF-8B8B-E69869AB9F01}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B405E810-EB2F-4DFF-8B8B-E69869AB9F01}.Debug|x86.Build.0 = Debug|Any CPU
+		{B405E810-EB2F-4DFF-8B8B-E69869AB9F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B405E810-EB2F-4DFF-8B8B-E69869AB9F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B405E810-EB2F-4DFF-8B8B-E69869AB9F01}.Release|x64.ActiveCfg = Release|Any CPU
+		{B405E810-EB2F-4DFF-8B8B-E69869AB9F01}.Release|x64.Build.0 = Release|Any CPU
+		{B405E810-EB2F-4DFF-8B8B-E69869AB9F01}.Release|x86.ActiveCfg = Release|Any CPU
+		{B405E810-EB2F-4DFF-8B8B-E69869AB9F01}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +95,8 @@ Global
 		{C2BACAB8-8473-4AD9-95A6-6AA90EE9FC30} = {1BF5E61A-7F19-42E9-B298-C8192EB44E67}
 		{7065EFA5-06CB-4B93-AFF6-6F96C5B6EF10} = {1BF5E61A-7F19-42E9-B298-C8192EB44E67}
 		{20617544-3A3B-4B9F-BC19-5B8358DA86A5} = {CA5C968E-1E80-4CB8-96AB-53E222619EF6}
+		{D97B584E-0A89-4DA1-AC33-1EDD3998550B} = {1BF5E61A-7F19-42E9-B298-C8192EB44E67}
+		{B405E810-EB2F-4DFF-8B8B-E69869AB9F01} = {D97B584E-0A89-4DA1-AC33-1EDD3998550B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C96127E1-EF18-4663-B0AF-8F667F68E508}
