@@ -57,6 +57,9 @@ namespace WpfHandler.UI.Controls
         /// </summary>
         public Action<object> OperationCancelCallback { get; set; }
 
+        /// <summary>
+        /// Default constructor.
+        /// </summary>
         public LockScreen()
         {
             InitializeComponent();
@@ -156,7 +159,12 @@ namespace WpfHandler.UI.Controls
             lockedEllements = null;
         }
 
-        public void LockCancelCallbackHandler(object sender)
+        /// <summary>
+        /// Occurs when lock screee cancel button is pressed.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
+        public void LockCancelCallbackHandler(object sender, RoutedEventArgs args)
         {
             OperationCancelCallback?.Invoke(sender);
             Unlock();

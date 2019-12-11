@@ -75,29 +75,31 @@ limitations under the License.-->
 
                 <!--Login button-->
                 <local:FlatButton x:Name="loginButton"
-                                      Label="ENTER" 
-                                      HorizontalAlignment="Right" 
-                                      FontSize="15"
-                                      Grid.Column="1" 
-                                      Width="51"/>
+                                  Label="ENTER" 
+                                  HorizontalAlignment="Right" 
+                                  FontSize="15"
+                                  Grid.Column="1" 
+                                  Width="51"
+                                  Click="{Binding LoginCallback}"/>
             </Grid>
         </StackPanel>
 
         <!--Sing up button-->
         <local:FlatButton x:Name="singupButton" 
-                              Label="Sing Up" 
-                              HorizontalAlignment="Left" 
-                              VerticalAlignment="Bottom" 
-                              FontSize="15"
-                              Width="60"/>
+                          Label="Sing Up" 
+                          HorizontalAlignment="Left" 
+                          VerticalAlignment="Bottom" 
+                          FontSize="15"
+                          Width="60"
+                          Click="{Binding SingUpCallback}"/>
 
         <!--Profile restore button-->
         <local:FlatButton x:Name="restoreButton"
-                              Label="Can't enter?"
-                              HorizontalAlignment="Right" 
-                              VerticalAlignment="Bottom" 
-                              FontSize="15" 
-                              Width="85"/>
+                          Label="Can't enter?"
+                          HorizontalAlignment="Right" 
+                          VerticalAlignment="Bottom" 
+                          FontSize="15" 
+                          Width="85"/>
 
     </Grid>
 </UserControl>

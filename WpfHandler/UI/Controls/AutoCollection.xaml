@@ -53,7 +53,7 @@ limitations under the License.-->
                        Margin="0,-5, 0, 0"/>
             
             <local:FlatButton Label="+" 
-                              ClickCallback="OnAdd"
+                              Click="OnAdd"
                               HorizontalContentAlignment="Center"/>
         </Grid>
 
@@ -65,7 +65,7 @@ limitations under the License.-->
                        RadiusY="{Binding CornerRadius}"
                        Margin="0,-5, 0, 0"/>
             
-            <local:FlatButton Label="-" ClickCallback="OnRemove"
+            <local:FlatButton Label="-" Click="OnRemove"
                               HorizontalContentAlignment="Center"/>
         </Grid>
 

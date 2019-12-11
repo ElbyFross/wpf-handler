@@ -268,7 +268,8 @@ namespace WpfHandler.UI.Controls
         /// <param name="_">
         /// Not using. Will be overided on `this` cause listener 
         /// can't khow reference tp the child button control.</param>
-        public void OnButtonClick(object _)
+        /// <param name="__">Not using.</param>
+        public void OnButtonClick(object _, RoutedEventArgs __)
         {
             // Call subscribed delegate.
             ClickCallback?.Invoke(this);

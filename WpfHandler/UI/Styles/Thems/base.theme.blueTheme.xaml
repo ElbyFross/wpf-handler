@@ -7,8 +7,8 @@
     <SolidColorBrush x:Key="canvasBackground" Color="#FFFFFF"/>
     <SolidColorBrush x:Key="canvasForground" Color="#00A8E8"/>
 	
-	  <SolidColorBrush x:Key="highlightsBackgroundT1" Color="#DBDBDB"/>
-	  <SolidColorBrush x:Key="highlightsBackgroundT2" Color="#DBDBDB"/>
+	<SolidColorBrush x:Key="highlightsBackgroundT1" Color="#DBDBDB"/>
+	<SolidColorBrush x:Key="highlightsBackgroundT2" Color="#DBDBDB"/>
 	
     <SolidColorBrush x:Key="controlMenuBackground" Color="#00171F"/>	
 	

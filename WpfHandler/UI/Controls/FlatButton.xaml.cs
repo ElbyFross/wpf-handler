@@ -27,6 +27,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfHandler.UI.AutoLayout;
+using System.Windows.Controls.Primitives;
 
 namespace WpfHandler.UI.Controls
 {
@@ -41,19 +42,20 @@ namespace WpfHandler.UI.Controls
         public static readonly DependencyProperty LabelProperty = DependencyProperty.Register(
           "Label", typeof(string), typeof(FlatButton), new PropertyMetadata("Sample"));
 
+
         /// <summary>
         /// Bridging XAML declaring and the member.
         /// </summary>
-        public static readonly DependencyProperty ClickCallbackProperty = DependencyProperty.Register(
-          "ClickCallback", typeof(Action<object>), typeof(FlatButton));
+        public static readonly DependencyProperty ClickProperty = DependencyProperty.Register(
+          "Click", typeof(RoutedEventHandler), typeof(FlatButton));
 
         /// <summary>
         /// Text that will be displayed on the button.
         /// </summary>
         public string Label
         {
-            get { return (string)this.GetValue(LabelProperty); }
-            set { this.SetValue(LabelProperty, value); }
+            get { return (string)base.GetValue(LabelProperty); }
+            set { base.SetValue(LabelProperty, value); }
         }
 
         /// <summary>
@@ -69,18 +71,18 @@ namespace WpfHandler.UI.Controls
         }
 
         /// <summary>
+        /// Occurs when a <see cref="FlatButton"/>> is clicked.
+        /// </summary>
+        public RoutedEventHandler Click
+        {
+            get => (RoutedEventHandler)base.GetValue(ClickProperty);
+            set => base.SetValue(ClickProperty, value);
+        }
+
+        /// <summary>
         /// Not supported.
         /// </summary>
         public float LabelWidth { get => throw new NotSupportedException(); set => throw new NotSupportedException(); }
-
-        /// <summary>
-        /// Method that will has been calling during click on button.
-        /// </summary>
-        public Action<object> ClickCallback
-        {
-            get { return (Action<object>)this.GetValue(ClickCallbackProperty); }
-            set { this.SetValue(ClickCallbackProperty, value); }
-        }
 
         /// <summary>
         /// Default constuctor.
@@ -88,31 +90,25 @@ namespace WpfHandler.UI.Controls
         public FlatButton()
         {
             InitializeComponent();
-            DataContext = this;
+            base.DataContext = this;
 
             // Try to load default style
             try
             {
                 if (Application.Current.FindResource("FlatButton") is Style style)
                 {
-                    this.Style = style;
+                    base.Style = style;
                 }
             }
             catch
-            { 
+            {
                 // Not found in dictionary. Not important.
             }
         }
 
-        /// <summary>
-        /// Callback that will has been calling when button will be clicked.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void CatalogButton_Click(object sender, RoutedEventArgs e)
+        private void FlatButton_Click(object _, RoutedEventArgs e)
         {
-            // Call target handler if avalaiable.
-            ClickCallback?.Invoke(this);
+            Click?.Invoke(this, e);
         }
     }
 }

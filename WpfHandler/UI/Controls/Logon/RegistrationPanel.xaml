@@ -108,21 +108,23 @@ limitations under the License.-->
 
                 <!--Back to login button-->
                 <local:FlatButton x:Name="regBack"
-                                      Label="Back"  
-                                      Background="Transparent"
-                                      HorizontalAlignment="Left" 
-                                      FontSize="15"
-                                      Grid.Column="1" 
-                                      Width="60"/>
+                                  Label="Back"  
+                                  Background="Transparent"
+                                  HorizontalAlignment="Left" 
+                                  FontSize="15"
+                                  Grid.Column="1" 
+                                  Width="60"
+                                  Click="{Binding BackCallback}"/>
 
                 <!--Continue registration button-->
                 <local:FlatButton x:Name="regContinue"
-                                      Label="Continue" 
-                                      Background="Transparent"
-                                      HorizontalAlignment="Right" 
-                                      FontSize="15"
-                                      Grid.Column="2" 
-                                      Width="70"/>
+                                  Label="Continue" 
+                                  Background="Transparent"
+                                  HorizontalAlignment="Right" 
+                                  FontSize="15"
+                                  Grid.Column="2" 
+                                  Width="70"
+                                  Click="{Binding ContinueCallback}"/>
             </Grid>
         </StackPanel>
 

@@ -28,7 +28,7 @@
         </Grid.ColumnDefinitions>
         
         <!--The button that will be localized-->
-        <wpfh:FlatButton Name="localizedButton" HorizontalAlignment="Right"/>
+        <wpfh:FlatButton Name="localizedButton" HorizontalAlignment="Right" Click="LocalizedButton_Click"/>
 
         <Grid Background="Black" Grid.Column="2"/>
 

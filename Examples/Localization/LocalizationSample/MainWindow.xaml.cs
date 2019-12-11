@@ -11,6 +11,8 @@ namespace LocalizationSample
     /// </summary>
     public partial class MainWindow : Window
     {
+        public int LangIndex { get; protected set; } = 0;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -38,7 +40,6 @@ namespace LocalizationSample
                 new CultureInfo("ru-RU"));
             #endregion
 
-
             // Subscribing on the event of the language change.
             langPanel.ValueChanged += LangPanel_ValueChanged;
         }
@@ -65,6 +66,33 @@ namespace LocalizationSample
                     LocalizationHandler.UnloadDictionaries();
                     break;
             }
+
+            // Buferizing current index.
+            LangIndex = togglePanel.Index;
+        }
+
+        /// <summary>
+        /// Occurs when button is pressed.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void LocalizedButton_Click(object sender, RoutedEventArgs e)
+        {
+            string message = "Localization not selected. Used default content.";
+
+            switch (LangIndex)
+            {
+                case 0:
+                    message = "English localization is selected.";
+                    break;
+
+                case 1:
+                    message = "Russian localization is selected.";
+                    break;
+            }
+
+
+            MessageBox.Show(message);
         }
     }
 }

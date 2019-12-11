@@ -38,7 +38,7 @@ limitations under the License.-->
                           FontSize="{Binding FontSize, ElementName=main}" 
                           FontWeight="{Binding FontWeight, ElementName=main}"
                           Foreground="{Binding Foreground, ElementName=main}"
-                          ClickCallback="OnButtonClick"/>
+                          Click="OnButtonClick"/>
 
     </StackPanel>
 </UserControl>

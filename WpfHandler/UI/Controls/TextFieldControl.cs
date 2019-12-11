@@ -117,16 +117,8 @@ namespace WpfHandler.UI.Controls
         /// </summary>
         public event TextChangedEventHandler TextChanged
         {
-            add
-            {
-                // добавление обработчика
-                base.AddHandler(TextBox.TextChangedEvent, value);
-            }
-            remove
-            {
-                // удаление обработчика
-                base.RemoveHandler(TextBox.TextChangedEvent, value);
-            }
+            add => base.AddHandler(TextChangedEvent, value);
+            remove => base.RemoveHandler(TextChangedEvent, value);
         }
 
         /// <summary>

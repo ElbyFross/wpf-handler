@@ -117,28 +117,29 @@ namespace WpfHandler.UI.Controls
         /// <summary>
         /// Gets a value indicating whether the System.Collections.IList is read-only.
         /// </summary>
-        public bool IsReadOnly => source.IsReadOnly;
+        public bool IsReadOnly => source != null ? source.IsReadOnly : true;
 
         /// <summary>
         /// Gets a value indicating whether the System.Collections.IList has a fixed size.
         /// </summary>
-        public bool IsFixedSize => source.IsFixedSize;
+        public bool IsFixedSize => source != null ? source.IsFixedSize : true;
 
         /// <summary>
         /// Gets the number of elements contained in the System.Collections.ICollection.
+        /// Returns -1 in case if source not binded.
         /// </summary>
-        public int Count => source.Count;
+        public int Count => source != null ? source.Count : -1;
 
         /// <summary>
         /// Gets an object that can be used to synchronize access to the System.Collections.ICollection.
         /// </summary>
-        public object SyncRoot => throw new NotImplementedException();
+        public object SyncRoot => source?.SyncRoot;
 
         /// <summary>
         /// Gets a value indicating whether access to the System.Collections.ICollection
         /// is synchronized (thread safe).
         /// </summary>
-        public bool IsSynchronized => throw new NotImplementedException();
+        public bool IsSynchronized => source != null ? source.IsFixedSize : true;
 
         /// <summary>
         /// Gets or sets the element at the specified index.
@@ -254,16 +255,16 @@ namespace WpfHandler.UI.Controls
         public void Clear()
         {
             // Clearing the source.
-            source.Clear();
+            source?.Clear();
 
             // Clearing registred fields.
-            Fields.Clear();
+            Fields?.Clear();
 
             // Clearing UI elements.
-            Elements.Clear();
+            Elements?.Clear();
 
             // Clearing index map.
-            indexMap.Clear();
+            indexMap?.Clear();
 
             // Inform subscribers.
             ValueChanged?.Invoke(this);
@@ -449,7 +450,7 @@ namespace WpfHandler.UI.Controls
         public void CopyTo(Array array, int index)
         {
             // Copying the source.
-            source.CopyTo(array, index);
+            source?.CopyTo(array, index);
         }
 
         /// <summary>
@@ -461,7 +462,7 @@ namespace WpfHandler.UI.Controls
         /// </returns>
         public IEnumerator GetEnumerator()
         {
-            return source.GetEnumerator();
+            return source?.GetEnumerator();
         }
         #endregion
 
