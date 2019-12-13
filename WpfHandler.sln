@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogonScreen", "Examples\Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFiledControls", "Examples\Controls using\TextFiledControls\TextFiledControls.csproj", "{3C1D1525-F19C-47FE-995F-3742DE4B6919}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplePanelDescriptor", "Examples\Auto layout\ExamplePanelDescriptor\ExamplePanelDescriptor.csproj", "{07E840E0-ED47-4F12-BA24-B353BFD59F75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,18 @@ Global
 		{3C1D1525-F19C-47FE-995F-3742DE4B6919}.Release|x64.Build.0 = Release|Any CPU
 		{3C1D1525-F19C-47FE-995F-3742DE4B6919}.Release|x86.ActiveCfg = Release|Any CPU
 		{3C1D1525-F19C-47FE-995F-3742DE4B6919}.Release|x86.Build.0 = Release|Any CPU
+		{07E840E0-ED47-4F12-BA24-B353BFD59F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E840E0-ED47-4F12-BA24-B353BFD59F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E840E0-ED47-4F12-BA24-B353BFD59F75}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{07E840E0-ED47-4F12-BA24-B353BFD59F75}.Debug|x64.Build.0 = Debug|Any CPU
+		{07E840E0-ED47-4F12-BA24-B353BFD59F75}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{07E840E0-ED47-4F12-BA24-B353BFD59F75}.Debug|x86.Build.0 = Debug|Any CPU
+		{07E840E0-ED47-4F12-BA24-B353BFD59F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E840E0-ED47-4F12-BA24-B353BFD59F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E840E0-ED47-4F12-BA24-B353BFD59F75}.Release|x64.ActiveCfg = Release|Any CPU
+		{07E840E0-ED47-4F12-BA24-B353BFD59F75}.Release|x64.Build.0 = Release|Any CPU
+		{07E840E0-ED47-4F12-BA24-B353BFD59F75}.Release|x86.ActiveCfg = Release|Any CPU
+		{07E840E0-ED47-4F12-BA24-B353BFD59F75}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,6 +126,7 @@ Global
 		{D97B584E-0A89-4DA1-AC33-1EDD3998550B} = {1BF5E61A-7F19-42E9-B298-C8192EB44E67}
 		{B405E810-EB2F-4DFF-8B8B-E69869AB9F01} = {D97B584E-0A89-4DA1-AC33-1EDD3998550B}
 		{3C1D1525-F19C-47FE-995F-3742DE4B6919} = {D97B584E-0A89-4DA1-AC33-1EDD3998550B}
+		{07E840E0-ED47-4F12-BA24-B353BFD59F75} = {C2BACAB8-8473-4AD9-95A6-6AA90EE9FC30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C96127E1-EF18-4663-B0AF-8F667F68E508}

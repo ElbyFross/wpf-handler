@@ -18,6 +18,15 @@ namespace TextFiledControls
         [Label("to find the descriptor.")]
         public string stringField = "abc";
 
+        // Desclaring int property.
+        public int IntProperty { get; set; } = 0;
+
+        // Desclaring flaot field.
+        public float floatField = 0.0f;
+
+        // Desclaring double property.
+        public double DoubleProperty { get; set; } = 1.0d;
+
         [CustomControl(typeof(FlatPasswordBox))]
         public string PasswordProperty { get; set; } = "pass";
     }

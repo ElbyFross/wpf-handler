@@ -163,6 +163,13 @@ namespace WpfHandler.UI.Controls
                         Text = textPropertyBufer;
                     }
                     break;
+
+                case TextFieldControl.Mode.Double:
+                    if (!double.TryParse(Text, out _))
+                    {
+                        Text = textPropertyBufer;
+                    }
+                    break;
             }
 
             // Buferize las valid value.

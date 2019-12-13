@@ -10,8 +10,9 @@
         mc:Ignorable="d"
         Title="Text fields using" Height="480" Width="330" MinWidth="330" MaxWidth="33">
     <ScrollViewer>
-        <StackPanel Orientation="Vertical">
+        <StackPanel x:Name="contentHolder" Orientation="Vertical">
             
+            <!--String field without the prefix lable.-->
             <StackPanel Background="WhiteSmoke">
                 <Canvas Height="5"/>
                 
@@ -21,10 +22,20 @@
                 <Canvas Height="5"/>
             </StackPanel>
 
+                        
+            
+            
+            
+            <!--String field with the prefix lable.-->
             <Canvas Height="5"/>
             <wpfh:FlatTextBox Label="Prefix label"/>
             <Canvas Height="5"/>
+            
+            
+            
+            
 
+            <!--Int field with the prefix lable and custom width params.-->
             <StackPanel Background="WhiteSmoke">
                 <Canvas Height="5"/>
                 <Label Content="INT field with custom width params."/>
@@ -36,11 +47,23 @@
                 <Canvas Height="5"/>
             </StackPanel>
 
+            
+            
+            
+
+            <!--String password field without the prefix lable.-->
             <Canvas Height="5"/>
             <Label Content="Password field without prefix lable."/>
+            
             <wpfh:FlatPasswordBox Value="123456789Qwerty"/>
+            
             <Canvas Height="5"/>
 
+            
+            
+            
+            
+            <!--String password field with the prefix lable and ValueChanged event handler.-->
             <StackPanel Background="WhiteSmoke">
                 <Canvas Height="5"/>
 
@@ -60,6 +83,11 @@
                 <Canvas Height="5"/>
             </StackPanel>
 
+            
+            
+            
+            
+            <!--Auto layout handler. Will generate UI from the binded UIDescriptor.-->
             <autolayout:AutoLayoutVeiw x:Name="alView"/>
         </StackPanel>
     </ScrollViewer>
