@@ -31,7 +31,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFiledControls", "Exampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplePanelDescriptor", "Examples\Auto layout\ExamplePanelDescriptor\ExamplePanelDescriptor.csproj", "{07E840E0-ED47-4F12-BA24-B353BFD59F75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCollectionExample", "Examples\Custom controls\AutoCollectionExample\AutoCollectionExample.csproj", "{6F7A1893-35B7-44ED-B9AD-0AA9BD500422}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCollectionExample", "Examples\Controls using\AutoCollectionExample\AutoCollectionExample.csproj", "{6F7A1893-35B7-44ED-B9AD-0AA9BD500422}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
