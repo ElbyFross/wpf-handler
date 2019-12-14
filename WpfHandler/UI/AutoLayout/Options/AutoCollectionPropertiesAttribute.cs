@@ -60,6 +60,10 @@ namespace WpfHandler.UI.AutoLayout.Options
         /// </summary>
         public bool RemoveButtonVisibile { get; set; } = true;
 
+        /// <summary>
+        /// Is the drag of elements allowed.
+        /// </summary>
+        public bool DragAllowed { get; set; } = true;
 
         /// <summary>
         /// Applying collection properties to the elements if it's inheirted from the <see cref="AutoCollection"/>
@@ -114,6 +118,9 @@ namespace WpfHandler.UI.AutoLayout.Options
             {
                 collection.CornerRadius = CornerRadius;
             }
+
+            // Applying the drag option.
+            collection.DragAllowed = DragAllowed;
         }
     }
 }

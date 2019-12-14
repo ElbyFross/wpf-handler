@@ -96,6 +96,10 @@ namespace WpfHandler.UI.Controls
 
                 // Inform subscribers.
                 ValueChanged?.Invoke(this);
+
+                // Class the GUI.
+                var layer = new LayoutLayer();
+                OnLayout(ref layer, null);
             }
         }
 
@@ -178,6 +182,11 @@ namespace WpfHandler.UI.Controls
         /// Bufer that contains source sollection.
         /// </summary>
         protected IList source;
+
+        /// <summary>
+        /// Source that is binded to the current UI.
+        /// </summary>
+        protected IList bindedSource;
         #endregion
 
 
@@ -473,9 +482,17 @@ namespace WpfHandler.UI.Controls
         /// <param name="args"></param>
         public virtual void OnLayout(ref LayoutLayer layer, params object[] args)
         {
+            // Drop if the source already binded.
+            if (source.Equals(bindedSource))
+                return;
+
+            // Set the source as binded.
+            bindedSource = source;
+
             // Clearing data.
-            ListContent.Items.Clear();
-            Elements.Clear();
+            indexMap?.Clear();
+            Fields?.Clear();
+            Elements?.Clear();
             
             // Update GUI.
             for (int i = 0; i < source.Count; i++)

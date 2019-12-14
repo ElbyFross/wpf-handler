@@ -138,6 +138,18 @@ namespace WpfHandler.UI.AutoLayout
         public static void RegistrateField(this IGUIField control, UIDescriptor descriptor, MemberInfo member, object defautltValue)
         {
             #region Declaretion & Initializtion
+            // Preventing the null field.
+            if(defautltValue == null)
+            {
+                try
+                {
+                    // Instiniating the default value.
+                    defautltValue = Activator.CreateInstance(
+                        UIDescriptor.MembersHandler.GetSpecifiedMemberType(member));
+                }
+                catch { };
+            }
+
             // Apply default value.
             control.Value = defautltValue;
 

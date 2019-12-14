@@ -355,7 +355,7 @@ namespace WpfHandler.UI.AutoLayout
                 activeLayer?.ApplyControl(control as FrameworkElement);
             }
             catch(Exception ex) 
-            { MessageBox.Show("Constrol sign up failed.\n\nDetails:\n" + ex.Message); }
+            { MessageBox.Show("Control sign up failed.\n\nDetails:\n" + ex.Message); }
         }
 
         /// <summary>
