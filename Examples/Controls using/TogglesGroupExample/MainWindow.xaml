@@ -16,7 +16,7 @@
 
     <Window.Resources>
 
-        <!--The static collectio collection that will be used as 
+        <!--The static collection that will be used as 
         the source from the XAML defined FlatTogglesGroup-->
         <x:Array Type="{x:Type ui:GUIContent}" x:Key="xamlStaticSource">
             <!--Decalring the content that could be localised 

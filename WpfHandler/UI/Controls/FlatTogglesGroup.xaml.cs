@@ -465,15 +465,17 @@ namespace WpfHandler.UI.Controls
                 // Instiniating new UI element.
                 var element = new SelectableFlatButton()
                 {
-                    Group = groupToken,
-                    ClickCallback = delegate (object sender)
-                    {
-                        // Updating current selected index.
-                        _Index = localIndexBufer;
+                    Group = groupToken
+                };
 
-                        // Inform subscribers.
-                        ValueChanged?.Invoke(this);
-                    }
+                // Handling the button click.
+                element.Click += delegate (object sender, RoutedEventArgs args)
+                {
+                    // Updating current selected index.
+                    _Index = localIndexBufer;
+
+                    // Inform subscribers.
+                    ValueChanged?.Invoke(this);
                 };
 
                 // Adding to the collection.
@@ -518,15 +520,17 @@ namespace WpfHandler.UI.Controls
                 // Instiniating new UI element.
                 var element = new SelectableFlatButton()
                 {
-                    Group = groupToken,
-                    ClickCallback = delegate (object sender)
-                    {
-                        // Updating current selected index.
-                        _Index = localIndexBufer;
+                    Group = groupToken
+                };
 
-                        // Inform subscribers.
-                        ValueChanged?.Invoke(this);
-                    }
+                // Handling the button click.
+                element.Click += delegate (object sender, RoutedEventArgs args)
+                {
+                    // Updating current selected index.
+                    _Index = localIndexBufer;
+
+                    // Inform subscribers.
+                    ValueChanged?.Invoke(this);
                 };
 
                 // Adding to the collection.
