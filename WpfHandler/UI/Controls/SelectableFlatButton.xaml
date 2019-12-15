@@ -32,7 +32,7 @@ limitations under the License.-->
               Background="{Binding HightlightBackground}" 
               VerticalAlignment="Stretch" Opacity="0" Width="5" Margin="0, 3, 0, 3"/>
         
-        <local:FlatButton x:Name="button" VerticalAlignment="Stretch" 
+        <local:FlatButton x:Name="button" VerticalAlignment="Center" 
                           VerticalContentAlignment="Center"
                           Label="{Binding Label, ElementName=main}"  
                           FontSize="{Binding FontSize, ElementName=main}" 

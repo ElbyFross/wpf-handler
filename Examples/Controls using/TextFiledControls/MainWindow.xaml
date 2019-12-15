@@ -8,7 +8,7 @@
         xmlns:local="clr-namespace:TextFiledControls"
         xmlns:autolayout="clr-namespace:WpfHandler.UI.AutoLayout.Controls;assembly=WpfHandler"
         mc:Ignorable="d"
-        Title="Text fields using" Height="480" Width="330" MinWidth="330" MaxWidth="33">
+        Title="Text fields using" Height="480" Width="330" MinWidth="330" MaxWidth="330">
     <ScrollViewer>
         <StackPanel x:Name="contentHolder" Orientation="Vertical">
             
