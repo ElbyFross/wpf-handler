@@ -231,7 +231,7 @@ namespace WpfHandler.UI.Controls
             else
             {
                 // Connecting to the wrong member. Must connect tot ht virtual bool one.
-                // Sing up this control on desctiptor events.
+                // Sign up this control on desctiptor events.
                 desc.ControlSignUp(this, member, true);
             }
             #endregion

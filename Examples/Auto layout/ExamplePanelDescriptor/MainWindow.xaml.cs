@@ -97,16 +97,8 @@ namespace ExamplePanelDescriptor
         public string city;
         public string country;
 
-
-        // Descriptor's costructor.
-        public ExampleDescriptor()
-        {
-            // Subscribing on the event that occurs when UI based on that descriptor will be loaded.
-            Loaded += ExamplePanelDescriptor_Loaded;
-        }
-
         // Callback that occurs whe UI is ready.
-        private void ExamplePanelDescriptor_Loaded(UIDescriptor obj)
+        public override void OnLoaded()
         {
             // Receiving the IGUIField generated from the state member.
             var stateField = GetFieldByMember("state");
@@ -125,7 +117,6 @@ namespace ExamplePanelDescriptor
                         MainWindow.Active.Background = MainWindow.Active.DefaultBrush;
                         break;
                 }
-
             };
         }
     }

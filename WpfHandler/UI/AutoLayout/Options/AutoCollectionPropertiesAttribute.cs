@@ -74,11 +74,8 @@ namespace WpfHandler.UI.AutoLayout.Options
         /// </remarks>
         public void ApplyLayoutOption(FrameworkElement element)
         {
-            // Trying to get the collection object.
-            var collection = element as AutoCollection;
-
             // Drop id not supported.
-            if (collection == null) return;
+            if (!(element is AutoCollection collection)) return;
 
             // Configurating the control buttons.
             collection.AddButtonVisibile = AddButtonVisibile;

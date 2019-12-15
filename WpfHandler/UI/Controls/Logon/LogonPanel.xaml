@@ -83,7 +83,7 @@ limitations under the License.-->
             </Grid>
         </StackPanel>
 
-        <!--Sing up button-->
+        <!--Sign up button-->
         <local:FlatButton x:Name="singupButton" 
                           Label="Sing Up" 
                           HorizontalAlignment="Left" 

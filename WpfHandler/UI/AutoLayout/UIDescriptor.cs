@@ -151,7 +151,7 @@ namespace WpfHandler.UI.AutoLayout
                     // Instiniating target type.
                     var control = (IGUIField)Activator.CreateInstance(controlType);
 
-                    // Sing up this control on desctiptor events.
+                    // Sign up this control on desctiptor events.
                     TryToBindControl(control, this, member);
 
                     // Initialize control.
@@ -265,6 +265,9 @@ namespace WpfHandler.UI.AutoLayout
 
             // Marking as loaded.
             IsLoaded = true;
+            
+            // Calling the local handler.
+            OnLoaded();
 
             // Inform subscribers.
             Loaded?.Invoke(this);
@@ -355,7 +358,10 @@ namespace WpfHandler.UI.AutoLayout
                 activeLayer?.ApplyControl(control as FrameworkElement);
             }
             catch(Exception ex) 
-            { MessageBox.Show("Control sign up failed.\n\nDetails:\n" + ex.Message); }
+            { MessageBox.Show(
+                "Control sign up failed.\n\n" +
+                "Member: " + member.Name + "\n" + 
+                "Details: " + ex.Message); }
         }
 
         /// <summary>
@@ -449,8 +455,16 @@ namespace WpfHandler.UI.AutoLayout
             // Member cast is invalid and not supported intor that operation.
             else throw new InvalidCastException("@member must inherit PropertyInfo of FieldInfo");
 
-            // Sing up this control on desctiptor events.
+            // Sign up this control on desctiptor events.
             descriptor.ControlSignUp(control, member, defaultValue);
+        }
+
+        /// <summary>
+        /// Handler that will be called when all the element will be loaded and be ready to use.
+        /// </summary>
+        public virtual void OnLoaded()
+        {
+
         }
 
         /// <summary>

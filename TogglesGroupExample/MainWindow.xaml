@@ -1,0 +1,45 @@
+﻿<Window x:Class="TogglesGroupExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TogglesGroupExample"
+        xmlns:autolayout="clr-namespace:WpfHandler.UI.AutoLayout.Controls;assembly=WpfHandler"
+        xmlns:wpfh="clr-namespace:WpfHandler.UI.Controls;assembly=WpfHandler"
+        xmlns:ui="clr-namespace:WpfHandler.UI;assembly=WpfHandler"
+        mc:Ignorable="d"
+        Title="Toggles group" 
+        Height="250" MinHeight="250" MaxHeight="250"
+        Width="100" MinWidth="100" MaxWidth="100"        
+        Background="#00171F"
+        x:Name="main">
+
+    <Window.Resources>
+
+        <!--The static collectio collection that will be used as 
+        the source from the XAML defined FlatTogglesGroup-->
+        <x:Array Type="{x:Type ui:GUIContent}" x:Key="xamlStaticSource">
+            <!--Decalring the content that could be localised 
+            by decalring `TitleLocalizationResourseKey` in localization dictionaries-->
+            <ui:GUIContent DefaultTitle="Static option 1" TitleLocalizationResourseKey="stOpt1"/>
+            <ui:GUIContent DefaultTitle="Static option 2" TitleLocalizationResourseKey="stOpt2"/>
+            <ui:GUIContent DefaultTitle="Static option 3" TitleLocalizationResourseKey="stOpt3"/>
+        </x:Array>
+        
+    </Window.Resources>
+
+    <StackPanel x:Name="contentHolder" HorizontalAlignment="Center">
+
+        <Canvas Height="10"/>
+        <Grid Height="0.5" Width="200" Background="White"/> <!--Spliter-->
+
+        <!--Adding the toggles group with a static array resource as the fields source.-->
+        <wpfh:FlatTogglesGroup FieldsContent="{StaticResource xamlStaticSource}" 
+                               Foreground="White"
+                               ValueChanged="FlatTogglesGroup_ValueChanged"/>
+
+        <Grid Height="0.5" Width="200" Background="White"/> <!--Spliter-->
+
+        <autolayout:AutoLayoutVeiw x:Name="alView"/>
+    </StackPanel>
+</Window>

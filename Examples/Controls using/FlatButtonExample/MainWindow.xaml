@@ -10,6 +10,9 @@
         Height="70" MinHeight="70" MaxHeight="70"
         Width="230" MinWidth="230" MaxWidth="230">
     <StackPanel x:Name="contentHolder" Orientation="Horizontal">
+
+        <!--Adding that button with 
+        the binded "FlatButton_CMB_Click" click hanfler-->
         <wpfh:FlatButton Label="Call a message box" 
                          Click="FlatButton_CMB_Click" />
     </StackPanel>

@@ -237,6 +237,17 @@ namespace WpfHandler.UI
         }
         #endregion
 
+        #region Operators
+        /// <summary>
+        /// Converting the GUIContent to he string format.
+        /// </summary>
+        /// <param name="content"></param>
+        public static implicit operator string (GUIContent content)
+        {
+            return content?.ToString();
+        }
+        #endregion
+
         #region API
         /// <summary>
         /// Define relevant title for certain member.
@@ -350,6 +361,25 @@ namespace WpfHandler.UI
         {
             _Description = null;
             _Title = null;
+        }
+
+        /// <summary>
+        /// Return the GUI content in the string format.
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            var title = GetTitle();
+            var description = GetDescription();
+
+            if(string.IsNullOrEmpty(description))
+            {
+                return title;
+            }
+            else
+            {
+                return title + ": " + description;
+            }
         }
         #endregion
 

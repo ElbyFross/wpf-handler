@@ -27,6 +27,7 @@ namespace FlatButtonExample
             // Instiniating the button.
             var button = new WpfHandler.UI.Controls.FlatButton()
             {
+                // Set the button's lable.
                 Label = "Code behid button"
             };
 
@@ -38,7 +39,7 @@ namespace FlatButtonExample
         }
 
         /// <summary>
-        /// Handler binded to the button instiniated from the code behind.
+        /// The handler binded to the button instiniated from the code behind.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -48,7 +49,7 @@ namespace FlatButtonExample
         }
 
         /// <summary>
-        /// Handler binded to the flat button OnClick event.
+        /// The hndler binded to the flat button OnClick event.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>

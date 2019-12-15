@@ -68,17 +68,20 @@ namespace WpfHandler.UI.Controls
 
         /// <summary>
         /// Return an array with values of the binded tnum type.
+        /// Using the <see cref="FieldsContent"/> in case if <see cref="BindedEnumType"/> is null.
         /// </summary>
         public Array Values
         {
             get
             {
+                if (BindedEnumType == null) return FieldsContent;
+
                 if (_Values == null)
                 {
                     #region Validating source
                     // Check if the source exist.
-                    if (BindedEnumType == null)
-                        throw new NullReferenceException("You must call OnGUI before calling that Values property.");
+                    //if (BindedEnumType == null)
+                    //    throw new NullReferenceException("You must call OnGUI before calling that Values property.");
 
                     // Check if the source is enum.
                     if (!BindedEnumType.IsEnum)
@@ -227,6 +230,14 @@ namespace WpfHandler.UI.Controls
                     ValueChanged?.Invoke(this);
                 }
             }
+        }
+
+        /// <summary>
+        /// Returns current selected UI element.
+        /// </summary>
+        public FrameworkElement SelectedElement
+        {
+            get { return Elements[Index]; }
         }
 
         /// <summary>
