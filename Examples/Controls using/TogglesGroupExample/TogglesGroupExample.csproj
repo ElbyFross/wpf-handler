@@ -95,7 +95,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WpfHandler\WpfHandler.csproj">
+    <ProjectReference Include="..\..\..\WpfHandler\WpfHandler.csproj">
       <Project>{9a1f206b-1f7a-43df-8a08-d86f26b8fc81}</Project>
       <Name>WpfHandler</Name>
     </ProjectReference>

@@ -35,7 +35,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCollectionExample", "Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatButtonExample", "Examples\Controls using\FlatButtonExample\FlatButtonExample.csproj", "{EEACD250-48B5-48F3-9669-74F35A3A3BF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TogglesGroupExample", "TogglesGroupExample\TogglesGroupExample.csproj", "{1B4C3305-C74E-4CC5-928A-E66C98B06759}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TogglesGroupExample", "Examples\Controls using\TogglesGroupExample\TogglesGroupExample.csproj", "{1B4C3305-C74E-4CC5-928A-E66C98B06759}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
