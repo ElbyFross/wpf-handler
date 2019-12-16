@@ -11,5 +11,11 @@ Framwork not requires isntalation.
 Just store the downloaded source wherever you want and add the reference to the `WpfHandler.csproj` to your project.
 
 # Support the product
-### Why the product need your support?
-### How to support?
+## Why the product need your support?
+
+## How to support?
+### Set the Star
+
+### Make your contribution
+
+### Donate
