@@ -59,7 +59,7 @@
   <ItemGroup>
     <Compile Include="UI\LocalizationHandler.cs" />
     <Compile Include="UI\AutoLayout\Configuration\ContentAttribute.cs" />
-    <Compile Include="UI\AutoLayout\Markups\IListAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Markups\IListCompatibleAttribute.cs" />
     <Compile Include="UI\AutoLayout\Markups\EnumsCompatibleAttribute.cs" />
     <Compile Include="UI\AutoLayout\Markups\IGUIElementBindingAttribute.cs" />
     <Compile Include="UI\AutoLayout\Options\AutoCollectionPropertiesAttribute.cs" />

@@ -39,7 +39,7 @@ namespace WpfHandler.UI.Controls
     /// Creating UI element for work with binded collections.
     /// </summary>
     [TypesCompatible(typeof(Object))]
-    [IList]
+    [IListCompatible]
     public partial class AutoCollection : CollectionControl
     {
         #region Dependency properties

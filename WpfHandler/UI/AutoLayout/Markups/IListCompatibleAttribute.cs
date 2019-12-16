@@ -22,12 +22,12 @@ using System.Threading.Tasks;
 namespace WpfHandler.UI.AutoLayout.Markups
 {
     /// <summary>
-    /// Marksa GUI element as compatible with <see cref="IList"/> members.
+    /// Marks a GUI element as compatible with <see cref="IList"/> members.
     /// </summary>
     /// <remarks>
     /// Class with that attribute will be allowed only for displaying IList members.
     /// Any other specifing will not has any effect.
     /// </remarks>
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = true, Inherited = true)]
-    public class IListAttribute : Attribute, IGUIElementBindingAttribute { }
+    public class IListCompatibleAttribute : Attribute, IGUIElementBindingAttribute { }
 }
