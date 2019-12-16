@@ -18,11 +18,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfHandler.UI.AutoLayout.Configuration
+namespace WpfHandler.UI.AutoLayout.Markups
 {
     /// <summary>
-    /// Implementing of that inerface mark attribute like the one 
-    /// who using into specifing of the GUI element binding process.
+    /// Implementation of that interface marks the attribute as the one 
+    /// who using into specifying of a GUI element binding process.
     /// </summary>
     public interface IGUIElementBindingAttribute { }
 }

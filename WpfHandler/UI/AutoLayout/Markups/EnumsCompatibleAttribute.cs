@@ -18,26 +18,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfHandler.UI.AutoLayout.Configuration
+namespace WpfHandler.UI.AutoLayout.Markups
 {
     /// <summary>
-    /// Defines the types the compatible with the member.
+    /// Marks a GUI element as compatible with enum source fields.
     /// </summary>
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = true, Inherited = true)]
-    public class TypesCompatibleAttribute : Attribute, IGUIElementBindingAttribute
-    {
-        /// <summary>
-        /// Type that compatible with the member.
-        /// </summary>
-        public Type[] CompatibleWith;
-
-        /// <summary>
-        /// Configurating types compatible with the memeber.
-        /// </summary>
-        /// <param name="types">COmpatible types.</param>
-        public TypesCompatibleAttribute(params Type[] types)
-        {
-            CompatibleWith = types ?? new Type[0];
-        }
-    }
+    public class EnumsCompatibleAttribute : Attribute, IGUIElementBindingAttribute { }
 }

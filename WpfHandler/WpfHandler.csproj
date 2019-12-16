@@ -59,9 +59,9 @@
   <ItemGroup>
     <Compile Include="UI\LocalizationHandler.cs" />
     <Compile Include="UI\AutoLayout\Configuration\ContentAttribute.cs" />
-    <Compile Include="UI\AutoLayout\Configuration\EnumerableCompatibleAttribute.cs" />
-    <Compile Include="UI\AutoLayout\Configuration\EnumsCompatibleAttribute.cs" />
-    <Compile Include="UI\AutoLayout\Configuration\IGUIElementBindingAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Markups\IListAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Markups\EnumsCompatibleAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Markups\IGUIElementBindingAttribute.cs" />
     <Compile Include="UI\AutoLayout\Options\AutoCollectionPropertiesAttribute.cs" />
     <Compile Include="UI\AutoLayout\Options\LabelWidthAttribute.cs" />
     <Compile Include="UI\Controls\CollectionControl.cs" />
@@ -96,7 +96,7 @@
     <Compile Include="UI\AutoLayout\Options\VerticalAlignAttribute.cs" />
     <Compile Include="UI\AutoLayout\Options\WidthAttribute.cs" />
     <Compile Include="UI\AutoLayout\Controls\SpaceAttribute.cs" />
-    <Compile Include="UI\AutoLayout\Configuration\TypesCompatibleAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Markups\TypesCompatibleAttribute.cs" />
     <Compile Include="UI\AutoLayout\Controls\AutoLayoutVeiw.xaml.cs">
       <DependentUpon>AutoLayoutVeiw.xaml</DependentUpon>
     </Compile>

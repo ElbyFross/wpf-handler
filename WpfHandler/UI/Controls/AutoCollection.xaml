@@ -42,7 +42,7 @@ limitations under the License.-->
                    StrokeThickness="0"
                    RadiusX="{Binding CornerRadius}" 
                    RadiusY="{Binding CornerRadius}"
-                   Margin="0,-5, 0, 0"/>
+                   Margin="0,-7, 0, 0"/>
 
         <!--Add button-->
         <Grid x:Name="addButtonGroup" Grid.Column="1" Grid.Row="1">
@@ -50,11 +50,13 @@ limitations under the License.-->
                        StrokeThickness="0"
                        RadiusX="{Binding CornerRadius}" 
                        RadiusY="{Binding CornerRadius}" 
-                       Margin="0,-5, 0, 0"/>
+                       Margin="0,-7, 0, 0"/>
             
             <local:FlatButton Label="+" 
                               Click="OnAdd"
-                              HorizontalContentAlignment="Center"/>
+                              HorizontalContentAlignment="Center" 
+                              VerticalAlignment="Bottom"
+                              Margin="0,-1,0,-1"/>
         </Grid>
 
         <!--Remove button-->
@@ -63,10 +65,12 @@ limitations under the License.-->
                        StrokeThickness="0"
                        RadiusX="{Binding CornerRadius}" 
                        RadiusY="{Binding CornerRadius}"
-                       Margin="0,-5, 0, 0"/>
+                       Margin="0,-7, 0, 0"/>
             
             <local:FlatButton Label="-" Click="OnRemove"
-                              HorizontalContentAlignment="Center"/>
+                              HorizontalContentAlignment="Center"
+                              VerticalAlignment="Bottom"
+                              Margin="0,-1,0,-1"/>
         </Grid>
 
 

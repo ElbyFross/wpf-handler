@@ -24,7 +24,7 @@ using WpfHandler.UI.AutoLayout;
 namespace WpfHandler.UI.AutoLayout.Options
 {
     /// <summary>
-    /// Define GUI element's background brush.
+    /// Defines a background brush of the control.
     /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property |
                     AttributeTargets.Class | AttributeTargets.Struct,

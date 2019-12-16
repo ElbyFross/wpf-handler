@@ -13,16 +13,21 @@
 //limitations under the License.
 
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfHandler.UI.AutoLayout.Configuration
+namespace WpfHandler.UI.AutoLayout.Markups
 {
     /// <summary>
-    /// Marking GUI elemt as compatible with enum source fields.
+    /// Marksa GUI element as compatible with <see cref="IList"/> members.
     /// </summary>
+    /// <remarks>
+    /// Class with that attribute will be allowed only for displaying IList members.
+    /// Any other specifing will not has any effect.
+    /// </remarks>
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = true, Inherited = true)]
-    public class EnumsCompatibleAttribute : Attribute, IGUIElementBindingAttribute { }
+    public class IListAttribute : Attribute, IGUIElementBindingAttribute { }
 }

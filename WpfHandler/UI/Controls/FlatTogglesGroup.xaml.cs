@@ -30,6 +30,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfHandler.UI.AutoLayout;
 using WpfHandler.UI.AutoLayout.Configuration;
+using WpfHandler.UI.AutoLayout.Markups;
 
 namespace WpfHandler.UI.Controls
 {

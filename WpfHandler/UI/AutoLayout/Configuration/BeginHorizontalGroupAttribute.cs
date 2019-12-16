@@ -24,8 +24,8 @@ using WpfHandler.UI.AutoLayout;
 namespace WpfHandler.UI.AutoLayout.Configuration
 {
     /// <summary>
-    /// Starting horizontal layout group.
-    /// Will wait EndHorizontal to over the last begined group.
+    /// Starting a horizontal layout group.
+    /// Will wait <see cref="EndGroupAttribute"/> to over the last begined group.
     /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class BeginHorizontalGroupAttribute : Attribute, ILayerBeginAttribute

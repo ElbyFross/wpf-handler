@@ -31,6 +31,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfHandler.UI.AutoLayout;
 using WpfHandler.UI.AutoLayout.Configuration;
+using WpfHandler.UI.AutoLayout.Markups;
 
 namespace WpfHandler.UI.Controls
 {
@@ -38,7 +39,7 @@ namespace WpfHandler.UI.Controls
     /// Creating UI element for work with binded collections.
     /// </summary>
     [TypesCompatible(typeof(Object))]
-    [EnumerableCompatible]
+    [IList]
     public partial class AutoCollection : CollectionControl
     {
         #region Dependency properties

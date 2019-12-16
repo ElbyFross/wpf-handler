@@ -28,13 +28,14 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Reflection;
 using WpfHandler.UI.AutoLayout;
+using WpfHandler.UI.AutoLayout.Markups;
 
 namespace WpfHandler.UI.Controls
 {
     /// <summary>
     /// Interaction logic for Header.xaml
     /// </summary>
-    [AutoLayout.Configuration.TypesCompatibleAttribute(typeof(bool))]
+    [TypesCompatibleAttribute(typeof(bool))]
     public partial class Header : UserControl, IGUIField, ILabel
     {
         #region Dependency properties

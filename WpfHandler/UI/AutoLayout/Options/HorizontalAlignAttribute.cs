@@ -23,7 +23,7 @@ using WpfHandler.UI.AutoLayout;
 namespace WpfHandler.UI.AutoLayout.Options
 {
     /// <summary>
-    /// Define horizontal align of the GUI element.
+    /// Defines a horizontal align of the GUI element.
     /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property |
                     AttributeTargets.Class | AttributeTargets.Struct,

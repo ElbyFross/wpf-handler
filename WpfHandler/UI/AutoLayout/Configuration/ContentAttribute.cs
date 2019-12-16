@@ -23,7 +23,7 @@ using WpfHandler.UI.Controls;
 namespace WpfHandler.UI.AutoLayout.Configuration
 {
     /// <summary>
-    /// Defining content applied to the member.
+    /// Defines a <see cref="GUIContent"/> applied to the member.
     /// </summary>
     public class ContentAttribute : GUIContentAttribute
     {

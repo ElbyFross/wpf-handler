@@ -18,15 +18,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfHandler.UI.AutoLayout.Configuration
+namespace WpfHandler.UI.AutoLayout.Markups
 {
     /// <summary>
-    /// Marking GUI element as compatible with enumerable collections.
+    /// Defines the types the compatible with the member.
     /// </summary>
-    /// <remarks>
-    /// Class with that attribute will be allowed only for displaying enums.
-    /// Any other specifing will not has any effect.
-    /// </remarks>
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = true, Inherited = true)]
-    public class EnumerableCompatibleAttribute : Attribute, IGUIElementBindingAttribute { }
+    public class TypesCompatibleAttribute : Attribute, IGUIElementBindingAttribute
+    {
+        /// <summary>
+        /// Type that compatible with the member.
+        /// </summary>
+        public Type[] CompatibleWith;
+
+        /// <summary>
+        /// Configurating types compatible with the memeber.
+        /// </summary>
+        /// <param name="types">COmpatible types.</param>
+        public TypesCompatibleAttribute(params Type[] types)
+        {
+            CompatibleWith = types ?? new Type[0];
+        }
+    }
 }

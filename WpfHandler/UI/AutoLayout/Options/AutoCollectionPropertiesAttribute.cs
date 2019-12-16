@@ -25,7 +25,8 @@ using WpfHandler.UI.Controls;
 namespace WpfHandler.UI.AutoLayout.Options
 {
     /// <summary>
-    /// Allow to define <see cref="AutoCollection"/> properties.
+    /// Redefines default properties values for a <see cref="AutoCollection"/> control.
+    /// Not affect any other controls.
     /// </summary>
     public class AutoCollectionPropertiesAttribute : Attribute, IGUILayoutOption
     {

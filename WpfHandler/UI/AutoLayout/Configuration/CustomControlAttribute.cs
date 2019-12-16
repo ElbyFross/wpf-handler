@@ -23,7 +23,7 @@ using WpfHandler.UI.AutoLayout.Controls;
 namespace WpfHandler.UI.AutoLayout.Configuration
 {
     /// <summary>
-    /// Allow to override of default control for relative field type to custom one.
+    /// Overrides a default control for a field type for the parent member.
     /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class CustomControlAttribute : Attribute

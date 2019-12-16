@@ -21,7 +21,7 @@ using System.Threading.Tasks;
 namespace WpfHandler.UI.AutoLayout.Configuration
 {
     /// <summary>
-    /// Exclude member from auto-builded inspector.
+    /// Exclude a member from auto-builded inspector.
     /// </summary>
     [AttributeUsage(
         AttributeTargets.Class | AttributeTargets.Struct | 
