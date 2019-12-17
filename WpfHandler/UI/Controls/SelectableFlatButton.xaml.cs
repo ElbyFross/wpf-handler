@@ -33,7 +33,7 @@ namespace WpfHandler.UI.Controls
     /// <summary>
     /// Interaction logic for SelectableFlatButton.xaml
     /// </summary>
-    public partial class SelectableFlatButton : UserControl, ILabel, ISelectableControl
+    public partial class SelectableFlatButton : UserControl, ILabel, IToggleControl
     {
         /// <summary>
         /// Event that will be called when button will be pressed.

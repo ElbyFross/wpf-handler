@@ -111,7 +111,7 @@
     <Compile Include="UI\AutoLayout\Interfaces\IGUIField.cs" />
     <Compile Include="UI\Controls\ILayoutOrientation.cs" />
     <Compile Include="UI\Controls\ILayoutSize.cs" />
-    <Compile Include="UI\Controls\ISelectableControl.cs" />
+    <Compile Include="UI\Controls\IToggleControl.cs" />
     <Compile Include="Dictionaries\LocalizableContentAttribute.cs" />
     <Compile Include="UI\AutoLayout\LayoutHandler.cs" />
     <Compile Include="UI\AutoLayout\LayoutLayer.cs" />

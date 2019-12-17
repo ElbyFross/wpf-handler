@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatButtonExample", "Exampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TogglesGroupExample", "Examples\Controls using\TogglesGroupExample\TogglesGroupExample.csproj", "{1B4C3305-C74E-4CC5-928A-E66C98B06759}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchPanelExample", "Examples\Controls using\SwitchPanelExample\SwitchPanelExample.csproj", "{D055A9CC-86FB-4766-86C1-60389B3C3D0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,18 @@ Global
 		{1B4C3305-C74E-4CC5-928A-E66C98B06759}.Release|x64.Build.0 = Release|Any CPU
 		{1B4C3305-C74E-4CC5-928A-E66C98B06759}.Release|x86.ActiveCfg = Release|Any CPU
 		{1B4C3305-C74E-4CC5-928A-E66C98B06759}.Release|x86.Build.0 = Release|Any CPU
+		{D055A9CC-86FB-4766-86C1-60389B3C3D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D055A9CC-86FB-4766-86C1-60389B3C3D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D055A9CC-86FB-4766-86C1-60389B3C3D0D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D055A9CC-86FB-4766-86C1-60389B3C3D0D}.Debug|x64.Build.0 = Debug|Any CPU
+		{D055A9CC-86FB-4766-86C1-60389B3C3D0D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D055A9CC-86FB-4766-86C1-60389B3C3D0D}.Debug|x86.Build.0 = Debug|Any CPU
+		{D055A9CC-86FB-4766-86C1-60389B3C3D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D055A9CC-86FB-4766-86C1-60389B3C3D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D055A9CC-86FB-4766-86C1-60389B3C3D0D}.Release|x64.ActiveCfg = Release|Any CPU
+		{D055A9CC-86FB-4766-86C1-60389B3C3D0D}.Release|x64.Build.0 = Release|Any CPU
+		{D055A9CC-86FB-4766-86C1-60389B3C3D0D}.Release|x86.ActiveCfg = Release|Any CPU
+		{D055A9CC-86FB-4766-86C1-60389B3C3D0D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -172,6 +186,7 @@ Global
 		{6F7A1893-35B7-44ED-B9AD-0AA9BD500422} = {D97B584E-0A89-4DA1-AC33-1EDD3998550B}
 		{EEACD250-48B5-48F3-9669-74F35A3A3BF9} = {D97B584E-0A89-4DA1-AC33-1EDD3998550B}
 		{1B4C3305-C74E-4CC5-928A-E66C98B06759} = {D97B584E-0A89-4DA1-AC33-1EDD3998550B}
+		{D055A9CC-86FB-4766-86C1-60389B3C3D0D} = {D97B584E-0A89-4DA1-AC33-1EDD3998550B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C96127E1-EF18-4663-B0AF-8F667F68E508}

@@ -85,6 +85,17 @@ namespace WpfHandler.UI.Controls
             {
                 return current.Children.Count > 0 ? current.Children[0] : null;
             }
+            set
+            {
+                if (current.Children.Count > 0)
+                {
+                    current.Children[0] = value;
+                }
+                else
+                {
+                    current.Children.Add(value);
+                }
+            }
         }
 
         /// <summary>
@@ -253,7 +264,11 @@ namespace WpfHandler.UI.Controls
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Switch panel | " +
+                    "Animation error \n\n" + 
+                    "InProcesing : " + InProcessing + "\n" +
+                    "Current : " + current.Name + "\n" +
+                    "Details: " + ex.Message);
             }
 
 

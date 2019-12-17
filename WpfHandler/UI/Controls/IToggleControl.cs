@@ -15,12 +15,12 @@
 namespace WpfHandler.UI.Controls
 {
     /// <summary>
-    /// Provides uinform way to operate selecteble elements.
+    /// Provides standardized way to operate toggle state of the element.
     /// </summary>
-    public interface ISelectableControl
+    public interface IToggleControl
     {
         /// <summary>
-        /// Is that elemet selected.
+        /// Is that element selected.
         /// </summary>
         bool Selected { get; set; }
 
