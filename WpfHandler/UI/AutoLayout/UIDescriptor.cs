@@ -147,19 +147,8 @@ namespace WpfHandler.UI.AutoLayout
                 // Is control defined to that member?
                 if (controlType != null)
                 {
-                    #region Insiniation UI field
-                    // Instiniating target type.
+                    // Instiniating target control by the type.
                     var control = (IGUIField)Activator.CreateInstance(controlType);
-
-                    // Sign up this control on desctiptor events.
-                    TryToBindControl(control, this, member);
-
-                    // Initialize control.
-                    control.OnLayout(ref activeLayer, this, member);
-
-                    // Adding field to the registration table.
-                    RegistredFields.Add(member, control);
-                    #endregion
 
                     #region Set prefix label
                     // Is spawned elelment has a label.
@@ -206,6 +195,17 @@ namespace WpfHandler.UI.AutoLayout
                             option.ApplyLayoutOption(fEl);
                         }
                     }
+                    #endregion
+
+                    #region Binding to a layout
+                    // Sign up this control on desctiptor events.
+                    TryToBindControl(control, this, member);
+
+                    // Initialize control.
+                    control.OnLayout(ref activeLayer, this, member);
+
+                    // Adding field to the registration table.
+                    RegistredFields.Add(member, control);
                     #endregion
                 }
                 else

@@ -33,8 +33,17 @@ namespace WpfHandler.UI.AutoLayout.Options
         /// <summary>
         /// Alignment that will applied to GUI element.
         /// </summary>
-        public HorizontalAlignment Alignment { get; set; }
+        public HorizontalAlignment Alignment { get; protected set; }
 
+        /// <summary>
+        /// Initializing a property.
+        /// </summary>
+        /// <param name="alignment">A target alignment of a binded element.</param>
+        public HorizontalAlignAttribute(HorizontalAlignment alignment)
+        {
+            Alignment = alignment;
+        }
+        
         /// <summary>
         /// Define horizontal align of the GUI element.
         /// </summary>

@@ -92,7 +92,7 @@ namespace WpfHandler.UI.AutoLayout
             // Drop ivalid elelment.
             if(!(parent is Grid grid))
             {
-                throw new InvalidCastException("Parent mast be `" + typeof(Grid).FullName + "`.");
+                throw new InvalidCastException("Parent must be `" + typeof(Grid).FullName + "`.");
             }
 
             // Add new column fo element.
@@ -102,7 +102,7 @@ namespace WpfHandler.UI.AutoLayout
                 // Auto - if width of element less or equals 0, or is NaN.
                 // Shared element's width in case if defined.
                 Width = double.IsNaN(element.Width) || element.Width <= 0 ? 
-                        GridLength.Auto : new GridLength(element.Width)
+                        new GridLength(1, GridUnitType.Star) : new GridLength(element.Width)
             });
 
             // Add element as child.

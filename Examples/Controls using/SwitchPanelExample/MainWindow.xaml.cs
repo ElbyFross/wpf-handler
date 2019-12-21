@@ -22,8 +22,8 @@ namespace SwitchPanelExample
     public partial class MainWindow : Window
     {
         // Panles that will be handled via the SwitchPanel
-        Panel1 panel1 = new Panel1();
-        Panel2 panel2 = new Panel2();
+        readonly Panel1 panel1 = new Panel1();
+        readonly Panel2 panel2 = new Panel2();
 
 
         /// <summary>
@@ -67,7 +67,7 @@ namespace SwitchPanelExample
 
             // Requiesting swith to the next panel.
             // Using an "Alpha swipe animation.
-            switchPanel.SwitchTo(CurrentPanel, SwitchPanel.AnimationType.AlphaSwipe);
+            _ = switchPanel.SwitchToAsync(CurrentPanel, SwitchPanel.AnimationType.AlphaSwipe);
         }
     }
 }

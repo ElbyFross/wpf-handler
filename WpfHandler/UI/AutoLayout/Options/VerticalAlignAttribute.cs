@@ -36,6 +36,15 @@ namespace WpfHandler.UI.AutoLayout.Options
         public VerticalAlignment Alignment { get; set; }
 
         /// <summary>
+        /// Initializing a property.
+        /// </summary>
+        /// <param name="alignment">A target alignment of a binded element.</param>
+        public VerticalAlignAttribute(VerticalAlignment alignment)
+        {
+            Alignment = alignment;
+        }
+
+        /// <summary>
         /// Define vertical align of the GUI element.
         /// </summary>
         /// <param name="element">Shared UI element.</param>

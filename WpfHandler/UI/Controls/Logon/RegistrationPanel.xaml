@@ -18,15 +18,16 @@ limitations under the License.-->
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfHandler.UI.Controls"
+             xmlns:al="clr-namespace:WpfHandler.UI.AutoLayout.Controls"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="450" d:DesignWidth="800"
+             Name="root">
 
-    <Grid x:Name="main" Loaded="LogonPanel_Loaded">
+    <Grid x:Name="main" Loaded="Panel_Loaded">
         <StackPanel x:Name="regPanel_FormBlock" 
                         Orientation="Vertical" 
-                        VerticalAlignment="Bottom" 
+                        VerticalAlignment="Center" 
                         HorizontalAlignment="Center" 
-                        Margin="{Binding RegFormMargin}" 
                         Width="{Binding RegFormWidth}"
                         Grid.RowSpan="3">
 
@@ -41,54 +42,12 @@ limitations under the License.-->
 
             <Label Height="20"/>
 
-            <!--Login field-->
-            <local:FlatTextBox x:Name="regLoginField"
-                                   Label="Login *" 
-                                   Background="Transparent"
-                                   Text="login@mail.com"
-                                   LabelWidth="120"
-                                   FontSize="15"/>
-
-            <!--Password field-->
-            <local:FlatPasswordBox x:Name="regPasswordField"
-                                   Label="Password *" 
-                                   Background="Transparent" 
-                                   Text="password"
-                                   LabelWidth="120"
-                                   FontSize="15"/>
-
-            <!--Password field-->
-            <local:FlatPasswordBox x:Name="regPasswordField2"
-                                   Label="Repeat passord *" 
-                                   Background="Transparent"
-                                   Text="password"
-                                   LabelWidth="120"
-                                   FontSize="15"/>
-
-            <!--First name-->
-            <local:FlatTextBox x:Name="regFNameField"
-                                   Label="First name *" 
-                                   Background="Transparent"
-                                   Text=""
-                                   LabelWidth="120"
-                                   FontSize="15"/>
-
-            <!--Optional middle name-->
-            <local:FlatTextBox x:Name="regMNameField"
-                                   Label="Middle name" 
-                                   Background="Transparent"
-                                   Text=""
-                                   LabelWidth="120"
-                                   FontSize="15"/>
-
-            <!--Last name-->
-            <local:FlatTextBox x:Name="regLNameField"
-                                   Label="Last name *" 
-                                   Background="Transparent"
-                                   Text=""
-                                   LabelWidth="120"
-                                   FontSize="15"/>
-
+            <local:SwitchPanel x:Name="switchPanel" 
+                               Background="{Binding Background, ElementName=root}" 
+                               Grid.Column="0" 
+                               Margin="0,-0.5,0,0" 
+                               Duration="{Binding FormsAnimationDuration}"/>
+            
             <!--Tip label-->
             <Label Grid.Column="0" 
                 FontSize="{Binding FontSize}" 
@@ -113,7 +72,8 @@ limitations under the License.-->
                                   HorizontalAlignment="Left" 
                                   FontSize="15"
                                   Grid.Column="1" 
-                                  Width="60"/>
+                                  Width="60" 
+                                  Click="Back_Click"/>
 
                 <!--Continue registration button-->
                 <local:FlatButton x:Name="regContinue"
@@ -122,13 +82,14 @@ limitations under the License.-->
                                   HorizontalAlignment="Right" 
                                   FontSize="15"
                                   Grid.Column="2" 
-                                  Width="70"/>
+                                  Width="70"
+                                  Click="Continue_Click"/>
             </Grid>
         </StackPanel>
 
         <!--Errors messages-->        
         <StackPanel Margin="0,10,0,0" VerticalAlignment="Bottom">
-            <Label x:Name="regPanel_error_server"
+            <Label x:Name="errorLabel"
                     IsHitTestVisible="False"
                     Visibility="Collapsed"
                     Grid.Column="0" 
@@ -138,29 +99,6 @@ limitations under the License.-->
                     VerticalAlignment="Center"
                     Foreground="Red" 
                     Content="Error received from server"/>
-
-            <Label x:Name="regPanel_error_lPNM"
-                    IsHitTestVisible="False"
-                    Visibility="Collapsed"
-                    Grid.Column="0" 
-                    FontSize="14" 
-                    FontWeight="Light" 
-                    HorizontalAlignment="Right" 
-                    VerticalAlignment="Center"
-                    Foreground="Red" 
-                    Content="Passwords not match"/>
-
-            <Label x:Name="regPanel_error_lFAF"
-                    IsHitTestVisible="False"
-                    Visibility="Collapsed"
-                    IsEnabled="False"
-                    Grid.Column="0" 
-                    FontSize="14" 
-                    FontWeight="Light" 
-                    HorizontalAlignment="Right" 
-                    VerticalAlignment="Center"
-                    Foreground="Red" 
-                    Content="Fill all fields with *" />
         </StackPanel>
     </Grid>
 </UserControl>

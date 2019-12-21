@@ -79,7 +79,7 @@ namespace ExamplePanelDescriptor
         // The member that will attached to the GUI.
         [Content("Highlight")]
         // Moving control panel to the center.
-        [HorizontalAlign(Alignment = HorizontalAlignment.Center)]
+        [HorizontalAlign(HorizontalAlignment.Center)]
         public SwitcherState state = SwitcherState.Off;
 
         [Space(30)]

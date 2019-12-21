@@ -57,6 +57,9 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UI\AutoLayout\FormDescriptor.cs" />
+    <Compile Include="UI\Controls\Logon\AdvancedRegistrationPanelDescriptor.cs" />
+    <Compile Include="UI\Controls\Logon\DefaultRegistrationPanelDescriptor.cs" />
     <Compile Include="UI\LocalizationHandler.cs" />
     <Compile Include="UI\AutoLayout\Configuration\ContentAttribute.cs" />
     <Compile Include="UI\AutoLayout\Markups\IListCompatibleAttribute.cs" />

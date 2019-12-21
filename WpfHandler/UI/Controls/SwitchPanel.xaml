@@ -19,8 +19,10 @@ limitations under the License.-->
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfHandler.UI.Controls"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid x:Name="main" Background="{Binding Background}">
+             d:DesignHeight="450" d:DesignWidth="800"
+             x:Name="main"
+             Background="{Binding Background}">
+    <Grid x:Name="grid">
         <!--Element that active at the moment-->
         <Grid x:Name="next"/>
 

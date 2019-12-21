@@ -163,6 +163,7 @@ namespace WpfHandler.UI.Controls
 
                 // Set value but apply at least 25 point to input field.
                 float appliedSize = (float)Math.Min(LastLabelWidth, ActualWidth - 25);
+                appliedSize = Math.Max(0, appliedSize);
 
                 // Appling value.
                 SetValue(LabelWidthProperty, appliedSize);              

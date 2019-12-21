@@ -14,7 +14,7 @@
                            Opacity="1"
                            LogonPanel_LoginCallback="LogonScreen_LogonPanel_LoginCallback"
                            LogonPanel_SingUpCallback="LogonScreen_LogonPanel_SingUpCallback"
-                           RegPanel_ContinueCallback="LogonScreen_RegPanel_ContinueCallback"
-                           RegPanel_BackCallback="LogonScreen_RegPanel_BackCallback"/>
+                           RegPanel_FormsFilledEventHandler="LogonScreen_RegPanel_ContinueCallback"
+                           RegPanel_CancelEventHandler="LogonScreen_RegPanel_BackCallback"/>
     </Grid>
 </Window>
