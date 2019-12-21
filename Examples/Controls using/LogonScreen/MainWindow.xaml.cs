@@ -26,7 +26,7 @@ namespace LogonScreen
         }
 
         /// <summary>
-        /// /Occurs when user click on the Login (Enter) button.
+        /// Occurs when user click on the Login (Enter) button.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -36,11 +36,11 @@ namespace LogonScreen
         }
 
         /// <summary>
-        /// Occurs when user slick on the SingUp button.
+        /// Occurs when user slick on the SignUp button.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void LogonScreen_LogonPanel_SingUpCallback(object sender, RoutedEventArgs e)
+        private void LogonScreen_LogonPanel_SignUpCallback(object sender, RoutedEventArgs e)
         {
 
         }
@@ -50,7 +50,7 @@ namespace LogonScreen
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void LogonScreen_RegPanel_ContinueCallback(object sender, RoutedEventArgs e)
+        private void LogonScreen_RegPanel_FormsFilledCallback(object sender, RoutedEventArgs e)
         {
 
         }
@@ -60,7 +60,7 @@ namespace LogonScreen
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void LogonScreen_RegPanel_BackCallback(object sender, RoutedEventArgs e)
+        private void LogonScreen_RegPanel_CancelCallback(object sender, RoutedEventArgs e)
         {
 
         }

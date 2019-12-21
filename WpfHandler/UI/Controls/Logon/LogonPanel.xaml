@@ -84,8 +84,8 @@ limitations under the License.-->
         </StackPanel>
 
         <!--Sign up button-->
-        <local:FlatButton x:Name="singupButton" 
-                          Label="Sing Up" 
+        <local:FlatButton x:Name="signupButton" 
+                          Label="Sign Up" 
                           HorizontalAlignment="Left" 
                           VerticalAlignment="Bottom" 
                           FontSize="15"

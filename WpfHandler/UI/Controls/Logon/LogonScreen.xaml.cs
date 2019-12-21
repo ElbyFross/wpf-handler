@@ -50,7 +50,7 @@ namespace WpfHandler.UI.Controls.Logon
         /// <summary>
         /// Property that bridging control's property between XAML and code.
         /// </summary>
-        public static readonly RoutedEvent LogonPanel_SingUpCallbackProperty = EventManager.RegisterRoutedEvent("LogonPanel_SingUpCallback",
+        public static readonly RoutedEvent LogonPanel_SignUpCallbackProperty = EventManager.RegisterRoutedEvent("LogonPanel_SignUpCallback",
             RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(LogonScreen));
 
         /// <summary>
@@ -78,10 +78,10 @@ namespace WpfHandler.UI.Controls.Logon
         /// <summary>
         /// Method that will has been calling during click on button.
         /// </summary>
-        public event RoutedEventHandler LogonPanel_SingUpCallback
+        public event RoutedEventHandler LogonPanel_SignUpCallback
         {
-            add => logonPanel.singupButton.Click += value;
-            remove => logonPanel.singupButton.Click -= value;
+            add => logonPanel.signupButton.Click += value;
+            remove => logonPanel.signupButton.Click -= value;
         }
 
 
@@ -151,7 +151,7 @@ namespace WpfHandler.UI.Controls.Logon
             DataContext = this;
             #endregion
 
-            LogonPanel_SingUpCallback += LogonPanel_SingUpCallbackHandler;
+            LogonPanel_SignUpCallback += LogonPanel_SignUpCallbackHandler;
             LogonPanel_LoginCallback += LogonPanel_LoginCallbackHandler;
 
             RegPanel_CancelEventHandler += RegPanel_BackCallbackHandler;
@@ -163,7 +163,7 @@ namespace WpfHandler.UI.Controls.Logon
         /// </summary>
         ~LogonScreen()
         {
-            try { LogonPanel_SingUpCallback -= LogonPanel_SingUpCallbackHandler; } catch { };
+            try { LogonPanel_SignUpCallback -= LogonPanel_SignUpCallbackHandler; } catch { };
             try { LogonPanel_LoginCallback -= LogonPanel_LoginCallbackHandler; } catch { };
 
             try { RegPanel_CancelEventHandler -= RegPanel_BackCallbackHandler; } catch { };
@@ -197,7 +197,7 @@ namespace WpfHandler.UI.Controls.Logon
             switchPanel.current.Children.Add(logonPanel);
         }
 
-        private void LogonPanel_SingUpCallbackHandler(object sender, RoutedEventArgs e)
+        private void LogonPanel_SignUpCallbackHandler(object sender, RoutedEventArgs e)
         {
             _ = switchPanel.SwitchToAsync(registrationPanel, SwitchPanel.AnimationType.AlphaSwipe);
         }
