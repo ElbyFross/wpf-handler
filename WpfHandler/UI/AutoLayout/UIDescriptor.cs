@@ -158,7 +158,7 @@ namespace WpfHandler.UI.AutoLayout
                         ContentAttribute localizationHandler = null;
 
                         // Try to get described one.
-                        if(UniformDataOperator.AttributesHandler.
+                        if(UniformDataOperator.AssembliesManagement.AttributesHandler.
                             TryToGetAttribute (member, out ContentAttribute attribute))
                         {
                             // Buferize if found.

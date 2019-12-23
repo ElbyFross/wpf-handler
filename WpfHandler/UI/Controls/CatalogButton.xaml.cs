@@ -69,7 +69,7 @@ namespace WpfHandler.UI.Controls
         /// Bridging XAML declaring and the member.
         /// </summary>
         public static readonly DependencyProperty ClickCallbackProperty = DependencyProperty.Register(
-          "ClickCallback", typeof(System.Action<object>), typeof(CatalogButton));
+          "ClickCallback", typeof(Action<object>), typeof(CatalogButton));
         #endregion
 
         #region Properties

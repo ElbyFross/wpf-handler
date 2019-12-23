@@ -4,6 +4,220 @@
         <name>UniformDataOperator</name>
     </assembly>
     <members>
+        <member name="T:UniformDataOperator.AssembliesManagement.AssembliesHandler">
+            <summary>
+            Handler class that provides an API to managing assemblies.
+            </summary>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.AssembliesHandler.LoadAssemblies(System.String)">
+            <summary>
+            Loads assemblies from a requested path.
+            </summary>
+            <param name="path">A folder where will be stored asseblies.</param>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.AssembliesHandler.LoadAssemblies(System.String,System.IO.SearchOption,System.Boolean)">
+            <summary>
+            Loads assemblies from a requested path.
+            </summary>
+            <param name="path">A folder where will be stored asseblies.</param>
+            <param name="searchOption">Define if a search operation will affect only a root directory or also check child ones.</param>
+            <param name="spawnDirectory">Should a handler create a directory in case if not existed.</param>
+        </member>
+        <member name="T:UniformDataOperator.AssembliesManagement.Modifiers.IBaseTypeChangable">
+            <summary>
+            Inmplementing of that interface allow to redefine type that will be used in internal class\structure operations. 
+            </summary>
+        </member>
+        <member name="P:UniformDataOperator.AssembliesManagement.Modifiers.IBaseTypeChangable.OperatingType">
+            <summary>
+            Type that will be used in operations.
+            </summary>
+        </member>
+        <member name="T:UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer">
+            <summary>
+            Defining of that attribute automaticly add type to
+            </summary>
+        </member>
+        <member name="F:UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer.replacingType">
+            <summary>
+            Type that will be added to exlusion table and replaced by using type.
+            </summary>
+        </member>
+        <member name="F:UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer.usingType">
+            <summary>
+            Type that will be used by everyone who ask exlusion table about.
+            </summary>
+        </member>
+        <member name="F:UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer.overridingPriority">
+            <summary>
+            Allow to use some modifiers. Excluding table will contains only one with hiest priority.
+            </summary>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer.#ctor">
+            <summary>
+            Basse constructor.
+            </summary>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer.#ctor(System.Type,System.Type,System.Int32)">
+            <summary>
+            Constructor that all to initialise attribute's data via reflected constructor.
+            </summary>
+            <param name="replacingType">Type that will be added to exlusion table and replaced by using type.</param>
+            <param name="usingType">Type that will be used by everyone who ask exlusion table about.</param>
+            <param name="overridingPriority">Allow to use some modifiers. Excluding table will contains only one with hiest priority.</param>
+        </member>
+        <member name="F:UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer.ExludingTable">
+            <summary>
+            Table that will contains redefinig instruction for types.
+            </summary>
+        </member>
+        <member name="T:UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer.ReplacingMeta">
+            <summary>
+            Meta data building during type replacment registration.
+            </summary>
+        </member>
+        <member name="F:UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer.ReplacingMeta.usingType">
+            <summary>
+            Type that must be used instead of requested.
+            </summary>
+        </member>
+        <member name="F:UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer.ReplacingMeta.replacedWithPriority">
+            <summary>
+            Priority that was used during type replacement. 
+            Allow to override that meta in case in next instruction will has highest priority then that one.
+            </summary>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer.GetValidType(System.Type)">
+            <summary>
+            Returns type that must be eused instead of base type.
+            </summary>
+            <param name="baseType">Type that will be checked into excluding table.</param>
+            <returns>Forwarder type defined into exluding table, or self in case in type not replaced.</returns>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer.OperateType(System.Type)">
+            <summary>
+            Operating type to define if it must be registred in internal systems.
+            </summary>
+            <param name="type">Type that could contain defined `TypeReplacing` attribute.</param>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer.IsReplaced(System.Type)">
+            <summary>
+            Checking does that type was replaced.
+            </summary>
+            <param name="type">Type that will chached into exluding table.</param>
+            <returns>Result of check. True if type was replaced.</returns>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer.RescanAssemblies">
+            <summary>
+            Scaning assemblies in current app domaint to find out all types with defined replacing attribute.
+            </summary>
+        </member>
+        <member name="T:UniformDataOperator.AssembliesManagement.AttributesHandler">
+            <summary>
+            Provides API to handle attributes.
+            </summary>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.FindFieldsWithAttribute``1(System.Type)">
+            <summary>
+            Looking for fields with defined target attribute.
+            </summary>
+            <typeparam name="T">Attribute's type.</typeparam>
+            <param name="source">Type the would by used as source of fields.</param>
+            <returns>Collection of found attributes.</returns>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.FindMembersWithAttribute``1(System.Type)">
+            <summary>
+            Looking for fields an properties members with defined target attribute.
+            </summary>
+            <typeparam name="T">Attribute's type.</typeparam>
+            <param name="source">Type the would by used as source of fields.</param>
+            <returns>Collection of found attributes.</returns>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.FindMembersWithAttribute``1(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo})">
+            <summary>
+            Looking for members with defined target attribute.
+            </summary>
+            <typeparam name="T">Attribute's type.</typeparam>
+            <param name="source">Type the would by used as source of fields.</param>
+            <returns>Collection of found attributes.</returns>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.FindMembersWithoutAttribute``1(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo},System.Func{System.Reflection.MemberInfo,System.Boolean})">
+            <summary>
+            Looking for members without defined target attribute.
+            </summary>
+            <typeparam name="T">Attribute's type.</typeparam>
+            <param name="source">Type the would by used as source of fields.</param>
+            <param name="expression">Delegate that would be called to compare member by custom way.</param>
+            <returns>Collection of found attributes.</returns>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.FindMembersWithoutAttribute``1(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo})">
+            <summary>
+            Looking for members without defined target attribute.
+            </summary>
+            <typeparam name="T">Attribute's type.</typeparam>
+            <param name="source">Type the would by used as source of fields.</param>
+            <returns>Collection of found attributes.</returns>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.HasAttribute``1(System.Reflection.MemberInfo)">
+            <summary>
+            Check does member has target attribute.
+            </summary>
+            <typeparam name="AttributeType">Type of target attribute.</typeparam>
+            <param name="member"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.TryToGetAttribute``1(System.Reflection.MemberInfo,``0@)">
+            <summary>
+            Trying to detect attribute defined on member.
+            </summary>
+            <typeparam name="AttributeType">Type of target attribute.</typeparam>
+            <param name="member">Member object.</param>
+            <param name="attribute">Outbut that would contains found attribute.</param>
+            <returns>Result of the search.</returns>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.FindPropertiesWithAttribute``1(System.Type)">
+            <summary>
+            Looking for properties with defined target attribute.
+            </summary>
+            <typeparam name="T">Attribute's type.</typeparam>
+            <param name="source">Type the would by used as source of fields.</param>
+            <returns>Collection of found attributes.</returns>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.GetValue(System.Object,System.Reflection.MemberInfo)">
+            <summary>
+            Return value of member.
+            </summary>
+            <param name="holder">Object that contain member info.</param>
+            <param name="member">Target memeber's info.</param>
+            <returns>Value of member.</returns>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.SetValue(System.Object,System.Reflection.MemberInfo,System.Object)">
+            <summary>
+            Setting value to member on specific object.
+            </summary>
+            <param name="holder">Object that contain member info.</param>
+            <param name="member">Target memeber's info.</param>
+            <param name="data">Data that would be setted up to member.</param>
+            <returns></returns>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.Converter(System.Type,System.Object)">
+            <summary>
+            Trying to convers object to other type.
+            </summary>
+            <param name="targetType">Prefered type of output object.</param>
+            <param name="data">Soutce object.</param>
+            <returns>Converted object. The same if converting not possible</returns>
+        </member>
+        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.AddAttribute(System.String,System.Type,System.Type,System.Type[],System.Object[])">
+            <summary>
+            Add to assembly the new type based on targetType but with existed new attribute.
+            </summary>
+            <param name="assembly">Assembly that will contains new the type.</param>
+            <param name="targetType">Type that will inherited during creating of new type.</param>
+            <param name="attrType">Type of attribute that will added to the type.</param>
+            <param name="attrConstructorSignature">Signature of attribute constructor.</param>
+            <param name="attrConstructorValues">Values that will be shared in atttribute constructor.</param>
+        </member>
         <member name="T:UniformDataOperator.Binary.BinaryHandler">
             <summary>
             Provide API to working with binary files.
@@ -225,95 +439,6 @@
             </summary>
             <param name="mode">Server mode that decide reaction.</param>
             <param name="stream">Target to server stream.</param>
-        </member>
-        <member name="T:UniformDataOperator.Modifiers.IBaseTypeChangable">
-            <summary>
-            Inmplementing of that interface allow to redefine type that will be used in internal class\structure operations. 
-            </summary>
-        </member>
-        <member name="P:UniformDataOperator.Modifiers.IBaseTypeChangable.OperatingType">
-            <summary>
-            Type that will be used in operations.
-            </summary>
-        </member>
-        <member name="T:UniformDataOperator.Modifiers.TypeReplacer">
-            <summary>
-            Defining of that attribute automaticly add type to
-            </summary>
-        </member>
-        <member name="F:UniformDataOperator.Modifiers.TypeReplacer.replacingType">
-            <summary>
-            Type that will be added to exlusion table and replaced by using type.
-            </summary>
-        </member>
-        <member name="F:UniformDataOperator.Modifiers.TypeReplacer.usingType">
-            <summary>
-            Type that will be used by everyone who ask exlusion table about.
-            </summary>
-        </member>
-        <member name="F:UniformDataOperator.Modifiers.TypeReplacer.overridingPriority">
-            <summary>
-            Allow to use some modifiers. Excluding table will contains only one with hiest priority.
-            </summary>
-        </member>
-        <member name="M:UniformDataOperator.Modifiers.TypeReplacer.#ctor">
-            <summary>
-            Basse constructor.
-            </summary>
-        </member>
-        <member name="M:UniformDataOperator.Modifiers.TypeReplacer.#ctor(System.Type,System.Type,System.Int32)">
-            <summary>
-            Constructor that all to initialise attribute's data via reflected constructor.
-            </summary>
-            <param name="replacingType">Type that will be added to exlusion table and replaced by using type.</param>
-            <param name="usingType">Type that will be used by everyone who ask exlusion table about.</param>
-            <param name="overridingPriority">Allow to use some modifiers. Excluding table will contains only one with hiest priority.</param>
-        </member>
-        <member name="F:UniformDataOperator.Modifiers.TypeReplacer.ExludingTable">
-            <summary>
-            Table that will contains redefinig instruction for types.
-            </summary>
-        </member>
-        <member name="T:UniformDataOperator.Modifiers.TypeReplacer.ReplacingMeta">
-            <summary>
-            Meta data building during type replacment registration.
-            </summary>
-        </member>
-        <member name="F:UniformDataOperator.Modifiers.TypeReplacer.ReplacingMeta.usingType">
-            <summary>
-            Type that must be used instead of requested.
-            </summary>
-        </member>
-        <member name="F:UniformDataOperator.Modifiers.TypeReplacer.ReplacingMeta.replacedWithPriority">
-            <summary>
-            Priority that was used during type replacement. 
-            Allow to override that meta in case in next instruction will has highest priority then that one.
-            </summary>
-        </member>
-        <member name="M:UniformDataOperator.Modifiers.TypeReplacer.GetValidType(System.Type)">
-            <summary>
-            Returns type that must be eused instead of base type.
-            </summary>
-            <param name="baseType">Type that will be checked into excluding table.</param>
-            <returns>Forwarder type defined into exluding table, or self in case in type not replaced.</returns>
-        </member>
-        <member name="M:UniformDataOperator.Modifiers.TypeReplacer.OperateType(System.Type)">
-            <summary>
-            Operating type to define if it must be registred in internal systems.
-            </summary>
-            <param name="type">Type that could contain defined `TypeReplacing` attribute.</param>
-        </member>
-        <member name="M:UniformDataOperator.Modifiers.TypeReplacer.IsReplaced(System.Type)">
-            <summary>
-            Checking does that type was replaced.
-            </summary>
-            <param name="type">Type that will chached into exluding table.</param>
-            <returns>Result of check. True if type was replaced.</returns>
-        </member>
-        <member name="M:UniformDataOperator.Modifiers.TypeReplacer.RescanAssemblies">
-            <summary>
-            Scaning assemblies in current app domaint to find out all types with defined replacing attribute.
-            </summary>
         </member>
         <member name="T:UniformDataOperator.Sql.ISqlOperator">
             <summary>
@@ -1642,112 +1767,6 @@
             <param name="members">Source collection of memers.</param>
             <param name="columns">List that contains all detected columns descriptors.</param>
             <param name="variables">List that contains names of local variables in format allowed to internal queries generators.</param>
-        </member>
-        <member name="T:UniformDataOperator.AttributesHandler">
-            <summary>
-            Provides API to handle attributes.
-            </summary>
-        </member>
-        <member name="M:UniformDataOperator.AttributesHandler.FindFieldsWithAttribute``1(System.Type)">
-            <summary>
-            Looking for fields with defined target attribute.
-            </summary>
-            <typeparam name="T">Attribute's type.</typeparam>
-            <param name="source">Type the would by used as source of fields.</param>
-            <returns>Collection of found attributes.</returns>
-        </member>
-        <member name="M:UniformDataOperator.AttributesHandler.FindMembersWithAttribute``1(System.Type)">
-            <summary>
-            Looking for fields an properties members with defined target attribute.
-            </summary>
-            <typeparam name="T">Attribute's type.</typeparam>
-            <param name="source">Type the would by used as source of fields.</param>
-            <returns>Collection of found attributes.</returns>
-        </member>
-        <member name="M:UniformDataOperator.AttributesHandler.FindMembersWithAttribute``1(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo})">
-            <summary>
-            Looking for members with defined target attribute.
-            </summary>
-            <typeparam name="T">Attribute's type.</typeparam>
-            <param name="source">Type the would by used as source of fields.</param>
-            <returns>Collection of found attributes.</returns>
-        </member>
-        <member name="M:UniformDataOperator.AttributesHandler.FindMembersWithoutAttribute``1(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo},System.Func{System.Reflection.MemberInfo,System.Boolean})">
-            <summary>
-            Looking for members without defined target attribute.
-            </summary>
-            <typeparam name="T">Attribute's type.</typeparam>
-            <param name="source">Type the would by used as source of fields.</param>
-            <param name="expression">Delegate that would be called to compare member by custom way.</param>
-            <returns>Collection of found attributes.</returns>
-        </member>
-        <member name="M:UniformDataOperator.AttributesHandler.FindMembersWithoutAttribute``1(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo})">
-            <summary>
-            Looking for members without defined target attribute.
-            </summary>
-            <typeparam name="T">Attribute's type.</typeparam>
-            <param name="source">Type the would by used as source of fields.</param>
-            <returns>Collection of found attributes.</returns>
-        </member>
-        <member name="M:UniformDataOperator.AttributesHandler.HasAttribute``1(System.Reflection.MemberInfo)">
-            <summary>
-            Check does member has target attribute.
-            </summary>
-            <typeparam name="AttributeType">Type of target attribute.</typeparam>
-            <param name="member"></param>
-            <returns></returns>
-        </member>
-        <member name="M:UniformDataOperator.AttributesHandler.TryToGetAttribute``1(System.Reflection.MemberInfo,``0@)">
-            <summary>
-            Trying to detect attribute defined on member.
-            </summary>
-            <typeparam name="AttributeType">Type of target attribute.</typeparam>
-            <param name="member">Member object.</param>
-            <param name="attribute">Outbut that would contains found attribute.</param>
-            <returns>Result of the search.</returns>
-        </member>
-        <member name="M:UniformDataOperator.AttributesHandler.FindPropertiesWithAttribute``1(System.Type)">
-            <summary>
-            Looking for properties with defined target attribute.
-            </summary>
-            <typeparam name="T">Attribute's type.</typeparam>
-            <param name="source">Type the would by used as source of fields.</param>
-            <returns>Collection of found attributes.</returns>
-        </member>
-        <member name="M:UniformDataOperator.AttributesHandler.GetValue(System.Object,System.Reflection.MemberInfo)">
-            <summary>
-            Return value of member.
-            </summary>
-            <param name="holder">Object that contain member info.</param>
-            <param name="member">Target memeber's info.</param>
-            <returns>Value of member.</returns>
-        </member>
-        <member name="M:UniformDataOperator.AttributesHandler.SetValue(System.Object,System.Reflection.MemberInfo,System.Object)">
-            <summary>
-            Setting value to member on specific object.
-            </summary>
-            <param name="holder">Object that contain member info.</param>
-            <param name="member">Target memeber's info.</param>
-            <param name="data">Data that would be setted up to member.</param>
-            <returns></returns>
-        </member>
-        <member name="M:UniformDataOperator.AttributesHandler.Converter(System.Type,System.Object)">
-            <summary>
-            Trying to convers object to other type.
-            </summary>
-            <param name="targetType">Prefered type of output object.</param>
-            <param name="data">Soutce object.</param>
-            <returns>Converted object. The same if converting not possible</returns>
-        </member>
-        <member name="M:UniformDataOperator.AttributesHandler.AddAttribute(System.String,System.Type,System.Type,System.Type[],System.Object[])">
-            <summary>
-            Add to assembly the new type based on targetType but with existed new attribute.
-            </summary>
-            <param name="assembly">Assembly that will contains new the type.</param>
-            <param name="targetType">Type that will inherited during creating of new type.</param>
-            <param name="attrType">Type of attribute that will added to the type.</param>
-            <param name="attrConstructorSignature">Signature of attribute constructor.</param>
-            <param name="attrConstructorValues">Values that will be shared in atttribute constructor.</param>
         </member>
     </members>
 </doc>

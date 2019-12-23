@@ -58,6 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UI\AutoLayout\FormDescriptor.cs" />
+    <Compile Include="UI\Controls\CatalogView.xaml.cs">
+      <DependentUpon>CatalogView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UI\Controls\Logon\AdvancedRegistrationPanelDescriptor.cs" />
     <Compile Include="UI\Controls\Logon\DefaultRegistrationPanelDescriptor.cs" />
     <Compile Include="UI\LocalizationHandler.cs" />
@@ -181,6 +184,10 @@
     <Compile Include="UI\Effects\RectBlurEffect.cs" />
     <Compile Include="UI\GUIContentAttribute.cs" />
     <Compile Include="UI\Controls\TextFieldControl.cs" />
+    <Page Include="UI\Controls\CatalogView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UI\Styles\Thems\base.theme.blueTheme.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
