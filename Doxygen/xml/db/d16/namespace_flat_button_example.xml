@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="db/d16/namespace_flat_button_example" kind="namespace" language="C#">
+    <compoundname>FlatButtonExample</compoundname>
+    <innerclass refid="da/d12/class_flat_button_example_1_1_app" prot="public">FlatButtonExample::App</innerclass>
+    <innerclass refid="d6/d2d/class_flat_button_example_1_1_main_window" prot="public">FlatButtonExample::MainWindow</innerclass>
+    <innernamespace refid="dc/d63/namespace_flat_button_example_1_1_properties">FlatButtonExample::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/App.xaml.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

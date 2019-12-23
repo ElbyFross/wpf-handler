@@ -388,7 +388,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="245" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="245" bodyend="248"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="256" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="256" bodyend="259"/>
       </memberdef>
       <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a36c48561703ca7b73f21187ee9ff08bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -414,7 +414,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="255" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="255" bodyend="279"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="266" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="266" bodyend="290"/>
       </memberdef>
       <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a98ca8cae768fad4160df1aba48d6f7f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -428,7 +428,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="285" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="285" bodyend="302"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="296" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="296" bodyend="313"/>
       </memberdef>
       <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ad37327acd55ad09e036f284970d1e022" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -454,7 +454,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="309" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="309" bodyend="344"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="320" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="320" bodyend="355"/>
       </memberdef>
       <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ae691340b5a25a5497d9f64d4b0adddd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -467,7 +467,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="349" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="349" bodyend="353"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="360" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="360" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ae38dd5281ee8568b040af4c1d14322c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string WpfHandler.UI.GUIContent.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>Return the GUI content in the string format. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="370" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="370" bodyend="383"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -495,7 +509,34 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="361" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="361" bodyend="365"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="391" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="391" bodyend="395"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a0a59156d78345550a413d155791e1137" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit WpfHandler.UI.GUIContent.operator string</definition>
+        <argsstring>(GUIContent content)</argsstring>
+        <name>operator string</name>
+        <param>
+          <type><ref refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content" kindref="compound">GUIContent</ref></type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+<para>Converting the <ref refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content" kindref="compound">GUIContent</ref> to he string format. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>content</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="245" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="245" bodyend="248"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -503,28 +544,28 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="233">
+      <node id="257">
         <label>WpfHandler.UI.GUIContent</label>
         <link refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content"/>
-        <childnode refid="234" relation="public-inheritance">
+        <childnode refid="258" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="234">
+      <node id="258">
         <label>FrameworkElement</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="235">
+      <node id="259">
         <label>WpfHandler.UI.GUIContent</label>
         <link refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content"/>
-        <childnode refid="236" relation="public-inheritance">
+        <childnode refid="260" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="236">
+      <node id="260">
         <label>FrameworkElement</label>
       </node>
     </collaborationgraph>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="30" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="29" bodyend="367"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" line="30" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/GUIContent.cs" bodystart="29" bodyend="397"/>
     <listofallmembers>
       <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a067181a637a28c683c1a24ed06e577ae" prot="private" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>_DecriptionLocalizationResourseKey</name></member>
       <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a7d0ce7f98f08a7e1373eb150231d0c56" prot="private" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>_DefaultDescription</name></member>
@@ -550,7 +591,9 @@
       <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a20eef2a05ca7432cdb0b56731f1ec47b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>GUIContent</name></member>
       <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ab8044a6651911a3b52f47b4cc6c485cd" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>IsNone</name></member>
       <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a9d8259c5a572b9ab33faab8166fc6053" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>None</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a0a59156d78345550a413d155791e1137" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>operator string</name></member>
       <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a3d8843f4aaceba1bb1174f33c925bab2" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>TitleLocalizationResourseKey</name></member>
+      <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ae38dd5281ee8568b040af4c1d14322c4" prot="public" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>ToString</name></member>
       <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a6bd38c606c795603ab17e2d6acfec72f" prot="private" virt="non-virtual"><scope>WpfHandler::UI::GUIContent</scope><name>~GUIContent</name></member>
     </listofallmembers>
   </compounddef>

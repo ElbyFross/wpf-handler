@@ -4,6 +4,7 @@ var searchData=
   ['_5fbindedmember',['_BindedMember',['../dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group.html#a4c0eac437404a019551b6bfd102cc034',1,'WpfHandler::UI::Controls::FlatTogglesGroup']]],
   ['_5fbrush',['_Brush',['../d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute.html#ae25cb492c8efb5e3ff570452b618ee23',1,'WpfHandler::UI::ColorAttribute']]],
   ['_5fcontroltype',['_ControlType',['../d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute.html#a3099e2b45323143744f788f5f9db22ab',1,'WpfHandler::UI::AutoLayout::Configuration::CustomControlAttribute']]],
+  ['_5fcurrentformindex',['_CurrentFormIndex',['../d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel.html#a6c9450ade16af883e6d2f0801713ebc6',1,'WpfHandler::UI::Controls::Logon::RegistrationPanel']]],
   ['_5fdecriptionlocalizationresoursekey',['_DecriptionLocalizationResourseKey',['../db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content.html#a067181a637a28c683c1a24ed06e577ae',1,'WpfHandler::UI::GUIContent']]],
   ['_5fdefaultdescription',['_DefaultDescription',['../db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content.html#a7d0ce7f98f08a7e1373eb150231d0c56',1,'WpfHandler::UI::GUIContent']]],
   ['_5fdefaulttitle',['_DefaultTitle',['../db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content.html#a7bfdcdd062eaf3f8cadcdb34eed52d2f',1,'WpfHandler::UI::GUIContent']]],

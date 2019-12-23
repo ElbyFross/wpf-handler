@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::FormDescriptor</compoundname>
+    <basecompoundref refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.UIDescriptor</basecompoundref>
+    <derivedcompoundref refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor" prot="public" virt="non-virtual">WpfHandler.UI.Controls.Logon.AdvancedRegistrationPanelDescriptor</derivedcompoundref>
+    <derivedcompoundref refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor" prot="public" virt="non-virtual">WpfHandler.UI.Controls.Logon.DefaultRegistrationPanelDescriptor</derivedcompoundref>
+    <innerclass refid="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report" prot="public">WpfHandler::UI::AutoLayout::FormDescriptor::ValidationReport</innerclass>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a8a95b91b04aec2b3e109845866c25fb2" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor" kindref="compound">FormDescriptor</ref> &gt;</type>
+        <definition>Action&lt;FormDescriptor&gt; WpfHandler.UI.AutoLayout.FormDescriptor.OnConfirmEvent</definition>
+        <argsstring></argsstring>
+        <name>OnConfirmEvent</name>
+        <briefdescription>
+<para>Occurs avter calling the <ref refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1ae2d4791e3085dba435c09b6082bd8408" kindref="member">OnConfirm</ref> handler. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" line="69" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a5be99456050a10453139bf7a27baa78a" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor" kindref="compound">FormDescriptor</ref> &gt;</type>
+        <definition>Action&lt;FormDescriptor&gt; WpfHandler.UI.AutoLayout.FormDescriptor.OnCancelEvent</definition>
+        <argsstring></argsstring>
+        <name>OnCancelEvent</name>
+        <briefdescription>
+<para>Occurs avter calling the <ref refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a4bbe131238be232c253ca4c65e8493f4" kindref="member">OnCancel</ref> handler. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" line="74" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a63527cbe3f75e544b7f4ab417bfbb555" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report" kindref="compound">ValidationReport</ref></type>
+        <definition>virtual ValidationReport WpfHandler.UI.AutoLayout.FormDescriptor.OnValidation</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidation</name>
+        <reimplementedby refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor_1abc8055d00358a941e9b507fed58ff662">OnValidation</reimplementedby>
+        <briefdescription>
+<para>Handelr that will be called when a from should validate members data. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A validation report. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" line="82" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" bodystart="82" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1ae2d4791e3085dba435c09b6082bd8408" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WpfHandler.UI.AutoLayout.FormDescriptor.OnConfirm</definition>
+        <argsstring>()</argsstring>
+        <name>OnConfirm</name>
+        <reimplementedby refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor_1aee1e6b6ba9214aac4a82b0213e4d3442">OnConfirm</reimplementedby>
+        <briefdescription>
+<para>A handler that will called when the form will be confirmed. Handle the stored data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" line="92" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a4bbe131238be232c253ca4c65e8493f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WpfHandler.UI.AutoLayout.FormDescriptor.OnCancel</definition>
+        <argsstring>()</argsstring>
+        <name>OnCancel</name>
+        <reimplementedby refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor_1a9154a1e27afdf8d40da139042ee7e609">OnCancel</reimplementedby>
+        <briefdescription>
+<para>A handler that will called when the form will be canceled. Handle the stored data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" line="98" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" bodystart="98" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An abstract <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> descriptor suitable for the form-like interfaces. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="243">
+        <label>UIDescriptor</label>
+        <link refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor"/>
+      </node>
+      <node id="244">
+        <label>WpfHandler.UI.Controls.Logon.AdvancedRegistrationPanelDescriptor</label>
+        <link refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor"/>
+        <childnode refid="242" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="245">
+        <label>WpfHandler.UI.Controls.Logon.DefaultRegistrationPanelDescriptor</label>
+        <link refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor"/>
+        <childnode refid="242" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="242">
+        <label>WpfHandler.UI.AutoLayout.FormDescriptor</label>
+        <link refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor"/>
+        <childnode refid="243" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="247">
+        <label>UIDescriptor</label>
+        <link refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor"/>
+        <childnode refid="248" relation="usage">
+          <edgelabel>activeLayer</edgelabel>
+        </childnode>
+      </node>
+      <node id="248">
+        <label>WpfHandler.UI.AutoLayout.LayoutLayer</label>
+        <link refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer"/>
+        <childnode refid="248" relation="usage">
+          <edgelabel>_Parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="246">
+        <label>WpfHandler.UI.AutoLayout.FormDescriptor</label>
+        <link refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" line="27" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" bodystart="26" bodyend="99"/>
+    <listofallmembers>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1af342f6e3f3a3fc86eed3e998bbce1cc5" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>BindTo</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a2862ba93b12a9698b88795d41c672f97" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>ControlSignUp</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1af39e8fdd24e6de1956b0e3b60fa74368" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>GetFieldByMember</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1ab965d93a86ca10bb9e7b30ac14fcfad8" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>GetFieldByMember</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a2e1bd8a01df4160b293fd79f639ce962" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>IsLoaded</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1abaa60ede8bf9e59734238f1beadaf50e" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>Loaded</name></member>
+      <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a4bbe131238be232c253ca4c65e8493f4" prot="public" virt="virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>OnCancel</name></member>
+      <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a5be99456050a10453139bf7a27baa78a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>OnCancelEvent</name></member>
+      <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1ae2d4791e3085dba435c09b6082bd8408" prot="public" virt="virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>OnConfirm</name></member>
+      <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a8a95b91b04aec2b3e109845866c25fb2" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>OnConfirmEvent</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a6dbda96f0d1b9f65fd1c61e0b8a5bb6b" prot="public" virt="virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>OnLoaded</name></member>
+      <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a63527cbe3f75e544b7f4ab417bfbb555" prot="public" virt="virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>OnValidation</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a129506a55a400487664febab7ea85266" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>ToBindControl</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a763e1f50836b07edf0a3e6579454c335" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>ToBindControl</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a51be997d431bb7a6d73de302f60f6dd9" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>TryToBindControl</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1aa2a2328a6283c4df8aad0b8f925922e8" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor</scope><name>UnbindFrom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

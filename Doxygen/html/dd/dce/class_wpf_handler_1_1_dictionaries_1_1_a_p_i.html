@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">WPF Handler
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.1.0</span>
    </div>
    <div id="projectbrief">New controls | Auto building of an UI | Localization | Plugins managment</div>
   </td>
@@ -89,7 +89,6 @@ $(document).ready(function(){initNavTree('dd/dce/class_wpf_handler_1_1_dictionar
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#events">Events</a> &#124;
 <a href="../../d1/d30/class_wpf_handler_1_1_dictionaries_1_1_a_p_i-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">WpfHandler.Dictionaries.API Class Reference</div>  </div>
@@ -104,23 +103,18 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac9aafbe351f06f0c20de39508d3e8852"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i.html#ac9aafbe351f06f0c20de39508d3e8852">LoadXAML_Thems</a> (string themeCode)</td></tr>
 <tr class="memdesc:ac9aafbe351f06f0c20de39508d3e8852"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaning for language dictionaries in XAML files, and load them to Merged dictionaries. Loading new theme by code if found. Leave already loaded if overrided dictionary not found.  <a href="#ac9aafbe351f06f0c20de39508d3e8852">More...</a><br /></td></tr>
 <tr class="separator:ac9aafbe351f06f0c20de39508d3e8852"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5c415a6377e871aff2020a9489815ff"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i.html#ad5c415a6377e871aff2020a9489815ff">LoadXAML_LangDicts</a> (CultureInfo targetCulture, CultureInfo secondaryCulture)</td></tr>
-<tr class="memdesc:ad5c415a6377e871aff2020a9489815ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaning for language dictionaries in XAML files, and load them to Merged dictionaries. Load relative to new culture if found. Leave previous culture if not.  <a href="#ad5c415a6377e871aff2020a9489815ff">More...</a><br /></td></tr>
-<tr class="separator:ad5c415a6377e871aff2020a9489815ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0de06b29ec542383dbdc470bb9a7c98e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i.html#a0de06b29ec542383dbdc470bb9a7c98e">UpdateDictionariesGroup</a> (string directory, string groupCode, params string[] subCodes)</td></tr>
+<tr class="memdesc:a0de06b29ec542383dbdc470bb9a7c98e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updating dictionaries loaded for certain group.  <a href="#a0de06b29ec542383dbdc470bb9a7c98e">More...</a><br /></td></tr>
 <tr class="separator:a0de06b29ec542383dbdc470bb9a7c98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
-Events</h2></td></tr>
-<tr class="memitem:a1d26084678af47b609f686215de5a171"><td class="memItemLeft" align="right" valign="top">static Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i.html#a1d26084678af47b609f686215de5a171">LanguagesDictionariesUpdated</a></td></tr>
-<tr class="memdesc:a1d26084678af47b609f686215de5a171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event that will occure when languages dictionary will be loaded.  <a href="#a1d26084678af47b609f686215de5a171">More...</a><br /></td></tr>
-<tr class="separator:a1d26084678af47b609f686215de5a171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2611ee5407fe0a4cde1a2490a54d759e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i.html#a2611ee5407fe0a4cde1a2490a54d759e">ClearDictionariesGroup</a> (string groupCode)</td></tr>
+<tr class="memdesc:a2611ee5407fe0a4cde1a2490a54d759e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clearing all loaded dictionaries from certain group.  <a href="#a2611ee5407fe0a4cde1a2490a54d759e">More...</a><br /></td></tr>
+<tr class="separator:a2611ee5407fe0a4cde1a2490a54d759e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class that provide methods for controll WPF application localization. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad5c415a6377e871aff2020a9489815ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5c415a6377e871aff2020a9489815ff">&#9670;&nbsp;</a></span>LoadXAML_LangDicts()</h2>
+<a id="a2611ee5407fe0a4cde1a2490a54d759e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2611ee5407fe0a4cde1a2490a54d759e">&#9670;&nbsp;</a></span>ClearDictionariesGroup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -129,21 +123,11 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void WpfHandler.Dictionaries.API.LoadXAML_LangDicts </td>
+          <td class="memname">static void WpfHandler.Dictionaries.API.ClearDictionariesGroup </td>
           <td>(</td>
-          <td class="paramtype">CultureInfo&#160;</td>
-          <td class="paramname"><em>targetCulture</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>groupCode</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">CultureInfo&#160;</td>
-          <td class="paramname"><em>secondaryCulture</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -153,12 +137,10 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Scaning for language dictionaries in XAML files, and load them to Merged dictionaries. Load relative to new culture if found. Leave previous culture if not. </p>
-<p>Require files format: *.lang.CULTURE_CODE.xaml, where culture code equal current translation of the app. Example: plugin.feed.lang.en-US.xaml </p>
+<p>Clearing all loaded dictionaries from certain group. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">targetCulture</td><td>Culture that will be serched with hightest priority.</td></tr>
-    <tr><td class="paramname">secondaryCulture</td><td>Culture that will be prefured in case of target not implemented. If also not implemented than will be used first entry.</td></tr>
+    <tr><td class="paramname">groupCode</td><td>The unique code of the dictioaries group. Allows to determite the diferend purposes of the plugins like localization (lang), <a class="el" href="../../df/dea/namespace_wpf_handler_1_1_u_i.html">UI</a> themes (theme), etc.</td></tr>
   </table>
   </dd>
 </dl>
@@ -240,41 +222,16 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p></p>
+<p>Updating dictionaries loaded for certain group. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">directory</td><td></td></tr>
-    <tr><td class="paramname">groupCode</td><td></td></tr>
+    <tr><td class="paramname">directory</td><td>The directory where stored dicrionaties. Using SearchOption.AllDirectories suring search. </td></tr>
+    <tr><td class="paramname">groupCode</td><td>The unique code of the dictioaries group. Allows to determite the diferend purposes of the plugins like localization (lang), <a class="el" href="../../df/dea/namespace_wpf_handler_1_1_u_i.html">UI</a> themes (theme), etc.</td></tr>
     <tr><td class="paramname">subCodes</td><td>Codes that will be required from group of plugins. Will be looced in order of prefernces. Lower index - more prefered. Will load any exist in case if any requested code not found.</td></tr>
   </table>
   </dd>
 </dl>
 <p>Exmples: Culture code for localization plugins. Theme code for design plugins. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Event Documentation</h2>
-<a id="a1d26084678af47b609f686215de5a171"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d26084678af47b609f686215de5a171">&#9670;&nbsp;</a></span>LanguagesDictionariesUpdated</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Action WpfHandler.Dictionaries.API.LanguagesDictionariesUpdated</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Event that will occure when languages dictionary will be loaded. </p>
 
 </div>
 </div>

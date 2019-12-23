@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dd/d41/class_text_filed_controls_1_1_properties_1_1_settings" kind="class" language="C#" prot="package">
+    <compoundname>TextFiledControls::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dd/d41/class_text_filed_controls_1_1_properties_1_1_settings_1afaf5b1214e4659afa656b15c90765afb" prot="private" static="yes" mutable="no">
+        <type><ref refid="dd/d41/class_text_filed_controls_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings TextFiledControls.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((<ref refid="dd/d41/class_text_filed_controls_1_1_properties_1_1_settings" kindref="compound">Settings</ref>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <ref refid="dd/d41/class_text_filed_controls_1_1_properties_1_1_settings" kindref="compound">Settings</ref>())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/Properties/Settings.Designer.cs" line="20" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/Properties/Settings.Designer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="dd/d41/class_text_filed_controls_1_1_properties_1_1_settings_1ab7443accf4882567db426f02242cdf9d" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="dd/d41/class_text_filed_controls_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings TextFiledControls.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/Properties/Settings.Designer.cs" line="22" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/Properties/Settings.Designer.cs" bodystart="23" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="876">
+        <label>TextFiledControls.Properties.Settings</label>
+        <link refid="dd/d41/class_text_filed_controls_1_1_properties_1_1_settings"/>
+        <childnode refid="877" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="877">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="878">
+        <label>TextFiledControls.Properties.Settings</label>
+        <link refid="dd/d41/class_text_filed_controls_1_1_properties_1_1_settings"/>
+        <childnode refid="879" relation="public-inheritance">
+        </childnode>
+        <childnode refid="878" relation="usage">
+          <edgelabel>defaultInstance</edgelabel>
+        </childnode>
+      </node>
+      <node id="879">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/Properties/Settings.Designer.cs" line="18" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/Properties/Settings.Designer.cs" bodystart="17" bodyend="29"/>
+    <listofallmembers>
+      <member refid="dd/d41/class_text_filed_controls_1_1_properties_1_1_settings_1ab7443accf4882567db426f02242cdf9d" prot="public" virt="non-virtual"><scope>TextFiledControls::Properties::Settings</scope><name>Default</name></member>
+      <member refid="dd/d41/class_text_filed_controls_1_1_properties_1_1_settings_1afaf5b1214e4659afa656b15c90765afb" prot="private" virt="non-virtual"><scope>TextFiledControls::Properties::Settings</scope><name>defaultInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

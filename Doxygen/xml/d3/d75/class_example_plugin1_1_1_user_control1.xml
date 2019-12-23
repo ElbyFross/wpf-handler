@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d3/d75/class_example_plugin1_1_1_user_control1" kind="class" language="C#" prot="public">
+    <compoundname>ExamplePlugin1::UserControl1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/d75/class_example_plugin1_1_1_user_control1_1ad049e9f8d37c6fe6f71a5e9433d08681" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ExamplePlugin1.UserControl1._contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1/obj/Debug/UserControl1.g.i.cs" line="43" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1/obj/Debug/UserControl1.g.i.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d75/class_example_plugin1_1_1_user_control1_1a6ac0d2c2a87f20540773c5e37c22274f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExamplePlugin1.UserControl1.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1/obj/Debug/UserControl1.g.i.cs" line="50" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1/obj/Debug/UserControl1.g.i.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d3/d75/class_example_plugin1_1_1_user_control1_1abe1646181adf6d3d66b3e75bea968a52" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. ExamplePlugin1.UserControl1.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1/obj/Debug/UserControl1.g.i.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1/obj/Debug/UserControl1.g.i.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="d3/d75/class_example_plugin1_1_1_user_control1" kindref="compound">UserControl1</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="975">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="976">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="974">
+        <label>ExamplePlugin1.UserControl1</label>
+        <link refid="d3/d75/class_example_plugin1_1_1_user_control1"/>
+        <childnode refid="975" relation="public-inheritance">
+        </childnode>
+        <childnode refid="976" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="978">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="979">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="977">
+        <label>ExamplePlugin1.UserControl1</label>
+        <link refid="d3/d75/class_example_plugin1_1_1_user_control1"/>
+        <childnode refid="978" relation="public-inheritance">
+        </childnode>
+        <childnode refid="979" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1/obj/Debug/UserControl1.g.i.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1/obj/Debug/UserControl1.g.i.cs" bodystart="41" bodyend="73"/>
+    <listofallmembers>
+      <member refid="d3/d75/class_example_plugin1_1_1_user_control1_1ad049e9f8d37c6fe6f71a5e9433d08681" prot="private" virt="non-virtual"><scope>ExamplePlugin1::UserControl1</scope><name>_contentLoaded</name></member>
+      <member refid="d3/d75/class_example_plugin1_1_1_user_control1_1abe1646181adf6d3d66b3e75bea968a52" prot="private" virt="non-virtual"><scope>ExamplePlugin1::UserControl1</scope><name>Connect</name></member>
+      <member refid="d3/d75/class_example_plugin1_1_1_user_control1_1a6ac0d2c2a87f20540773c5e37c22274f" prot="public" virt="non-virtual"><scope>ExamplePlugin1::UserControl1</scope><name>InitializeComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d4/dea/namespace_text_filed_controls_1_1_properties" kind="namespace" language="C#">
+    <compoundname>TextFiledControls::Properties</compoundname>
+    <innerclass refid="dc/d84/class_text_filed_controls_1_1_properties_1_1_resources" prot="package">TextFiledControls::Properties::Resources</innerclass>
+    <innerclass refid="dd/d41/class_text_filed_controls_1_1_properties_1_1_settings" prot="package">TextFiledControls::Properties::Settings</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/Properties/Resources.Designer.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

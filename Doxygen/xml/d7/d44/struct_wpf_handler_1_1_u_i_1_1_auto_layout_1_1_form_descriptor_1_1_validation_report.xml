@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report" kind="struct" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::FormDescriptor::ValidationReport</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report_1a0f4de7224f6cc1999e761bda1618c90c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool WpfHandler.UI.AutoLayout.FormDescriptor.ValidationReport.Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <briefdescription>
+<para>A result of validation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" line="37" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report_1a6471563ada41b77fb47c8dc38c263d7c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content" kindref="compound">GUIContent</ref></type>
+        <definition>GUIContent WpfHandler.UI.AutoLayout.FormDescriptor.ValidationReport.Message</definition>
+        <argsstring></argsstring>
+        <name>Message</name>
+        <briefdescription>
+<para>A report&apos;s messasge. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" line="42" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report_1a1275fe61d36101439b465c802ec9aa7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.FormDescriptor.ValidationReport.ValidationReport</definition>
+        <argsstring>(bool result)</argsstring>
+        <name>ValidationReport</name>
+        <param>
+          <type>bool</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+<para>Instiniating the simple report. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A result of validation.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" line="48" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" bodystart="48" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report_1ae484c3444567552ac38a1211c12d60c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.FormDescriptor.ValidationReport.ValidationReport</definition>
+        <argsstring>(bool result, GUIContent message)</argsstring>
+        <name>ValidationReport</name>
+        <param>
+          <type>bool</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content" kindref="compound">GUIContent</ref></type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Instiniate the report data. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A result of validation.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A report&apos;s messasge.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" line="59" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" bodystart="59" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Sturcture that contains a validation report data. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" line="33" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/FormDescriptor.cs" bodystart="32" bodyend="64"/>
+    <listofallmembers>
+      <member refid="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report_1a6471563ada41b77fb47c8dc38c263d7c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor::ValidationReport</scope><name>Message</name></member>
+      <member refid="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report_1a0f4de7224f6cc1999e761bda1618c90c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor::ValidationReport</scope><name>Result</name></member>
+      <member refid="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report_1a1275fe61d36101439b465c802ec9aa7e" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor::ValidationReport</scope><name>ValidationReport</name></member>
+      <member refid="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report_1ae484c3444567552ac38a1211c12d60c7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::FormDescriptor::ValidationReport</scope><name>ValidationReport</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

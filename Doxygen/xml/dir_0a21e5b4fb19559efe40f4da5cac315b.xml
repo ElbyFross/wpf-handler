@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_0a21e5b4fb19559efe40f4da5cac315b" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1</compoundname>
+    <innerdir refid="dir_ddb8cce5a044025de835b3b20335acb6">D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1/obj</innerdir>
+    <innerdir refid="dir_1628e0e40d418befcf01ca1f05a2f4d4">D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1/Properties</innerdir>
+    <innerfile refid="df/d33/_main_plugin_control_8xaml_8cs">MainPluginControl.xaml.cs</innerfile>
+    <innerfile refid="d1/d57/_example_plugin1_2_sub_plugin1_control_8xaml_8cs">SubPlugin1Control.xaml.cs</innerfile>
+    <innerfile refid="d4/d33/_example_plugin1_2_sub_plugin2_control_8xaml_8cs">SubPlugin2Control.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1/"/>
+  </compounddef>
+</doxygen>

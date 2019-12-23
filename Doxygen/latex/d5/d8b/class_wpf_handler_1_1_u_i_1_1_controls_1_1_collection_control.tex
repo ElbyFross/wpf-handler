@@ -39,15 +39,15 @@ virtual void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collect
 \subsection*{Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
-bool \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a2e1f163821f2cbc367ef40d3dcf652eb}{Is\+Read\+Only}} =$>$ source.\+Is\+Read\+Only
+bool \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a2e1f163821f2cbc367ef40d3dcf652eb}{Is\+Read\+Only}} =$>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a78ccfdc5208ab2306308d7356757f32f}{source}} != null ? source.\+Is\+Read\+Only \+: true
 \begin{DoxyCompactList}\small\item\em Gets a value indicating whether the System.\+Collections.\+I\+List is read-\/only. \end{DoxyCompactList}\item 
-bool \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_aa95fcae30ed2356bfff8154bcceecc8a}{Is\+Fixed\+Size}} =$>$ source.\+Is\+Fixed\+Size
+bool \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_aa95fcae30ed2356bfff8154bcceecc8a}{Is\+Fixed\+Size}} =$>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a78ccfdc5208ab2306308d7356757f32f}{source}} != null ? source.\+Is\+Fixed\+Size \+: true
 \begin{DoxyCompactList}\small\item\em Gets a value indicating whether the System.\+Collections.\+I\+List has a fixed size. \end{DoxyCompactList}\item 
-int \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_af4796b6959bcb870bde22f6d32379242}{Count}} =$>$ source.\+Count
-\begin{DoxyCompactList}\small\item\em Gets the number of elements contained in the System.\+Collections.\+I\+Collection. \end{DoxyCompactList}\item 
-object \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a4ab9c597654cf0ca762f2fa13e807fc7}{Sync\+Root}} =$>$ throw new Not\+Implemented\+Exception()
+int \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_af4796b6959bcb870bde22f6d32379242}{Count}} =$>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a78ccfdc5208ab2306308d7356757f32f}{source}} != null ? source.\+Count \+: -\/1
+\begin{DoxyCompactList}\small\item\em Gets the number of elements contained in the System.\+Collections.\+I\+Collection. Returns -\/1 in case if source not binded. \end{DoxyCompactList}\item 
+object \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a4ab9c597654cf0ca762f2fa13e807fc7}{Sync\+Root}} =$>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a78ccfdc5208ab2306308d7356757f32f}{source}}?.Sync\+Root
 \begin{DoxyCompactList}\small\item\em Gets an object that can be used to synchronize access to the System.\+Collections.\+I\+Collection. \end{DoxyCompactList}\item 
-bool \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a0a40907daa815eb6c01be8677eb09450}{Is\+Synchronized}} =$>$ throw new Not\+Implemented\+Exception()
+bool \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a0a40907daa815eb6c01be8677eb09450}{Is\+Synchronized}} =$>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a78ccfdc5208ab2306308d7356757f32f}{source}} != null ? source.\+Is\+Fixed\+Size \+: true
 \begin{DoxyCompactList}\small\item\em Gets a value indicating whether access to the System.\+Collections.\+I\+Collection is synchronized (thread safe). \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Attributes}
 \begin{DoxyCompactItemize}
@@ -75,7 +75,9 @@ virtual void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collect
 readonly Hashtable \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_af3a8d4c03474bbb80d8d461f4a8e33e8}{index\+Map}} = new Hashtable()
 \begin{DoxyCompactList}\small\item\em Mapp of G\+UI elements binding. I\+G\+U\+I\+Field -\/ key int -\/ index in the list. \end{DoxyCompactList}\item 
 I\+List \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a78ccfdc5208ab2306308d7356757f32f}{source}}
-\begin{DoxyCompactList}\small\item\em Bufer that contains source sollection. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Bufer that contains source sollection. \end{DoxyCompactList}\item 
+I\+List \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a128726ac8376cf78e3c33ba1c9f00b2d}{binded\+Source}}
+\begin{DoxyCompactList}\small\item\em Source that is binded to the current \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Properties}
 \begin{DoxyCompactItemize}
 \item 
@@ -423,15 +425,25 @@ Requiesting recomputing of the elements width.
 
 
 \subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a128726ac8376cf78e3c33ba1c9f00b2d}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a128726ac8376cf78e3c33ba1c9f00b2d}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control}!binded\+Source@{binded\+Source}}
+\index{binded\+Source@{binded\+Source}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control}}
+\subsubsection{\texorpdfstring{binded\+Source}{bindedSource}}
+{\footnotesize\ttfamily I\+List Wpf\+Handler.\+U\+I.\+Controls.\+Collection\+Control.\+binded\+Source\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Source that is binded to the current \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}}. 
+
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_af4796b6959bcb870bde22f6d32379242}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_af4796b6959bcb870bde22f6d32379242}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control}!Count@{Count}}
 \index{Count@{Count}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control}}
 \subsubsection{\texorpdfstring{Count}{Count}}
-{\footnotesize\ttfamily int Wpf\+Handler.\+U\+I.\+Controls.\+Collection\+Control.\+Count =$>$ source.\+Count}
+{\footnotesize\ttfamily int Wpf\+Handler.\+U\+I.\+Controls.\+Collection\+Control.\+Count =$>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a78ccfdc5208ab2306308d7356757f32f}{source}} != null ? source.\+Count \+: -\/1}
 
 
 
-Gets the number of elements contained in the System.\+Collections.\+I\+Collection. 
+Gets the number of elements contained in the System.\+Collections.\+I\+Collection. Returns -\/1 in case if source not binded. 
 
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_aea4afe7ae229937f9c99809d720d8875}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_aea4afe7ae229937f9c99809d720d8875}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control}!Drag\+Allowed\+Property@{Drag\+Allowed\+Property}}
@@ -463,7 +475,7 @@ Mapp of G\+UI elements binding. I\+G\+U\+I\+Field -\/ key int -\/ index in the l
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control}!Is\+Fixed\+Size@{Is\+Fixed\+Size}}
 \index{Is\+Fixed\+Size@{Is\+Fixed\+Size}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control}}
 \subsubsection{\texorpdfstring{Is\+Fixed\+Size}{IsFixedSize}}
-{\footnotesize\ttfamily bool Wpf\+Handler.\+U\+I.\+Controls.\+Collection\+Control.\+Is\+Fixed\+Size =$>$ source.\+Is\+Fixed\+Size}
+{\footnotesize\ttfamily bool Wpf\+Handler.\+U\+I.\+Controls.\+Collection\+Control.\+Is\+Fixed\+Size =$>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a78ccfdc5208ab2306308d7356757f32f}{source}} != null ? source.\+Is\+Fixed\+Size \+: true}
 
 
 
@@ -473,7 +485,7 @@ Gets a value indicating whether the System.\+Collections.\+I\+List has a fixed s
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control}!Is\+Read\+Only@{Is\+Read\+Only}}
 \index{Is\+Read\+Only@{Is\+Read\+Only}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control}}
 \subsubsection{\texorpdfstring{Is\+Read\+Only}{IsReadOnly}}
-{\footnotesize\ttfamily bool Wpf\+Handler.\+U\+I.\+Controls.\+Collection\+Control.\+Is\+Read\+Only =$>$ source.\+Is\+Read\+Only}
+{\footnotesize\ttfamily bool Wpf\+Handler.\+U\+I.\+Controls.\+Collection\+Control.\+Is\+Read\+Only =$>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a78ccfdc5208ab2306308d7356757f32f}{source}} != null ? source.\+Is\+Read\+Only \+: true}
 
 
 
@@ -483,7 +495,7 @@ Gets a value indicating whether the System.\+Collections.\+I\+List is read-\/onl
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control}!Is\+Synchronized@{Is\+Synchronized}}
 \index{Is\+Synchronized@{Is\+Synchronized}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control}}
 \subsubsection{\texorpdfstring{Is\+Synchronized}{IsSynchronized}}
-{\footnotesize\ttfamily bool Wpf\+Handler.\+U\+I.\+Controls.\+Collection\+Control.\+Is\+Synchronized =$>$ throw new Not\+Implemented\+Exception()}
+{\footnotesize\ttfamily bool Wpf\+Handler.\+U\+I.\+Controls.\+Collection\+Control.\+Is\+Synchronized =$>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a78ccfdc5208ab2306308d7356757f32f}{source}} != null ? source.\+Is\+Fixed\+Size \+: true}
 
 
 
@@ -503,7 +515,7 @@ Bufer that contains source sollection.
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control}!Sync\+Root@{Sync\+Root}}
 \index{Sync\+Root@{Sync\+Root}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Collection\+Control}}
 \subsubsection{\texorpdfstring{Sync\+Root}{SyncRoot}}
-{\footnotesize\ttfamily object Wpf\+Handler.\+U\+I.\+Controls.\+Collection\+Control.\+Sync\+Root =$>$ throw new Not\+Implemented\+Exception()}
+{\footnotesize\ttfamily object Wpf\+Handler.\+U\+I.\+Controls.\+Collection\+Control.\+Sync\+Root =$>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_a78ccfdc5208ab2306308d7356757f32f}{source}}?.Sync\+Root}
 
 
 

@@ -90,11 +90,11 @@
         </inbodydescription>
         <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/LogonPanel.g.cs" line="86" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/LogonPanel.g.cs" bodystart="86" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1af3d23fd0eb5d334566ab21f3dbefb4ed" prot="package" static="no" mutable="no">
+      <memberdef kind="variable" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1ab327c6d3c4167897e954a26178415a60" prot="package" static="no" mutable="no">
         <type><ref refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button" kindref="compound">WpfHandler.UI.Controls.FlatButton</ref></type>
-        <definition>WpfHandler UI Controls FlatButton WpfHandler.UI.Controls.Logon.LogonPanel::singupButton</definition>
+        <definition>WpfHandler UI Controls FlatButton WpfHandler.UI.Controls.Logon.LogonPanel::signupButton</definition>
         <argsstring></argsstring>
-        <name>singupButton</name>
+        <name>signupButton</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -116,6 +116,19 @@
         </inbodydescription>
         <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/LogonPanel.g.cs" line="102" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon/LogonPanel.g.cs" bodystart="102" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1af3d23fd0eb5d334566ab21f3dbefb4ed" prot="package" static="no" mutable="no">
+        <type><ref refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button" kindref="compound">WpfHandler.UI.Controls.FlatButton</ref></type>
+        <definition>WpfHandler UI Controls FlatButton WpfHandler.UI.Controls.Logon.LogonPanel::singupButton</definition>
+        <argsstring></argsstring>
+        <name>singupButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon/LogonPanel.g.cs" line="94" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon/LogonPanel.g.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a09f1ffb4c84fcecf5808e8260d8b1b7b" prot="private" static="no" mutable="no">
@@ -133,41 +146,41 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-attrib">
-      <memberdef kind="variable" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1aefd4d1dc75205cc527fd8a8eb57dfc8b" prot="public" static="yes" mutable="no">
-        <type>readonly DependencyProperty</type>
-        <definition>readonly DependencyProperty WpfHandler.UI.Controls.Logon.LogonPanel.LoginCallbackProperty</definition>
+      <memberdef kind="variable" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1ab9613de0d505e18492f27e6a724d5f15" prot="public" static="yes" mutable="no">
+        <type>readonly RoutedEvent</type>
+        <definition>readonly RoutedEvent WpfHandler.UI.Controls.Logon.LogonPanel.LoginClickEvent</definition>
         <argsstring></argsstring>
-        <name>LoginCallbackProperty</name>
-        <initializer>= DependencyProperty.Register(
-          &quot;LoginCallback&quot;, typeof(Action&lt;object&gt;), typeof(<ref refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel" kindref="compound">LogonPanel</ref>))</initializer>
+        <name>LoginClickEvent</name>
+        <initializer>= EventManager.RegisterRoutedEvent(&quot;LoginCallback&quot;,
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(<ref refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel" kindref="compound">LogonPanel</ref>))</initializer>
         <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="37" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="37" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a7d3c07ac79cca6ea4ca79ea21aedd42e" prot="public" static="yes" mutable="no">
-        <type>readonly DependencyProperty</type>
-        <definition>readonly DependencyProperty WpfHandler.UI.Controls.Logon.LogonPanel.SingUpCallbackProperty</definition>
-        <argsstring></argsstring>
-        <name>SingUpCallbackProperty</name>
-        <initializer>= DependencyProperty.Register(
-          &quot;SingUpCallback&quot;, typeof(Action&lt;object&gt;), typeof(<ref refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel" kindref="compound">LogonPanel</ref>))</initializer>
-        <briefdescription>
-        </briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="40" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="40" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a4cf4484559bf3452fc12775eaa6320f8" prot="public" static="yes" mutable="no">
+        <type>readonly RoutedEvent</type>
+        <definition>readonly RoutedEvent WpfHandler.UI.Controls.Logon.LogonPanel.SingUpClickEvent</definition>
+        <argsstring></argsstring>
+        <name>SingUpClickEvent</name>
+        <initializer>= EventManager.RegisterRoutedEvent(&quot;SingUpCallback&quot;,
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(<ref refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel" kindref="compound">LogonPanel</ref>))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="46" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
       </sectiondef>
       <sectiondef kind="property">
-      <memberdef kind="property" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a6fc870650cd4c39be458e1da94bc8d70" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>Action&lt; object &gt;</type>
-        <definition>Action&lt;object&gt; WpfHandler.UI.Controls.Logon.LogonPanel.SingUpCallback</definition>
+      <memberdef kind="property" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a0f9d98ee4593b4159b475d04304f9c8c" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>RoutedEventHandler</type>
+        <definition>RoutedEventHandler WpfHandler.UI.Controls.Logon.LogonPanel.SingUpCallback</definition>
         <argsstring></argsstring>
         <name>SingUpCallback</name>
         <briefdescription>
@@ -176,11 +189,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="46" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="47" bodyend="50"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="52" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="53" bodyend="56"/>
       </memberdef>
-      <memberdef kind="property" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a5bb96bdb64897d8822d07c0d3e6fa51e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>Action&lt; object &gt;</type>
-        <definition>Action&lt;object&gt; WpfHandler.UI.Controls.Logon.LogonPanel.LoginCallback</definition>
+      <memberdef kind="property" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1ad7db982bbf88ecd0a372135e6e3141ff" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>RoutedEventHandler</type>
+        <definition>RoutedEventHandler WpfHandler.UI.Controls.Logon.LogonPanel.LoginCallback</definition>
         <argsstring></argsstring>
         <name>LoginCallback</name>
         <briefdescription>
@@ -189,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="55" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="56" bodyend="59"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="61" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="62" bodyend="65"/>
       </memberdef>
       <memberdef kind="property" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1abaaf66c7a6670520ca218fe83f571208" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>Thickness</type>
@@ -202,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="64" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="65" bodyend="70"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="71" bodyend="76"/>
       </memberdef>
       <memberdef kind="property" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1abf1db78189d11dc269252a5888f7a613" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -215,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="75" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="76" bodyend="85"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="81" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="82" bodyend="91"/>
       </memberdef>
       <memberdef kind="property" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a2b5b8a76a045af6351be2ddaab3ebaf0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -228,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="90" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="91" bodyend="100"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="96" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="97" bodyend="106"/>
       </memberdef>
       <memberdef kind="property" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1afa45374205dd8e659e084df9699e49b6" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -241,7 +254,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="105" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="106" bodyend="120"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="111" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="112" bodyend="126"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -303,12 +316,12 @@
         <argsstring>()</argsstring>
         <name>LogonPanel</name>
         <briefdescription>
-        </briefdescription>
+<para>Default constructor. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="123" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="123" bodyend="133"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="132" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="132" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a1307c96701838404199db630a3cc2ae6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -321,7 +334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="148" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="148" bodyend="153"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="153" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="153" bodyend="158"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="package-func">
@@ -501,12 +514,12 @@
         <argsstring>()</argsstring>
         <name>~LogonPanel</name>
         <briefdescription>
-        </briefdescription>
+<para>Releasing an unmanaged memory. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="135" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="135" bodyend="142"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="143" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="143" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a4f72805700420f21360f6d5ffa5c57e0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -542,7 +555,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="161" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="161" bodyend="165"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="166" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="166" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a15ae3f2fcfd57772403ee512f9b9b649" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -578,57 +591,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="172" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="172" bodyend="176"/>
-      </memberdef>
-      <memberdef kind="function" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1aa7044f107485654e21dd025a18448160" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void WpfHandler.UI.Controls.Logon.LogonPanel.LoginCallbackHandler</definition>
-        <argsstring>(object sender)</argsstring>
-        <name>LoginCallbackHandler</name>
-        <param>
-          <type>object</type>
-          <declname>sender</declname>
-        </param>
-        <briefdescription>
-<para>Callback to login button. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>sender</parametername>
-</parameternamelist>
-<parameterdescription>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="182" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="182" bodyend="185"/>
-      </memberdef>
-      <memberdef kind="function" id="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a58f592ad0e43ccafaa9f872a8bcb4770" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void WpfHandler.UI.Controls.Logon.LogonPanel.SingUpCallbackHandler</definition>
-        <argsstring>(object sender)</argsstring>
-        <name>SingUpCallbackHandler</name>
-        <param>
-          <type>object</type>
-          <declname>sender</declname>
-        </param>
-        <briefdescription>
-<para>Callback to sing up button. </para>        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>sender</parametername>
-</parameternamelist>
-<parameterdescription>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="191" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="191" bodyend="194"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" line="177" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/LogonPanel.xaml.cs" bodystart="177" bodyend="181"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -636,86 +599,87 @@
     <detaileddescription>
 <para>Interaction logic for LogonPanel.xaml </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="450">
+      <node id="485">
         <label>WpfHandler.UI.Controls.Logon.LogonPanel</label>
         <link refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel"/>
-        <childnode refid="451" relation="public-inheritance">
+        <childnode refid="486" relation="public-inheritance">
         </childnode>
-        <childnode refid="452" relation="public-inheritance">
+        <childnode refid="487" relation="public-inheritance">
         </childnode>
-        <childnode refid="453" relation="public-inheritance">
+        <childnode refid="488" relation="public-inheritance">
         </childnode>
-        <childnode refid="452" relation="public-inheritance">
+        <childnode refid="487" relation="public-inheritance">
         </childnode>
-        <childnode refid="453" relation="public-inheritance">
+        <childnode refid="488" relation="public-inheritance">
         </childnode>
-        <childnode refid="452" relation="public-inheritance">
+        <childnode refid="487" relation="public-inheritance">
         </childnode>
-        <childnode refid="453" relation="public-inheritance">
+        <childnode refid="488" relation="public-inheritance">
         </childnode>
-        <childnode refid="452" relation="public-inheritance">
+        <childnode refid="487" relation="public-inheritance">
         </childnode>
-        <childnode refid="453" relation="public-inheritance">
+        <childnode refid="488" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="452">
+      <node id="487">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="453">
+      <node id="488">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="451">
+      <node id="486">
         <label>UserControl</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="454">
+      <node id="489">
         <label>WpfHandler.UI.Controls.Logon.LogonPanel</label>
         <link refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel"/>
-        <childnode refid="455" relation="public-inheritance">
+        <childnode refid="490" relation="public-inheritance">
         </childnode>
-        <childnode refid="456" relation="public-inheritance">
+        <childnode refid="491" relation="public-inheritance">
         </childnode>
-        <childnode refid="457" relation="public-inheritance">
+        <childnode refid="492" relation="public-inheritance">
         </childnode>
-        <childnode refid="456" relation="public-inheritance">
+        <childnode refid="491" relation="public-inheritance">
         </childnode>
-        <childnode refid="457" relation="public-inheritance">
+        <childnode refid="492" relation="public-inheritance">
         </childnode>
-        <childnode refid="456" relation="public-inheritance">
+        <childnode refid="491" relation="public-inheritance">
         </childnode>
-        <childnode refid="457" relation="public-inheritance">
+        <childnode refid="492" relation="public-inheritance">
         </childnode>
-        <childnode refid="456" relation="public-inheritance">
+        <childnode refid="491" relation="public-inheritance">
         </childnode>
-        <childnode refid="457" relation="public-inheritance">
+        <childnode refid="492" relation="public-inheritance">
         </childnode>
-        <childnode refid="458" relation="usage">
-          <edgelabel>restoreButton</edgelabel>
-          <edgelabel>loginButton</edgelabel>
-          <edgelabel>loginField</edgelabel>
-          <edgelabel>passwordField</edgelabel>
-          <edgelabel>singupButton</edgelabel>
-        </childnode>
-        <childnode refid="459" relation="usage">
+        <childnode refid="493" relation="usage">
           <edgelabel>errorMessage</edgelabel>
           <edgelabel>main</edgelabel>
           <edgelabel>logonPanel_FormBlock</edgelabel>
         </childnode>
+        <childnode refid="494" relation="usage">
+          <edgelabel>restoreButton</edgelabel>
+          <edgelabel>loginButton</edgelabel>
+          <edgelabel>loginField</edgelabel>
+          <edgelabel>signupButton</edgelabel>
+          <edgelabel>passwordField</edgelabel>
+          <edgelabel>singupButton</edgelabel>
+        </childnode>
       </node>
-      <node id="458">
-        <label>Controls</label>
+      <node id="494">
+        <label>UI</label>
       </node>
-      <node id="459">
+      <node id="493">
         <label>System</label>
       </node>
-      <node id="456">
+      <node id="491">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="457">
+      <node id="492">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="455">
+      <node id="490">
         <label>UserControl</label>
       </node>
     </collaborationgraph>
@@ -731,17 +695,16 @@
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1aadd1d6dc671028b7a54d884bcb40e2c6" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>Connect</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1aadd1d6dc671028b7a54d884bcb40e2c6" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>Connect</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1aadd1d6dc671028b7a54d884bcb40e2c6" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>Connect</name></member>
-      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a6e984282d8fb9d7c79392b1c25d95985" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>errorMessage</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1afa45374205dd8e659e084df9699e49b6" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>ErrorMessage</name></member>
+      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a6e984282d8fb9d7c79392b1c25d95985" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>errorMessage</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a96ecdfdcd36c8ff1f9dcf3ab85e4b461" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>InitializeComponent</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a96ecdfdcd36c8ff1f9dcf3ab85e4b461" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>InitializeComponent</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a96ecdfdcd36c8ff1f9dcf3ab85e4b461" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>InitializeComponent</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a96ecdfdcd36c8ff1f9dcf3ab85e4b461" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>InitializeComponent</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1abf1db78189d11dc269252a5888f7a613" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>Login</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a03a354da237970cce9d860f8f063b4ac" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>loginButton</name></member>
-      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a5bb96bdb64897d8822d07c0d3e6fa51e" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>LoginCallback</name></member>
-      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1aa7044f107485654e21dd025a18448160" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>LoginCallbackHandler</name></member>
-      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1aefd4d1dc75205cc527fd8a8eb57dfc8b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>LoginCallbackProperty</name></member>
+      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1ad7db982bbf88ecd0a372135e6e3141ff" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>LoginCallback</name></member>
+      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1ab9613de0d505e18492f27e6a724d5f15" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>LoginClickEvent</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a1ef8527115e6a883ab2675fe8a92cb42" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>loginField</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1abaaf66c7a6670520ca218fe83f571208" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>LogonFormMargin</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1ad9f500958796fd5161cd258d68b25c21" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>LogonPanel</name></member>
@@ -752,10 +715,10 @@
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a2b5b8a76a045af6351be2ddaab3ebaf0" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>Password</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1ac134049e5e6be32614afe0af41ea07f5" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>passwordField</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a5911bef87fc1c174057b446915cdf089" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>restoreButton</name></member>
+      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1ab327c6d3c4167897e954a26178415a60" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>signupButton</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1af3d23fd0eb5d334566ab21f3dbefb4ed" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>singupButton</name></member>
-      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a6fc870650cd4c39be458e1da94bc8d70" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>SingUpCallback</name></member>
-      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a58f592ad0e43ccafaa9f872a8bcb4770" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>SingUpCallbackHandler</name></member>
-      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a7d3c07ac79cca6ea4ca79ea21aedd42e" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>SingUpCallbackProperty</name></member>
+      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a0f9d98ee4593b4159b475d04304f9c8c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>SingUpCallback</name></member>
+      <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a4cf4484559bf3452fc12775eaa6320f8" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>SingUpClickEvent</name></member>
       <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a44c9cab77d3396169da4b97ec8edc9b5" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::LogonPanel</scope><name>~LogonPanel</name></member>
     </listofallmembers>
   </compounddef>

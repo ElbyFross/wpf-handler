@@ -3,6 +3,7 @@
   <compounddef id="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element" kind="interface" language="C#" prot="public">
     <compoundname>WpfHandler::UI::AutoLayout::IGUIElement</compoundname>
     <derivedcompoundref refid="d1/d32/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_header_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Controls.HeaderAttribute</derivedcompoundref>
+    <derivedcompoundref refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Controls.LabelAttribute</derivedcompoundref>
     <derivedcompoundref refid="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Controls.SpaceAttribute</derivedcompoundref>
     <derivedcompoundref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.IGUIField</derivedcompoundref>
     <derivedcompoundref refid="d7/d70/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.ILayerAttribute</derivedcompoundref>
@@ -16,6 +17,7 @@
         <reimplementedby refid="de/db7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_begin_vertical_group_attribute_1a52859bc4d83f107cbae35d20ae97ce83">OnLayout</reimplementedby>
         <reimplementedby refid="db/d6f/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_begin_horizontal_group_attribute_1a8bb61f969389bece86c87fbfa44d4c82">OnLayout</reimplementedby>
         <reimplementedby refid="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute_1abc4dedcaa52529fb4f0e227fb2386866">OnLayout</reimplementedby>
+        <reimplementedby refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a70b5b79babc0fd60171ba08231ce2a5c">OnLayout</reimplementedby>
         <reimplementedby refid="d1/d32/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_header_attribute_1a837805f9b975447e7cf5663119189c37">OnLayout</reimplementedby>
         <reimplementedby refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box_1a9885e81c438caeec3448c99796503a71">OnLayout</reimplementedby>
         <reimplementedby refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box_1a8a06600a127d2b9bc7a1a04767f383e8">OnLayout</reimplementedby>
@@ -59,106 +61,112 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="298">
+      <node id="323">
         <label>WpfHandler.UI.Controls.FlatPasswordBox</label>
         <link refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box"/>
-        <childnode refid="295" relation="public-inheritance">
+        <childnode refid="320" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="294">
+      <node id="319">
         <label>WpfHandler.UI.AutoLayout.Controls.SpaceAttribute</label>
         <link refid="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute"/>
-        <childnode refid="292" relation="public-inheritance">
+        <childnode refid="316" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="301">
+      <node id="326">
         <label>WpfHandler.UI.Controls.Header</label>
         <link refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header"/>
-        <childnode refid="295" relation="public-inheritance">
+        <childnode refid="320" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="300">
+      <node id="325">
         <label>WpfHandler.UI.Controls.FlatTogglesGroup</label>
         <link refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group"/>
-        <childnode refid="295" relation="public-inheritance">
+        <childnode refid="320" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="296">
+      <node id="321">
         <label>WpfHandler.UI.Controls.CollectionControl</label>
         <link refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control"/>
-        <childnode refid="295" relation="public-inheritance">
+        <childnode refid="320" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="295">
+      <node id="320">
         <label>WpfHandler.UI.AutoLayout.IGUIField</label>
         <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
-        <childnode refid="292" relation="public-inheritance">
+        <childnode refid="316" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="299">
+      <node id="324">
         <label>WpfHandler.UI.Controls.FlatTextBox</label>
         <link refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box"/>
-        <childnode refid="295" relation="public-inheritance">
+        <childnode refid="320" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="297">
+      <node id="322">
         <label>WpfHandler.UI.Controls.AutoCollection</label>
         <link refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection"/>
-        <childnode refid="296" relation="public-inheritance">
+        <childnode refid="321" relation="public-inheritance">
         </childnode>
-        <childnode refid="296" relation="public-inheritance">
+        <childnode refid="321" relation="public-inheritance">
         </childnode>
-        <childnode refid="296" relation="public-inheritance">
+        <childnode refid="321" relation="public-inheritance">
         </childnode>
-        <childnode refid="296" relation="public-inheritance">
+        <childnode refid="321" relation="public-inheritance">
         </childnode>
-        <childnode refid="296" relation="public-inheritance">
+        <childnode refid="321" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="304">
+      <node id="329">
         <label>WpfHandler.UI.AutoLayout.Configuration.BeginHorizontalGroupAttribute</label>
         <link refid="db/d6f/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_begin_horizontal_group_attribute"/>
-        <childnode refid="303" relation="public-inheritance">
+        <childnode refid="328" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="307">
+      <node id="332">
         <label>WpfHandler.UI.AutoLayout.Configuration.EndGroupAttribute</label>
         <link refid="db/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_end_group_attribute"/>
-        <childnode refid="306" relation="public-inheritance">
+        <childnode refid="331" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="306">
+      <node id="318">
+        <label>WpfHandler.UI.AutoLayout.Controls.LabelAttribute</label>
+        <link refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute"/>
+        <childnode refid="316" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="331">
         <label>WpfHandler.UI.AutoLayout.ILayerEndAttribute</label>
         <link refid="df/d01/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_end_attribute"/>
-        <childnode refid="302" relation="public-inheritance">
+        <childnode refid="327" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="302">
+      <node id="327">
         <label>WpfHandler.UI.AutoLayout.ILayerAttribute</label>
         <link refid="d7/d70/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_attribute"/>
-        <childnode refid="292" relation="public-inheritance">
+        <childnode refid="316" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="303">
+      <node id="328">
         <label>WpfHandler.UI.AutoLayout.ILayerBeginAttribute</label>
         <link refid="d5/d7b/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_begin_attribute"/>
-        <childnode refid="302" relation="public-inheritance">
+        <childnode refid="327" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="292">
+      <node id="316">
         <label>WpfHandler.UI.AutoLayout.IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="293">
+      <node id="317">
         <label>WpfHandler.UI.AutoLayout.Controls.HeaderAttribute</label>
         <link refid="d1/d32/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_header_attribute"/>
-        <childnode refid="292" relation="public-inheritance">
+        <childnode refid="316" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="305">
+      <node id="330">
         <label>WpfHandler.UI.AutoLayout.Configuration.BeginVerticalGroupAttribute</label>
         <link refid="de/db7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_begin_vertical_group_attribute"/>
-        <childnode refid="303" relation="public-inheritance">
+        <childnode refid="328" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

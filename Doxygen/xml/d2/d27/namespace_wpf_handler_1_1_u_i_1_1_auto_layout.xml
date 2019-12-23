@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="d2/d27/namespace_wpf_handler_1_1_u_i_1_1_auto_layout" kind="namespace" language="C#">
     <compoundname>WpfHandler::UI::AutoLayout</compoundname>
+    <innerclass refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor" prot="public">WpfHandler::UI::AutoLayout::FormDescriptor</innerclass>
     <innerclass refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element" prot="public">WpfHandler::UI::AutoLayout::IGUIElement</innerclass>
     <innerclass refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" prot="public">WpfHandler::UI::AutoLayout::IGUIField</innerclass>
     <innerclass refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option" prot="public">WpfHandler::UI::AutoLayout::IGUILayoutOption</innerclass>
@@ -13,6 +14,7 @@
     <innerclass refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor" prot="public">WpfHandler::UI::AutoLayout::UIDescriptor</innerclass>
     <innernamespace refid="da/d59/namespace_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration">WpfHandler::UI::AutoLayout::Configuration</innernamespace>
     <innernamespace refid="d4/d54/namespace_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls">WpfHandler::UI::AutoLayout::Controls</innernamespace>
+    <innernamespace refid="d6/d8f/namespace_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups">WpfHandler::UI::AutoLayout::Markups</innernamespace>
     <innernamespace refid="de/dcc/namespace_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options">WpfHandler::UI::AutoLayout::Options</innernamespace>
     <briefdescription>
     </briefdescription>

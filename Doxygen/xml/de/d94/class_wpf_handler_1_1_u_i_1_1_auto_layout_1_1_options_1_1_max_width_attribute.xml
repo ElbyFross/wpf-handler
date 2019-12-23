@@ -71,63 +71,63 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Define max width of the GUI element. </para>    </briefdescription>
+<para>Defines a max width of the GUI element. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="485">
+      <node id="520">
         <label>ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="484">
+      <node id="519">
         <label>Attribute</label>
       </node>
-      <node id="483">
+      <node id="518">
         <label>LayoutSizeAttribute</label>
         <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
-        <childnode refid="484" relation="public-inheritance">
+        <childnode refid="519" relation="public-inheritance">
         </childnode>
-        <childnode refid="485" relation="public-inheritance">
+        <childnode refid="520" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="482">
+      <node id="517">
         <label>WpfHandler.UI.AutoLayout.Options.MaxWidthAttribute</label>
         <link refid="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute"/>
-        <childnode refid="483" relation="public-inheritance">
+        <childnode refid="518" relation="public-inheritance">
         </childnode>
-        <childnode refid="486" relation="public-inheritance">
+        <childnode refid="521" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="486">
+      <node id="521">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="490">
+      <node id="525">
         <label>ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="489">
+      <node id="524">
         <label>Attribute</label>
       </node>
-      <node id="488">
+      <node id="523">
         <label>LayoutSizeAttribute</label>
         <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
-        <childnode refid="489" relation="public-inheritance">
+        <childnode refid="524" relation="public-inheritance">
         </childnode>
-        <childnode refid="490" relation="public-inheritance">
+        <childnode refid="525" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="487">
+      <node id="522">
         <label>WpfHandler.UI.AutoLayout.Options.MaxWidthAttribute</label>
         <link refid="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute"/>
-        <childnode refid="488" relation="public-inheritance">
+        <childnode refid="523" relation="public-inheritance">
         </childnode>
-        <childnode refid="491" relation="public-inheritance">
+        <childnode refid="526" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="491">
+      <node id="526">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>

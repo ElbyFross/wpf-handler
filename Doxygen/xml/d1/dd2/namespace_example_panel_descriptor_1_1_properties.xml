@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d1/dd2/namespace_example_panel_descriptor_1_1_properties" kind="namespace" language="C#">
+    <compoundname>ExamplePanelDescriptor::Properties</compoundname>
+    <innerclass refid="d1/d6c/class_example_panel_descriptor_1_1_properties_1_1_resources" prot="package">ExamplePanelDescriptor::Properties::Resources</innerclass>
+    <innerclass refid="df/dfb/class_example_panel_descriptor_1_1_properties_1_1_settings" prot="package">ExamplePanelDescriptor::Properties::Settings</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Auto layout/ExamplePanelDescriptor/Properties/Resources.Designer.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

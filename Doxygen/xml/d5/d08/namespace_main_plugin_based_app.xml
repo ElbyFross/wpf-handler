@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d5/d08/namespace_main_plugin_based_app" kind="namespace" language="C#">
+    <compoundname>MainPluginBasedApp</compoundname>
+    <innerclass refid="dc/d6b/class_main_plugin_based_app_1_1_app" prot="public">MainPluginBasedApp::App</innerclass>
+    <innerclass refid="d3/d87/class_main_plugin_based_app_1_1_main_window" prot="public">MainPluginBasedApp::MainWindow</innerclass>
+    <innernamespace refid="d2/d77/namespace_main_plugin_based_app_1_1_properties">MainPluginBasedApp::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/MainPluginBasedApp/App.xaml.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

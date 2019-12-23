@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">WPF Handler
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.1.0</span>
    </div>
    <div id="projectbrief">New controls | Auto building of an UI | Localization | Plugins managment</div>
   </td>
@@ -104,6 +104,7 @@ Inheritance diagram for WpfHandler.UI.AutoLayout.Controls.LabelAttribute:</div>
   <img src="../../d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute.png" usemap="#WpfHandler.UI.AutoLayout.Controls.LabelAttribute_map" alt=""/>
   <map id="WpfHandler.UI.AutoLayout.Controls.LabelAttribute_map" name="WpfHandler.UI.AutoLayout.Controls.LabelAttribute_map">
 <area href="../../d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute.html" title="Define members for attributes focused on managing GUIContent. " alt="WpfHandler.UI.GUIContentAttribute" shape="rect" coords="0,112,308,136"/>
+<area href="../../da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element.html" title="Implementing of that interface allow to modify current layout during calling. " alt="WpfHandler.UI.AutoLayout.IGUIElement" shape="rect" coords="318,112,626,136"/>
 <area href="../../db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute.html" title="Base attribute that binding UI element to the common auto localization system. " alt="WpfHandler.Dictionaries.LocalizableContentAttribute" shape="rect" coords="0,56,308,80"/>
 </map>
  </div></div>
@@ -122,9 +123,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abfc5ebdb910630168db5f10fdbb713b7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute.html#abfc5ebdb910630168db5f10fdbb713b7">LabelAttribute</a> (string defaultTitle, string defaultDescription, string titleLocalizationResourseKey, string decriptionLocalizationResourseKey)</td></tr>
 <tr class="memdesc:abfc5ebdb910630168db5f10fdbb713b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize all allowed fields.  <a href="#abfc5ebdb910630168db5f10fdbb713b7">More...</a><br /></td></tr>
 <tr class="separator:abfc5ebdb910630168db5f10fdbb713b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86bdaaa6d028cbdee8536138e63d0159"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute.html#a86bdaaa6d028cbdee8536138e63d0159">OnGUI</a> (ref <a class="el" href="../../db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer.html">LayoutLayer</a> layer, params object[] args)</td></tr>
-<tr class="memdesc:a86bdaaa6d028cbdee8536138e63d0159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn label element into the <a class="el" href="../../df/dea/namespace_wpf_handler_1_1_u_i.html">UI</a>.  <a href="#a86bdaaa6d028cbdee8536138e63d0159">More...</a><br /></td></tr>
-<tr class="separator:a86bdaaa6d028cbdee8536138e63d0159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70b5b79babc0fd60171ba08231ce2a5c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute.html#a70b5b79babc0fd60171ba08231ce2a5c">OnLayout</a> (ref <a class="el" href="../../db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer.html">LayoutLayer</a> layer, params object[] args)</td></tr>
+<tr class="memdesc:a70b5b79babc0fd60171ba08231ce2a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn label element into the <a class="el" href="../../df/dea/namespace_wpf_handler_1_1_u_i.html">UI</a>.  <a href="#a70b5b79babc0fd60171ba08231ce2a5c">More...</a><br /></td></tr>
+<tr class="separator:a70b5b79babc0fd60171ba08231ce2a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ed5f61dc946ffd5ce385cc4ef60362d"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute.html#a3ed5f61dc946ffd5ce385cc4ef60362d">LanguagesDictionariesUpdated</a> ()</td></tr>
 <tr class="memdesc:a3ed5f61dc946ffd5ce385cc4ef60362d"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: Callback that occurs when content dictionaries are reloaded. Updating label's content.  <a href="#a3ed5f61dc946ffd5ce385cc4ef60362d">More...</a><br /></td></tr>
 <tr class="separator:a3ed5f61dc946ffd5ce385cc4ef60362d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -347,8 +348,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a86bdaaa6d028cbdee8536138e63d0159"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86bdaaa6d028cbdee8536138e63d0159">&#9670;&nbsp;</a></span>OnGUI()</h2>
+<a id="a70b5b79babc0fd60171ba08231ce2a5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70b5b79babc0fd60171ba08231ce2a5c">&#9670;&nbsp;</a></span>OnLayout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -357,7 +358,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void WpfHandler.UI.AutoLayout.Controls.LabelAttribute.OnGUI </td>
+          <td class="memname">virtual void WpfHandler.UI.AutoLayout.Controls.LabelAttribute.OnLayout </td>
           <td>(</td>
           <td class="paramtype">ref <a class="el" href="../../db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer.html">LayoutLayer</a>&#160;</td>
           <td class="paramname"><em>layer</em>, </td>
@@ -389,6 +390,8 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Implements <a class="el" href="../../da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element.html#a0ff16956f8e8187d51e1b36b6b9f894e">WpfHandler.UI.AutoLayout.IGUIElement</a>.</p>
 
 </div>
 </div>

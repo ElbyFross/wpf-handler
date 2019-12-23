@@ -168,36 +168,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="96">
+      <node id="112">
         <label>Attribute</label>
       </node>
-      <node id="97">
+      <node id="113">
         <label>WpfHandler.UI.AutoLayout.Options.BackgroundAttribute</label>
         <link refid="d7/dde/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_background_attribute"/>
-        <childnode refid="95" relation="public-inheritance">
+        <childnode refid="111" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="95">
+      <node id="111">
         <label>WpfHandler.UI.ColorAttribute</label>
         <link refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute"/>
-        <childnode refid="96" relation="public-inheritance">
+        <childnode refid="112" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="98">
+      <node id="114">
         <label>WpfHandler.UI.AutoLayout.Options.ForegroundAttribute</label>
         <link refid="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute"/>
-        <childnode refid="95" relation="public-inheritance">
+        <childnode refid="111" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="100">
+      <node id="116">
         <label>Attribute</label>
       </node>
-      <node id="99">
+      <node id="115">
         <label>WpfHandler.UI.ColorAttribute</label>
         <link refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute"/>
-        <childnode refid="100" relation="public-inheritance">
+        <childnode refid="116" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

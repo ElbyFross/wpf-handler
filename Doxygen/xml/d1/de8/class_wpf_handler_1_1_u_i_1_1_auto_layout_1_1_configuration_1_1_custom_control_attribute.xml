@@ -61,28 +61,28 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Allow to override of default control for relative field type to custom one. </para>    </briefdescription>
+<para>Overrides a default control for a field type for the parent member. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="112">
+      <node id="128">
         <label>Attribute</label>
       </node>
-      <node id="111">
+      <node id="127">
         <label>WpfHandler.UI.AutoLayout.Configuration.CustomControlAttribute</label>
         <link refid="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute"/>
-        <childnode refid="112" relation="public-inheritance">
+        <childnode refid="128" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="114">
+      <node id="130">
         <label>Attribute</label>
       </node>
-      <node id="113">
+      <node id="129">
         <label>WpfHandler.UI.AutoLayout.Configuration.CustomControlAttribute</label>
         <link refid="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute"/>
-        <childnode refid="114" relation="public-inheritance">
+        <childnode refid="130" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_da62b12549cde6959596a03ff1f9110f" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample</compoundname>
+    <innerdir refid="dir_7f1e3ac7b3e825417444010482b53645">D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/obj</innerdir>
+    <innerdir refid="dir_c6a4789d06cdb057b76842c9a90dc5b0">D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/Properties</innerdir>
+    <innerfile refid="d7/dcc/_controls_01using_2_switch_panel_example_2_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="d6/d21/_controls_01using_2_switch_panel_example_2_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <innerfile refid="d0/d12/_panel1_8xaml_8cs">Panel1.xaml.cs</innerfile>
+    <innerfile refid="df/dea/_panel2_8xaml_8cs">Panel2.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/"/>
+  </compounddef>
+</doxygen>

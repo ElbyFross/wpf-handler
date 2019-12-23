@@ -291,97 +291,97 @@
     <detaileddescription>
 <para>Allow to connect auto generated GUI to the XAML descriptor. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="29">
+      <node id="36">
         <label>WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw</label>
         <link refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw"/>
-        <childnode refid="30" relation="public-inheritance">
+        <childnode refid="37" relation="public-inheritance">
         </childnode>
-        <childnode refid="31" relation="public-inheritance">
+        <childnode refid="38" relation="public-inheritance">
         </childnode>
-        <childnode refid="32" relation="public-inheritance">
+        <childnode refid="39" relation="public-inheritance">
         </childnode>
-        <childnode refid="31" relation="public-inheritance">
+        <childnode refid="38" relation="public-inheritance">
         </childnode>
-        <childnode refid="32" relation="public-inheritance">
+        <childnode refid="39" relation="public-inheritance">
         </childnode>
-        <childnode refid="31" relation="public-inheritance">
+        <childnode refid="38" relation="public-inheritance">
         </childnode>
-        <childnode refid="32" relation="public-inheritance">
+        <childnode refid="39" relation="public-inheritance">
         </childnode>
-        <childnode refid="31" relation="public-inheritance">
+        <childnode refid="38" relation="public-inheritance">
         </childnode>
-        <childnode refid="32" relation="public-inheritance">
+        <childnode refid="39" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="31">
+      <node id="38">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="32">
+      <node id="39">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="30">
+      <node id="37">
         <label>UserControl</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="38">
+      <node id="44">
         <label>WpfHandler.UI.AutoLayout.UIDescriptor</label>
         <link refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor"/>
-        <childnode refid="39" relation="usage">
+        <childnode refid="45" relation="usage">
           <edgelabel>activeLayer</edgelabel>
         </childnode>
       </node>
-      <node id="37">
-        <label>AutoLayout</label>
+      <node id="47">
+        <label>UI</label>
       </node>
-      <node id="39">
+      <node id="45">
         <label>WpfHandler.UI.AutoLayout.LayoutLayer</label>
         <link refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer"/>
-        <childnode refid="39" relation="usage">
+        <childnode refid="45" relation="usage">
           <edgelabel>_Parent</edgelabel>
         </childnode>
       </node>
-      <node id="40">
+      <node id="46">
         <label>System</label>
       </node>
-      <node id="33">
+      <node id="40">
         <label>WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw</label>
         <link refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw"/>
-        <childnode refid="34" relation="public-inheritance">
+        <childnode refid="41" relation="public-inheritance">
         </childnode>
-        <childnode refid="35" relation="public-inheritance">
+        <childnode refid="42" relation="public-inheritance">
         </childnode>
-        <childnode refid="36" relation="public-inheritance">
+        <childnode refid="43" relation="public-inheritance">
         </childnode>
-        <childnode refid="35" relation="public-inheritance">
+        <childnode refid="42" relation="public-inheritance">
         </childnode>
-        <childnode refid="36" relation="public-inheritance">
+        <childnode refid="43" relation="public-inheritance">
         </childnode>
-        <childnode refid="35" relation="public-inheritance">
+        <childnode refid="42" relation="public-inheritance">
         </childnode>
-        <childnode refid="36" relation="public-inheritance">
+        <childnode refid="43" relation="public-inheritance">
         </childnode>
-        <childnode refid="35" relation="public-inheritance">
+        <childnode refid="42" relation="public-inheritance">
         </childnode>
-        <childnode refid="36" relation="public-inheritance">
+        <childnode refid="43" relation="public-inheritance">
         </childnode>
-        <childnode refid="37" relation="usage">
-          <edgelabel>main</edgelabel>
-        </childnode>
-        <childnode refid="38" relation="usage">
+        <childnode refid="44" relation="usage">
           <edgelabel>_Descriptor</edgelabel>
         </childnode>
-        <childnode refid="40" relation="usage">
+        <childnode refid="46" relation="usage">
           <edgelabel>root</edgelabel>
         </childnode>
+        <childnode refid="47" relation="usage">
+          <edgelabel>main</edgelabel>
+        </childnode>
       </node>
-      <node id="35">
+      <node id="42">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="36">
+      <node id="43">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="34">
+      <node id="41">
         <label>UserControl</label>
       </node>
     </collaborationgraph>

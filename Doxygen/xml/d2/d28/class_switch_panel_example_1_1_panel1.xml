@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d2/d28/class_switch_panel_example_1_1_panel1" kind="class" language="C#" prot="public">
+    <compoundname>SwitchPanelExample::Panel1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/d28/class_switch_panel_example_1_1_panel1_1ad0615b27d89f6359db9155f70e367003" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SwitchPanelExample.Panel1::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/obj/Debug/Panel1.g.cs" line="43" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/obj/Debug/Panel1.g.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d28/class_switch_panel_example_1_1_panel1_1aaa732239a094df0172b10acf803dba09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwitchPanelExample.Panel1.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/obj/Debug/Panel1.g.cs" line="50" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/obj/Debug/Panel1.g.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_switch_panel_example_1_1_panel1_1aaa732239a094df0172b10acf803dba09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SwitchPanelExample.Panel1.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/obj/Debug/Panel1.g.i.cs" line="50" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/obj/Debug/Panel1.g.i.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_switch_panel_example_1_1_panel1_1a75d9d957b4e4b937e0cea049c85f0ad8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SwitchPanelExample.Panel1.Panel1</definition>
+        <argsstring>()</argsstring>
+        <name>Panel1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/Panel1.xaml.cs" line="23" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/Panel1.xaml.cs" bodystart="23" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d2/d28/class_switch_panel_example_1_1_panel1_1a8caf08cf7f05ce630537a7cd80271983" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. SwitchPanelExample.Panel1.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/obj/Debug/Panel1.g.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/obj/Debug/Panel1.g.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d28/class_switch_panel_example_1_1_panel1_1a8caf08cf7f05ce630537a7cd80271983" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. SwitchPanelExample.Panel1.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/obj/Debug/Panel1.g.i.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/obj/Debug/Panel1.g.i.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="d2/d28/class_switch_panel_example_1_1_panel1" kindref="compound">Panel1</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para>Interaction logic for Panel1.xaml </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="749">
+        <label>SwitchPanelExample.Panel1</label>
+        <link refid="d2/d28/class_switch_panel_example_1_1_panel1"/>
+        <childnode refid="750" relation="public-inheritance">
+        </childnode>
+        <childnode refid="751" relation="public-inheritance">
+        </childnode>
+        <childnode refid="752" relation="public-inheritance">
+        </childnode>
+        <childnode refid="751" relation="public-inheritance">
+        </childnode>
+        <childnode refid="752" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="751">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="752">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="750">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="753">
+        <label>SwitchPanelExample.Panel1</label>
+        <link refid="d2/d28/class_switch_panel_example_1_1_panel1"/>
+        <childnode refid="754" relation="public-inheritance">
+        </childnode>
+        <childnode refid="755" relation="public-inheritance">
+        </childnode>
+        <childnode refid="756" relation="public-inheritance">
+        </childnode>
+        <childnode refid="755" relation="public-inheritance">
+        </childnode>
+        <childnode refid="756" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="755">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="756">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="754">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/obj/Debug/Panel1.g.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/obj/Debug/Panel1.g.cs" bodystart="41" bodyend="73"/>
+    <listofallmembers>
+      <member refid="d2/d28/class_switch_panel_example_1_1_panel1_1ad0615b27d89f6359db9155f70e367003" prot="private" virt="non-virtual"><scope>SwitchPanelExample::Panel1</scope><name>_contentLoaded</name></member>
+      <member refid="d2/d28/class_switch_panel_example_1_1_panel1_1a8caf08cf7f05ce630537a7cd80271983" prot="private" virt="non-virtual"><scope>SwitchPanelExample::Panel1</scope><name>Connect</name></member>
+      <member refid="d2/d28/class_switch_panel_example_1_1_panel1_1a8caf08cf7f05ce630537a7cd80271983" prot="private" virt="non-virtual"><scope>SwitchPanelExample::Panel1</scope><name>Connect</name></member>
+      <member refid="d2/d28/class_switch_panel_example_1_1_panel1_1aaa732239a094df0172b10acf803dba09" prot="public" virt="non-virtual"><scope>SwitchPanelExample::Panel1</scope><name>InitializeComponent</name></member>
+      <member refid="d2/d28/class_switch_panel_example_1_1_panel1_1aaa732239a094df0172b10acf803dba09" prot="public" virt="non-virtual"><scope>SwitchPanelExample::Panel1</scope><name>InitializeComponent</name></member>
+      <member refid="d2/d28/class_switch_panel_example_1_1_panel1_1a75d9d957b4e4b937e0cea049c85f0ad8" prot="public" virt="non-virtual"><scope>SwitchPanelExample::Panel1</scope><name>Panel1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

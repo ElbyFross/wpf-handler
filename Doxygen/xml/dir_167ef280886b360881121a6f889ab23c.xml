@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_167ef280886b360881121a6f889ab23c" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj</compoundname>
+    <innerdir refid="dir_3b8194d8ed9bff0d46818c6c416803a3">D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/"/>
+  </compounddef>
+</doxygen>

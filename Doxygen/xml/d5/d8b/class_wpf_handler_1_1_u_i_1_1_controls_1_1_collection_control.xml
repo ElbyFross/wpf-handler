@@ -66,7 +66,7 @@
 <para>Object must has implemented IList interface. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="85" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="86" bodyend="100"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="85" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="86" bodyend="104"/>
       </memberdef>
       <memberdef kind="property" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ac5f779f05470058d2506b4f37cade718" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>MemberInfo</type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="105" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="105" bodyend="105"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="109" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="109" bodyend="109"/>
       </memberdef>
       <memberdef kind="property" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ade5772e31978f3f8764f50d7483d27f4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>ObservableCollection&lt; FrameworkElement &gt;</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="110" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="110" bodyend="110"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="114" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="114" bodyend="114"/>
       </memberdef>
       <memberdef kind="property" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a47291558ce667430c006d9e294f714bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>ObservableCollection&lt; <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> &gt;</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="115" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="115" bodyend="115"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="119" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="119" bodyend="119"/>
       </memberdef>
       <memberdef kind="property" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ade95cee1fcd80188e8b5e5a15b33d43f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>object</type>
@@ -144,7 +144,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="154" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="155" bodyend="158"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="159" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="160" bodyend="163"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -153,70 +153,70 @@
         <definition>bool WpfHandler.UI.Controls.CollectionControl.IsReadOnly</definition>
         <argsstring></argsstring>
         <name>IsReadOnly</name>
-        <initializer>=&gt; source.IsReadOnly</initializer>
+        <initializer>=&gt; <ref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" kindref="member">source</ref> != null ? source.IsReadOnly : true</initializer>
         <briefdescription>
 <para>Gets a value indicating whether the System.Collections.IList is read-only. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="120" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="120" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="124" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1aa95fcae30ed2356bfff8154bcceecc8a" prot="public" static="no" mutable="no">
         <type>bool</type>
         <definition>bool WpfHandler.UI.Controls.CollectionControl.IsFixedSize</definition>
         <argsstring></argsstring>
         <name>IsFixedSize</name>
-        <initializer>=&gt; source.IsFixedSize</initializer>
+        <initializer>=&gt; <ref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" kindref="member">source</ref> != null ? source.IsFixedSize : true</initializer>
         <briefdescription>
 <para>Gets a value indicating whether the System.Collections.IList has a fixed size. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="125" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="125" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="129" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1af4796b6959bcb870bde22f6d32379242" prot="public" static="no" mutable="no">
         <type>int</type>
         <definition>int WpfHandler.UI.Controls.CollectionControl.Count</definition>
         <argsstring></argsstring>
         <name>Count</name>
-        <initializer>=&gt; source.Count</initializer>
+        <initializer>=&gt; <ref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" kindref="member">source</ref> != null ? source.Count : -1</initializer>
         <briefdescription>
-<para>Gets the number of elements contained in the System.Collections.ICollection. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="130" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="130" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a4ab9c597654cf0ca762f2fa13e807fc7" prot="public" static="no" mutable="no">
-        <type>object</type>
-        <definition>object WpfHandler.UI.Controls.CollectionControl.SyncRoot</definition>
-        <argsstring></argsstring>
-        <name>SyncRoot</name>
-        <initializer>=&gt; throw new NotImplementedException()</initializer>
-        <briefdescription>
-<para>Gets an object that can be used to synchronize access to the System.Collections.ICollection. </para>        </briefdescription>
+<para>Gets the number of elements contained in the System.Collections.ICollection. Returns -1 in case if source not binded. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="135" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="135" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a4ab9c597654cf0ca762f2fa13e807fc7" prot="public" static="no" mutable="no">
+        <type>object</type>
+        <definition>object WpfHandler.UI.Controls.CollectionControl.SyncRoot</definition>
+        <argsstring></argsstring>
+        <name>SyncRoot</name>
+        <initializer>=&gt; <ref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" kindref="member">source</ref>?.SyncRoot</initializer>
+        <briefdescription>
+<para>Gets an object that can be used to synchronize access to the System.Collections.ICollection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="140" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a0a40907daa815eb6c01be8677eb09450" prot="public" static="no" mutable="no">
         <type>bool</type>
         <definition>bool WpfHandler.UI.Controls.CollectionControl.IsSynchronized</definition>
         <argsstring></argsstring>
         <name>IsSynchronized</name>
-        <initializer>=&gt; throw new NotImplementedException()</initializer>
+        <initializer>=&gt; <ref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" kindref="member">source</ref> != null ? source.IsFixedSize : true</initializer>
         <briefdescription>
 <para>Gets a value indicating whether access to the System.Collections.ICollection is synchronized (thread safe). </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="141" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="141" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="146" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="146" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="event">
@@ -231,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="165" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="165" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="170" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="170" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-attrib">
@@ -247,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="174" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="174" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="179" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="179" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" prot="protected" static="no" mutable="no">
         <type>IList</type>
@@ -260,7 +260,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="179" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="179" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="184" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a128726ac8376cf78e3c33ba1c9f00b2d" prot="protected" static="no" mutable="no">
+        <type>IList</type>
+        <definition>IList WpfHandler.UI.Controls.CollectionControl.bindedSource</definition>
+        <argsstring></argsstring>
+        <name>bindedSource</name>
+        <briefdescription>
+<para>Source that is binded to the current <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="189" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="189" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -275,7 +288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="186" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="186" bodyend="200"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="196" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="196" bodyend="210"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae17242c33bd29c2545a06bba9c93a1df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -309,7 +322,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="215" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="215" bodyend="225"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="225" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="225" bodyend="235"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae703be50b290be72a7a40acbfe65b04c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -335,7 +348,7 @@
 </para><para>In case if value is IGUIField then looking via registred <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> fileds.-or- Otherwise looking via the <ref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" kindref="member">source</ref> list. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="239" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="239" bodyend="246"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="249" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="249" bodyend="256"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a1f1a7fd996c4e15ec7fe3b2724e962d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -356,7 +369,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="254" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="254" bodyend="270"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="264" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="264" bodyend="280"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ad2021b989a7f5aae430e12727a918982" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>int</type>
@@ -382,7 +395,7 @@
 </para><para>In case if value is IGUIField then looking via registred <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> fileds.-or- Otherwise looking via the <ref refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" kindref="member">source</ref> list. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="281" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="281" bodyend="287"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="291" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="291" bodyend="297"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae89cb3b260d441186bac7ee953f4c028" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -440,7 +453,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="304" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="304" bodyend="351"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="314" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="314" bodyend="362"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1acc5c3b3a95e4d58b6cda68e5f61089fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -473,7 +486,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="361" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="361" bodyend="371"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="372" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="372" bodyend="382"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ab9ea70c06d17283a4e07195b0f9b0de7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -513,7 +526,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="384" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="384" bodyend="427"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="395" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="395" bodyend="438"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a1cf65910d88b69192fd7dd764a63609a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -571,7 +584,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="448" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="448" bodyend="452"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="459" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="459" bodyend="463"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a63509ef1e8df1c4901f3b83ff9473236" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IEnumerator</type>
@@ -585,7 +598,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="461" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="461" bodyend="464"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="472" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="472" bodyend="475"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a54cf416fee122e600059ed8713d75bb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -622,7 +635,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="472" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="472" bodyend="490"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="483" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="483" bodyend="509"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -660,7 +673,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="498" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="498" bodyend="521"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="517" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="517" bodyend="540"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a5fdb64f8a451f387f2a36686f0fec014" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -673,7 +686,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="526" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="526" bodyend="556"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="545" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="545" bodyend="575"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1af375cbcb4d351b4d104b2706d39b8303" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>FrameworkElement</type>
@@ -699,7 +712,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="565" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="565" bodyend="592"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="584" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="584" bodyend="611"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a2372fa8b10c175bb81d5901f36cbf8f7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -724,7 +737,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="598" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="598" bodyend="614"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="617" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="617" bodyend="633"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ad6c991f82c204e789f32f21d28d48524" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -760,7 +773,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="621" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="621" bodyend="636"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="640" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="640" bodyend="655"/>
       </memberdef>
       <memberdef kind="function" id="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae52c8e47654ca10e714a1e87a193331b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -796,7 +809,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="643" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="643" bodyend="661"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="662" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="662" bodyend="680"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -804,79 +817,80 @@
     <detaileddescription>
 <para>Fully compatible with UIDescriptor and auto layout handlers. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="86">
+      <node id="102">
         <label>IGUIField</label>
         <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
-        <childnode refid="87" relation="public-inheritance">
+        <childnode refid="103" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="84">
+      <node id="100">
         <label>WpfHandler.UI.Controls.CollectionControl</label>
         <link refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control"/>
-        <childnode refid="85" relation="public-inheritance">
+        <childnode refid="101" relation="public-inheritance">
         </childnode>
-        <childnode refid="86" relation="public-inheritance">
+        <childnode refid="102" relation="public-inheritance">
         </childnode>
-        <childnode refid="88" relation="public-inheritance">
+        <childnode refid="104" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="89">
+      <node id="105">
         <label>WpfHandler.UI.Controls.AutoCollection</label>
         <link refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection"/>
-        <childnode refid="84" relation="public-inheritance">
+        <childnode refid="100" relation="public-inheritance">
         </childnode>
-        <childnode refid="84" relation="public-inheritance">
+        <childnode refid="100" relation="public-inheritance">
         </childnode>
-        <childnode refid="84" relation="public-inheritance">
+        <childnode refid="100" relation="public-inheritance">
         </childnode>
-        <childnode refid="84" relation="public-inheritance">
+        <childnode refid="100" relation="public-inheritance">
         </childnode>
-        <childnode refid="84" relation="public-inheritance">
+        <childnode refid="100" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="88">
+      <node id="104">
         <label>IList</label>
       </node>
-      <node id="87">
+      <node id="103">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="85">
+      <node id="101">
         <label>UserControl</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="92">
+      <node id="108">
         <label>IGUIField</label>
         <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
-        <childnode refid="93" relation="public-inheritance">
+        <childnode refid="109" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="90">
+      <node id="106">
         <label>WpfHandler.UI.Controls.CollectionControl</label>
         <link refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control"/>
-        <childnode refid="91" relation="public-inheritance">
+        <childnode refid="107" relation="public-inheritance">
         </childnode>
-        <childnode refid="92" relation="public-inheritance">
+        <childnode refid="108" relation="public-inheritance">
         </childnode>
-        <childnode refid="94" relation="public-inheritance">
+        <childnode refid="110" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="94">
+      <node id="110">
         <label>IList</label>
       </node>
-      <node id="93">
+      <node id="109">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="91">
+      <node id="107">
         <label>UserControl</label>
       </node>
     </collaborationgraph>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="44" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="43" bodyend="663"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" line="44" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/CollectionControl.cs" bodystart="43" bodyend="682"/>
     <listofallmembers>
       <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae17242c33bd29c2545a06bba9c93a1df" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>Add</name></member>
       <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ac5f779f05470058d2506b4f37cade718" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>BindedMember</name></member>
+      <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a128726ac8376cf78e3c33ba1c9f00b2d" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>bindedSource</name></member>
       <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a1f1a7fd996c4e15ec7fe3b2724e962d3" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>Clear</name></member>
       <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a5228b3f2d5efec75b178a160bfd9a558" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>CollectionControl</name></member>
       <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a2372fa8b10c175bb81d5901f36cbf8f7" prot="protected" virt="virtual"><scope>WpfHandler::UI::Controls::CollectionControl</scope><name>CollectionElementValueChanged</name></member>

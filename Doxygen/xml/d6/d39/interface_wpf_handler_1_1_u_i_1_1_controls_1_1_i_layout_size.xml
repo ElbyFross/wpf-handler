@@ -25,68 +25,68 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="382">
+      <node id="407">
         <label>WpfHandler.UI.AutoLayout.Options.HeightAttribute</label>
         <link refid="d8/d4b/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_height_attribute"/>
-        <childnode refid="381" relation="public-inheritance">
+        <childnode refid="406" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="381">
+      <node id="406">
         <label>WpfHandler.UI.Controls.LayoutSizeAttribute</label>
         <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
-        <childnode refid="378" relation="public-inheritance">
+        <childnode refid="403" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="379">
+      <node id="404">
         <label>WpfHandler.UI.AutoLayout.Controls.SpaceAttribute</label>
         <link refid="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute"/>
-        <childnode refid="378" relation="public-inheritance">
+        <childnode refid="403" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="385">
+      <node id="410">
         <label>WpfHandler.UI.AutoLayout.Options.MaxWidthAttribute</label>
         <link refid="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute"/>
-        <childnode refid="381" relation="public-inheritance">
+        <childnode refid="406" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="386">
+      <node id="411">
         <label>WpfHandler.UI.AutoLayout.Options.MinHeightAttribute</label>
         <link refid="d7/dff/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_min_height_attribute"/>
-        <childnode refid="381" relation="public-inheritance">
+        <childnode refid="406" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="384">
+      <node id="409">
         <label>WpfHandler.UI.AutoLayout.Options.MaxHeightAttribute</label>
         <link refid="d8/d31/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_height_attribute"/>
-        <childnode refid="381" relation="public-inheritance">
+        <childnode refid="406" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="378">
+      <node id="403">
         <label>WpfHandler.UI.Controls.ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="387">
+      <node id="412">
         <label>WpfHandler.UI.AutoLayout.Options.MinWidthAttribute</label>
         <link refid="d2/d96/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_min_width_attribute"/>
-        <childnode refid="381" relation="public-inheritance">
+        <childnode refid="406" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="388">
+      <node id="413">
         <label>WpfHandler.UI.AutoLayout.Options.WidthAttribute</label>
         <link refid="d6/d44/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_width_attribute"/>
-        <childnode refid="381" relation="public-inheritance">
+        <childnode refid="406" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="383">
+      <node id="408">
         <label>WpfHandler.UI.AutoLayout.Options.LabelWidthAttribute</label>
         <link refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute"/>
-        <childnode refid="381" relation="public-inheritance">
+        <childnode refid="406" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="380">
+      <node id="405">
         <label>WpfHandler.UI.AutoLayout.Options.FontSizeAttribute</label>
         <link refid="d8/d18/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_font_size_attribute"/>
-        <childnode refid="378" relation="public-inheritance">
+        <childnode refid="403" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" line="34" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" bodystart="34" bodyend="37"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" line="35" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" bodystart="35" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1a001e110c7ad42422bc02a44d9eedc801" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>abstract void</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" line="50" column="1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" line="51" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" line="42" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" bodystart="42" bodyend="45"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" line="43" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" bodystart="43" bodyend="46"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -55,52 +55,52 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="433">
+      <node id="466">
         <label>Attribute</label>
       </node>
-      <node id="434">
+      <node id="467">
         <label>WpfHandler.UI.GUIContentAttribute</label>
         <link refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute"/>
-        <childnode refid="432" relation="public-inheritance">
+        <childnode refid="465" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="435">
+      <node id="468">
         <label>WpfHandler.UI.AutoLayout.Configuration.ContentAttribute</label>
         <link refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute"/>
-        <childnode refid="434" relation="public-inheritance">
+        <childnode refid="467" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="432">
+      <node id="465">
         <label>WpfHandler.Dictionaries.LocalizableContentAttribute</label>
         <link refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute"/>
-        <childnode refid="433" relation="public-inheritance">
+        <childnode refid="466" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="437">
+      <node id="470">
         <label>WpfHandler.UI.AutoLayout.Controls.LabelAttribute</label>
         <link refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute"/>
-        <childnode refid="434" relation="public-inheritance">
+        <childnode refid="467" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="436">
+      <node id="469">
         <label>WpfHandler.UI.AutoLayout.Controls.HeaderAttribute</label>
         <link refid="d1/d32/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_header_attribute"/>
-        <childnode refid="434" relation="public-inheritance">
+        <childnode refid="467" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="439">
+      <node id="472">
         <label>Attribute</label>
       </node>
-      <node id="438">
+      <node id="471">
         <label>WpfHandler.Dictionaries.LocalizableContentAttribute</label>
         <link refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute"/>
-        <childnode refid="439" relation="public-inheritance">
+        <childnode refid="472" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" line="30" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" bodystart="29" bodyend="51"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" line="31" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/LocalizableContentAttribute.cs" bodystart="30" bodyend="52"/>
     <listofallmembers>
       <member refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1a001e110c7ad42422bc02a44d9eedc801" prot="public" virt="pure-virtual"><scope>WpfHandler::Dictionaries::LocalizableContentAttribute</scope><name>LanguagesDictionariesUpdated</name></member>
       <member refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1abba3c6699a97cc5a417eebc194979acd" prot="public" virt="non-virtual"><scope>WpfHandler::Dictionaries::LocalizableContentAttribute</scope><name>LocalizableContentAttribute</name></member>

@@ -74,46 +74,46 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Define orentation of the <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element. </para>    </briefdescription>
+<para>Defines an orentation of the <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="523">
+      <node id="558">
         <label>Attribute</label>
       </node>
-      <node id="522">
+      <node id="557">
         <label>WpfHandler.UI.AutoLayout.Options.OrientationAttribute</label>
         <link refid="d4/dae/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_orientation_attribute"/>
-        <childnode refid="523" relation="public-inheritance">
+        <childnode refid="558" relation="public-inheritance">
         </childnode>
-        <childnode refid="524" relation="public-inheritance">
+        <childnode refid="559" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="524">
+      <node id="559">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="526">
+      <node id="561">
         <label>Attribute</label>
       </node>
-      <node id="525">
+      <node id="560">
         <label>WpfHandler.UI.AutoLayout.Options.OrientationAttribute</label>
         <link refid="d4/dae/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_orientation_attribute"/>
-        <childnode refid="526" relation="public-inheritance">
+        <childnode refid="561" relation="public-inheritance">
         </childnode>
-        <childnode refid="527" relation="public-inheritance">
+        <childnode refid="562" relation="public-inheritance">
         </childnode>
-        <childnode refid="528" relation="usage">
+        <childnode refid="563" relation="usage">
           <edgelabel>Value</edgelabel>
         </childnode>
       </node>
-      <node id="527">
+      <node id="562">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
-      <node id="528">
+      <node id="563">
         <label>System</label>
       </node>
     </collaborationgraph>

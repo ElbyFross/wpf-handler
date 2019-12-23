@@ -22,6 +22,8 @@ void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon
 \begin{DoxyCompactList}\small\item\em Initialize\+Component \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a305abd77b32a115eae52ceba8c369c3d}{Initialize\+Component}} ()
 \begin{DoxyCompactList}\small\item\em Initialize\+Component \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aa74e0f26e834f7bf226796df3ea1bdfa}{Logon\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aea4275b155b6aa31830e1e492bb881b0}{Clear}} ()
 \begin{DoxyCompactList}\small\item\em Clear all temporal data and the data from forms. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Public Attributes}
@@ -34,8 +36,16 @@ readonly \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_r
 \subsection*{Static Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
-static readonly Dependency\+Property {\bfseries Operation\+Cancel\+Callback\+Property}
-\end{DoxyCompactItemize}
+static readonly Routed\+Event \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a2d6e87038fcb0e1594e5ee244853d347}{Operation\+Cancel\+Callback\+Property}}
+\begin{DoxyCompactList}\small\item\em Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. \end{DoxyCompactList}\item 
+static readonly Routed\+Event \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a7ef6a8f429ce0b45e9bf91c350c9a87a}{Logon\+Panel\+\_\+\+Login\+Callback\+Property}}
+\begin{DoxyCompactList}\small\item\em Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. \end{DoxyCompactList}\item 
+static readonly Routed\+Event \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ad090d45d15c768ddad5ddf42be1b7c4a}{Logon\+Panel\+\_\+\+Sign\+Up\+Callback\+Property}}
+\begin{DoxyCompactList}\small\item\em Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. \end{DoxyCompactList}\item 
+static readonly Routed\+Event \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ae158e17e86546c10faa2e157b301c314}{Reg\+Panel\+\_\+\+Continue\+Callback\+Property}}
+\begin{DoxyCompactList}\small\item\em Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. \end{DoxyCompactList}\item 
+static readonly Routed\+Event \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aa813ce580f5ea686df06b3b050c292d1}{Reg\+Panel\+\_\+\+Back\+Callback\+Property}}
+\begin{DoxyCompactList}\small\item\em Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Package Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -87,15 +97,15 @@ System.\+Windows.\+Controls.\+Grid {\bfseries content\+Line3}
 \subsection*{Properties}
 \begin{DoxyCompactItemize}
 \item 
-Action$<$ object $>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aaf6c43d29c350ee263c48cee22395866}{Logon\+Panel\+\_\+\+Login\+Callback}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+Routed\+Event\+Handler \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ab0f03636283e80be841cd0d1b9e5b444}{Logon\+Panel\+\_\+\+Login\+Callback}}
 \begin{DoxyCompactList}\small\item\em Method that will has been calling during click on button. \end{DoxyCompactList}\item 
-Action$<$ object $>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aaebc4715a8ea2a8d71275b1fe84f49d2}{Logon\+Panel\+\_\+\+Sing\+Up\+Callback}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+Routed\+Event\+Handler \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aac3aa6eacab257ae3ddf0500773b70df}{Logon\+Panel\+\_\+\+Sign\+Up\+Callback}}
 \begin{DoxyCompactList}\small\item\em Method that will has been calling during click on button. \end{DoxyCompactList}\item 
-Action$<$ object $>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a7dda90d79034bc7a2064335d8ccdcd19}{Reg\+Panel\+\_\+\+Continue\+Callback}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+Routed\+Event\+Handler \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_af2511d9a09e761ab80c154a36052e30d}{Reg\+Panel\+\_\+\+Forms\+Filled\+Event\+Handler}}
 \begin{DoxyCompactList}\small\item\em Method that will has been calling during continue on button. \end{DoxyCompactList}\item 
-Action$<$ object $>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ac42e1308611e356afc0be771b38f5a2c}{Reg\+Panel\+\_\+\+Back\+Callback}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+Routed\+Event\+Handler \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a5216599ea89bfa7ce9982e6233a9ab0c}{Reg\+Panel\+\_\+\+Cancel\+Event\+Handler}}
 \begin{DoxyCompactList}\small\item\em Method that will has been calling during back on button. \end{DoxyCompactList}\item 
-Action$<$ object $>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a3438f019d965cd643756e612dd8ac2d3}{Operation\+Cancel\+Callback}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+Routed\+Event\+Handler \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a1ba7ce314f41c7dc1575024f56ffbab7}{Operation\+Cancel\+Callback}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Method that will has been calling during click on operation cancel button. \end{DoxyCompactList}\item 
 Time\+Span \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a66c8e6dd59e6951a2ccf9889daaadde6}{Forms\+Animation\+Duration}} = new Time\+Span(0, 0, 0, 0, 300)\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em How many time will take swich animation of forms. \end{DoxyCompactList}\item 
@@ -116,20 +126,22 @@ void System.\+Windows.\+Markup.\+I\+Component\+Connector. {\bfseries Connect} (i
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a823deb2cd00da3e7fd7ae170c54f5d83}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a823deb2cd00da3e7fd7ae170c54f5d83}} 
 void System.\+Windows.\+Markup.\+I\+Component\+Connector. {\bfseries Connect} (int connection\+Id, object target)
 \item 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a275dea16cf32b81cd2f75f19c92e5e4b}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a275dea16cf32b81cd2f75f19c92e5e4b}} 
-void {\bfseries Logon\+Panel\+\_\+\+Loaded} (object sender, Routed\+Event\+Args e)
+\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a76ac98ecd8837969899dd869fd3014fe}{$\sim$\+Logon\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Releasing unmanaged memeory. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aac956fb8efae7493cbc6f554f4716b66}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aac956fb8efae7493cbc6f554f4716b66}} 
+void {\bfseries U\+I\+Loaded} (object sender, Routed\+Event\+Args e)
 \item 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a424adaef54eeeb3afb89f0c3c4b8ee90}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a424adaef54eeeb3afb89f0c3c4b8ee90}} 
-void {\bfseries Logon\+Panel\+\_\+\+Sing\+Up\+Callback\+Handler} (object sender)
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aa1e319e525c55df19dcfae4c0c7be28b}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aa1e319e525c55df19dcfae4c0c7be28b}} 
+void {\bfseries Logon\+Panel\+\_\+\+Sign\+Up\+Callback\+Handler} (object sender, Routed\+Event\+Args e)
 \item 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a59b3a2b822c5b5edae10467098a02efc}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a59b3a2b822c5b5edae10467098a02efc}} 
-void {\bfseries Logon\+Panel\+\_\+\+Login\+Callback\+Handler} (object sender)
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a13d71de70976c6c1e9f36fb40ec27c65}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a13d71de70976c6c1e9f36fb40ec27c65}} 
+void {\bfseries Logon\+Panel\+\_\+\+Login\+Callback\+Handler} (object sender, Routed\+Event\+Args e)
 \item 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a7cadc878b1d75999cefdb12939c2167c}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a7cadc878b1d75999cefdb12939c2167c}} 
-void {\bfseries Reg\+Panel\+\_\+\+Back\+Callback\+Handler} (object sender)
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ae87f001176943ff985fcf2fe6f64a791}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ae87f001176943ff985fcf2fe6f64a791}} 
+void {\bfseries Reg\+Panel\+\_\+\+Back\+Callback\+Handler} (object sender, Routed\+Event\+Args e)
 \item 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a917a514f4651d57e74471217591e203e}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a917a514f4651d57e74471217591e203e}} 
-void {\bfseries Reg\+Panel\+\_\+\+Continue\+Callback\+Handler} (object sender)
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ac838f760444a09b103c141dd23f32c03}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ac838f760444a09b103c141dd23f32c03}} 
+void {\bfseries Reg\+Panel\+\_\+\+Continue\+Callback\+Handler} (object sender, Routed\+Event\+Args e)
 \end{DoxyCompactItemize}
 \subsection*{Private Attributes}
 \begin{DoxyCompactItemize}
@@ -143,6 +155,29 @@ bool {\bfseries \+\_\+content\+Loaded}
 \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen}{Logon\+Screen}} 
 
 Interaction logic for Logon\+Screen.\+xaml 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aa74e0f26e834f7bf226796df3ea1bdfa}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aa74e0f26e834f7bf226796df3ea1bdfa}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Logon\+Screen@{Logon\+Screen}}
+\index{Logon\+Screen@{Logon\+Screen}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
+\subsubsection{\texorpdfstring{Logon\+Screen()}{LogonScreen()}}
+{\footnotesize\ttfamily Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Logon\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a76ac98ecd8837969899dd869fd3014fe}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a76ac98ecd8837969899dd869fd3014fe}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!````~Logon\+Screen@{$\sim$\+Logon\+Screen}}
+\index{````~Logon\+Screen@{$\sim$\+Logon\+Screen}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
+\subsubsection{\texorpdfstring{$\sim$\+Logon\+Screen()}{~LogonScreen()}}
+{\footnotesize\ttfamily Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.$\sim$\+Logon\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Releasing unmanaged memeory. 
+
+
 
 \subsection{Member Function Documentation}
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aea4275b155b6aa31830e1e492bb881b0}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aea4275b155b6aa31830e1e492bb881b0}} 
@@ -208,17 +243,54 @@ Initialize\+Component
 
 Instance of logon panel. 
 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a7eeb82fcda705d681d328d27754be142}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a7eeb82fcda705d681d328d27754be142}} 
-\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Operation\+Cancel\+Callback\+Property@{Operation\+Cancel\+Callback\+Property}}
-\index{Operation\+Cancel\+Callback\+Property@{Operation\+Cancel\+Callback\+Property}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
-\subsubsection{\texorpdfstring{Operation\+Cancel\+Callback\+Property}{OperationCancelCallbackProperty}}
-{\footnotesize\ttfamily readonly Dependency\+Property Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Operation\+Cancel\+Callback\+Property\hspace{0.3cm}{\ttfamily [static]}}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a7ef6a8f429ce0b45e9bf91c350c9a87a}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a7ef6a8f429ce0b45e9bf91c350c9a87a}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Logon\+Panel\+\_\+\+Login\+Callback\+Property@{Logon\+Panel\+\_\+\+Login\+Callback\+Property}}
+\index{Logon\+Panel\+\_\+\+Login\+Callback\+Property@{Logon\+Panel\+\_\+\+Login\+Callback\+Property}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
+\subsubsection{\texorpdfstring{Logon\+Panel\+\_\+\+Login\+Callback\+Property}{LogonPanel\_LoginCallbackProperty}}
+{\footnotesize\ttfamily readonly Routed\+Event Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Logon\+Panel\+\_\+\+Login\+Callback\+Property\hspace{0.3cm}{\ttfamily [static]}}
 
 {\bfseries Initial value\+:}
 \begin{DoxyCode}
-= DependencyProperty.Register(
-          \textcolor{stringliteral}{"OperationCancelCallback"}, typeof(Action<object>), typeof(LogonScreen))
+= EventManager.RegisterRoutedEvent(\textcolor{stringliteral}{"LogonPanel\_LoginCallback"},
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(
+      \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aa74e0f26e834f7bf226796df3ea1bdfa}{LogonScreen}}))
 \end{DoxyCode}
+
+
+Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. 
+
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ad090d45d15c768ddad5ddf42be1b7c4a}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ad090d45d15c768ddad5ddf42be1b7c4a}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Logon\+Panel\+\_\+\+Sign\+Up\+Callback\+Property@{Logon\+Panel\+\_\+\+Sign\+Up\+Callback\+Property}}
+\index{Logon\+Panel\+\_\+\+Sign\+Up\+Callback\+Property@{Logon\+Panel\+\_\+\+Sign\+Up\+Callback\+Property}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
+\subsubsection{\texorpdfstring{Logon\+Panel\+\_\+\+Sign\+Up\+Callback\+Property}{LogonPanel\_SignUpCallbackProperty}}
+{\footnotesize\ttfamily readonly Routed\+Event Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Logon\+Panel\+\_\+\+Sign\+Up\+Callback\+Property\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= EventManager.RegisterRoutedEvent(\textcolor{stringliteral}{"LogonPanel\_SignUpCallback"},
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(
+      \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aa74e0f26e834f7bf226796df3ea1bdfa}{LogonScreen}}))
+\end{DoxyCode}
+
+
+Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. 
+
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a2d6e87038fcb0e1594e5ee244853d347}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a2d6e87038fcb0e1594e5ee244853d347}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Operation\+Cancel\+Callback\+Property@{Operation\+Cancel\+Callback\+Property}}
+\index{Operation\+Cancel\+Callback\+Property@{Operation\+Cancel\+Callback\+Property}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
+\subsubsection{\texorpdfstring{Operation\+Cancel\+Callback\+Property}{OperationCancelCallbackProperty}}
+{\footnotesize\ttfamily readonly Routed\+Event Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Operation\+Cancel\+Callback\+Property\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= EventManager.RegisterRoutedEvent(\textcolor{stringliteral}{"OperationCancelCallback"},
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(
+      \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aa74e0f26e834f7bf226796df3ea1bdfa}{LogonScreen}}))
+\end{DoxyCode}
+
+
+Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. 
+
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a9de43de9ee6526493d97226d75385262}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a9de43de9ee6526493d97226d75385262}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!registration\+Panel@{registration\+Panel}}
 \index{registration\+Panel@{registration\+Panel}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
@@ -228,6 +300,38 @@ Instance of logon panel.
 
 
 Instance of refistration panel. 
+
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aa813ce580f5ea686df06b3b050c292d1}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aa813ce580f5ea686df06b3b050c292d1}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Reg\+Panel\+\_\+\+Back\+Callback\+Property@{Reg\+Panel\+\_\+\+Back\+Callback\+Property}}
+\index{Reg\+Panel\+\_\+\+Back\+Callback\+Property@{Reg\+Panel\+\_\+\+Back\+Callback\+Property}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
+\subsubsection{\texorpdfstring{Reg\+Panel\+\_\+\+Back\+Callback\+Property}{RegPanel\_BackCallbackProperty}}
+{\footnotesize\ttfamily readonly Routed\+Event Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Reg\+Panel\+\_\+\+Back\+Callback\+Property\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= EventManager.RegisterRoutedEvent(\textcolor{stringliteral}{"RegPanel\_BackCallback"},
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(
+      \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aa74e0f26e834f7bf226796df3ea1bdfa}{LogonScreen}}))
+\end{DoxyCode}
+
+
+Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. 
+
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ae158e17e86546c10faa2e157b301c314}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ae158e17e86546c10faa2e157b301c314}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Reg\+Panel\+\_\+\+Continue\+Callback\+Property@{Reg\+Panel\+\_\+\+Continue\+Callback\+Property}}
+\index{Reg\+Panel\+\_\+\+Continue\+Callback\+Property@{Reg\+Panel\+\_\+\+Continue\+Callback\+Property}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
+\subsubsection{\texorpdfstring{Reg\+Panel\+\_\+\+Continue\+Callback\+Property}{RegPanel\_ContinueCallbackProperty}}
+{\footnotesize\ttfamily readonly Routed\+Event Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Reg\+Panel\+\_\+\+Continue\+Callback\+Property\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= EventManager.RegisterRoutedEvent(\textcolor{stringliteral}{"RegPanel\_ContinueCallback"},
+            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(
+      \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aa74e0f26e834f7bf226796df3ea1bdfa}{LogonScreen}}))
+\end{DoxyCode}
+
+
+Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. 
 
 
 
@@ -252,51 +356,51 @@ Returns current active form.
 
 How many time will take swich animation of forms. 
 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aaf6c43d29c350ee263c48cee22395866}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aaf6c43d29c350ee263c48cee22395866}} 
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ab0f03636283e80be841cd0d1b9e5b444}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ab0f03636283e80be841cd0d1b9e5b444}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Logon\+Panel\+\_\+\+Login\+Callback@{Logon\+Panel\+\_\+\+Login\+Callback}}
 \index{Logon\+Panel\+\_\+\+Login\+Callback@{Logon\+Panel\+\_\+\+Login\+Callback}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
 \subsubsection{\texorpdfstring{Logon\+Panel\+\_\+\+Login\+Callback}{LogonPanel\_LoginCallback}}
-{\footnotesize\ttfamily Action$<$object$>$ Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Logon\+Panel\+\_\+\+Login\+Callback\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+{\footnotesize\ttfamily Routed\+Event\+Handler Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Logon\+Panel\+\_\+\+Login\+Callback\hspace{0.3cm}{\ttfamily [add]}, {\ttfamily [remove]}}
 
 
 
 Method that will has been calling during click on button. 
 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aaebc4715a8ea2a8d71275b1fe84f49d2}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aaebc4715a8ea2a8d71275b1fe84f49d2}} 
-\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Logon\+Panel\+\_\+\+Sing\+Up\+Callback@{Logon\+Panel\+\_\+\+Sing\+Up\+Callback}}
-\index{Logon\+Panel\+\_\+\+Sing\+Up\+Callback@{Logon\+Panel\+\_\+\+Sing\+Up\+Callback}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
-\subsubsection{\texorpdfstring{Logon\+Panel\+\_\+\+Sing\+Up\+Callback}{LogonPanel\_SingUpCallback}}
-{\footnotesize\ttfamily Action$<$object$>$ Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Logon\+Panel\+\_\+\+Sing\+Up\+Callback\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aac3aa6eacab257ae3ddf0500773b70df}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_aac3aa6eacab257ae3ddf0500773b70df}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Logon\+Panel\+\_\+\+Sign\+Up\+Callback@{Logon\+Panel\+\_\+\+Sign\+Up\+Callback}}
+\index{Logon\+Panel\+\_\+\+Sign\+Up\+Callback@{Logon\+Panel\+\_\+\+Sign\+Up\+Callback}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
+\subsubsection{\texorpdfstring{Logon\+Panel\+\_\+\+Sign\+Up\+Callback}{LogonPanel\_SignUpCallback}}
+{\footnotesize\ttfamily Routed\+Event\+Handler Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Logon\+Panel\+\_\+\+Sign\+Up\+Callback\hspace{0.3cm}{\ttfamily [add]}, {\ttfamily [remove]}}
 
 
 
 Method that will has been calling during click on button. 
 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a3438f019d965cd643756e612dd8ac2d3}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a3438f019d965cd643756e612dd8ac2d3}} 
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a1ba7ce314f41c7dc1575024f56ffbab7}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a1ba7ce314f41c7dc1575024f56ffbab7}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Operation\+Cancel\+Callback@{Operation\+Cancel\+Callback}}
 \index{Operation\+Cancel\+Callback@{Operation\+Cancel\+Callback}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
 \subsubsection{\texorpdfstring{Operation\+Cancel\+Callback}{OperationCancelCallback}}
-{\footnotesize\ttfamily Action$<$object$>$ Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Operation\+Cancel\+Callback\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+{\footnotesize\ttfamily Routed\+Event\+Handler Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Operation\+Cancel\+Callback\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
 
 
 
 Method that will has been calling during click on operation cancel button. 
 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ac42e1308611e356afc0be771b38f5a2c}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_ac42e1308611e356afc0be771b38f5a2c}} 
-\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Reg\+Panel\+\_\+\+Back\+Callback@{Reg\+Panel\+\_\+\+Back\+Callback}}
-\index{Reg\+Panel\+\_\+\+Back\+Callback@{Reg\+Panel\+\_\+\+Back\+Callback}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
-\subsubsection{\texorpdfstring{Reg\+Panel\+\_\+\+Back\+Callback}{RegPanel\_BackCallback}}
-{\footnotesize\ttfamily Action$<$object$>$ Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Reg\+Panel\+\_\+\+Back\+Callback\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a5216599ea89bfa7ce9982e6233a9ab0c}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a5216599ea89bfa7ce9982e6233a9ab0c}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Reg\+Panel\+\_\+\+Cancel\+Event\+Handler@{Reg\+Panel\+\_\+\+Cancel\+Event\+Handler}}
+\index{Reg\+Panel\+\_\+\+Cancel\+Event\+Handler@{Reg\+Panel\+\_\+\+Cancel\+Event\+Handler}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
+\subsubsection{\texorpdfstring{Reg\+Panel\+\_\+\+Cancel\+Event\+Handler}{RegPanel\_CancelEventHandler}}
+{\footnotesize\ttfamily Routed\+Event\+Handler Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Reg\+Panel\+\_\+\+Cancel\+Event\+Handler\hspace{0.3cm}{\ttfamily [add]}, {\ttfamily [remove]}}
 
 
 
 Method that will has been calling during back on button. 
 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a7dda90d79034bc7a2064335d8ccdcd19}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_a7dda90d79034bc7a2064335d8ccdcd19}} 
-\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Reg\+Panel\+\_\+\+Continue\+Callback@{Reg\+Panel\+\_\+\+Continue\+Callback}}
-\index{Reg\+Panel\+\_\+\+Continue\+Callback@{Reg\+Panel\+\_\+\+Continue\+Callback}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
-\subsubsection{\texorpdfstring{Reg\+Panel\+\_\+\+Continue\+Callback}{RegPanel\_ContinueCallback}}
-{\footnotesize\ttfamily Action$<$object$>$ Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Reg\+Panel\+\_\+\+Continue\+Callback\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_af2511d9a09e761ab80c154a36052e30d}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_af2511d9a09e761ab80c154a36052e30d}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}!Reg\+Panel\+\_\+\+Forms\+Filled\+Event\+Handler@{Reg\+Panel\+\_\+\+Forms\+Filled\+Event\+Handler}}
+\index{Reg\+Panel\+\_\+\+Forms\+Filled\+Event\+Handler@{Reg\+Panel\+\_\+\+Forms\+Filled\+Event\+Handler}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Logon\+::\+Logon\+Screen}}
+\subsubsection{\texorpdfstring{Reg\+Panel\+\_\+\+Forms\+Filled\+Event\+Handler}{RegPanel\_FormsFilledEventHandler}}
+{\footnotesize\ttfamily Routed\+Event\+Handler Wpf\+Handler.\+U\+I.\+Controls.\+Logon.\+Logon\+Screen.\+Reg\+Panel\+\_\+\+Forms\+Filled\+Event\+Handler\hspace{0.3cm}{\ttfamily [add]}, {\ttfamily [remove]}}
 
 
 

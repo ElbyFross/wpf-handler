@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="47" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="47" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="48" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1acd4cc98db2da7479ac81dd03ceaadcae" prot="public" static="yes" mutable="no">
         <type>readonly DependencyProperty</type>
@@ -86,7 +86,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="53" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="53" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="54" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a2df8b183c4855b48d46fe14730225db4" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty WpfHandler.UI.Controls.FlatTogglesGroup.FieldsContentProperty</definition>
+        <argsstring></argsstring>
+        <name>FieldsContentProperty</name>
+        <initializer>= DependencyProperty.Register(
+          &quot;FieldsContent&quot;, typeof(Array), typeof(<ref refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group" kindref="compound">FlatTogglesGroup</ref>))</initializer>
+        <briefdescription>
+<para>Property that bridging control&apos;s property between XAML and code. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="60" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="60" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="property">
@@ -101,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="61" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="61" bodyend="61"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="68" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="68" bodyend="68"/>
       </memberdef>
       <memberdef kind="property" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a146fc04548cdc1df39cd8c9c1d4b3b00" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>Array</type>
@@ -109,12 +124,12 @@
         <argsstring></argsstring>
         <name>Values</name>
         <briefdescription>
-<para>Return an array with values of the binded tnum type. </para>        </briefdescription>
+<para>Return an array with values of the binded tnum type. Using the <ref refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a48c85f0f2ca803d28b95877dbc0122f0" kindref="member">FieldsContent</ref> in case if <ref refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1abb4f90b5eace0651db2af6f293d312d1" kindref="member">BindedEnumType</ref> is null. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="66" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="67" bodyend="88"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="74" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="75" bodyend="98"/>
       </memberdef>
       <memberdef kind="property" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ab0cb4350ceae1f1288d6c83de4ed66c9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>Orientation</type>
@@ -127,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="93" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="94" bodyend="103"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="103" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="104" bodyend="113"/>
       </memberdef>
       <memberdef kind="property" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1af11956552285c0b69219ab52362d3646" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>FrameworkElement []</type>
@@ -140,7 +155,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="108" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="109" bodyend="123"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="118" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="119" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a48c85f0f2ca803d28b95877dbc0122f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Array</type>
+        <definition>Array WpfHandler.UI.Controls.FlatTogglesGroup.FieldsContent</definition>
+        <argsstring></argsstring>
+        <name>FieldsContent</name>
+        <briefdescription>
+<para>Text in label field. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="138" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="139" bodyend="142"/>
       </memberdef>
       <memberdef kind="property" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a49e224a3505a7214029943dd421e4cd6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -153,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="128" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="129" bodyend="132"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="147" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="148" bodyend="151"/>
       </memberdef>
       <memberdef kind="property" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a183897b270682950d9a7fa6cc8bd7e0f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>float</type>
@@ -166,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="137" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="138" bodyend="151"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="156" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="157" bodyend="171"/>
       </memberdef>
       <memberdef kind="property" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a699f90c459005d9501720e719859ba96" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>object</type>
@@ -176,10 +204,10 @@
         <briefdescription>
 <para>Value of that control. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Set allowed only for the enum values. For applying custom list use <ref refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a48c85f0f2ca803d28b95877dbc0122f0" kindref="member">FieldsContent</ref> property. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="156" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="157" bodyend="187"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="180" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="181" bodyend="211"/>
       </memberdef>
       <memberdef kind="property" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a89cc073c7cd5761d1700f8d545ae72df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -192,7 +220,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="192" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="193" bodyend="211"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="216" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="217" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a32cdb6b0e4be63ed1465645f6ea7b16b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>FrameworkElement</type>
+        <definition>FrameworkElement WpfHandler.UI.Controls.FlatTogglesGroup.SelectedElement</definition>
+        <argsstring></argsstring>
+        <name>SelectedElement</name>
+        <briefdescription>
+<para>Returns current selected <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="240" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="241" bodyend="243"/>
       </memberdef>
       <memberdef kind="property" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a23b02958e22396a5fb45255cad69eac0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>MemberInfo</type>
@@ -205,7 +246,7 @@
 <para>The SET option is not supported. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="219" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="220" bodyend="223"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="251" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="252" bodyend="255"/>
       </memberdef>
       <memberdef kind="property" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a89515b615bad1290bf2342ff791b8f16" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>Panel</type>
@@ -218,15 +259,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="228" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="228" bodyend="228"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="260" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="260" bodyend="260"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-attrib">
-      <memberdef kind="variable" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ad83c54ae94296233bdebfb1ff14d94cc" prot="protected" static="no" mutable="no">
+      <memberdef kind="variable" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ab56d0f33fd489259568de7a64b14487d" prot="protected" static="no" mutable="no">
         <type>float</type>
-        <definition>float WpfHandler.UI.Controls.FlatTogglesGroup.LastLableWidth</definition>
+        <definition>float WpfHandler.UI.Controls.FlatTogglesGroup.LastLabelWidth</definition>
         <argsstring></argsstring>
-        <name>LastLableWidth</name>
+        <name>LastLabelWidth</name>
         <initializer>= 0</initializer>
         <briefdescription>
 <para>Bufer that contains las requested label width. </para>        </briefdescription>
@@ -234,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="235" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="235" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="267" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="267" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1af7f9d34a746082b32a92ae1cb7e338f2" prot="protected" static="no" mutable="no">
         <type><ref refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ab0cb4350ceae1f1288d6c83de4ed66c9" kindref="member">Orientation</ref></type>
@@ -248,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="240" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="240" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="272" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="272" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a559848ddfbcddd8620d9a7783d2a7d04" prot="protected" static="no" mutable="no">
         <type>int</type>
@@ -262,7 +303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="245" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="245" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="277" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="277" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a4c0eac437404a019551b6bfd102cc034" prot="protected" static="no" mutable="no">
         <type>MemberInfo</type>
@@ -275,7 +316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="250" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="250" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="282" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="282" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1afce8c50c94f3417c807a2ba7cce7970f" prot="protected" static="no" mutable="no">
         <type>Array</type>
@@ -288,7 +329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="255" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="255" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="287" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="287" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ad8b50e4aed5842fb4b3814a281d6cb31" prot="protected" static="no" mutable="no">
         <type>FrameworkElement []</type>
@@ -301,7 +342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="260" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="260" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="292" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="292" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="event">
@@ -316,7 +357,7 @@
 <para>IGUIField - sender. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="269" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="269" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="301" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="301" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -383,7 +424,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="275" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="275" bodyend="279"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="307" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="307" bodyend="311"/>
       </memberdef>
       <memberdef kind="function" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a5619e5107d6cbc3fb2cdabb21deb40a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -417,10 +458,10 @@
 <para>Shared arguments. Must contains MemberInfo.</para></parameterdescription>
 </parameteritem>
 </parameterlist>
-</para><para>Allow castomization enum&apos;s element by adding multiply ContentAttribute. First attribute will applied to the common lable. Any next ContentAttribute will be related to the elements by the direct order. </para>        </detaileddescription>
+</para><para>Allow castomization enum&apos;s element by adding multiply ContentAttribute. First attribute will applied to the common label. Any next ContentAttribute will be related to the elements by the direct order. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="292" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="292" bodyend="330"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="324" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="324" bodyend="362"/>
       </memberdef>
       <memberdef kind="function" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a614b0a059caad9bc0704342bae1bb7f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -433,7 +474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="335" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="335" bodyend="406"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="367" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="367" bodyend="438"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -534,7 +575,33 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="412" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="412" bodyend="470"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="444" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="444" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a02dd935c06724428d0782839f0035189" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.FlatTogglesGroup.InstiniateCustomElements</definition>
+        <argsstring>()</argsstring>
+        <name>InstiniateCustomElements</name>
+        <briefdescription>
+<para>Instiniating elelements for the custom <ref refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a48c85f0f2ca803d28b95877dbc0122f0" kindref="member">FieldsContent</ref> list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="453" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="453" bodyend="492"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1af854af2e1f2768daedecb38eb983072f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfHandler.UI.Controls.FlatTogglesGroup.InstiniateEnumElements</definition>
+        <argsstring>()</argsstring>
+        <name>InstiniateEnumElements</name>
+        <briefdescription>
+<para>Instiniated elements by the binded Enum type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="497" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="497" bodyend="557"/>
       </memberdef>
       <memberdef kind="function" id="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a8e8bd8928ac0cba35f35554adad3f077" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -570,7 +637,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="477" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="477" bodyend="483"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" line="564" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTogglesGroup.xaml.cs" bodystart="564" bodyend="570"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -578,122 +645,122 @@
     <detaileddescription>
 <para>TODO: Operating by group of the toggles. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="194">
+      <node id="211">
         <label>IGUIField</label>
         <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
-        <childnode refid="195" relation="public-inheritance">
+        <childnode refid="212" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="190">
+      <node id="207">
         <label>WpfHandler.UI.Controls.FlatTogglesGroup</label>
         <link refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group"/>
-        <childnode refid="191" relation="public-inheritance">
+        <childnode refid="208" relation="public-inheritance">
         </childnode>
-        <childnode refid="192" relation="public-inheritance">
+        <childnode refid="209" relation="public-inheritance">
         </childnode>
-        <childnode refid="193" relation="public-inheritance">
+        <childnode refid="210" relation="public-inheritance">
         </childnode>
-        <childnode refid="194" relation="public-inheritance">
+        <childnode refid="211" relation="public-inheritance">
         </childnode>
-        <childnode refid="196" relation="public-inheritance">
+        <childnode refid="213" relation="public-inheritance">
         </childnode>
-        <childnode refid="197" relation="public-inheritance">
+        <childnode refid="214" relation="public-inheritance">
         </childnode>
-        <childnode refid="196" relation="public-inheritance">
+        <childnode refid="213" relation="public-inheritance">
         </childnode>
-        <childnode refid="197" relation="public-inheritance">
+        <childnode refid="214" relation="public-inheritance">
         </childnode>
-        <childnode refid="196" relation="public-inheritance">
+        <childnode refid="213" relation="public-inheritance">
         </childnode>
-        <childnode refid="197" relation="public-inheritance">
+        <childnode refid="214" relation="public-inheritance">
         </childnode>
-        <childnode refid="196" relation="public-inheritance">
+        <childnode refid="213" relation="public-inheritance">
         </childnode>
-        <childnode refid="197" relation="public-inheritance">
+        <childnode refid="214" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="195">
+      <node id="212">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="192">
+      <node id="209">
         <label>ILayoutOrientation</label>
         <link refid="d2/d03/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_orientation"/>
       </node>
-      <node id="196">
+      <node id="213">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="197">
+      <node id="214">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="191">
+      <node id="208">
         <label>UserControl</label>
       </node>
-      <node id="193">
+      <node id="210">
         <label>ILabel</label>
         <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="202">
+      <node id="219">
         <label>IGUIField</label>
         <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
-        <childnode refid="203" relation="public-inheritance">
+        <childnode refid="220" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="198">
+      <node id="215">
         <label>WpfHandler.UI.Controls.FlatTogglesGroup</label>
         <link refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group"/>
-        <childnode refid="199" relation="public-inheritance">
+        <childnode refid="216" relation="public-inheritance">
         </childnode>
-        <childnode refid="200" relation="public-inheritance">
+        <childnode refid="217" relation="public-inheritance">
         </childnode>
-        <childnode refid="201" relation="public-inheritance">
+        <childnode refid="218" relation="public-inheritance">
         </childnode>
-        <childnode refid="202" relation="public-inheritance">
+        <childnode refid="219" relation="public-inheritance">
         </childnode>
-        <childnode refid="204" relation="public-inheritance">
+        <childnode refid="221" relation="public-inheritance">
         </childnode>
-        <childnode refid="205" relation="public-inheritance">
+        <childnode refid="222" relation="public-inheritance">
         </childnode>
-        <childnode refid="204" relation="public-inheritance">
+        <childnode refid="221" relation="public-inheritance">
         </childnode>
-        <childnode refid="205" relation="public-inheritance">
+        <childnode refid="222" relation="public-inheritance">
         </childnode>
-        <childnode refid="204" relation="public-inheritance">
+        <childnode refid="221" relation="public-inheritance">
         </childnode>
-        <childnode refid="205" relation="public-inheritance">
+        <childnode refid="222" relation="public-inheritance">
         </childnode>
-        <childnode refid="204" relation="public-inheritance">
+        <childnode refid="221" relation="public-inheritance">
         </childnode>
-        <childnode refid="205" relation="public-inheritance">
+        <childnode refid="222" relation="public-inheritance">
         </childnode>
-        <childnode refid="206" relation="usage">
+        <childnode refid="223" relation="usage">
           <edgelabel>canvas</edgelabel>
           <edgelabel>label</edgelabel>
         </childnode>
       </node>
-      <node id="203">
+      <node id="220">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="206">
+      <node id="223">
         <label>System</label>
       </node>
-      <node id="200">
+      <node id="217">
         <label>ILayoutOrientation</label>
         <link refid="d2/d03/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_orientation"/>
       </node>
-      <node id="204">
+      <node id="221">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="205">
+      <node id="222">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="199">
+      <node id="216">
         <label>UserControl</label>
       </node>
-      <node id="201">
+      <node id="218">
         <label>ILabel</label>
         <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
       </node>
@@ -714,22 +781,27 @@
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ac714bc342f0c8121d2adb1585696110c" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>Connect</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ac714bc342f0c8121d2adb1585696110c" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>Connect</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1af11956552285c0b69219ab52362d3646" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>Elements</name></member>
+      <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a48c85f0f2ca803d28b95877dbc0122f0" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>FieldsContent</name></member>
+      <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a2df8b183c4855b48d46fe14730225db4" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>FieldsContentProperty</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a026f873b2f214e35ee3f3ad5715e1bad" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>FlatTogglesGroup</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a89cc073c7cd5761d1700f8d545ae72df" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>Index</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a6bf13c1fc4d0e238190ce92895b8123c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>InitializeComponent</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a6bf13c1fc4d0e238190ce92895b8123c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>InitializeComponent</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a6bf13c1fc4d0e238190ce92895b8123c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>InitializeComponent</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a6bf13c1fc4d0e238190ce92895b8123c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>InitializeComponent</name></member>
+      <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a02dd935c06724428d0782839f0035189" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>InstiniateCustomElements</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a58a008dadfd937ce1379ee16602139bd" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>InstiniateElements</name></member>
+      <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1af854af2e1f2768daedecb38eb983072f" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>InstiniateEnumElements</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a89515b615bad1290bf2342ff791b8f16" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>ItemsPanel</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ad45e117a4853bf701b9e5613f861c90d" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>label</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a49e224a3505a7214029943dd421e4cd6" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>Label</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a72591a66a8b72130cf16e966bbed5507" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>LabelProperty</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a183897b270682950d9a7fa6cc8bd7e0f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>LabelWidth</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1acd4cc98db2da7479ac81dd03ceaadcae" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>LabelWidthProperty</name></member>
-      <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ad83c54ae94296233bdebfb1ff14d94cc" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>LastLableWidth</name></member>
+      <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ab56d0f33fd489259568de7a64b14487d" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>LastLabelWidth</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a5619e5107d6cbc3fb2cdabb21deb40a4" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>OnLayout</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ab0cb4350ceae1f1288d6c83de4ed66c9" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>Orientation</name></member>
+      <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a32cdb6b0e4be63ed1465645f6ea7b16b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>SelectedElement</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a614b0a059caad9bc0704342bae1bb7f5" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>UpdateElementsLayout</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a8e8bd8928ac0cba35f35554adad3f077" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>UserControl_Loaded</name></member>
       <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a699f90c459005d9501720e719859ba96" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatTogglesGroup</scope><name>Value</name></member>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d8/d96/class_toggles_group_example_1_1_properties_1_1_resources" kind="class" language="C#" prot="package">
+    <compoundname>TogglesGroupExample::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d8/d96/class_toggles_group_example_1_1_properties_1_1_resources_1a77682137b11d403f79bd002f819b55f1" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager TogglesGroupExample.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Resources.Designer.cs" line="28" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Resources.Designer.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d96/class_toggles_group_example_1_1_properties_1_1_resources_1ad704bcd852261b5e61bf8d97c23c8afa" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo TogglesGroupExample.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Resources.Designer.cs" line="30" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Resources.Designer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d8/d96/class_toggles_group_example_1_1_properties_1_1_resources_1a4c7680175111d8ad445e79bea478a3d9" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager TogglesGroupExample.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>Returns the cached ResourceManager instance used by this class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Resources.Designer.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Resources.Designer.cs" bodystart="42" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/d96/class_toggles_group_example_1_1_properties_1_1_resources_1a360fcc8a99c6f2847f60e7d5e0e9c512" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo TogglesGroupExample.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>Overrides the current thread&apos;s CurrentUICulture property for all resource lookups using this strongly typed resource class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Resources.Designer.cs" line="59" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Resources.Designer.cs" bodystart="60" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="d8/d96/class_toggles_group_example_1_1_properties_1_1_resources_1a4611c31d0a2f1f6e85ba931238e42b38" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TogglesGroupExample.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Resources.Designer.cs" line="33" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Resources.Designer.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A strongly-typed resource class, for looking up localized strings, etc. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="811">
+        <label>TogglesGroupExample.Properties.Resources</label>
+        <link refid="d8/d96/class_toggles_group_example_1_1_properties_1_1_resources"/>
+        <childnode refid="811" relation="usage">
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+        <childnode refid="812" relation="usage">
+          <edgelabel>resourceCulture</edgelabel>
+        </childnode>
+      </node>
+      <node id="812">
+        <label>Globalization</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Resources.Designer.cs" line="26" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Resources.Designer.cs" bodystart="25" bodyend="70"/>
+    <listofallmembers>
+      <member refid="d8/d96/class_toggles_group_example_1_1_properties_1_1_resources_1a360fcc8a99c6f2847f60e7d5e0e9c512" prot="package" virt="non-virtual"><scope>TogglesGroupExample::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="d8/d96/class_toggles_group_example_1_1_properties_1_1_resources_1ad704bcd852261b5e61bf8d97c23c8afa" prot="private" virt="non-virtual"><scope>TogglesGroupExample::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="d8/d96/class_toggles_group_example_1_1_properties_1_1_resources_1a77682137b11d403f79bd002f819b55f1" prot="private" virt="non-virtual"><scope>TogglesGroupExample::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="d8/d96/class_toggles_group_example_1_1_properties_1_1_resources_1a4c7680175111d8ad445e79bea478a3d9" prot="package" virt="non-virtual"><scope>TogglesGroupExample::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="d8/d96/class_toggles_group_example_1_1_properties_1_1_resources_1a4611c31d0a2f1f6e85ba931238e42b38" prot="package" virt="non-virtual"><scope>TogglesGroupExample::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_2291d08e0bf915d3eaf27aa944f2ff14" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/Examples/Plugins</compoundname>
+    <innerdir refid="dir_0a21e5b4fb19559efe40f4da5cac315b">D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1</innerdir>
+    <innerdir refid="dir_043387d38079500ccea59ca390eedb83">D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2</innerdir>
+    <innerdir refid="dir_880102523f317f539ea5d5d8dfa3f4f1">D:/Work/GitHub/wpf-handler/Examples/Plugins/MainPluginBasedApp</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_c7288792b40943947a6ab6452fc684fd" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/Examples/Auto layout/ExamplePanelDescriptor/obj</compoundname>
+    <innerdir refid="dir_f439951bc43e960a28f884f14e22b6c6">D:/Work/GitHub/wpf-handler/Examples/Auto layout/ExamplePanelDescriptor/obj/Debug</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Auto layout/ExamplePanelDescriptor/obj/"/>
+  </compounddef>
+</doxygen>

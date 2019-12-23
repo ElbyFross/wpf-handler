@@ -34,18 +34,24 @@ void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_gr
 static readonly Dependency\+Property \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a72591a66a8b72130cf16e966bbed5507}{Label\+Property}}
 \begin{DoxyCompactList}\small\item\em Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. \end{DoxyCompactList}\item 
 static readonly Dependency\+Property \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_acd4cc98db2da7479ac81dd03ceaadcae}{Label\+Width\+Property}}
+\begin{DoxyCompactList}\small\item\em Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. \end{DoxyCompactList}\item 
+static readonly Dependency\+Property \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a2df8b183c4855b48d46fe14730225db4}{Fields\+Content\+Property}}
 \begin{DoxyCompactList}\small\item\em Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Protected Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a58a008dadfd937ce1379ee16602139bd}{Instiniate\+Elements}} ()
 \begin{DoxyCompactList}\small\item\em Instiniating \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}} elements from binded meta. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a02dd935c06724428d0782839f0035189}{Instiniate\+Custom\+Elements}} ()
+\begin{DoxyCompactList}\small\item\em Instiniating elelements for the custom \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a48c85f0f2ca803d28b95877dbc0122f0}{Fields\+Content}} list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_af854af2e1f2768daedecb38eb983072f}{Instiniate\+Enum\+Elements}} ()
+\begin{DoxyCompactList}\small\item\em Instiniated elements by the binded Enum type. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a8e8bd8928ac0cba35f35554adad3f077}{User\+Control\+\_\+\+Loaded}} (object sender, Routed\+Event\+Args e)
 \begin{DoxyCompactList}\small\item\em Occurs when the element is loaded. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Protected Attributes}
 \begin{DoxyCompactItemize}
 \item 
-float \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_ad83c54ae94296233bdebfb1ff14d94cc}{Last\+Lable\+Width}} = 0
+float \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_ab56d0f33fd489259568de7a64b14487d}{Last\+Label\+Width}} = 0
 \begin{DoxyCompactList}\small\item\em Bufer that contains las requested label width. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_ab0cb4350ceae1f1288d6c83de4ed66c9}{Orientation}} \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_af7f9d34a746082b32a92ae1cb7e338f2}{\+\_\+\+Orientation}} = Orientation.\+Vertical
 \begin{DoxyCompactList}\small\item\em Bufer that contains current layout orientation. \end{DoxyCompactList}\item 
@@ -72,11 +78,13 @@ System.\+Windows.\+Controls.\+Label {\bfseries label}
 Type \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_abb4f90b5eace0651db2af6f293d312d1}{Binded\+Enum\+Type}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Type that binded to that G\+UI element. \end{DoxyCompactList}\item 
 Array \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a146fc04548cdc1df39cd8c9c1d4b3b00}{Values}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
-\begin{DoxyCompactList}\small\item\em Return an array with values of the binded tnum type. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Return an array with values of the binded tnum type. Using the \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a48c85f0f2ca803d28b95877dbc0122f0}{Fields\+Content}} in case if \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_abb4f90b5eace0651db2af6f293d312d1}{Binded\+Enum\+Type}} is null. \end{DoxyCompactList}\item 
 Orientation \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_ab0cb4350ceae1f1288d6c83de4ed66c9}{Orientation}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Layout orientation of the \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}} elements. \end{DoxyCompactList}\item 
 Framework\+Element \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_af11956552285c0b69219ab52362d3646}{Elements}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Instiniated element in direct order. \end{DoxyCompactList}\item 
+Array \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a48c85f0f2ca803d28b95877dbc0122f0}{Fields\+Content}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Text in label field. \end{DoxyCompactList}\item 
 string \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a49e224a3505a7214029943dd421e4cd6}{Label}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Text in label field. \end{DoxyCompactList}\item 
 float \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a183897b270682950d9a7fa6cc8bd7e0f}{Label\+Width}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
@@ -85,6 +93,8 @@ object \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_
 \begin{DoxyCompactList}\small\item\em Value of that control. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a89cc073c7cd5761d1700f8d545ae72df}{Index}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Current selected element in the group. \end{DoxyCompactList}\item 
+Framework\+Element \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a32cdb6b0e4be63ed1465645f6ea7b16b}{Selected\+Element}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returns current selected \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}} element. \end{DoxyCompactList}\item 
 Member\+Info \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a23b02958e22396a5fb45255cad69eac0}{Binded\+Member}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Memeber that will be used as source for the value into \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}}. \end{DoxyCompactList}\item 
 Panel \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a89515b615bad1290bf2342ff791b8f16}{Items\+Panel}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
@@ -176,6 +186,16 @@ Initialize\+Component
 
 Initialize\+Component 
 
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a02dd935c06724428d0782839f0035189}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a02dd935c06724428d0782839f0035189}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}!Instiniate\+Custom\+Elements@{Instiniate\+Custom\+Elements}}
+\index{Instiniate\+Custom\+Elements@{Instiniate\+Custom\+Elements}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}}
+\subsubsection{\texorpdfstring{Instiniate\+Custom\+Elements()}{InstiniateCustomElements()}}
+{\footnotesize\ttfamily void Wpf\+Handler.\+U\+I.\+Controls.\+Flat\+Toggles\+Group.\+Instiniate\+Custom\+Elements (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Instiniating elelements for the custom \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a48c85f0f2ca803d28b95877dbc0122f0}{Fields\+Content}} list. 
+
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a58a008dadfd937ce1379ee16602139bd}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a58a008dadfd937ce1379ee16602139bd}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}!Instiniate\+Elements@{Instiniate\+Elements}}
 \index{Instiniate\+Elements@{Instiniate\+Elements}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}}
@@ -185,6 +205,16 @@ Initialize\+Component
 
 
 Instiniating \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}} elements from binded meta. 
+
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_af854af2e1f2768daedecb38eb983072f}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_af854af2e1f2768daedecb38eb983072f}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}!Instiniate\+Enum\+Elements@{Instiniate\+Enum\+Elements}}
+\index{Instiniate\+Enum\+Elements@{Instiniate\+Enum\+Elements}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}}
+\subsubsection{\texorpdfstring{Instiniate\+Enum\+Elements()}{InstiniateEnumElements()}}
+{\footnotesize\ttfamily void Wpf\+Handler.\+U\+I.\+Controls.\+Flat\+Toggles\+Group.\+Instiniate\+Enum\+Elements (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Instiniated elements by the binded Enum type. 
 
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a5619e5107d6cbc3fb2cdabb21deb40a4}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a5619e5107d6cbc3fb2cdabb21deb40a4}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}!On\+Layout@{On\+Layout}}
@@ -205,7 +235,7 @@ Modify current layer\textquotesingle{}s layout according to G\+UI element requir
 \end{DoxyParams}
 
 
-Allow castomization enum\textquotesingle{}s element by adding multiply Content\+Attribute. First attribute will applied to the common lable. Any next Content\+Attribute will be related to the elements by the direct order. 
+Allow castomization enum\textquotesingle{}s element by adding multiply Content\+Attribute. First attribute will applied to the common label. Any next Content\+Attribute will be related to the elements by the direct order. 
 
 Implements \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element_a0ff16956f8e8187d51e1b36b6b9f894e}{Wpf\+Handler.\+U\+I.\+Auto\+Layout.\+I\+G\+U\+I\+Element}}.
 
@@ -289,6 +319,21 @@ Bufer that contains current layout orientation.
 
 Bufer that contains the values of the binded enum. 
 
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a2df8b183c4855b48d46fe14730225db4}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a2df8b183c4855b48d46fe14730225db4}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}!Fields\+Content\+Property@{Fields\+Content\+Property}}
+\index{Fields\+Content\+Property@{Fields\+Content\+Property}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}}
+\subsubsection{\texorpdfstring{Fields\+Content\+Property}{FieldsContentProperty}}
+{\footnotesize\ttfamily readonly Dependency\+Property Wpf\+Handler.\+U\+I.\+Controls.\+Flat\+Toggles\+Group.\+Fields\+Content\+Property\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= DependencyProperty.Register(
+          \textcolor{stringliteral}{"FieldsContent"}, typeof(Array), typeof(\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a026f873b2f214e35ee3f3ad5715e1bad}{FlatTogglesGroup}}))
+\end{DoxyCode}
+
+
+Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. 
+
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a72591a66a8b72130cf16e966bbed5507}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a72591a66a8b72130cf16e966bbed5507}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}!Label\+Property@{Label\+Property}}
 \index{Label\+Property@{Label\+Property}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}}
@@ -320,11 +365,11 @@ Property that bridging control\textquotesingle{}s property between X\+A\+ML and 
 
 Property that bridging control\textquotesingle{}s property between X\+A\+ML and code. 
 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_ad83c54ae94296233bdebfb1ff14d94cc}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_ad83c54ae94296233bdebfb1ff14d94cc}} 
-\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}!Last\+Lable\+Width@{Last\+Lable\+Width}}
-\index{Last\+Lable\+Width@{Last\+Lable\+Width}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}}
-\subsubsection{\texorpdfstring{Last\+Lable\+Width}{LastLableWidth}}
-{\footnotesize\ttfamily float Wpf\+Handler.\+U\+I.\+Controls.\+Flat\+Toggles\+Group.\+Last\+Lable\+Width = 0\hspace{0.3cm}{\ttfamily [protected]}}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_ab56d0f33fd489259568de7a64b14487d}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_ab56d0f33fd489259568de7a64b14487d}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}!Last\+Label\+Width@{Last\+Label\+Width}}
+\index{Last\+Label\+Width@{Last\+Label\+Width}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}}
+\subsubsection{\texorpdfstring{Last\+Label\+Width}{LastLabelWidth}}
+{\footnotesize\ttfamily float Wpf\+Handler.\+U\+I.\+Controls.\+Flat\+Toggles\+Group.\+Last\+Label\+Width = 0\hspace{0.3cm}{\ttfamily [protected]}}
 
 
 
@@ -362,6 +407,16 @@ The S\+ET option is not supported. \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_
 
 
 Instiniated element in direct order. 
+
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a48c85f0f2ca803d28b95877dbc0122f0}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a48c85f0f2ca803d28b95877dbc0122f0}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}!Fields\+Content@{Fields\+Content}}
+\index{Fields\+Content@{Fields\+Content}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}}
+\subsubsection{\texorpdfstring{Fields\+Content}{FieldsContent}}
+{\footnotesize\ttfamily Array Wpf\+Handler.\+U\+I.\+Controls.\+Flat\+Toggles\+Group.\+Fields\+Content\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Text in label field. 
 
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a89cc073c7cd5761d1700f8d545ae72df}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a89cc073c7cd5761d1700f8d545ae72df}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}!Index@{Index}}
@@ -413,6 +468,16 @@ Width of label field.
 
 Layout orientation of the \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}} elements. 
 
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a32cdb6b0e4be63ed1465645f6ea7b16b}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a32cdb6b0e4be63ed1465645f6ea7b16b}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}!Selected\+Element@{Selected\+Element}}
+\index{Selected\+Element@{Selected\+Element}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}}
+\subsubsection{\texorpdfstring{Selected\+Element}{SelectedElement}}
+{\footnotesize\ttfamily Framework\+Element Wpf\+Handler.\+U\+I.\+Controls.\+Flat\+Toggles\+Group.\+Selected\+Element\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Returns current selected \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}} element. 
+
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a699f90c459005d9501720e719859ba96}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a699f90c459005d9501720e719859ba96}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}!Value@{Value}}
 \index{Value@{Value}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}}
@@ -423,7 +488,7 @@ Layout orientation of the \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}} e
 
 Value of that control. 
 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a146fc04548cdc1df39cd8c9c1d4b3b00}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a146fc04548cdc1df39cd8c9c1d4b3b00}} 
+Set allowed only for the enum values. For applying custom list use \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a48c85f0f2ca803d28b95877dbc0122f0}{Fields\+Content}} property. \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a146fc04548cdc1df39cd8c9c1d4b3b00}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a146fc04548cdc1df39cd8c9c1d4b3b00}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}!Values@{Values}}
 \index{Values@{Values}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Flat\+Toggles\+Group}}
 \subsubsection{\texorpdfstring{Values}{Values}}
@@ -431,7 +496,7 @@ Value of that control.
 
 
 
-Return an array with values of the binded tnum type. 
+Return an array with values of the binded tnum type. Using the \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_a48c85f0f2ca803d28b95877dbc0122f0}{Fields\+Content}} in case if \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_abb4f90b5eace0651db2af6f293d312d1}{Binded\+Enum\+Type}} is null. 
 
 
 

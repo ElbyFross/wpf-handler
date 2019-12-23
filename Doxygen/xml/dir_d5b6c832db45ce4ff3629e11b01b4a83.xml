@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_d5b6c832db45ce4ff3629e11b01b4a83" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls</compoundname>
+    <innerdir refid="dir_76ec52df33d35785cf49ec27efe02d85">D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj</innerdir>
+    <innerdir refid="dir_7553eb98b9c8f68ca8b490259673b8cb">D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/Properties</innerdir>
+    <innerfile refid="d7/d21/_controls_01using_2_text_filed_controls_2_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="d0/d02/_custom_autolayout_descriptor_8cs">CustomAutolayoutDescriptor.cs</innerfile>
+    <innerfile refid="d0/d24/_controls_01using_2_text_filed_controls_2_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/"/>
+  </compounddef>
+</doxygen>

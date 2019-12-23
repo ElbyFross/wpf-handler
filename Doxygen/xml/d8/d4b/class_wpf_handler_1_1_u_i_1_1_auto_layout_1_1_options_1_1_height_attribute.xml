@@ -71,63 +71,63 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Define height of the GUI element. </para>    </briefdescription>
+<para>Defines a height of the GUI element. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="272">
+      <node id="296">
         <label>WpfHandler.UI.AutoLayout.Options.HeightAttribute</label>
         <link refid="d8/d4b/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_height_attribute"/>
-        <childnode refid="273" relation="public-inheritance">
+        <childnode refid="297" relation="public-inheritance">
         </childnode>
-        <childnode refid="276" relation="public-inheritance">
+        <childnode refid="300" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="275">
+      <node id="299">
         <label>ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="274">
+      <node id="298">
         <label>Attribute</label>
       </node>
-      <node id="273">
+      <node id="297">
         <label>LayoutSizeAttribute</label>
         <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
-        <childnode refid="274" relation="public-inheritance">
+        <childnode refid="298" relation="public-inheritance">
         </childnode>
-        <childnode refid="275" relation="public-inheritance">
+        <childnode refid="299" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="276">
+      <node id="300">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="277">
+      <node id="301">
         <label>WpfHandler.UI.AutoLayout.Options.HeightAttribute</label>
         <link refid="d8/d4b/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_height_attribute"/>
-        <childnode refid="278" relation="public-inheritance">
+        <childnode refid="302" relation="public-inheritance">
         </childnode>
-        <childnode refid="281" relation="public-inheritance">
+        <childnode refid="305" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="280">
+      <node id="304">
         <label>ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="279">
+      <node id="303">
         <label>Attribute</label>
       </node>
-      <node id="278">
+      <node id="302">
         <label>LayoutSizeAttribute</label>
         <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
-        <childnode refid="279" relation="public-inheritance">
+        <childnode refid="303" relation="public-inheritance">
         </childnode>
-        <childnode refid="280" relation="public-inheritance">
+        <childnode refid="304" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="281">
+      <node id="305">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>

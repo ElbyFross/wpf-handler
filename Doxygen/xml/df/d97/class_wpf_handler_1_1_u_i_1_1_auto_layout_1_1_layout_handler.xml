@@ -15,7 +15,7 @@
 <para>Key - The source Type Value - The binded Type of the <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> suitable for displaing a source data. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="49" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="49" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="50" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1ae61aae6b0256f71e33dc8c8ed1403ff0" prot="private" static="yes" mutable="no">
         <type>readonly Hashtable</type>
@@ -29,21 +29,21 @@
 <para>Key - The source Type Value - The binded Type of the <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> suitable for displaing a source data. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="58" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="58" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="59" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="59" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a9838c1e408adbcb072a03521be50e6fe" prot="private" static="yes" mutable="no">
+      <memberdef kind="variable" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1aec598e1921c5fe2ba40f57772be8ac5d" prot="private" static="yes" mutable="no">
         <type>readonly Hashtable</type>
-        <definition>readonly Hashtable WpfHandler.UI.AutoLayout.LayoutHandler.EnumerableControlsBindings</definition>
+        <definition>readonly Hashtable WpfHandler.UI.AutoLayout.LayoutHandler.ListControlsBindings</definition>
         <argsstring></argsstring>
-        <name>EnumerableControlsBindings</name>
+        <name>ListControlsBindings</name>
         <initializer>= new Hashtable()</initializer>
         <briefdescription>
-<para>Contains declared bindings from types to default layout controls comaptible with an enumerable types. </para>        </briefdescription>
+<para>Contains declared bindings from types to default layout controls comaptible with an IList types. </para>        </briefdescription>
         <detaileddescription>
 <para>Key - The source Type Value - The binded Type of the <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> suitable for displaing a source data. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="67" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="67" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="68" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1afda300c91d5d5e45c7fb51d1154fcf4b" prot="private" static="yes" mutable="no">
         <type>readonly Hashtable</type>
@@ -57,7 +57,7 @@
 <para>Key = Type of the binded <ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="74" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="74" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="75" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="75" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="79" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="79" bodyend="82"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="80" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="80" bodyend="83"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -110,7 +110,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="89" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="89" bodyend="112"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="90" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="90" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1aa974993604b1fe101eccab0fe966170a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -146,7 +146,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="119" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="119" bodyend="129"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="120" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="120" bodyend="130"/>
       </memberdef>
       <memberdef kind="function" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a2ae3e871977ebeaed8c265ccf98e46a9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -204,7 +204,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="138" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="138" bodyend="189"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="139" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="139" bodyend="202"/>
       </memberdef>
       <memberdef kind="function" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a14720e6297e28f2502765ac372f32155" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -229,7 +229,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="195" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="195" bodyend="209"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="208" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="208" bodyend="222"/>
       </memberdef>
       <memberdef kind="function" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a68b385db6f1fb9795be73195401a3175" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="214" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="214" bodyend="273"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="227" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="227" bodyend="286"/>
       </memberdef>
       <memberdef kind="function" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1ad580450c00d9a58be2c85399e7cf4b26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -289,7 +289,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="281" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="281" bodyend="293"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="294" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="294" bodyend="306"/>
       </memberdef>
       <memberdef kind="function" id="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1adbcbc84c8b00500646fd088f9dfba3c4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Type</type>
@@ -326,22 +326,22 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="301" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="301" bodyend="380"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="314" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="314" bodyend="393"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Provides core methods for layout controls. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="40" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="39" bodyend="381"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/LayoutHandler.cs" bodystart="40" bodyend="394"/>
     <listofallmembers>
       <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1ad580450c00d9a58be2c85399e7cf4b26" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>BindLayoutControlToType</name></member>
       <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a15ec26f7b47df47d599c8e649b766463" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>DefaultControlsBindings</name></member>
       <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1ae61aae6b0256f71e33dc8c8ed1403ff0" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>EnumControlsBindings</name></member>
-      <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a9838c1e408adbcb072a03521be50e6fe" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>EnumerableControlsBindings</name></member>
       <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1adbcbc84c8b00500646fd088f9dfba3c4" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>GetBindedControl</name></member>
       <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1af450dc0f251144cbdb3c64c4756c8025" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>HorizontalLayoutAddChild</name></member>
       <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1af5019f7dbd2cfafc9d5c5fce4382ff8f" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>LayoutHandler</name></member>
+      <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1aec598e1921c5fe2ba40f57772be8ac5d" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>ListControlsBindings</name></member>
       <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a2ae3e871977ebeaed8c265ccf98e46a9" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>RegistrateField</name></member>
       <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1afda300c91d5d5e45c7fb51d1154fcf4b" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>RegistredCallbacks</name></member>
       <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a68b385db6f1fb9795be73195401a3175" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::LayoutHandler</scope><name>RescanAssemblies</name></member>

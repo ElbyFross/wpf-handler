@@ -19,17 +19,25 @@
     <member refid="d9/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_grid_1_1_active_border_1a6650edd577dccb9d3d78cde5893c0e71" kind="variable"><name>_UI</name></member>
     <member refid="d9/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_grid_1_1_active_border_1acd9397efd16845ced60fd9e73016de08" kind="function"><name>UpdateLayout</name></member>
   </compound>
+  <compound refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor" kind="class"><name>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</name>
+    <member refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1ae8a21fc8856329480880595b0942afe7" kind="property"><name>Email</name></member>
+    <member refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a025efd3270fd44b0a8aafa7aa01fb50b" kind="property"><name>ContactPhone</name></member>
+    <member refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a4fd87d8eab706d490c23ce21cbac3507" kind="property"><name>Country</name></member>
+    <member refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a5918a7c8d33623d3cf9bc0bba7c295a2" kind="property"><name>City</name></member>
+    <member refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a22e104a6aa8557c53ac8ab6bd53a3a0b" kind="property"><name>BirthYear</name></member>
+    <member refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a54f4881fa4b6fbfd0aa8baa93993523c" kind="property"><name>BirthMonth</name></member>
+    <member refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a30229eda915ba6cfdf9747e369f6afbe" kind="property"><name>BirthDay</name></member>
+  </compound>
+  <compound refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i" kind="class"><name>WpfHandler::Dictionaries::API</name>
+    <member refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1ac9aafbe351f06f0c20de39508d3e8852" kind="function"><name>LoadXAML_Thems</name></member>
+    <member refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1a0de06b29ec542383dbdc470bb9a7c98e" kind="function"><name>UpdateDictionariesGroup</name></member>
+    <member refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1a2611ee5407fe0a4cde1a2490a54d759e" kind="function"><name>ClearDictionariesGroup</name></member>
+  </compound>
   <compound refid="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i" kind="class"><name>WpfHandler::Plugins::API</name>
     <member refid="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1ae2d2c46617f63533ddc20f08166b6c6e" kind="function"><name>LoadPluginsEnumerable</name></member>
     <member refid="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1aa797a592049cf57860ee422586fcccac" kind="function"><name>LoadPluginsCollection</name></member>
     <member refid="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1a4dbfd1cc62cfb8def6f17d8c622e0fd8" kind="function"><name>OpenGUI</name></member>
     <member refid="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1aaa094e4b6d27c336e8f0f76acc04ba20" kind="function"><name>SortByDomains</name></member>
-  </compound>
-  <compound refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i" kind="class"><name>WpfHandler::Dictionaries::API</name>
-    <member refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1a1d26084678af47b609f686215de5a171" kind="event"><name>LanguagesDictionariesUpdated</name></member>
-    <member refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1ac9aafbe351f06f0c20de39508d3e8852" kind="function"><name>LoadXAML_Thems</name></member>
-    <member refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1ad5c415a6377e871aff2020a9489815ff" kind="function"><name>LoadXAML_LangDicts</name></member>
-    <member refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1a0de06b29ec542383dbdc470bb9a7c98e" kind="function"><name>UpdateDictionariesGroup</name></member>
   </compound>
   <compound refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection" kind="class"><name>WpfHandler::UI::Controls::AutoCollection</name>
     <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a7dc53e4e449c84aaf0224e67178c75ee" kind="variable"><name>buttonsBridge</name></member>
@@ -73,8 +81,8 @@
     <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a1a849b598ba5dadbb9466b3b758377cf" kind="function"><name>AutoCollection_Loaded</name></member>
     <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a01ab069c42e1737cebb4bb813ec8aa06" kind="function"><name>RecomputeLayout</name></member>
     <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a7cea6362ca2a31dca7bca6ab1f39142d" kind="function"><name>ItemRegistration</name></member>
-    <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1ac229b39e23e0d2d9895f4897d1116e70" kind="function"><name>OnAdd</name></member>
-    <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1addd4df92578229539c28bc4db8121d68" kind="function"><name>OnRemove</name></member>
+    <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1aa1fe0a4a51d4d2bc90bc7413f157513f" kind="function"><name>OnAdd</name></member>
+    <member refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_1a782eacc20f715ac1d15e3ca15b96b870" kind="function"><name>OnRemove</name></member>
   </compound>
   <compound refid="d7/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_auto_collection_properties_attribute" kind="class"><name>WpfHandler::UI::AutoLayout::Options::AutoCollectionPropertiesAttribute</name>
     <member refid="d7/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_auto_collection_properties_attribute_1a7a137eb3059dd6d79f4edd9cee95769c" kind="property"><name>CornerRadius</name></member>
@@ -83,6 +91,7 @@
     <member refid="d7/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_auto_collection_properties_attribute_1a88ab71f9762a0d8425ebf57f72c0b2aa" kind="property"><name>BackplateBackground</name></member>
     <member refid="d7/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_auto_collection_properties_attribute_1aa93230d17f835aa86a64d12914ac482e" kind="property"><name>AddButtonVisibile</name></member>
     <member refid="d7/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_auto_collection_properties_attribute_1a143a7de08e82032c232df0d05c2e1678" kind="property"><name>RemoveButtonVisibile</name></member>
+    <member refid="d7/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_auto_collection_properties_attribute_1af5ff32848512ac0fb040b7e0d6311c0e" kind="property"><name>DragAllowed</name></member>
     <member refid="d7/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_auto_collection_properties_attribute_1aaff2195c793c7e75ac553291d9189655" kind="function"><name>ApplyLayoutOption</name></member>
   </compound>
   <compound refid="d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw" kind="class"><name>WpfHandler::UI::AutoLayout::Controls::AutoLayoutVeiw</name>
@@ -153,6 +162,20 @@
     <member refid="d0/d24/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_button_1a8b8d46e0277bc37fa5b44878ff08227d" kind="function"><name>Connect</name></member>
     <member refid="d0/d24/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_button_1af586051be4f757942d42f6b3825a9aa0" kind="function"><name>CatalogButton_Click</name></member>
   </compound>
+  <compound refid="dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view" kind="class"><name>WpfHandler::UI::Controls::CatalogView</name>
+    <member refid="dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view_1afa1ca29284af69857b98e9f01fd55cb2" kind="variable"><name>MainMenu</name></member>
+    <member refid="dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view_1a4919c5ea75e5c986e98266ef8fced0f5" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view_1a7672bbed750a86616eb69af0cec22728" kind="property"><name>Plugins</name></member>
+    <member refid="dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view_1a2cca758ee3885d67264eea318ea83b91" kind="property"><name>MenuButtons</name></member>
+    <member refid="dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view_1a90654c67633bf7c8848f2b8dc1a3c712" kind="function"><name>InitializeComponent</name></member>
+    <member refid="dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view_1a90654c67633bf7c8848f2b8dc1a3c712" kind="function"><name>InitializeComponent</name></member>
+    <member refid="dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view_1a805f93d9e815024d12b2ca2be31ad071" kind="function"><name>CatalogView</name></member>
+    <member refid="dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view_1aad6922f8af811dedadc8b4b7ea95ef18" kind="function"><name>UpdateCatolog</name></member>
+    <member refid="dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view_1a951cea1f55959f899562479d7b2e4490" kind="function"><name>StartPlugin</name></member>
+    <member refid="dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view_1ac22dfdce2ff1a076449c33adf17f1dc1" kind="function"><name>StartPlugin</name></member>
+    <member refid="dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view_1a494d414ffd5a4bc6df0a11e136399b9c" kind="function"><name>Connect</name></member>
+    <member refid="dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view_1a494d414ffd5a4bc6df0a11e136399b9c" kind="function"><name>Connect</name></member>
+  </compound>
   <compound refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control" kind="class"><name>WpfHandler::UI::Controls::CollectionControl</name>
     <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1aea4afe7ae229937f9c99809d720d8875" kind="variable"><name>DragAllowedProperty</name></member>
     <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a93748b307999d44bfa539f0a799af1de" kind="property"><name>DragAllowed</name></member>
@@ -170,6 +193,7 @@
     <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a7c24ead5af7dadce18f017f0a93706a2" kind="event"><name>ValueChanged</name></member>
     <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1af3a8d4c03474bbb80d8d461f4a8e33e8" kind="variable"><name>indexMap</name></member>
     <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a78ccfdc5208ab2306308d7356757f32f" kind="variable"><name>source</name></member>
+    <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a128726ac8376cf78e3c33ba1c9f00b2d" kind="variable"><name>bindedSource</name></member>
     <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1a5228b3f2d5efec75b178a160bfd9a558" kind="function"><name>CollectionControl</name></member>
     <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae17242c33bd29c2545a06bba9c93a1df" kind="function"><name>Add</name></member>
     <member refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_1ae703be50b290be72a7a40acbfe65b04c" kind="function"><name>Contains</name></member>
@@ -212,13 +236,25 @@
     <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1ab0c84b73301dd184abc00bbf5204c178" kind="function"><name>ContentAttribute</name></member>
     <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a54c8ed64b08dbbf380bfb47cbe2829e2" kind="function"><name>ContentAttribute</name></member>
     <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a498818bc121b7f408af302eb4085056a" kind="function"><name>LanguagesDictionariesUpdated</name></member>
-    <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a6e768c541979b771942cf038e8ac084a" kind="function"><name>BindToLable</name></member>
-    <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a6b3765fe9e02052ae0d76d6964205f97" kind="function"><name>BindToLable</name></member>
+    <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1a0d0f48fc255493eec2f341b9b90d5eee" kind="function"><name>BindToLabel</name></member>
+    <member refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute_1aced8f451c4ff60a54694d64581432a36" kind="function"><name>BindToLabel</name></member>
   </compound>
   <compound refid="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute" kind="class"><name>WpfHandler::UI::AutoLayout::Configuration::CustomControlAttribute</name>
     <member refid="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute_1a71f151123c78381231004ac155570be0" kind="property"><name>ControlType</name></member>
     <member refid="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute_1a3099e2b45323143744f788f5f9db22ab" kind="variable"><name>_ControlType</name></member>
     <member refid="d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute_1a7a46691a6fae1c36fb9812923e90cf8a" kind="function"><name>CustomControlAttribute</name></member>
+  </compound>
+  <compound refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor" kind="class"><name>WpfHandler::UI::Controls::Logon::DefaultRegistrationPanelDescriptor</name>
+    <member refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor_1a4be5b2a0ce4dcbd9c596057b5bbeb8ce" kind="property"><name>Login</name></member>
+    <member refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor_1ac525bd60f8febfaa251aeaebed55f515" kind="property"><name>Password</name></member>
+    <member refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor_1a6779df49ec2d45ee293929f3e7bafcf6" kind="property"><name>PasswordConfirmation</name></member>
+    <member refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor_1a10f8af981d1154451adbc5896f53ffca" kind="property"><name>FirstName</name></member>
+    <member refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor_1a2a57913c309a9fb31fe5d4d9b0d6b7c6" kind="property"><name>MiddleName</name></member>
+    <member refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor_1a1cbf11f8c75a668f9a7398d3618857c9" kind="property"><name>LastName</name></member>
+    <member refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor_1aecc64f8b53d3fb5e69d55d691a320a4b" kind="property"><name>IsPasswordsTheSame</name></member>
+    <member refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor_1abc8055d00358a941e9b507fed58ff662" kind="function"><name>OnValidation</name></member>
+    <member refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor_1aee1e6b6ba9214aac4a82b0213e4d3442" kind="function"><name>OnConfirm</name></member>
+    <member refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor_1a9154a1e27afdf8d40da139042ee7e609" kind="function"><name>OnCancel</name></member>
   </compound>
   <compound refid="d1/d18/class_wpf_handler_1_1_dictionaries_1_1_domain_container" kind="class"><name>WpfHandler::Dictionaries::DomainContainer</name>
     <member refid="d1/d18/class_wpf_handler_1_1_dictionaries_1_1_domain_container_1ac87b2b5f12c34ef7c585f789a48667eb" kind="variable"><name>key</name></member>
@@ -230,9 +266,7 @@
     <member refid="db/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_end_group_attribute_1a8f6eb211c88e7d5ade018a8f79d34a17" kind="variable"><name>_Layer</name></member>
     <member refid="db/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_end_group_attribute_1acaed685d0daf2b14d8f232389d56c478" kind="function"><name>OnLayout</name></member>
   </compound>
-  <compound refid="d2/dc3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enumerable_compatible_attribute" kind="class"><name>WpfHandler::UI::AutoLayout::Configuration::EnumerableCompatibleAttribute</name>
-  </compound>
-  <compound refid="dd/db3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enums_compatible_attribute" kind="class"><name>WpfHandler::UI::AutoLayout::Configuration::EnumsCompatibleAttribute</name>
+  <compound refid="d0/de7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_enums_compatible_attribute" kind="class"><name>WpfHandler::UI::AutoLayout::Markups::EnumsCompatibleAttribute</name>
   </compound>
   <compound refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation" kind="class"><name>WpfHandler::UI::Animations::GridLengthAnimation::ExpanderDoubleAnimation</name>
     <member refid="d8/d40/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation_1_1_expander_double_animation_1a07d113740c7fc7eb161b5a0e38148462" kind="variable"><name>FromProperty</name></member>
@@ -249,12 +283,11 @@
     <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1abd241b6a495c587914bde27d925e5fb7" kind="variable"><name>flatButton</name></member>
     <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a40d13fb4b546b97391efb5ae45b621b7" kind="variable"><name>label</name></member>
     <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a894cd257cfad5ffdf7b4208cb022d41d" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a69190a203535d031a46aa317c5fa93e2" kind="variable"><name>ClickEvent</name></member>
     <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1acad3d234805ceee99eeced499fe8cd80" kind="variable"><name>LabelProperty</name></member>
-    <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a1b00c5705a924fc737e20b3af96d7c56" kind="variable"><name>ClickCallbackProperty</name></member>
     <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a2408c739aab8767dd0972dd0a7957abc" kind="property"><name>Label</name></member>
-    <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a3d54019f2c7f46783061412232d0d222" kind="property"><name>LabelMargin</name></member>
+    <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1ad9184f68d9f9ae9db49fa4a82a97ae15" kind="property"><name>Click</name></member>
     <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1ad8f23ebbd9a85097d01940f80d372217" kind="property"><name>LabelWidth</name></member>
-    <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a4edcdc46b57a6db89144aa2c69e524a0" kind="property"><name>ClickCallback</name></member>
     <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1acabdb68bfd2ca1a7baf68aeb819a7721" kind="function"><name>InitializeComponent</name></member>
     <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1acabdb68bfd2ca1a7baf68aeb819a7721" kind="function"><name>InitializeComponent</name></member>
     <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1acabdb68bfd2ca1a7baf68aeb819a7721" kind="function"><name>InitializeComponent</name></member>
@@ -264,11 +297,12 @@
     <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a8dbfddaea8859d6d10ddc916cd6ce094" kind="function"><name>Connect</name></member>
     <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a8dbfddaea8859d6d10ddc916cd6ce094" kind="function"><name>Connect</name></member>
     <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a8dbfddaea8859d6d10ddc916cd6ce094" kind="function"><name>Connect</name></member>
-    <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1aa391448d8f6b7a7c00cb43c6096a9d6d" kind="function"><name>CatalogButton_Click</name></member>
+    <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a5248afc0ce1627f03c235fc2d2df8230" kind="function"><name>FlatButton_Click</name></member>
+    <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a406ba3c9497144f0a256f91b9883b98a" kind="function"><name>FlatButton</name></member>
   </compound>
   <compound refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box" kind="class"><name>WpfHandler::UI::Controls::FlatPasswordBox</name>
     <member refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box_1a44b2eb37ff6b536683c63ec5c1b894f9" kind="variable"><name>flatButton</name></member>
-    <member refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box_1a70ad5566d4868f34875a3d2d658380ae" kind="variable"><name>lableElement</name></member>
+    <member refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box_1a0005bd42a8e3b5b3b8a9bf0777ad2432" kind="variable"><name>labelElement</name></member>
     <member refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box_1a2528eecafad73e73ff72376b99087c8a" kind="variable"><name>spliter</name></member>
     <member refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box_1a90d47102a4488676f596b8593f0bdcf2" kind="variable"><name>fieldElement</name></member>
     <member refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box_1a633b415dd5950b41ff30666ca00f141a" kind="variable"><name>passwordBox</name></member>
@@ -331,17 +365,20 @@
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a07a25f02db300f347d12a32175acc88b" kind="variable"><name>_contentLoaded</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a72591a66a8b72130cf16e966bbed5507" kind="variable"><name>LabelProperty</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1acd4cc98db2da7479ac81dd03ceaadcae" kind="variable"><name>LabelWidthProperty</name></member>
+    <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a2df8b183c4855b48d46fe14730225db4" kind="variable"><name>FieldsContentProperty</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1abb4f90b5eace0651db2af6f293d312d1" kind="property"><name>BindedEnumType</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a146fc04548cdc1df39cd8c9c1d4b3b00" kind="property"><name>Values</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ab0cb4350ceae1f1288d6c83de4ed66c9" kind="property"><name>Orientation</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1af11956552285c0b69219ab52362d3646" kind="property"><name>Elements</name></member>
+    <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a48c85f0f2ca803d28b95877dbc0122f0" kind="property"><name>FieldsContent</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a49e224a3505a7214029943dd421e4cd6" kind="property"><name>Label</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a183897b270682950d9a7fa6cc8bd7e0f" kind="property"><name>LabelWidth</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a699f90c459005d9501720e719859ba96" kind="property"><name>Value</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a89cc073c7cd5761d1700f8d545ae72df" kind="property"><name>Index</name></member>
+    <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a32cdb6b0e4be63ed1465645f6ea7b16b" kind="property"><name>SelectedElement</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a23b02958e22396a5fb45255cad69eac0" kind="property"><name>BindedMember</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a89515b615bad1290bf2342ff791b8f16" kind="property"><name>ItemsPanel</name></member>
-    <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ad83c54ae94296233bdebfb1ff14d94cc" kind="variable"><name>LastLableWidth</name></member>
+    <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ab56d0f33fd489259568de7a64b14487d" kind="variable"><name>LastLabelWidth</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1af7f9d34a746082b32a92ae1cb7e338f2" kind="variable"><name>_Orientation</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a559848ddfbcddd8620d9a7783d2a7d04" kind="variable"><name>_Index</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a4c0eac437404a019551b6bfd102cc034" kind="variable"><name>_BindedMember</name></member>
@@ -360,6 +397,8 @@
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ac714bc342f0c8121d2adb1585696110c" kind="function"><name>Connect</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1ac714bc342f0c8121d2adb1585696110c" kind="function"><name>Connect</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a58a008dadfd937ce1379ee16602139bd" kind="function"><name>InstiniateElements</name></member>
+    <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a02dd935c06724428d0782839f0035189" kind="function"><name>InstiniateCustomElements</name></member>
+    <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1af854af2e1f2768daedecb38eb983072f" kind="function"><name>InstiniateEnumElements</name></member>
     <member refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group_1a8e8bd8928ac0cba35f35554adad3f077" kind="function"><name>UserControl_Loaded</name></member>
   </compound>
   <compound refid="df/d3e/class_wpf_handler_1_1_u_i_1_1_animations_1_1_float_animation" kind="class"><name>WpfHandler::UI::Animations::FloatAnimation</name>
@@ -377,6 +416,13 @@
     <member refid="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute_1ae4e67116f7dcce84028e700262afd1cf" kind="function"><name>ForegroundAttribute</name></member>
     <member refid="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute_1ab3c65b68928d5ad4ccedee5b7baa337c" kind="function"><name>ForegroundAttribute</name></member>
     <member refid="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute_1a5231ed2afb4d2d26eac9eab670adca45" kind="function"><name>ApplyLayoutOption</name></member>
+  </compound>
+  <compound refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor" kind="class"><name>WpfHandler::UI::AutoLayout::FormDescriptor</name>
+    <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a8a95b91b04aec2b3e109845866c25fb2" kind="event"><name>OnConfirmEvent</name></member>
+    <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a5be99456050a10453139bf7a27baa78a" kind="event"><name>OnCancelEvent</name></member>
+    <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a63527cbe3f75e544b7f4ab417bfbb555" kind="function"><name>OnValidation</name></member>
+    <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1ae2d4791e3085dba435c09b6082bd8408" kind="function"><name>OnConfirm</name></member>
+    <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a4bbe131238be232c253ca4c65e8493f4" kind="function"><name>OnCancel</name></member>
   </compound>
   <compound refid="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper" kind="class"><name>XamlGeneratedNamespace::GeneratedInternalTypeHelper</name>
     <member refid="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper_1aefb7a98fceb9c287cef4756942f441d1" kind="function"><name>CreateInstance</name></member>
@@ -441,8 +487,10 @@
     <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a98ca8cae768fad4160df1aba48d6f7f6" kind="function"><name>GetDescription</name></member>
     <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ad37327acd55ad09e036f284970d1e022" kind="function"><name>Format</name></member>
     <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ae691340b5a25a5497d9f64d4b0adddd6" kind="function"><name>Clear</name></member>
+    <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1ae38dd5281ee8568b040af4c1d14322c4" kind="function"><name>ToString</name></member>
     <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a6bd38c606c795603ab17e2d6acfec72f" kind="function"><name>~GUIContent</name></member>
     <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a05536bbfc1d91f3c2db9bea9ae2dc468" kind="function"><name>API_LanguagesDictionariesUpdated</name></member>
+    <member refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_1a0a59156d78345550a413d155791e1137" kind="function"><name>operator string</name></member>
   </compound>
   <compound refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute" kind="class"><name>WpfHandler::UI::GUIContentAttribute</name>
     <member refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute_1a300bccba346680f1baa6812f557209c5" kind="property"><name>Content</name></member>
@@ -504,12 +552,13 @@
   </compound>
   <compound refid="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute" kind="class"><name>WpfHandler::UI::AutoLayout::Options::HorizontalAlignAttribute</name>
     <member refid="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute_1a7e62bc68b5e19d0f8167a97146996b6c" kind="property"><name>Alignment</name></member>
+    <member refid="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute_1a68f618bca2478665511748571b254dd0" kind="function"><name>HorizontalAlignAttribute</name></member>
     <member refid="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute_1a53335e3d47b8509f6ce67ad93044a760" kind="function"><name>ApplyLayoutOption</name></member>
   </compound>
   <compound refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element" kind="interface"><name>WpfHandler::UI::AutoLayout::IGUIElement</name>
     <member refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element_1a0ff16956f8e8187d51e1b36b6b9f894e" kind="function"><name>OnLayout</name></member>
   </compound>
-  <compound refid="d6/d41/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_i_g_u_i_element_binding_attribute" kind="interface"><name>WpfHandler::UI::AutoLayout::Configuration::IGUIElementBindingAttribute</name>
+  <compound refid="d4/d32/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_i_g_u_i_element_binding_attribute" kind="interface"><name>WpfHandler::UI::AutoLayout::Markups::IGUIElementBindingAttribute</name>
   </compound>
   <compound refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kind="interface"><name>WpfHandler::UI::AutoLayout::IGUIField</name>
     <member refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field_1a97d9c046f0ed12e42560f2c7fb414d5f" kind="event"><name>ValueChanged</name></member>
@@ -536,6 +585,8 @@
   <compound refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size" kind="interface"><name>WpfHandler::UI::Controls::ILayoutSize</name>
     <member refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size_1ab6305d7396e1e85d864d110db689331f" kind="property"><name>Size</name></member>
   </compound>
+  <compound refid="d3/df0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_i_list_compatible_attribute" kind="class"><name>WpfHandler::UI::AutoLayout::Markups::IListCompatibleAttribute</name>
+  </compound>
   <compound refid="d2/d34/interface_wpf_handler_1_1_plugins_1_1_i_plugin" kind="interface"><name>WpfHandler::Plugins::IPlugin</name>
     <member refid="d2/d34/interface_wpf_handler_1_1_plugins_1_1_i_plugin_1a654e20458e4e44b69c9de0be25a8d9af" kind="property"><name>Meta</name></member>
     <member refid="d2/d34/interface_wpf_handler_1_1_plugins_1_1_i_plugin_1aabe1a8e5680ebeb37f96ffe86b6123e9" kind="function"><name>OnStart</name></member>
@@ -544,17 +595,17 @@
     <member refid="d4/d78/interface_wpf_handler_1_1_plugins_1_1_i_plugin_settings_1a63a2624a2e5f76e870817ebb292ec462" kind="property"><name>Meta</name></member>
     <member refid="d4/d78/interface_wpf_handler_1_1_plugins_1_1_i_plugin_settings_1a61126c998a55b28a6f7f79905621fc54" kind="property"><name>GUI</name></member>
   </compound>
-  <compound refid="d9/de5/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_selectable_control" kind="interface"><name>WpfHandler::UI::Controls::ISelectableControl</name>
-    <member refid="d9/de5/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_selectable_control_1a523969837cfcc2e0ed51b4ee7eccc334" kind="property"><name>Selected</name></member>
-    <member refid="d9/de5/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_selectable_control_1a65c330a58b8e5fecc26427f9bf00d7f5" kind="property"><name>Group</name></member>
-    <member refid="d9/de5/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_selectable_control_1a50ece3d4f219b4f2d391ff8ad6cae619" kind="property"><name>MultiSelection</name></member>
+  <compound refid="d5/db4/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_toggle_control" kind="interface"><name>WpfHandler::UI::Controls::IToggleControl</name>
+    <member refid="d5/db4/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_toggle_control_1a7262e3301c8625f3104105ed336bc427" kind="property"><name>Selected</name></member>
+    <member refid="d5/db4/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_toggle_control_1a3ad83163a8f21262b4d48d831ad72541" kind="property"><name>Group</name></member>
+    <member refid="d5/db4/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_toggle_control_1a459178217d5156bb32ac1fd9eef9fd20" kind="property"><name>MultiSelection</name></member>
   </compound>
   <compound refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute" kind="class"><name>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</name>
     <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1af52c1a4d96d9ab17f369a6c6423f58fb" kind="function"><name>LabelAttribute</name></member>
     <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a961e0cd1faee5baad4ced251193adcc4" kind="function"><name>LabelAttribute</name></member>
     <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1ae3fc540124479e4cdc343ab23ae1a1c9" kind="function"><name>LabelAttribute</name></member>
     <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1abfc5ebdb910630168db5f10fdbb713b7" kind="function"><name>LabelAttribute</name></member>
-    <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a86bdaaa6d028cbdee8536138e63d0159" kind="function"><name>OnGUI</name></member>
+    <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a70b5b79babc0fd60171ba08231ce2a5c" kind="function"><name>OnLayout</name></member>
     <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a3ed5f61dc946ffd5ce385cc4ef60362d" kind="function"><name>LanguagesDictionariesUpdated</name></member>
   </compound>
   <compound refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute" kind="class"><name>WpfHandler::UI::AutoLayout::Options::LabelWidthAttribute</name>
@@ -567,7 +618,7 @@
   <compound refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler" kind="class"><name>WpfHandler::UI::AutoLayout::LayoutHandler</name>
     <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a15ec26f7b47df47d599c8e649b766463" kind="variable"><name>DefaultControlsBindings</name></member>
     <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1ae61aae6b0256f71e33dc8c8ed1403ff0" kind="variable"><name>EnumControlsBindings</name></member>
-    <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1a9838c1e408adbcb072a03521be50e6fe" kind="variable"><name>EnumerableControlsBindings</name></member>
+    <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1aec598e1921c5fe2ba40f57772be8ac5d" kind="variable"><name>ListControlsBindings</name></member>
     <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1afda300c91d5d5e45c7fb51d1154fcf4b" kind="variable"><name>RegistredCallbacks</name></member>
     <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1af5019f7dbd2cfafc9d5c5fce4382ff8f" kind="function"><name>LayoutHandler</name></member>
     <member refid="df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler_1af450dc0f251144cbdb3c64c4756c8025" kind="function"><name>HorizontalLayoutAddChild</name></member>
@@ -599,6 +650,13 @@
     <member refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1a001e110c7ad42422bc02a44d9eedc801" kind="function"><name>LanguagesDictionariesUpdated</name></member>
     <member refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1a38a1f37df12d6f6205ab32933ddeb5b1" kind="function"><name>~LocalizableContentAttribute</name></member>
   </compound>
+  <compound refid="d6/de1/class_wpf_handler_1_1_u_i_1_1_localization_handler" kind="class"><name>WpfHandler::UI::LocalizationHandler</name>
+    <member refid="d6/de1/class_wpf_handler_1_1_u_i_1_1_localization_handler_1afa222c8723785db39e70a9694e2e5398" kind="event"><name>LanguagesDictionariesUpdated</name></member>
+    <member refid="d6/de1/class_wpf_handler_1_1_u_i_1_1_localization_handler_1a619201b52fa3480e4bdb75231ebdd666" kind="function"><name>BindToLabel</name></member>
+    <member refid="d6/de1/class_wpf_handler_1_1_u_i_1_1_localization_handler_1a45a3a6581764446bf67a622119d9b89d" kind="function"><name>BindToLabel</name></member>
+    <member refid="d6/de1/class_wpf_handler_1_1_u_i_1_1_localization_handler_1a8159e214fd8c0709f32b5b1b3cf25020" kind="function"><name>LoadDictionaries</name></member>
+    <member refid="d6/de1/class_wpf_handler_1_1_u_i_1_1_localization_handler_1a5703a690547759b592d63b5f5b2f489e" kind="function"><name>UnloadDictionaries</name></member>
+  </compound>
   <compound refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen" kind="class"><name>WpfHandler::UI::Controls::LockScreen</name>
     <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1a70df15cf031c4b8b17660091f35eaf5c" kind="variable"><name>lockScreen</name></member>
     <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1a567f1855147e8635ebd8980dc6da744b" kind="variable"><name>backplate</name></member>
@@ -616,7 +674,7 @@
     <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1a9b03e106f5477ce912a76c7b7de5aac2" kind="function"><name>LockScreen</name></member>
     <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1ae53cb9098b105a55f6da81acf3703e69" kind="function"><name>Lock</name></member>
     <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1a2411f98b2544601d6310967dc93064a2" kind="function"><name>Unlock</name></member>
-    <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1a780b13daab4235569b6705639acfe245" kind="function"><name>LockCancelCallbackHandler</name></member>
+    <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1ab3d0b280c769a2c9ed57766d03791fd7" kind="function"><name>LockCancelCallbackHandler</name></member>
     <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1aeadd163b71840ecd0f5364997bf4dd49" kind="function"><name>_CreateDelegate</name></member>
     <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1aeadd163b71840ecd0f5364997bf4dd49" kind="function"><name>_CreateDelegate</name></member>
     <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1aeadd163b71840ecd0f5364997bf4dd49" kind="function"><name>_CreateDelegate</name></member>
@@ -633,13 +691,14 @@
     <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1ac134049e5e6be32614afe0af41ea07f5" kind="variable"><name>passwordField</name></member>
     <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a6e984282d8fb9d7c79392b1c25d95985" kind="variable"><name>errorMessage</name></member>
     <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a03a354da237970cce9d860f8f063b4ac" kind="variable"><name>loginButton</name></member>
-    <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1af3d23fd0eb5d334566ab21f3dbefb4ed" kind="variable"><name>singupButton</name></member>
+    <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1ab327c6d3c4167897e954a26178415a60" kind="variable"><name>signupButton</name></member>
     <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a5911bef87fc1c174057b446915cdf089" kind="variable"><name>restoreButton</name></member>
+    <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1af3d23fd0eb5d334566ab21f3dbefb4ed" kind="variable"><name>singupButton</name></member>
     <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a09f1ffb4c84fcecf5808e8260d8b1b7b" kind="variable"><name>_contentLoaded</name></member>
-    <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1aefd4d1dc75205cc527fd8a8eb57dfc8b" kind="variable"><name>LoginCallbackProperty</name></member>
-    <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a7d3c07ac79cca6ea4ca79ea21aedd42e" kind="variable"><name>SingUpCallbackProperty</name></member>
-    <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a6fc870650cd4c39be458e1da94bc8d70" kind="property"><name>SingUpCallback</name></member>
-    <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a5bb96bdb64897d8822d07c0d3e6fa51e" kind="property"><name>LoginCallback</name></member>
+    <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1ab9613de0d505e18492f27e6a724d5f15" kind="variable"><name>LoginClickEvent</name></member>
+    <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a4cf4484559bf3452fc12775eaa6320f8" kind="variable"><name>SingUpClickEvent</name></member>
+    <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a0f9d98ee4593b4159b475d04304f9c8c" kind="property"><name>SingUpCallback</name></member>
+    <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1ad7db982bbf88ecd0a372135e6e3141ff" kind="property"><name>LoginCallback</name></member>
     <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1abaaf66c7a6670520ca218fe83f571208" kind="property"><name>LogonFormMargin</name></member>
     <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1abf1db78189d11dc269252a5888f7a613" kind="property"><name>Login</name></member>
     <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a2b5b8a76a045af6351be2ddaab3ebaf0" kind="property"><name>Password</name></member>
@@ -661,8 +720,6 @@
     <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a44c9cab77d3396169da4b97ec8edc9b5" kind="function"><name>~LogonPanel</name></member>
     <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a4f72805700420f21360f6d5ffa5c57e0" kind="function"><name>MainWindow_SizeChanged</name></member>
     <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a15ae3f2fcfd57772403ee512f9b9b649" kind="function"><name>LogonPanel_Loaded</name></member>
-    <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1aa7044f107485654e21dd025a18448160" kind="function"><name>LoginCallbackHandler</name></member>
-    <member refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel_1a58f592ad0e43ccafaa9f872a8bcb4770" kind="function"><name>SingUpCallbackHandler</name></member>
   </compound>
   <compound refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen" kind="class"><name>WpfHandler::UI::Controls::Logon::LogonScreen</name>
     <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1add9f8805380be70e40313358bdac0101" kind="variable"><name>main</name></member>
@@ -676,12 +733,16 @@
     <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1ae011b4eb612f117a976bf95fa18dde6f" kind="variable"><name>contentLine2</name></member>
     <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a33806d21a1c1b41b0c7dcb7c59f5c2fa" kind="variable"><name>contentLine3</name></member>
     <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a507b43de13994d560610ccfda99d1b21" kind="variable"><name>_contentLoaded</name></member>
-    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a7eeb82fcda705d681d328d27754be142" kind="variable"><name>OperationCancelCallbackProperty</name></member>
-    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1aaf6c43d29c350ee263c48cee22395866" kind="property"><name>LogonPanel_LoginCallback</name></member>
-    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1aaebc4715a8ea2a8d71275b1fe84f49d2" kind="property"><name>LogonPanel_SingUpCallback</name></member>
-    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a7dda90d79034bc7a2064335d8ccdcd19" kind="property"><name>RegPanel_ContinueCallback</name></member>
-    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1ac42e1308611e356afc0be771b38f5a2c" kind="property"><name>RegPanel_BackCallback</name></member>
-    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a3438f019d965cd643756e612dd8ac2d3" kind="property"><name>OperationCancelCallback</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a2d6e87038fcb0e1594e5ee244853d347" kind="variable"><name>OperationCancelCallbackProperty</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a7ef6a8f429ce0b45e9bf91c350c9a87a" kind="variable"><name>LogonPanel_LoginCallbackProperty</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1ad090d45d15c768ddad5ddf42be1b7c4a" kind="variable"><name>LogonPanel_SignUpCallbackProperty</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1ae158e17e86546c10faa2e157b301c314" kind="variable"><name>RegPanel_ContinueCallbackProperty</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1aa813ce580f5ea686df06b3b050c292d1" kind="variable"><name>RegPanel_BackCallbackProperty</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1ab0f03636283e80be841cd0d1b9e5b444" kind="property"><name>LogonPanel_LoginCallback</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1aac3aa6eacab257ae3ddf0500773b70df" kind="property"><name>LogonPanel_SignUpCallback</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1af2511d9a09e761ab80c154a36052e30d" kind="property"><name>RegPanel_FormsFilledEventHandler</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a5216599ea89bfa7ce9982e6233a9ab0c" kind="property"><name>RegPanel_CancelEventHandler</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a1ba7ce314f41c7dc1575024f56ffbab7" kind="property"><name>OperationCancelCallback</name></member>
     <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a66c8e6dd59e6951a2ccf9889daaadde6" kind="property"><name>FormsAnimationDuration</name></member>
     <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a7e4c55e305734514eeedf6b387dad3ea" kind="property"><name>CurrentForm</name></member>
     <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a410f16aabbf34281eb778da292be0966" kind="variable"><name>logonPanel</name></member>
@@ -701,11 +762,11 @@
     <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a823deb2cd00da3e7fd7ae170c54f5d83" kind="function"><name>Connect</name></member>
     <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a823deb2cd00da3e7fd7ae170c54f5d83" kind="function"><name>Connect</name></member>
     <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a76ac98ecd8837969899dd869fd3014fe" kind="function"><name>~LogonScreen</name></member>
-    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a275dea16cf32b81cd2f75f19c92e5e4b" kind="function"><name>LogonPanel_Loaded</name></member>
-    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a424adaef54eeeb3afb89f0c3c4b8ee90" kind="function"><name>LogonPanel_SingUpCallbackHandler</name></member>
-    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a59b3a2b822c5b5edae10467098a02efc" kind="function"><name>LogonPanel_LoginCallbackHandler</name></member>
-    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a7cadc878b1d75999cefdb12939c2167c" kind="function"><name>RegPanel_BackCallbackHandler</name></member>
-    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a917a514f4651d57e74471217591e203e" kind="function"><name>RegPanel_ContinueCallbackHandler</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1aac956fb8efae7493cbc6f554f4716b66" kind="function"><name>UILoaded</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1aa1e319e525c55df19dcfae4c0c7be28b" kind="function"><name>LogonPanel_SignUpCallbackHandler</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1a13d71de70976c6c1e9f36fb40ec27c65" kind="function"><name>LogonPanel_LoginCallbackHandler</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1ae87f001176943ff985fcf2fe6f64a791" kind="function"><name>RegPanel_BackCallbackHandler</name></member>
+    <member refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen_1ac838f760444a09b103c141dd23f32c03" kind="function"><name>RegPanel_ContinueCallbackHandler</name></member>
   </compound>
   <compound refid="d8/d31/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_height_attribute" kind="class"><name>WpfHandler::UI::AutoLayout::Options::MaxHeightAttribute</name>
     <member refid="d8/d31/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_height_attribute_1af8c796ee4a1ea70d91249014f9c59117" kind="function"><name>MaxHeightAttribute</name></member>
@@ -774,36 +835,34 @@
     <member refid="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1a15ff012163044834cdf634a2282ab6ec" kind="function"><name>UpdateEffect</name></member>
   </compound>
   <compound refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel" kind="class"><name>WpfHandler::UI::Controls::Logon::RegistrationPanel</name>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1af95e091d86d8b32171df8af43faa79f5" kind="variable"><name>root</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ac14ea75c8f7062307d7260af118ca341" kind="variable"><name>main</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ab1bcecd52be11848f03bbec1e96cb0fa" kind="variable"><name>regPanel_FormBlock</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ab26071119187aa5c676cfe8375b059c7" kind="variable"><name>switchPanel</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a861fceb00f8a334e86ed4fb6c166af6d" kind="variable"><name>regBack</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a70804e968bf3ebfd9476ab5a57b4f69c" kind="variable"><name>regContinue</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a6ee85df8f29f781871690a566504a2bf" kind="variable"><name>errorLabel</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a761d743d6667aae4fbb10729c105038a" kind="variable"><name>regLoginField</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1aa7cc2ca9c02e8600c76c3853f91600aa" kind="variable"><name>regPasswordField</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a5bca8248a3d8843b1e45eea2416b264c" kind="variable"><name>regPasswordField2</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a040e76a570eb6560f1b5f6ebbd0e61ca" kind="variable"><name>regFNameField</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a2861818158d989e7166da9158282def3" kind="variable"><name>regMNameField</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a4c4e085fd6c4d861d82586b3eeeee9cf" kind="variable"><name>regLNameField</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a861fceb00f8a334e86ed4fb6c166af6d" kind="variable"><name>regBack</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a70804e968bf3ebfd9476ab5a57b4f69c" kind="variable"><name>regContinue</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a238fdf2bd9df827a989a8677c81639b0" kind="variable"><name>regPanel_error_server</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1aba35a21a7032f0c95be462ae591b07dd" kind="variable"><name>regPanel_error_lPNM</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1aed13115a5a985f5c7e238bcd887c62ca" kind="variable"><name>regPanel_error_lFAF</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a952c9b5d4435669a5f3446869e8e004c" kind="variable"><name>_contentLoaded</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ae2306dea3d2ed9ef33d24e846e06c250" kind="variable"><name>ContinueCallbackProperty</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ab31a831af5a6c9be9f96671b983cada3" kind="variable"><name>BackCallbackProperty</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1abaec8de066eb2e0300849e2d649aa451" kind="property"><name>ContinueCallback</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a52f6e9d84b5d3011ddb8313426fd06ab" kind="property"><name>BackCallback</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ad05f4bb773e52b1715229a854cf3a8ad" kind="property"><name>RegFormMargin</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ae620351878cf6ccd4775d5af277a0542" kind="variable"><name>FormToElement</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a6c9450ade16af883e6d2f0801713ebc6" kind="variable"><name>_CurrentFormIndex</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1afe33efe5602a8bb21a3385c9e13e3e48" kind="variable"><name>FormsFilledEvent</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a27f085f1c5216593bc730d5c2f43a6d3" kind="variable"><name>CancelEvent</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a59719c447948da62701cfbc4e22e3c2c" kind="property"><name>FormsFilled</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1af504e42fbe82a5259b34a60671343c00" kind="property"><name>Cancel</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a91323c1b7f498e79c891dbb9a968537d" kind="property"><name>RegFormWidth</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a8cb28db1c4476e3261428c359171aa1b" kind="property"><name>Login</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ad0c2680bd73c2f4d9bc18f776276a98c" kind="property"><name>Password</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a3cd22277d691338136b2834f3eb4b2de" kind="property"><name>PasswordConfirmation</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ac60741ba9e6cde499f9d6c5f42c5835f" kind="property"><name>FirstName</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a0456bb0003a90fe81d1b7e2e33203658" kind="property"><name>MiddleName</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a5413cdd4b2a61834dd40f460fed905d7" kind="property"><name>LastName</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a57ee6ead500ba0ecbc1ec033bedfa1ce" kind="property"><name>PasswordNotMatchErrorLabel</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1af34f2ada32926ac1f4551b250e7544db" kind="property"><name>FillAllFieldErrorLabel</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1afaf0825575b64dcf5613320bbf6f5b10" kind="property"><name>ErrorMessage</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1aff8fcb491529663fb55cb90bb1f844d9" kind="property"><name>IsPasswordsTheSame</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ad67feb5ebac761e0e580b89a450b2e34" kind="property"><name>Forms</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1aaeba3a91188ece42efc57b8b0971a96e" kind="property"><name>CurrentForm</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a2877930875198ac81185819216feb47c" kind="property"><name>CurrentFormIndex</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a32e00deb7cab659d0c7b677bc32bea18" kind="function"><name>InitializeComponent</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a32e00deb7cab659d0c7b677bc32bea18" kind="function"><name>InitializeComponent</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a32e00deb7cab659d0c7b677bc32bea18" kind="function"><name>InitializeComponent</name></member>
@@ -819,10 +878,12 @@
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1abe43d5c4cbe12784e4da3d78df3ff1c1" kind="function"><name>Connect</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1abe43d5c4cbe12784e4da3d78df3ff1c1" kind="function"><name>Connect</name></member>
     <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a9453dfee5457f47b9fe0fc25ed3028ba" kind="function"><name>~RegistrationPanel</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1af7dcb01e3a28df3dbf53b5eb2a58b1ac" kind="function"><name>MainWindow_SizeChanged</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a4ee6df9a19b36e88c71e85fdc295a806" kind="function"><name>LogonPanel_Loaded</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1ae186646427b48ea8fbce2a8a208484c9" kind="function"><name>ContinueCallbackHandler</name></member>
-    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1adc95d35879b50f9b35504bb7610ce5d9" kind="function"><name>BackCallbackHandler</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a7d0af81f95e8d36205e5e12647a526f2" kind="function"><name>Main_SizeChanged</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a6abb5b99b94ba3347502fccc5bb81ea1" kind="function"><name>Panel_Loaded</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a2c567c0e5aebf72fe34fe3fd59670407" kind="function"><name>Back_Click</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a0a4dbd47b2f2f5258a1145c3597f5c28" kind="function"><name>Continue_Click</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a551818f7158462bf02d1733e83768197" kind="function"><name>GetALView</name></member>
+    <member refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel_1a7dcef33f8c61927ef628cc92fd5f3fc5" kind="function"><name>RegistrationPanel</name></member>
   </compound>
   <compound refid="d2/d90/class_wpf_handler_1_1_properties_1_1_resources" kind="class"><name>WpfHandler::Properties::Resources</name>
     <member refid="d2/d90/class_wpf_handler_1_1_properties_1_1_resources_1a70255d9bbf2306b40e8bed65c3ec52ae" kind="variable"><name>resourceMan</name></member>
@@ -836,8 +897,8 @@
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a6dca782fe163e0fd97183aa28bbbfb33" kind="variable"><name>mark</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a212d3f87419d2163a2c53afb72622991" kind="variable"><name>button</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a2b5a1d08aec8c16088a106dad5fc4ed4" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a1988a63005ceaa7f7f07d1d44a7ae01f" kind="variable"><name>ClickEvent</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1afecdba1a6a477d574f423cc47ded74f7" kind="variable"><name>LabelProperty</name></member>
-    <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1aebfe33b92f950fe559a1f33670ffe1b6" kind="variable"><name>ClickCallbackProperty</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a8fcdfa5d44a6463e1c0296250fa260c9" kind="variable"><name>SelectedProperty</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a7263ef5d414587ec40f35ab3616173e4" kind="variable"><name>GroupProperty</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a5765829144f2d6ff2f76b972940ec242" kind="variable"><name>MultiSelectionProperty</name></member>
@@ -845,7 +906,7 @@
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1aa36bac42f7eef1ba46a8a5dc8f071c19" kind="event"><name>ButtonActivated</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1aeda1be5761f1a96fbd14138aab118826" kind="variable"><name>activeGroupsItems</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a082859dda84e188a1da2d0e9ba919058" kind="property"><name>Label</name></member>
-    <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a27cd38802c48c61f3b8a230a74669b17" kind="property"><name>ClickCallback</name></member>
+    <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a08e6400871439c5e9ca1772f26710860" kind="property"><name>Click</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1ad1ff756964fdb1d04f2ca04a41c67f1c" kind="property"><name>Selected</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a2df582128e2ef8858ff4c6f174800b9d" kind="property"><name>Group</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1ac13d0a092b070729c49587c58f050971" kind="property"><name>MultiSelection</name></member>
@@ -856,8 +917,8 @@
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1ab8dd666c08bc02e2c4677c7a780bb828" kind="function"><name>InitializeComponent</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1ab8dd666c08bc02e2c4677c7a780bb828" kind="function"><name>InitializeComponent</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a05bd4f4c7754212984b77499922a275d" kind="function"><name>SelectableFlatButton</name></member>
-    <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a0ce515d3620b53667b3aa377ea4f2f6b" kind="function"><name>SelectedCallback</name></member>
-    <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1aa6389115bf881a33ed384871a7ae816a" kind="function"><name>OnButtonClick</name></member>
+    <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a5cade89b74ec7a7f9566d0e63b677d27" kind="function"><name>SelectedCallback</name></member>
+    <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1ae01144a323df17892edbdd0f20a10ec7" kind="function"><name>OnButtonClick</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a1db2b3726e01cd4d817fa10b67863427" kind="function"><name>_CreateDelegate</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a1db2b3726e01cd4d817fa10b67863427" kind="function"><name>_CreateDelegate</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a1db2b3726e01cd4d817fa10b67863427" kind="function"><name>_CreateDelegate</name></member>
@@ -867,6 +928,7 @@
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a0641902352c955ea46db0fa88c073006" kind="function"><name>Connect</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a0641902352c955ea46db0fa88c073006" kind="function"><name>Connect</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1adeb088033184dde922518f7a7f577fa1" kind="function"><name>UI_Loaded</name></member>
+    <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a7895de71416c09695e76e1678e7c4087" kind="function"><name>SelectableFlatButton</name></member>
     <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1aab3702adeef6c8a17aa65bfb91081fd4" kind="function"><name>TryToGetSelected</name></member>
   </compound>
   <compound refid="de/dc7/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_grid" kind="class"><name>WpfHandler::UI::Controls::SelectableGrid</name>
@@ -932,9 +994,11 @@
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1aad6e1d850ec0101cc8d98c259971e272a4ce5d668b86ac96aacf1d05114485003" kind="enumvalue"><name>AlphaSwipe</name></member>
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1aad6e1d850ec0101cc8d98c259971e272aa6f170ca3522b9caecbc14df26a22710" kind="enumvalue"><name>DarkSwipe</name></member>
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1af15c245b340d5416b5c673da9a889eb9" kind="variable"><name>main</name></member>
+    <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1ab04295aeb38f8cf67e1b98b54d7b073d" kind="variable"><name>grid</name></member>
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a6913da7b87a27aef9fac93a206b900a1" kind="variable"><name>next</name></member>
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1aff7ed0b36cb541447a9ab6eb9f2400f9" kind="variable"><name>switchPanel</name></member>
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a79e5aefd50fd6e2dbcc444923a9d1e4b" kind="variable"><name>current</name></member>
+    <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1ab3b3a8aaa054b67f882134942aa20ff0" kind="variable"><name>main</name></member>
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a46769d162cebe1b7292ff512fe5feaf3" kind="variable"><name>_contentLoaded</name></member>
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a1ac8e003ec56876807755b845ad0b205" kind="event"><name>AnimationFinished</name></member>
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1ad636f8069ad5c1869073781451f6ba2a" kind="variable"><name>DurationProperty</name></member>
@@ -948,7 +1012,7 @@
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a9a8e8f316052b03ca360d48a507e8734" kind="function"><name>InitializeComponent</name></member>
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a9a8e8f316052b03ca360d48a507e8734" kind="function"><name>InitializeComponent</name></member>
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a66b597d71d605434b2f51276feff9c8b" kind="function"><name>SwitchPanel</name></member>
-    <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a324749b533fdd754c87f490379f49082" kind="function"><name>SwitchTo</name></member>
+    <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a1797a0bb1de37134c2ed133718cdcee4" kind="function"><name>SwitchToAsync</name></member>
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a17743b6a82dd0acd5d67c97dc38cd156" kind="function"><name>Connect</name></member>
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a17743b6a82dd0acd5d67c97dc38cd156" kind="function"><name>Connect</name></member>
     <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a17743b6a82dd0acd5d67c97dc38cd156" kind="function"><name>Connect</name></member>
@@ -995,9 +1059,9 @@
     <member refid="d7/ded/class_wpf_handler_1_1_u_i_1_1_animations_1_1_thinkness_animation_1ac4a710434bb02a390f075779861718c3" kind="function"><name>StartStoryboard</name></member>
     <member refid="d7/ded/class_wpf_handler_1_1_u_i_1_1_animations_1_1_thinkness_animation_1a8d77a8dc5e24b4d00e9aa123a4ca7831" kind="function"><name>StartStoryboard</name></member>
   </compound>
-  <compound refid="dc/d7e/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_types_compatible_attribute" kind="class"><name>WpfHandler::UI::AutoLayout::Configuration::TypesCompatibleAttribute</name>
-    <member refid="dc/d7e/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_types_compatible_attribute_1ab3b6ed5958eae83d1a8d0b3d5cafed54" kind="variable"><name>CompatibleWith</name></member>
-    <member refid="dc/d7e/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_types_compatible_attribute_1ac09e68049269ba7b1edc9992757828f8" kind="function"><name>TypesCompatibleAttribute</name></member>
+  <compound refid="d1/d67/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_types_compatible_attribute" kind="class"><name>WpfHandler::UI::AutoLayout::Markups::TypesCompatibleAttribute</name>
+    <member refid="d1/d67/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_types_compatible_attribute_1a74636e48fed1bb50fe551c1d160b68d1" kind="variable"><name>CompatibleWith</name></member>
+    <member refid="d1/d67/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_types_compatible_attribute_1af5282ffa8586a2faeb03048f39f0260e" kind="function"><name>TypesCompatibleAttribute</name></member>
   </compound>
   <compound refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor" kind="class"><name>WpfHandler::UI::AutoLayout::UIDescriptor</name>
     <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a2e1bd8a01df4160b293fd79f639ce962" kind="property"><name>IsLoaded</name></member>
@@ -1009,12 +1073,20 @@
     <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a2862ba93b12a9698b88795d41c672f97" kind="function"><name>ControlSignUp</name></member>
     <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1af39e8fdd24e6de1956b0e3b60fa74368" kind="function"><name>GetFieldByMember</name></member>
     <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1ab965d93a86ca10bb9e7b30ac14fcfad8" kind="function"><name>GetFieldByMember</name></member>
+    <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a6dbda96f0d1b9f65fd1c61e0b8a5bb6b" kind="function"><name>OnLoaded</name></member>
     <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a51be997d431bb7a6d73de302f60f6dd9" kind="function"><name>TryToBindControl</name></member>
     <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a129506a55a400487664febab7ea85266" kind="function"><name>ToBindControl</name></member>
     <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a763e1f50836b07edf0a3e6579454c335" kind="function"><name>ToBindControl</name></member>
   </compound>
+  <compound refid="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report" kind="struct"><name>WpfHandler::UI::AutoLayout::FormDescriptor::ValidationReport</name>
+    <member refid="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report_1a0f4de7224f6cc1999e761bda1618c90c" kind="property"><name>Result</name></member>
+    <member refid="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report_1a6471563ada41b77fb47c8dc38c263d7c" kind="property"><name>Message</name></member>
+    <member refid="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report_1a1275fe61d36101439b465c802ec9aa7e" kind="function"><name>ValidationReport</name></member>
+    <member refid="d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report_1ae484c3444567552ac38a1211c12d60c7" kind="function"><name>ValidationReport</name></member>
+  </compound>
   <compound refid="d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute" kind="class"><name>WpfHandler::UI::AutoLayout::Options::VerticalAlignAttribute</name>
     <member refid="d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute_1a71a12b8962ff5c070830d42c1909ff75" kind="property"><name>Alignment</name></member>
+    <member refid="d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute_1a3551a6479b74c809c75c208d49967ce0" kind="function"><name>VerticalAlignAttribute</name></member>
     <member refid="d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute_1a5a37e0bcf32b49da94e4f4d539fe810c" kind="function"><name>ApplyLayoutOption</name></member>
   </compound>
   <compound refid="d6/d44/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_width_attribute" kind="class"><name>WpfHandler::UI::AutoLayout::Options::WidthAttribute</name>
@@ -1110,6 +1182,8 @@
   </compound>
   <compound refid="d4/d54/namespace_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls" kind="namespace"><name>WpfHandler::UI::AutoLayout::Controls</name>
   </compound>
+  <compound refid="d6/d8f/namespace_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups" kind="namespace"><name>WpfHandler::UI::AutoLayout::Markups</name>
+  </compound>
   <compound refid="de/dcc/namespace_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options" kind="namespace"><name>WpfHandler::UI::AutoLayout::Options</name>
   </compound>
   <compound refid="d1/def/namespace_wpf_handler_1_1_u_i_1_1_controls" kind="namespace"><name>WpfHandler::UI::Controls</name>
@@ -1120,6 +1194,10 @@
   </compound>
   <compound refid="d7/de3/namespace_xaml_generated_namespace" kind="namespace"><name>XamlGeneratedNamespace</name>
   </compound>
+  <compound refid="d2/d53/_frameworks_2uniform-data-operator_2_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="d9/dd6/_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
   <compound refid="db/ddc/dllmain_8cpp" kind="file"><name>dllmain.cpp</name>
     <member refid="db/ddc/dllmain_8cpp_1a26e64fb39b69bcd9d1274d279f1561b9" kind="function"><name>DllMain</name></member>
   </compound>
@@ -1129,8 +1207,6 @@
   <compound refid="dd/d2e/pch_8cpp" kind="file"><name>pch.cpp</name>
   </compound>
   <compound refid="de/d3a/pch_8h" kind="file"><name>pch.h</name>
-  </compound>
-  <compound refid="d9/dd6/_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
   </compound>
   <compound refid="d3/d9d/_dictionaries_2_a_p_i_8cs" kind="file"><name>API.cs</name>
   </compound>
@@ -1171,6 +1247,10 @@
   <compound refid="d9/d33/_debug_2_u_i_2_controls_2_catalog_button_8g_8i_8cs" kind="file"><name>CatalogButton.g.i.cs</name>
   </compound>
   <compound refid="d2/d19/_release_2_u_i_2_controls_2_catalog_button_8g_8i_8cs" kind="file"><name>CatalogButton.g.i.cs</name>
+  </compound>
+  <compound refid="d8/d1f/_catalog_view_8g_8cs" kind="file"><name>CatalogView.g.cs</name>
+  </compound>
+  <compound refid="db/de6/_catalog_view_8g_8i_8cs" kind="file"><name>CatalogView.g.i.cs</name>
   </compound>
   <compound refid="d3/df2/_debug_2_u_i_2_controls_2_flat_button_8g_8cs" kind="file"><name>FlatButton.g.cs</name>
   </compound>
@@ -1300,17 +1380,9 @@
   </compound>
   <compound refid="db/d3c/_end_group_attribute_8cs" kind="file"><name>EndGroupAttribute.cs</name>
   </compound>
-  <compound refid="df/d34/_enumerable_compatible_attribute_8cs" kind="file"><name>EnumerableCompatibleAttribute.cs</name>
-  </compound>
-  <compound refid="dd/dd9/_enums_compatible_attribute_8cs" kind="file"><name>EnumsCompatibleAttribute.cs</name>
-  </compound>
   <compound refid="dc/de0/_hide_in_inspector_attribute_8cs" kind="file"><name>HideInInspectorAttribute.cs</name>
   </compound>
-  <compound refid="db/d1b/_i_g_u_i_element_binding_attribute_8cs" kind="file"><name>IGUIElementBindingAttribute.cs</name>
-  </compound>
   <compound refid="d2/d7e/_order_attribute_8cs" kind="file"><name>OrderAttribute.cs</name>
-  </compound>
-  <compound refid="d9/d24/_types_compatible_attribute_8cs" kind="file"><name>TypesCompatibleAttribute.cs</name>
   </compound>
   <compound refid="db/df1/_auto_layout_veiw_8xaml_8cs" kind="file"><name>AutoLayoutVeiw.xaml.cs</name>
   </compound>
@@ -1319,6 +1391,8 @@
   <compound refid="d7/da6/_label_attribute_8cs" kind="file"><name>LabelAttribute.cs</name>
   </compound>
   <compound refid="d5/dc7/_space_attribute_8cs" kind="file"><name>SpaceAttribute.cs</name>
+  </compound>
+  <compound refid="d9/d7e/_form_descriptor_8cs" kind="file"><name>FormDescriptor.cs</name>
   </compound>
   <compound refid="dd/dbb/_i_g_u_i_element_8cs" kind="file"><name>IGUIElement.cs</name>
   </compound>
@@ -1335,6 +1409,14 @@
   <compound refid="dc/d34/_layout_handler_8cs" kind="file"><name>LayoutHandler.cs</name>
   </compound>
   <compound refid="d2/de5/_layout_layer_8cs" kind="file"><name>LayoutLayer.cs</name>
+  </compound>
+  <compound refid="dd/dd9/_enums_compatible_attribute_8cs" kind="file"><name>EnumsCompatibleAttribute.cs</name>
+  </compound>
+  <compound refid="db/d1b/_i_g_u_i_element_binding_attribute_8cs" kind="file"><name>IGUIElementBindingAttribute.cs</name>
+  </compound>
+  <compound refid="d2/d23/_i_list_compatible_attribute_8cs" kind="file"><name>IListCompatibleAttribute.cs</name>
+  </compound>
+  <compound refid="d9/d24/_types_compatible_attribute_8cs" kind="file"><name>TypesCompatibleAttribute.cs</name>
   </compound>
   <compound refid="db/dbf/_auto_collection_properties_attribute_8cs" kind="file"><name>AutoCollectionPropertiesAttribute.cs</name>
   </compound>
@@ -1374,6 +1456,8 @@
   </compound>
   <compound refid="dd/d6d/_catalog_button_8xaml_8cs" kind="file"><name>CatalogButton.xaml.cs</name>
   </compound>
+  <compound refid="d1/d24/_catalog_view_8xaml_8cs" kind="file"><name>CatalogView.xaml.cs</name>
+  </compound>
   <compound refid="df/d2a/_collection_control_8cs" kind="file"><name>CollectionControl.cs</name>
   </compound>
   <compound refid="d4/da9/_flat_button_8xaml_8cs" kind="file"><name>FlatButton.xaml.cs</name>
@@ -1392,11 +1476,15 @@
   </compound>
   <compound refid="d7/d1b/_i_layout_size_8cs" kind="file"><name>ILayoutSize.cs</name>
   </compound>
-  <compound refid="d3/ded/_i_selectable_control_8cs" kind="file"><name>ISelectableControl.cs</name>
+  <compound refid="d7/d6b/_i_toggle_control_8cs" kind="file"><name>IToggleControl.cs</name>
   </compound>
   <compound refid="d4/d9d/_layout_size_attribute_8cs" kind="file"><name>LayoutSizeAttribute.cs</name>
   </compound>
   <compound refid="dc/d66/_lock_screen_8xaml_8cs" kind="file"><name>LockScreen.xaml.cs</name>
+  </compound>
+  <compound refid="d8/d42/_advanced_registration_panel_descriptor_8cs" kind="file"><name>AdvancedRegistrationPanelDescriptor.cs</name>
+  </compound>
+  <compound refid="d4/d49/_default_registration_panel_descriptor_8cs" kind="file"><name>DefaultRegistrationPanelDescriptor.cs</name>
   </compound>
   <compound refid="d7/dea/_logon_panel_8xaml_8cs" kind="file"><name>LogonPanel.xaml.cs</name>
   </compound>
@@ -1420,6 +1508,10 @@
   </compound>
   <compound refid="d0/d2d/_g_u_i_content_attribute_8cs" kind="file"><name>GUIContentAttribute.cs</name>
   </compound>
+  <compound refid="d5/de1/_localization_handler_8cs" kind="file"><name>LocalizationHandler.cs</name>
+  </compound>
+  <compound refid="d1/df2/md__d_1__work__git_hub_wpf-handler__frameworks_uniform-data-operator__r_e_a_d_m_e" kind="page"><name>md_D:_Work_GitHub_wpf-handler_Frameworks_uniform-data-operator_README</name>
+  </compound>
   <compound refid="df/d70/md__d_1__work__git_hub_wpf-handler__r_e_a_d_m_e" kind="page"><name>md_D:_Work_GitHub_wpf-handler_README</name>
   </compound>
   <compound refid="dir_385a4f3e7ae3dd769fff8113f467c79e" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations</name>
@@ -1436,11 +1528,11 @@
   </compound>
   <compound refid="dir_69987cce7b3cc099a900ec476a277c5c" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/AutoLayout/Controls</name>
   </compound>
+  <compound refid="dir_79eed6a11e5db461180c4b8784046486" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls</name>
+  </compound>
   <compound refid="dir_b0957e75388919e0c85c8c5af0f66012" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls</name>
   </compound>
   <compound refid="dir_e55d89872bc08b435b2ce225127b859c" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/AutoLayout/Controls</name>
-  </compound>
-  <compound refid="dir_79eed6a11e5db461180c4b8784046486" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls</name>
   </compound>
   <compound refid="dir_86349704d6a91ed9eaf95b6510407e2c" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls</name>
   </compound>
@@ -1458,11 +1550,13 @@
   </compound>
   <compound refid="dir_451fa5a4f96c012394b8c1583d48d2ba" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Interfaces/Layers</name>
   </compound>
-  <compound refid="dir_53934b601e891e205e908af0b2f1585f" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon</name>
-  </compound>
   <compound refid="dir_6f369bcdc09b922b3cbd50c7f5cc6beb" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon</name>
   </compound>
+  <compound refid="dir_53934b601e891e205e908af0b2f1585f" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/Logon</name>
+  </compound>
   <compound refid="dir_c09ccc61c0f99831ea7574a55120fa2f" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/Logon</name>
+  </compound>
+  <compound refid="dir_0bc3d72e867299ac886bbb142f9047e5" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Markups</name>
   </compound>
   <compound refid="dir_a6535da8d13e5c56b7f983d6c840ee7a" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/obj</name>
   </compound>
@@ -1474,11 +1568,11 @@
   </compound>
   <compound refid="dir_0d93638625f82603384cdcb57afe8a57" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release</name>
   </compound>
-  <compound refid="dir_d266066602d1552ea3cfb4a1ecc819b4" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI</name>
+  <compound refid="dir_17b6338f141127a4edf5a39978a70735" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/UI</name>
   </compound>
   <compound refid="dir_f231aa11631f47a4596051793bfb3b5e" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI</name>
   </compound>
-  <compound refid="dir_17b6338f141127a4edf5a39978a70735" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/UI</name>
+  <compound refid="dir_d266066602d1552ea3cfb4a1ecc819b4" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI</name>
   </compound>
   <compound refid="dir_dda0f4bc268945ae8156392032bb1641" kind="dir"><name>D:/Work/GitHub/wpf-handler/WpfHandler</name>
   </compound>

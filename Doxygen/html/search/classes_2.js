@@ -1,6 +1,7 @@
 var searchData=
 [
   ['catalogbutton',['CatalogButton',['../d0/d24/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_button.html',1,'WpfHandler::UI::Controls']]],
+  ['catalogview',['CatalogView',['../dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view.html',1,'WpfHandler::UI::Controls']]],
   ['collectioncontrol',['CollectionControl',['../d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control.html',1,'WpfHandler::UI::Controls']]],
   ['colorattribute',['ColorAttribute',['../d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute.html',1,'WpfHandler::UI']]],
   ['constants',['Constants',['../df/d55/class_wpf_handler_1_1_plugins_1_1_constants.html',1,'WpfHandler::Plugins']]],

@@ -207,54 +207,54 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="239">
+      <node id="263">
         <label>Attribute</label>
       </node>
-      <node id="237">
+      <node id="261">
         <label>WpfHandler.UI.GUIContentAttribute</label>
         <link refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute"/>
-        <childnode refid="238" relation="public-inheritance">
+        <childnode refid="262" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="240">
+      <node id="264">
         <label>WpfHandler.UI.AutoLayout.Configuration.ContentAttribute</label>
         <link refid="d2/dfc/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_content_attribute"/>
-        <childnode refid="237" relation="public-inheritance">
+        <childnode refid="261" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="242">
+      <node id="266">
         <label>WpfHandler.UI.AutoLayout.Controls.LabelAttribute</label>
         <link refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute"/>
-        <childnode refid="237" relation="public-inheritance">
+        <childnode refid="261" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="238">
+      <node id="262">
         <label>LocalizableContentAttribute</label>
         <link refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute"/>
-        <childnode refid="239" relation="public-inheritance">
+        <childnode refid="263" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="241">
+      <node id="265">
         <label>WpfHandler.UI.AutoLayout.Controls.HeaderAttribute</label>
         <link refid="d1/d32/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_header_attribute"/>
-        <childnode refid="237" relation="public-inheritance">
+        <childnode refid="261" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="245">
+      <node id="269">
         <label>Attribute</label>
       </node>
-      <node id="243">
+      <node id="267">
         <label>WpfHandler.UI.GUIContentAttribute</label>
         <link refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute"/>
-        <childnode refid="244" relation="public-inheritance">
+        <childnode refid="268" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="244">
+      <node id="268">
         <label>LocalizableContentAttribute</label>
         <link refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute"/>
-        <childnode refid="245" relation="public-inheritance">
+        <childnode refid="269" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

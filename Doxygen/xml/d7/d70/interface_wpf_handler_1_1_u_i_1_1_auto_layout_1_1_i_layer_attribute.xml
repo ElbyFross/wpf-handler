@@ -25,56 +25,56 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="354">
+      <node id="379">
         <label>WpfHandler.UI.AutoLayout.Configuration.BeginHorizontalGroupAttribute</label>
         <link refid="db/d6f/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_begin_horizontal_group_attribute"/>
-        <childnode refid="353" relation="public-inheritance">
+        <childnode refid="378" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="357">
+      <node id="382">
         <label>WpfHandler.UI.AutoLayout.Configuration.EndGroupAttribute</label>
         <link refid="db/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_end_group_attribute"/>
-        <childnode refid="356" relation="public-inheritance">
+        <childnode refid="381" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="352">
+      <node id="377">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="356">
+      <node id="381">
         <label>WpfHandler.UI.AutoLayout.ILayerEndAttribute</label>
         <link refid="df/d01/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_end_attribute"/>
-        <childnode refid="351" relation="public-inheritance">
+        <childnode refid="376" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="351">
+      <node id="376">
         <label>WpfHandler.UI.AutoLayout.ILayerAttribute</label>
         <link refid="d7/d70/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_attribute"/>
-        <childnode refid="352" relation="public-inheritance">
+        <childnode refid="377" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="353">
+      <node id="378">
         <label>WpfHandler.UI.AutoLayout.ILayerBeginAttribute</label>
         <link refid="d5/d7b/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_begin_attribute"/>
-        <childnode refid="351" relation="public-inheritance">
+        <childnode refid="376" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="355">
+      <node id="380">
         <label>WpfHandler.UI.AutoLayout.Configuration.BeginVerticalGroupAttribute</label>
         <link refid="de/db7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_begin_vertical_group_attribute"/>
-        <childnode refid="353" relation="public-inheritance">
+        <childnode refid="378" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="359">
+      <node id="384">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="358">
+      <node id="383">
         <label>WpfHandler.UI.AutoLayout.ILayerAttribute</label>
         <link refid="d7/d70/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_attribute"/>
-        <childnode refid="359" relation="public-inheritance">
+        <childnode refid="384" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

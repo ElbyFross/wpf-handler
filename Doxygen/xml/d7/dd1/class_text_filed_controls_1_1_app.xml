@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d7/dd1/class_text_filed_controls_1_1_app" kind="class" language="C#" prot="public">
+    <compoundname>TextFiledControls::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/dd1/class_text_filed_controls_1_1_app_1a77dc852f132a2b9450aa443e2cb254af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TextFiledControls.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Debug/App.g.cs" line="48" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Debug/App.g.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd1/class_text_filed_controls_1_1_app_1a77dc852f132a2b9450aa443e2cb254af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TextFiledControls.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Debug/App.g.i.cs" line="48" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Debug/App.g.i.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd1/class_text_filed_controls_1_1_app_1a77dc852f132a2b9450aa443e2cb254af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TextFiledControls.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Release/App.g.cs" line="48" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Release/App.g.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd1/class_text_filed_controls_1_1_app_1a77dc852f132a2b9450aa443e2cb254af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TextFiledControls.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Release/App.g.i.cs" line="48" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Release/App.g.i.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d7/dd1/class_text_filed_controls_1_1_app_1a670664408b17fc92f178a2e548bd9c26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void TextFiledControls.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Debug/App.g.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Debug/App.g.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd1/class_text_filed_controls_1_1_app_1a670664408b17fc92f178a2e548bd9c26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void TextFiledControls.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Debug/App.g.i.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Debug/App.g.i.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd1/class_text_filed_controls_1_1_app_1a670664408b17fc92f178a2e548bd9c26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void TextFiledControls.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Release/App.g.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Release/App.g.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd1/class_text_filed_controls_1_1_app_1a670664408b17fc92f178a2e548bd9c26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void TextFiledControls.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Release/App.g.i.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Release/App.g.i.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for App.xaml </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="d7/dd1/class_text_filed_controls_1_1_app" kindref="compound">App</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="60">
+        <label>TextFiledControls.App</label>
+        <link refid="d7/dd1/class_text_filed_controls_1_1_app"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>System::Windows::Application</label>
+      </node>
+      <node id="62">
+        <label>Application</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="63">
+        <label>TextFiledControls.App</label>
+        <link refid="d7/dd1/class_text_filed_controls_1_1_app"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>System::Windows::Application</label>
+      </node>
+      <node id="65">
+        <label>Application</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/App.xaml.cs" line="15" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/App.xaml.cs" bodystart="14" bodyend="16"/>
+    <listofallmembers>
+      <member refid="d7/dd1/class_text_filed_controls_1_1_app_1a77dc852f132a2b9450aa443e2cb254af" prot="public" virt="non-virtual"><scope>TextFiledControls::App</scope><name>InitializeComponent</name></member>
+      <member refid="d7/dd1/class_text_filed_controls_1_1_app_1a77dc852f132a2b9450aa443e2cb254af" prot="public" virt="non-virtual"><scope>TextFiledControls::App</scope><name>InitializeComponent</name></member>
+      <member refid="d7/dd1/class_text_filed_controls_1_1_app_1a77dc852f132a2b9450aa443e2cb254af" prot="public" virt="non-virtual"><scope>TextFiledControls::App</scope><name>InitializeComponent</name></member>
+      <member refid="d7/dd1/class_text_filed_controls_1_1_app_1a77dc852f132a2b9450aa443e2cb254af" prot="public" virt="non-virtual"><scope>TextFiledControls::App</scope><name>InitializeComponent</name></member>
+      <member refid="d7/dd1/class_text_filed_controls_1_1_app_1a670664408b17fc92f178a2e548bd9c26" prot="public" virt="non-virtual"><scope>TextFiledControls::App</scope><name>Main</name></member>
+      <member refid="d7/dd1/class_text_filed_controls_1_1_app_1a670664408b17fc92f178a2e548bd9c26" prot="public" virt="non-virtual"><scope>TextFiledControls::App</scope><name>Main</name></member>
+      <member refid="d7/dd1/class_text_filed_controls_1_1_app_1a670664408b17fc92f178a2e548bd9c26" prot="public" virt="non-virtual"><scope>TextFiledControls::App</scope><name>Main</name></member>
+      <member refid="d7/dd1/class_text_filed_controls_1_1_app_1a670664408b17fc92f178a2e548bd9c26" prot="public" virt="non-virtual"><scope>TextFiledControls::App</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

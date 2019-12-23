@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="118" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="119" bodyend="130"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="118" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="119" bodyend="122"/>
       </memberdef>
       <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a33311103774ab41a0af23f6181ef7d2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -203,7 +203,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="135" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="136" bodyend="139"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="127" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="128" bodyend="131"/>
       </memberdef>
       <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a3d56cbedf03f93150117a1d999b828dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type><ref refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a99939f3d8500812661376afa5ee1a31d" kindref="member">Mode</ref></type>
@@ -216,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="144" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="145" bodyend="148"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="136" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="137" bodyend="140"/>
       </memberdef>
       <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab4b06ba1470f467c920ad28f100a4ae2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new object</type>
@@ -224,12 +224,12 @@
         <argsstring></argsstring>
         <name>Content</name>
         <briefdescription>
-<para>Applyong value as lable content. </para>        </briefdescription>
+<para>Applyong value as label content. </para>        </briefdescription>
         <detaileddescription>
 <para>Allow only the string values.</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="155" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="156" bodyend="159"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="147" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="148" bodyend="151"/>
       </memberdef>
       <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a3ddca328a79686b354a61f609abc163b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>object</type>
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="165" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="166" bodyend="209"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="157" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="158" bodyend="205"/>
       </memberdef>
       <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a10cec1ad9b5fb5bb48d59e07d4cf2675" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -255,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="214" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="215" bodyend="218"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="210" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="211" bodyend="214"/>
       </memberdef>
       <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab2089e6e1caddd925e2fa23d0ce481cb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>float</type>
@@ -268,7 +268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="223" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="224" bodyend="237"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="219" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="220" bodyend="236"/>
       </memberdef>
       <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a3ae60ed0a18d02385cb019fc9857b6d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>Brush</type>
@@ -281,7 +281,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="247" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="248" bodyend="251"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="246" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="247" bodyend="250"/>
       </memberdef>
       <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a15be413d59498274a43e43aebe172221" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>Brush</type>
@@ -294,7 +294,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="256" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="257" bodyend="260"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="255" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="256" bodyend="259"/>
       </memberdef>
       <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a7fcc5e59ea300a5660285170f98eb097" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>abstract FrameworkElement</type>
@@ -307,7 +307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="267" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="267" bodyend="267"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="266" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="266" bodyend="266"/>
       </memberdef>
       <memberdef kind="property" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1aa2cb0bc5918aba314439476a88453bdb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>abstract FrameworkElement</type>
@@ -320,7 +320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="272" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="272" bodyend="272"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="271" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="271" bodyend="271"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-attrib">
@@ -335,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="242" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="242" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="241" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="241" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -350,7 +350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="279" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="279" bodyend="284"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="278" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="278" bodyend="283"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -365,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="289" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="289" bodyend="294"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="288" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="288" bodyend="293"/>
       </memberdef>
       <memberdef kind="function" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a54beb83e4ba522eea92f86eab02f9071" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -401,7 +401,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="351" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="351" bodyend="358"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="350" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="350" bodyend="363"/>
       </memberdef>
       <memberdef kind="function" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab07c1f1ee9bd33207b99d5b31bcec8b4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -437,7 +437,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="365" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="365" bodyend="371"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="370" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="370" bodyend="376"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -446,15 +446,15 @@
         <definition>virtual void WpfHandler.UI.Controls.TextFieldControl.RecomputeLayout</definition>
         <argsstring>()</argsstring>
         <name>RecomputeLayout</name>
-        <reimplementedby refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box_1abe285f06393d65f13af4b293f9eb0941">RecomputeLayout</reimplementedby>
         <reimplementedby refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box_1af96bd0b4244565a1ca7a137d56296cda">RecomputeLayout</reimplementedby>
+        <reimplementedby refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box_1abe285f06393d65f13af4b293f9eb0941">RecomputeLayout</reimplementedby>
         <briefdescription>
 <para>Recomputing dinamic layout values for providing hight quiality view. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="301" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="301" bodyend="324"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="300" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="300" bodyend="323"/>
       </memberdef>
       <memberdef kind="function" id="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1a0b8ff332028f0277379658e84edadbd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -479,7 +479,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="330" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="330" bodyend="342"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="329" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="329" bodyend="341"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -487,68 +487,68 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="599">
+      <node id="635">
         <label>WpfHandler.UI.Controls.FlatPasswordBox</label>
         <link refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box"/>
-        <childnode refid="596" relation="public-inheritance">
+        <childnode refid="632" relation="public-inheritance">
         </childnode>
-        <childnode refid="596" relation="public-inheritance">
+        <childnode refid="632" relation="public-inheritance">
         </childnode>
-        <childnode refid="596" relation="public-inheritance">
+        <childnode refid="632" relation="public-inheritance">
         </childnode>
-        <childnode refid="596" relation="public-inheritance">
+        <childnode refid="632" relation="public-inheritance">
         </childnode>
-        <childnode refid="596" relation="public-inheritance">
+        <childnode refid="632" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="596">
+      <node id="632">
         <label>WpfHandler.UI.Controls.TextFieldControl</label>
         <link refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control"/>
-        <childnode refid="597" relation="public-inheritance">
+        <childnode refid="633" relation="public-inheritance">
         </childnode>
-        <childnode refid="598" relation="public-inheritance">
+        <childnode refid="634" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="600">
+      <node id="636">
         <label>WpfHandler.UI.Controls.FlatTextBox</label>
         <link refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box"/>
-        <childnode refid="596" relation="public-inheritance">
+        <childnode refid="632" relation="public-inheritance">
         </childnode>
-        <childnode refid="596" relation="public-inheritance">
+        <childnode refid="632" relation="public-inheritance">
         </childnode>
-        <childnode refid="596" relation="public-inheritance">
+        <childnode refid="632" relation="public-inheritance">
         </childnode>
-        <childnode refid="596" relation="public-inheritance">
+        <childnode refid="632" relation="public-inheritance">
         </childnode>
-        <childnode refid="596" relation="public-inheritance">
+        <childnode refid="632" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="597">
+      <node id="633">
         <label>UserControl</label>
       </node>
-      <node id="598">
+      <node id="634">
         <label>ILabel</label>
         <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="601">
+      <node id="637">
         <label>WpfHandler.UI.Controls.TextFieldControl</label>
         <link refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control"/>
-        <childnode refid="602" relation="public-inheritance">
+        <childnode refid="638" relation="public-inheritance">
         </childnode>
-        <childnode refid="603" relation="public-inheritance">
+        <childnode refid="639" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="602">
+      <node id="638">
         <label>UserControl</label>
       </node>
-      <node id="603">
+      <node id="639">
         <label>ILabel</label>
         <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
       </node>
     </collaborationgraph>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="36" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="35" bodyend="373"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" line="36" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/TextFieldControl.cs" bodystart="35" bodyend="378"/>
     <listofallmembers>
       <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab30d14bb8af0855cdadbc2c2713273ad" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>_LabelWidth</name></member>
       <member refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control_1ab4b06ba1470f467c920ad28f100a4ae2" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::TextFieldControl</scope><name>Content</name></member>

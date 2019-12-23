@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d8/dba/class_flat_button_example_1_1_properties_1_1_settings" kind="class" language="C#" prot="package">
+    <compoundname>FlatButtonExample::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d8/dba/class_flat_button_example_1_1_properties_1_1_settings_1a710ccf62e43bd0b45ab435fd1a09b881" prot="private" static="yes" mutable="no">
+        <type><ref refid="d8/dba/class_flat_button_example_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings FlatButtonExample.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((<ref refid="d8/dba/class_flat_button_example_1_1_properties_1_1_settings" kindref="compound">Settings</ref>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <ref refid="d8/dba/class_flat_button_example_1_1_properties_1_1_settings" kindref="compound">Settings</ref>())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Settings.Designer.cs" line="20" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Settings.Designer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d8/dba/class_flat_button_example_1_1_properties_1_1_settings_1a5867680e2a5d0e6b737f63d962c7eee2" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d8/dba/class_flat_button_example_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings FlatButtonExample.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Settings.Designer.cs" line="22" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Settings.Designer.cs" bodystart="23" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="872">
+        <label>FlatButtonExample.Properties.Settings</label>
+        <link refid="d8/dba/class_flat_button_example_1_1_properties_1_1_settings"/>
+        <childnode refid="873" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="873">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="874">
+        <label>FlatButtonExample.Properties.Settings</label>
+        <link refid="d8/dba/class_flat_button_example_1_1_properties_1_1_settings"/>
+        <childnode refid="875" relation="public-inheritance">
+        </childnode>
+        <childnode refid="874" relation="usage">
+          <edgelabel>defaultInstance</edgelabel>
+        </childnode>
+      </node>
+      <node id="875">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Settings.Designer.cs" line="18" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Settings.Designer.cs" bodystart="17" bodyend="29"/>
+    <listofallmembers>
+      <member refid="d8/dba/class_flat_button_example_1_1_properties_1_1_settings_1a5867680e2a5d0e6b737f63d962c7eee2" prot="public" virt="non-virtual"><scope>FlatButtonExample::Properties::Settings</scope><name>Default</name></member>
+      <member refid="d8/dba/class_flat_button_example_1_1_properties_1_1_settings_1a710ccf62e43bd0b45ab435fd1a09b881" prot="private" virt="non-virtual"><scope>FlatButtonExample::Properties::Settings</scope><name>defaultInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

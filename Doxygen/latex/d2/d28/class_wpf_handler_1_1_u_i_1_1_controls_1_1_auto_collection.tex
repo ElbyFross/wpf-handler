@@ -59,9 +59,9 @@ void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection
 \begin{DoxyCompactList}\small\item\em Recomputing element layout. \end{DoxyCompactList}\item 
 override Framework\+Element \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_a7cea6362ca2a31dca7bca6ab1f39142d}{Item\+Registration}} (int index)
 \begin{DoxyCompactList}\small\item\em Registrating an item of the list. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_ac229b39e23e0d2d9895f4897d1116e70}{On\+Add}} (object sender)
+void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_aa1fe0a4a51d4d2bc90bc7413f157513f}{On\+Add}} (object sender, Routed\+Event\+Args e)
 \begin{DoxyCompactList}\small\item\em Occurs when user pressing add button. Adding an element of the type that described in the first generic type argument of the source I\+List. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_addd4df92578229539c28bc4db8121d68}{On\+Remove}} (object sender)
+void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_a782eacc20f715ac1d15e3ca15b96b870}{On\+Remove}} (object sender, Routed\+Event\+Args e)
 \begin{DoxyCompactList}\small\item\em Occurs when user pressing remove button. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Package Functions}
 \begin{DoxyCompactItemize}
@@ -241,11 +241,11 @@ Registrating an item of the list.
 
 Reimplemented from \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control_af375cbcb4d351b4d104b2706d39b8303}{Wpf\+Handler.\+U\+I.\+Controls.\+Collection\+Control}}.
 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_ac229b39e23e0d2d9895f4897d1116e70}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_ac229b39e23e0d2d9895f4897d1116e70}} 
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_aa1fe0a4a51d4d2bc90bc7413f157513f}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_aa1fe0a4a51d4d2bc90bc7413f157513f}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Auto\+Collection@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Auto\+Collection}!On\+Add@{On\+Add}}
 \index{On\+Add@{On\+Add}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Auto\+Collection@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Auto\+Collection}}
 \subsubsection{\texorpdfstring{On\+Add()}{OnAdd()}}
-{\footnotesize\ttfamily void Wpf\+Handler.\+U\+I.\+Controls.\+Auto\+Collection.\+On\+Add (\begin{DoxyParamCaption}\item[{object}]{sender }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+{\footnotesize\ttfamily void Wpf\+Handler.\+U\+I.\+Controls.\+Auto\+Collection.\+On\+Add (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Routed\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
 
 
 
@@ -255,12 +255,14 @@ Occurs when user pressing add button. Adding an element of the type that describ
 \begin{DoxyParams}{Parameters}
 {\em sender} & An element that caused that callback.\\
 \hline
+{\em e} & Shred arguments.\\
+\hline
 \end{DoxyParams}
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_addd4df92578229539c28bc4db8121d68}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_addd4df92578229539c28bc4db8121d68}} 
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_a782eacc20f715ac1d15e3ca15b96b870}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_a782eacc20f715ac1d15e3ca15b96b870}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Auto\+Collection@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Auto\+Collection}!On\+Remove@{On\+Remove}}
 \index{On\+Remove@{On\+Remove}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Auto\+Collection@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Auto\+Collection}}
 \subsubsection{\texorpdfstring{On\+Remove()}{OnRemove()}}
-{\footnotesize\ttfamily void Wpf\+Handler.\+U\+I.\+Controls.\+Auto\+Collection.\+On\+Remove (\begin{DoxyParamCaption}\item[{object}]{sender }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+{\footnotesize\ttfamily void Wpf\+Handler.\+U\+I.\+Controls.\+Auto\+Collection.\+On\+Remove (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Routed\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
 
 
 
@@ -269,6 +271,8 @@ Occurs when user pressing remove button.
 
 \begin{DoxyParams}{Parameters}
 {\em sender} & $>$An element that caused that callback.\\
+\hline
+{\em e} & Shared arguments.\\
 \hline
 \end{DoxyParams}
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_a01ab069c42e1737cebb4bb813ec8aa06}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_a01ab069c42e1737cebb4bb813ec8aa06}} 
@@ -361,7 +365,7 @@ The delegate that will be called during Add button click. In case if initialized
 {\bfseries Initial value\+:}
 \begin{DoxyCode}
 = EventManager.RegisterRoutedEvent(\textcolor{stringliteral}{"OnAddClick"},
-            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(
+            RoutingStrategy.Bubble, typeof(Action<object>), typeof(
       \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_a8bc71a7c43dfeca1d6ff113b12088c28}{AutoCollection}}))
 \end{DoxyCode}
 
@@ -387,7 +391,7 @@ The delegate that will be called during Remove button click. In case if initiali
 {\bfseries Initial value\+:}
 \begin{DoxyCode}
 = EventManager.RegisterRoutedEvent(\textcolor{stringliteral}{"OnRemoveClick"},
-            RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(
+            RoutingStrategy.Bubble, typeof(Action<object>), typeof(
       \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection_a8bc71a7c43dfeca1d6ff113b12088c28}{AutoCollection}}))
 \end{DoxyCode}
 

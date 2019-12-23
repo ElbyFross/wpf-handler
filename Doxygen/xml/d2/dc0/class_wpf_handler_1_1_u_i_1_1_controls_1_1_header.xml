@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="44" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="44" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="45" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1afc03b2a1c85957c525b20e793ce9cfe4" prot="public" static="yes" mutable="no">
         <type>readonly DependencyProperty</type>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="50" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="50" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="51" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a8d052187be3a68e9da2d4436bea3b504" prot="public" static="yes" mutable="no">
         <type>readonly DependencyProperty</type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="56" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="56" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="57" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1aa3473a8ebaf39118c2ec51ddc0fcfce7" prot="public" static="yes" mutable="no">
         <type>readonly DependencyProperty</type>
@@ -167,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="62" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="62" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="63" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="event">
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="71" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="71" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="72" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="72" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="property">
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="76" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="76" bodyend="76"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="77" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="77" bodyend="77"/>
       </memberdef>
       <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a3947ddcb07258827b26c25d9ca0f242d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type><ref refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer" kindref="compound">LayoutLayer</ref></type>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="81" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="81" bodyend="81"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="82" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="82" bodyend="82"/>
       </memberdef>
       <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a6ea05d5b82deba64afc724e79a93275e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -223,7 +223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="86" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="87" bodyend="90"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="87" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="88" bodyend="91"/>
       </memberdef>
       <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a020e75c12da978773cd2a3f0089e0644" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>bool</type>
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="95" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="96" bodyend="126"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="96" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="97" bodyend="127"/>
       </memberdef>
       <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a982c296a72324bf0fab5076cebd60928" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>bool</type>
@@ -249,7 +249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="131" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="132" bodyend="144"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="132" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="133" bodyend="145"/>
       </memberdef>
       <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a0039e7d4594591d0d9ca1bf99a1ee497" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type><ref refid="db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content" kindref="compound">GUIContent</ref></type>
@@ -262,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="149" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="150" bodyend="167"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="150" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="151" bodyend="168"/>
       </memberdef>
       <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a905e42505bb758f31a2178730e41aa19" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>object</type>
@@ -275,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="174" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="175" bodyend="184"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="175" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="176" bodyend="185"/>
       </memberdef>
       <memberdef kind="property" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a09034cb3d506198643c0d13b4b10cfdb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>float</type>
@@ -288,7 +288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="189" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="189" bodyend="189"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="190" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="190" bodyend="190"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -355,7 +355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="195" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="195" bodyend="199"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="196" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="196" bodyend="200"/>
       </memberdef>
       <memberdef kind="function" id="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header_1a23ac86ea123581ee90d1aa9b6a81dadd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -392,7 +392,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="206" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="206" bodyend="246"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="207" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="207" bodyend="247"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -514,7 +514,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="253" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="253" bodyend="257"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" line="254" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Header.xaml.cs" bodystart="254" bodyend="258"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -522,119 +522,119 @@
     <detaileddescription>
 <para>Interaction logic for Header.xaml </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="248">
+      <node id="272">
         <label>IGUIField</label>
         <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
-        <childnode refid="249" relation="public-inheritance">
+        <childnode refid="273" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="246">
+      <node id="270">
         <label>WpfHandler.UI.Controls.Header</label>
         <link refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header"/>
-        <childnode refid="247" relation="public-inheritance">
+        <childnode refid="271" relation="public-inheritance">
         </childnode>
-        <childnode refid="248" relation="public-inheritance">
+        <childnode refid="272" relation="public-inheritance">
         </childnode>
-        <childnode refid="250" relation="public-inheritance">
+        <childnode refid="274" relation="public-inheritance">
         </childnode>
-        <childnode refid="251" relation="public-inheritance">
+        <childnode refid="275" relation="public-inheritance">
         </childnode>
-        <childnode refid="252" relation="public-inheritance">
+        <childnode refid="276" relation="public-inheritance">
         </childnode>
-        <childnode refid="251" relation="public-inheritance">
+        <childnode refid="275" relation="public-inheritance">
         </childnode>
-        <childnode refid="252" relation="public-inheritance">
+        <childnode refid="276" relation="public-inheritance">
         </childnode>
-        <childnode refid="251" relation="public-inheritance">
+        <childnode refid="275" relation="public-inheritance">
         </childnode>
-        <childnode refid="252" relation="public-inheritance">
+        <childnode refid="276" relation="public-inheritance">
         </childnode>
-        <childnode refid="251" relation="public-inheritance">
+        <childnode refid="275" relation="public-inheritance">
         </childnode>
-        <childnode refid="252" relation="public-inheritance">
+        <childnode refid="276" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="249">
+      <node id="273">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="251">
+      <node id="275">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="252">
+      <node id="276">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="247">
+      <node id="271">
         <label>UserControl</label>
       </node>
-      <node id="250">
+      <node id="274">
         <label>ILabel</label>
         <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="255">
+      <node id="279">
         <label>IGUIField</label>
         <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
-        <childnode refid="256" relation="public-inheritance">
+        <childnode refid="280" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="260">
-        <label>Controls</label>
-      </node>
-      <node id="253">
+      <node id="277">
         <label>WpfHandler.UI.Controls.Header</label>
         <link refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header"/>
-        <childnode refid="254" relation="public-inheritance">
+        <childnode refid="278" relation="public-inheritance">
         </childnode>
-        <childnode refid="255" relation="public-inheritance">
+        <childnode refid="279" relation="public-inheritance">
         </childnode>
-        <childnode refid="257" relation="public-inheritance">
+        <childnode refid="281" relation="public-inheritance">
         </childnode>
-        <childnode refid="258" relation="public-inheritance">
+        <childnode refid="282" relation="public-inheritance">
         </childnode>
-        <childnode refid="259" relation="public-inheritance">
+        <childnode refid="283" relation="public-inheritance">
         </childnode>
-        <childnode refid="258" relation="public-inheritance">
+        <childnode refid="282" relation="public-inheritance">
         </childnode>
-        <childnode refid="259" relation="public-inheritance">
+        <childnode refid="283" relation="public-inheritance">
         </childnode>
-        <childnode refid="258" relation="public-inheritance">
+        <childnode refid="282" relation="public-inheritance">
         </childnode>
-        <childnode refid="259" relation="public-inheritance">
+        <childnode refid="283" relation="public-inheritance">
         </childnode>
-        <childnode refid="258" relation="public-inheritance">
+        <childnode refid="282" relation="public-inheritance">
         </childnode>
-        <childnode refid="259" relation="public-inheritance">
+        <childnode refid="283" relation="public-inheritance">
         </childnode>
-        <childnode refid="260" relation="usage">
-          <edgelabel>main</edgelabel>
-        </childnode>
-        <childnode refid="261" relation="usage">
+        <childnode refid="284" relation="usage">
           <edgelabel>listControlUi_Showed</edgelabel>
           <edgelabel>button</edgelabel>
           <edgelabel>listControlUi</edgelabel>
           <edgelabel>label</edgelabel>
           <edgelabel>listControlUi_Hided</edgelabel>
         </childnode>
+        <childnode refid="285" relation="usage">
+          <edgelabel>main</edgelabel>
+        </childnode>
       </node>
-      <node id="256">
+      <node id="285">
+        <label>UI</label>
+      </node>
+      <node id="280">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="261">
+      <node id="284">
         <label>System</label>
       </node>
-      <node id="258">
+      <node id="282">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="259">
+      <node id="283">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="254">
+      <node id="278">
         <label>UserControl</label>
       </node>
-      <node id="257">
+      <node id="281">
         <label>ILabel</label>
         <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
       </node>

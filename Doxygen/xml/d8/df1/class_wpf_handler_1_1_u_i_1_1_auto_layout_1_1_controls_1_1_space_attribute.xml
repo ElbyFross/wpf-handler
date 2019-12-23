@@ -103,47 +103,47 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="575">
+      <node id="610">
         <label>ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="574">
+      <node id="609">
         <label>Attribute</label>
       </node>
-      <node id="573">
+      <node id="608">
         <label>WpfHandler.UI.AutoLayout.Controls.SpaceAttribute</label>
         <link refid="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute"/>
-        <childnode refid="574" relation="public-inheritance">
+        <childnode refid="609" relation="public-inheritance">
         </childnode>
-        <childnode refid="575" relation="public-inheritance">
+        <childnode refid="610" relation="public-inheritance">
         </childnode>
-        <childnode refid="576" relation="public-inheritance">
+        <childnode refid="611" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="576">
+      <node id="611">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="579">
+      <node id="614">
         <label>ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="578">
+      <node id="613">
         <label>Attribute</label>
       </node>
-      <node id="577">
+      <node id="612">
         <label>WpfHandler.UI.AutoLayout.Controls.SpaceAttribute</label>
         <link refid="d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute"/>
-        <childnode refid="578" relation="public-inheritance">
+        <childnode refid="613" relation="public-inheritance">
         </childnode>
-        <childnode refid="579" relation="public-inheritance">
+        <childnode refid="614" relation="public-inheritance">
         </childnode>
-        <childnode refid="580" relation="public-inheritance">
+        <childnode refid="615" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="580">
+      <node id="615">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>

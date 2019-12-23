@@ -20,6 +20,31 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute_1a3551a6479b74c809c75c208d49967ce0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Options.VerticalAlignAttribute.VerticalAlignAttribute</definition>
+        <argsstring>(VerticalAlignment alignment)</argsstring>
+        <name>VerticalAlignAttribute</name>
+        <param>
+          <type>VerticalAlignment</type>
+          <declname>alignment</declname>
+        </param>
+        <briefdescription>
+<para>Initializing a property. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A target alignment of a binded element.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/VerticalAlignAttribute.cs" line="42" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/VerticalAlignAttribute.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
       <memberdef kind="function" id="d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute_1a5a37e0bcf32b49da94e4f4d539fe810c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void WpfHandler.UI.AutoLayout.Options.VerticalAlignAttribute.ApplyLayoutOption</definition>
@@ -44,51 +69,52 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/VerticalAlignAttribute.cs" line="42" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/VerticalAlignAttribute.cs" bodystart="42" bodyend="45"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/VerticalAlignAttribute.cs" line="51" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/VerticalAlignAttribute.cs" bodystart="51" bodyend="54"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Define vertical align of the GUI element. </para>    </briefdescription>
+<para>Defines a vertical align of the GUI element. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="616">
+      <node id="657">
         <label>Attribute</label>
       </node>
-      <node id="615">
+      <node id="656">
         <label>WpfHandler.UI.AutoLayout.Options.VerticalAlignAttribute</label>
         <link refid="d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute"/>
-        <childnode refid="616" relation="public-inheritance">
+        <childnode refid="657" relation="public-inheritance">
         </childnode>
-        <childnode refid="617" relation="public-inheritance">
+        <childnode refid="658" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="617">
+      <node id="658">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="619">
+      <node id="660">
         <label>Attribute</label>
       </node>
-      <node id="618">
+      <node id="659">
         <label>WpfHandler.UI.AutoLayout.Options.VerticalAlignAttribute</label>
         <link refid="d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute"/>
-        <childnode refid="619" relation="public-inheritance">
+        <childnode refid="660" relation="public-inheritance">
         </childnode>
-        <childnode refid="620" relation="public-inheritance">
+        <childnode refid="661" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="620">
+      <node id="661">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
     </collaborationgraph>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/VerticalAlignAttribute.cs" line="32" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/VerticalAlignAttribute.cs" bodystart="31" bodyend="46"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/VerticalAlignAttribute.cs" line="32" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/VerticalAlignAttribute.cs" bodystart="31" bodyend="55"/>
     <listofallmembers>
       <member refid="d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute_1a71a12b8962ff5c070830d42c1909ff75" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::VerticalAlignAttribute</scope><name>Alignment</name></member>
       <member refid="d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute_1a5a37e0bcf32b49da94e4f4d539fe810c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::VerticalAlignAttribute</scope><name>ApplyLayoutOption</name></member>
+      <member refid="d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute_1a3551a6479b74c809c75c208d49967ce0" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::VerticalAlignAttribute</scope><name>VerticalAlignAttribute</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

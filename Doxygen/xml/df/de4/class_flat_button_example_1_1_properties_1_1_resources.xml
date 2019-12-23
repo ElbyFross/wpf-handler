@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="df/de4/class_flat_button_example_1_1_properties_1_1_resources" kind="class" language="C#" prot="package">
+    <compoundname>FlatButtonExample::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="df/de4/class_flat_button_example_1_1_properties_1_1_resources_1a51080250da4bd76c2722a8f5b702d33a" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager FlatButtonExample.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Resources.Designer.cs" line="28" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Resources.Designer.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/de4/class_flat_button_example_1_1_properties_1_1_resources_1afb6df971a624077e9bf62794c45eae24" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo FlatButtonExample.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Resources.Designer.cs" line="30" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Resources.Designer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="df/de4/class_flat_button_example_1_1_properties_1_1_resources_1a45fd91f5175b258569cf29b2587e0663" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager FlatButtonExample.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>Returns the cached ResourceManager instance used by this class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Resources.Designer.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Resources.Designer.cs" bodystart="42" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="df/de4/class_flat_button_example_1_1_properties_1_1_resources_1a32beafa8d558f7938ce6714586e65a58" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo FlatButtonExample.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>Overrides the current thread&apos;s CurrentUICulture property for all resource lookups using this strongly typed resource class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Resources.Designer.cs" line="59" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Resources.Designer.cs" bodystart="60" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="df/de4/class_flat_button_example_1_1_properties_1_1_resources_1a8d29aaf6ae9ca54edab63160c5deacff" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FlatButtonExample.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Resources.Designer.cs" line="33" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Resources.Designer.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A strongly-typed resource class, for looking up localized strings, etc. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="814">
+        <label>FlatButtonExample.Properties.Resources</label>
+        <link refid="df/de4/class_flat_button_example_1_1_properties_1_1_resources"/>
+        <childnode refid="814" relation="usage">
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+        <childnode refid="815" relation="usage">
+          <edgelabel>resourceCulture</edgelabel>
+        </childnode>
+      </node>
+      <node id="815">
+        <label>Globalization</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Resources.Designer.cs" line="26" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/FlatButtonExample/Properties/Resources.Designer.cs" bodystart="25" bodyend="70"/>
+    <listofallmembers>
+      <member refid="df/de4/class_flat_button_example_1_1_properties_1_1_resources_1a32beafa8d558f7938ce6714586e65a58" prot="package" virt="non-virtual"><scope>FlatButtonExample::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="df/de4/class_flat_button_example_1_1_properties_1_1_resources_1afb6df971a624077e9bf62794c45eae24" prot="private" virt="non-virtual"><scope>FlatButtonExample::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="df/de4/class_flat_button_example_1_1_properties_1_1_resources_1a51080250da4bd76c2722a8f5b702d33a" prot="private" virt="non-virtual"><scope>FlatButtonExample::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="df/de4/class_flat_button_example_1_1_properties_1_1_resources_1a45fd91f5175b258569cf29b2587e0663" prot="package" virt="non-virtual"><scope>FlatButtonExample::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="df/de4/class_flat_button_example_1_1_properties_1_1_resources_1a8d29aaf6ae9ca54edab63160c5deacff" prot="package" virt="non-virtual"><scope>FlatButtonExample::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

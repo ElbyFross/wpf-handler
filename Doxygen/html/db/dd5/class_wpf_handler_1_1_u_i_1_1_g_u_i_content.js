@@ -12,6 +12,8 @@ var class_wpf_handler_1_1_u_i_1_1_g_u_i_content =
     [ "GetDescription", "db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content.html#a98ca8cae768fad4160df1aba48d6f7f6", null ],
     [ "GetTitle", "db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content.html#a06b4859ce09ed1dc91545154cdb9d5c3", null ],
     [ "GetTitle", "db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content.html#a36c48561703ca7b73f21187ee9ff08bb", null ],
+    [ "operator string", "db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content.html#a0a59156d78345550a413d155791e1137", null ],
+    [ "ToString", "db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content.html#ae38dd5281ee8568b040af4c1d14322c4", null ],
     [ "_DecriptionLocalizationResourseKey", "db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content.html#a067181a637a28c683c1a24ed06e577ae", null ],
     [ "_DefaultDescription", "db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content.html#a7d0ce7f98f08a7e1373eb150231d0c56", null ],
     [ "_DefaultTitle", "db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content.html#a7bfdcdd062eaf3f8cadcdb34eed52d2f", null ],

@@ -62,39 +62,39 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Define custom style from resources that would be applied to the GUI element. </para>    </briefdescription>
+<para>Defines a custom style from resources that will applied to the GUI element. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="582">
+      <node id="617">
         <label>Attribute</label>
       </node>
-      <node id="581">
+      <node id="616">
         <label>WpfHandler.UI.AutoLayout.Options.StyleAttribute</label>
         <link refid="d4/db4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_style_attribute"/>
-        <childnode refid="582" relation="public-inheritance">
+        <childnode refid="617" relation="public-inheritance">
         </childnode>
-        <childnode refid="583" relation="public-inheritance">
+        <childnode refid="618" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="583">
+      <node id="618">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="585">
+      <node id="620">
         <label>Attribute</label>
       </node>
-      <node id="584">
+      <node id="619">
         <label>WpfHandler.UI.AutoLayout.Options.StyleAttribute</label>
         <link refid="d4/db4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_style_attribute"/>
-        <childnode refid="585" relation="public-inheritance">
+        <childnode refid="620" relation="public-inheritance">
         </childnode>
-        <childnode refid="586" relation="public-inheritance">
+        <childnode refid="621" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="586">
+      <node id="621">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>

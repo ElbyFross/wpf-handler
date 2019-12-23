@@ -25,12 +25,12 @@
         <argsstring></argsstring>
         <name>Order</name>
         <briefdescription>
-        </briefdescription>
+<para>The prority order of an element. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/OrderAttribute.cs" line="33" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/OrderAttribute.cs" bodystart="33" bodyend="33"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/OrderAttribute.cs" line="37" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/OrderAttribute.cs" bodystart="37" bodyend="37"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -44,41 +44,49 @@
           <declname>order</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Default constuctor. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>order</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The prority order of an element.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/OrderAttribute.cs" line="34" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/OrderAttribute.cs" bodystart="34" bodyend="34"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/OrderAttribute.cs" line="43" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/OrderAttribute.cs" bodystart="43" bodyend="43"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Defines order of member into auto-generated <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref>. </para>    </briefdescription>
+<para>Defines an order of the member into an auto-generated <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref>. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="519">
+      <node id="554">
         <label>Attribute</label>
       </node>
-      <node id="518">
+      <node id="553">
         <label>WpfHandler.UI.AutoLayout.Configuration.OrderAttribute</label>
         <link refid="df/d2b/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_order_attribute"/>
-        <childnode refid="519" relation="public-inheritance">
+        <childnode refid="554" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="521">
+      <node id="556">
         <label>Attribute</label>
       </node>
-      <node id="520">
+      <node id="555">
         <label>WpfHandler.UI.AutoLayout.Configuration.OrderAttribute</label>
         <link refid="df/d2b/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_order_attribute"/>
-        <childnode refid="521" relation="public-inheritance">
+        <childnode refid="556" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/OrderAttribute.cs" line="31" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/OrderAttribute.cs" bodystart="30" bodyend="35"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/OrderAttribute.cs" line="31" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/OrderAttribute.cs" bodystart="30" bodyend="44"/>
     <listofallmembers>
       <member refid="df/d2b/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_order_attribute_1a3a9164418c248a5bd362cf40f69f5a9c" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::OrderAttribute</scope><name>order</name></member>
       <member refid="df/d2b/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_order_attribute_1af216fd2b8c66cf70d39b0904793c345a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Configuration::OrderAttribute</scope><name>Order</name></member>

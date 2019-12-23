@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dd/dd9/_enums_compatible_attribute_8cs" kind="file" language="C#">
     <compoundname>EnumsCompatibleAttribute.cs</compoundname>
-    <innerclass refid="dd/db3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enums_compatible_attribute" prot="public">WpfHandler::UI::AutoLayout::Configuration::EnumsCompatibleAttribute</innerclass>
-    <innernamespace refid="da/d59/namespace_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration">WpfHandler::UI::AutoLayout::Configuration</innernamespace>
+    <innerclass refid="d0/de7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_enums_compatible_attribute" prot="public">WpfHandler::UI::AutoLayout::Markups::EnumsCompatibleAttribute</innerclass>
+    <innernamespace refid="d6/d8f/namespace_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups">WpfHandler::UI::AutoLayout::Markups</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -29,12 +29,12 @@
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="d8/dd0/namespace_system" kindref="compound">System</ref>.Text;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="d8/dd0/namespace_system" kindref="compound">System</ref>.Threading.Tasks;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="da/d93/namespace_wpf_handler" kindref="compound">WpfHandler</ref>.UI.AutoLayout.Configuration</highlight></codeline>
+<codeline lineno="21" refid="d6/d8f/namespace_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="da/d93/namespace_wpf_handler" kindref="compound">WpfHandler</ref>.UI.AutoLayout.Markups</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>[AttributeUsage(AttributeTargets.Class<sp/>|<sp/>AttributeTargets.Struct,<sp/>AllowMultiple<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>Inherited<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)]</highlight></codeline>
-<codeline lineno="27" refid="dd/db3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enums_compatible_attribute" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/db3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enums_compatible_attribute" kindref="compound">EnumsCompatibleAttribute</ref><sp/>:<sp/>Attribute,<sp/><ref refid="d6/d41/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_i_g_u_i_element_binding_attribute" kindref="compound">IGUIElementBindingAttribute</ref><sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="27" refid="d0/de7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_enums_compatible_attribute" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/de7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_enums_compatible_attribute" kindref="compound">EnumsCompatibleAttribute</ref><sp/>:<sp/>Attribute,<sp/><ref refid="d4/d32/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_i_g_u_i_element_binding_attribute" kindref="compound">IGUIElementBindingAttribute</ref><sp/>{<sp/>}</highlight></codeline>
 <codeline lineno="28"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Configuration/EnumsCompatibleAttribute.cs"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Markups/EnumsCompatibleAttribute.cs"/>
   </compounddef>
 </doxygen>

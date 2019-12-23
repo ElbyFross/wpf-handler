@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="de/da5/class_toggles_group_example_1_1_properties_1_1_settings" kind="class" language="C#" prot="package">
+    <compoundname>TogglesGroupExample::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="de/da5/class_toggles_group_example_1_1_properties_1_1_settings_1ac126e1477321bcc6adb536b5ece505ea" prot="private" static="yes" mutable="no">
+        <type><ref refid="de/da5/class_toggles_group_example_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings TogglesGroupExample.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((<ref refid="de/da5/class_toggles_group_example_1_1_properties_1_1_settings" kindref="compound">Settings</ref>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <ref refid="de/da5/class_toggles_group_example_1_1_properties_1_1_settings" kindref="compound">Settings</ref>())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Settings.Designer.cs" line="20" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Settings.Designer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="de/da5/class_toggles_group_example_1_1_properties_1_1_settings_1ab14e28d9562983a8b875d00bc96fd61f" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="de/da5/class_toggles_group_example_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings TogglesGroupExample.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Settings.Designer.cs" line="22" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Settings.Designer.cs" bodystart="23" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="881">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="880">
+        <label>TogglesGroupExample.Properties.Settings</label>
+        <link refid="de/da5/class_toggles_group_example_1_1_properties_1_1_settings"/>
+        <childnode refid="881" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="883">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="882">
+        <label>TogglesGroupExample.Properties.Settings</label>
+        <link refid="de/da5/class_toggles_group_example_1_1_properties_1_1_settings"/>
+        <childnode refid="883" relation="public-inheritance">
+        </childnode>
+        <childnode refid="882" relation="usage">
+          <edgelabel>defaultInstance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Settings.Designer.cs" line="18" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/Properties/Settings.Designer.cs" bodystart="17" bodyend="29"/>
+    <listofallmembers>
+      <member refid="de/da5/class_toggles_group_example_1_1_properties_1_1_settings_1ab14e28d9562983a8b875d00bc96fd61f" prot="public" virt="non-virtual"><scope>TogglesGroupExample::Properties::Settings</scope><name>Default</name></member>
+      <member refid="de/da5/class_toggles_group_example_1_1_properties_1_1_settings_1ac126e1477321bcc6adb536b5ece505ea" prot="private" virt="non-virtual"><scope>TogglesGroupExample::Properties::Settings</scope><name>defaultInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

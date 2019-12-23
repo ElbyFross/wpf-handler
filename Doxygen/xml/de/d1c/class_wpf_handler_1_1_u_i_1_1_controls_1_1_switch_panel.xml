@@ -47,7 +47,7 @@
       </sectiondef>
       <sectiondef kind="package-attrib">
       <memberdef kind="variable" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1af15c245b340d5416b5c673da9a889eb9" prot="package" static="no" mutable="no">
-        <type>System.Windows.Controls.Grid</type>
+        <type><ref refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel" kindref="compound">WpfHandler.UI.Controls.SwitchPanel</ref></type>
         <definition>System Windows Controls Grid WpfHandler.UI.Controls.SwitchPanel::main</definition>
         <argsstring></argsstring>
         <name>main</name>
@@ -58,6 +58,19 @@
         <inbodydescription>
         </inbodydescription>
         <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="46" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1ab04295aeb38f8cf67e1b98b54d7b073d" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid WpfHandler.UI.Controls.SwitchPanel::grid</definition>
+        <argsstring></argsstring>
+        <name>grid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="54" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a6913da7b87a27aef9fac93a206b900a1" prot="package" static="no" mutable="no">
         <type>System.Windows.Controls.Grid</type>
@@ -70,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="54" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="54" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="62" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1aff7ed0b36cb541447a9ab6eb9f2400f9" prot="package" static="no" mutable="no">
         <type>System.Windows.Controls.Grid</type>
@@ -83,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="62" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="62" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a79e5aefd50fd6e2dbcc444923a9d1e4b" prot="package" static="no" mutable="no">
         <type>System.Windows.Controls.Grid</type>
@@ -96,7 +109,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="70" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="78" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1ab3b3a8aaa054b67f882134942aa20ff0" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System.Windows.Controls.Grid WpfHandler.UI.Controls.SwitchPanel.main</definition>
+        <argsstring></argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/SwitchPanel.g.cs" line="46" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/SwitchPanel.g.cs" bodystart="46" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -111,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="75" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="75" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="83" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="83" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="event">
@@ -136,7 +162,7 @@
         <argsstring></argsstring>
         <name>DurationProperty</name>
         <initializer>= DependencyProperty.Register(
-          &quot;Duration&quot;, typeof(TimeSpan), typeof(<ref refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel" kindref="compound">SwitchPanel</ref>))</initializer>
+          &quot;Duration&quot;, typeof(TimeSpan), typeof(<ref refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel" kindref="compound">SwitchPanel</ref>), new PropertyMetadata(new TimeSpan(0, 0, 0, 0, 300)))</initializer>
         <briefdescription>
 <para>Bridging XAML declaring and the member. </para>        </briefdescription>
         <detaileddescription>
@@ -160,7 +186,7 @@
         </inbodydescription>
         <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="73" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="74" bodyend="77"/>
       </memberdef>
-      <memberdef kind="property" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a5412b80c31880fe852a7b82c0a81fd7a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+      <memberdef kind="property" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a5412b80c31880fe852a7b82c0a81fd7a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>UIElement</type>
         <definition>UIElement WpfHandler.UI.Controls.SwitchPanel.Current</definition>
         <argsstring></argsstring>
@@ -171,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="82" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="83" bodyend="88"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="82" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="83" bodyend="102"/>
       </memberdef>
       <memberdef kind="property" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1aeef75c353f5212b3745cfa7b099e5406" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type><ref refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1aad6e1d850ec0101cc8d98c259971e272" kindref="member">AnimationType</ref></type>
@@ -184,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="93" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="93" bodyend="93"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="107" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="107" bodyend="107"/>
       </memberdef>
       <memberdef kind="property" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a885bc2ba8a565945b07a7e8b0116dcc6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>UIElement</type>
@@ -197,7 +223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="98" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="98" bodyend="98"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="112" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="112" bodyend="112"/>
       </memberdef>
       <memberdef kind="property" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a91e83b22fc1d655359370611e2d76ec9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>UIElement</type>
@@ -210,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="104" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="104" bodyend="104"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="118" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="118" bodyend="118"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -225,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="82" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="82" bodyend="94"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="90" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="90" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a9a8e8f316052b03ca360d48a507e8734" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -238,7 +264,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.i.cs" line="82" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.i.cs" bodystart="82" bodyend="94"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.i.cs" line="90" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.i.cs" bodystart="90" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a9a8e8f316052b03ca360d48a507e8734" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -277,13 +303,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="109" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="109" bodyend="115"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="123" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="123" bodyend="129"/>
       </memberdef>
-      <memberdef kind="function" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a324749b533fdd754c87f490379f49082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void WpfHandler.UI.Controls.SwitchPanel.SwitchTo</definition>
+      <memberdef kind="function" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a1797a0bb1de37134c2ed133718cdcee4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task WpfHandler.UI.Controls.SwitchPanel.SwitchToAsync</definition>
         <argsstring>(UIElement element, AnimationType animationType)</argsstring>
-        <name>SwitchTo</name>
+        <name>SwitchToAsync</name>
         <param>
           <type>UIElement</type>
           <declname>element</declname>
@@ -313,7 +339,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="122" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="122" bodyend="155"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="136" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="136" bodyend="178"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -336,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="102" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="102" bodyend="119"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="110" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="110" bodyend="130"/>
       </memberdef>
       <memberdef kind="function" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a17743b6a82dd0acd5d67c97dc38cd156" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void System.Windows.Markup.IComponentConnector.</type>
@@ -357,7 +383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.i.cs" line="102" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.i.cs" bodystart="102" bodyend="119"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.i.cs" line="110" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.i.cs" bodystart="110" bodyend="130"/>
       </memberdef>
       <memberdef kind="function" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a17743b6a82dd0acd5d67c97dc38cd156" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void System.Windows.Markup.IComponentConnector.</type>
@@ -435,7 +461,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="226" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="226" bodyend="262"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="247" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="247" bodyend="287"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -450,7 +476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="160" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="160" bodyend="166"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="183" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="183" bodyend="187"/>
       </memberdef>
       <memberdef kind="function" id="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1af0469b4bed6e5d1e34a677427f45051a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -463,7 +489,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="171" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="171" bodyend="219"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" line="192" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SwitchPanel.xaml.cs" bodystart="192" bodyend="240"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -471,81 +497,88 @@
     <detaileddescription>
 <para>Interaction logic for SwitchPanel.xaml </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="587">
+      <node id="622">
         <label>WpfHandler.UI.Controls.SwitchPanel</label>
         <link refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel"/>
-        <childnode refid="588" relation="public-inheritance">
+        <childnode refid="623" relation="public-inheritance">
         </childnode>
-        <childnode refid="589" relation="public-inheritance">
+        <childnode refid="624" relation="public-inheritance">
         </childnode>
-        <childnode refid="590" relation="public-inheritance">
+        <childnode refid="625" relation="public-inheritance">
         </childnode>
-        <childnode refid="589" relation="public-inheritance">
+        <childnode refid="624" relation="public-inheritance">
         </childnode>
-        <childnode refid="590" relation="public-inheritance">
+        <childnode refid="625" relation="public-inheritance">
         </childnode>
-        <childnode refid="589" relation="public-inheritance">
+        <childnode refid="624" relation="public-inheritance">
         </childnode>
-        <childnode refid="590" relation="public-inheritance">
+        <childnode refid="625" relation="public-inheritance">
         </childnode>
-        <childnode refid="589" relation="public-inheritance">
+        <childnode refid="624" relation="public-inheritance">
         </childnode>
-        <childnode refid="590" relation="public-inheritance">
+        <childnode refid="625" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="589">
+      <node id="624">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="590">
+      <node id="625">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="588">
+      <node id="623">
         <label>UserControl</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="591">
+      <node id="626">
         <label>WpfHandler.UI.Controls.SwitchPanel</label>
         <link refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel"/>
-        <childnode refid="592" relation="public-inheritance">
+        <childnode refid="627" relation="public-inheritance">
         </childnode>
-        <childnode refid="593" relation="public-inheritance">
+        <childnode refid="628" relation="public-inheritance">
         </childnode>
-        <childnode refid="594" relation="public-inheritance">
+        <childnode refid="629" relation="public-inheritance">
         </childnode>
-        <childnode refid="593" relation="public-inheritance">
+        <childnode refid="628" relation="public-inheritance">
         </childnode>
-        <childnode refid="594" relation="public-inheritance">
+        <childnode refid="629" relation="public-inheritance">
         </childnode>
-        <childnode refid="593" relation="public-inheritance">
+        <childnode refid="628" relation="public-inheritance">
         </childnode>
-        <childnode refid="594" relation="public-inheritance">
+        <childnode refid="629" relation="public-inheritance">
         </childnode>
-        <childnode refid="593" relation="public-inheritance">
+        <childnode refid="628" relation="public-inheritance">
         </childnode>
-        <childnode refid="594" relation="public-inheritance">
+        <childnode refid="629" relation="public-inheritance">
         </childnode>
-        <childnode refid="595" relation="usage">
+        <childnode refid="630" relation="usage">
           <edgelabel>next</edgelabel>
+          <edgelabel>grid</edgelabel>
           <edgelabel>main</edgelabel>
           <edgelabel>current</edgelabel>
           <edgelabel>switchPanel</edgelabel>
         </childnode>
+        <childnode refid="631" relation="usage">
+          <edgelabel>main</edgelabel>
+        </childnode>
       </node>
-      <node id="595">
+      <node id="631">
+        <label>UI</label>
+      </node>
+      <node id="630">
         <label>System</label>
       </node>
-      <node id="593">
+      <node id="628">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="594">
+      <node id="629">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="592">
+      <node id="627">
         <label>UserControl</label>
       </node>
     </collaborationgraph>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="41" bodyend="120"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/SwitchPanel.g.cs" bodystart="41" bodyend="131"/>
     <listofallmembers>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a46769d162cebe1b7292ff512fe5feaf3" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>_contentLoaded</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1af0469b4bed6e5d1e34a677427f45051a" prot="protected" virt="virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>AlphaSwipe</name></member>
@@ -556,10 +589,11 @@
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a17743b6a82dd0acd5d67c97dc38cd156" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>Connect</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a17743b6a82dd0acd5d67c97dc38cd156" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>Connect</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a17743b6a82dd0acd5d67c97dc38cd156" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>Connect</name></member>
-      <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a79e5aefd50fd6e2dbcc444923a9d1e4b" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>current</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a5412b80c31880fe852a7b82c0a81fd7a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>Current</name></member>
+      <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a79e5aefd50fd6e2dbcc444923a9d1e4b" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>current</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a3640cb1447755f529ffe36bccad2dc34" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>Duration</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1ad636f8069ad5c1869073781451f6ba2a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>DurationProperty</name></member>
+      <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1ab04295aeb38f8cf67e1b98b54d7b073d" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>grid</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a9a8e8f316052b03ca360d48a507e8734" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>InitializeComponent</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a9a8e8f316052b03ca360d48a507e8734" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>InitializeComponent</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a9a8e8f316052b03ca360d48a507e8734" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>InitializeComponent</name></member>
@@ -567,12 +601,13 @@
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a885bc2ba8a565945b07a7e8b0116dcc6" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>InProcessing</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1aeef75c353f5212b3745cfa7b099e5406" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>LastAnmimationType</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1af15c245b340d5416b5c673da9a889eb9" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>main</name></member>
+      <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1ab3b3a8aaa054b67f882134942aa20ff0" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>main</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a6913da7b87a27aef9fac93a206b900a1" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>next</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a91e83b22fc1d655359370611e2d76ec9" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>OrderBufer</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a2227b95066799ff4d9b0431c97513643" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>StartSwitchAnimation</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1aff7ed0b36cb541447a9ab6eb9f2400f9" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>switchPanel</name></member>
       <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a66b597d71d605434b2f51276feff9c8b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>SwitchPanel</name></member>
-      <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a324749b533fdd754c87f490379f49082" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>SwitchTo</name></member>
+      <member refid="de/d1c/class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_1a1797a0bb1de37134c2ed133718cdcee4" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SwitchPanel</scope><name>SwitchToAsync</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

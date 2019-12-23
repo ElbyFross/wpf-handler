@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d6/d6f/class_localization_sample_1_1_main_window" kind="class" language="C#" prot="public">
+    <compoundname>LocalizationSample::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d6/d6f/class_localization_sample_1_1_main_window_1aa5ea8a01e892975c5150f7836224fc77" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>int</type>
+        <definition>int LocalizationSample.MainWindow.LangIndex</definition>
+        <argsstring></argsstring>
+        <name>LangIndex</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/MainWindow.xaml.cs" line="14" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/MainWindow.xaml.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="d6/d6f/class_localization_sample_1_1_main_window_1a5c96ecd4bb4f2f3afda014026067699e" prot="package" static="no" mutable="no">
+        <type><ref refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button" kindref="compound">WpfHandler.UI.Controls.FlatButton</ref></type>
+        <definition>WpfHandler UI Controls FlatButton LocalizationSample.MainWindow::localizedButton</definition>
+        <argsstring></argsstring>
+        <name>localizedButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Debug/MainWindow.g.cs" line="47" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Debug/MainWindow.g.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d6f/class_localization_sample_1_1_main_window_1a4b40d4e16ea71a96feb960c4fd482b82" prot="package" static="no" mutable="no">
+        <type><ref refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group" kindref="compound">WpfHandler.UI.Controls.FlatTogglesGroup</ref></type>
+        <definition>WpfHandler UI Controls FlatTogglesGroup LocalizationSample.MainWindow::langPanel</definition>
+        <argsstring></argsstring>
+        <name>langPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Debug/MainWindow.g.cs" line="55" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Debug/MainWindow.g.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/d6f/class_localization_sample_1_1_main_window_1aeda102366813a7dc02b2f9e91fbfd016" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LocalizationSample.MainWindow::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Debug/MainWindow.g.cs" line="60" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Debug/MainWindow.g.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d6f/class_localization_sample_1_1_main_window_1a120c782722d80d67e877326d6cecfe76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LocalizationSample.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/MainWindow.xaml.cs" line="16" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/MainWindow.xaml.cs" bodystart="16" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6f/class_localization_sample_1_1_main_window_1a8d39b36d8b9d44d802902f109dd1f160" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocalizationSample.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Debug/MainWindow.g.cs" line="67" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Debug/MainWindow.g.cs" bodystart="67" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6f/class_localization_sample_1_1_main_window_1a8d39b36d8b9d44d802902f109dd1f160" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocalizationSample.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Debug/MainWindow.g.i.cs" line="67" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Debug/MainWindow.g.i.cs" bodystart="67" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6f/class_localization_sample_1_1_main_window_1a8d39b36d8b9d44d802902f109dd1f160" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocalizationSample.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Release/MainWindow.g.cs" line="67" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Release/MainWindow.g.cs" bodystart="67" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6f/class_localization_sample_1_1_main_window_1a8d39b36d8b9d44d802902f109dd1f160" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocalizationSample.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Release/MainWindow.g.i.cs" line="67" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Release/MainWindow.g.i.cs" bodystart="67" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d6/d6f/class_localization_sample_1_1_main_window_1a2efc399a8174f2f56a215628948e6747" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocalizationSample.MainWindow.LangPanel_ValueChanged</definition>
+        <argsstring>(IGUIField obj)</argsstring>
+        <name>LangPanel_ValueChanged</name>
+        <param>
+          <type><ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Occurs when user decide to change the current app&apos;s language. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/MainWindow.xaml.cs" line="51" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/MainWindow.xaml.cs" bodystart="51" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6f/class_localization_sample_1_1_main_window_1a82c42a7ea67057c4bb3b2cce133ef05c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LocalizationSample.MainWindow.LocalizedButton_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>LocalizedButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Occurs when button is pressed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/MainWindow.xaml.cs" line="79" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/MainWindow.xaml.cs" bodystart="79" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6f/class_localization_sample_1_1_main_window_1a08012171ec433692f33c60e61cb21c25" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. LocalizationSample.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Debug/MainWindow.g.cs" line="87" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Debug/MainWindow.g.cs" bodystart="87" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6f/class_localization_sample_1_1_main_window_1a08012171ec433692f33c60e61cb21c25" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. LocalizationSample.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Debug/MainWindow.g.i.cs" line="87" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Debug/MainWindow.g.i.cs" bodystart="87" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6f/class_localization_sample_1_1_main_window_1a08012171ec433692f33c60e61cb21c25" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. LocalizationSample.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Release/MainWindow.g.cs" line="87" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Release/MainWindow.g.cs" bodystart="87" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6f/class_localization_sample_1_1_main_window_1a08012171ec433692f33c60e61cb21c25" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. LocalizationSample.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Release/MainWindow.g.i.cs" line="87" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/obj/Release/MainWindow.g.i.cs" bodystart="87" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for MainWindow.xaml </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="d6/d6f/class_localization_sample_1_1_main_window" kindref="compound">MainWindow</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="641">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="643">
+        <label>Window</label>
+      </node>
+      <node id="640">
+        <label>LocalizationSample.MainWindow</label>
+        <link refid="d6/d6f/class_localization_sample_1_1_main_window"/>
+        <childnode refid="641" relation="public-inheritance">
+        </childnode>
+        <childnode refid="642" relation="public-inheritance">
+        </childnode>
+        <childnode refid="641" relation="public-inheritance">
+        </childnode>
+        <childnode refid="642" relation="public-inheritance">
+        </childnode>
+        <childnode refid="641" relation="public-inheritance">
+        </childnode>
+        <childnode refid="642" relation="public-inheritance">
+        </childnode>
+        <childnode refid="641" relation="public-inheritance">
+        </childnode>
+        <childnode refid="642" relation="public-inheritance">
+        </childnode>
+        <childnode refid="643" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="642">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="645">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="647">
+        <label>Window</label>
+      </node>
+      <node id="648">
+        <label>UI</label>
+      </node>
+      <node id="644">
+        <label>LocalizationSample.MainWindow</label>
+        <link refid="d6/d6f/class_localization_sample_1_1_main_window"/>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+        <childnode refid="646" relation="public-inheritance">
+        </childnode>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+        <childnode refid="646" relation="public-inheritance">
+        </childnode>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+        <childnode refid="646" relation="public-inheritance">
+        </childnode>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+        <childnode refid="646" relation="public-inheritance">
+        </childnode>
+        <childnode refid="647" relation="public-inheritance">
+        </childnode>
+        <childnode refid="648" relation="usage">
+          <edgelabel>localizedButton</edgelabel>
+          <edgelabel>langPanel</edgelabel>
+        </childnode>
+      </node>
+      <node id="646">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/MainWindow.xaml.cs" line="13" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/MainWindow.xaml.cs" bodystart="12" bodyend="96"/>
+    <listofallmembers>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1aeda102366813a7dc02b2f9e91fbfd016" prot="private" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>_contentLoaded</name></member>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1a08012171ec433692f33c60e61cb21c25" prot="private" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>Connect</name></member>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1a08012171ec433692f33c60e61cb21c25" prot="private" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>Connect</name></member>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1a08012171ec433692f33c60e61cb21c25" prot="private" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>Connect</name></member>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1a08012171ec433692f33c60e61cb21c25" prot="private" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>Connect</name></member>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1a8d39b36d8b9d44d802902f109dd1f160" prot="public" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1a8d39b36d8b9d44d802902f109dd1f160" prot="public" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1a8d39b36d8b9d44d802902f109dd1f160" prot="public" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1a8d39b36d8b9d44d802902f109dd1f160" prot="public" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1aa5ea8a01e892975c5150f7836224fc77" prot="public" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>LangIndex</name></member>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1a4b40d4e16ea71a96feb960c4fd482b82" prot="package" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>langPanel</name></member>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1a2efc399a8174f2f56a215628948e6747" prot="private" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>LangPanel_ValueChanged</name></member>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1a5c96ecd4bb4f2f3afda014026067699e" prot="package" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>localizedButton</name></member>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1a82c42a7ea67057c4bb3b2cce133ef05c" prot="private" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>LocalizedButton_Click</name></member>
+      <member refid="d6/d6f/class_localization_sample_1_1_main_window_1a120c782722d80d67e877326d6cecfe76" prot="public" virt="non-virtual"><scope>LocalizationSample::MainWindow</scope><name>MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
