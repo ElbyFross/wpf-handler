@@ -4,5 +4,6 @@ var searchData=
   ['onaddevent',['OnAddEvent',['../d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection.html#adb3a377a24d9b0fefc0d58cf0c8e6289',1,'WpfHandler::UI::Controls::AutoCollection']]],
   ['onremoveclick',['OnRemoveClick',['../d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection.html#a6130a353d0fadfaaf9bc17881406354f',1,'WpfHandler::UI::Controls::AutoCollection']]],
   ['onremoveevent',['OnRemoveEvent',['../d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection.html#a55213a701b1defa4c6a490d25f083fe4',1,'WpfHandler::UI::Controls::AutoCollection']]],
+  ['operationcancelcallbackproperty',['OperationCancelCallbackProperty',['../d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen.html#a2d6e87038fcb0e1594e5ee244853d347',1,'WpfHandler::UI::Controls::Logon::LogonScreen']]],
   ['orientation',['orientation',['../db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer.html#aaa8c38d388802ad0cc19d10041fce973',1,'WpfHandler::UI::AutoLayout::LayoutLayer']]]
 ];

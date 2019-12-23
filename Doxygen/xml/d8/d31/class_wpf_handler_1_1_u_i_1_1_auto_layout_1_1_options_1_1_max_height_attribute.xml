@@ -71,64 +71,64 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Define max allowed height of the GUI element. </para>    </briefdescription>
+<para>Defines a max allowed height of the GUI element. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="475">
+      <node id="510">
         <label>ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="474">
+      <node id="509">
         <label>Attribute</label>
       </node>
-      <node id="473">
+      <node id="508">
         <label>LayoutSizeAttribute</label>
         <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
-        <childnode refid="474" relation="public-inheritance">
+        <childnode refid="509" relation="public-inheritance">
         </childnode>
-        <childnode refid="475" relation="public-inheritance">
+        <childnode refid="510" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="476">
+      <node id="511">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
-      <node id="472">
+      <node id="507">
         <label>WpfHandler.UI.AutoLayout.Options.MaxHeightAttribute</label>
         <link refid="d8/d31/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_height_attribute"/>
-        <childnode refid="473" relation="public-inheritance">
+        <childnode refid="508" relation="public-inheritance">
         </childnode>
-        <childnode refid="476" relation="public-inheritance">
+        <childnode refid="511" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="480">
+      <node id="515">
         <label>ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="479">
+      <node id="514">
         <label>Attribute</label>
       </node>
-      <node id="478">
+      <node id="513">
         <label>LayoutSizeAttribute</label>
         <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
-        <childnode refid="479" relation="public-inheritance">
+        <childnode refid="514" relation="public-inheritance">
         </childnode>
-        <childnode refid="480" relation="public-inheritance">
+        <childnode refid="515" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="481">
+      <node id="516">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
-      <node id="477">
+      <node id="512">
         <label>WpfHandler.UI.AutoLayout.Options.MaxHeightAttribute</label>
         <link refid="d8/d31/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_height_attribute"/>
-        <childnode refid="478" relation="public-inheritance">
+        <childnode refid="513" relation="public-inheritance">
         </childnode>
-        <childnode refid="481" relation="public-inheritance">
+        <childnode refid="516" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

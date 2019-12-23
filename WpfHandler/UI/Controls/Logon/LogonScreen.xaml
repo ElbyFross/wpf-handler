@@ -21,7 +21,7 @@ limitations under the License.-->
              xmlns:logon="clr-namespace:WpfHandler.UI.Controls.Logon"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid x:Name="main" Background="#FFFFFF" Loaded="LogonPanel_Loaded" Opacity="{Binding Opacity}">
+    <Grid x:Name="main" Background="#FFFFFF" Loaded="UILoaded" Opacity="{Binding Opacity}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="38*" MinWidth="280"/>
             <ColumnDefinition Width="62*"/>

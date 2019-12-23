@@ -163,6 +163,7 @@ namespace WpfHandler.UI.Controls
                     // Applying the value.
                     switch (ValueMode)
                     {
+                        case Mode.Undefined:
                         case Mode.String:
                         case Mode.Regex: return Text;
 
@@ -177,6 +178,9 @@ namespace WpfHandler.UI.Controls
             }
             set
             {
+                // If value is the null string then turn in the the empty one.
+                if (value == null) value = "";
+
                 // Definig mode if not defined yet.
                 if (ValueMode == Mode.Undefined)
                 {
@@ -222,6 +226,9 @@ namespace WpfHandler.UI.Controls
 
                 // Set value but apply at least 25 point to input field.
                 float appliedSize = (float)Math.Min(_LabelWidth, ActualWidth - 25);
+                appliedSize = Math.Max(0, appliedSize);
+
+                if (LabelWidth == appliedSize) return;
 
                 // Appling value.
                 SetValue(LabelWidthProperty, appliedSize);
@@ -273,8 +280,6 @@ namespace WpfHandler.UI.Controls
             // Subscribing on the base events.
             SizeChanged += TextFieldControl_SizeChanged; 
             Loaded += TextFieldControl_Loaded;
-
-            Value = "";
         }
 
         /// <summary>
@@ -346,6 +351,12 @@ namespace WpfHandler.UI.Controls
         {
             // Update default request label size.
             _LabelWidth = LabelWidth;
+
+            // Setting the default value in case if not defined.
+            if (Value == null)
+            {
+                Value = "";
+            };
 
             // Recomputing dinamic layout.
             RecomputeLayout();

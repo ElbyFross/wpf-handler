@@ -199,12 +199,12 @@
         <argsstring>()</argsstring>
         <name>LockScreen</name>
         <briefdescription>
-        </briefdescription>
+<para>Default constructor. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" line="60" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" bodystart="60" bodyend="64"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" bodystart="63" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1ae53cb9098b105a55f6da81acf3703e69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -240,7 +240,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" line="71" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" bodystart="71" bodyend="112"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" line="74" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" bodystart="74" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1a2411f98b2544601d6310967dc93064a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -253,24 +253,43 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" line="117" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" bodystart="117" bodyend="157"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" line="120" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" bodystart="120" bodyend="160"/>
       </memberdef>
-      <memberdef kind="function" id="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1a780b13daab4235569b6705639acfe245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1ab3d0b280c769a2c9ed57766d03791fd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void WpfHandler.UI.Controls.LockScreen.LockCancelCallbackHandler</definition>
-        <argsstring>(object sender)</argsstring>
+        <argsstring>(object sender, RoutedEventArgs args)</argsstring>
         <name>LockCancelCallbackHandler</name>
         <param>
           <type>object</type>
           <declname>sender</declname>
         </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>args</declname>
+        </param>
         <briefdescription>
-        </briefdescription>
+<para>Occurs when lock screee cancel button is pressed. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" line="159" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" bodystart="159" bodyend="163"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" line="167" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/LockScreen.xaml.cs" bodystart="167" bodyend="171"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="package-func">
@@ -450,82 +469,82 @@
     <detaileddescription>
 <para>Interaction logic for LockScreen.xaml </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="442">
+      <node id="477">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="443">
+      <node id="478">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="441">
+      <node id="476">
         <label>UserControl</label>
       </node>
-      <node id="440">
+      <node id="475">
         <label>WpfHandler.UI.Controls.LockScreen</label>
         <link refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen"/>
-        <childnode refid="441" relation="public-inheritance">
+        <childnode refid="476" relation="public-inheritance">
         </childnode>
-        <childnode refid="442" relation="public-inheritance">
+        <childnode refid="477" relation="public-inheritance">
         </childnode>
-        <childnode refid="443" relation="public-inheritance">
+        <childnode refid="478" relation="public-inheritance">
         </childnode>
-        <childnode refid="442" relation="public-inheritance">
+        <childnode refid="477" relation="public-inheritance">
         </childnode>
-        <childnode refid="443" relation="public-inheritance">
+        <childnode refid="478" relation="public-inheritance">
         </childnode>
-        <childnode refid="442" relation="public-inheritance">
+        <childnode refid="477" relation="public-inheritance">
         </childnode>
-        <childnode refid="443" relation="public-inheritance">
+        <childnode refid="478" relation="public-inheritance">
         </childnode>
-        <childnode refid="442" relation="public-inheritance">
+        <childnode refid="477" relation="public-inheritance">
         </childnode>
-        <childnode refid="443" relation="public-inheritance">
+        <childnode refid="478" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="448">
-        <label>Controls</label>
+      <node id="484">
+        <label>UI</label>
       </node>
-      <node id="449">
+      <node id="483">
         <label>System</label>
       </node>
-      <node id="446">
+      <node id="481">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="447">
+      <node id="482">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="445">
+      <node id="480">
         <label>UserControl</label>
       </node>
-      <node id="444">
+      <node id="479">
         <label>WpfHandler.UI.Controls.LockScreen</label>
         <link refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen"/>
-        <childnode refid="445" relation="public-inheritance">
+        <childnode refid="480" relation="public-inheritance">
         </childnode>
-        <childnode refid="446" relation="public-inheritance">
+        <childnode refid="481" relation="public-inheritance">
         </childnode>
-        <childnode refid="447" relation="public-inheritance">
+        <childnode refid="482" relation="public-inheritance">
         </childnode>
-        <childnode refid="446" relation="public-inheritance">
+        <childnode refid="481" relation="public-inheritance">
         </childnode>
-        <childnode refid="447" relation="public-inheritance">
+        <childnode refid="482" relation="public-inheritance">
         </childnode>
-        <childnode refid="446" relation="public-inheritance">
+        <childnode refid="481" relation="public-inheritance">
         </childnode>
-        <childnode refid="447" relation="public-inheritance">
+        <childnode refid="482" relation="public-inheritance">
         </childnode>
-        <childnode refid="446" relation="public-inheritance">
+        <childnode refid="481" relation="public-inheritance">
         </childnode>
-        <childnode refid="447" relation="public-inheritance">
+        <childnode refid="482" relation="public-inheritance">
         </childnode>
-        <childnode refid="448" relation="usage">
-          <edgelabel>lockCancelButton</edgelabel>
-        </childnode>
-        <childnode refid="449" relation="usage">
+        <childnode refid="483" relation="usage">
           <edgelabel>backplate</edgelabel>
           <edgelabel>lockScreen</edgelabel>
           <edgelabel>lockLabel</edgelabel>
+        </childnode>
+        <childnode refid="484" relation="usage">
+          <edgelabel>lockCancelButton</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
@@ -549,7 +568,7 @@
       <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1ae53cb9098b105a55f6da81acf3703e69" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::LockScreen</scope><name>Lock</name></member>
       <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1aa2733098fb7a92be1c98a6b0ac47972c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::LockScreen</scope><name>lockAnimationDuration</name></member>
       <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1a685dc9d63cfe051b2dd651d474402163" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::LockScreen</scope><name>lockCancelButton</name></member>
-      <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1a780b13daab4235569b6705639acfe245" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::LockScreen</scope><name>LockCancelCallbackHandler</name></member>
+      <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1ab3d0b280c769a2c9ed57766d03791fd7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::LockScreen</scope><name>LockCancelCallbackHandler</name></member>
       <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1a6c0e4649ba3a27b7e55d32ddf093d4dd" prot="protected" virt="non-virtual"><scope>WpfHandler::UI::Controls::LockScreen</scope><name>lockedEllements</name></member>
       <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1a0bc49ea590c0e024d2d6fa2ee6bff68c" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::LockScreen</scope><name>lockLabel</name></member>
       <member refid="dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_1a9b03e106f5477ce912a76c7b7de5aac2" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::LockScreen</scope><name>LockScreen</name></member>

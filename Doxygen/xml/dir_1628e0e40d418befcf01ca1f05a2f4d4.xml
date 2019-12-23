@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_1628e0e40d418befcf01ca1f05a2f4d4" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1/Properties</compoundname>
+    <innerfile refid="d7/dff/_examples_2_plugins_2_example_plugin1_2_properties_2_assembly_info_8cs">AssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin1/Properties/"/>
+  </compounddef>
+</doxygen>

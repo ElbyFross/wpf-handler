@@ -25,18 +25,10 @@
         <briefdescription>
 <para>Load plugins from assembly and instiniate them to list. </para>        </briefdescription>
         <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>list</parametername>
-</parameternamelist>
-<parameterdescription>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" line="61" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" bodystart="61" bodyend="88"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" line="60" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" bodystart="60" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1a4dbfd1cc62cfb8def6f17d8c622e0fd8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -73,7 +65,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" line="95" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" bodystart="95" bodyend="114"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" line="94" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" bodystart="94" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1aaa094e4b6d27c336e8f0f76acc04ba20" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -98,14 +90,14 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" line="120" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" bodystart="120" bodyend="172"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" line="119" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" bodystart="119" bodyend="171"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Class that profide simplifyed way to integrate WPF plugins to client. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" line="29" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" bodystart="28" bodyend="173"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" line="29" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Plugins/API.cs" bodystart="28" bodyend="172"/>
     <listofallmembers>
       <member refid="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1aa797a592049cf57860ee422586fcccac" prot="public" virt="non-virtual"><scope>WpfHandler::Plugins::API</scope><name>LoadPluginsCollection</name></member>
       <member refid="d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i_1ae2d2c46617f63533ddc20f08166b6c6e" prot="public" virt="non-virtual"><scope>WpfHandler::Plugins::API</scope><name>LoadPluginsEnumerable</name></member>

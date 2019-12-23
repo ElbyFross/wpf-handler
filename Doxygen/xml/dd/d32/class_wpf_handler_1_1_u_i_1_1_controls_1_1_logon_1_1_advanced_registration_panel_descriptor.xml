@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</compoundname>
+    <basecompoundref refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.FormDescriptor</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1ae8a21fc8856329480880595b0942afe7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.Controls.Logon.AdvancedRegistrationPanelDescriptor.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+<para>An user email. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" line="36" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a025efd3270fd44b0a8aafa7aa01fb50b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.Controls.Logon.AdvancedRegistrationPanelDescriptor.ContactPhone</definition>
+        <argsstring></argsstring>
+        <name>ContactPhone</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+<para>An user cell. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a4fd87d8eab706d490c23ce21cbac3507" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.Controls.Logon.AdvancedRegistrationPanelDescriptor.Country</definition>
+        <argsstring></argsstring>
+        <name>Country</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+<para>A country where have been living a user. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" line="47" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a5918a7c8d33623d3cf9bc0bba7c295a2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string WpfHandler.UI.Controls.Logon.AdvancedRegistrationPanelDescriptor.City</definition>
+        <argsstring></argsstring>
+        <name>City</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+<para>A city where have been living a user. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" line="52" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a22e104a6aa8557c53ac8ab6bd53a3a0b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int WpfHandler.UI.Controls.Logon.AdvancedRegistrationPanelDescriptor.BirthYear</definition>
+        <argsstring></argsstring>
+        <name>BirthYear</name>
+        <initializer>= 1960</initializer>
+        <briefdescription>
+<para>A year of a user birth. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" line="61" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a54f4881fa4b6fbfd0aa8baa93993523c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int WpfHandler.UI.Controls.Logon.AdvancedRegistrationPanelDescriptor.BirthMonth</definition>
+        <argsstring></argsstring>
+        <name>BirthMonth</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>A month of a user birth. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a30229eda915ba6cfdf9747e369f6afbe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int WpfHandler.UI.Controls.Logon.AdvancedRegistrationPanelDescriptor.BirthDay</definition>
+        <argsstring></argsstring>
+        <name>BirthDay</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>A day of a user birth. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" line="79" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" bodystart="79" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A form for storing advanced user&apos;s info. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>UIDescriptor</label>
+        <link refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor"/>
+      </node>
+      <node id="2">
+        <label>WpfHandler.UI.Controls.Logon.AdvancedRegistrationPanelDescriptor</label>
+        <link refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FormDescriptor</label>
+        <link refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>UIDescriptor</label>
+        <link refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>activeLayer</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>WpfHandler.UI.Controls.Logon.AdvancedRegistrationPanelDescriptor</label>
+        <link refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>WpfHandler.UI.AutoLayout.LayoutLayer</label>
+        <link refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>_Parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>FormDescriptor</label>
+        <link refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" line="32" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon/AdvancedRegistrationPanelDescriptor.cs" bodystart="31" bodyend="80"/>
+    <listofallmembers>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1af342f6e3f3a3fc86eed3e998bbce1cc5" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>BindTo</name></member>
+      <member refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a30229eda915ba6cfdf9747e369f6afbe" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>BirthDay</name></member>
+      <member refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a54f4881fa4b6fbfd0aa8baa93993523c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>BirthMonth</name></member>
+      <member refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a22e104a6aa8557c53ac8ab6bd53a3a0b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>BirthYear</name></member>
+      <member refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a5918a7c8d33623d3cf9bc0bba7c295a2" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>City</name></member>
+      <member refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a025efd3270fd44b0a8aafa7aa01fb50b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>ContactPhone</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a2862ba93b12a9698b88795d41c672f97" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>ControlSignUp</name></member>
+      <member refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1a4fd87d8eab706d490c23ce21cbac3507" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>Country</name></member>
+      <member refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor_1ae8a21fc8856329480880595b0942afe7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>Email</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1af39e8fdd24e6de1956b0e3b60fa74368" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>GetFieldByMember</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1ab965d93a86ca10bb9e7b30ac14fcfad8" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>GetFieldByMember</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a2e1bd8a01df4160b293fd79f639ce962" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>IsLoaded</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1abaa60ede8bf9e59734238f1beadaf50e" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>Loaded</name></member>
+      <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a4bbe131238be232c253ca4c65e8493f4" prot="public" virt="virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>OnCancel</name></member>
+      <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a5be99456050a10453139bf7a27baa78a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>OnCancelEvent</name></member>
+      <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1ae2d4791e3085dba435c09b6082bd8408" prot="public" virt="virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>OnConfirm</name></member>
+      <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a8a95b91b04aec2b3e109845866c25fb2" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>OnConfirmEvent</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a6dbda96f0d1b9f65fd1c61e0b8a5bb6b" prot="public" virt="virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>OnLoaded</name></member>
+      <member refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1a63527cbe3f75e544b7f4ab417bfbb555" prot="public" virt="virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>OnValidation</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a129506a55a400487664febab7ea85266" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>ToBindControl</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a763e1f50836b07edf0a3e6579454c335" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>ToBindControl</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a51be997d431bb7a6d73de302f60f6dd9" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>TryToBindControl</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1aa2a2328a6283c4df8aad0b8f925922e8" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</scope><name>UnbindFrom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

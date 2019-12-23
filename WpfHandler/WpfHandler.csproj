@@ -57,11 +57,17 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UI\AutoLayout\FormDescriptor.cs" />
+    <Compile Include="UI\Controls\CatalogView.xaml.cs">
+      <DependentUpon>CatalogView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Logon\AdvancedRegistrationPanelDescriptor.cs" />
+    <Compile Include="UI\Controls\Logon\DefaultRegistrationPanelDescriptor.cs" />
     <Compile Include="UI\LocalizationHandler.cs" />
     <Compile Include="UI\AutoLayout\Configuration\ContentAttribute.cs" />
-    <Compile Include="UI\AutoLayout\Configuration\EnumerableCompatibleAttribute.cs" />
-    <Compile Include="UI\AutoLayout\Configuration\EnumsCompatibleAttribute.cs" />
-    <Compile Include="UI\AutoLayout\Configuration\IGUIElementBindingAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Markups\IListCompatibleAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Markups\EnumsCompatibleAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Markups\IGUIElementBindingAttribute.cs" />
     <Compile Include="UI\AutoLayout\Options\AutoCollectionPropertiesAttribute.cs" />
     <Compile Include="UI\AutoLayout\Options\LabelWidthAttribute.cs" />
     <Compile Include="UI\Controls\CollectionControl.cs" />
@@ -96,7 +102,7 @@
     <Compile Include="UI\AutoLayout\Options\VerticalAlignAttribute.cs" />
     <Compile Include="UI\AutoLayout\Options\WidthAttribute.cs" />
     <Compile Include="UI\AutoLayout\Controls\SpaceAttribute.cs" />
-    <Compile Include="UI\AutoLayout\Configuration\TypesCompatibleAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Markups\TypesCompatibleAttribute.cs" />
     <Compile Include="UI\AutoLayout\Controls\AutoLayoutVeiw.xaml.cs">
       <DependentUpon>AutoLayoutVeiw.xaml</DependentUpon>
     </Compile>
@@ -111,7 +117,7 @@
     <Compile Include="UI\AutoLayout\Interfaces\IGUIField.cs" />
     <Compile Include="UI\Controls\ILayoutOrientation.cs" />
     <Compile Include="UI\Controls\ILayoutSize.cs" />
-    <Compile Include="UI\Controls\ISelectableControl.cs" />
+    <Compile Include="UI\Controls\IToggleControl.cs" />
     <Compile Include="Dictionaries\LocalizableContentAttribute.cs" />
     <Compile Include="UI\AutoLayout\LayoutHandler.cs" />
     <Compile Include="UI\AutoLayout\LayoutLayer.cs" />
@@ -178,6 +184,10 @@
     <Compile Include="UI\Effects\RectBlurEffect.cs" />
     <Compile Include="UI\GUIContentAttribute.cs" />
     <Compile Include="UI\Controls\TextFieldControl.cs" />
+    <Page Include="UI\Controls\CatalogView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UI\Styles\Thems\base.theme.blueTheme.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

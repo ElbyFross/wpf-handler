@@ -513,36 +513,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="225">
+      <node id="249">
         <label>XamlGeneratedNamespace.GeneratedInternalTypeHelper</label>
         <link refid="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper"/>
-        <childnode refid="226" relation="public-inheritance">
+        <childnode refid="250" relation="public-inheritance">
         </childnode>
-        <childnode refid="226" relation="public-inheritance">
+        <childnode refid="250" relation="public-inheritance">
         </childnode>
-        <childnode refid="226" relation="public-inheritance">
+        <childnode refid="250" relation="public-inheritance">
         </childnode>
-        <childnode refid="226" relation="public-inheritance">
+        <childnode refid="250" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="226">
+      <node id="250">
         <label>System::Windows::Markup::InternalTypeHelper</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="227">
+      <node id="251">
         <label>XamlGeneratedNamespace.GeneratedInternalTypeHelper</label>
         <link refid="dc/db0/class_xaml_generated_namespace_1_1_generated_internal_type_helper"/>
-        <childnode refid="228" relation="public-inheritance">
+        <childnode refid="252" relation="public-inheritance">
         </childnode>
-        <childnode refid="228" relation="public-inheritance">
+        <childnode refid="252" relation="public-inheritance">
         </childnode>
-        <childnode refid="228" relation="public-inheritance">
+        <childnode refid="252" relation="public-inheritance">
         </childnode>
-        <childnode refid="228" relation="public-inheritance">
+        <childnode refid="252" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="228">
+      <node id="252">
         <label>System::Windows::Markup::InternalTypeHelper</label>
       </node>
     </collaborationgraph>

@@ -5,7 +5,7 @@
     <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
     <basecompoundref refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.IGUILayoutOption</basecompoundref>
       <sectiondef kind="property">
-      <memberdef kind="property" id="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute_1a7e62bc68b5e19d0f8167a97146996b6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+      <memberdef kind="property" id="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute_1a7e62bc68b5e19d0f8167a97146996b6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>HorizontalAlignment</type>
         <definition>HorizontalAlignment WpfHandler.UI.AutoLayout.Options.HorizontalAlignAttribute.Alignment</definition>
         <argsstring></argsstring>
@@ -20,6 +20,31 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute_1a68f618bca2478665511748571b254dd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WpfHandler.UI.AutoLayout.Options.HorizontalAlignAttribute.HorizontalAlignAttribute</definition>
+        <argsstring>(HorizontalAlignment alignment)</argsstring>
+        <name>HorizontalAlignAttribute</name>
+        <param>
+          <type>HorizontalAlignment</type>
+          <declname>alignment</declname>
+        </param>
+        <briefdescription>
+<para>Initializing a property. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A target alignment of a binded element.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/HorizontalAlignAttribute.cs" line="42" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/HorizontalAlignAttribute.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
       <memberdef kind="function" id="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute_1a53335e3d47b8509f6ce67ad93044a760" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void WpfHandler.UI.AutoLayout.Options.HorizontalAlignAttribute.ApplyLayoutOption</definition>
@@ -44,51 +69,52 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/HorizontalAlignAttribute.cs" line="42" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/HorizontalAlignAttribute.cs" bodystart="42" bodyend="45"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/HorizontalAlignAttribute.cs" line="51" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/HorizontalAlignAttribute.cs" bodystart="51" bodyend="54"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Define horizontal align of the GUI element. </para>    </briefdescription>
+<para>Defines a horizontal align of the GUI element. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="287">
+      <node id="311">
         <label>Attribute</label>
       </node>
-      <node id="288">
+      <node id="312">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
-      <node id="286">
+      <node id="310">
         <label>WpfHandler.UI.AutoLayout.Options.HorizontalAlignAttribute</label>
         <link refid="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute"/>
-        <childnode refid="287" relation="public-inheritance">
+        <childnode refid="311" relation="public-inheritance">
         </childnode>
-        <childnode refid="288" relation="public-inheritance">
+        <childnode refid="312" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="290">
+      <node id="314">
         <label>Attribute</label>
       </node>
-      <node id="291">
+      <node id="315">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
-      <node id="289">
+      <node id="313">
         <label>WpfHandler.UI.AutoLayout.Options.HorizontalAlignAttribute</label>
         <link refid="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute"/>
-        <childnode refid="290" relation="public-inheritance">
+        <childnode refid="314" relation="public-inheritance">
         </childnode>
-        <childnode refid="291" relation="public-inheritance">
+        <childnode refid="315" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/HorizontalAlignAttribute.cs" line="32" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/HorizontalAlignAttribute.cs" bodystart="31" bodyend="46"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/HorizontalAlignAttribute.cs" line="32" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Options/HorizontalAlignAttribute.cs" bodystart="31" bodyend="55"/>
     <listofallmembers>
       <member refid="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute_1a7e62bc68b5e19d0f8167a97146996b6c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::HorizontalAlignAttribute</scope><name>Alignment</name></member>
       <member refid="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute_1a53335e3d47b8509f6ce67ad93044a760" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::HorizontalAlignAttribute</scope><name>ApplyLayoutOption</name></member>
+      <member refid="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute_1a68f618bca2478665511748571b254dd0" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Options::HorizontalAlignAttribute</scope><name>HorizontalAlignAttribute</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

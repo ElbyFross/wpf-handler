@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_3b8194d8ed9bff0d46818c6c416803a3" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug</compoundname>
+    <innerfile refid="dc/d06/_plugin_control_8g_8cs">PluginControl.g.cs</innerfile>
+    <innerfile refid="d7/dea/_example_plugin2_2obj_2_debug_2_plugin_control_8g_8i_8cs">PluginControl.g.i.cs</innerfile>
+    <innerfile refid="dd/dc4/_example_plugin2_2obj_2_debug_2_sub_plugin1_control_8g_8cs">SubPlugin1Control.g.cs</innerfile>
+    <innerfile refid="d6/de5/_example_plugin2_2obj_2_debug_2_sub_plugin1_control_8g_8i_8cs">SubPlugin1Control.g.i.cs</innerfile>
+    <innerfile refid="d9/d99/_sub_plugin2_control_01-_01_copy_8g_8i_8cs">SubPlugin2Control - Copy.g.i.cs</innerfile>
+    <innerfile refid="d9/dd3/_example_plugin2_2obj_2_debug_2_sub_plugin2_control_8g_8cs">SubPlugin2Control.g.cs</innerfile>
+    <innerfile refid="de/d01/_example_plugin2_2obj_2_debug_2_sub_plugin2_control_8g_8i_8cs">SubPlugin2Control.g.i.cs</innerfile>
+    <innerfile refid="de/db9/_sub_plugin3_control_8g_8cs">SubPlugin3Control.g.cs</innerfile>
+    <innerfile refid="db/d0c/_sub_plugin3_control_8g_8i_8cs">SubPlugin3Control.g.i.cs</innerfile>
+    <innerfile refid="d5/dc5/_example_plugin2_2obj_2_debug_2_user_control1_8g_8i_8cs">UserControl1.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug/"/>
+  </compounddef>
+</doxygen>

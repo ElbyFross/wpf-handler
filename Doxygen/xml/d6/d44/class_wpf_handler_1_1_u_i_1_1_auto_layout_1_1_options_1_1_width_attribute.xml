@@ -71,64 +71,64 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Define width of GUI element. </para>    </briefdescription>
+<para>Defines a width of GUI element. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="624">
+      <node id="665">
         <label>ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="623">
+      <node id="664">
         <label>Attribute</label>
       </node>
-      <node id="622">
+      <node id="663">
         <label>LayoutSizeAttribute</label>
         <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
-        <childnode refid="623" relation="public-inheritance">
+        <childnode refid="664" relation="public-inheritance">
         </childnode>
-        <childnode refid="624" relation="public-inheritance">
+        <childnode refid="665" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="625">
+      <node id="666">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
-      <node id="621">
+      <node id="662">
         <label>WpfHandler.UI.AutoLayout.Options.WidthAttribute</label>
         <link refid="d6/d44/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_width_attribute"/>
-        <childnode refid="622" relation="public-inheritance">
+        <childnode refid="663" relation="public-inheritance">
         </childnode>
-        <childnode refid="625" relation="public-inheritance">
+        <childnode refid="666" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="629">
+      <node id="670">
         <label>ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="628">
+      <node id="669">
         <label>Attribute</label>
       </node>
-      <node id="627">
+      <node id="668">
         <label>LayoutSizeAttribute</label>
         <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
-        <childnode refid="628" relation="public-inheritance">
+        <childnode refid="669" relation="public-inheritance">
         </childnode>
-        <childnode refid="629" relation="public-inheritance">
+        <childnode refid="670" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="630">
+      <node id="671">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
-      <node id="626">
+      <node id="667">
         <label>WpfHandler.UI.AutoLayout.Options.WidthAttribute</label>
         <link refid="d6/d44/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_width_attribute"/>
-        <childnode refid="627" relation="public-inheritance">
+        <childnode refid="668" relation="public-inheritance">
         </childnode>
-        <childnode refid="630" relation="public-inheritance">
+        <childnode refid="671" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

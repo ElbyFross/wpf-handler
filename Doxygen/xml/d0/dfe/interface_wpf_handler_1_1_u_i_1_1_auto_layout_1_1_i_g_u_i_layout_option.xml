@@ -24,8 +24,6 @@
         <argsstring>(FrameworkElement element)</argsstring>
         <name>ApplyLayoutOption</name>
         <reimplementedby refid="d4/db4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_style_attribute_1a4507ba7b9729b527b0c4f57bffaac0be">ApplyLayoutOption</reimplementedby>
-        <reimplementedby refid="d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute_1a5a37e0bcf32b49da94e4f4d539fe810c">ApplyLayoutOption</reimplementedby>
-        <reimplementedby refid="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute_1a53335e3d47b8509f6ce67ad93044a760">ApplyLayoutOption</reimplementedby>
         <reimplementedby refid="d8/d18/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_font_size_attribute_1abd93e70e5419e81c4dfdd9b5d1f35343">ApplyLayoutOption</reimplementedby>
         <reimplementedby refid="d4/dae/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_orientation_attribute_1affc825395d69d510dfc17e37d330dfc8">ApplyLayoutOption</reimplementedby>
         <reimplementedby refid="d6/d44/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_width_attribute_1afdff5891e40ae82fc6282d78753ff644">ApplyLayoutOption</reimplementedby>
@@ -34,6 +32,8 @@
         <reimplementedby refid="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute_1ab7c7bf52114b1aa465f70debaeccf5f4">ApplyLayoutOption</reimplementedby>
         <reimplementedby refid="d8/d31/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_height_attribute_1a1b1d850c2c5d8e59454d7f9b5271ee88">ApplyLayoutOption</reimplementedby>
         <reimplementedby refid="d8/d4b/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_height_attribute_1a221d69c339ceb5cd3e16d8e59f216cc9">ApplyLayoutOption</reimplementedby>
+        <reimplementedby refid="d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute_1a5a37e0bcf32b49da94e4f4d539fe810c">ApplyLayoutOption</reimplementedby>
+        <reimplementedby refid="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute_1a53335e3d47b8509f6ce67ad93044a760">ApplyLayoutOption</reimplementedby>
         <reimplementedby refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute_1ab8dae5f847875d310747599429c5054a">ApplyLayoutOption</reimplementedby>
         <reimplementedby refid="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute_1a5231ed2afb4d2d26eac9eab670adca45">ApplyLayoutOption</reimplementedby>
         <reimplementedby refid="d7/dde/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_background_attribute_1a97cce29c9e19d9145e881c69e3bf3d4e">ApplyLayoutOption</reimplementedby>
@@ -64,98 +64,98 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="329">
+      <node id="354">
         <label>WpfHandler.UI.AutoLayout.Options.HeightAttribute</label>
         <link refid="d8/d4b/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_height_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="324">
+      <node id="349">
         <label>WpfHandler.UI.AutoLayout.IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
-      <node id="337">
+      <node id="362">
         <label>WpfHandler.UI.AutoLayout.Options.StyleAttribute</label>
         <link refid="d4/db4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_style_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="333">
+      <node id="358">
         <label>WpfHandler.UI.AutoLayout.Options.MaxWidthAttribute</label>
         <link refid="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="336">
+      <node id="361">
         <label>WpfHandler.UI.AutoLayout.Options.OrientationAttribute</label>
         <link refid="d4/dae/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_orientation_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="325">
+      <node id="350">
         <label>WpfHandler.UI.AutoLayout.Options.AutoCollectionPropertiesAttribute</label>
         <link refid="d7/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_auto_collection_properties_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="338">
+      <node id="363">
         <label>WpfHandler.UI.AutoLayout.Options.VerticalAlignAttribute</label>
         <link refid="d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="326">
+      <node id="351">
         <label>WpfHandler.UI.AutoLayout.Options.BackgroundAttribute</label>
         <link refid="d7/dde/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_background_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="334">
+      <node id="359">
         <label>WpfHandler.UI.AutoLayout.Options.MinHeightAttribute</label>
         <link refid="d7/dff/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_min_height_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="330">
+      <node id="355">
         <label>WpfHandler.UI.AutoLayout.Options.HorizontalAlignAttribute</label>
         <link refid="da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="332">
+      <node id="357">
         <label>WpfHandler.UI.AutoLayout.Options.MaxHeightAttribute</label>
         <link refid="d8/d31/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_height_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="335">
+      <node id="360">
         <label>WpfHandler.UI.AutoLayout.Options.MinWidthAttribute</label>
         <link refid="d2/d96/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_min_width_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="339">
+      <node id="364">
         <label>WpfHandler.UI.AutoLayout.Options.WidthAttribute</label>
         <link refid="d6/d44/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_width_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="328">
+      <node id="353">
         <label>WpfHandler.UI.AutoLayout.Options.ForegroundAttribute</label>
         <link refid="dc/df7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_foreground_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="331">
+      <node id="356">
         <label>WpfHandler.UI.AutoLayout.Options.LabelWidthAttribute</label>
         <link refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="327">
+      <node id="352">
         <label>WpfHandler.UI.AutoLayout.Options.FontSizeAttribute</label>
         <link refid="d8/d18/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_font_size_attribute"/>
-        <childnode refid="324" relation="public-inheritance">
+        <childnode refid="349" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

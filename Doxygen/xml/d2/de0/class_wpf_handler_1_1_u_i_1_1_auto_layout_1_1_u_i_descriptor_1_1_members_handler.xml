@@ -49,7 +49,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="469" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="469" bodyend="490"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="482" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="482" bodyend="503"/>
       </memberdef>
       <memberdef kind="function" id="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler_1a1bd9d1aaca70397519f3043059bebb63" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -96,7 +96,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="498" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="498" bodyend="510"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="511" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="511" bodyend="523"/>
       </memberdef>
       <memberdef kind="function" id="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler_1a3bf47759ce16ab35678709a5ddf121f6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -132,7 +132,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="517" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="517" bodyend="529"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="530" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="530" bodyend="542"/>
       </memberdef>
       <memberdef kind="function" id="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler_1a0a6dfae144a9878366a3b81ef52b7145" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Type</type>
@@ -158,14 +158,14 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="538" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="538" bodyend="550"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="551" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="551" bodyend="563"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Handling tasks with members suitable for <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> descriptor&apos;s operations. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="461" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="460" bodyend="551"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="474" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="473" bodyend="564"/>
     <listofallmembers>
       <member refid="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler_1ab01eefa74f07555d76c813ac0f104b54" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor::MembersHandler</scope><name>GetSpecifiedMemberInfo</name></member>
       <member refid="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler_1a0a6dfae144a9878366a3b81ef52b7145" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor::MembersHandler</scope><name>GetSpecifiedMemberType</name></member>

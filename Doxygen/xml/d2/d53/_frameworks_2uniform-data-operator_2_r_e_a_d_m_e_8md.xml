@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d2/d53/_frameworks_2uniform-data-operator_2_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Uniform<sp/>Data<sp/>Operator</highlight></codeline>
+<codeline><highlight class="normal">It&apos;s<sp/>a<sp/>framework<sp/>that<sp/>allow<sp/>to<sp/>oparate<sp/>and<sp/>manage<sp/>yours<sp/>data<sp/>by<sp/>unified<sp/>way,<sp/>not<sp/>depending<sp/>from<sp/>your<sp/>data<sp/>base<sp/>or<sp/>prefered<sp/>format.<sp/>Standardize<sp/>your<sp/>data<sp/>structures<sp/>and<sp/>avoid<sp/>adjust<sp/>of<sp/>your<sp/>product<sp/>only<sp/>for<sp/>one<sp/>storage<sp/>type<sp/>that<sp/>could<sp/>be<sp/>not<sp/>suitable<sp/>for<sp/>you<sp/>in<sp/>future.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Modules<sp/></highlight></codeline>
+<codeline><highlight class="normal">##<sp/>Binnary<sp/>Handler</highlight></codeline>
+<codeline><highlight class="normal">Provides<sp/>base<sp/>API<sp/>for<sp/>binary<sp/>serizliation<sp/>process.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>SQLOperatorHandler</highlight></codeline>
+<codeline><highlight class="normal">Provides<sp/>methods<sp/>that<sp/>simplify<sp/>converting<sp/>of<sp/>app&apos;s<sp/>data<sp/>to<sp/>query<sp/>format.</highlight></codeline>
+<codeline><highlight class="normal">Inform<sp/>subscribers<sp/>about<sp/>`ISqlPperators`<sp/>events.</highlight></codeline>
+<codeline><highlight class="normal">Provides<sp/>access<sp/>to<sp/>current<sp/>`Active`<sp/>SQL<sp/>operator.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>AttributesHandler</highlight></codeline>
+<codeline><highlight class="normal">Provides<sp/>API<sp/>thats<sp/>simplify<sp/>working<sp/>with<sp/>UDO<sp/>attributes<sp/>and<sp/>members<sp/>data.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Included<sp/>operators:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`MySQLDataOperator`<sp/>-<sp/>provides<sp/>uniform<sp/>way<sp/>to<sp/>manage<sp/>your<sp/>data<sp/>via<sp/>MySQL<sp/>database.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>F.A.Q.</highlight></codeline>
+<codeline><highlight class="normal">##<sp/>How<sp/>to<sp/>describe<sp/>table<sp/>class/struct?</highlight></codeline>
+<codeline><highlight class="normal">###<sp/>Conception</highlight></codeline>
+<codeline><highlight class="normal">At<sp/>first<sp/>you<sp/>need<sp/>to<sp/>understand<sp/>conception<sp/>of<sp/>work<sp/>with<sp/>data<sp/>and<sp/>them<sp/>representations<sp/>at<sp/>database.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">For<sp/>every<sp/>table<sp/>on<sp/>server<sp/>that<sp/>must<sp/>be<sp/>compatible<sp/>with<sp/>your<sp/>application<sp/>on<sp/>native<sp/>level<sp/>you<sp/>need<sp/>to<sp/>provide<sp/>the<sp/></highlight></codeline>
+<codeline><highlight class="normal">class/structure<sp/>with<sp/>compatible<sp/>and<sp/>correct<sp/>described<sp/>fields/properties.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>class/structure<sp/>would<sp/>be<sp/>a<sp/>bridge<sp/>betwee<sp/>your<sp/>local<sp/>data<sp/>and<sp/>server<sp/>representation.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Describing</highlight></codeline>
+<codeline><highlight class="normal">Describing<sp/>of<sp/>data<sp/>making<sp/>by<sp/>using<sp/>of<sp/>attributs<sp/>from<sp/>`UniformDataOperator.Sql.Attributes`<sp/>namespace.<sp/></highlight></codeline>
+<codeline><highlight class="normal">(Custom<sp/>attributes<sp/>and<sp/>modifiers<sp/>can<sp/>has<sp/>other<sp/>namespace).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">1.<sp/>Define<sp/>`Table`<sp/>attribute<sp/>for<sp/>your<sp/>class/structure.<sp/>Describe<sp/>correct<sp/>scheme<sp/>and<sp/>table<sp/>name.</highlight></codeline>
+<codeline><highlight class="normal">2.<sp/>Define<sp/>`System.Serializable`<sp/>attribute<sp/>for<sp/>your<sp/>class.</highlight></codeline>
+<codeline><highlight class="normal">3.<sp/>For<sp/>every<sp/>field/property<sp/>that<sp/>would<sp/>be<sp/>a<sp/>column<sp/>defind<sp/>`Column`<sp/>attribute.<sp/>Set<sp/>column<sp/>name<sp/>and<sp/>type<sp/>at<sp/>constructor.</highlight></codeline>
+<codeline><highlight class="normal">4.<sp/>Define<sp/>additive<sp/>columns&apos;<sp/>attributes<sp/>like<sp/>`isPrimaryKey`,<sp/>`isAutoIncrement`,<sp/>`Commentary`,<sp/>etc.<sp/>More<sp/>details<sp/>you<sp/>can<sp/>wind<sp/>in<sp/>source<sp/>or<sp/>offline<sp/>documetation.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>How<sp/>operator<sp/>defines<sp/>what<sp/>would<sp/>be<sp/>included<sp/>in<sp/>auto<sp/>generated<sp/>read/write<sp/>queries?</highlight></codeline>
+<codeline><highlight class="normal">Every<sp/>operator<sp/>can<sp/>has<sp/>a<sp/>different<sp/>algorithm<sp/>related<sp/>to<sp/>specific<sp/>requirements<sp/>of<sp/>database<sp/>server.</highlight></codeline>
+<codeline><highlight class="normal">But<sp/>a<sp/>common<sp/>idea<sp/>is<sp/>mapping<sp/>of<sp/>you<sp/>&apos;Table&apos;<sp/>defined<sp/>class<sp/>by<sp/>`Column`<sp/>attributes<sp/>and<sp/>generate<sp/>the<sp/>queries<sp/>based<sp/>on<sp/>them<sp/>settings<sp/>and<sp/>values.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">If<sp/>some<sp/>attribute<sp/>affecting<sp/>algorithm<sp/>then<sp/>that<sp/>described<sp/>at<sp/>that&apos;s<sp/>summary.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>I<sp/>need<sp/>to<sp/>manage<sp/>data<sp/>received<sp/>from<sp/>server.<sp/>How<sp/>I<sp/>can<sp/>do<sp/>it?</highlight></codeline>
+<codeline><highlight class="normal">Just<sp/>use<sp/>a<sp/>property<sp/>as<sp/>column.<sp/>Then<sp/>you<sp/>would<sp/>be<sp/>able<sp/>to<sp/>manage<sp/>a<sp/>complex<sp/>get/set<sp/>algorithms<sp/>during<sp/>operator<sp/>actions.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Can<sp/>I<sp/>add<sp/>supporting<sp/>of<sp/>other<sp/>SQL<sp/>server?</highlight></codeline>
+<codeline><highlight class="normal">Sure.<sp/>Just<sp/>create<sp/>you<sp/>ServerNameOperator<sp/>that<sp/>implement<sp/>ISqlOperator<sp/>interface<sp/>and<sp/>your<sp/>data<sp/>described<sp/>by<sp/>UDO&apos;s<sp/>attributes<sp/>would<sp/>be</highlight></codeline>
+<codeline><highlight class="normal">compatible<sp/>with<sp/>your<sp/>specific<sp/>server.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Use<sp/>the<sp/>default<sp/>MySqlDataOperator<sp/>(group<sp/>of<sp/>partial<sp/>classes)<sp/>as<sp/>example.<sp/>Them<sp/>are<sp/>pretty<sp/>good<sp/>documented.</highlight></codeline>
+<codeline><highlight class="normal">If<sp/>you<sp/>done<sp/>this<sp/>job<sp/>please<sp/>consider<sp/>sharing<sp/>this<sp/>source<sp/>as<sp/>contribution<sp/>into<sp/>UDO.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>My<sp/>SQL<sp/>server<sp/>incompatible<sp/>with<sp/>DbDataType&apos;s<sp/>indexes.<sp/>How<sp/>I<sp/>can<sp/>adjust<sp/>my<sp/>data?</highlight></codeline>
+<codeline><highlight class="normal">By<sp/>default<sp/>`Column`<sp/>attribute<sp/>described<sp/>via<sp/>`DbDataType`<sp/>that<sp/>mostly<sp/>unusable<sp/>for<sp/>huge<sp/>count<sp/>of<sp/>types<sp/>that<sp/>custom<sp/>for<sp/>every<sp/>different<sp/>SQL<sp/>server.</highlight></codeline>
+<codeline><highlight class="normal">If<sp/>you<sp/>faced<sp/>with<sp/>such<sp/>kind<sp/>of<sp/>problem<sp/>so<sp/>just<sp/>create<sp/>your<sp/>own<sp/>modifying<sp/>attribute<sp/>that<sp/>would<sp/>be<sp/>used<sp/>on<sp/>your<sp/>custom<sp/>`ISqlOperator`<sp/>instance.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Use<sp/>`UniformDataOperator.Sql.MySql.Attributes.MySqlDBTypeOverride`<sp/>as<sp/>example<sp/>for<sp/>your<sp/>source.<sp/></highlight></codeline>
+<codeline><highlight class="normal">Check<sp/>how<sp/>it<sp/>using<sp/>at<sp/>`MySqlDataOperatorCommands.cs`<sp/>in<sp/><sp/>`ColumnDeclarationCommand`<sp/>method.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Auto<sp/>write/read<sp/>not<sp/>enough<sp/>flexible<sp/>for<sp/>me.<sp/>How<sp/>I<sp/>can<sp/>make<sp/>custom<sp/>query?</highlight></codeline>
+<codeline><highlight class="normal">Auto<sp/>managing<sp/>of<sp/>duplex<sp/>exchanging<sp/>of<sp/>data<sp/>with<sp/>SQL<sp/>server<sp/>it&apos;s<sp/>just<sp/>a<sp/>high<sp/>end<sp/>feature.</highlight></codeline>
+<codeline><highlight class="normal">But<sp/>not<sp/>the<sp/>only<sp/>way<sp/>to<sp/>manage<sp/>your<sp/>uniformed<sp/>data.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">All<sp/>what<sp/>you<sp/>need<sp/>it&apos;s<sp/>pipe<sp/>down<sp/>on<sp/>one<sp/>level<sp/>and<sp/>start<sp/>direct<sp/>work<sp/>with<sp/>your<sp/>`ISqlOperator`<sp/>instance.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Make<sp/>your<sp/>own<sp/>SQL<sp/>query<sp/>suitable<sp/>by<sp/>your<sp/>specific<sp/>task<sp/>and<sp/>send<sp/>it<sp/>to<sp/>server<sp/>via<sp/>`SqlOperatoHandler.Active`<sp/>by<sp/>use<sp/>one<sp/>of<sp/>provided<sp/>methods<sp/>:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`ExecuteNonQuery`</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`ExecuteScalar`</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`ExecuteReader`</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`Count`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>How<sp/>to<sp/>establish<sp/>connection<sp/>with<sp/>server?</highlight></codeline>
+<codeline><highlight class="normal">1.<sp/>Create<sp/>and<sp/>instance<sp/>of<sp/>your<sp/>`ISqlOperator`<sp/>instance.<sp/></highlight></codeline>
+<codeline><highlight class="normal">2.<sp/><sp/>Initialize<sp/>properties<sp/>of<sp/>your<sp/>`ISqlOperator`<sp/>instance:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/>`string<sp/>Server`</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/>`int<sp/>Port`</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/>`string<sp/>Database`</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/>`string<sp/>UserId`</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/>`string<sp/>Password`</highlight></codeline>
+<codeline><highlight class="normal">3.<sp/>Call<sp/>`Initialize`<sp/>method<sp/>on<sp/>your<sp/>`ISqlOperator`<sp/>instance.</highlight></codeline>
+<codeline><highlight class="normal">4.<sp/>Call<sp/>`OpenConnection`<sp/>method<sp/>on<sp/>your<sp/>`ISqlOperator`<sp/>instance.</highlight></codeline>
+<codeline><highlight class="normal">5.<sp/>Execute<sp/>your<sp/>SQL<sp/>query.</highlight></codeline>
+<codeline><highlight class="normal">6.<sp/>Call<sp/>`CloseConnection`<sp/>method<sp/>on<sp/>your<sp/>`ISqlOperator`<sp/>instance.</highlight></codeline>
+    </programlisting>
+    <location file="D:/Work/GitHub/wpf-handler/Frameworks/uniform-data-operator/README.md"/>
+  </compounddef>
+</doxygen>

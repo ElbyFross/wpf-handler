@@ -9,6 +9,7 @@
     <innerfile refid="d6/d84/_color_attribute_8cs">ColorAttribute.cs</innerfile>
     <innerfile refid="db/de5/_g_u_i_content_8cs">GUIContent.cs</innerfile>
     <innerfile refid="d0/d2d/_g_u_i_content_attribute_8cs">GUIContentAttribute.cs</innerfile>
+    <innerfile refid="d5/de1/_localization_handler_8cs">LocalizationHandler.cs</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

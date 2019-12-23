@@ -4,28 +4,28 @@
     <compoundname>WpfHandler::UI::AutoLayout::Configuration::HideInInspectorAttribute</compoundname>
     <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
     <briefdescription>
-<para>Exclude member from auto-builded inspector. </para>    </briefdescription>
+<para>Exclude a member from auto-builded inspector. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="283">
+      <node id="307">
         <label>Attribute</label>
       </node>
-      <node id="282">
+      <node id="306">
         <label>WpfHandler.UI.AutoLayout.Configuration.HideInInspectorAttribute</label>
         <link refid="d4/d91/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_hide_in_inspector_attribute"/>
-        <childnode refid="283" relation="public-inheritance">
+        <childnode refid="307" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="285">
+      <node id="309">
         <label>Attribute</label>
       </node>
-      <node id="284">
+      <node id="308">
         <label>WpfHandler.UI.AutoLayout.Configuration.HideInInspectorAttribute</label>
         <link refid="d4/d91/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_hide_in_inspector_attribute"/>
-        <childnode refid="285" relation="public-inheritance">
+        <childnode refid="309" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

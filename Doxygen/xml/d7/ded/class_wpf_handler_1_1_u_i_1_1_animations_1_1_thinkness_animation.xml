@@ -93,7 +93,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ThinknessAnimation.cs" line="42" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ThinknessAnimation.cs" bodystart="42" bodyend="57"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ThinknessAnimation.cs" line="45" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ThinknessAnimation.cs" bodystart="45" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="d7/ded/class_wpf_handler_1_1_u_i_1_1_animations_1_1_thinkness_animation_1a8d77a8dc5e24b4d00e9aa123a4ca7831" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Storyboard</type>
@@ -196,14 +196,14 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ThinknessAnimation.cs" line="74" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ThinknessAnimation.cs" bodystart="74" bodyend="135"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ThinknessAnimation.cs" line="77" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ThinknessAnimation.cs" bodystart="77" bodyend="138"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Provides the API to manage thinkness animations. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ThinknessAnimation.cs" line="28" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ThinknessAnimation.cs" bodystart="27" bodyend="136"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ThinknessAnimation.cs" line="31" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Animations/ThinknessAnimation.cs" bodystart="30" bodyend="139"/>
     <listofallmembers>
       <member refid="d7/ded/class_wpf_handler_1_1_u_i_1_1_animations_1_1_thinkness_animation_1ac4a710434bb02a390f075779861718c3" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Animations::ThinknessAnimation</scope><name>StartStoryboard</name></member>
       <member refid="d7/ded/class_wpf_handler_1_1_u_i_1_1_animations_1_1_thinkness_animation_1a8d77a8dc5e24b4d00e9aa123a4ca7831" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Animations::ThinknessAnimation</scope><name>StartStoryboard</name></member>

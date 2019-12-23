@@ -133,52 +133,52 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Define GUI element&apos;s background brush. </para>    </briefdescription>
+<para>Defines a background brush of the control. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="43">
+      <node id="50">
         <label>Attribute</label>
       </node>
-      <node id="41">
+      <node id="48">
         <label>WpfHandler.UI.AutoLayout.Options.BackgroundAttribute</label>
         <link refid="d7/dde/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_background_attribute"/>
-        <childnode refid="42" relation="public-inheritance">
+        <childnode refid="49" relation="public-inheritance">
         </childnode>
-        <childnode refid="44" relation="public-inheritance">
+        <childnode refid="51" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="44">
+      <node id="51">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
-      <node id="42">
+      <node id="49">
         <label>ColorAttribute</label>
         <link refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute"/>
-        <childnode refid="43" relation="public-inheritance">
+        <childnode refid="50" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="47">
+      <node id="54">
         <label>Attribute</label>
       </node>
-      <node id="45">
+      <node id="52">
         <label>WpfHandler.UI.AutoLayout.Options.BackgroundAttribute</label>
         <link refid="d7/dde/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_background_attribute"/>
-        <childnode refid="46" relation="public-inheritance">
+        <childnode refid="53" relation="public-inheritance">
         </childnode>
-        <childnode refid="48" relation="public-inheritance">
+        <childnode refid="55" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="48">
+      <node id="55">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
-      <node id="46">
+      <node id="53">
         <label>ColorAttribute</label>
         <link refid="d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute"/>
-        <childnode refid="47" relation="public-inheritance">
+        <childnode refid="54" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

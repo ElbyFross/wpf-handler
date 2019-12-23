@@ -65,7 +65,7 @@ namespace WpfHandler.UI.Controls
         /// Bridging XAML declaring and the member.
         /// </summary>
         public static readonly DependencyProperty DurationProperty = DependencyProperty.Register(
-          "Duration", typeof(TimeSpan), typeof(SwitchPanel));
+          "Duration", typeof(TimeSpan), typeof(SwitchPanel), new PropertyMetadata(new TimeSpan(0, 0, 0, 0, 300)));
 
         /// <summary>
         /// How many time woult take animation duration.
@@ -84,6 +84,20 @@ namespace WpfHandler.UI.Controls
             get
             {
                 return current.Children.Count > 0 ? current.Children[0] : null;
+            }
+            set
+            {
+                // Drop if something in progress at the moment.
+                if (InProcessing != null) return;
+
+                if (current.Children.Count > 0)
+                {
+                    current.Children[0] = value;
+                }
+                else
+                {
+                    current.Children.Add(value);
+                }
             }
         }
 
@@ -119,7 +133,7 @@ namespace WpfHandler.UI.Controls
         /// </summary>
         /// <param name="element">Element that would be showed instead current.</param>
         /// <param name="animationType">The type of an animation that will be used during elemetns switching.</param>
-        public void SwitchTo(UIElement element, AnimationType animationType)
+        public async Task SwitchToAsync(UIElement element, AnimationType animationType)
         {
             // Buferize animation.
             LastAnmimationType = animationType;
@@ -137,6 +151,15 @@ namespace WpfHandler.UI.Controls
 
                 next.Children.Clear();
                 next.Children.Add(element);
+
+                // Waiting till element loading.
+                if (element is FrameworkElement fe)
+                {
+                    while (!fe.IsLoaded)
+                    {
+                        await Task.Delay(5);
+                    }
+                }
 
                 switch (animationType)
                 {
@@ -161,8 +184,6 @@ namespace WpfHandler.UI.Controls
         {
             // Disable current menu input.
             current.IsHitTestVisible = false;
-
-
         }
 
         /// <summary>
@@ -248,12 +269,16 @@ namespace WpfHandler.UI.Controls
                 // Request next order.
                 if (OrderBufer != null)
                 {
-                    SwitchTo(OrderBufer, LastAnmimationType);
+                    _ = SwitchToAsync(OrderBufer, LastAnmimationType);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Switch panel | " +
+                    "Animation error \n\n" + 
+                    "InProcesing : " + InProcessing + "\n" +
+                    "Current : " + current.Name + "\n" +
+                    "Details: " + ex.Message);
             }
 
 

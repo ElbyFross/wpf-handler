@@ -24,9 +24,9 @@ void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat
 \begin{DoxyCompactList}\small\item\em Initialize\+Component \end{DoxyCompactList}\item 
 \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a05bd4f4c7754212984b77499922a275d}{Selectable\+Flat\+Button}} ()
 \begin{DoxyCompactList}\small\item\em Default button. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a0ce515d3620b53667b3aa377ea4f2f6b}{Selected\+Callback}} (object clicked)
+void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a5cade89b74ec7a7f9566d0e63b677d27}{Selected\+Callback}} (object clicked, Routed\+Event\+Args \+\_\+\+\_\+)
 \begin{DoxyCompactList}\small\item\em Callback that will be called when button will be clicked. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_aa6389115bf881a33ed384871a7ae816a}{On\+Button\+Click}} (object \+\_\+)
+void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_ae01144a323df17892edbdd0f20a10ec7}{On\+Button\+Click}} (object \+\_\+, Routed\+Event\+Args \+\_\+\+\_\+)
 \begin{DoxyCompactList}\small\item\em Callback for button click. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
@@ -36,9 +36,9 @@ static bool \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectab
 \subsection*{Static Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
+static readonly Routed\+Event \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a1988a63005ceaa7f7f07d1d44a7ae01f}{Click\+Event}}
+\begin{DoxyCompactList}\small\item\em Event that will be called when button will be pressed. \end{DoxyCompactList}\item 
 static readonly Dependency\+Property \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_afecdba1a6a477d574f423cc47ded74f7}{Label\+Property}}
-\begin{DoxyCompactList}\small\item\em Bridging X\+A\+ML declaring and the member. \end{DoxyCompactList}\item 
-static readonly Dependency\+Property \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_aebfe33b92f950fe559a1f33670ffe1b6}{Click\+Callback\+Property}}
 \begin{DoxyCompactList}\small\item\em Bridging X\+A\+ML declaring and the member. \end{DoxyCompactList}\item 
 static readonly Dependency\+Property \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a8fcdfa5d44a6463e1c0296250fa260c9}{Selected\+Property}}
 \begin{DoxyCompactList}\small\item\em Bridging X\+A\+ML declaring and the member. \end{DoxyCompactList}\item 
@@ -80,8 +80,8 @@ System.\+Windows.\+Controls.\+Grid {\bfseries mark}
 \item 
 string \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a082859dda84e188a1da2d0e9ba919058}{Label}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Text that will be displayed on the button. \end{DoxyCompactList}\item 
-Action$<$ object $>$ \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a27cd38802c48c61f3b8a230a74669b17}{Click\+Callback}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
-\begin{DoxyCompactList}\small\item\em Method that will has been calling during click on button. \end{DoxyCompactList}\item 
+Routed\+Event\+Handler \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a08e6400871439c5e9ca1772f26710860}{Click}}
+\begin{DoxyCompactList}\small\item\em Occurs when a \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button}{Selectable\+Flat\+Button}} is clicked. \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_ad1ff756964fdb1d04f2ca04a41c67f1c}{Selected}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Does that button selected. \end{DoxyCompactList}\item 
 string \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a2df582128e2ef8858ff4c6f174800b9d}{Group}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
@@ -186,11 +186,11 @@ Initialize\+Component
 
 Initialize\+Component 
 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_aa6389115bf881a33ed384871a7ae816a}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_aa6389115bf881a33ed384871a7ae816a}} 
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_ae01144a323df17892edbdd0f20a10ec7}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_ae01144a323df17892edbdd0f20a10ec7}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button}!On\+Button\+Click@{On\+Button\+Click}}
 \index{On\+Button\+Click@{On\+Button\+Click}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button}}
 \subsubsection{\texorpdfstring{On\+Button\+Click()}{OnButtonClick()}}
-{\footnotesize\ttfamily void Wpf\+Handler.\+U\+I.\+Controls.\+Selectable\+Flat\+Button.\+On\+Button\+Click (\begin{DoxyParamCaption}\item[{object}]{\+\_\+ }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void Wpf\+Handler.\+U\+I.\+Controls.\+Selectable\+Flat\+Button.\+On\+Button\+Click (\begin{DoxyParamCaption}\item[{object}]{\+\_\+,  }\item[{Routed\+Event\+Args}]{\+\_\+\+\_\+ }\end{DoxyParamCaption})}
 
 
 
@@ -200,12 +200,14 @@ Callback for button click.
 \begin{DoxyParams}{Parameters}
 {\em \+\_\+} & Not using. Will be overided on {\ttfamily this} cause listener can\textquotesingle{}t khow reference tp the child button control.\\
 \hline
+{\em \+\_\+\+\_\+} & Not using.\\
+\hline
 \end{DoxyParams}
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a0ce515d3620b53667b3aa377ea4f2f6b}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a0ce515d3620b53667b3aa377ea4f2f6b}} 
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a5cade89b74ec7a7f9566d0e63b677d27}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a5cade89b74ec7a7f9566d0e63b677d27}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button}!Selected\+Callback@{Selected\+Callback}}
 \index{Selected\+Callback@{Selected\+Callback}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button}}
 \subsubsection{\texorpdfstring{Selected\+Callback()}{SelectedCallback()}}
-{\footnotesize\ttfamily void Wpf\+Handler.\+U\+I.\+Controls.\+Selectable\+Flat\+Button.\+Selected\+Callback (\begin{DoxyParamCaption}\item[{object}]{clicked }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void Wpf\+Handler.\+U\+I.\+Controls.\+Selectable\+Flat\+Button.\+Selected\+Callback (\begin{DoxyParamCaption}\item[{object}]{clicked,  }\item[{Routed\+Event\+Args}]{\+\_\+\+\_\+ }\end{DoxyParamCaption})}
 
 
 
@@ -214,6 +216,8 @@ Callback that will be called when button will be clicked.
 
 \begin{DoxyParams}{Parameters}
 {\em clicked} & \\
+\hline
+{\em \+\_\+\+\_\+} & Not using.\\
 \hline
 \end{DoxyParams}
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_aab3702adeef6c8a17aa65bfb91081fd4}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_aab3702adeef6c8a17aa65bfb91081fd4}} 
@@ -266,20 +270,15 @@ Callback that will be called when \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i
 
 Hashtable that contain registred groups\textquotesingle{}s items. 
 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_aebfe33b92f950fe559a1f33670ffe1b6}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_aebfe33b92f950fe559a1f33670ffe1b6}} 
-\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button}!Click\+Callback\+Property@{Click\+Callback\+Property}}
-\index{Click\+Callback\+Property@{Click\+Callback\+Property}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button}}
-\subsubsection{\texorpdfstring{Click\+Callback\+Property}{ClickCallbackProperty}}
-{\footnotesize\ttfamily readonly Dependency\+Property Wpf\+Handler.\+U\+I.\+Controls.\+Selectable\+Flat\+Button.\+Click\+Callback\+Property\hspace{0.3cm}{\ttfamily [static]}}
-
-{\bfseries Initial value\+:}
-\begin{DoxyCode}
-= DependencyProperty.Register(
-          \textcolor{stringliteral}{"ClickCallback"}, typeof(Action<object>), typeof(\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a05bd4f4c7754212984b77499922a275d}{SelectableFlatButton}}))
-\end{DoxyCode}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a1988a63005ceaa7f7f07d1d44a7ae01f}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a1988a63005ceaa7f7f07d1d44a7ae01f}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button}!Click\+Event@{Click\+Event}}
+\index{Click\+Event@{Click\+Event}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button}}
+\subsubsection{\texorpdfstring{Click\+Event}{ClickEvent}}
+{\footnotesize\ttfamily readonly Routed\+Event Wpf\+Handler.\+U\+I.\+Controls.\+Selectable\+Flat\+Button.\+Click\+Event\hspace{0.3cm}{\ttfamily [static]}}
 
 
-Bridging X\+A\+ML declaring and the member. 
+
+Event that will be called when button will be pressed. 
 
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a7263ef5d414587ec40f35ab3616173e4}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a7263ef5d414587ec40f35ab3616173e4}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button}!Group\+Property@{Group\+Property}}
@@ -290,8 +289,7 @@ Bridging X\+A\+ML declaring and the member.
 {\bfseries Initial value\+:}
 \begin{DoxyCode}
 = DependencyProperty.Register(
-          \textcolor{stringliteral}{"Group"}, typeof(\textcolor{keywordtype}{string}), typeof(\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a05bd4f4c7754212984b77499922a275d}{SelectableFlatButton}}), \textcolor{keyword}{new} PropertyMetadata(\textcolor{stringliteral}{"
-      default"}))
+          \textcolor{stringliteral}{"Group"}, typeof(\textcolor{keywordtype}{string}), typeof(SelectableFlatButton), \textcolor{keyword}{new} PropertyMetadata(\textcolor{stringliteral}{"default"}))
 \end{DoxyCode}
 
 
@@ -306,7 +304,7 @@ Bridging X\+A\+ML declaring and the member.
 {\bfseries Initial value\+:}
 \begin{DoxyCode}
 = DependencyProperty.Register(
-          \textcolor{stringliteral}{"HightlightBackground"}, typeof(Brush), typeof(\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a05bd4f4c7754212984b77499922a275d}{SelectableFlatButton}}),
+          \textcolor{stringliteral}{"HightlightBackground"}, typeof(Brush), typeof(SelectableFlatButton),
           \textcolor{keyword}{new} PropertyMetadata(Brushes.Yellow))
 \end{DoxyCode}
 
@@ -322,8 +320,7 @@ Bridging X\+A\+ML declaring and the member.
 {\bfseries Initial value\+:}
 \begin{DoxyCode}
 = DependencyProperty.Register(
-          \textcolor{stringliteral}{"Label"}, typeof(\textcolor{keywordtype}{string}), typeof(\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a05bd4f4c7754212984b77499922a275d}{SelectableFlatButton}}), \textcolor{keyword}{new} PropertyMetadata(\textcolor{stringliteral}{"
-      Sample"}))
+          \textcolor{stringliteral}{"Label"}, typeof(\textcolor{keywordtype}{string}), typeof(SelectableFlatButton), \textcolor{keyword}{new} PropertyMetadata(\textcolor{stringliteral}{"Sample"}))
 \end{DoxyCode}
 
 
@@ -338,8 +335,7 @@ Bridging X\+A\+ML declaring and the member.
 {\bfseries Initial value\+:}
 \begin{DoxyCode}
 = DependencyProperty.Register(
-          \textcolor{stringliteral}{"MultiSelection"}, typeof(\textcolor{keywordtype}{bool}), typeof(\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a05bd4f4c7754212984b77499922a275d}{SelectableFlatButton}}), \textcolor{keyword}{new} 
-      PropertyMetadata(\textcolor{keyword}{false}))
+          \textcolor{stringliteral}{"MultiSelection"}, typeof(\textcolor{keywordtype}{bool}), typeof(SelectableFlatButton), \textcolor{keyword}{new} PropertyMetadata(\textcolor{keyword}{false}))
 \end{DoxyCode}
 
 
@@ -354,7 +350,7 @@ Bridging X\+A\+ML declaring and the member.
 {\bfseries Initial value\+:}
 \begin{DoxyCode}
 = DependencyProperty.Register(
-          \textcolor{stringliteral}{"Selected"}, typeof(\textcolor{keywordtype}{bool}), typeof(\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a05bd4f4c7754212984b77499922a275d}{SelectableFlatButton}}))
+          \textcolor{stringliteral}{"Selected"}, typeof(\textcolor{keywordtype}{bool}), typeof(SelectableFlatButton))
 \end{DoxyCode}
 
 
@@ -363,15 +359,15 @@ Bridging X\+A\+ML declaring and the member.
 
 
 \subsection{Property Documentation}
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a27cd38802c48c61f3b8a230a74669b17}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a27cd38802c48c61f3b8a230a74669b17}} 
-\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button}!Click\+Callback@{Click\+Callback}}
-\index{Click\+Callback@{Click\+Callback}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button}}
-\subsubsection{\texorpdfstring{Click\+Callback}{ClickCallback}}
-{\footnotesize\ttfamily Action$<$object$>$ Wpf\+Handler.\+U\+I.\+Controls.\+Selectable\+Flat\+Button.\+Click\+Callback\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a08e6400871439c5e9ca1772f26710860}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a08e6400871439c5e9ca1772f26710860}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button}!Click@{Click}}
+\index{Click@{Click}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button}}
+\subsubsection{\texorpdfstring{Click}{Click}}
+{\footnotesize\ttfamily Routed\+Event\+Handler Wpf\+Handler.\+U\+I.\+Controls.\+Selectable\+Flat\+Button.\+Click\hspace{0.3cm}{\ttfamily [add]}, {\ttfamily [remove]}}
 
 
 
-Method that will has been calling during click on button. 
+Occurs when a \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button}{Selectable\+Flat\+Button}} is clicked. 
 
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a2df582128e2ef8858ff4c6f174800b9d}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_a2df582128e2ef8858ff4c6f174800b9d}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Selectable\+Flat\+Button}!Group@{Group}}

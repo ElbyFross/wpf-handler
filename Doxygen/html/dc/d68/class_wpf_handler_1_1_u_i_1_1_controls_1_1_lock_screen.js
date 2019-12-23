@@ -14,7 +14,7 @@ var class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen =
     [ "InitializeComponent", "dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen.html#aacd97a7da29eefb57cc695f5af31dce5", null ],
     [ "InitializeComponent", "dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen.html#aacd97a7da29eefb57cc695f5af31dce5", null ],
     [ "Lock", "dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen.html#ae53cb9098b105a55f6da81acf3703e69", null ],
-    [ "LockCancelCallbackHandler", "dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen.html#a780b13daab4235569b6705639acfe245", null ],
+    [ "LockCancelCallbackHandler", "dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen.html#ab3d0b280c769a2c9ed57766d03791fd7", null ],
     [ "Unlock", "dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen.html#a2411f98b2544601d6310967dc93064a2", null ],
     [ "_contentLoaded", "dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen.html#a3e5cc93c865f07f3ce73d948bd43fb75", null ],
     [ "backplate", "dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen.html#a567f1855147e8635ebd8980dc6da744b", null ],

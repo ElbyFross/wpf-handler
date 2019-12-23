@@ -22,7 +22,7 @@ using System.ComponentModel;
 namespace WpfHandler.UI.AutoLayout.Configuration
 {
     /// <summary>
-    /// Defines order of member into auto-generated UI.
+    /// Defines an order of the member into an auto-generated UI.
     /// </summary>
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field,
     Inherited = true, AllowMultiple = false)]

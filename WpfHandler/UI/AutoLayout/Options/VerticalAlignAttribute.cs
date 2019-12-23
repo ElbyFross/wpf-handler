@@ -23,7 +23,7 @@ using WpfHandler.UI.AutoLayout;
 namespace WpfHandler.UI.AutoLayout.Options
 {
     /// <summary>
-    /// Define vertical align of the GUI element.
+    /// Defines a vertical align of the GUI element.
     /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property |
                     AttributeTargets.Class | AttributeTargets.Struct,
@@ -34,6 +34,15 @@ namespace WpfHandler.UI.AutoLayout.Options
         /// Alignment that will applied to GUI element.
         /// </summary>
         public VerticalAlignment Alignment { get; set; }
+
+        /// <summary>
+        /// Initializing a property.
+        /// </summary>
+        /// <param name="alignment">A target alignment of a binded element.</param>
+        public VerticalAlignAttribute(VerticalAlignment alignment)
+        {
+            Alignment = alignment;
+        }
 
         /// <summary>
         /// Define vertical align of the GUI element.

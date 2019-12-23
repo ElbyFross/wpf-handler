@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor" kind="class" language="C#" prot="public">
     <compoundname>WpfHandler::UI::AutoLayout::UIDescriptor</compoundname>
+    <derivedcompoundref refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.FormDescriptor</derivedcompoundref>
     <innerclass refid="d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler" prot="public">WpfHandler::UI::AutoLayout::UIDescriptor::MembersHandler</innerclass>
       <sectiondef kind="property">
       <memberdef kind="property" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a2e1bd8a01df4160b293fd79f639ce962" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
@@ -87,7 +88,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="63" bodyend="272"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="63" bodyend="274"/>
       </memberdef>
       <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1aa2a2328a6283c4df8aad0b8f925922e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -112,7 +113,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="279" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="279" bodyend="340"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="281" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="281" bodyend="342"/>
       </memberdef>
       <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a2862ba93b12a9698b88795d41c672f97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -159,7 +160,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="348" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="348" bodyend="360"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="350" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="350" bodyend="365"/>
       </memberdef>
       <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1af39e8fdd24e6de1956b0e3b60fa74368" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref></type>
@@ -185,7 +186,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="367" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="367" bodyend="374"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="372" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="372" bodyend="379"/>
       </memberdef>
       <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1ab965d93a86ca10bb9e7b30ac14fcfad8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field" kindref="compound">IGUIField</ref></type>
@@ -211,7 +212,20 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="381" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="381" bodyend="384"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="386" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="386" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a6dbda96f0d1b9f65fd1c61e0b8a5bb6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void WpfHandler.UI.AutoLayout.UIDescriptor.OnLoaded</definition>
+        <argsstring>()</argsstring>
+        <name>OnLoaded</name>
+        <briefdescription>
+<para>Handler that will be called when all the element will be loaded and be ready to use. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="465" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="465" bodyend="468"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -250,7 +264,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="393" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="393" bodyend="408"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="398" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="398" bodyend="413"/>
       </memberdef>
       <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a129506a55a400487664febab7ea85266" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -286,7 +300,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="415" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="415" bodyend="430"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="420" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="420" bodyend="435"/>
       </memberdef>
       <memberdef kind="function" id="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a763e1f50836b07edf0a3e6579454c335" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -333,30 +347,54 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="438" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="438" bodyend="455"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="443" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="443" bodyend="460"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Class that provides adopting of members by <ref refid="d2/d27/namespace_wpf_handler_1_1_u_i_1_1_auto_layout" kindref="compound">AutoLayout</ref> <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref>. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="613">
+    <inheritancegraph>
+      <node id="648">
         <label>WpfHandler.UI.AutoLayout.UIDescriptor</label>
         <link refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor"/>
-        <childnode refid="614" relation="usage">
+      </node>
+      <node id="650">
+        <label>WpfHandler.UI.Controls.Logon.AdvancedRegistrationPanelDescriptor</label>
+        <link refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor"/>
+        <childnode refid="649" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="651">
+        <label>WpfHandler.UI.Controls.Logon.DefaultRegistrationPanelDescriptor</label>
+        <link refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor"/>
+        <childnode refid="649" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="649">
+        <label>WpfHandler.UI.AutoLayout.FormDescriptor</label>
+        <link refid="d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor"/>
+        <childnode refid="648" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="652">
+        <label>WpfHandler.UI.AutoLayout.UIDescriptor</label>
+        <link refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor"/>
+        <childnode refid="653" relation="usage">
           <edgelabel>activeLayer</edgelabel>
         </childnode>
       </node>
-      <node id="614">
+      <node id="653">
         <label>WpfHandler.UI.AutoLayout.LayoutLayer</label>
         <link refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer"/>
-        <childnode refid="614" relation="usage">
+        <childnode refid="653" relation="usage">
           <edgelabel>_Parent</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="33" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="32" bodyend="552"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" line="33" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/UIDescriptor.cs" bodystart="32" bodyend="565"/>
     <listofallmembers>
       <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a5870ffc200ecb9f352cb250b497b3df2" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>activeLayer</name></member>
       <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1af342f6e3f3a3fc86eed3e998bbce1cc5" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>BindTo</name></member>
@@ -365,6 +403,7 @@
       <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1ab965d93a86ca10bb9e7b30ac14fcfad8" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>GetFieldByMember</name></member>
       <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a2e1bd8a01df4160b293fd79f639ce962" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>IsLoaded</name></member>
       <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1abaa60ede8bf9e59734238f1beadaf50e" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>Loaded</name></member>
+      <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a6dbda96f0d1b9f65fd1c61e0b8a5bb6b" prot="public" virt="virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>OnLoaded</name></member>
       <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a6c63f0a13186cb7eae1928ec8907aea2" prot="private" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>RegistredFields</name></member>
       <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a129506a55a400487664febab7ea85266" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>ToBindControl</name></member>
       <member refid="d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1a763e1f50836b07edf0a3e6579454c335" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::UIDescriptor</scope><name>ToBindControl</name></member>

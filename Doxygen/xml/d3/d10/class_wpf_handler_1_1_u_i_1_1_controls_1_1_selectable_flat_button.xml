@@ -4,7 +4,7 @@
     <compoundname>WpfHandler::UI::Controls::SelectableFlatButton</compoundname>
     <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
     <basecompoundref refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label" prot="public" virt="non-virtual">WpfHandler.UI.Controls.ILabel</basecompoundref>
-    <basecompoundref refid="d9/de5/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_selectable_control" prot="public" virt="non-virtual">WpfHandler.UI.Controls.ISelectableControl</basecompoundref>
+    <basecompoundref refid="d5/db4/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_toggle_control" prot="public" virt="non-virtual">WpfHandler.UI.Controls.IToggleControl</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
@@ -70,6 +70,19 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a1988a63005ceaa7f7f07d1d44a7ae01f" prot="public" static="yes" mutable="no">
+        <type>readonly RoutedEvent</type>
+        <definition>readonly RoutedEvent WpfHandler.UI.Controls.SelectableFlatButton.ClickEvent</definition>
+        <argsstring></argsstring>
+        <name>ClickEvent</name>
+        <briefdescription>
+<para>Event that will be called when button will be pressed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1afecdba1a6a477d574f423cc47ded74f7" prot="public" static="yes" mutable="no">
         <type>readonly DependencyProperty</type>
         <definition>readonly DependencyProperty WpfHandler.UI.Controls.SelectableFlatButton.LabelProperty</definition>
@@ -83,22 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="42" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="42" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1aebfe33b92f950fe559a1f33670ffe1b6" prot="public" static="yes" mutable="no">
-        <type>readonly DependencyProperty</type>
-        <definition>readonly DependencyProperty WpfHandler.UI.Controls.SelectableFlatButton.ClickCallbackProperty</definition>
-        <argsstring></argsstring>
-        <name>ClickCallbackProperty</name>
-        <initializer>= DependencyProperty.Register(
-          &quot;ClickCallback&quot;, typeof(Action&lt;object&gt;), typeof(<ref refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button" kindref="compound">SelectableFlatButton</ref>))</initializer>
-        <briefdescription>
-<para>Bridging XAML declaring and the member. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="48" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="48" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="47" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a8fcdfa5d44a6463e1c0296250fa260c9" prot="public" static="yes" mutable="no">
         <type>readonly DependencyProperty</type>
@@ -113,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="54" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="54" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="53" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a7263ef5d414587ec40f35ab3616173e4" prot="public" static="yes" mutable="no">
         <type>readonly DependencyProperty</type>
@@ -128,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="60" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="60" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="59" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a5765829144f2d6ff2f76b972940ec242" prot="public" static="yes" mutable="no">
         <type>readonly DependencyProperty</type>
@@ -143,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="66" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="66" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="65" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1afc8f06c4a5fab3f5d259a250910ace6e" prot="public" static="yes" mutable="no">
         <type>readonly DependencyProperty</type>
@@ -159,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="72" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="72" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="71" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="71" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="event">
@@ -174,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="81" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="81" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="80" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="80" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-attrib">
@@ -190,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="86" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="86" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="85" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="85" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="property">
@@ -205,20 +203,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="93" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="94" bodyend="97"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="92" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="93" bodyend="96"/>
       </memberdef>
-      <memberdef kind="property" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a27cd38802c48c61f3b8a230a74669b17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>Action&lt; object &gt;</type>
-        <definition>Action&lt;object&gt; WpfHandler.UI.Controls.SelectableFlatButton.ClickCallback</definition>
+      <memberdef kind="property" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a08e6400871439c5e9ca1772f26710860" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>RoutedEventHandler</type>
+        <definition>RoutedEventHandler WpfHandler.UI.Controls.SelectableFlatButton.Click</definition>
         <argsstring></argsstring>
-        <name>ClickCallback</name>
+        <name>Click</name>
         <briefdescription>
-<para>Method that will has been calling during click on button. </para>        </briefdescription>
+<para>Occurs when a <ref refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button" kindref="compound">SelectableFlatButton</ref> is clicked. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="102" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="103" bodyend="106"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="101" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="102" bodyend="105"/>
       </memberdef>
       <memberdef kind="property" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1ad1ff756964fdb1d04f2ca04a41c67f1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>bool</type>
@@ -231,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="111" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="112" bodyend="122"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="110" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="111" bodyend="121"/>
       </memberdef>
       <memberdef kind="property" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a2df582128e2ef8858ff4c6f174800b9d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -244,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="127" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="128" bodyend="131"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="126" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="127" bodyend="130"/>
       </memberdef>
       <memberdef kind="property" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1ac13d0a092b070729c49587c58f050971" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>bool</type>
@@ -257,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="136" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="137" bodyend="140"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="135" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="136" bodyend="139"/>
       </memberdef>
       <memberdef kind="property" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1ac6e0b3d04d913327eb3b8482a48453d7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>Brush</type>
@@ -270,7 +268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="145" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="146" bodyend="149"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="144" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="145" bodyend="148"/>
       </memberdef>
       <memberdef kind="property" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a926a0f181d6faec84ca8877467604100" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>float</type>
@@ -283,7 +281,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="154" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="154" bodyend="154"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="153" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="153" bodyend="153"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -350,16 +348,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="162" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="162" bodyend="166"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="168" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="168" bodyend="172"/>
       </memberdef>
-      <memberdef kind="function" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a0ce515d3620b53667b3aa377ea4f2f6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a5cade89b74ec7a7f9566d0e63b677d27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void WpfHandler.UI.Controls.SelectableFlatButton.SelectedCallback</definition>
-        <argsstring>(object clicked)</argsstring>
+        <argsstring>(object clicked, RoutedEventArgs __)</argsstring>
         <name>SelectedCallback</name>
         <param>
           <type>object</type>
           <declname>clicked</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>__</declname>
         </param>
         <briefdescription>
 <para>Callback that will be called when button will be clicked. </para>        </briefdescription>
@@ -371,20 +373,31 @@
 <parameterdescription>
 </parameterdescription>
 </parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>__</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Not using.</para></parameterdescription>
+</parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="211" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="211" bodyend="233"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="218" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="218" bodyend="240"/>
       </memberdef>
-      <memberdef kind="function" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1aa6389115bf881a33ed384871a7ae816a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1ae01144a323df17892edbdd0f20a10ec7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void WpfHandler.UI.Controls.SelectableFlatButton.OnButtonClick</definition>
-        <argsstring>(object _)</argsstring>
+        <argsstring>(object _, RoutedEventArgs __)</argsstring>
         <name>OnButtonClick</name>
         <param>
           <type>object</type>
           <declname>_</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>__</declname>
         </param>
         <briefdescription>
 <para>Callback for button click. </para>        </briefdescription>
@@ -396,11 +409,18 @@
 <parameterdescription>
 <para>Not using. Will be overided on <computeroutput>this</computeroutput> cause listener can&apos;t khow reference tp the child button control.</para></parameterdescription>
 </parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>__</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Not using.</para></parameterdescription>
+</parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="271" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="271" bodyend="275"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="279" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="279" bodyend="283"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="package-func">
@@ -608,7 +628,22 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="240" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="240" bodyend="263"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="247" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="247" bodyend="270"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a7895de71416c09695e76e1678e7c4087" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static WpfHandler.UI.Controls.SelectableFlatButton.SelectableFlatButton</definition>
+        <argsstring>()</argsstring>
+        <name>SelectableFlatButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="158" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="158" bodyend="163"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -647,7 +682,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="176" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="176" bodyend="203"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" line="182" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/SelectableFlatButton.xaml.cs" bodystart="182" bodyend="209"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -655,104 +690,104 @@
     <detaileddescription>
 <para>Interaction logic for SelectableFlatButton.xaml </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="549">
-        <label>ISelectableControl</label>
-        <link refid="d9/de5/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_selectable_control"/>
+      <node id="584">
+        <label>IToggleControl</label>
+        <link refid="d5/db4/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_toggle_control"/>
       </node>
-      <node id="546">
+      <node id="581">
         <label>WpfHandler.UI.Controls.SelectableFlatButton</label>
         <link refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button"/>
-        <childnode refid="547" relation="public-inheritance">
+        <childnode refid="582" relation="public-inheritance">
         </childnode>
-        <childnode refid="548" relation="public-inheritance">
+        <childnode refid="583" relation="public-inheritance">
         </childnode>
-        <childnode refid="549" relation="public-inheritance">
+        <childnode refid="584" relation="public-inheritance">
         </childnode>
-        <childnode refid="550" relation="public-inheritance">
+        <childnode refid="585" relation="public-inheritance">
         </childnode>
-        <childnode refid="551" relation="public-inheritance">
+        <childnode refid="586" relation="public-inheritance">
         </childnode>
-        <childnode refid="550" relation="public-inheritance">
+        <childnode refid="585" relation="public-inheritance">
         </childnode>
-        <childnode refid="551" relation="public-inheritance">
+        <childnode refid="586" relation="public-inheritance">
         </childnode>
-        <childnode refid="550" relation="public-inheritance">
+        <childnode refid="585" relation="public-inheritance">
         </childnode>
-        <childnode refid="551" relation="public-inheritance">
+        <childnode refid="586" relation="public-inheritance">
         </childnode>
-        <childnode refid="550" relation="public-inheritance">
+        <childnode refid="585" relation="public-inheritance">
         </childnode>
-        <childnode refid="551" relation="public-inheritance">
+        <childnode refid="586" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="550">
+      <node id="585">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="551">
+      <node id="586">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="547">
+      <node id="582">
         <label>UserControl</label>
       </node>
-      <node id="548">
+      <node id="583">
         <label>ILabel</label>
         <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="558">
-        <label>Controls</label>
+      <node id="594">
+        <label>UI</label>
       </node>
-      <node id="559">
+      <node id="593">
         <label>System</label>
       </node>
-      <node id="555">
-        <label>ISelectableControl</label>
-        <link refid="d9/de5/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_selectable_control"/>
+      <node id="590">
+        <label>IToggleControl</label>
+        <link refid="d5/db4/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_toggle_control"/>
       </node>
-      <node id="552">
+      <node id="587">
         <label>WpfHandler.UI.Controls.SelectableFlatButton</label>
         <link refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button"/>
-        <childnode refid="553" relation="public-inheritance">
+        <childnode refid="588" relation="public-inheritance">
         </childnode>
-        <childnode refid="554" relation="public-inheritance">
+        <childnode refid="589" relation="public-inheritance">
         </childnode>
-        <childnode refid="555" relation="public-inheritance">
+        <childnode refid="590" relation="public-inheritance">
         </childnode>
-        <childnode refid="556" relation="public-inheritance">
+        <childnode refid="591" relation="public-inheritance">
         </childnode>
-        <childnode refid="557" relation="public-inheritance">
+        <childnode refid="592" relation="public-inheritance">
         </childnode>
-        <childnode refid="556" relation="public-inheritance">
+        <childnode refid="591" relation="public-inheritance">
         </childnode>
-        <childnode refid="557" relation="public-inheritance">
+        <childnode refid="592" relation="public-inheritance">
         </childnode>
-        <childnode refid="556" relation="public-inheritance">
+        <childnode refid="591" relation="public-inheritance">
         </childnode>
-        <childnode refid="557" relation="public-inheritance">
+        <childnode refid="592" relation="public-inheritance">
         </childnode>
-        <childnode refid="556" relation="public-inheritance">
+        <childnode refid="591" relation="public-inheritance">
         </childnode>
-        <childnode refid="557" relation="public-inheritance">
+        <childnode refid="592" relation="public-inheritance">
         </childnode>
-        <childnode refid="558" relation="usage">
+        <childnode refid="593" relation="usage">
+          <edgelabel>mark</edgelabel>
+        </childnode>
+        <childnode refid="594" relation="usage">
           <edgelabel>button</edgelabel>
           <edgelabel>main</edgelabel>
         </childnode>
-        <childnode refid="559" relation="usage">
-          <edgelabel>mark</edgelabel>
-        </childnode>
       </node>
-      <node id="556">
+      <node id="591">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="557">
+      <node id="592">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="553">
+      <node id="588">
         <label>UserControl</label>
       </node>
-      <node id="554">
+      <node id="589">
         <label>ILabel</label>
         <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
       </node>
@@ -767,8 +802,8 @@
       <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1aeda1be5761f1a96fbd14138aab118826" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>activeGroupsItems</name></member>
       <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a212d3f87419d2163a2c53afb72622991" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>button</name></member>
       <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1aa36bac42f7eef1ba46a8a5dc8f071c19" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>ButtonActivated</name></member>
-      <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a27cd38802c48c61f3b8a230a74669b17" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>ClickCallback</name></member>
-      <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1aebfe33b92f950fe559a1f33670ffe1b6" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>ClickCallbackProperty</name></member>
+      <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a08e6400871439c5e9ca1772f26710860" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>Click</name></member>
+      <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a1988a63005ceaa7f7f07d1d44a7ae01f" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>ClickEvent</name></member>
       <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a0641902352c955ea46db0fa88c073006" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>Connect</name></member>
       <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a0641902352c955ea46db0fa88c073006" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>Connect</name></member>
       <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a0641902352c955ea46db0fa88c073006" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>Connect</name></member>
@@ -788,10 +823,11 @@
       <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a6dca782fe163e0fd97183aa28bbbfb33" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>mark</name></member>
       <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1ac13d0a092b070729c49587c58f050971" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>MultiSelection</name></member>
       <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a5765829144f2d6ff2f76b972940ec242" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>MultiSelectionProperty</name></member>
-      <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1aa6389115bf881a33ed384871a7ae816a" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>OnButtonClick</name></member>
+      <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1ae01144a323df17892edbdd0f20a10ec7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>OnButtonClick</name></member>
+      <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a7895de71416c09695e76e1678e7c4087" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>SelectableFlatButton</name></member>
       <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a05bd4f4c7754212984b77499922a275d" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>SelectableFlatButton</name></member>
       <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1ad1ff756964fdb1d04f2ca04a41c67f1c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>Selected</name></member>
-      <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a0ce515d3620b53667b3aa377ea4f2f6b" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>SelectedCallback</name></member>
+      <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a5cade89b74ec7a7f9566d0e63b677d27" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>SelectedCallback</name></member>
       <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1a8fcdfa5d44a6463e1c0296250fa260c9" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>SelectedProperty</name></member>
       <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1aab3702adeef6c8a17aa65bfb91081fd4" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>TryToGetSelected</name></member>
       <member refid="d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button_1adeb088033184dde922518f7a7f577fa1" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::SelectableFlatButton</scope><name>UI_Loaded</name></member>

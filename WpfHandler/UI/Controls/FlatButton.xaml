@@ -84,7 +84,7 @@ limitations under the License.-->
                Foreground="{Binding Foreground}">
 
 
-            <AccessText TextWrapping="NoWrap" Margin="{Binding LabelMargin}"
+            <AccessText TextWrapping="NoWrap" Margin="0,-20,0,-20" VerticalAlignment="Center"
                         Text="{Binding Label, ElementName=main}"/>
             
             <Label.Style>

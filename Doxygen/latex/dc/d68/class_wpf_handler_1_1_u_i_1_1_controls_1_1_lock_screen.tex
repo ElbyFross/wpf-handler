@@ -22,13 +22,14 @@ void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_aac
 \begin{DoxyCompactList}\small\item\em Initialize\+Component \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_aacd97a7da29eefb57cc695f5af31dce5}{Initialize\+Component}} ()
 \begin{DoxyCompactList}\small\item\em Initialize\+Component \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_a9b03e106f5477ce912a76c7b7de5aac2}{Lock\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_ae53cb9098b105a55f6da81acf3703e69}{Lock}} (string message, params Framework\+Element\mbox{[}$\,$\mbox{]} controls)
 \begin{DoxyCompactList}\small\item\em Lock screen and enable loading animation. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_a2411f98b2544601d6310967dc93064a2}{Unlock}} ()
 \begin{DoxyCompactList}\small\item\em Unlock screen. \end{DoxyCompactList}\item 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_a780b13daab4235569b6705639acfe245}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_a780b13daab4235569b6705639acfe245}} 
-void {\bfseries Lock\+Cancel\+Callback\+Handler} (object sender)
-\end{DoxyCompactItemize}
+void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_ab3d0b280c769a2c9ed57766d03791fd7}{Lock\+Cancel\+Callback\+Handler}} (object sender, Routed\+Event\+Args args)
+\begin{DoxyCompactList}\small\item\em Occurs when lock screee cancel button is pressed. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
@@ -104,6 +105,19 @@ bool {\bfseries \+\_\+content\+Loaded}
 
 Interaction logic for Lock\+Screen.\+xaml 
 
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_a9b03e106f5477ce912a76c7b7de5aac2}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_a9b03e106f5477ce912a76c7b7de5aac2}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Lock\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Lock\+Screen}!Lock\+Screen@{Lock\+Screen}}
+\index{Lock\+Screen@{Lock\+Screen}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Lock\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Lock\+Screen}}
+\subsubsection{\texorpdfstring{Lock\+Screen()}{LockScreen()}}
+{\footnotesize\ttfamily Wpf\+Handler.\+U\+I.\+Controls.\+Lock\+Screen.\+Lock\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+
+
 \subsection{Member Function Documentation}
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_aacd97a7da29eefb57cc695f5af31dce5}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_aacd97a7da29eefb57cc695f5af31dce5}} 
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Lock\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Lock\+Screen}!Initialize\+Component@{Initialize\+Component}}
@@ -160,6 +174,23 @@ Lock screen and enable loading animation.
 {\em message} & Message that wold be showed up during lock.\\
 \hline
 {\em controls} & elements that would be locked.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_ab3d0b280c769a2c9ed57766d03791fd7}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_ab3d0b280c769a2c9ed57766d03791fd7}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Lock\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Lock\+Screen}!Lock\+Cancel\+Callback\+Handler@{Lock\+Cancel\+Callback\+Handler}}
+\index{Lock\+Cancel\+Callback\+Handler@{Lock\+Cancel\+Callback\+Handler}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Lock\+Screen@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Lock\+Screen}}
+\subsubsection{\texorpdfstring{Lock\+Cancel\+Callback\+Handler()}{LockCancelCallbackHandler()}}
+{\footnotesize\ttfamily void Wpf\+Handler.\+U\+I.\+Controls.\+Lock\+Screen.\+Lock\+Cancel\+Callback\+Handler (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Routed\+Event\+Args}]{args }\end{DoxyParamCaption})}
+
+
+
+Occurs when lock screee cancel button is pressed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & \\
+\hline
+{\em args} & \\
 \hline
 \end{DoxyParams}
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_a2411f98b2544601d6310967dc93064a2}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen_a2411f98b2544601d6310967dc93064a2}} 

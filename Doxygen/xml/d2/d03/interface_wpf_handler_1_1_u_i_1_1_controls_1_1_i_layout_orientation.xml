@@ -23,13 +23,13 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="376">
+      <node id="401">
         <label>WpfHandler.UI.Controls.FlatTogglesGroup</label>
         <link refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group"/>
-        <childnode refid="375" relation="public-inheritance">
+        <childnode refid="400" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="375">
+      <node id="400">
         <label>WpfHandler.UI.Controls.ILayoutOrientation</label>
         <link refid="d2/d03/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_orientation"/>
       </node>

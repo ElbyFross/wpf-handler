@@ -676,74 +676,74 @@
     <detaileddescription>
 <para>Interaction logic for SelectableGrid.xaml </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="560">
+      <node id="595">
         <label>WpfHandler.UI.Controls.SelectableGrid</label>
         <link refid="de/dc7/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_grid"/>
-        <childnode refid="561" relation="public-inheritance">
+        <childnode refid="596" relation="public-inheritance">
         </childnode>
-        <childnode refid="562" relation="public-inheritance">
+        <childnode refid="597" relation="public-inheritance">
         </childnode>
-        <childnode refid="563" relation="public-inheritance">
+        <childnode refid="598" relation="public-inheritance">
         </childnode>
-        <childnode refid="562" relation="public-inheritance">
+        <childnode refid="597" relation="public-inheritance">
         </childnode>
-        <childnode refid="563" relation="public-inheritance">
+        <childnode refid="598" relation="public-inheritance">
         </childnode>
-        <childnode refid="562" relation="public-inheritance">
+        <childnode refid="597" relation="public-inheritance">
         </childnode>
-        <childnode refid="563" relation="public-inheritance">
+        <childnode refid="598" relation="public-inheritance">
         </childnode>
-        <childnode refid="562" relation="public-inheritance">
+        <childnode refid="597" relation="public-inheritance">
         </childnode>
-        <childnode refid="563" relation="public-inheritance">
+        <childnode refid="598" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="562">
+      <node id="597">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="563">
+      <node id="598">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="561">
+      <node id="596">
         <label>UserControl</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="568">
+      <node id="603">
         <label>System</label>
       </node>
-      <node id="564">
+      <node id="599">
         <label>WpfHandler.UI.Controls.SelectableGrid</label>
         <link refid="de/dc7/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_grid"/>
-        <childnode refid="565" relation="public-inheritance">
+        <childnode refid="600" relation="public-inheritance">
         </childnode>
-        <childnode refid="566" relation="public-inheritance">
+        <childnode refid="601" relation="public-inheritance">
         </childnode>
-        <childnode refid="567" relation="public-inheritance">
+        <childnode refid="602" relation="public-inheritance">
         </childnode>
-        <childnode refid="566" relation="public-inheritance">
+        <childnode refid="601" relation="public-inheritance">
         </childnode>
-        <childnode refid="567" relation="public-inheritance">
+        <childnode refid="602" relation="public-inheritance">
         </childnode>
-        <childnode refid="566" relation="public-inheritance">
+        <childnode refid="601" relation="public-inheritance">
         </childnode>
-        <childnode refid="567" relation="public-inheritance">
+        <childnode refid="602" relation="public-inheritance">
         </childnode>
-        <childnode refid="566" relation="public-inheritance">
+        <childnode refid="601" relation="public-inheritance">
         </childnode>
-        <childnode refid="567" relation="public-inheritance">
+        <childnode refid="602" relation="public-inheritance">
         </childnode>
-        <childnode refid="568" relation="usage">
+        <childnode refid="603" relation="usage">
           <edgelabel>grid</edgelabel>
         </childnode>
       </node>
-      <node id="566">
+      <node id="601">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="567">
+      <node id="602">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="565">
+      <node id="600">
         <label>UserControl</label>
       </node>
     </collaborationgraph>

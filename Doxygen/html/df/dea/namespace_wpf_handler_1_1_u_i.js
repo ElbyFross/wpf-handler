@@ -6,5 +6,6 @@ var namespace_wpf_handler_1_1_u_i =
     [ "Effects", "db/d11/namespace_wpf_handler_1_1_u_i_1_1_effects.html", "db/d11/namespace_wpf_handler_1_1_u_i_1_1_effects" ],
     [ "ColorAttribute", "d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute.html", "d6/dab/class_wpf_handler_1_1_u_i_1_1_color_attribute" ],
     [ "GUIContent", "db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content.html", "db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content" ],
-    [ "GUIContentAttribute", "d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute.html", "d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute" ]
+    [ "GUIContentAttribute", "d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute.html", "d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute" ],
+    [ "LocalizationHandler", "d6/de1/class_wpf_handler_1_1_u_i_1_1_localization_handler.html", "d6/de1/class_wpf_handler_1_1_u_i_1_1_localization_handler" ]
 ];

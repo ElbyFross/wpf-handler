@@ -33,20 +33,19 @@ namespace WpfHandler.UI.Controls
     /// <summary>
     /// Interaction logic for SelectableFlatButton.xaml
     /// </summary>
-    public partial class SelectableFlatButton : UserControl, ILabel, ISelectableControl
+    public partial class SelectableFlatButton : UserControl, ILabel, IToggleControl
     {
+        /// <summary>
+        /// Event that will be called when button will be pressed.
+        /// </summary>
+        public static readonly RoutedEvent ClickEvent;
+
         #region Dependency properties
         /// <summary>
         /// Bridging XAML declaring and the member.
         /// </summary>
         public static readonly DependencyProperty LabelProperty = DependencyProperty.Register(
           "Label", typeof(string), typeof(SelectableFlatButton), new PropertyMetadata("Sample"));
-
-        /// <summary>
-        /// Bridging XAML declaring and the member.
-        /// </summary>
-        public static readonly DependencyProperty ClickCallbackProperty = DependencyProperty.Register(
-          "ClickCallback", typeof(Action<object>), typeof(SelectableFlatButton));
 
         /// <summary>
         /// Bridging XAML declaring and the member.
@@ -93,16 +92,16 @@ namespace WpfHandler.UI.Controls
         public string Label
         {
             get { return (string)GetValue(LabelProperty); }
-            set {SetValue(LabelProperty, value); }
+            set { SetValue(LabelProperty, value); }
         }
 
         /// <summary>
-        /// Method that will has been calling during click on button.
+        /// Occurs when a <see cref="SelectableFlatButton"/> is clicked.
         /// </summary>
-        public Action<object> ClickCallback
+        public event RoutedEventHandler Click
         {
-            get { return (Action<object>)main.GetValue(ClickCallbackProperty); }
-            set { main.SetValue(ClickCallbackProperty, value); }
+            add => this.AddHandler(SelectableFlatButton.ClickEvent, value);
+            remove => this.RemoveHandler(SelectableFlatButton.ClickEvent, value);
         }
 
         /// <summary>
@@ -111,7 +110,7 @@ namespace WpfHandler.UI.Controls
         public bool Selected
         {
             get { return (bool)main.GetValue(SelectedProperty); }
-            set 
+            set
             {
                 // Update value.
                 main.SetValue(SelectedProperty, value);
@@ -156,13 +155,20 @@ namespace WpfHandler.UI.Controls
 
 
         #region Constructors
+        static SelectableFlatButton()
+        {
+            ClickEvent = EventManager.RegisterRoutedEvent(
+                "Click", RoutingStrategy.Bubble,
+                typeof(RoutedEventHandler), typeof(SelectableFlatButton));
+        }
+
         /// <summary>
         /// Default button.
         /// </summary>
         public SelectableFlatButton()
         {
             InitializeComponent();
-            DataContext = main;           
+            DataContext = main;
         }
         #endregion
 
@@ -183,7 +189,7 @@ namespace WpfHandler.UI.Controls
                 foreach (SelectableFlatButton bufer in collection)
                 {
                     // Selected found.
-                    if(bufer.Selected)
+                    if (bufer.Selected)
                     {
                         button = bufer;
                         return true;
@@ -208,7 +214,8 @@ namespace WpfHandler.UI.Controls
         /// Callback that will be called when button will be clicked.
         /// </summary>
         /// <param name="clicked"></param>
-        public void SelectedCallback(object clicked)
+        /// <param name="__">Not using.</param>
+        public void SelectedCallback(object clicked, RoutedEventArgs __)
         {
             // Inform subscribers.
             ButtonActivated?.Invoke(this);
@@ -253,7 +260,7 @@ namespace WpfHandler.UI.Controls
             }
 
             // Singup groups processing.
-            ClickCallback += SelectedCallback;
+            Click += SelectedCallback;
 
             // Update selected status.
             Selected = Selected;
@@ -271,8 +278,8 @@ namespace WpfHandler.UI.Controls
         /// <param name="__">Not using.</param>
         public void OnButtonClick(object _, RoutedEventArgs __)
         {
-            // Call subscribed delegate.
-            ClickCallback?.Invoke(this);
+            RoutedEventArgs e = new RoutedEventArgs(ClickEvent, this);
+            RaiseEvent(e);
         }
         #endregion
     }

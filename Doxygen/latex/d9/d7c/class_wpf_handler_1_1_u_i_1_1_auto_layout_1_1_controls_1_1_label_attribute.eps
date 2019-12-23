@@ -5,7 +5,7 @@
 %%For: 
 %Magnification: 1.00
 %%Orientation: Portrait
-%%BoundingBox: 0 0 500 253.164557
+%%BoundingBox: 0 0 500 126.582278
 %%Pages: 0
 %%BeginSetup
 %%EndSetup
@@ -19,13 +19,13 @@
 /marginwidth 10 def
 /distx 20 def
 /disty 40 def
-/boundaspect 1.975000 def  % aspect ratio of the BoundingBox (width/height)
+/boundaspect 3.950000 def  % aspect ratio of the BoundingBox (width/height)
 /boundx 500 def
 /boundy boundx boundaspect div def
 /xspacing 0 def
 /yspacing 0 def
 /rows 4 def
-/cols 1 def
+/cols 2 def
 /scalefactor 0 def
 /boxfont /Times-Roman findfont fontheight scalefont def
 
@@ -175,6 +175,7 @@ boxfont setfont
 1 boundaspect scale
 (WpfHandler.UI.AutoLayout.Controls.LabelAttribute) cw
 (WpfHandler.UI.GUIContentAttribute) cw
+(WpfHandler.UI.AutoLayout.IGUIElement) cw
 (WpfHandler.Dictionaries.LocalizableContentAttribute) cw
 (Attribute) cw
 /boxwidth boxwidth marginwidth 2 mul add def
@@ -188,19 +189,24 @@ boundx scalefactor div boundy scalefactor div scale
 
 % ----- classes -----
 
- (WpfHandler.UI.AutoLayout.Controls.LabelAttribute) 0.000000 0.000000 box
+ (WpfHandler.UI.AutoLayout.Controls.LabelAttribute) 0.500000 0.000000 box
  (WpfHandler.UI.GUIContentAttribute) 0.000000 1.000000 box
+ (WpfHandler.UI.AutoLayout.IGUIElement) 1.000000 1.000000 box
  (WpfHandler.Dictionaries.LocalizableContentAttribute) 0.000000 2.000000 box
  (Attribute) 0.000000 3.000000 box
 
 % ----- relations -----
 
 solid
-0 0.000000 0.000000 out
+0 0.500000 0.000000 out
+solid
+0.000000 1.000000 1.000000 conn
 solid
 1 0.000000 1.000000 in
 solid
 0 0.000000 1.000000 out
+solid
+1 1.000000 1.000000 in
 solid
 1 0.000000 2.000000 in
 solid

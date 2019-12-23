@@ -24,7 +24,7 @@ using WpfHandler.UI.Controls;
 namespace WpfHandler.UI.AutoLayout.Options
 {
     /// <summary>
-    /// Define min width of the GUI element.
+    /// Defines a min width of the GUI element.
     /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property |
                     AttributeTargets.Class | AttributeTargets.Struct,

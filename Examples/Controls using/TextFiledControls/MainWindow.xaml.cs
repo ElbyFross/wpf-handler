@@ -24,14 +24,31 @@ namespace TextFiledControls
         {
             InitializeComponent();
 
+            #region Bind descriptor to the autolayout
             // Instiniating our custom UI descriptor.
             var descriptor = new CustomAutolayoutDescriptor();
 
             // Applying the descriptor to the autolayot view.
             // After that the view will generate and bind the fields.
             alView.Descriptor = descriptor;
+            #endregion
+
+
+            #region Adding the field via code
+            var codeBehidField = new WpfHandler.UI.Controls.FlatTextBox()
+            {
+                Label = "Code behind field",
+                Value = "0.34",
+                ValueMode = WpfHandler.UI.Controls.TextFieldControl.Mode.Float,
+            };
+            contentHolder.Children.Add(codeBehidField);
+            #endregion
         }
 
+        /// <summary>
+        /// Occurs when filed's value is changed.
+        /// </summary>
+        /// <param name="obj">The reference to the sender field.</param>
         private void FlatPasswordBox_ValueChanged(WpfHandler.UI.AutoLayout.IGUIField obj)
         {
             output.Content = obj.Value;

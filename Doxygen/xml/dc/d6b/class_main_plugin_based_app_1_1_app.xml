@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dc/d6b/class_main_plugin_based_app_1_1_app" kind="class" language="C#" prot="public">
+    <compoundname>MainPluginBasedApp::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d6b/class_main_plugin_based_app_1_1_app_1ac902c59dec8e2316d5e4b42dd0ef4808" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainPluginBasedApp.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/MainPluginBasedApp/obj/Debug/App.g.cs" line="48" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/MainPluginBasedApp/obj/Debug/App.g.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6b/class_main_plugin_based_app_1_1_app_1ac902c59dec8e2316d5e4b42dd0ef4808" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainPluginBasedApp.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/MainPluginBasedApp/obj/Debug/App.g.i.cs" line="48" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/MainPluginBasedApp/obj/Debug/App.g.i.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/d6b/class_main_plugin_based_app_1_1_app_1ac30ebe1741c7bd7c33a7ffff519403f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MainPluginBasedApp.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/MainPluginBasedApp/obj/Debug/App.g.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/MainPluginBasedApp/obj/Debug/App.g.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6b/class_main_plugin_based_app_1_1_app_1ac30ebe1741c7bd7c33a7ffff519403f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MainPluginBasedApp.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/MainPluginBasedApp/obj/Debug/App.g.i.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/MainPluginBasedApp/obj/Debug/App.g.i.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for App.xaml </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="dc/d6b/class_main_plugin_based_app_1_1_app" kindref="compound">App</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="55">
+        <label>System::Windows::Application</label>
+      </node>
+      <node id="56">
+        <label>Application</label>
+      </node>
+      <node id="54">
+        <label>MainPluginBasedApp.App</label>
+        <link refid="dc/d6b/class_main_plugin_based_app_1_1_app"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="58">
+        <label>System::Windows::Application</label>
+      </node>
+      <node id="59">
+        <label>Application</label>
+      </node>
+      <node id="57">
+        <label>MainPluginBasedApp.App</label>
+        <link refid="dc/d6b/class_main_plugin_based_app_1_1_app"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/MainPluginBasedApp/App.xaml.cs" line="15" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/MainPluginBasedApp/App.xaml.cs" bodystart="14" bodyend="16"/>
+    <listofallmembers>
+      <member refid="dc/d6b/class_main_plugin_based_app_1_1_app_1ac902c59dec8e2316d5e4b42dd0ef4808" prot="public" virt="non-virtual"><scope>MainPluginBasedApp::App</scope><name>InitializeComponent</name></member>
+      <member refid="dc/d6b/class_main_plugin_based_app_1_1_app_1ac902c59dec8e2316d5e4b42dd0ef4808" prot="public" virt="non-virtual"><scope>MainPluginBasedApp::App</scope><name>InitializeComponent</name></member>
+      <member refid="dc/d6b/class_main_plugin_based_app_1_1_app_1ac30ebe1741c7bd7c33a7ffff519403f1" prot="public" virt="non-virtual"><scope>MainPluginBasedApp::App</scope><name>Main</name></member>
+      <member refid="dc/d6b/class_main_plugin_based_app_1_1_app_1ac30ebe1741c7bd7c33a7ffff519403f1" prot="public" virt="non-virtual"><scope>MainPluginBasedApp::App</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

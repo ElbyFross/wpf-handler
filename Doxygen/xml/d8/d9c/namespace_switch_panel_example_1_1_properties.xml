@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d8/d9c/namespace_switch_panel_example_1_1_properties" kind="namespace" language="C#">
+    <compoundname>SwitchPanelExample::Properties</compoundname>
+    <innerclass refid="dc/d2e/class_switch_panel_example_1_1_properties_1_1_resources" prot="package">SwitchPanelExample::Properties::Resources</innerclass>
+    <innerclass refid="df/d35/class_switch_panel_example_1_1_properties_1_1_settings" prot="package">SwitchPanelExample::Properties::Settings</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/Properties/Resources.Designer.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

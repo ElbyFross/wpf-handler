@@ -69,6 +69,19 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a69190a203535d031a46aa317c5fa93e2" prot="public" static="yes" mutable="no">
+        <type>readonly RoutedEvent</type>
+        <definition>readonly RoutedEvent WpfHandler.UI.Controls.FlatButton.ClickEvent</definition>
+        <argsstring></argsstring>
+        <name>ClickEvent</name>
+        <briefdescription>
+<para>Event that will be called when button will be pressed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="43" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1acad3d234805ceee99eeced499fe8cd80" prot="public" static="yes" mutable="no">
         <type>readonly DependencyProperty</type>
         <definition>readonly DependencyProperty WpfHandler.UI.Controls.FlatButton.LabelProperty</definition>
@@ -82,22 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="41" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a1b00c5705a924fc737e20b3af96d7c56" prot="public" static="yes" mutable="no">
-        <type>readonly DependencyProperty</type>
-        <definition>readonly DependencyProperty WpfHandler.UI.Controls.FlatButton.ClickCallbackProperty</definition>
-        <argsstring></argsstring>
-        <name>ClickCallbackProperty</name>
-        <initializer>= DependencyProperty.Register(
-          &quot;ClickCallback&quot;, typeof(Action&lt;object&gt;), typeof(<ref refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button" kindref="compound">FlatButton</ref>))</initializer>
-        <briefdescription>
-<para>Bridging XAML declaring and the member. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="47" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="47" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="48" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="48" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="property">
@@ -112,20 +110,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="53" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="54" bodyend="57"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="54" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="55" bodyend="58"/>
       </memberdef>
-      <memberdef kind="property" id="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a3d54019f2c7f46783061412232d0d222" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>Thickness</type>
-        <definition>Thickness WpfHandler.UI.Controls.FlatButton.LabelMargin</definition>
+      <memberdef kind="property" id="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1ad9184f68d9f9ae9db49fa4a82a97ae15" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>RoutedEventHandler</type>
+        <definition>RoutedEventHandler WpfHandler.UI.Controls.FlatButton.Click</definition>
         <argsstring></argsstring>
-        <name>LabelMargin</name>
+        <name>Click</name>
         <briefdescription>
-<para>Offset applied to label. </para>        </briefdescription>
+<para>Occurs when a <ref refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button" kindref="compound">FlatButton</ref>&gt; is clicked. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="62" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="63" bodyend="69"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="64" bodyend="67"/>
       </memberdef>
       <memberdef kind="property" id="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1ad8f23ebbd9a85097d01940f80d372217" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>float</type>
@@ -138,20 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="74" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="74" bodyend="74"/>
-      </memberdef>
-      <memberdef kind="property" id="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a4edcdc46b57a6db89144aa2c69e524a0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>Action&lt; object &gt;</type>
-        <definition>Action&lt;object&gt; WpfHandler.UI.Controls.FlatButton.ClickCallback</definition>
-        <argsstring></argsstring>
-        <name>ClickCallback</name>
-        <briefdescription>
-<para>Method that will has been calling during click on button. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="79" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="80" bodyend="83"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="72" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="72" bodyend="72"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -218,7 +203,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="88" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="88" bodyend="105"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="84" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="84" bodyend="101"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -306,32 +291,32 @@
         </inbodydescription>
         <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/FlatButton.g.i.cs" line="94" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Release/UI/Controls/FlatButton.g.i.cs" bodystart="94" bodyend="114"/>
       </memberdef>
-      <memberdef kind="function" id="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1aa391448d8f6b7a7c00cb43c6096a9d6d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a5248afc0ce1627f03c235fc2d2df8230" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void WpfHandler.UI.Controls.FlatButton.CatalogButton_Click</definition>
-        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
-        <name>CatalogButton_Click</name>
+        <definition>void WpfHandler.UI.Controls.FlatButton.FlatButton_Click</definition>
+        <argsstring>(object _, RoutedEventArgs __)</argsstring>
+        <name>FlatButton_Click</name>
         <param>
           <type>object</type>
-          <declname>sender</declname>
+          <declname>_</declname>
         </param>
         <param>
           <type>RoutedEventArgs</type>
-          <declname>e</declname>
+          <declname>__</declname>
         </param>
         <briefdescription>
-<para>Callback that will has been calling when button will be clicked. </para>        </briefdescription>
+<para>Occurs when internal button clicked. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>sender</parametername>
+<parametername>_</parametername>
 </parameternamelist>
 <parameterdescription>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>e</parametername>
+<parametername>__</parametername>
 </parameternamelist>
 <parameterdescription>
 </parameterdescription>
@@ -340,7 +325,22 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="112" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="112" bodyend="116"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="108" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="108" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a406ba3c9497144f0a256f91b9883b98a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static WpfHandler.UI.Controls.FlatButton.FlatButton</definition>
+        <argsstring>()</argsstring>
+        <name>FlatButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" line="74" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatButton.xaml.cs" bodystart="74" bodyend="79"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -348,92 +348,92 @@
     <detaileddescription>
 <para>Interaction logic for FlatButton.xaml </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="144">
+      <node id="161">
         <label>WpfHandler.UI.Controls.FlatButton</label>
         <link refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button"/>
-        <childnode refid="145" relation="public-inheritance">
+        <childnode refid="162" relation="public-inheritance">
         </childnode>
-        <childnode refid="146" relation="public-inheritance">
+        <childnode refid="163" relation="public-inheritance">
         </childnode>
-        <childnode refid="147" relation="public-inheritance">
+        <childnode refid="164" relation="public-inheritance">
         </childnode>
-        <childnode refid="148" relation="public-inheritance">
+        <childnode refid="165" relation="public-inheritance">
         </childnode>
-        <childnode refid="147" relation="public-inheritance">
+        <childnode refid="164" relation="public-inheritance">
         </childnode>
-        <childnode refid="148" relation="public-inheritance">
+        <childnode refid="165" relation="public-inheritance">
         </childnode>
-        <childnode refid="147" relation="public-inheritance">
+        <childnode refid="164" relation="public-inheritance">
         </childnode>
-        <childnode refid="148" relation="public-inheritance">
+        <childnode refid="165" relation="public-inheritance">
         </childnode>
-        <childnode refid="147" relation="public-inheritance">
+        <childnode refid="164" relation="public-inheritance">
         </childnode>
-        <childnode refid="148" relation="public-inheritance">
+        <childnode refid="165" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="147">
+      <node id="164">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="148">
+      <node id="165">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="145">
+      <node id="162">
         <label>UserControl</label>
       </node>
-      <node id="146">
+      <node id="163">
         <label>ILabel</label>
         <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="154">
-        <label>Controls</label>
+      <node id="172">
+        <label>UI</label>
       </node>
-      <node id="155">
+      <node id="171">
         <label>System</label>
       </node>
-      <node id="149">
+      <node id="166">
         <label>WpfHandler.UI.Controls.FlatButton</label>
         <link refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button"/>
-        <childnode refid="150" relation="public-inheritance">
+        <childnode refid="167" relation="public-inheritance">
         </childnode>
-        <childnode refid="151" relation="public-inheritance">
+        <childnode refid="168" relation="public-inheritance">
         </childnode>
-        <childnode refid="152" relation="public-inheritance">
+        <childnode refid="169" relation="public-inheritance">
         </childnode>
-        <childnode refid="153" relation="public-inheritance">
+        <childnode refid="170" relation="public-inheritance">
         </childnode>
-        <childnode refid="152" relation="public-inheritance">
+        <childnode refid="169" relation="public-inheritance">
         </childnode>
-        <childnode refid="153" relation="public-inheritance">
+        <childnode refid="170" relation="public-inheritance">
         </childnode>
-        <childnode refid="152" relation="public-inheritance">
+        <childnode refid="169" relation="public-inheritance">
         </childnode>
-        <childnode refid="153" relation="public-inheritance">
+        <childnode refid="170" relation="public-inheritance">
         </childnode>
-        <childnode refid="152" relation="public-inheritance">
+        <childnode refid="169" relation="public-inheritance">
         </childnode>
-        <childnode refid="153" relation="public-inheritance">
+        <childnode refid="170" relation="public-inheritance">
         </childnode>
-        <childnode refid="154" relation="usage">
-          <edgelabel>main</edgelabel>
-        </childnode>
-        <childnode refid="155" relation="usage">
+        <childnode refid="171" relation="usage">
           <edgelabel>flatButton</edgelabel>
           <edgelabel>label</edgelabel>
         </childnode>
+        <childnode refid="172" relation="usage">
+          <edgelabel>main</edgelabel>
+        </childnode>
       </node>
-      <node id="152">
+      <node id="169">
         <label>System::Windows::Controls::UserControl</label>
       </node>
-      <node id="153">
+      <node id="170">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="150">
+      <node id="167">
         <label>UserControl</label>
       </node>
-      <node id="151">
+      <node id="168">
         <label>ILabel</label>
         <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
       </node>
@@ -441,22 +441,22 @@
     <location file="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/FlatButton.g.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/obj/Debug/UI/Controls/FlatButton.g.cs" bodystart="41" bodyend="115"/>
     <listofallmembers>
       <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a894cd257cfad5ffdf7b4208cb022d41d" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>_contentLoaded</name></member>
-      <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1aa391448d8f6b7a7c00cb43c6096a9d6d" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>CatalogButton_Click</name></member>
-      <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a4edcdc46b57a6db89144aa2c69e524a0" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>ClickCallback</name></member>
-      <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a1b00c5705a924fc737e20b3af96d7c56" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>ClickCallbackProperty</name></member>
+      <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1ad9184f68d9f9ae9db49fa4a82a97ae15" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>Click</name></member>
+      <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a69190a203535d031a46aa317c5fa93e2" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>ClickEvent</name></member>
       <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a8dbfddaea8859d6d10ddc916cd6ce094" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>Connect</name></member>
       <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a8dbfddaea8859d6d10ddc916cd6ce094" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>Connect</name></member>
       <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a8dbfddaea8859d6d10ddc916cd6ce094" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>Connect</name></member>
       <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a8dbfddaea8859d6d10ddc916cd6ce094" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>Connect</name></member>
-      <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a17b78f2f94dad89be055e7bd3eec09da" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>FlatButton</name></member>
       <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1abd241b6a495c587914bde27d925e5fb7" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>flatButton</name></member>
+      <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a406ba3c9497144f0a256f91b9883b98a" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>FlatButton</name></member>
+      <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a17b78f2f94dad89be055e7bd3eec09da" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>FlatButton</name></member>
+      <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a5248afc0ce1627f03c235fc2d2df8230" prot="private" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>FlatButton_Click</name></member>
       <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1acabdb68bfd2ca1a7baf68aeb819a7721" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>InitializeComponent</name></member>
       <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1acabdb68bfd2ca1a7baf68aeb819a7721" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>InitializeComponent</name></member>
       <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1acabdb68bfd2ca1a7baf68aeb819a7721" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>InitializeComponent</name></member>
       <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1acabdb68bfd2ca1a7baf68aeb819a7721" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>InitializeComponent</name></member>
-      <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a2408c739aab8767dd0972dd0a7957abc" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>Label</name></member>
       <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a40d13fb4b546b97391efb5ae45b621b7" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>label</name></member>
-      <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a3d54019f2c7f46783061412232d0d222" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>LabelMargin</name></member>
+      <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a2408c739aab8767dd0972dd0a7957abc" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>Label</name></member>
       <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1acad3d234805ceee99eeced499fe8cd80" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>LabelProperty</name></member>
       <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1ad8f23ebbd9a85097d01940f80d372217" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>LabelWidth</name></member>
       <member refid="d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button_1a26e3853965c8e0f9bc10fe25d4ad54f2" prot="package" virt="non-virtual"><scope>WpfHandler::UI::Controls::FlatButton</scope><name>main</name></member>

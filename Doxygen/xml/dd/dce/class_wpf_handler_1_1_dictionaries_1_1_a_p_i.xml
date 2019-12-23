@@ -2,21 +2,6 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i" kind="class" language="C#" prot="public">
     <compoundname>WpfHandler::Dictionaries::API</compoundname>
-      <sectiondef kind="event">
-      <memberdef kind="event" id="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1a1d26084678af47b609f686215de5a171" prot="public" static="yes" add="no" remove="no" raise="no">
-        <type>Action</type>
-        <definition>Action WpfHandler.Dictionaries.API.LanguagesDictionariesUpdated</definition>
-        <argsstring></argsstring>
-        <name>LanguagesDictionariesUpdated</name>
-        <briefdescription>
-<para>Event that will occure when languages dictionary will be loaded. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" line="35" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      </sectiondef>
       <sectiondef kind="public-static-func">
       <memberdef kind="function" id="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1ac9aafbe351f06f0c20de39508d3e8852" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -41,43 +26,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" line="45" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" bodystart="45" bodyend="57"/>
-      </memberdef>
-      <memberdef kind="function" id="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1ad5c415a6377e871aff2020a9489815ff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>static void WpfHandler.Dictionaries.API.LoadXAML_LangDicts</definition>
-        <argsstring>(CultureInfo targetCulture, CultureInfo secondaryCulture)</argsstring>
-        <name>LoadXAML_LangDicts</name>
-        <param>
-          <type>CultureInfo</type>
-          <declname>targetCulture</declname>
-        </param>
-        <param>
-          <type>CultureInfo</type>
-          <declname>secondaryCulture</declname>
-        </param>
-        <briefdescription>
-<para>Scaning for language dictionaries in XAML files, and load them to Merged dictionaries. Load relative to new culture if found. Leave previous culture if not. </para>        </briefdescription>
-        <detaileddescription>
-<para>Require files format: *.lang.CULTURE_CODE.xaml, where culture code equal current translation of the app. Example: plugin.feed.lang.en-US.xaml </para><para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>targetCulture</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Culture that will be serched with hightest priority.</para></parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>secondaryCulture</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Culture that will be prefured in case of target not implemented. If also not implemented than will be used first entry.</para></parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" line="68" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" bodystart="68" bodyend="87"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" line="40" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" bodystart="40" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1a0de06b29ec542383dbdc470bb9a7c98e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -97,21 +46,21 @@
           <declname>subCodes</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Updating dictionaries loaded for certain group. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>directory</parametername>
 </parameternamelist>
 <parameterdescription>
-</parameterdescription>
+<para>The directory where stored dicrionaties. Using SearchOption.AllDirectories suring search. </para></parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>groupCode</parametername>
 </parameternamelist>
 <parameterdescription>
-</parameterdescription>
+<para>The unique code of the dictioaries group. Allows to determite the diferend purposes of the plugins like localization (lang), <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> themes (theme), etc.</para></parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
@@ -124,17 +73,41 @@
 Exmples: Culture code for localization plugins. Theme code for design plugins. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" line="102" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" bodystart="102" bodyend="241"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" line="73" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" bodystart="73" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1a2611ee5407fe0a4cde1a2490a54d759e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void WpfHandler.Dictionaries.API.ClearDictionariesGroup</definition>
+        <argsstring>(string groupCode)</argsstring>
+        <name>ClearDictionariesGroup</name>
+        <param>
+          <type>string</type>
+          <declname>groupCode</declname>
+        </param>
+        <briefdescription>
+<para>Clearing all loaded dictionaries from certain group. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>groupCode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unique code of the dictioaries group. Allows to determite the diferend purposes of the plugins like localization (lang), <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref> themes (theme), etc.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" line="223" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" bodystart="223" bodyend="251"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Class that provide methods for controll WPF application localization. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" line="31" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" bodystart="30" bodyend="242"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" line="31" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/Dictionaries/API.cs" bodystart="30" bodyend="252"/>
     <listofallmembers>
-      <member refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1a1d26084678af47b609f686215de5a171" prot="public" virt="non-virtual"><scope>WpfHandler::Dictionaries::API</scope><name>LanguagesDictionariesUpdated</name></member>
-      <member refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1ad5c415a6377e871aff2020a9489815ff" prot="public" virt="non-virtual"><scope>WpfHandler::Dictionaries::API</scope><name>LoadXAML_LangDicts</name></member>
+      <member refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1a2611ee5407fe0a4cde1a2490a54d759e" prot="public" virt="non-virtual"><scope>WpfHandler::Dictionaries::API</scope><name>ClearDictionariesGroup</name></member>
       <member refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1ac9aafbe351f06f0c20de39508d3e8852" prot="public" virt="non-virtual"><scope>WpfHandler::Dictionaries::API</scope><name>LoadXAML_Thems</name></member>
       <member refid="dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i_1a0de06b29ec542383dbdc470bb9a7c98e" prot="public" virt="non-virtual"><scope>WpfHandler::Dictionaries::API</scope><name>UpdateDictionariesGroup</name></member>
     </listofallmembers>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_cbfd1c85263d753e064d2e75c3cca2b3" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Release</compoundname>
+    <innerfile refid="d3/d10/_controls_01using_2_text_filed_controls_2obj_2_release_2_app_8g_8cs">App.g.cs</innerfile>
+    <innerfile refid="d7/df7/_controls_01using_2_text_filed_controls_2obj_2_release_2_app_8g_8i_8cs">App.g.i.cs</innerfile>
+    <innerfile refid="d6/d24/_controls_01using_2_text_filed_controls_2obj_2_release_2_main_window_8g_8cs">MainWindow.g.cs</innerfile>
+    <innerfile refid="d4/db9/_controls_01using_2_text_filed_controls_2obj_2_release_2_main_window_8g_8i_8cs">MainWindow.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TextFiledControls/obj/Release/"/>
+  </compounddef>
+</doxygen>

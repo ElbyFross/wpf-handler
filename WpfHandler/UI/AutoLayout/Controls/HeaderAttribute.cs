@@ -23,7 +23,7 @@ using WpfHandler.UI.AutoLayout;
 namespace WpfHandler.UI.AutoLayout.Controls
 {
     /// <summary>
-    /// Added header block element to UI.
+    /// Adds a header block element to the layout.
     /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class HeaderAttribute : GUIContentAttribute, IGUIElement

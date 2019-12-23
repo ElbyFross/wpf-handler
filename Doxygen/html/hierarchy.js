@@ -4,8 +4,8 @@ var hierarchy =
     [ "AnimationTimeline", null, [
       [ "WpfHandler.UI.Animations.GridLengthAnimation", "de/d1a/class_wpf_handler_1_1_u_i_1_1_animations_1_1_grid_length_animation.html", null ]
     ] ],
-    [ "WpfHandler.Plugins.API", "d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i.html", null ],
     [ "WpfHandler.Dictionaries.API", "dd/dce/class_wpf_handler_1_1_dictionaries_1_1_a_p_i.html", null ],
+    [ "WpfHandler.Plugins.API", "d2/d9a/class_wpf_handler_1_1_plugins_1_1_a_p_i.html", null ],
     [ "ApplicationSettingsBase", null, [
       [ "WpfHandler.Properties.Settings", "d7/d4f/class_wpf_handler_1_1_properties_1_1_settings.html", null ]
     ] ],
@@ -21,12 +21,12 @@ var hierarchy =
       [ "WpfHandler.UI.AutoLayout.Configuration.BeginVerticalGroupAttribute", "de/db7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_begin_vertical_group_attribute.html", null ],
       [ "WpfHandler.UI.AutoLayout.Configuration.CustomControlAttribute", "d1/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_custom_control_attribute.html", null ],
       [ "WpfHandler.UI.AutoLayout.Configuration.EndGroupAttribute", "db/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_end_group_attribute.html", null ],
-      [ "WpfHandler.UI.AutoLayout.Configuration.EnumerableCompatibleAttribute", "d2/dc3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enumerable_compatible_attribute.html", null ],
-      [ "WpfHandler.UI.AutoLayout.Configuration.EnumsCompatibleAttribute", "dd/db3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enums_compatible_attribute.html", null ],
       [ "WpfHandler.UI.AutoLayout.Configuration.HideInInspectorAttribute", "d4/d91/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_hide_in_inspector_attribute.html", null ],
       [ "WpfHandler.UI.AutoLayout.Configuration.OrderAttribute", "df/d2b/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_order_attribute.html", null ],
-      [ "WpfHandler.UI.AutoLayout.Configuration.TypesCompatibleAttribute", "dc/d7e/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_types_compatible_attribute.html", null ],
       [ "WpfHandler.UI.AutoLayout.Controls.SpaceAttribute", "d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute.html", null ],
+      [ "WpfHandler.UI.AutoLayout.Markups.EnumsCompatibleAttribute", "d0/de7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_enums_compatible_attribute.html", null ],
+      [ "WpfHandler.UI.AutoLayout.Markups.IListCompatibleAttribute", "d3/df0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_i_list_compatible_attribute.html", null ],
+      [ "WpfHandler.UI.AutoLayout.Markups.TypesCompatibleAttribute", "d1/d67/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_types_compatible_attribute.html", null ],
       [ "WpfHandler.UI.AutoLayout.Options.AutoCollectionPropertiesAttribute", "d7/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_auto_collection_properties_attribute.html", null ],
       [ "WpfHandler.UI.AutoLayout.Options.FontSizeAttribute", "d8/d18/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_font_size_attribute.html", null ],
       [ "WpfHandler.UI.AutoLayout.Options.HorizontalAlignAttribute", "da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute.html", null ],
@@ -70,6 +70,8 @@ var hierarchy =
       [ "WpfHandler.UI.Controls.CatalogButton", "d0/d24/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_button.html", null ],
       [ "WpfHandler.UI.Controls.CatalogButton", "d0/d24/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_button.html", null ],
       [ "WpfHandler.UI.Controls.CatalogButton", "d0/d24/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_button.html", null ],
+      [ "WpfHandler.UI.Controls.CatalogView", "dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view.html", null ],
+      [ "WpfHandler.UI.Controls.CatalogView", "dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view.html", null ],
       [ "WpfHandler.UI.Controls.FlatButton", "d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button.html", null ],
       [ "WpfHandler.UI.Controls.FlatButton", "d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button.html", null ],
       [ "WpfHandler.UI.Controls.FlatButton", "d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button.html", null ],
@@ -121,6 +123,7 @@ var hierarchy =
     ] ],
     [ "WpfHandler.UI.AutoLayout.IGUIElement", "da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element.html", [
       [ "WpfHandler.UI.AutoLayout.Controls.HeaderAttribute", "d1/d32/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_header_attribute.html", null ],
+      [ "WpfHandler.UI.AutoLayout.Controls.LabelAttribute", "d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute.html", null ],
       [ "WpfHandler.UI.AutoLayout.Controls.SpaceAttribute", "d8/df1/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_space_attribute.html", null ],
       [ "WpfHandler.UI.AutoLayout.IGUIField", "d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field.html", [
         [ "WpfHandler.UI.Controls.CollectionControl", "d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control.html", [
@@ -145,10 +148,10 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "WpfHandler.UI.AutoLayout.Configuration.IGUIElementBindingAttribute", "d6/d41/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_i_g_u_i_element_binding_attribute.html", [
-      [ "WpfHandler.UI.AutoLayout.Configuration.EnumerableCompatibleAttribute", "d2/dc3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enumerable_compatible_attribute.html", null ],
-      [ "WpfHandler.UI.AutoLayout.Configuration.EnumsCompatibleAttribute", "dd/db3/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_enums_compatible_attribute.html", null ],
-      [ "WpfHandler.UI.AutoLayout.Configuration.TypesCompatibleAttribute", "dc/d7e/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_types_compatible_attribute.html", null ]
+    [ "WpfHandler.UI.AutoLayout.Markups.IGUIElementBindingAttribute", "d4/d32/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_i_g_u_i_element_binding_attribute.html", [
+      [ "WpfHandler.UI.AutoLayout.Markups.EnumsCompatibleAttribute", "d0/de7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_enums_compatible_attribute.html", null ],
+      [ "WpfHandler.UI.AutoLayout.Markups.IListCompatibleAttribute", "d3/df0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_i_list_compatible_attribute.html", null ],
+      [ "WpfHandler.UI.AutoLayout.Markups.TypesCompatibleAttribute", "d1/d67/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_types_compatible_attribute.html", null ]
     ] ],
     [ "WpfHandler.UI.AutoLayout.IGUILayoutOption", "d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option.html", [
       [ "WpfHandler.UI.AutoLayout.Options.AutoCollectionPropertiesAttribute", "d7/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_auto_collection_properties_attribute.html", null ],
@@ -205,11 +208,12 @@ var hierarchy =
     ] ],
     [ "WpfHandler.Plugins.IPlugin", "d2/d34/interface_wpf_handler_1_1_plugins_1_1_i_plugin.html", null ],
     [ "WpfHandler.Plugins.IPluginSettings", "d4/d78/interface_wpf_handler_1_1_plugins_1_1_i_plugin_settings.html", null ],
-    [ "WpfHandler.UI.Controls.ISelectableControl", "d9/de5/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_selectable_control.html", [
+    [ "WpfHandler.UI.Controls.IToggleControl", "d5/db4/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_toggle_control.html", [
       [ "WpfHandler.UI.Controls.SelectableFlatButton", "d3/d10/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_flat_button.html", null ]
     ] ],
     [ "WpfHandler.UI.AutoLayout.LayoutHandler", "df/d97/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_handler.html", null ],
     [ "WpfHandler.UI.AutoLayout.LayoutLayer", "db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer.html", null ],
+    [ "WpfHandler.UI.LocalizationHandler", "d6/de1/class_wpf_handler_1_1_u_i_1_1_localization_handler.html", null ],
     [ "WpfHandler.UI.AutoLayout.UIDescriptor.MembersHandler", "d2/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor_1_1_members_handler.html", null ],
     [ "WpfHandler.Plugins.MenuItemMeta", "d7/d16/class_wpf_handler_1_1_plugins_1_1_menu_item_meta.html", null ],
     [ "WpfHandler.UI.Animations.ObjectAnimation", "d6/d01/class_wpf_handler_1_1_u_i_1_1_animations_1_1_object_animation.html", null ],
@@ -218,7 +222,12 @@ var hierarchy =
       [ "WpfHandler.UI.Effects.RectBlurEffect", "dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect.html", null ]
     ] ],
     [ "WpfHandler.UI.Animations.ThinknessAnimation", "d7/ded/class_wpf_handler_1_1_u_i_1_1_animations_1_1_thinkness_animation.html", null ],
-    [ "WpfHandler.UI.AutoLayout.UIDescriptor", "d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor.html", null ],
+    [ "WpfHandler.UI.AutoLayout.UIDescriptor", "d1/d72/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_u_i_descriptor.html", [
+      [ "WpfHandler.UI.AutoLayout.FormDescriptor", "d9/d42/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor.html", [
+        [ "WpfHandler.UI.Controls.Logon.AdvancedRegistrationPanelDescriptor", "dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor.html", null ],
+        [ "WpfHandler.UI.Controls.Logon.DefaultRegistrationPanelDescriptor", "d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor.html", null ]
+      ] ]
+    ] ],
     [ "UserControl", null, [
       [ "WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw", "d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw.html", null ],
       [ "WpfHandler.UI.AutoLayout.Controls.AutoLayoutVeiw", "d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw.html", null ],
@@ -229,6 +238,9 @@ var hierarchy =
       [ "WpfHandler.UI.Controls.CatalogButton", "d0/d24/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_button.html", null ],
       [ "WpfHandler.UI.Controls.CatalogButton", "d0/d24/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_button.html", null ],
       [ "WpfHandler.UI.Controls.CatalogButton", "d0/d24/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_button.html", null ],
+      [ "WpfHandler.UI.Controls.CatalogView", "dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view.html", null ],
+      [ "WpfHandler.UI.Controls.CatalogView", "dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view.html", null ],
+      [ "WpfHandler.UI.Controls.CatalogView", "dc/db6/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_view.html", null ],
       [ "WpfHandler.UI.Controls.CollectionControl", "d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control.html", null ],
       [ "WpfHandler.UI.Controls.FlatButton", "d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button.html", null ],
       [ "WpfHandler.UI.Controls.FlatButton", "d0/d83/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_button.html", null ],
@@ -284,5 +296,6 @@ var hierarchy =
     ] ],
     [ "UserControl", null, [
       [ "WpfHandler.UI.Controls.CatalogButton", "d0/d24/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_button.html", null ]
-    ] ]
+    ] ],
+    [ "WpfHandler.UI.AutoLayout.FormDescriptor.ValidationReport", "d7/d44/struct_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_form_descriptor_1_1_validation_report.html", null ]
 ];

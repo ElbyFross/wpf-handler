@@ -19,7 +19,7 @@ using WpfHandler.UI.AutoLayout;
 namespace WpfHandler.UI.AutoLayout.Options
 {
     /// <summary>
-    /// Define custom style from resources that would be applied to the GUI element.
+    /// Defines a custom style from resources that will applied to the GUI element.
     /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class StyleAttribute : Attribute, IGUILayoutOption

@@ -25,7 +25,8 @@ using WpfHandler.UI.Controls;
 namespace WpfHandler.UI.AutoLayout.Options
 {
     /// <summary>
-    /// Allow to define <see cref="AutoCollection"/> properties.
+    /// Redefines default properties values for a <see cref="AutoCollection"/> control.
+    /// Not affect any other controls.
     /// </summary>
     public class AutoCollectionPropertiesAttribute : Attribute, IGUILayoutOption
     {
@@ -60,6 +61,10 @@ namespace WpfHandler.UI.AutoLayout.Options
         /// </summary>
         public bool RemoveButtonVisibile { get; set; } = true;
 
+        /// <summary>
+        /// Is the drag of elements allowed.
+        /// </summary>
+        public bool DragAllowed { get; set; } = true;
 
         /// <summary>
         /// Applying collection properties to the elements if it's inheirted from the <see cref="AutoCollection"/>
@@ -70,11 +75,8 @@ namespace WpfHandler.UI.AutoLayout.Options
         /// </remarks>
         public void ApplyLayoutOption(FrameworkElement element)
         {
-            // Trying to get the collection object.
-            var collection = element as AutoCollection;
-
             // Drop id not supported.
-            if (collection == null) return;
+            if (!(element is AutoCollection collection)) return;
 
             // Configurating the control buttons.
             collection.AddButtonVisibile = AddButtonVisibile;
@@ -114,6 +116,9 @@ namespace WpfHandler.UI.AutoLayout.Options
             {
                 collection.CornerRadius = CornerRadius;
             }
+
+            // Applying the drag option.
+            collection.DragAllowed = DragAllowed;
         }
     }
 }

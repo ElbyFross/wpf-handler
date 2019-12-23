@@ -30,6 +30,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfHandler.UI.AutoLayout;
 using WpfHandler.UI.AutoLayout.Configuration;
+using WpfHandler.UI.AutoLayout.Markups;
 
 namespace WpfHandler.UI.Controls
 {
@@ -68,17 +69,20 @@ namespace WpfHandler.UI.Controls
 
         /// <summary>
         /// Return an array with values of the binded tnum type.
+        /// Using the <see cref="FieldsContent"/> in case if <see cref="BindedEnumType"/> is null.
         /// </summary>
         public Array Values
         {
             get
             {
+                if (BindedEnumType == null) return FieldsContent;
+
                 if (_Values == null)
                 {
                     #region Validating source
                     // Check if the source exist.
-                    if (BindedEnumType == null)
-                        throw new NullReferenceException("You must call OnGUI before calling that Values property.");
+                    //if (BindedEnumType == null)
+                    //    throw new NullReferenceException("You must call OnGUI before calling that Values property.");
 
                     // Check if the source is enum.
                     if (!BindedEnumType.IsEnum)
@@ -159,6 +163,7 @@ namespace WpfHandler.UI.Controls
 
                 // Set value but apply at least 25 point to input field.
                 float appliedSize = (float)Math.Min(LastLabelWidth, ActualWidth - 25);
+                appliedSize = Math.Max(0, appliedSize);
 
                 // Appling value.
                 SetValue(LabelWidthProperty, appliedSize);              
@@ -227,6 +232,14 @@ namespace WpfHandler.UI.Controls
                     ValueChanged?.Invoke(this);
                 }
             }
+        }
+
+        /// <summary>
+        /// Returns current selected UI element.
+        /// </summary>
+        public FrameworkElement SelectedElement
+        {
+            get { return Elements[Index]; }
         }
 
         /// <summary>
@@ -454,15 +467,17 @@ namespace WpfHandler.UI.Controls
                 // Instiniating new UI element.
                 var element = new SelectableFlatButton()
                 {
-                    Group = groupToken,
-                    ClickCallback = delegate (object sender)
-                    {
-                        // Updating current selected index.
-                        _Index = localIndexBufer;
+                    Group = groupToken
+                };
 
-                        // Inform subscribers.
-                        ValueChanged?.Invoke(this);
-                    }
+                // Handling the button click.
+                element.Click += delegate (object sender, RoutedEventArgs args)
+                {
+                    // Updating current selected index.
+                    _Index = localIndexBufer;
+
+                    // Inform subscribers.
+                    ValueChanged?.Invoke(this);
                 };
 
                 // Adding to the collection.
@@ -507,15 +522,17 @@ namespace WpfHandler.UI.Controls
                 // Instiniating new UI element.
                 var element = new SelectableFlatButton()
                 {
-                    Group = groupToken,
-                    ClickCallback = delegate (object sender)
-                    {
-                        // Updating current selected index.
-                        _Index = localIndexBufer;
+                    Group = groupToken
+                };
 
-                        // Inform subscribers.
-                        ValueChanged?.Invoke(this);
-                    }
+                // Handling the button click.
+                element.Click += delegate (object sender, RoutedEventArgs args)
+                {
+                    // Updating current selected index.
+                    _Index = localIndexBufer;
+
+                    // Inform subscribers.
+                    ValueChanged?.Invoke(this);
                 };
 
                 // Adding to the collection.

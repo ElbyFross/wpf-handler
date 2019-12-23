@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_b24e9ec4409b1294fdecbaeabc31080a" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/Examples/Controls using/AutoCollectionExample</compoundname>
+    <innerdir refid="dir_36ab1a2d0fa326b9a5959bbc71a61344">D:/Work/GitHub/wpf-handler/Examples/Controls using/AutoCollectionExample/obj</innerdir>
+    <innerdir refid="dir_b1b2f3f0981e069d6d75b0894de4e3c2">D:/Work/GitHub/wpf-handler/Examples/Controls using/AutoCollectionExample/Properties</innerdir>
+    <innerfile refid="d1/d72/_controls_01using_2_auto_collection_example_2_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="d6/d62/_controls_01using_2_auto_collection_example_2_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/AutoCollectionExample/"/>
+  </compounddef>
+</doxygen>

@@ -72,78 +72,78 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="422">
+      <node id="455">
         <label>WpfHandler.UI.AutoLayout.Options.HeightAttribute</label>
         <link refid="d8/d4b/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_height_attribute"/>
-        <childnode refid="419" relation="public-inheritance">
+        <childnode refid="452" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="421">
+      <node id="454">
         <label>ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="420">
+      <node id="453">
         <label>Attribute</label>
       </node>
-      <node id="419">
+      <node id="452">
         <label>WpfHandler.UI.Controls.LayoutSizeAttribute</label>
         <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
-        <childnode refid="420" relation="public-inheritance">
+        <childnode refid="453" relation="public-inheritance">
         </childnode>
-        <childnode refid="421" relation="public-inheritance">
+        <childnode refid="454" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="425">
+      <node id="458">
         <label>WpfHandler.UI.AutoLayout.Options.MaxWidthAttribute</label>
         <link refid="de/d94/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_width_attribute"/>
-        <childnode refid="419" relation="public-inheritance">
+        <childnode refid="452" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="426">
+      <node id="459">
         <label>WpfHandler.UI.AutoLayout.Options.MinHeightAttribute</label>
         <link refid="d7/dff/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_min_height_attribute"/>
-        <childnode refid="419" relation="public-inheritance">
+        <childnode refid="452" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="424">
+      <node id="457">
         <label>WpfHandler.UI.AutoLayout.Options.MaxHeightAttribute</label>
         <link refid="d8/d31/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_max_height_attribute"/>
-        <childnode refid="419" relation="public-inheritance">
+        <childnode refid="452" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="427">
+      <node id="460">
         <label>WpfHandler.UI.AutoLayout.Options.MinWidthAttribute</label>
         <link refid="d2/d96/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_min_width_attribute"/>
-        <childnode refid="419" relation="public-inheritance">
+        <childnode refid="452" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="428">
+      <node id="461">
         <label>WpfHandler.UI.AutoLayout.Options.WidthAttribute</label>
         <link refid="d6/d44/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_width_attribute"/>
-        <childnode refid="419" relation="public-inheritance">
+        <childnode refid="452" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="423">
+      <node id="456">
         <label>WpfHandler.UI.AutoLayout.Options.LabelWidthAttribute</label>
         <link refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_label_width_attribute"/>
-        <childnode refid="419" relation="public-inheritance">
+        <childnode refid="452" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="431">
+      <node id="464">
         <label>ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="430">
+      <node id="463">
         <label>Attribute</label>
       </node>
-      <node id="429">
+      <node id="462">
         <label>WpfHandler.UI.Controls.LayoutSizeAttribute</label>
         <link refid="d7/d51/class_wpf_handler_1_1_u_i_1_1_controls_1_1_layout_size_attribute"/>
-        <childnode refid="430" relation="public-inheritance">
+        <childnode refid="463" relation="public-inheritance">
         </childnode>
-        <childnode refid="431" relation="public-inheritance">
+        <childnode refid="464" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

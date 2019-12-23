@@ -30,6 +30,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfHandler.UI.AutoLayout;
+using WpfHandler.UI.AutoLayout.Markups;
 
 namespace WpfHandler.UI.AutoLayout
 {
@@ -58,13 +59,13 @@ namespace WpfHandler.UI.AutoLayout
         private static readonly Hashtable EnumControlsBindings = new Hashtable();
 
         /// <summary>
-        /// Contains declared bindings from types to default layout controls comaptible with an enumerable types.
+        /// Contains declared bindings from types to default layout controls comaptible with an IList types.
         /// </summary>
         /// <remarks>
         /// Key - The source <see cref="Type"/>
         /// Value - The binded <see cref="Type"/> of the <see cref="IGUIField"/> suitable for displaing a source data.
         /// </remarks>
-        private static readonly Hashtable EnumerableControlsBindings = new Hashtable();
+        private static readonly Hashtable ListControlsBindings = new Hashtable();
 
         /// <summary>
         /// Table that contains all registread value update callbacks.
@@ -91,7 +92,7 @@ namespace WpfHandler.UI.AutoLayout
             // Drop ivalid elelment.
             if(!(parent is Grid grid))
             {
-                throw new InvalidCastException("Parent mast be `" + typeof(Grid).FullName + "`.");
+                throw new InvalidCastException("Parent must be `" + typeof(Grid).FullName + "`.");
             }
 
             // Add new column fo element.
@@ -101,7 +102,7 @@ namespace WpfHandler.UI.AutoLayout
                 // Auto - if width of element less or equals 0, or is NaN.
                 // Shared element's width in case if defined.
                 Width = double.IsNaN(element.Width) || element.Width <= 0 ? 
-                        GridLength.Auto : new GridLength(element.Width)
+                        new GridLength(1, GridUnitType.Star) : new GridLength(element.Width)
             });
 
             // Add element as child.
@@ -138,6 +139,18 @@ namespace WpfHandler.UI.AutoLayout
         public static void RegistrateField(this IGUIField control, UIDescriptor descriptor, MemberInfo member, object defautltValue)
         {
             #region Declaretion & Initializtion
+            // Preventing the null field.
+            if(defautltValue == null)
+            {
+                try
+                {
+                    // Instiniating the default value.
+                    defautltValue = Activator.CreateInstance(
+                        UIDescriptor.MembersHandler.GetSpecifiedMemberType(member));
+                }
+                catch { };
+            }
+
             // Apply default value.
             control.Value = defautltValue;
 
@@ -216,7 +229,7 @@ namespace WpfHandler.UI.AutoLayout
             // Clearing current meta.
             DefaultControlsBindings.Clear();
             EnumControlsBindings.Clear();
-            EnumerableControlsBindings.Clear();
+            ListControlsBindings.Clear();
 
             // Load query's processors.
             Assembly[] assemblies = AppDomain.CurrentDomain.GetAssemblies();
@@ -241,20 +254,20 @@ namespace WpfHandler.UI.AutoLayout
 
                     // Looking for complex elements.
                     // Is element defied to the displaing enums.
-                    var isEnum = type.GetCustomAttribute<Configuration.EnumsCompatibleAttribute>();
+                    var isEnum = type.GetCustomAttribute<EnumsCompatibleAttribute>();
                     if (isEnum != null) targetTable = EnumControlsBindings;
                     else
                     {
                         // Is focused on work with collections.
-                        var isEnumerable = type.GetCustomAttribute<Configuration.EnumerableCompatibleAttribute>();
-                        if (isEnumerable != null) targetTable = EnumerableControlsBindings;
+                        var isList = type.GetCustomAttribute<IListCompatibleAttribute>();
+                        if (isList != null) targetTable = ListControlsBindings;
                         else targetTable = DefaultControlsBindings; // Not specified.
                     }
                     #endregion
 
                     #region Performing all existing descriptors.
                     // Trying to find descriptor to types binding.
-                    var bindingDescriptors = type.GetCustomAttributes<Configuration.TypesCompatibleAttribute>();
+                    var bindingDescriptors = type.GetCustomAttributes<TypesCompatibleAttribute>();
                     
                     // Perform binding for all descriptors.
                     foreach (var desc in bindingDescriptors)
@@ -340,7 +353,7 @@ namespace WpfHandler.UI.AutoLayout
                     do
                     {
                         // Check if requested type has binding into enumerable collections compatibe table.
-                        if (EnumerableControlsBindings[genericType] is Type collectionControl)
+                        if (ListControlsBindings[genericType] is Type collectionControl)
                         {
                             // Return binded control if found.
                             return collectionControl;

@@ -28,13 +28,14 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Reflection;
 using WpfHandler.UI.AutoLayout;
+using WpfHandler.UI.AutoLayout.Markups;
 
 namespace WpfHandler.UI.Controls
 {
     /// <summary>
     /// Interaction logic for Header.xaml
     /// </summary>
-    [AutoLayout.Configuration.TypesCompatibleAttribute(typeof(bool))]
+    [TypesCompatibleAttribute(typeof(bool))]
     public partial class Header : UserControl, IGUIField, ILabel
     {
         #region Dependency properties
@@ -231,7 +232,7 @@ namespace WpfHandler.UI.Controls
             else
             {
                 // Connecting to the wrong member. Must connect tot ht virtual bool one.
-                // Sing up this control on desctiptor events.
+                // Sign up this control on desctiptor events.
                 desc.ControlSignUp(this, member, true);
             }
             #endregion

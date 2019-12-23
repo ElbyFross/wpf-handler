@@ -5,6 +5,7 @@
     <innerdir refid="dir_6f369bcdc09b922b3cbd50c7f5cc6beb">D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/Logon</innerdir>
     <innerfile refid="d0/dbc/_auto_collection_8xaml_8cs">AutoCollection.xaml.cs</innerfile>
     <innerfile refid="dd/d6d/_catalog_button_8xaml_8cs">CatalogButton.xaml.cs</innerfile>
+    <innerfile refid="d1/d24/_catalog_view_8xaml_8cs">CatalogView.xaml.cs</innerfile>
     <innerfile refid="df/d2a/_collection_control_8cs">CollectionControl.cs</innerfile>
     <innerfile refid="d4/da9/_flat_button_8xaml_8cs">FlatButton.xaml.cs</innerfile>
     <innerfile refid="da/db6/_flat_password_box_8xaml_8cs">FlatPasswordBox.xaml.cs</innerfile>
@@ -14,7 +15,7 @@
     <innerfile refid="d4/d42/_i_label_8cs">ILabel.cs</innerfile>
     <innerfile refid="d9/d9e/_i_layout_orientation_8cs">ILayoutOrientation.cs</innerfile>
     <innerfile refid="d7/d1b/_i_layout_size_8cs">ILayoutSize.cs</innerfile>
-    <innerfile refid="d3/ded/_i_selectable_control_8cs">ISelectableControl.cs</innerfile>
+    <innerfile refid="d7/d6b/_i_toggle_control_8cs">IToggleControl.cs</innerfile>
     <innerfile refid="d4/d9d/_layout_size_attribute_8cs">LayoutSizeAttribute.cs</innerfile>
     <innerfile refid="dc/d66/_lock_screen_8xaml_8cs">LockScreen.xaml.cs</innerfile>
     <innerfile refid="db/de6/_selectable_flat_button_8xaml_8cs">SelectableFlatButton.xaml.cs</innerfile>

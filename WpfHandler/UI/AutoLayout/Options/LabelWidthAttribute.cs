@@ -24,7 +24,7 @@ using WpfHandler.UI.Controls;
 namespace WpfHandler.UI.AutoLayout.Options
 {
     /// <summary>
-    /// Redefines label width for the ILable objects.
+    /// Redefines a label's width for the ILable objects.
     /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property |
                     AttributeTargets.Class | AttributeTargets.Struct,

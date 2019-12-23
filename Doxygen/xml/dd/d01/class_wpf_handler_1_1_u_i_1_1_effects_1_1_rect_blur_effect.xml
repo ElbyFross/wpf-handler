@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="25" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="25" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="28" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1a87d037dc36ff72dbeff3fce597331eb0" prot="private" static="yes" mutable="no">
         <type>readonly PropertyInfo</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="26" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="26" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="29" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="29" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-attrib">
@@ -41,12 +41,12 @@
         <initializer>=
             ShaderEffect.RegisterPixelShaderSamplerProperty(&quot;Input&quot;, typeof(<ref refid="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect" kindref="compound">RectBlurEffect</ref>), 0)</initializer>
         <briefdescription>
-        </briefdescription>
+<para>Bind the Input property from the shader to the code behind. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="28" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="28" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="34" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1aaf9984410cb78206a63a2d56dff7b04d" prot="public" static="yes" mutable="no">
         <type>readonly DependencyProperty</type>
@@ -57,12 +57,12 @@
             DependencyProperty.Register(&quot;UpLeftCorner&quot;, typeof(Point), typeof(<ref refid="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect" kindref="compound">RectBlurEffect</ref>),
                 new UIPropertyMetadata(new Point(0, 0), PixelShaderConstantCallback(0)))</initializer>
         <briefdescription>
-        </briefdescription>
+<para>Bind the UpLeftCornerProperty property from the shader to the code behind. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="31" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="31" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="40" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1aeba11586a03ba6bed31ff15d5ba3009f" prot="public" static="yes" mutable="no">
         <type>readonly DependencyProperty</type>
@@ -73,12 +73,12 @@
             DependencyProperty.Register(&quot;LowRightCorner&quot;, typeof(Point), typeof(<ref refid="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect" kindref="compound">RectBlurEffect</ref>),
                 new UIPropertyMetadata(new Point(1, 1), PixelShaderConstantCallback(1)))</initializer>
         <briefdescription>
-        </briefdescription>
+<para>Bind the LowRightCornerProperty property from the shader to the code behind. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="35" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="35" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="47" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1a140029690d8c4a72b4b9a003e7a4643c" prot="public" static="yes" mutable="no">
         <type>readonly DependencyProperty</type>
@@ -86,15 +86,15 @@
         <argsstring></argsstring>
         <name>FrameworkElementProperty</name>
         <initializer>=
-            DependencyProperty.Register(&quot;FrameworkElement&quot;, typeof(FrameworkElement), typeof(<ref refid="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect" kindref="compound">RectBlurEffect</ref>),
+            DependencyProperty.Register(&quot;FrameworkElement&quot;, typeof(<ref refid="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1a16fb661a9b5f9f2c7a59eba0bca46198" kindref="member">FrameworkElement</ref>), typeof(<ref refid="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect" kindref="compound">RectBlurEffect</ref>),
             new PropertyMetadata(null, OnFrameworkElementPropertyChanged))</initializer>
         <briefdescription>
-        </briefdescription>
+<para>Bind the FrameworkElementProperty property from the shader to the code behind. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="39" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="39" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="54" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="54" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="property">
@@ -104,12 +104,12 @@
         <argsstring></argsstring>
         <name>Input</name>
         <briefdescription>
-        </briefdescription>
+<para>Defines input brush. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="77" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="78" bodyend="81"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="104" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="105" bodyend="108"/>
       </memberdef>
       <memberdef kind="property" id="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1a7a8ff424f98797d72aa8acea72f45b89" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>Point</type>
@@ -117,12 +117,12 @@
         <argsstring></argsstring>
         <name>UpLeftCorner</name>
         <briefdescription>
-        </briefdescription>
+<para>Defines up left corner of the rect. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="83" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="84" bodyend="87"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="113" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="114" bodyend="117"/>
       </memberdef>
       <memberdef kind="property" id="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1ab96f47536e8fe94f27c24072d1f462a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>Point</type>
@@ -130,12 +130,12 @@
         <argsstring></argsstring>
         <name>LowRightCorner</name>
         <briefdescription>
-        </briefdescription>
+<para>Defines low right corner of the rect. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="89" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="90" bodyend="93"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="122" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="123" bodyend="126"/>
       </memberdef>
       <memberdef kind="property" id="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1a16fb661a9b5f9f2c7a59eba0bca46198" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>FrameworkElement</type>
@@ -143,12 +143,12 @@
         <argsstring></argsstring>
         <name>FrameworkElement</name>
         <briefdescription>
-        </briefdescription>
+<para>Defines binded framwork element. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="95" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="96" bodyend="99"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="131" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="132" bodyend="135"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-func">
@@ -158,12 +158,12 @@
         <argsstring>()</argsstring>
         <name>RectBlurEffect</name>
         <briefdescription>
-        </briefdescription>
+<para>Getting the shader executable source. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="43" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="43" bodyend="49"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="61" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="61" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1a194ef2243516f91ffb4ecb0419fdb634" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -184,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="141" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="141" bodyend="156"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="177" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="177" bodyend="192"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -198,12 +198,21 @@
           <declname>relativeFile</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>MakePackUri is a utility method for computing a pack uri for the given resource. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>relativeFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path to the file.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>URI to the file.</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="53" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="53" bodyend="66"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="75" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="75" bodyend="88"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -213,17 +222,17 @@
         <argsstring>()</argsstring>
         <name>RectBlurEffect</name>
         <briefdescription>
-        </briefdescription>
+<para>Instiniate the shader effect. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="69" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="69" bodyend="75"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="93" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="93" bodyend="99"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
       <memberdef kind="function" id="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1aa60afd4d911b66bd47a6bbd8df16689a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>FrameworkElement</type>
+        <type><ref refid="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1a16fb661a9b5f9f2c7a59eba0bca46198" kindref="member">FrameworkElement</ref></type>
         <definition>FrameworkElement WpfHandler.UI.Effects.RectBlurEffect.GetInheritanceContext</definition>
         <argsstring>()</argsstring>
         <name>GetInheritanceContext</name>
@@ -233,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="101" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="101" bodyend="104"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="137" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="137" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1a15ff012163044834cdf634a2282ab6ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -254,36 +263,36 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="106" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="106" bodyend="139"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="142" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="142" bodyend="175"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Effect that allow to blur elements under the rect. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="530">
+      <node id="565">
         <label>ShaderEffect</label>
       </node>
-      <node id="529">
+      <node id="564">
         <label>WpfHandler.UI.Effects.RectBlurEffect</label>
         <link refid="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect"/>
-        <childnode refid="530" relation="public-inheritance">
+        <childnode refid="565" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="532">
+      <node id="567">
         <label>ShaderEffect</label>
       </node>
-      <node id="531">
+      <node id="566">
         <label>WpfHandler.UI.Effects.RectBlurEffect</label>
         <link refid="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect"/>
-        <childnode refid="532" relation="public-inheritance">
+        <childnode refid="567" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="24" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="23" bodyend="157"/>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" line="27" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Effects/RectBlurEffect.cs" bodystart="26" bodyend="193"/>
     <listofallmembers>
       <member refid="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1a16fb661a9b5f9f2c7a59eba0bca46198" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Effects::RectBlurEffect</scope><name>FrameworkElement</name></member>
       <member refid="dd/d01/class_wpf_handler_1_1_u_i_1_1_effects_1_1_rect_blur_effect_1a140029690d8c4a72b4b9a003e7a4643c" prot="public" virt="non-virtual"><scope>WpfHandler::UI::Effects::RectBlurEffect</scope><name>FrameworkElementProperty</name></member>

@@ -28,13 +28,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfHandler.UI.AutoLayout;
+using WpfHandler.UI.AutoLayout.Markups;
 
 namespace WpfHandler.UI.Controls
 {
     /// <summary>
     /// Interaction logic for FlatTextBox.xaml
     /// </summary>
-    [AutoLayout.Configuration.TypesCompatible(typeof(int), typeof(float), typeof(double), typeof(string))]
+    [TypesCompatible(typeof(int), typeof(float), typeof(double), typeof(string))]
     public partial class FlatTextBox : TextFieldControl, IGUIField
     {
         #region Properties
@@ -159,6 +160,13 @@ namespace WpfHandler.UI.Controls
 
                 case TextFieldControl.Mode.Float:
                     if (!float.TryParse(Text, out _))
+                    {
+                        Text = textPropertyBufer;
+                    }
+                    break;
+
+                case TextFieldControl.Mode.Double:
+                    if (!double.TryParse(Text, out _))
                     {
                         Text = textPropertyBufer;
                     }

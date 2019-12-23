@@ -74,73 +74,73 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Close the last started layout group. </para>    </briefdescription>
+<para>Close a last started layout group. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="118">
+      <node id="141">
         <label>Attribute</label>
       </node>
-      <node id="119">
+      <node id="142">
         <label>ILayerEndAttribute</label>
         <link refid="df/d01/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_end_attribute"/>
-        <childnode refid="120" relation="public-inheritance">
+        <childnode refid="143" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="120">
+      <node id="143">
         <label>ILayerAttribute</label>
         <link refid="d7/d70/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_attribute"/>
-        <childnode refid="121" relation="public-inheritance">
+        <childnode refid="144" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="117">
+      <node id="140">
         <label>WpfHandler.UI.AutoLayout.Configuration.EndGroupAttribute</label>
         <link refid="db/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_end_group_attribute"/>
-        <childnode refid="118" relation="public-inheritance">
+        <childnode refid="141" relation="public-inheritance">
         </childnode>
-        <childnode refid="119" relation="public-inheritance">
+        <childnode refid="142" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="121">
+      <node id="144">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="123">
+      <node id="146">
         <label>Attribute</label>
       </node>
-      <node id="124">
+      <node id="147">
         <label>ILayerEndAttribute</label>
         <link refid="df/d01/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_end_attribute"/>
-        <childnode refid="125" relation="public-inheritance">
+        <childnode refid="148" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="125">
+      <node id="148">
         <label>ILayerAttribute</label>
         <link refid="d7/d70/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_attribute"/>
-        <childnode refid="126" relation="public-inheritance">
+        <childnode refid="149" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="127">
+      <node id="150">
         <label>WpfHandler.UI.AutoLayout.LayoutLayer</label>
         <link refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer"/>
-        <childnode refid="127" relation="usage">
+        <childnode refid="150" relation="usage">
           <edgelabel>_Parent</edgelabel>
         </childnode>
       </node>
-      <node id="122">
+      <node id="145">
         <label>WpfHandler.UI.AutoLayout.Configuration.EndGroupAttribute</label>
         <link refid="db/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_end_group_attribute"/>
-        <childnode refid="123" relation="public-inheritance">
+        <childnode refid="146" relation="public-inheritance">
         </childnode>
-        <childnode refid="124" relation="public-inheritance">
+        <childnode refid="147" relation="public-inheritance">
         </childnode>
-        <childnode refid="127" relation="usage">
+        <childnode refid="150" relation="usage">
           <edgelabel>_Layer</edgelabel>
         </childnode>
       </node>
-      <node id="126">
+      <node id="149">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>

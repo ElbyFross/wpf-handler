@@ -50,52 +50,52 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Define GUI element&apos;s text font size. </para>    </briefdescription>
+<para>Defines a text font size for the control. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="212">
+      <node id="229">
         <label>ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="210">
+      <node id="227">
         <label>Attribute</label>
       </node>
-      <node id="211">
+      <node id="228">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
-      <node id="209">
+      <node id="226">
         <label>WpfHandler.UI.AutoLayout.Options.FontSizeAttribute</label>
         <link refid="d8/d18/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_font_size_attribute"/>
-        <childnode refid="210" relation="public-inheritance">
+        <childnode refid="227" relation="public-inheritance">
         </childnode>
-        <childnode refid="211" relation="public-inheritance">
+        <childnode refid="228" relation="public-inheritance">
         </childnode>
-        <childnode refid="212" relation="public-inheritance">
+        <childnode refid="229" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="216">
+      <node id="233">
         <label>ILayoutSize</label>
         <link refid="d6/d39/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_layout_size"/>
       </node>
-      <node id="214">
+      <node id="231">
         <label>Attribute</label>
       </node>
-      <node id="215">
+      <node id="232">
         <label>IGUILayoutOption</label>
         <link refid="d0/dfe/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_layout_option"/>
       </node>
-      <node id="213">
+      <node id="230">
         <label>WpfHandler.UI.AutoLayout.Options.FontSizeAttribute</label>
         <link refid="d8/d18/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_font_size_attribute"/>
-        <childnode refid="214" relation="public-inheritance">
+        <childnode refid="231" relation="public-inheritance">
         </childnode>
-        <childnode refid="215" relation="public-inheritance">
+        <childnode refid="232" relation="public-inheritance">
         </childnode>
-        <childnode refid="216" relation="public-inheritance">
+        <childnode refid="233" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

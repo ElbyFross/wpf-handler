@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d6/db2/class_auto_collection_example_1_1_app" kind="class" language="C#" prot="public">
+    <compoundname>AutoCollectionExample::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/db2/class_auto_collection_example_1_1_app_1a788b140a3c86ac368ec8b465eca859fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutoCollectionExample.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/AutoCollectionExample/obj/Debug/App.g.cs" line="48" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/AutoCollectionExample/obj/Debug/App.g.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/db2/class_auto_collection_example_1_1_app_1a788b140a3c86ac368ec8b465eca859fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutoCollectionExample.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/AutoCollectionExample/obj/Debug/App.g.i.cs" line="48" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/AutoCollectionExample/obj/Debug/App.g.i.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/db2/class_auto_collection_example_1_1_app_1ae565896f9eb648caf5bb2ae232382442" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AutoCollectionExample.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/AutoCollectionExample/obj/Debug/App.g.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/AutoCollectionExample/obj/Debug/App.g.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/db2/class_auto_collection_example_1_1_app_1ae565896f9eb648caf5bb2ae232382442" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AutoCollectionExample.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/AutoCollectionExample/obj/Debug/App.g.i.cs" line="63" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/AutoCollectionExample/obj/Debug/App.g.i.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for App.xaml </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="d6/db2/class_auto_collection_example_1_1_app" kindref="compound">App</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="49">
+        <label>System::Windows::Application</label>
+      </node>
+      <node id="50">
+        <label>Application</label>
+      </node>
+      <node id="48">
+        <label>AutoCollectionExample.App</label>
+        <link refid="d6/db2/class_auto_collection_example_1_1_app"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="52">
+        <label>System::Windows::Application</label>
+      </node>
+      <node id="53">
+        <label>Application</label>
+      </node>
+      <node id="51">
+        <label>AutoCollectionExample.App</label>
+        <link refid="d6/db2/class_auto_collection_example_1_1_app"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/AutoCollectionExample/App.xaml.cs" line="15" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Controls using/AutoCollectionExample/App.xaml.cs" bodystart="14" bodyend="16"/>
+    <listofallmembers>
+      <member refid="d6/db2/class_auto_collection_example_1_1_app_1a788b140a3c86ac368ec8b465eca859fa" prot="public" virt="non-virtual"><scope>AutoCollectionExample::App</scope><name>InitializeComponent</name></member>
+      <member refid="d6/db2/class_auto_collection_example_1_1_app_1a788b140a3c86ac368ec8b465eca859fa" prot="public" virt="non-virtual"><scope>AutoCollectionExample::App</scope><name>InitializeComponent</name></member>
+      <member refid="d6/db2/class_auto_collection_example_1_1_app_1ae565896f9eb648caf5bb2ae232382442" prot="public" virt="non-virtual"><scope>AutoCollectionExample::App</scope><name>Main</name></member>
+      <member refid="d6/db2/class_auto_collection_example_1_1_app_1ae565896f9eb648caf5bb2ae232382442" prot="public" virt="non-virtual"><scope>AutoCollectionExample::App</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

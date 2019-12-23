@@ -23,7 +23,7 @@ using WpfHandler.UI.AutoLayout;
 namespace WpfHandler.UI.AutoLayout.Configuration
 {
     /// <summary>
-    /// Close the last started layout group.
+    /// Close a last started layout group.
     /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class EndGroupAttribute : Attribute, ILayerEndAttribute

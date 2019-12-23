@@ -24,7 +24,7 @@ using WpfHandler.UI.Controls;
 namespace WpfHandler.UI.AutoLayout.Options
 {
     /// <summary>
-    /// Define orentation of the UI element.
+    /// Defines an orentation of the UI element.
     /// </summary>
     public class OrientationAttribute : Attribute, IGUILayoutOption
     {

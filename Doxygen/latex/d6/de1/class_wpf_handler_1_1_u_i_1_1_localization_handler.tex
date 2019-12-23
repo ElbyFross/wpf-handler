@@ -1,0 +1,112 @@
+\hypertarget{class_wpf_handler_1_1_u_i_1_1_localization_handler}{}\section{Wpf\+Handler.\+U\+I.\+Localization\+Handler Class Reference}
+\label{class_wpf_handler_1_1_u_i_1_1_localization_handler}\index{Wpf\+Handler.\+U\+I.\+Localization\+Handler@{Wpf\+Handler.\+U\+I.\+Localization\+Handler}}
+
+
+Provides the A\+PI to managing the localization system.  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_localization_handler_a619201b52fa3480e4bdb75231ebdd666}{Bind\+To\+Label}} (this \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_g_u_i_content}{G\+U\+I\+Content}} content, \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label}{I\+Label}} label)
+\begin{DoxyCompactList}\small\item\em Connecting instiniated control with label to localization updates. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_localization_handler_a45a3a6581764446bf67a622119d9b89d}{Bind\+To\+Label}} (this \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_g_u_i_content}{G\+U\+I\+Content}} content, \mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label}{I\+Label}} label, Member\+Info source\+Member)
+\begin{DoxyCompactList}\small\item\em Connecting instiniated control with label to localization updates. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_localization_handler_a8159e214fd8c0709f32b5b1b3cf25020}{Load\+Dictionaries}} (params Culture\+Info\mbox{[}$\,$\mbox{]} cultures\+Order)
+\begin{DoxyCompactList}\small\item\em Scaning for language dictionaries in X\+A\+ML files stored by \mbox{\hyperlink{class_wpf_handler_1_1_plugins_1_1_constants_a96f55ef86fe92a534722f4788340f390}{Plugins.\+Constants.\+P\+L\+U\+G\+I\+N\+S\+\_\+\+D\+IR}}, and loading them to Merged dictionaries. Loading only relative to the new culture if found. Leave a previous culture if not. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_localization_handler_a5703a690547759b592d63b5f5b2f489e}{Unload\+Dictionaries}} ()
+\begin{DoxyCompactList}\small\item\em Unloading all current loaded localization dictionaries. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+static Action \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_localization_handler_afa222c8723785db39e70a9694e2e5398}{Languages\+Dictionaries\+Updated}}
+\begin{DoxyCompactList}\small\item\em Event that occurs when languages dictionary will be loaded. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides the A\+PI to managing the localization system. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_localization_handler_a619201b52fa3480e4bdb75231ebdd666}\label{class_wpf_handler_1_1_u_i_1_1_localization_handler_a619201b52fa3480e4bdb75231ebdd666}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler}!Bind\+To\+Label@{Bind\+To\+Label}}
+\index{Bind\+To\+Label@{Bind\+To\+Label}!Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler}}
+\subsubsection{\texorpdfstring{Bind\+To\+Label()}{BindToLabel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static void Wpf\+Handler.\+U\+I.\+Localization\+Handler.\+Bind\+To\+Label (\begin{DoxyParamCaption}\item[{this \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_g_u_i_content}{G\+U\+I\+Content}}}]{content,  }\item[{\mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label}{I\+Label}}}]{label }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Connecting instiniated control with label to localization updates. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em content} & Content handler that will manage the label.\\
+\hline
+{\em label} & \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}} control that has a label to content bridging.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_localization_handler_a45a3a6581764446bf67a622119d9b89d}\label{class_wpf_handler_1_1_u_i_1_1_localization_handler_a45a3a6581764446bf67a622119d9b89d}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler}!Bind\+To\+Label@{Bind\+To\+Label}}
+\index{Bind\+To\+Label@{Bind\+To\+Label}!Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler}}
+\subsubsection{\texorpdfstring{Bind\+To\+Label()}{BindToLabel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static void Wpf\+Handler.\+U\+I.\+Localization\+Handler.\+Bind\+To\+Label (\begin{DoxyParamCaption}\item[{this \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_g_u_i_content}{G\+U\+I\+Content}}}]{content,  }\item[{\mbox{\hyperlink{interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label}{I\+Label}}}]{label,  }\item[{Member\+Info}]{source\+Member }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Connecting instiniated control with label to localization updates. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em content} & Content handler that will manage the label.\\
+\hline
+{\em label} & \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}} control that has a label to content bridging.\\
+\hline
+{\em source\+Member} & Member infor that could be used as source for auto generated title in case if \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_g_u_i_content}{G\+U\+I\+Content}} not provided in resources.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_localization_handler_a8159e214fd8c0709f32b5b1b3cf25020}\label{class_wpf_handler_1_1_u_i_1_1_localization_handler_a8159e214fd8c0709f32b5b1b3cf25020}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler}!Load\+Dictionaries@{Load\+Dictionaries}}
+\index{Load\+Dictionaries@{Load\+Dictionaries}!Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler}}
+\subsubsection{\texorpdfstring{Load\+Dictionaries()}{LoadDictionaries()}}
+{\footnotesize\ttfamily static void Wpf\+Handler.\+U\+I.\+Localization\+Handler.\+Load\+Dictionaries (\begin{DoxyParamCaption}\item[{params Culture\+Info \mbox{[}$\,$\mbox{]}}]{cultures\+Order }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Scaning for language dictionaries in X\+A\+ML files stored by \mbox{\hyperlink{class_wpf_handler_1_1_plugins_1_1_constants_a96f55ef86fe92a534722f4788340f390}{Plugins.\+Constants.\+P\+L\+U\+G\+I\+N\+S\+\_\+\+D\+IR}}, and loading them to Merged dictionaries. Loading only relative to the new culture if found. Leave a previous culture if not. 
+
+Require files format\+: $\ast$.lang.\+C\+U\+L\+T\+U\+R\+E\+\_\+\+C\+O\+D\+E.\+xaml, where culture code equal current translation of the app. Example\+: plugin.\+feed.\+lang.\+en-\/\+U\+S.\+xaml 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cultures\+Order} & Array of cultures reuested to loading in the priiority oreder.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_localization_handler_a5703a690547759b592d63b5f5b2f489e}\label{class_wpf_handler_1_1_u_i_1_1_localization_handler_a5703a690547759b592d63b5f5b2f489e}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler}!Unload\+Dictionaries@{Unload\+Dictionaries}}
+\index{Unload\+Dictionaries@{Unload\+Dictionaries}!Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler}}
+\subsubsection{\texorpdfstring{Unload\+Dictionaries()}{UnloadDictionaries()}}
+{\footnotesize\ttfamily static void Wpf\+Handler.\+U\+I.\+Localization\+Handler.\+Unload\+Dictionaries (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Unloading all current loaded localization dictionaries. 
+
+
+
+\subsection{Event Documentation}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_localization_handler_afa222c8723785db39e70a9694e2e5398}\label{class_wpf_handler_1_1_u_i_1_1_localization_handler_afa222c8723785db39e70a9694e2e5398}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler}!Languages\+Dictionaries\+Updated@{Languages\+Dictionaries\+Updated}}
+\index{Languages\+Dictionaries\+Updated@{Languages\+Dictionaries\+Updated}!Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler@{Wpf\+Handler\+::\+U\+I\+::\+Localization\+Handler}}
+\subsubsection{\texorpdfstring{Languages\+Dictionaries\+Updated}{LanguagesDictionariesUpdated}}
+{\footnotesize\ttfamily Action Wpf\+Handler.\+U\+I.\+Localization\+Handler.\+Languages\+Dictionaries\+Updated\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Event that occurs when languages dictionary will be loaded. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Work/\+Git\+Hub/wpf-\/handler/\+Wpf\+Handler/\+U\+I/Localization\+Handler.\+cs\end{DoxyCompactItemize}

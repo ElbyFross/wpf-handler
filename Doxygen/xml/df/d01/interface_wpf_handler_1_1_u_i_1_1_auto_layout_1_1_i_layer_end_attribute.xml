@@ -9,44 +9,44 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="369">
+      <node id="394">
         <label>ILayerAttribute</label>
         <link refid="d7/d70/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_attribute"/>
-        <childnode refid="370" relation="public-inheritance">
+        <childnode refid="395" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="371">
+      <node id="396">
         <label>WpfHandler.UI.AutoLayout.Configuration.EndGroupAttribute</label>
         <link refid="db/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_end_group_attribute"/>
-        <childnode refid="368" relation="public-inheritance">
+        <childnode refid="393" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="370">
+      <node id="395">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="368">
+      <node id="393">
         <label>WpfHandler.UI.AutoLayout.ILayerEndAttribute</label>
         <link refid="df/d01/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_end_attribute"/>
-        <childnode refid="369" relation="public-inheritance">
+        <childnode refid="394" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="373">
+      <node id="398">
         <label>ILayerAttribute</label>
         <link refid="d7/d70/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_attribute"/>
-        <childnode refid="374" relation="public-inheritance">
+        <childnode refid="399" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="374">
+      <node id="399">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="372">
+      <node id="397">
         <label>WpfHandler.UI.AutoLayout.ILayerEndAttribute</label>
         <link refid="df/d01/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_end_attribute"/>
-        <childnode refid="373" relation="public-inheritance">
+        <childnode refid="398" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

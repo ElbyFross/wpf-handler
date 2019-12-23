@@ -9,7 +9,7 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>checksum<sp/>&quot;..\..\..\..\..\UI\Controls\Logon\LogonPanel.xaml&quot;<sp/>&quot;{8829d00f-11b8-4213-878b-770e8597ac16}&quot;<sp/>&quot;F053720CA238FCD0766C05DE9E7F752EB8C31AEAB02E8ACC4DD40F57E122580E&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>checksum<sp/>&quot;..\..\..\..\..\UI\Controls\Logon\LogonPanel.xaml&quot;<sp/>&quot;{8829d00f-11b8-4213-878b-770e8597ac16}&quot;<sp/>&quot;AF346937E3C213BD7E69E7EB92ED5A16764B71F558DF9167381C7F9991E257DB&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;auto-generated&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>This<sp/>code<sp/>was<sp/>generated<sp/>by<sp/>a<sp/>tool.</highlight><highlight class="normal"></highlight></codeline>

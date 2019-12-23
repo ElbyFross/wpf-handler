@@ -2,6 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dc/d3c/namespace_wpf_handler_1_1_u_i_1_1_controls_1_1_logon" kind="namespace" language="C#">
     <compoundname>WpfHandler::UI::Controls::Logon</compoundname>
+    <innerclass refid="dd/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_advanced_registration_panel_descriptor" prot="public">WpfHandler::UI::Controls::Logon::AdvancedRegistrationPanelDescriptor</innerclass>
+    <innerclass refid="d4/daf/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_default_registration_panel_descriptor" prot="public">WpfHandler::UI::Controls::Logon::DefaultRegistrationPanelDescriptor</innerclass>
     <innerclass refid="d2/d77/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_panel" prot="public">WpfHandler::UI::Controls::Logon::LogonPanel</innerclass>
     <innerclass refid="d4/d25/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_logon_screen" prot="public">WpfHandler::UI::Controls::Logon::LogonScreen</innerclass>
     <innerclass refid="d8/d0b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_logon_1_1_registration_panel" prot="public">WpfHandler::UI::Controls::Logon::RegistrationPanel</innerclass>

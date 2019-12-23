@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="67" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="67" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="68" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="68" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="event">
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="45" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="45" bodyend="-1"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="46" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="46" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="property">
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="50" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="50" bodyend="50"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="51" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="51" bodyend="51"/>
       </memberdef>
       <memberdef kind="property" id="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box_1ad48de4d845ba738fe0797c3b63625def" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>override FrameworkElement</type>
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="55" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="55" bodyend="55"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="56" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="56" bodyend="56"/>
       </memberdef>
       <memberdef kind="property" id="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box_1a07aad5ace193dc2627b760a7657c170b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>override FrameworkElement</type>
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="60" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="60" bodyend="60"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="61" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="61" bodyend="61"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -227,7 +227,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="74" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="74" bodyend="94"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="75" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="75" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box_1a9885e81c438caeec3448c99796503a71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -264,7 +264,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="102" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="102" bodyend="120"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="103" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="103" bodyend="121"/>
       </memberdef>
       <memberdef kind="function" id="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box_1af96bd0b4244565a1ca7a137d56296cda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>override void</type>
@@ -278,7 +278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="125" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="125" bodyend="132"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="126" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="126" bodyend="133"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="package-func">
@@ -486,7 +486,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="141" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="141" bodyend="173"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="142" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="142" bodyend="181"/>
       </memberdef>
       <memberdef kind="function" id="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box_1a1d1990512144a1856294f2cef369d7b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -522,7 +522,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="180" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="180" bodyend="199"/>
+        <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" line="188" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/Controls/FlatTextBox.xaml.cs" bodystart="188" bodyend="207"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -530,98 +530,98 @@
     <detaileddescription>
 <para>Interaction logic for FlatTextBox.xaml </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="177">
+      <node id="194">
         <label>IGUIField</label>
         <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
-        <childnode refid="178" relation="public-inheritance">
+        <childnode refid="195" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="173">
+      <node id="190">
         <label>WpfHandler.UI.Controls.FlatTextBox</label>
         <link refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box"/>
-        <childnode refid="174" relation="public-inheritance">
+        <childnode refid="191" relation="public-inheritance">
         </childnode>
-        <childnode refid="177" relation="public-inheritance">
+        <childnode refid="194" relation="public-inheritance">
         </childnode>
-        <childnode refid="179" relation="public-inheritance">
+        <childnode refid="196" relation="public-inheritance">
         </childnode>
-        <childnode refid="180" relation="public-inheritance">
+        <childnode refid="197" relation="public-inheritance">
         </childnode>
-        <childnode refid="179" relation="public-inheritance">
+        <childnode refid="196" relation="public-inheritance">
         </childnode>
-        <childnode refid="180" relation="public-inheritance">
+        <childnode refid="197" relation="public-inheritance">
         </childnode>
-        <childnode refid="179" relation="public-inheritance">
+        <childnode refid="196" relation="public-inheritance">
         </childnode>
-        <childnode refid="180" relation="public-inheritance">
+        <childnode refid="197" relation="public-inheritance">
         </childnode>
-        <childnode refid="179" relation="public-inheritance">
+        <childnode refid="196" relation="public-inheritance">
         </childnode>
-        <childnode refid="180" relation="public-inheritance">
+        <childnode refid="197" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="178">
+      <node id="195">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="179">
+      <node id="196">
         <label>WpfHandler::UI::Controls::TextFieldControl</label>
         <link refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control"/>
-        <childnode refid="175" relation="public-inheritance">
+        <childnode refid="192" relation="public-inheritance">
         </childnode>
-        <childnode refid="176" relation="public-inheritance">
+        <childnode refid="193" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="180">
+      <node id="197">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="175">
+      <node id="192">
         <label>UserControl</label>
       </node>
-      <node id="176">
+      <node id="193">
         <label>ILabel</label>
         <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
       </node>
-      <node id="174">
+      <node id="191">
         <label>TextFieldControl</label>
         <link refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control"/>
-        <childnode refid="175" relation="public-inheritance">
+        <childnode refid="192" relation="public-inheritance">
         </childnode>
-        <childnode refid="176" relation="public-inheritance">
+        <childnode refid="193" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="185">
+      <node id="202">
         <label>IGUIField</label>
         <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
-        <childnode refid="186" relation="public-inheritance">
+        <childnode refid="203" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="181">
+      <node id="198">
         <label>WpfHandler.UI.Controls.FlatTextBox</label>
         <link refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box"/>
-        <childnode refid="182" relation="public-inheritance">
+        <childnode refid="199" relation="public-inheritance">
         </childnode>
-        <childnode refid="185" relation="public-inheritance">
+        <childnode refid="202" relation="public-inheritance">
         </childnode>
-        <childnode refid="187" relation="public-inheritance">
+        <childnode refid="204" relation="public-inheritance">
         </childnode>
-        <childnode refid="188" relation="public-inheritance">
+        <childnode refid="205" relation="public-inheritance">
         </childnode>
-        <childnode refid="187" relation="public-inheritance">
+        <childnode refid="204" relation="public-inheritance">
         </childnode>
-        <childnode refid="188" relation="public-inheritance">
+        <childnode refid="205" relation="public-inheritance">
         </childnode>
-        <childnode refid="187" relation="public-inheritance">
+        <childnode refid="204" relation="public-inheritance">
         </childnode>
-        <childnode refid="188" relation="public-inheritance">
+        <childnode refid="205" relation="public-inheritance">
         </childnode>
-        <childnode refid="187" relation="public-inheritance">
+        <childnode refid="204" relation="public-inheritance">
         </childnode>
-        <childnode refid="188" relation="public-inheritance">
+        <childnode refid="205" relation="public-inheritance">
         </childnode>
-        <childnode refid="189" relation="usage">
+        <childnode refid="206" relation="usage">
           <edgelabel>textBox</edgelabel>
           <edgelabel>labelElement</edgelabel>
           <edgelabel>spliter</edgelabel>
@@ -629,37 +629,37 @@
           <edgelabel>flatButton</edgelabel>
         </childnode>
       </node>
-      <node id="186">
+      <node id="203">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="189">
+      <node id="206">
         <label>System</label>
       </node>
-      <node id="187">
+      <node id="204">
         <label>WpfHandler::UI::Controls::TextFieldControl</label>
         <link refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control"/>
-        <childnode refid="183" relation="public-inheritance">
+        <childnode refid="200" relation="public-inheritance">
         </childnode>
-        <childnode refid="184" relation="public-inheritance">
+        <childnode refid="201" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="188">
+      <node id="205">
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
-      <node id="183">
+      <node id="200">
         <label>UserControl</label>
       </node>
-      <node id="184">
+      <node id="201">
         <label>ILabel</label>
         <link refid="dd/de2/interface_wpf_handler_1_1_u_i_1_1_controls_1_1_i_label"/>
       </node>
-      <node id="182">
+      <node id="199">
         <label>TextFieldControl</label>
         <link refid="d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control"/>
-        <childnode refid="183" relation="public-inheritance">
+        <childnode refid="200" relation="public-inheritance">
         </childnode>
-        <childnode refid="184" relation="public-inheritance">
+        <childnode refid="201" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

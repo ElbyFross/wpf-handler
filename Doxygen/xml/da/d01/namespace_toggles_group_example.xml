@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="da/d01/namespace_toggles_group_example" kind="namespace" language="C#">
+    <compoundname>TogglesGroupExample</compoundname>
+    <innerclass refid="d2/d95/class_toggles_group_example_1_1_app" prot="public">TogglesGroupExample::App</innerclass>
+    <innerclass refid="d3/da7/class_toggles_group_example_1_1_example_descripotor" prot="public">TogglesGroupExample::ExampleDescripotor</innerclass>
+    <innerclass refid="d6/d5a/class_toggles_group_example_1_1_main_window" prot="public">TogglesGroupExample::MainWindow</innerclass>
+    <innernamespace refid="d7/d7d/namespace_toggles_group_example_1_1_properties">TogglesGroupExample::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/TogglesGroupExample/App.xaml.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

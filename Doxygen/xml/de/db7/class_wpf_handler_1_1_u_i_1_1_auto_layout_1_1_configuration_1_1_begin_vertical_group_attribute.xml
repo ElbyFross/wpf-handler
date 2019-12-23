@@ -74,73 +74,73 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Starting vertical layout group. Will wait EndVertical to over the last begined group. </para>    </briefdescription>
+<para>Starting a vertical layout group. Will wait <ref refid="db/de0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_end_group_attribute" kindref="compound">EndGroupAttribute</ref> to over the last begined group. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="61">
+      <node id="68">
         <label>Attribute</label>
       </node>
-      <node id="63">
+      <node id="70">
         <label>ILayerAttribute</label>
         <link refid="d7/d70/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_attribute"/>
-        <childnode refid="64" relation="public-inheritance">
+        <childnode refid="71" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="62">
+      <node id="69">
         <label>ILayerBeginAttribute</label>
         <link refid="d5/d7b/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_begin_attribute"/>
-        <childnode refid="63" relation="public-inheritance">
+        <childnode refid="70" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="64">
+      <node id="71">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="60">
+      <node id="67">
         <label>WpfHandler.UI.AutoLayout.Configuration.BeginVerticalGroupAttribute</label>
         <link refid="de/db7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_begin_vertical_group_attribute"/>
-        <childnode refid="61" relation="public-inheritance">
+        <childnode refid="68" relation="public-inheritance">
         </childnode>
-        <childnode refid="62" relation="public-inheritance">
+        <childnode refid="69" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="66">
+      <node id="73">
         <label>Attribute</label>
       </node>
-      <node id="68">
+      <node id="75">
         <label>ILayerAttribute</label>
         <link refid="d7/d70/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_attribute"/>
-        <childnode refid="69" relation="public-inheritance">
+        <childnode refid="76" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="67">
+      <node id="74">
         <label>ILayerBeginAttribute</label>
         <link refid="d5/d7b/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_layer_begin_attribute"/>
-        <childnode refid="68" relation="public-inheritance">
+        <childnode refid="75" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="70">
+      <node id="77">
         <label>WpfHandler.UI.AutoLayout.LayoutLayer</label>
         <link refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer"/>
-        <childnode refid="70" relation="usage">
+        <childnode refid="77" relation="usage">
           <edgelabel>_Parent</edgelabel>
         </childnode>
       </node>
-      <node id="69">
+      <node id="76">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="65">
+      <node id="72">
         <label>WpfHandler.UI.AutoLayout.Configuration.BeginVerticalGroupAttribute</label>
         <link refid="de/db7/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_configuration_1_1_begin_vertical_group_attribute"/>
-        <childnode refid="66" relation="public-inheritance">
+        <childnode refid="73" relation="public-inheritance">
         </childnode>
-        <childnode refid="67" relation="public-inheritance">
+        <childnode refid="74" relation="public-inheritance">
         </childnode>
-        <childnode refid="70" relation="usage">
+        <childnode refid="77" relation="usage">
           <edgelabel>_Layer</edgelabel>
         </childnode>
       </node>

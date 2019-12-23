@@ -56,69 +56,69 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="318">
+      <node id="343">
         <label>WpfHandler.UI.Controls.FlatPasswordBox</label>
         <link refid="d3/d1f/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_password_box"/>
-        <childnode refid="314" relation="public-inheritance">
+        <childnode refid="339" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="321">
+      <node id="346">
         <label>WpfHandler.UI.Controls.Header</label>
         <link refid="d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header"/>
-        <childnode refid="314" relation="public-inheritance">
+        <childnode refid="339" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="320">
+      <node id="345">
         <label>WpfHandler.UI.Controls.FlatTogglesGroup</label>
         <link refid="dd/dae/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_toggles_group"/>
-        <childnode refid="314" relation="public-inheritance">
+        <childnode refid="339" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="316">
+      <node id="341">
         <label>WpfHandler.UI.Controls.CollectionControl</label>
         <link refid="d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control"/>
-        <childnode refid="314" relation="public-inheritance">
+        <childnode refid="339" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="314">
+      <node id="339">
         <label>WpfHandler.UI.AutoLayout.IGUIField</label>
         <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
-        <childnode refid="315" relation="public-inheritance">
+        <childnode refid="340" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="319">
+      <node id="344">
         <label>WpfHandler.UI.Controls.FlatTextBox</label>
         <link refid="d3/d32/class_wpf_handler_1_1_u_i_1_1_controls_1_1_flat_text_box"/>
-        <childnode refid="314" relation="public-inheritance">
+        <childnode refid="339" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="317">
+      <node id="342">
         <label>WpfHandler.UI.Controls.AutoCollection</label>
         <link refid="d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection"/>
-        <childnode refid="316" relation="public-inheritance">
+        <childnode refid="341" relation="public-inheritance">
         </childnode>
-        <childnode refid="316" relation="public-inheritance">
+        <childnode refid="341" relation="public-inheritance">
         </childnode>
-        <childnode refid="316" relation="public-inheritance">
+        <childnode refid="341" relation="public-inheritance">
         </childnode>
-        <childnode refid="316" relation="public-inheritance">
+        <childnode refid="341" relation="public-inheritance">
         </childnode>
-        <childnode refid="316" relation="public-inheritance">
+        <childnode refid="341" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="315">
+      <node id="340">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="322">
+      <node id="347">
         <label>WpfHandler.UI.AutoLayout.IGUIField</label>
         <link refid="d3/dac/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_field"/>
-        <childnode refid="323" relation="public-inheritance">
+        <childnode refid="348" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="323">
+      <node id="348">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>

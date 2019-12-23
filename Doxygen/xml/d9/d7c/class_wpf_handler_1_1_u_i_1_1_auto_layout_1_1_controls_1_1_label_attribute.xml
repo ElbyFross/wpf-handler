@@ -3,6 +3,7 @@
   <compounddef id="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute" kind="class" language="C#" prot="public">
     <compoundname>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</compoundname>
     <basecompoundref refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute" prot="public" virt="non-virtual">WpfHandler.UI.GUIContentAttribute</basecompoundref>
+    <basecompoundref refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.IGUIElement</basecompoundref>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1af52c1a4d96d9ab17f369a6c6423f58fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -170,11 +171,12 @@
         </inbodydescription>
         <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" line="49" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Controls/LabelAttribute.cs" bodystart="49" bodyend="54"/>
       </memberdef>
-      <memberdef kind="function" id="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a86bdaaa6d028cbdee8536138e63d0159" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a70b5b79babc0fd60171ba08231ce2a5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
-        <definition>virtual void WpfHandler.UI.AutoLayout.Controls.LabelAttribute.OnGUI</definition>
+        <definition>virtual void WpfHandler.UI.AutoLayout.Controls.LabelAttribute.OnLayout</definition>
         <argsstring>(ref LayoutLayer layer, params object[] args)</argsstring>
-        <name>OnGUI</name>
+        <name>OnLayout</name>
+        <reimplements refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element_1a0ff16956f8e8187d51e1b36b6b9f894e">OnLayout</reimplements>
         <param>
           <type>ref <ref refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer" kindref="compound">LayoutLayer</ref></type>
           <declname>layer</declname>
@@ -226,48 +228,60 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="400">
+      <node id="431">
         <label>Attribute</label>
       </node>
-      <node id="397">
+      <node id="428">
         <label>WpfHandler.UI.AutoLayout.Controls.LabelAttribute</label>
         <link refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute"/>
-        <childnode refid="398" relation="public-inheritance">
+        <childnode refid="429" relation="public-inheritance">
+        </childnode>
+        <childnode refid="432" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="398">
+      <node id="432">
+        <label>IGUIElement</label>
+        <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
+      </node>
+      <node id="429">
         <label>GUIContentAttribute</label>
         <link refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute"/>
-        <childnode refid="399" relation="public-inheritance">
+        <childnode refid="430" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="399">
+      <node id="430">
         <label>LocalizableContentAttribute</label>
         <link refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute"/>
-        <childnode refid="400" relation="public-inheritance">
+        <childnode refid="431" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="404">
+      <node id="436">
         <label>Attribute</label>
       </node>
-      <node id="401">
+      <node id="433">
         <label>WpfHandler.UI.AutoLayout.Controls.LabelAttribute</label>
         <link refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute"/>
-        <childnode refid="402" relation="public-inheritance">
+        <childnode refid="434" relation="public-inheritance">
+        </childnode>
+        <childnode refid="437" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="402">
+      <node id="437">
+        <label>IGUIElement</label>
+        <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
+      </node>
+      <node id="434">
         <label>GUIContentAttribute</label>
         <link refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute"/>
-        <childnode refid="403" relation="public-inheritance">
+        <childnode refid="435" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="403">
+      <node id="435">
         <label>LocalizableContentAttribute</label>
         <link refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute"/>
-        <childnode refid="404" relation="public-inheritance">
+        <childnode refid="436" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
@@ -285,7 +299,7 @@
       <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1abfc5ebdb910630168db5f10fdbb713b7" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>LabelAttribute</name></member>
       <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a3ed5f61dc946ffd5ce385cc4ef60362d" prot="public" virt="virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>LanguagesDictionariesUpdated</name></member>
       <member refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute_1abba3c6699a97cc5a417eebc194979acd" prot="public" virt="non-virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>LocalizableContentAttribute</name></member>
-      <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a86bdaaa6d028cbdee8536138e63d0159" prot="public" virt="virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>OnGUI</name></member>
+      <member refid="d9/d7c/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_label_attribute_1a70b5b79babc0fd60171ba08231ce2a5c" prot="public" virt="virtual"><scope>WpfHandler::UI::AutoLayout::Controls::LabelAttribute</scope><name>OnLayout</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

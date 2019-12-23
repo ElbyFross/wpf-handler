@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_33394ee7cbf6fae42c298876bf35571b" kind="dir">
+    <compoundname>D:/Work/GitHub/wpf-handler/Examples/Controls using/LogonScreen/obj/Debug</compoundname>
+    <innerfile refid="d3/dcd/_controls_01using_2_logon_screen_2obj_2_debug_2_app_8g_8cs">App.g.cs</innerfile>
+    <innerfile refid="dd/d4f/_controls_01using_2_logon_screen_2obj_2_debug_2_app_8g_8i_8cs">App.g.i.cs</innerfile>
+    <innerfile refid="d1/dd6/_controls_01using_2_logon_screen_2obj_2_debug_2_main_window_8g_8cs">MainWindow.g.cs</innerfile>
+    <innerfile refid="d2/dce/_controls_01using_2_logon_screen_2obj_2_debug_2_main_window_8g_8i_8cs">MainWindow.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/LogonScreen/obj/Debug/"/>
+  </compounddef>
+</doxygen>

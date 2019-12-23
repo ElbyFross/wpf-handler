@@ -17,6 +17,7 @@ var class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control =
     [ "Remove", "d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control.html#acc5c3b3a95e4d58b6cda68e5f61089fd", null ],
     [ "RemoveAt", "d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control.html#ab9ea70c06d17283a4e07195b0f9b0de7", null ],
     [ "UpdateElementsWidth", "d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control.html#a6df510adc9706b127f2179a6cc123799", null ],
+    [ "bindedSource", "d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control.html#a128726ac8376cf78e3c33ba1c9f00b2d", null ],
     [ "Count", "d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control.html#af4796b6959bcb870bde22f6d32379242", null ],
     [ "DragAllowedProperty", "d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control.html#aea4afe7ae229937f9c99809d720d8875", null ],
     [ "indexMap", "d5/d8b/class_wpf_handler_1_1_u_i_1_1_controls_1_1_collection_control.html#af3a8d4c03474bbb80d8d461f4a8e33e8", null ],

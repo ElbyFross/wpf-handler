@@ -147,19 +147,8 @@ namespace WpfHandler.UI.AutoLayout
                 // Is control defined to that member?
                 if (controlType != null)
                 {
-                    #region Insiniation UI field
-                    // Instiniating target type.
+                    // Instiniating target control by the type.
                     var control = (IGUIField)Activator.CreateInstance(controlType);
-
-                    // Sing up this control on desctiptor events.
-                    TryToBindControl(control, this, member);
-
-                    // Initialize control.
-                    control.OnLayout(ref activeLayer, this, member);
-
-                    // Adding field to the registration table.
-                    RegistredFields.Add(member, control);
-                    #endregion
 
                     #region Set prefix label
                     // Is spawned elelment has a label.
@@ -169,7 +158,7 @@ namespace WpfHandler.UI.AutoLayout
                         ContentAttribute localizationHandler = null;
 
                         // Try to get described one.
-                        if(UniformDataOperator.AttributesHandler.
+                        if(UniformDataOperator.AssembliesManagement.AttributesHandler.
                             TryToGetAttribute (member, out ContentAttribute attribute))
                         {
                             // Buferize if found.
@@ -206,6 +195,17 @@ namespace WpfHandler.UI.AutoLayout
                             option.ApplyLayoutOption(fEl);
                         }
                     }
+                    #endregion
+
+                    #region Binding to a layout
+                    // Sign up this control on desctiptor events.
+                    TryToBindControl(control, this, member);
+
+                    // Initialize control.
+                    control.OnLayout(ref activeLayer, this, member);
+
+                    // Adding field to the registration table.
+                    RegistredFields.Add(member, control);
                     #endregion
                 }
                 else
@@ -265,6 +265,9 @@ namespace WpfHandler.UI.AutoLayout
 
             // Marking as loaded.
             IsLoaded = true;
+            
+            // Calling the local handler.
+            OnLoaded();
 
             // Inform subscribers.
             Loaded?.Invoke(this);
@@ -355,7 +358,10 @@ namespace WpfHandler.UI.AutoLayout
                 activeLayer?.ApplyControl(control as FrameworkElement);
             }
             catch(Exception ex) 
-            { MessageBox.Show("Constrol sign up failed.\n\nDetails:\n" + ex.Message); }
+            { MessageBox.Show(
+                "Control sign up failed.\n\n" +
+                "Member: " + member.Name + "\n" + 
+                "Details: " + ex.Message); }
         }
 
         /// <summary>
@@ -449,8 +455,16 @@ namespace WpfHandler.UI.AutoLayout
             // Member cast is invalid and not supported intor that operation.
             else throw new InvalidCastException("@member must inherit PropertyInfo of FieldInfo");
 
-            // Sing up this control on desctiptor events.
+            // Sign up this control on desctiptor events.
             descriptor.ControlSignUp(control, member, defaultValue);
+        }
+
+        /// <summary>
+        /// Handler that will be called when all the element will be loaded and be ready to use.
+        /// </summary>
+        public virtual void OnLoaded()
+        {
+
         }
 
         /// <summary>

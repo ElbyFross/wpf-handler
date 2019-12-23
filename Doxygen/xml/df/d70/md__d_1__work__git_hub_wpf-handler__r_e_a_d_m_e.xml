@@ -2,10 +2,20 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="df/d70/md__d_1__work__git_hub_wpf-handler__r_e_a_d_m_e" kind="page">
     <compoundname>md_D:_Work_GitHub_wpf-handler_README</compoundname>
-    <title>wpf-handler</title>
+    <title>WPF Handler</title>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>The flexible framework that highly simplify your work with WPF. New controls | Auto building of an UI | Localization | Plugins managment </para>    </detaileddescription>
+<para>The flexible framework that highly simplify your work with the WPF. New controls, Auto building of an UI, Localization, Plugins managment and more!</para><para><heading level="1">Links</heading>
+</para><para><itemizedlist>
+<listitem><para><ulink url="https://github.com/ElbyFross/wpf-handler/wiki">Wiki</ulink> - Tutorials and explanation.</para></listitem><listitem><para><bold>The full documentation</bold> - allowed after download of the framework by the <bold>Documentation.lnk</bold>.</para></listitem></itemizedlist>
+</para><para><heading level="1">Download</heading>
+</para><para>You can find a relevant version of the framwork on the <ulink url="https://github.com/ElbyFross/wpf-handler/releases">Releases</ulink> page. Framwork not requires isntalation. Just store the downloaded source wherever you want and add the reference to the <computeroutput>WpfHandler.csproj</computeroutput> to your project.</para><para><heading level="1">Support the product</heading>
+</para><para><heading level="2">Why the product need your support?</heading>
+</para><para><heading level="2">How to support?</heading>
+</para><para><heading level="3">Set the Star</heading>
+</para><para><heading level="3">Make your contribution</heading>
+</para><para><heading level="3">Donate</heading>
+</para>    </detaileddescription>
   </compounddef>
 </doxygen>

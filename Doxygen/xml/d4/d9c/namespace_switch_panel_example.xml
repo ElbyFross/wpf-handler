@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d4/d9c/namespace_switch_panel_example" kind="namespace" language="C#">
+    <compoundname>SwitchPanelExample</compoundname>
+    <innerclass refid="dc/df2/class_switch_panel_example_1_1_app" prot="public">SwitchPanelExample::App</innerclass>
+    <innerclass refid="da/d43/class_switch_panel_example_1_1_handling_panel" prot="public">SwitchPanelExample::HandlingPanel</innerclass>
+    <innerclass refid="df/d1f/class_switch_panel_example_1_1_main_window" prot="public">SwitchPanelExample::MainWindow</innerclass>
+    <innerclass refid="d2/d28/class_switch_panel_example_1_1_panel1" prot="public">SwitchPanelExample::Panel1</innerclass>
+    <innerclass refid="d3/dd3/class_switch_panel_example_1_1_panel2" prot="public">SwitchPanelExample::Panel2</innerclass>
+    <innernamespace refid="d8/d9c/namespace_switch_panel_example_1_1_properties">SwitchPanelExample::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Controls using/SwitchPanelExample/App.xaml.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

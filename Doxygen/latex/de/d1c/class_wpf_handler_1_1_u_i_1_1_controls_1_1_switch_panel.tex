@@ -32,7 +32,7 @@ void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a9
 \begin{DoxyCompactList}\small\item\em Initialize\+Component \end{DoxyCompactList}\item 
 \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a66b597d71d605434b2f51276feff9c8b}{Switch\+Panel}} ()
 \begin{DoxyCompactList}\small\item\em Instiniating the switch panel. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a324749b533fdd754c87f490379f49082}{Switch\+To}} (U\+I\+Element element, \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_aad6e1d850ec0101cc8d98c259971e272}{Animation\+Type}} animation\+Type)
+async Task \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a1797a0bb1de37134c2ed133718cdcee4}{Switch\+To\+Async}} (U\+I\+Element element, \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_aad6e1d850ec0101cc8d98c259971e272}{Animation\+Type}} animation\+Type)
 \begin{DoxyCompactList}\small\item\em Requesting switch of \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}} to new Element. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Static Public Attributes}
 \begin{DoxyCompactItemize}
@@ -50,7 +50,10 @@ virtual void \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_af15c245b340d5416b5c673da9a889eb9}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_af15c245b340d5416b5c673da9a889eb9}} 
-System.\+Windows.\+Controls.\+Grid {\bfseries main}
+\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel}{Wpf\+Handler.\+U\+I.\+Controls.\+Switch\+Panel}} {\bfseries main}
+\item 
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_ab04295aeb38f8cf67e1b98b54d7b073d}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_ab04295aeb38f8cf67e1b98b54d7b073d}} 
+System.\+Windows.\+Controls.\+Grid {\bfseries grid}
 \item 
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a6913da7b87a27aef9fac93a206b900a1}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a6913da7b87a27aef9fac93a206b900a1}} 
 System.\+Windows.\+Controls.\+Grid {\bfseries next}
@@ -60,13 +63,16 @@ System.\+Windows.\+Controls.\+Grid {\bfseries switch\+Panel}
 \item 
 \mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a79e5aefd50fd6e2dbcc444923a9d1e4b}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a79e5aefd50fd6e2dbcc444923a9d1e4b}} 
 System.\+Windows.\+Controls.\+Grid {\bfseries current}
+\item 
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_ab3b3a8aaa054b67f882134942aa20ff0}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_ab3b3a8aaa054b67f882134942aa20ff0}} 
+System.\+Windows.\+Controls.\+Grid {\bfseries main}
 \end{DoxyCompactItemize}
 \subsection*{Properties}
 \begin{DoxyCompactItemize}
 \item 
 Time\+Span \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a3640cb1447755f529ffe36bccad2dc34}{Duration}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em How many time woult take animation duration. \end{DoxyCompactList}\item 
-U\+I\+Element \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a5412b80c31880fe852a7b82c0a81fd7a}{Current}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+U\+I\+Element \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a5412b80c31880fe852a7b82c0a81fd7a}{Current}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Current active element. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_aad6e1d850ec0101cc8d98c259971e272}{Animation\+Type}} \mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_aeef75c353f5212b3745cfa7b099e5406}{Last\+Anmimation\+Type}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Animation type that was used during last switch request. \end{DoxyCompactList}\item 
@@ -227,11 +233,11 @@ Initialize\+Component
 
 Starting animation of elements switching. 
 
-\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a324749b533fdd754c87f490379f49082}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a324749b533fdd754c87f490379f49082}} 
-\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Switch\+Panel@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Switch\+Panel}!Switch\+To@{Switch\+To}}
-\index{Switch\+To@{Switch\+To}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Switch\+Panel@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Switch\+Panel}}
-\subsubsection{\texorpdfstring{Switch\+To()}{SwitchTo()}}
-{\footnotesize\ttfamily void Wpf\+Handler.\+U\+I.\+Controls.\+Switch\+Panel.\+Switch\+To (\begin{DoxyParamCaption}\item[{U\+I\+Element}]{element,  }\item[{\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_aad6e1d850ec0101cc8d98c259971e272}{Animation\+Type}}}]{animation\+Type }\end{DoxyParamCaption})}
+\mbox{\Hypertarget{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a1797a0bb1de37134c2ed133718cdcee4}\label{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a1797a0bb1de37134c2ed133718cdcee4}} 
+\index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Switch\+Panel@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Switch\+Panel}!Switch\+To\+Async@{Switch\+To\+Async}}
+\index{Switch\+To\+Async@{Switch\+To\+Async}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Switch\+Panel@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Switch\+Panel}}
+\subsubsection{\texorpdfstring{Switch\+To\+Async()}{SwitchToAsync()}}
+{\footnotesize\ttfamily async Task Wpf\+Handler.\+U\+I.\+Controls.\+Switch\+Panel.\+Switch\+To\+Async (\begin{DoxyParamCaption}\item[{U\+I\+Element}]{element,  }\item[{\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_aad6e1d850ec0101cc8d98c259971e272}{Animation\+Type}}}]{animation\+Type }\end{DoxyParamCaption})}
 
 
 
@@ -256,7 +262,8 @@ Requesting switch of \mbox{\hyperlink{namespace_wpf_handler_1_1_u_i}{UI}} to new
 {\bfseries Initial value\+:}
 \begin{DoxyCode}
 = DependencyProperty.Register(
-          \textcolor{stringliteral}{"Duration"}, typeof(TimeSpan), typeof(\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a66b597d71d605434b2f51276feff9c8b}{SwitchPanel}}))
+          \textcolor{stringliteral}{"Duration"}, typeof(TimeSpan), typeof(\mbox{\hyperlink{class_wpf_handler_1_1_u_i_1_1_controls_1_1_switch_panel_a66b597d71d605434b2f51276feff9c8b}{SwitchPanel}}), \textcolor{keyword}{new} PropertyMetadata(\textcolor{keyword}{new} TimeSpan(0
+      , 0, 0, 0, 300)))
 \end{DoxyCode}
 
 
@@ -269,7 +276,7 @@ Bridging X\+A\+ML declaring and the member.
 \index{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Switch\+Panel@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Switch\+Panel}!Current@{Current}}
 \index{Current@{Current}!Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Switch\+Panel@{Wpf\+Handler\+::\+U\+I\+::\+Controls\+::\+Switch\+Panel}}
 \subsubsection{\texorpdfstring{Current}{Current}}
-{\footnotesize\ttfamily U\+I\+Element Wpf\+Handler.\+U\+I.\+Controls.\+Switch\+Panel.\+Current\hspace{0.3cm}{\ttfamily [get]}}
+{\footnotesize\ttfamily U\+I\+Element Wpf\+Handler.\+U\+I.\+Controls.\+Switch\+Panel.\+Current\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
 
 
 

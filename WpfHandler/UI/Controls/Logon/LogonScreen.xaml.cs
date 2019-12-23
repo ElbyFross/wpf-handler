@@ -50,7 +50,7 @@ namespace WpfHandler.UI.Controls.Logon
         /// <summary>
         /// Property that bridging control's property between XAML and code.
         /// </summary>
-        public static readonly RoutedEvent LogonPanel_SingUpCallbackProperty = EventManager.RegisterRoutedEvent("LogonPanel_SingUpCallback",
+        public static readonly RoutedEvent LogonPanel_SignUpCallbackProperty = EventManager.RegisterRoutedEvent("LogonPanel_SignUpCallback",
             RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof(LogonScreen));
 
         /// <summary>
@@ -78,29 +78,29 @@ namespace WpfHandler.UI.Controls.Logon
         /// <summary>
         /// Method that will has been calling during click on button.
         /// </summary>
-        public event RoutedEventHandler LogonPanel_SingUpCallback
+        public event RoutedEventHandler LogonPanel_SignUpCallback
         {
-            add => logonPanel.singupButton.Click += value;
-            remove => logonPanel.singupButton.Click -= value;
+            add => logonPanel.signupButton.Click += value;
+            remove => logonPanel.signupButton.Click -= value;
         }
 
 
         /// <summary>
         /// Method that will has been calling during continue on button.
         /// </summary>
-        public event RoutedEventHandler RegPanel_ContinueCallback
+        public event RoutedEventHandler RegPanel_FormsFilledEventHandler
         {
-            add => registrationPanel.regContinue.Click += value;
-            remove => registrationPanel.regContinue.Click -= value;
+            add => registrationPanel.FormsFilled += value;
+            remove => registrationPanel.FormsFilled -= value;
         }
 
         /// <summary>
         /// Method that will has been calling during back on button.
         /// </summary>
-        public event RoutedEventHandler RegPanel_BackCallback
+        public event RoutedEventHandler RegPanel_CancelEventHandler
         {
-            add => registrationPanel.regBack.Click += value;
-            remove => registrationPanel.regBack.Click -= value;
+            add => registrationPanel.Cancel += value;
+            remove => registrationPanel.Cancel -= value;
         }
 
         /// <summary>
@@ -151,11 +151,11 @@ namespace WpfHandler.UI.Controls.Logon
             DataContext = this;
             #endregion
 
-            LogonPanel_SingUpCallback += LogonPanel_SingUpCallbackHandler;
+            LogonPanel_SignUpCallback += LogonPanel_SignUpCallbackHandler;
             LogonPanel_LoginCallback += LogonPanel_LoginCallbackHandler;
 
-            RegPanel_BackCallback += RegPanel_BackCallbackHandler;
-            RegPanel_ContinueCallback += RegPanel_ContinueCallbackHandler;
+            RegPanel_CancelEventHandler += RegPanel_BackCallbackHandler;
+            RegPanel_FormsFilledEventHandler += RegPanel_ContinueCallbackHandler;
         }
 
         /// <summary>
@@ -163,11 +163,11 @@ namespace WpfHandler.UI.Controls.Logon
         /// </summary>
         ~LogonScreen()
         {
-            try { LogonPanel_SingUpCallback -= LogonPanel_SingUpCallbackHandler; } catch { };
+            try { LogonPanel_SignUpCallback -= LogonPanel_SignUpCallbackHandler; } catch { };
             try { LogonPanel_LoginCallback -= LogonPanel_LoginCallbackHandler; } catch { };
 
-            try { RegPanel_BackCallback -= RegPanel_BackCallbackHandler; } catch { };
-            try { RegPanel_ContinueCallback -= RegPanel_ContinueCallbackHandler; } catch { };
+            try { RegPanel_CancelEventHandler -= RegPanel_BackCallbackHandler; } catch { };
+            try { RegPanel_FormsFilledEventHandler -= RegPanel_ContinueCallbackHandler; } catch { };
         }
 
         /// <summary>
@@ -179,15 +179,27 @@ namespace WpfHandler.UI.Controls.Logon
             registrationPanel.Clear();
         }
 
-        private void LogonPanel_Loaded(object sender, RoutedEventArgs e)
+        private void UILoaded(object sender, RoutedEventArgs e)
         {
+            //Binding backgroundBinding = new Binding()
+            //{
+            //    Path = new PropertyPath("Background"),
+            //    Source = main.Background,
+            //    Mode = BindingMode.TwoWay
+            //};
+            //logonPanel.SetBinding(LogonPanel.BackgroundProperty, backgroundBinding);
+            //registrationPanel.SetBinding(RegistrationPanel.BackgroundProperty, backgroundBinding);
+
+            logonPanel.Background = main.Background;
+            registrationPanel.Background = main.Background;
+
             switchPanel.Duration = FormsAnimationDuration;
             switchPanel.current.Children.Add(logonPanel);
         }
 
-        private void LogonPanel_SingUpCallbackHandler(object sender, RoutedEventArgs e)
+        private void LogonPanel_SignUpCallbackHandler(object sender, RoutedEventArgs e)
         {
-            switchPanel.SwitchTo(registrationPanel, SwitchPanel.AnimationType.AlphaSwipe);
+            _ = switchPanel.SwitchToAsync(registrationPanel, SwitchPanel.AnimationType.AlphaSwipe);
         }
 
         private void LogonPanel_LoginCallbackHandler(object sender, RoutedEventArgs e)
@@ -198,7 +210,7 @@ namespace WpfHandler.UI.Controls.Logon
 
         private void RegPanel_BackCallbackHandler(object sender, RoutedEventArgs e)
         {
-            switchPanel.SwitchTo(logonPanel, SwitchPanel.AnimationType.AlphaSwipe);
+            _ = switchPanel.SwitchToAsync(logonPanel, SwitchPanel.AnimationType.AlphaSwipe);
         }
 
         private void RegPanel_ContinueCallbackHandler(object sender, RoutedEventArgs e)

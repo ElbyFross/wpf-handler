@@ -56,19 +56,7 @@ namespace WpfHandler.UI.Controls
             get { return (string)base.GetValue(LabelProperty); }
             set { base.SetValue(LabelProperty, value); }
         }
-
-        /// <summary>
-        /// Offset applied to label.
-        /// </summary>
-        public Thickness LabelMargin
-        {
-            get
-            {
-                var offset = -main.Height / 2;
-                return new Thickness(0, offset, 0, offset);
-            }
-        }
-
+        
         /// <summary>
         /// Occurs when a <see cref="FlatButton"/>> is clicked.
         /// </summary>

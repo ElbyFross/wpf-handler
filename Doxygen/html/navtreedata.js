@@ -24,7 +24,8 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "WPF Handler", "index.html", [
-    [ "wpf-handler", "df/d70/md__d_1__work__git_hub_wpf-handler__r_e_a_d_m_e.html", null ],
+    [ "Uniform Data Operator", "d1/df2/md__d_1__work__git_hub_wpf-handler__frameworks_uniform-data-operator__r_e_a_d_m_e.html", null ],
+    [ "WPF Handler", "df/d70/md__d_1__work__git_hub_wpf-handler__r_e_a_d_m_e.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -37,7 +38,7 @@ var NAVTREE =
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
-        [ "Properties", "functions_prop.html", null ],
+        [ "Properties", "functions_prop.html", "functions_prop" ],
         [ "Events", "functions_evnt.html", null ]
       ] ]
     ] ],
@@ -50,10 +51,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control.html#ab2089e6e1caddd925e2fa23d0ce481cb",
-"d6/d44/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_width_attribute.html",
-"dc/d68/class_wpf_handler_1_1_u_i_1_1_controls_1_1_lock_screen.html#aeadd163b71840ecd0f5364997bf4dd49",
-"functions_func_r.html"
+"d2/dda/class_wpf_handler_1_1_u_i_1_1_controls_1_1_text_field_control.html#a99939f3d8500812661376afa5ee1a31daec0fc0100c4fc1ce4eea230c3dc10360",
+"d5/ddb/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_auto_layout_veiw.html",
+"db/dd5/class_wpf_handler_1_1_u_i_1_1_g_u_i_content.html#a3d8843f4aaceba1bb1174f33c925bab2",
+"de/dc7/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_grid.html#ad2776d9cb89fc0728452c45b3301cca6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

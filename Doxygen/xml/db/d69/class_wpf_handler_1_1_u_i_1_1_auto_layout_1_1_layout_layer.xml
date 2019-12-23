@@ -157,10 +157,10 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="418">
+      <node id="451">
         <label>WpfHandler.UI.AutoLayout.LayoutLayer</label>
         <link refid="db/d69/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_layout_layer"/>
-        <childnode refid="418" relation="usage">
+        <childnode refid="451" relation="usage">
           <edgelabel>_Parent</edgelabel>
         </childnode>
       </node>

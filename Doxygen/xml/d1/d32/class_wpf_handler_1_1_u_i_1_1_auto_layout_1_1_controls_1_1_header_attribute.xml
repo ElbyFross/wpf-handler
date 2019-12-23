@@ -253,64 +253,64 @@
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Added header block element to <ref refid="df/dea/namespace_wpf_handler_1_1_u_i" kindref="compound">UI</ref>. </para>    </briefdescription>
+<para>Adds a header block element to the layout. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="265">
+      <node id="289">
         <label>Attribute</label>
       </node>
-      <node id="266">
+      <node id="290">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="263">
+      <node id="287">
         <label>GUIContentAttribute</label>
         <link refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute"/>
-        <childnode refid="264" relation="public-inheritance">
+        <childnode refid="288" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="264">
+      <node id="288">
         <label>LocalizableContentAttribute</label>
         <link refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute"/>
-        <childnode refid="265" relation="public-inheritance">
+        <childnode refid="289" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="262">
+      <node id="286">
         <label>WpfHandler.UI.AutoLayout.Controls.HeaderAttribute</label>
         <link refid="d1/d32/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_header_attribute"/>
-        <childnode refid="263" relation="public-inheritance">
+        <childnode refid="287" relation="public-inheritance">
         </childnode>
-        <childnode refid="266" relation="public-inheritance">
+        <childnode refid="290" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="270">
+      <node id="294">
         <label>Attribute</label>
       </node>
-      <node id="271">
+      <node id="295">
         <label>IGUIElement</label>
         <link refid="da/db2/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_i_g_u_i_element"/>
       </node>
-      <node id="268">
+      <node id="292">
         <label>GUIContentAttribute</label>
         <link refid="d3/dd4/class_wpf_handler_1_1_u_i_1_1_g_u_i_content_attribute"/>
-        <childnode refid="269" relation="public-inheritance">
+        <childnode refid="293" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="269">
+      <node id="293">
         <label>LocalizableContentAttribute</label>
         <link refid="db/dbf/class_wpf_handler_1_1_dictionaries_1_1_localizable_content_attribute"/>
-        <childnode refid="270" relation="public-inheritance">
+        <childnode refid="294" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="267">
+      <node id="291">
         <label>WpfHandler.UI.AutoLayout.Controls.HeaderAttribute</label>
         <link refid="d1/d32/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_controls_1_1_header_attribute"/>
-        <childnode refid="268" relation="public-inheritance">
+        <childnode refid="292" relation="public-inheritance">
         </childnode>
-        <childnode refid="271" relation="public-inheritance">
+        <childnode refid="295" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

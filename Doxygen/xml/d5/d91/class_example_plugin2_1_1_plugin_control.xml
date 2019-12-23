@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d5/d91/class_example_plugin2_1_1_plugin_control" kind="class" language="C#" prot="public">
+    <compoundname>ExamplePlugin2::PluginControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref refid="d2/d34/interface_wpf_handler_1_1_plugins_1_1_i_plugin" prot="public" virt="non-virtual">WpfHandler.Plugins.IPlugin</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/d91/class_example_plugin2_1_1_plugin_control_1a1c084e3b7df83482d6bb1c667fd8a70e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ExamplePlugin2.PluginControl::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug/PluginControl.g.cs" line="43" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug/PluginControl.g.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d5/d91/class_example_plugin2_1_1_plugin_control_1a1cbb95e92421637902507bca1e94049d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="d7/d16/class_wpf_handler_1_1_plugins_1_1_menu_item_meta" kindref="compound">MenuItemMeta</ref></type>
+        <definition>MenuItemMeta ExamplePlugin2.PluginControl.Meta</definition>
+        <argsstring></argsstring>
+        <name>Meta</name>
+        <initializer>= new <ref refid="d7/d16/class_wpf_handler_1_1_plugins_1_1_menu_item_meta" kindref="compound">MenuItemMeta</ref>()
+        {
+            
+            defaultTitle = &quot;Sub plugin&quot;,
+
+            
+            domain = &quot;1_main&quot;,
+
+            
+            titleDictionaryCode = &quot;1spdc&quot;
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/PluginControl.xaml.cs" line="24" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/PluginControl.xaml.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d91/class_example_plugin2_1_1_plugin_control_1a0aac4f6241024d8f35640d996ea9f267" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExamplePlugin2.PluginControl.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug/PluginControl.g.cs" line="50" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug/PluginControl.g.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d91/class_example_plugin2_1_1_plugin_control_1a0aac4f6241024d8f35640d996ea9f267" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExamplePlugin2.PluginControl.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug/PluginControl.g.i.cs" line="50" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug/PluginControl.g.i.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d91/class_example_plugin2_1_1_plugin_control_1a3a3b3406710b512c912af0241d7a3229" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ExamplePlugin2.PluginControl.OnStart</definition>
+        <argsstring>(object sender)</argsstring>
+        <name>OnStart</name>
+        <reimplements refid="d2/d34/interface_wpf_handler_1_1_plugins_1_1_i_plugin_1aabe1a8e5680ebeb37f96ffe86b6123e9">OnStart</reimplements>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+<para>Method that will has been calling when menu item would press. Use to apply executable part of the plugin. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/PluginControl.xaml.cs" line="37" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/PluginControl.xaml.cs" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d91/class_example_plugin2_1_1_plugin_control_1a4752ecdc2c6da5f62dde1068531f1254" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ExamplePlugin2.PluginControl.PluginControl</definition>
+        <argsstring>()</argsstring>
+        <name>PluginControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/PluginControl.xaml.cs" line="43" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/PluginControl.xaml.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d5/d91/class_example_plugin2_1_1_plugin_control_1aa72f91a86c3337d5c440c7f2820bae36" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. ExamplePlugin2.PluginControl.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug/PluginControl.g.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug/PluginControl.g.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d91/class_example_plugin2_1_1_plugin_control_1aa72f91a86c3337d5c440c7f2820bae36" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. ExamplePlugin2.PluginControl.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug/PluginControl.g.i.cs" line="70" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug/PluginControl.g.i.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="d5/d91/class_example_plugin2_1_1_plugin_control" kindref="compound">PluginControl</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para>Interaction logic for PluginControl.xaml </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="771">
+        <label>ExamplePlugin2.PluginControl</label>
+        <link refid="d5/d91/class_example_plugin2_1_1_plugin_control"/>
+        <childnode refid="772" relation="public-inheritance">
+        </childnode>
+        <childnode refid="773" relation="public-inheritance">
+        </childnode>
+        <childnode refid="774" relation="public-inheritance">
+        </childnode>
+        <childnode refid="775" relation="public-inheritance">
+        </childnode>
+        <childnode refid="774" relation="public-inheritance">
+        </childnode>
+        <childnode refid="775" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="773">
+        <label>IPlugin</label>
+        <link refid="d2/d34/interface_wpf_handler_1_1_plugins_1_1_i_plugin"/>
+      </node>
+      <node id="774">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="775">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="772">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="776">
+        <label>ExamplePlugin2.PluginControl</label>
+        <link refid="d5/d91/class_example_plugin2_1_1_plugin_control"/>
+        <childnode refid="777" relation="public-inheritance">
+        </childnode>
+        <childnode refid="778" relation="public-inheritance">
+        </childnode>
+        <childnode refid="779" relation="public-inheritance">
+        </childnode>
+        <childnode refid="780" relation="public-inheritance">
+        </childnode>
+        <childnode refid="779" relation="public-inheritance">
+        </childnode>
+        <childnode refid="780" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="778">
+        <label>IPlugin</label>
+        <link refid="d2/d34/interface_wpf_handler_1_1_plugins_1_1_i_plugin"/>
+      </node>
+      <node id="779">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="780">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="777">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug/PluginControl.g.cs" line="41" column="1" bodyfile="D:/Work/GitHub/wpf-handler/Examples/Plugins/ExamplePlugin2/obj/Debug/PluginControl.g.cs" bodystart="41" bodyend="73"/>
+    <listofallmembers>
+      <member refid="d5/d91/class_example_plugin2_1_1_plugin_control_1a1c084e3b7df83482d6bb1c667fd8a70e" prot="private" virt="non-virtual"><scope>ExamplePlugin2::PluginControl</scope><name>_contentLoaded</name></member>
+      <member refid="d5/d91/class_example_plugin2_1_1_plugin_control_1aa72f91a86c3337d5c440c7f2820bae36" prot="private" virt="non-virtual"><scope>ExamplePlugin2::PluginControl</scope><name>Connect</name></member>
+      <member refid="d5/d91/class_example_plugin2_1_1_plugin_control_1aa72f91a86c3337d5c440c7f2820bae36" prot="private" virt="non-virtual"><scope>ExamplePlugin2::PluginControl</scope><name>Connect</name></member>
+      <member refid="d5/d91/class_example_plugin2_1_1_plugin_control_1a0aac4f6241024d8f35640d996ea9f267" prot="public" virt="non-virtual"><scope>ExamplePlugin2::PluginControl</scope><name>InitializeComponent</name></member>
+      <member refid="d5/d91/class_example_plugin2_1_1_plugin_control_1a0aac4f6241024d8f35640d996ea9f267" prot="public" virt="non-virtual"><scope>ExamplePlugin2::PluginControl</scope><name>InitializeComponent</name></member>
+      <member refid="d5/d91/class_example_plugin2_1_1_plugin_control_1a1cbb95e92421637902507bca1e94049d" prot="public" virt="non-virtual"><scope>ExamplePlugin2::PluginControl</scope><name>Meta</name></member>
+      <member refid="d5/d91/class_example_plugin2_1_1_plugin_control_1a3a3b3406710b512c912af0241d7a3229" prot="public" virt="non-virtual"><scope>ExamplePlugin2::PluginControl</scope><name>OnStart</name></member>
+      <member refid="d5/d91/class_example_plugin2_1_1_plugin_control_1a4752ecdc2c6da5f62dde1068531f1254" prot="public" virt="non-virtual"><scope>ExamplePlugin2::PluginControl</scope><name>PluginControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

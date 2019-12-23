@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d6/d19/namespace_localization_sample" kind="namespace" language="C#">
+    <compoundname>LocalizationSample</compoundname>
+    <innerclass refid="dd/de2/class_localization_sample_1_1_app" prot="public">LocalizationSample::App</innerclass>
+    <innerclass refid="d6/d6f/class_localization_sample_1_1_main_window" prot="public">LocalizationSample::MainWindow</innerclass>
+    <innernamespace refid="d8/d2a/namespace_localization_sample_1_1_properties">LocalizationSample::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Work/GitHub/wpf-handler/Examples/Localization/LocalizationSample/App.xaml.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="d3/df0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_i_list_compatible_attribute" kind="class" language="C#" prot="public">
+    <compoundname>WpfHandler::UI::AutoLayout::Markups::IListCompatibleAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <basecompoundref refid="d4/d32/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_i_g_u_i_element_binding_attribute" prot="public" virt="non-virtual">WpfHandler.UI.AutoLayout.Markups.IGUIElementBindingAttribute</basecompoundref>
+    <briefdescription>
+<para>Marks a GUI element as compatible with IList members. </para>    </briefdescription>
+    <detaileddescription>
+<para>Class with that attribute will be allowed only for displaying IList members. Any other specifing will not has any effect. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="416">
+        <label>Attribute</label>
+      </node>
+      <node id="415">
+        <label>WpfHandler.UI.AutoLayout.Markups.IListCompatibleAttribute</label>
+        <link refid="d3/df0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_i_list_compatible_attribute"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="417">
+        <label>IGUIElementBindingAttribute</label>
+        <link refid="d4/d32/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_i_g_u_i_element_binding_attribute"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="419">
+        <label>Attribute</label>
+      </node>
+      <node id="418">
+        <label>WpfHandler.UI.AutoLayout.Markups.IListCompatibleAttribute</label>
+        <link refid="d3/df0/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_i_list_compatible_attribute"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+        <childnode refid="420" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="420">
+        <label>IGUIElementBindingAttribute</label>
+        <link refid="d4/d32/interface_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_markups_1_1_i_g_u_i_element_binding_attribute"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Markups/IListCompatibleAttribute.cs" line="32" column="1" bodyfile="D:/Work/GitHub/wpf-handler/WpfHandler/UI/AutoLayout/Markups/IListCompatibleAttribute.cs" bodystart="32" bodyend="32"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
