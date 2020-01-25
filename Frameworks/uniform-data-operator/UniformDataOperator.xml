@@ -112,12 +112,12 @@
             Scaning assemblies in current app domaint to find out all types with defined replacing attribute.
             </summary>
         </member>
-        <member name="T:UniformDataOperator.AssembliesManagement.AttributesHandler">
+        <member name="T:UniformDataOperator.AssembliesManagement.MembersHandler">
             <summary>
             Provides API to handle attributes.
             </summary>
         </member>
-        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.FindFieldsWithAttribute``1(System.Type)">
+        <member name="M:UniformDataOperator.AssembliesManagement.MembersHandler.FindFieldsWithAttribute``1(System.Type)">
             <summary>
             Looking for fields with defined target attribute.
             </summary>
@@ -125,7 +125,7 @@
             <param name="source">Type the would by used as source of fields.</param>
             <returns>Collection of found attributes.</returns>
         </member>
-        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.FindMembersWithAttribute``1(System.Type)">
+        <member name="M:UniformDataOperator.AssembliesManagement.MembersHandler.FindMembersWithAttribute``1(System.Type)">
             <summary>
             Looking for fields an properties members with defined target attribute.
             </summary>
@@ -133,7 +133,7 @@
             <param name="source">Type the would by used as source of fields.</param>
             <returns>Collection of found attributes.</returns>
         </member>
-        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.FindMembersWithAttribute``1(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo})">
+        <member name="M:UniformDataOperator.AssembliesManagement.MembersHandler.FindMembersWithAttribute``1(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo})">
             <summary>
             Looking for members with defined target attribute.
             </summary>
@@ -141,7 +141,7 @@
             <param name="source">Type the would by used as source of fields.</param>
             <returns>Collection of found attributes.</returns>
         </member>
-        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.FindMembersWithoutAttribute``1(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo},System.Func{System.Reflection.MemberInfo,System.Boolean})">
+        <member name="M:UniformDataOperator.AssembliesManagement.MembersHandler.FindMembersWithoutAttribute``1(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo},System.Func{System.Reflection.MemberInfo,System.Boolean})">
             <summary>
             Looking for members without defined target attribute.
             </summary>
@@ -150,7 +150,7 @@
             <param name="expression">Delegate that would be called to compare member by custom way.</param>
             <returns>Collection of found attributes.</returns>
         </member>
-        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.FindMembersWithoutAttribute``1(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo})">
+        <member name="M:UniformDataOperator.AssembliesManagement.MembersHandler.FindMembersWithoutAttribute``1(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo})">
             <summary>
             Looking for members without defined target attribute.
             </summary>
@@ -158,7 +158,7 @@
             <param name="source">Type the would by used as source of fields.</param>
             <returns>Collection of found attributes.</returns>
         </member>
-        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.HasAttribute``1(System.Reflection.MemberInfo)">
+        <member name="M:UniformDataOperator.AssembliesManagement.MembersHandler.HasAttribute``1(System.Reflection.MemberInfo)">
             <summary>
             Check does member has target attribute.
             </summary>
@@ -166,7 +166,7 @@
             <param name="member"></param>
             <returns></returns>
         </member>
-        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.TryToGetAttribute``1(System.Reflection.MemberInfo,``0@)">
+        <member name="M:UniformDataOperator.AssembliesManagement.MembersHandler.TryToGetAttribute``1(System.Reflection.MemberInfo,``0@)">
             <summary>
             Trying to detect attribute defined on member.
             </summary>
@@ -175,7 +175,7 @@
             <param name="attribute">Outbut that would contains found attribute.</param>
             <returns>Result of the search.</returns>
         </member>
-        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.FindPropertiesWithAttribute``1(System.Type)">
+        <member name="M:UniformDataOperator.AssembliesManagement.MembersHandler.FindPropertiesWithAttribute``1(System.Type)">
             <summary>
             Looking for properties with defined target attribute.
             </summary>
@@ -183,7 +183,7 @@
             <param name="source">Type the would by used as source of fields.</param>
             <returns>Collection of found attributes.</returns>
         </member>
-        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.GetValue(System.Object,System.Reflection.MemberInfo)">
+        <member name="M:UniformDataOperator.AssembliesManagement.MembersHandler.GetValue(System.Object,System.Reflection.MemberInfo)">
             <summary>
             Return value of member.
             </summary>
@@ -191,7 +191,7 @@
             <param name="member">Target memeber's info.</param>
             <returns>Value of member.</returns>
         </member>
-        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.SetValue(System.Object,System.Reflection.MemberInfo,System.Object)">
+        <member name="M:UniformDataOperator.AssembliesManagement.MembersHandler.SetValue(System.Object,System.Reflection.MemberInfo,System.Object)">
             <summary>
             Setting value to member on specific object.
             </summary>
@@ -200,7 +200,7 @@
             <param name="data">Data that would be setted up to member.</param>
             <returns></returns>
         </member>
-        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.Converter(System.Type,System.Object)">
+        <member name="M:UniformDataOperator.AssembliesManagement.MembersHandler.Converter(System.Type,System.Object)">
             <summary>
             Trying to convers object to other type.
             </summary>
@@ -208,7 +208,7 @@
             <param name="data">Soutce object.</param>
             <returns>Converted object. The same if converting not possible</returns>
         </member>
-        <member name="M:UniformDataOperator.AssembliesManagement.AttributesHandler.AddAttribute(System.String,System.Type,System.Type,System.Type[],System.Object[])">
+        <member name="M:UniformDataOperator.AssembliesManagement.MembersHandler.AddAttribute(System.String,System.Type,System.Type,System.Type[],System.Object[])">
             <summary>
             Add to assembly the new type based on targetType but with existed new attribute.
             </summary>
@@ -442,7 +442,7 @@
         </member>
         <member name="T:UniformDataOperator.Sql.ISqlOperator">
             <summary>
-            Implement that interface to provide possiblity to controll your data base by using SQL queryes.
+            Implement that interface to provide possiblity to controll your database by using SQL queryes.
             </summary>
         </member>
         <member name="P:UniformDataOperator.Sql.ISqlOperator.Server">
@@ -490,13 +490,13 @@
             Return new clear command suitable for current DB with included command text.
             </summary>
         </member>
-        <member name="M:UniformDataOperator.Sql.ISqlOperator.MemberToParameter(System.Object,UniformDataOperator.Sql.Attributes.Column)">
+        <member name="M:UniformDataOperator.Sql.ISqlOperator.MemberToParameter(System.Object,UniformDataOperator.Sql.Markup.ColumnAttribute)">
             <summary>
-            Convert value of member to data base parameter that can be used in command.
+            Convert value of member to database parameter that can be used in command.
             </summary>
             <param name="data">Value of the object that would applied to parameter.</param>
             <param name="column">Column attribute relative to member of data.</param>
-            <returns>Parameter that could by used in commands to data base.</returns>
+            <returns>Parameter that could by used in commands to database.</returns>
         </member>
         <member name="M:UniformDataOperator.Sql.ISqlOperator.DisableSqlChecks(System.Data.Common.DbCommand)">
             <summary>
@@ -517,12 +517,12 @@
             Trying to convert DBType to specified type in string format that suitable to this database.
             </summary>
             <param name="type">Common DBType.</param>
-            <returns>Type suitable for SQL command relative to this type of data base. 
+            <returns>Type suitable for SQL command relative to this type of database. 
             InvalidCastException in case if converting not possible.</returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.ISqlOperator.ValidateTableMember(UniformDataOperator.Sql.Attributes.Table,System.Reflection.MemberInfo)">
+        <member name="M:UniformDataOperator.Sql.ISqlOperator.ValidateTableMember(UniformDataOperator.Sql.Markup.TableAttribute,System.Reflection.MemberInfo)">
             <summary>
-            Validate data base table column acording to member attributes.
+            Validate database table column acording to member attributes.
             </summary>
             <param name="tableDescriptor">Table meta data.</param>
             <param name="columnMember">Member with defined Column attribute that would be comared with </param>
@@ -543,7 +543,7 @@
         </member>
         <member name="M:UniformDataOperator.Sql.ISqlOperator.Backup(System.String)">
             <summary>
-            Backuping data base to sql file in directory.
+            Backuping database to sql file in directory.
             Name would be generated by timestamp.
             </summary>
             <param name="directory">Directory that would store the backup file.</param>
@@ -571,23 +571,23 @@
         </member>
         <member name="M:UniformDataOperator.Sql.ISqlOperator.SetToTable(System.Type,System.Object,System.String@)">
             <summary>
-            Creating request that setting up data from object to data base server acording to attributes.
+            Creating request that setting up data from object to database server acording to attributes.
             </summary>
             <param name="tableType">Type that has defined Table attribute.
             Would be used as table descriptor during query building.</param>
-            <param name="data">Object that contains fields that would be writed to data base. 
+            <param name="data">Object that contains fields that would be writed to database. 
             Affected only fields and properties with defined Column attribute.</param>
             <param name="error">Error faces during operation.</param>
             <returns>Result of operation.</returns>
         </member>
         <member name="M:UniformDataOperator.Sql.ISqlOperator.SetToTableAsync(System.Type,System.Threading.CancellationToken,System.Object)">
             <summary>
-            Creating request that setting up data from object to data base server acording to attributes.
+            Creating request that setting up data from object to database server acording to attributes.
             </summary>
             <param name="tableType">Type that has defined Table attribute
             Would be used as table descriptor during query building.</param>
             <param name="cancellationToken">Token that can terminate operation.</param>
-            <param name="data">Object that contains fields that would be writed to data base. 
+            <param name="data">Object that contains fields that would be writed to database. 
             Affected only fields and properties with defined Column attribute.</param>
         </member>
         <member name="M:UniformDataOperator.Sql.ISqlOperator.SetToObject(System.Type,System.Object,System.String@,System.String[],System.String[])">
@@ -766,23 +766,23 @@
             that would be used during query generation.</param>
             <param name="callback">Delegate that would be called and return retcived collection of objects.</param>
         </member>
-        <member name="T:UniformDataOperator.Sql.MySql.Attributes.MySqlDBTypeOverride">
+        <member name="T:UniformDataOperator.Sql.MySql.Markup.MySqlDBTypeOverrideAttribute">
             <summary>
             Attribute that can be defined to override standard DBType defined in Column attribute, for columns that would created in MySql tables.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.MySql.Attributes.MySqlDBTypeOverride.type">
+        <member name="F:UniformDataOperator.Sql.MySql.Markup.MySqlDBTypeOverrideAttribute.type">
             <summary>
             Type relative to MySql params.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.MySql.Attributes.MySqlDBTypeOverride.stringFormat">
+        <member name="F:UniformDataOperator.Sql.MySql.Markup.MySqlDBTypeOverrideAttribute.stringFormat">
             <summary>
             Type in string format that would be used during column declaration.
             Example: VARCHAR(45), BLOB(4196)
             </summary>
         </member>
-        <member name="M:UniformDataOperator.Sql.MySql.Attributes.MySqlDBTypeOverride.#ctor(MySql.Data.MySqlClient.MySqlDbType)">
+        <member name="M:UniformDataOperator.Sql.MySql.Markup.MySqlDBTypeOverrideAttribute.#ctor(MySql.Data.MySqlClient.MySqlDbType)">
             <summary>
             Overriding standard type's definition of column and specifiy it for MySql databases.
             
@@ -792,7 +792,7 @@
             </summary>
             <param name="type">Type relative to MySql params.</param>
         </member>
-        <member name="M:UniformDataOperator.Sql.MySql.Attributes.MySqlDBTypeOverride.#ctor(MySql.Data.MySqlClient.MySqlDbType,System.String)">
+        <member name="M:UniformDataOperator.Sql.MySql.Markup.MySqlDBTypeOverrideAttribute.#ctor(MySql.Data.MySqlClient.MySqlDbType,System.String)">
             <summary>
             Overriding standard type's definition of column and specifiy it for MySql databases.
             </summary>
@@ -802,22 +802,22 @@
         </member>
         <member name="T:UniformDataOperator.Sql.MySql.MySqlDataOperator">
             <summary>
-            Operator that provides possibility to operate data on MySQL data base server.
+            Operator that provides possibility to operate data on MySQL database server.
             </summary>
             <summary>
-            Operator that provides possibility to operate data on MySQL data base server.
+            Operator that provides possibility to operate data on MySQL database server.
             </summary>
             <summary>
-            Operator that provides possibility to operate data on MySQL data base server.
+            Operator that provides possibility to operate data on MySQL database server.
             </summary>
             <summary>
-            Operator that provides possibility to operate data on MySQL data base server.
+            Operator that provides possibility to operate data on MySQL database server.
             </summary>
             <summary>
-            Operator that provides possibility to operate data on MySQL data base server.
+            Operator that provides possibility to operate data on MySQL database server.
             </summary>
             <summary>
-            Operator that provides possibility to operate data on MySQL data base server.
+            Operator that provides possibility to operate data on MySQL database server.
             </summary>
         </member>
         <member name="M:UniformDataOperator.Sql.MySql.MySqlDataOperator.SetToObject(System.Type,System.Object,System.String@,System.String[],System.String[])">
@@ -1059,28 +1059,28 @@
             <param name="command">Target command that would be modified during operation.</param>
             <returns>Modified comand.</returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.MySql.MySqlDataOperator.ValidateTableMember(UniformDataOperator.Sql.Attributes.Table,System.Reflection.MemberInfo)">
+        <member name="M:UniformDataOperator.Sql.MySql.MySqlDataOperator.ValidateTableMember(UniformDataOperator.Sql.Markup.TableAttribute,System.Reflection.MemberInfo)">
             <summary>
-            Validate data base table column acording to member attributes.
+            Validate database table column acording to member attributes.
             </summary>
             <param name="tableDescriptor">Table meta data.</param>
             <param name="columnMember">Member with defined Column attribute that would be comared with </param>
             <returns>Result of validation.</returns>W
         </member>
-        <member name="M:UniformDataOperator.Sql.MySql.MySqlDataOperator.MemberToParameter(System.Object,UniformDataOperator.Sql.Attributes.Column)">
+        <member name="M:UniformDataOperator.Sql.MySql.MySqlDataOperator.MemberToParameter(System.Object,UniformDataOperator.Sql.Markup.ColumnAttribute)">
             <summary>
-            Convert value of member to data base parameter that can be used in command.
+            Convert value of member to database parameter that can be used in command.
             </summary>
             <param name="data">Value of the object that would applied to parameter.</param>
             <param name="column">Column attribute relative to member of data.</param>
-            <returns>Parameter that could by used in commands to data base.</returns>
+            <returns>Parameter that could by used in commands to database.</returns>
         </member>
         <member name="M:UniformDataOperator.Sql.MySql.MySqlDataOperator.DbTypeToString(System.Data.DbType)">
             <summary>
             Trying to convert DBType to specified type in string format that suitable to this database.
             </summary>
             <param name="type">Common DBType.</param>
-            <returns>Type suitable for SQL command relative to this type of data base. 
+            <returns>Type suitable for SQL command relative to this type of database. 
             InvalidCastException in case if converting not possible.</returns>
         </member>
         <member name="M:UniformDataOperator.Sql.MySql.MySqlDataOperator.OpenConnection(System.String@)">
@@ -1098,7 +1098,7 @@
         </member>
         <member name="M:UniformDataOperator.Sql.MySql.MySqlDataOperator.Backup(System.String)">
             <summary>
-            Backuping data base to sql file in directory.
+            Backuping database to sql file in directory.
             Name would be generated by timestamp.
             </summary>
             <param name="directory">Directory that would store the backup file.</param>
@@ -1170,54 +1170,54 @@
             </summary>
             <param name="tableType">Type that has defined Table attribute. 
             Would be used as table descriptor during queri building.</param>
-            <param name="data">Object that contain's fields that would be writed to data base. 
+            <param name="data">Object that contain's fields that would be writed to database. 
             Affected only fields and properties with defined Column attribute.</param>
             <param name="error">Error faces during operation.</param>
             <returns>Generated command or null if failed.</returns>
         </member>
         <member name="M:UniformDataOperator.Sql.MySql.MySqlDataOperator.SetToTable``1(System.Object,System.String@)">
             <summary>
-            Creating request that setting up data from object to data base server acording to attributes.
+            Creating request that setting up data from object to database server acording to attributes.
             </summary>
             <typeparam name="T">Type that has defined Table attribute. Would be used as table descriptor during queri building.</typeparam>
-            <param name="data">Object that contain's fields that would be writed to data base. 
+            <param name="data">Object that contain's fields that would be writed to database. 
             Affected only fields and properties with defined Column attribute.</param>
             <param name="error">Error faces during operation.</param>
             <returns>Result of operation.</returns>
         </member>
         <member name="M:UniformDataOperator.Sql.MySql.MySqlDataOperator.SetToTable(System.Type,System.Object,System.String@)">
             <summary>
-            Creating request that setting up data from object to data base server acording to attributes.
+            Creating request that setting up data from object to database server acording to attributes.
             </summary>
             <param name="tableType">Type that has defined Table attribute. Would be used as table descriptor during queri building.</param>
-            <param name="data">Object that contain's fields that would be writed to data base. 
+            <param name="data">Object that contain's fields that would be writed to database. 
             Affected only fields and properties with defined Column attribute.</param>
             <param name="error">Error faces during operation.</param>
             <returns>Result of operation.</returns>
         </member>
         <member name="M:UniformDataOperator.Sql.MySql.MySqlDataOperator.SetToTableAsync``1(System.Threading.CancellationToken,System.Object)">
             <summary>
-            Creating request that setting up data from object to data base server acording to attributes.
+            Creating request that setting up data from object to database server acording to attributes.
             </summary>
             <typeparam name="T">Type that has defined Table attribute. 
             <param name="cancellationToken">Token that can terminate operation.</param>
             Would be used as table descriptor during queri building.</typeparam>
-            <param name="data">Object that contains fields that would be writed to data base. 
+            <param name="data">Object that contains fields that would be writed to database. 
             Affected only fields and properties with defined Column attribute.</param>
         </member>
         <member name="M:UniformDataOperator.Sql.MySql.MySqlDataOperator.SetToTableAsync(System.Type,System.Threading.CancellationToken,System.Object)">
             <summary>
-            Creating request that setting up data from object to data base server acording to attributes.
+            Creating request that setting up data from object to database server acording to attributes.
             </summary>
             <param name="tableType">Type that has defined Table attribute
             Would be used as table descriptor during query building.</param>
             <param name="cancellationToken">Token that can terminate operation.</param>
-            <param name="data">Object that contains fields that would be writed to data base. 
+            <param name="data">Object that contains fields that would be writed to database. 
             Affected only fields and properties with defined Column attribute.</param>
         </member>
         <member name="T:UniformDataOperator.Sql.SqlOperatorHandler">
             <summary>
-            Contains base catalog of uniform queries that strongly simplify managing of the data base.
+            Contains base catalog of uniform queries that strongly simplify managing of the database.
             </summary>
         </member>
         <member name="E:UniformDataOperator.Sql.SqlOperatorHandler.SqlErrorOccured">
@@ -1269,9 +1269,9 @@
         </member>
         <member name="M:UniformDataOperator.Sql.SqlOperatorHandler.DatabaseDataToObject(System.Data.Common.DbDataReader,System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo},System.Object,System.String@)">
             <summary>
-            Trying to apply data base data to object by members map.
+            Trying to apply database data to object by members map.
             </summary>
-            <param name="reader">Data base data reader that contains data recived from server.</param>
+            <param name="reader">Database data reader that contains data recived from server.</param>
             <param name="members">Map of members that would be lokking in reader.</param>
             <param name="obj">Target object that would contain output data.</param>
             <param name="error">Error occured during operation. Null if operation is success.</param>
@@ -1279,66 +1279,68 @@
         </member>
         <member name="M:UniformDataOperator.Sql.SqlOperatorHandler.RescanDatabaseStructure">
             <summary>
-            Scaning assemblies and looking for classes and structures with defined <see cref="T:UniformDataOperator.Sql.Attributes.Table"/> attribute.
+            Scaning assemblies and looking for classes and structures with defined <see cref="T:UniformDataOperator.Sql.Markup.TableAttribute"/> attribute.
             Trying to create shemas and tables via <see cref="P:UniformDataOperator.Sql.SqlOperatorHandler.Active"/>.
             </summary>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.Default">
+        <member name="T:UniformDataOperator.Sql.Markup.DefaultAttribute">
             <summary>
             Add default valu to the field.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.Default.defExp">
+        <member name="F:UniformDataOperator.Sql.Markup.DefaultAttribute.defExp">
             <summary>
             Default or Expression value.
             </summary>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Default.#ctor(System.String)">
+        <member name="M:UniformDataOperator.Sql.Markup.DefaultAttribute.#ctor(System.String)">
             <summary>
             Init default value.
             </summary>
             <param name="defExp">Default or Expression value.</param>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.Modifiers.SetQueryIgnore">
+        <member name="T:UniformDataOperator.Sql.Markup.Modifiers.SetQueryIgnoreAttribute">
             <summary>
             Can be defined to ignore of writing this value during set-like queries to server.
             </summary>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.Modifiers.DBPathOverride">
+        <member name="T:UniformDataOperator.Sql.Markup.Modifiers.DBPathOverrideAttribute">
             <summary>
-            Overriding data base path to member in attributes that looking for this attribute.
+            Defines for structures and classes derived from some base table descriptor. 
+            Overrides internal path or its part (schema/table/column) to a new one.
+            Other markup attributes that compatible with overriding will change a value to the new.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.Modifiers.DBPathOverride.targetAttribute">
+        <member name="F:UniformDataOperator.Sql.Markup.Modifiers.DBPathOverrideAttribute.targetAttribute">
             <summary>
             Type of attribute that would be affected by this overriding.
             If null that overriding would be applied to  all who looking for.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.Modifiers.DBPathOverride.schema">
+        <member name="F:UniformDataOperator.Sql.Markup.Modifiers.DBPathOverrideAttribute.schema">
             <summary>
             Name of schema that would be used during mentoing of this member in queries if possible.
             Will be skiped if null.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.Modifiers.DBPathOverride.table">
+        <member name="F:UniformDataOperator.Sql.Markup.Modifiers.DBPathOverrideAttribute.table">
             <summary>
             Name of table that would be used during mentoing of this member in queries if possible.
             Will be skiped if null.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.Modifiers.DBPathOverride.column">
+        <member name="F:UniformDataOperator.Sql.Markup.Modifiers.DBPathOverrideAttribute.column">
             <summary>
             Name of column that would be used during mentoing of this member in queries if possible.
             Will be skiped if null.
             </summary>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Modifiers.DBPathOverride.#ctor">
+        <member name="M:UniformDataOperator.Sql.Markup.Modifiers.DBPathOverrideAttribute.#ctor">
             <summary>
             Base constructor.
             </summary>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Modifiers.DBPathOverride.#ctor(System.String,System.String,System.String,System.Type)">
+        <member name="M:UniformDataOperator.Sql.Markup.Modifiers.DBPathOverrideAttribute.#ctor(System.String,System.String,System.String,System.Type)">
             <summary>
             Constructors that allow to initialize fields via reflected methods.
             </summary>
@@ -1347,7 +1349,7 @@
             <param name="column"></param>
             <param name="targetAttribute"></param>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Modifiers.DBPathOverride.TryToGetValidOverride``1(System.Reflection.MemberInfo,UniformDataOperator.Sql.Attributes.Modifiers.DBPathOverride@)">
+        <member name="M:UniformDataOperator.Sql.Markup.Modifiers.DBPathOverrideAttribute.TryToGetValidOverride``1(System.Reflection.MemberInfo,UniformDataOperator.Sql.Markup.Modifiers.DBPathOverrideAttribute@)">
             <summary>
             Looking for path overriding attribute suitable for specified member and assking attribute.
             </summary>
@@ -1356,34 +1358,34 @@
             <param name="output">Suitable override attribute.</param>
             <returns>Result of operation.</returns>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.Table">
+        <member name="T:UniformDataOperator.Sql.Markup.TableAttribute">
             <summary>
-            Attribute that would force to automatic generation of table on your SQL server suitable for declered members in class or structure.
+            Attribute that causes auto-generation of a table on the SQL server based on members declared in the relative class or structure.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.Table.schema">
+        <member name="F:UniformDataOperator.Sql.Markup.TableAttribute.schema">
             <summary>
             Name of the holding schema.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.Table.table">
+        <member name="F:UniformDataOperator.Sql.Markup.TableAttribute.table">
             <summary>
             Name of the table.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.Table.engine">
+        <member name="F:UniformDataOperator.Sql.Markup.TableAttribute.engine">
             <summary>
             Name of the database engine.
             </summary>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Table.#ctor(System.String,System.String)">
+        <member name="M:UniformDataOperator.Sql.Markup.TableAttribute.#ctor(System.String,System.String)">
             <summary>
             Configurate SQL table.
             </summary>
             <param name="schema">Name of foreign schema.</param>
             <param name="table">Name of foreign table.</param>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Table.#ctor(System.String,System.String,System.String)">
+        <member name="M:UniformDataOperator.Sql.Markup.TableAttribute.#ctor(System.String,System.String,System.String)">
             <summary>
             Configurate SQL table.
             </summary>
@@ -1391,14 +1393,14 @@
             <param name="table">Name of foreign table.</param>
             <param name="engine">Name of the database engine.</param>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Table.GenerateCreateTableCommand(System.Type)">
+        <member name="M:UniformDataOperator.Sql.Markup.TableAttribute.GenerateCreateTableCommand(System.Type)">
             <summary>
             Return command that would allow to create table by descriptor.
             </summary>
             <param name="sourceType"></param>
             <returns></returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Table.TrySetTables(System.Boolean,System.String@,System.Type[])">
+        <member name="M:UniformDataOperator.Sql.Markup.TableAttribute.TrySetTables(System.Boolean,System.String@,System.Type[])">
             <summary>
             Trying to set some tables to SQL server.
             Existed ones would be skiped.
@@ -1409,7 +1411,7 @@
             <param name="tableDescriptors">Types with defined "Table" attribute.</param>
             <returns>Result of operation.</returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Table.TrySetTable(System.Boolean,System.Type,System.String@)">
+        <member name="M:UniformDataOperator.Sql.Markup.TableAttribute.TrySetTable(System.Boolean,System.Type,System.String@)">
             <summary>
             Trying to set table if required.
             Not updating alter columns.
@@ -1420,7 +1422,7 @@
             <param name="error">Error faces during operation.</param>
             <returns>Result of operation.</returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Table.FindMembersByColumns(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo},System.String[])">
+        <member name="M:UniformDataOperator.Sql.Markup.TableAttribute.FindMembersByColumns(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo},System.String[])">
             <summary>
             Looking for members that's column's titles included to array.
             </summary>
@@ -1428,81 +1430,81 @@
             <param name="columnTitles">Array that contais column's titles that would be looking among members.</param>
             <returns>List with suitable members.</returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Table.TryToGetTableAttribute(System.Type,UniformDataOperator.Sql.Attributes.Table@,System.String@)">
+        <member name="M:UniformDataOperator.Sql.Markup.TableAttribute.TryToGetTableAttribute(System.Type,UniformDataOperator.Sql.Markup.TableAttribute@,System.String@)">
             <summary>
             Looking for valid Table attribute. Chack all overridings and return correct descriptor.
             </summary>
             <param name="tableType">Type that contains defined Table attribute.</param>
             <param name="tableDescriptor">Output table descriptor.</param>
             <param name="error">Error message in cvase if occured. Null in other case.</param>
-            <returns></returns>
+            <returns>A result of operation.</returns>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.Commentary">
+        <member name="T:UniformDataOperator.Sql.Markup.CommentaryAttribute">
             <summary>
             Add commentary to SQL table.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.Commentary.commentary">
+        <member name="F:UniformDataOperator.Sql.Markup.CommentaryAttribute.commentary">
             <summary>
             Commentary to the column.
             </summary>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Commentary.#ctor(System.String)">
+        <member name="M:UniformDataOperator.Sql.Markup.CommentaryAttribute.#ctor(System.String)">
             <summary>
             Init commentary for column in table.
             </summary>
             <param name="commentary">Commentary to the column.</param>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Commentary.ToString">
+        <member name="M:UniformDataOperator.Sql.Markup.CommentaryAttribute.ToString">
             <summary>
             Return comment in string format.
             </summary>
             <returns>Comment in string format.</returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Commentary.op_Implicit(UniformDataOperator.Sql.Attributes.Commentary)~System.String">
+        <member name="M:UniformDataOperator.Sql.Markup.CommentaryAttribute.op_Implicit(UniformDataOperator.Sql.Markup.CommentaryAttribute)~System.String">
             <summary>
             Return comment in string format.
             </summary>
             <param name="commentary">Input comment.</param>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.IsGenerated">
+        <member name="T:UniformDataOperator.Sql.Markup.IsGeneratedAttribute">
             <summary>
             Mark field as generated.
             </summary>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.IsGenerated.Mode">
+        <member name="T:UniformDataOperator.Sql.Markup.IsGeneratedAttribute.Mode">
             <summary>
             Modes of generated columns.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.IsGenerated.Mode.Stored">
+        <member name="F:UniformDataOperator.Sql.Markup.IsGeneratedAttribute.Mode.Stored">
             <summary>
-            Value computed be expression and stored in data base as value.
+            Value computed be expression and stored in database as value.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.IsGenerated.Mode.Virual">
+        <member name="F:UniformDataOperator.Sql.Markup.IsGeneratedAttribute.Mode.Virual">
             <summary>
             Value would be computed as expression during every call.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.IsGenerated.mode">
+        <member name="F:UniformDataOperator.Sql.Markup.IsGeneratedAttribute.mode">
             <summary>
             How to operate with value.
             </summary>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsGenerated.#ctor(UniformDataOperator.Sql.Attributes.IsGenerated.Mode,System.String)">
+        <member name="M:UniformDataOperator.Sql.Markup.IsGeneratedAttribute.#ctor(UniformDataOperator.Sql.Markup.IsGeneratedAttribute.Mode,System.String)">
             <summary>
             Init generated expression.
             </summary>
             <param name="mode">How to operate with value.</param>
             <param name="defExp">Default or Expression value.</param>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.IsAutoIncrement">
+        <member name="T:UniformDataOperator.Sql.Markup.IsAutoIncrementAttribute">
             <summary>
             Is value of this column would incremented relative to previous one during init.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.IsAutoIncrement.ignoreValue">
+        <member name="F:UniformDataOperator.Sql.Markup.IsAutoIncrementAttribute.ignoreValue">
             <summary>
             Value that would be marked as default for numeric field.
             Affectable for primary keys that has IsAutoIncrement definition. 
@@ -1511,12 +1513,12 @@
             In other case object would be described in UPDATE command.
             </summary>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsAutoIncrement.#ctor">
+        <member name="M:UniformDataOperator.Sql.Markup.IsAutoIncrementAttribute.#ctor">
             <summary>
             Mark column as auto increament. 
             </summary>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsAutoIncrement.#ctor(System.Int32)">
+        <member name="M:UniformDataOperator.Sql.Markup.IsAutoIncrementAttribute.#ctor(System.Int32)">
             <summary>
             Mark column as auto increament. Describe value that would be ignored by interpretator fro promary keys.
             </summary>
@@ -1526,7 +1528,7 @@
             would INSERT table's object as new.
             In other case object would be described in UPDATE command.</param>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsAutoIncrement.GetIgnorable(System.Object@)">
+        <member name="M:UniformDataOperator.Sql.Markup.IsAutoIncrementAttribute.GetIgnorable(System.Object@)">
             <summary>
             Trying to find member with defined IsAutoIncrement attribute in collection.
             If found, comparing it's value with ignorable one.
@@ -1537,7 +1539,7 @@
             <returns>Return member if value equal defined ignorable. 
             Null if IsAutoIncrement not defined or object has not defaul value.</returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsAutoIncrement.GetIgnorable(System.Object@,System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo})">
+        <member name="M:UniformDataOperator.Sql.Markup.IsAutoIncrementAttribute.GetIgnorable(System.Object@,System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo})">
             <summary>
             Trying to find member with defined IsAutoIncrement attribute in collection.
             If found, comparing it's value with ignorable one.
@@ -1547,105 +1549,105 @@
             <returns>Return member if value equal defined ignorable. 
             Null if IsAutoIncrement not defined or object has not defaul value.</returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsAutoIncrement.IsIntLike(System.Type)">
+        <member name="M:UniformDataOperator.Sql.Markup.IsAutoIncrementAttribute.IsIntLike(System.Type)">
             <summary>
             Cheing does the type is seems like int.
             </summary>
             <param name="type">Type that would be comparet to ints.</param>
             <returns>Result of types commpession.</returns>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.IsUnsigned">
+        <member name="T:UniformDataOperator.Sql.Markup.IsUnsignedAttribute">
             <summary>
-            Is not have signs after dot.
+            Is value can't has a sign? Available only for integer members.
             </summary>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.IsBinary">
+        <member name="T:UniformDataOperator.Sql.Markup.IsBinaryAttribute">
             <summary>
             Is data would stored in binary format.
             </summary>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.IsPrimaryKey">
+        <member name="T:UniformDataOperator.Sql.Markup.IsPrimaryKeyAttribute">
             <summary>
             Is it's primary key.
             </summary>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.IsZeroFill">
+        <member name="T:UniformDataOperator.Sql.Markup.IsZeroFillAttribute">
             <summary>
-            Is value wold be willed by zero by default. Only for numerical columns.
+            Is value would be filled by zero by default. Only for numerical columns.
             </summary>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.IsUnique">
+        <member name="T:UniformDataOperator.Sql.Markup.IsUniqueAttribute">
             <summary>
-            Is this value must be unique by this column. 
+            Is a value must be unique for the column. 
             </summary>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsUnique.UniqueIndexDeclarationCommand(System.Reflection.MemberInfo)">
+        <member name="M:UniformDataOperator.Sql.Markup.IsUniqueAttribute.UniqueIndexDeclarationCommand(System.Reflection.MemberInfo)">
             <summary>
             Return unique index init string.
             </summary>
             <returns></returns>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.IsNotNull">
+        <member name="T:UniformDataOperator.Sql.Markup.IsNotNullAttribute">
             <summary>
             Is value always not null.
             </summary>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.IsForeignKey">
+        <member name="T:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute">
             <summary>
             Mark fireld as foreign key to other column.
             </summary>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.IsForeignKey.Action">
+        <member name="T:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.Action">
             <summary>
             Action's mode that would be used as reaction on event.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.IsForeignKey.Action.NoAction">
+        <member name="F:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.Action.NoAction">
             <summary>
             Don't do anything.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.IsForeignKey.Action.Cascade">
+        <member name="F:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.Action.Cascade">
             <summary>
             Goins down by member and react all members in relative tables.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.IsForeignKey.Action.Restrict">
+        <member name="F:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.Action.Restrict">
             <summary>
             Don't do anything.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.IsForeignKey.Action.SetNull">
+        <member name="F:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.Action.SetNull">
             <summary>
             Setting null to coulmn value.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.IsForeignKey.schema">
+        <member name="F:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.schema">
             <summary>
             Name of foreign schema.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.IsForeignKey.table">
+        <member name="F:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.table">
             <summary>
             Name of foreign table.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.IsForeignKey.column">
+        <member name="F:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.column">
             <summary>
             Name of foreign column.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.IsForeignKey.onDeleteCommand">
+        <member name="F:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.onDeleteCommand">
             <summary>
             Command that would be applied in case of deleting.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.IsForeignKey.onUpdateCommand">
+        <member name="F:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.onUpdateCommand">
             <summary>
             Command that would be applied in case of updating.
             </summary>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsForeignKey.#ctor(System.String,System.String,System.String)">
+        <member name="M:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.#ctor(System.String,System.String,System.String)">
             <summary>
             Configurate forgeign column reference.
             </summary>
@@ -1653,7 +1655,7 @@
             <param name="table">Name of foreign table.</param>
             <param name="column">Name of foreign column.</param>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsForeignKey.#ctor(System.String,System.String,System.String,UniformDataOperator.Sql.Attributes.IsForeignKey.Action,UniformDataOperator.Sql.Attributes.IsForeignKey.Action)">
+        <member name="M:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.#ctor(System.String,System.String,System.String,UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.Action,UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.Action)">
             <summary>
             Configurate forgeign column reference.
             </summary>
@@ -1663,14 +1665,14 @@
             <param name="onDeleteCommand">Command that would be applied in case of deleting.</param>
             <param name="onUpdateCommand">Command that would be applied in case of updating.</param>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsForeignKey.ActionToCommand(UniformDataOperator.Sql.Attributes.IsForeignKey.Action)">
+        <member name="M:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.ActionToCommand(UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.Action)">
             <summary>
             Convert action to string format.
             </summary>
             <param name="action">Target action.</param>
             <returns>Command format action.</returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsForeignKey.FKIndexDeclarationCommand(System.Reflection.MemberInfo,System.String)">
+        <member name="M:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.FKIndexDeclarationCommand(System.Reflection.MemberInfo,System.String)">
             <summary>
             Return index init string suitable from forgeign key suitable for this column.
             Can auto detect modifers.
@@ -1679,7 +1681,7 @@
             <param name="selfTableName">Name of the table that contain column.</param>
             <returns>Return SQL command that wold generate FK index.</returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsForeignKey.FKIndexDeclarationCommand(UniformDataOperator.Sql.Attributes.Column,UniformDataOperator.Sql.Attributes.IsForeignKey,System.String)">
+        <member name="M:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.FKIndexDeclarationCommand(UniformDataOperator.Sql.Markup.ColumnAttribute,UniformDataOperator.Sql.Markup.IsForeignKeyAttribute,System.String)">
             <summary>
             Return index init string suitable from forgeign key suitable for this column.
             </summary>
@@ -1688,19 +1690,19 @@
             <param name="selfTableName">Name of holding table.</param>
             <returns>Generated SQL command.</returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsForeignKey.FKName(System.String)">
+        <member name="M:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.FKName(System.String)">
             <summary>
             Generate fk key name related to this column.
             </summary>
             <param name="selfTableName">Name of the table that contain column.</param>
             <returns>Return FK suitable name</returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsForeignKey.DropIndexator">
+        <member name="M:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.DropIndexator">
             <summary>
             Clearing current index history.
             </summary>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsForeignKey.ConstrainDeclarationCommand(UniformDataOperator.Sql.Attributes.Column,UniformDataOperator.Sql.Attributes.IsForeignKey,System.String)">
+        <member name="M:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.ConstrainDeclarationCommand(UniformDataOperator.Sql.Markup.ColumnAttribute,UniformDataOperator.Sql.Markup.IsForeignKeyAttribute,System.String)">
             <summary>
             Generate init string from contrains related to this column.
             </summary>
@@ -1709,7 +1711,7 @@
             <param name="selfTableName">Name of holding table.</param>
             <returns>Generated SQL command.</returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.IsForeignKey.ConstrainDeclarationCommand(System.Reflection.MemberInfo,System.String)">
+        <member name="M:UniformDataOperator.Sql.Markup.IsForeignKeyAttribute.ConstrainDeclarationCommand(System.Reflection.MemberInfo,System.String)">
             <summary>
             Generate init string from contrains related to this column.
             Can auto detect modifers.
@@ -1718,41 +1720,41 @@
             <param name="selfTableName">Name of holding table.</param>
             <returns>Generated SQL command.</returns>
         </member>
-        <member name="T:UniformDataOperator.Sql.Attributes.Column">
+        <member name="T:UniformDataOperator.Sql.Markup.ColumnAttribute">
             <summary>
-            Descriptro of data base table's column.
+            Describes column metadata that will be added to server database
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.Column.title">
+        <member name="F:UniformDataOperator.Sql.Markup.ColumnAttribute.title">
             <summary>
             Title of column in table.
             </summary>
         </member>
-        <member name="F:UniformDataOperator.Sql.Attributes.Column.type">
+        <member name="F:UniformDataOperator.Sql.Markup.ColumnAttribute.type">
             <summary>
             Type of column in table.
             </summary>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Column.#ctor(System.String,System.Data.DbType)">
+        <member name="M:UniformDataOperator.Sql.Markup.ColumnAttribute.#ctor(System.String,System.Data.DbType)">
             <summary>
             Init column.
             </summary>
             <param name="title">Title of column in table.</param>
             <param name="type">Type of column in table.</param>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Column.op_Implicit(UniformDataOperator.Sql.Attributes.Column)~System.String">
+        <member name="M:UniformDataOperator.Sql.Markup.ColumnAttribute.op_Implicit(UniformDataOperator.Sql.Markup.ColumnAttribute)~System.String">
             <summary>
             Converting column to string view.
             </summary>
             <param name="column">Input column.</param>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Column.ToString">
+        <member name="M:UniformDataOperator.Sql.Markup.ColumnAttribute.ToString">
             <summary>
             Converting column to string view.
             </summary>
             <returns>Tielt of column.</returns>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Column.MembersDataToCommand(System.Object@,System.Data.Common.DbCommand@,System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo})">
+        <member name="M:UniformDataOperator.Sql.Markup.ColumnAttribute.MembersDataToCommand(System.Object@,System.Data.Common.DbCommand@,System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo})">
             <summary>
             Adding members columns data to params.
             </summary>
@@ -1760,7 +1762,7 @@
             <param name="command">Command objects that would share values.</param>
             <param name="members">Members that with defined Column attribute that would be stored to command.</param>
         </member>
-        <member name="M:UniformDataOperator.Sql.Attributes.Column.MembersToMetaLists(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo},System.Collections.Generic.List{UniformDataOperator.Sql.Attributes.Column}@,System.Collections.Generic.List{System.String}@)">
+        <member name="M:UniformDataOperator.Sql.Markup.ColumnAttribute.MembersToMetaLists(System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo},System.Collections.Generic.List{UniformDataOperator.Sql.Markup.ColumnAttribute}@,System.Collections.Generic.List{System.String}@)">
             <summary>
             Converting collection of members to lists that contain's splited meta data suitable for queries.
             </summary>

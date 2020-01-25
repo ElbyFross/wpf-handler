@@ -1,8 +1,0 @@
-var searchData=
-[
-  ['active',['Active',['../d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header.html#a020e75c12da978773cd2a3f0089e0644',1,'WpfHandler.UI.Controls.Header.Active()'],['../de/dc7/class_wpf_handler_1_1_u_i_1_1_controls_1_1_selectable_grid.html#ae199a4309937de8ff5ba0e5810c46c60',1,'WpfHandler.UI.Controls.SelectableGrid.Active()']]],
-  ['addbuttonvisibile',['AddButtonVisibile',['../d7/de8/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_auto_collection_properties_attribute.html#aa93230d17f835aa86a64d12914ac482e',1,'WpfHandler.UI.AutoLayout.Options.AutoCollectionPropertiesAttribute.AddButtonVisibile()'],['../d2/d28/class_wpf_handler_1_1_u_i_1_1_controls_1_1_auto_collection.html#a5b53cdaeabbf4958eb0391475f060771',1,'WpfHandler.UI.Controls.AutoCollection.AddButtonVisibile()']]],
-  ['alignment',['Alignment',['../da/de4/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_horizontal_align_attribute.html#a7e62bc68b5e19d0f8167a97146996b6c',1,'WpfHandler.UI.AutoLayout.Options.HorizontalAlignAttribute.Alignment()'],['../d6/db9/class_wpf_handler_1_1_u_i_1_1_auto_layout_1_1_options_1_1_vertical_align_attribute.html#a71a12b8962ff5c070830d42c1909ff75',1,'WpfHandler.UI.AutoLayout.Options.VerticalAlignAttribute.Alignment()']]],
-  ['arrowvisible',['ArrowVisible',['../d2/dc0/class_wpf_handler_1_1_u_i_1_1_controls_1_1_header.html#a982c296a72324bf0fab5076cebd60928',1,'WpfHandler::UI::Controls::Header']]],
-  ['automargin',['AutoMargin',['../d0/d24/class_wpf_handler_1_1_u_i_1_1_controls_1_1_catalog_button.html#ab427b14cc2815b6d085f5c159cd0bb21',1,'WpfHandler::UI::Controls::CatalogButton']]]
-];
