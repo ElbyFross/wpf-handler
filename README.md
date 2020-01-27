@@ -21,10 +21,10 @@ Framework not requires isntalation.
 Just store the downloaded source wherever you want and add the reference to the `WpfHandler.csproj` to your project.
 
 # Support the product
-## Why the product need your support?
+### Why the product need your support?
 It has a lot of anavoidable expances that must be covered. You may find mor information by th efollowing [link](https://github.com/ElbyFross/wpf-handler/wiki/Support-of-the-initiative)
 
-## How to support?
+### How to support?
 [Here](https://github.com/ElbyFross/wpf-handler/wiki/Support-of-the-initiative) you may find all possible information about ways to contribution.
 
 If you looking for way to provide a financial help to the Initiative then you may consider subscription at the [Patreon](https://www.patreon.com/podshyvalov). It will be really helpful. Thank you in advance! 
