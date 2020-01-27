@@ -2,10 +2,12 @@
 The flexible framework that highly simplify your work with the WPF. 
 
 #### Core features:
-- Budle of new controls
+- Bundle of new controls / animations / effects.
 - Auto building of UI
 - Localization system
 - Plugins managment
+
+[More about](https://github.com/ElbyFross/wpf-handler/wiki)
 
 ## Documetation
 | Format | Description | Link |
