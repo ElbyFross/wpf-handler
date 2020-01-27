@@ -351,14 +351,7 @@ namespace WpfHandler.UI.Controls
             }
 
             // Informing subscribers.
-            ValueChanged?.Invoke(this);
-
-            // Looking for the root element.
-            static FrameworkElement GetRoot(FrameworkElement element)
-            {
-                if (element.Parent != null) return GetRoot(element.Parent as FrameworkElement);
-                else return element;
-            }
+            ValueChanged?.Invoke(this);                       
         }
 
         /// <summary>
@@ -520,7 +513,7 @@ namespace WpfHandler.UI.Controls
             if(ListContent.IsLoaded == false)
             {
                 // Subscribing on the after loadign event.
-                ListContent.Loaded += delegate (object sender, RoutedEventArgs e)
+                ListContent.Loaded += delegate (object sender2, RoutedEventArgs _)
                 {
                     // Recal layout computing.
                     UpdateElementsWidth(sender, null);
@@ -677,7 +670,19 @@ namespace WpfHandler.UI.Controls
 
             // Inform subscribers.
             ValueChanged?.Invoke(this);
-        }       
+        }
         #endregion
+        
+
+        /// <summary>
+        /// Looks for the root element.
+        /// </summary>
+        /// <param name="element"></param>
+        /// <returns></returns>
+        static FrameworkElement GetRoot(FrameworkElement element)
+        {
+            if (element.Parent != null) return GetRoot(element.Parent as FrameworkElement);
+            else return element;
+        }
     }
 }

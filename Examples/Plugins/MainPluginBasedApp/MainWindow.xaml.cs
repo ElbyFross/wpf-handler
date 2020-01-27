@@ -27,6 +27,11 @@ namespace MainPluginBasedApp
         /// </summary>
         public MainWindow()
         {
+            #region Only for example
+            _ = new ExamplePlugin1.MainPluginControl();
+            _ = new ExamplePlugin2.PluginControl();
+            #endregion
+
             // Loading assemblies for a plugins directory.
             UniformDataOperator.AssembliesManagement.AssembliesHandler.LoadAssemblies(
                 AppDomain.CurrentDomain.BaseDirectory + "plugins\\");

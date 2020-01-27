@@ -13,7 +13,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <controls:CatalogView x:Name="catalogView" Background="#00171F"/>
-        
+
         <Grid x:Name="canvas" Grid.Column="1"/>
     </Grid>
 </Window>
