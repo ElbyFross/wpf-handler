@@ -22,9 +22,9 @@ Just store the downloaded source wherever you want and add the reference to the 
 
 # Support the product
 ### Why the product need your support?
-It has a lot of anavoidable expances that must be covered. You may find mor information by th efollowing [link](https://github.com/ElbyFross/wpf-handler/wiki/Support-of-the-initiative)
+It has a lot of anavoidable expances that must be covered. You may find more information by the following [link](https://github.com/ElbyFross/wpf-handler/wiki/Support-of-the-initiative)
 
 ### How to support?
-[[Patreon]](https://www.patreon.com/podshyvalov) - become a backer. It will be really helpful. Thank you in advance! 
-
-[Here](https://github.com/ElbyFross/wpf-handler/wiki/Support-of-the-initiative) you may find all possible information about other ways to contribution and find out what the project's expenses.
+* [[Patreon]](https://www.patreon.com/podshyvalov) - become a backer. It will be really helpful. Thank you in advance! 
+* **Set a Star** - the simplest action but still very helpful. Any your activity shows to possible sponsors that the project is relevant.
+* [Here](https://github.com/ElbyFross/wpf-handler/wiki/Support-of-the-initiative) you may find other ways to contribution.
