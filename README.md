@@ -25,14 +25,7 @@ Just store the downloaded source wherever you want and add the reference to the 
 It has a lot of anavoidable expances that must be covered. You may find mor information by th efollowing [link](https://github.com/ElbyFross/wpf-handler/wiki/Support-of-the-initiative)
 
 ## How to support?
-### Set the Star
-The simplest action but still very helpful. Any your activity shows to possible sponsors that the project is relevant.
+[Here](https://github.com/ElbyFross/wpf-handler/wiki/Support-of-the-initiative) you may find all possible information about ways to contribution.
 
-### Make your contribution
-You can find an information about non financial contribution way by the following [link](https://github.com/ElbyFross/wpf-handler/wiki/Support-of-the-initiative#non-financial-contribution)
-
-### Donate
-Most of us has no a time to make a source contribution, but still have a few coins that could be helpful for development.
-
-You may consider to make your contribution via the [Patreon](https://www.patreon.com/podshyvalov). It will be really helpful. Thank you in advance! 
+If you looking for way to provide a financial help to the Initiative then you may consider subscription at the [Patreon](https://www.patreon.com/podshyvalov). It will be really helpful. Thank you in advance! 
 
