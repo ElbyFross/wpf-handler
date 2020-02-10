@@ -131,6 +131,8 @@ namespace WpfHandler.UI.Controls
         {
             RoutedEventArgs e = new RoutedEventArgs(ClickEvent, this);
             RaiseEvent(e);
+
+            ValueChanged?.Invoke(this);
         }
 
         /// <summary>

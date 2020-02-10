@@ -54,6 +54,7 @@ limitations under the License.-->
             
             <local:FlatButton Label="+" 
                               Click="OnAdd"
+                              Foreground="{Binding Foreground}"
                               HorizontalContentAlignment="Center" 
                               VerticalAlignment="Bottom"
                               Margin="0,-1,0,-1"/>
@@ -68,6 +69,7 @@ limitations under the License.-->
                        Margin="0,-7, 0, 0"/>
             
             <local:FlatButton Label="-" Click="OnRemove"
+                              Foreground="{Binding Foreground, ElementName=main}"
                               HorizontalContentAlignment="Center"
                               VerticalAlignment="Bottom"
                               Margin="0,-1,0,-1"/>

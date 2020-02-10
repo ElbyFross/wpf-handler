@@ -96,7 +96,7 @@ namespace WpfHandler.UI.Controls
 
         #region API
         /// <summary>
-        /// Configurate GUI element and bind it to auto layout handler.
+        /// Configurates GUI element and bind it to auto layout handler.
         /// </summary>
         /// <param name="layer">Target UI layer.</param>
         /// <param name="args">Must contains: <see cref="UIDescriptor"/> and <see cref="MemberInfo"/></param>

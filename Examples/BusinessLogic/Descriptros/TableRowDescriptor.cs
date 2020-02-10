@@ -17,7 +17,7 @@ namespace BusinessLogic.Descriptros
     /// </summary>
     [Serializable]
     [LabelWidth(0)]
-    public class RowDescriptor : UIDescriptor
+    public class TableRowDescriptor : UIDescriptor
     {
         [BeginHorizontalGroup]
         [Width(50)]

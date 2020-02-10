@@ -29,34 +29,33 @@ namespace WpfHandler.UI.AutoLayout.Controls
     /// <summary>
     /// Allow to add custom label element to the UI.
     /// </summary>
-    [TypesCompatible(typeof(GUIContent))]
-    public class LabelAttribute : GUIContentAttribute, IGUIField
+    public class LabelAttribute : GUIContentAttribute, IGUIElement
     {
-        /// <summary>
-        /// Hanels label content. Allows only <see cref="GUIContent"/> values.
-        /// </summary>
-        public object Value
-        {
-            get => Content;
-            set
-            {
-                if(value is GUIContent content)
-                {
-                    Content = content;
-                    ValueChanged?.Invoke(this);
-                }
-            }
-        }
+        ///// <summary>
+        ///// Hanels label content. Allows only <see cref="GUIContent"/> values.
+        ///// </summary>
+        //public object Value
+        //{
+        //    get => Content;
+        //    set
+        //    {
+        //        if(value is GUIContent content)
+        //        {
+        //            Content = content;
+        //            ValueChanged?.Invoke(this);
+        //        }
+        //    }
+        //}
 
-        /// <summary>
-        /// Member binded to the UI element during instiniation by using of <see cref="UIDescriptor"/> as source.
-        /// </summary>
-        public MemberInfo BindedMember { get; set; }
+        ///// <summary>
+        ///// Member binded to the UI element during instiniation by using of <see cref="UIDescriptor"/> as source.
+        ///// </summary>
+        //public MemberInfo BindedMember { get; set; }
 
-        /// <summary>
-        /// Default constructor.
-        /// </summary>
-        public LabelAttribute() : base () { }
+        ///// <summary>
+        ///// Default constructor.
+        ///// </summary>
+        //public LabelAttribute() : base () { }
 
         /// <summary>
         /// Auto initialize content with shared title value.
@@ -97,10 +96,10 @@ namespace WpfHandler.UI.AutoLayout.Controls
             string decriptionLocalizationResourseKey) : 
             base(defaultTitle, defaultDescription, titleLocalizationResourseKey, decriptionLocalizationResourseKey) { }
 
-        /// <summary>
-        /// Occurs when contrent is changed.
-        /// </summary>
-        public event Action<IGUIField> ValueChanged;
+        ///// <summary>
+        ///// Occurs when contrent is changed.
+        ///// </summary>
+        //public event Action<IGUIField> ValueChanged;
 
         /// <summary>
         /// Spawn label element into the UI.
@@ -110,14 +109,17 @@ namespace WpfHandler.UI.AutoLayout.Controls
         public virtual void OnLayout(ref LayoutLayer layer, params object[] args)
         {
             // Instiniate element.
-            var element = new System.Windows.Controls.Label
+            var element = new WpfHandler.UI.Controls.GUIContentLabel
             {
                 // Set content.
-                Content = Content.GetTitle()
+                LabelContent = Content
             };
-
+            
             // Attaching to layout.
             layer.ApplyControl(element);
+
+            // Activating the layout.
+            element.OnLayout(ref layer, args);
         }
 
         /// <summary>

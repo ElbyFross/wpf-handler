@@ -27,6 +27,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfHandler.UI.Controls;
 using WpfHandler.UI.AutoLayout;
 using WpfHandler.UI.AutoLayout.Configuration;
 using WpfHandler.UI.AutoLayout.Markups;
@@ -78,7 +79,7 @@ namespace WpfHandler.UI.AutoLayout.Controls
         /// The UI Descriptor member binded as a source for the element.
         /// </summary>
         public MemberInfo BindedMember { get; set; }
-
+        
         /// <summary>
         /// BUfer that contains connected descriptor.
         /// </summary>
@@ -127,18 +128,6 @@ namespace WpfHandler.UI.AutoLayout.Controls
         /// </remarks>
         public void OnLayout(ref LayoutLayer layer, params object[] args)
         {
-            //#region Looking for shared data
-            //// Find required referendes.
-            //UIDescriptor desc = null;
-            //MemberInfo member = null;
-
-            //// Trying to get shared properties.
-            //foreach (object obj in args)
-            //{
-            //    if (obj is UIDescriptor) desc = (UIDescriptor)obj;
-            //    if (obj is MemberInfo) member = (MemberInfo)obj;
-            //}
-            //#endregion
         }
     }
 }

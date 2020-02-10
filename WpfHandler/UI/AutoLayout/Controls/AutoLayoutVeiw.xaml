@@ -22,4 +22,5 @@ limitations under the License.-->
              d:DesignHeight="450" d:DesignWidth="800"
              Name="main">
     <StackPanel x:Name="root" Orientation="Vertical"/>
+    <!--<Grid x:Name="root"/>-->
 </UserControl>

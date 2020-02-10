@@ -48,10 +48,10 @@ namespace WpfHandler.UI.AutoLayout
         public event Action<UIDescriptor> Loaded;
 
         /// <summary>
-        /// Cyrrent active UI layer.
+        /// Current active UI layer.
         /// </summary>
         [HideInInspector]
-        LayoutLayer activeLayer = new LayoutLayer();
+        LayoutLayer activeLayer;
 
         /// <summary>
         /// The table that contais instiniated elements.
@@ -67,6 +67,24 @@ namespace WpfHandler.UI.AutoLayout
         /// <param name="root">UI element that would contain instiniated UI elemets.</param>
         public void BindTo(Panel root)
         {
+            // Instiniate first UILayer.
+            var layer = new LayoutLayer()
+            {
+                root = root // Thet binding target as root for cuurent layer.
+            };
+
+            BindTo(layer);
+        }
+
+        /// <summary>
+        /// Insiniate UI by descriptor's attributes map and add it as child to parent element.
+        /// </summary>
+        /// <param name="layer">UI layer that will used as a root for the descriptor's elements.</param>
+        public void BindTo(LayoutLayer layer)
+        {
+            // Storing layer.
+            activeLayer = layer;
+
             #region Getting descripting data
             // Getting relevant type.
             var selfType = this.GetType();
@@ -89,13 +107,7 @@ namespace WpfHandler.UI.AutoLayout
 
             // Sort in declaretion order.
             members = orderedMembers.Concat(disorderedMembers).ToArray();
-
-            // Instiniate first UILayer.
-            activeLayer = new LayoutLayer()
-            {
-                root = root // Thet binding target as root for cuurent layer.
-            };
-
+            
             // Perform all descriptor map.
             foreach (MemberInfo member in members)
             {

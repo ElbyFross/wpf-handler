@@ -67,6 +67,9 @@
     <Compile Include="UI\Controls\CatalogView.xaml.cs">
       <DependentUpon>CatalogView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UI\Controls\GUIContentLabel.xaml.cs">
+      <DependentUpon>GUIContentLabel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UI\Controls\Logon\AdvancedRegistrationPanelDescriptor.cs" />
     <Compile Include="UI\Controls\Logon\DefaultRegistrationPanelDescriptor.cs" />
     <Compile Include="UI\LocalizationHandler.cs" />
@@ -192,6 +195,10 @@
     <Compile Include="UI\Controls\TextFieldControl.cs" />
     <None Include="WpfHandler.nuspec" />
     <Page Include="UI\Controls\CatalogView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UI\Controls\GUIContentLabel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

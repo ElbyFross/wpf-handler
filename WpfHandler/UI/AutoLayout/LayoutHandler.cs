@@ -120,13 +120,35 @@ namespace WpfHandler.UI.AutoLayout
         public static void VerticalLayoutAddChild(IAddChild parent, FrameworkElement element)
         {
             // Validate type cast.
-            if(!(parent is StackPanel panel))
+            if (!(parent is StackPanel panel))
             {
                 throw new InvalidCastException("Parent mast be `" + typeof(StackPanel).FullName + "`.");
             }
 
             // Set element to the parent panel.
             panel.Children.Add(element);
+
+            //// Drop ivalid elelment.
+            //if (!(parent is Grid grid))
+            //{
+            //    throw new InvalidCastException("Parent must be `" + typeof(Grid).FullName + "`.");
+            //}
+
+            //// Add new column fo element.
+            //grid.RowDefinitions.Add(new RowDefinition()
+            //{
+            //    // define required width.
+            //    // Auto - if width of element less or equals 0, or is NaN.
+            //    // Shared element's width in case if defined.
+            //    Height = double.IsNaN(element.Height) || element.Height <= 0 ?
+            //            new GridLength(1, GridUnitType.Star) : new GridLength(element.Height)
+            //});
+
+            //// Add element as child.
+            //parent.AddChild(element);
+
+            //// Set als column as target for element.
+            //Grid.SetRow(element, grid.RowDefinitions.Count - 1);
         }
 
         /// <summary>
@@ -165,14 +187,18 @@ namespace WpfHandler.UI.AutoLayout
             void PropChangeCallback(IGUIField _)
             {
                 // Try to set value.
-                try { propMember.SetValue(descriptor, control.Value); } catch(Exception ex)
+                try { propMember.SetValue(descriptor, control.Value); }
+                catch (NotSupportedException) { }
+                catch (Exception ex)
                 { MessageBox.Show("Backward member binding corupted.\n\nDetails:\n" + ex.Message); }
             }
             // Instiniate UI field update callback for fields members.
             void FieldChangeCallback(IGUIField _)
             {
                 // Try to set value.
-                try { fieldMember.SetValue(descriptor, control.Value); } catch(Exception ex)
+                try { fieldMember.SetValue(descriptor, control.Value); }
+                catch (NotSupportedException) { }
+                catch (Exception ex)
                 { MessageBox.Show("Backward member binding corupted.\n\nDetails:\n" + ex.Message); }
             }
             #endregion

@@ -148,7 +148,7 @@ namespace WpfHandler.UI.AutoLayout.Configuration
 
             // Throw exception if control not shared.
             if (BindedLabel == null) 
-                throw new NotSupportedException( "Require `" + 
+                throw new NotSupportedException( "Requires `" + 
                     typeof(ILabel).FullName + "` UI control shared via args[].");
 
             // Udate content.
