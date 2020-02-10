@@ -15,6 +15,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -26,13 +27,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfHandler.UI.AutoLayout;
+using WpfHandler.UI.AutoLayout.Configuration;
+using WpfHandler.UI.AutoLayout.Markups;
 
 namespace WpfHandler.UI.AutoLayout.Controls
 {
     /// <summary>
     /// Allow to connect auto generated GUI to the XAML descriptor.
     /// </summary>
-    public partial class AutoLayoutVeiw : UserControl
+    [TypesCompatible(typeof(UIDescriptor))]
+    public partial class AutoLayoutVeiw : UserControl, IGUIField
     {
         /// <summary>
         /// Descriptor binded to the view.
@@ -42,21 +47,47 @@ namespace WpfHandler.UI.AutoLayout.Controls
             get { return _Descriptor; }
             set
             {
-                // Finalize current GUI.
+                // Finalizes current GUI.
                 _Descriptor?.UnbindFrom(root);
 
-                // Instiniate new one.
+                // Instiniates new one.
                 value?.BindTo(root);
 
-                // Update stored value.
+                // Updates stored value.
                 _Descriptor = value;
+
+                // Informs subscribers.
+                ValueChanged?.Invoke(this);
             }
         }
+
+        /// <summary>
+        /// Operate with a value of <see cref="Descriptor"/> property.
+        /// </summary>
+        public object Value
+        {
+            get => Descriptor;
+            set
+            {
+                // Trying to get descriptor.
+                if (value is UIDescriptor desc) Descriptor = desc;
+            }
+        }
+
+        /// <summary>
+        /// The UI Descriptor member binded as a source for the element.
+        /// </summary>
+        public MemberInfo BindedMember { get; set; }
 
         /// <summary>
         /// BUfer that contains connected descriptor.
         /// </summary>
         protected UIDescriptor _Descriptor;
+
+        /// <summary>
+        /// Occurs when 
+        /// </summary>
+        public event Action<IGUIField> ValueChanged;
 
         /// <summary>
         /// Initialize component.
@@ -85,5 +116,29 @@ namespace WpfHandler.UI.AutoLayout.Controls
         /// <param name="e"></param>
         private void Main_Loaded(object sender, RoutedEventArgs e)
         { }
+
+        /// <summary>
+        /// Connecting element to the UI handler.
+        /// </summary>
+        /// <param name="layer">Target UI layer.</param>
+        /// <param name="args">Must contains: <see cref="UIDescriptor"/> and <see cref="MemberInfo"/></param>
+        /// <remarks>
+        /// Allows only a `RoutedEventHandler` or an `Action` delegate as value.
+        /// </remarks>
+        public void OnLayout(ref LayoutLayer layer, params object[] args)
+        {
+            //#region Looking for shared data
+            //// Find required referendes.
+            //UIDescriptor desc = null;
+            //MemberInfo member = null;
+
+            //// Trying to get shared properties.
+            //foreach (object obj in args)
+            //{
+            //    if (obj is UIDescriptor) desc = (UIDescriptor)obj;
+            //    if (obj is MemberInfo) member = (MemberInfo)obj;
+            //}
+            //#endregion
+        }
     }
 }

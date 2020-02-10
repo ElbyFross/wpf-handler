@@ -72,7 +72,7 @@ namespace WpfHandler.UI.AutoLayout.Controls
             }
 
             // Add element to the root.
-            layer.root.AddChild(canvas);
+            layer.ApplyControl(canvas);
         }
     }
 }

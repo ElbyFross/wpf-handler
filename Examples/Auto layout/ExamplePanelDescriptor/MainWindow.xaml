@@ -8,7 +8,7 @@
         xmlns:autolayout="clr-namespace:WpfHandler.UI.AutoLayout.Controls;assembly=WpfHandler"
         mc:Ignorable="d"
         Title="UI from descritor" 
-        Height="480" Width="280" MinWidth="280" MaxWidth="280"        
+        Height="480" Width="300" MinWidth="300" MaxWidth="300"        
         Background="#00171F"
         x:Name="main">
 

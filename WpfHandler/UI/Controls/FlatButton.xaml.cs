@@ -28,14 +28,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfHandler.UI.AutoLayout;
+using WpfHandler.UI.AutoLayout.Configuration;
+using WpfHandler.UI.AutoLayout.Markups;
 using System.Windows.Controls.Primitives;
+using System.Reflection;
 
 namespace WpfHandler.UI.Controls
 {
     /// <summary>
     /// Interaction logic for FlatButton.xaml
     /// </summary>
-    public partial class FlatButton : UserControl, ILabel
+    /// <remarks>
+    /// Can be instantiated via the UIDescriptor declaration by an `Action` or `RoutedEventHandler` member.
+    /// </remarks>
+    [TypesCompatible(typeof(Action), typeof(RoutedEventHandler))]
+    public partial class FlatButton : UserControl, ILabel, IGUIField
     {
         /// <summary>
         /// Event that will be called when button will be pressed.
@@ -47,6 +54,11 @@ namespace WpfHandler.UI.Controls
         /// </summary>
         public static readonly DependencyProperty LabelProperty = DependencyProperty.Register(
           "Label", typeof(string), typeof(FlatButton), new PropertyMetadata("Sample"));
+
+        /// <summary>
+        /// Not supported.
+        /// </summary>
+        public event Action<IGUIField> ValueChanged;
 
         /// <summary>
         /// Text that will be displayed on the button.
@@ -70,6 +82,16 @@ namespace WpfHandler.UI.Controls
         /// Not supported.
         /// </summary>
         public float LabelWidth { get => throw new NotSupportedException(); set => throw new NotSupportedException(); }
+
+        /// <summary>
+        /// Not supported.
+        /// </summary>
+        public object Value { get => throw new NotSupportedException(); set { ValueChanged?.Invoke(this); } }
+
+        /// <summary>
+        /// AS member instance binded to the element via an UIDescriptor.
+        /// </summary>
+        public MemberInfo BindedMember { get; set; }
 
         static FlatButton()
         {
@@ -109,6 +131,43 @@ namespace WpfHandler.UI.Controls
         {
             RoutedEventArgs e = new RoutedEventArgs(ClickEvent, this);
             RaiseEvent(e);
+        }
+
+        /// <summary>
+        /// Connecting element to the UI handler.
+        /// </summary>
+        /// <param name="layer">Target UI layer.</param>
+        /// <param name="args">Must contains: <see cref="UIDescriptor"/> and <see cref="MemberInfo"/></param>
+        /// <remarks>
+        /// Allows only a `RoutedEventHandler` or an `Action` delegate as value.
+        /// </remarks>
+        public void OnLayout(ref LayoutLayer layer, params object[] args)
+        {
+            #region Looking for shared data
+            // Find required referendes.
+            UIDescriptor desc = null;
+            MemberInfo member = null;
+
+            // Trying to get shared properties.
+            foreach (object obj in args)
+            {
+                if (obj is UIDescriptor) desc = (UIDescriptor)obj;
+                if (obj is MemberInfo) member = (MemberInfo)obj;
+            }
+            #endregion
+
+            Type handlerType = UIDescriptor.MembersHandler.GetSpecifiedMemberType(member);
+            if(handlerType.Equals(typeof(RoutedEventHandler)))
+            {
+                Click += (RoutedEventHandler)UIDescriptor.MembersHandler.GetValue(member, desc);
+            }
+            else
+            {
+                Click += delegate(object sender, RoutedEventArgs routedEventArgs)
+                {
+                    ((Action)UIDescriptor.MembersHandler.GetValue(member, desc))?.Invoke();
+                };
+            }
         }
     }
 }

@@ -153,11 +153,17 @@ namespace WpfHandler.UI.Controls
         /// <summary>
         /// Width of label field.
         /// </summary>
+        /// <remarks>
+        /// Not affective in case if <see cref="Orientation"/> is non the <see cref="System.Windows.Controls.Orientation.Horizontal"/>.
+        /// </remarks>
         public float LabelWidth
         {
             get { return (float)GetValue(LabelWidthProperty); }
             set
             {
+                // Drops in case if orientation not is horizontal.
+                if (Orientation != Orientation.Horizontal) return;
+
                 // Buferize requested value.
                 LastLabelWidth = value;
 

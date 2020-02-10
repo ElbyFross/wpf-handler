@@ -18,8 +18,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using WpfHandler.UI.AutoLayout;
 using WpfHandler.UI.Controls;
+using WpfHandler.UI.AutoLayout;
+using WpfHandler.UI.AutoLayout.Configuration;
+using WpfHandler.UI.AutoLayout.Markups;
 
 namespace WpfHandler.UI.AutoLayout.Options
 {
@@ -94,13 +96,24 @@ namespace WpfHandler.UI.AutoLayout.Options
         /// <param name="e"></param>
         private void LabelWidthAttribute_Loaded(object sender, RoutedEventArgs e)
         {
-            // Unsubscribing from events.
-            BindedLabel.Loaded -= LabelWidthAttribute_Loaded;
-
             // Apply requested size.
-            if (BindedLabel is ILabel label)
+            if (sender is ILabel label)
             {
-                label.LabelWidth = (float)Size;
+                try
+                {
+                    label.LabelWidth = (float)Size;
+                }
+                catch (NotSupportedException) 
+                { 
+                    // Not important 
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(
+                        "ILable `" + label.Label + "` cause an exception" +
+                        " during applying of the " +
+                        "LabelWidth parameter.\n\nDetails:\n" + ex.Message);
+                }
             }
         }
     }

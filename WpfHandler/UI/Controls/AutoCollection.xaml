@@ -94,9 +94,7 @@ limitations under the License.-->
             <ScrollViewer x:Name="veiw"
                           Background="Transparent"
                           VerticalScrollBarVisibility="Auto"
-                          HorizontalScrollBarVisibility="Auto"
-                          Width="{Binding Width}"
-                          Height="{Binding Height}">
+                          HorizontalScrollBarVisibility="Auto">
                 <!--<StackPanel x:Name="contentPanel">
                 </StackPanel>-->
 

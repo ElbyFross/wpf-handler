@@ -38,7 +38,12 @@ namespace WpfHandler.UI.AutoLayout
         public bool IsLoaded { get; private set; }
 
         /// <summary>
-        /// Will occurs when the descripot get loaded state.
+        /// Occurs when come of UI elemets binded to the descriptor was updated.
+        /// </summary>
+        public event Action<UIDescriptor, IGUIField> ValueChanged;
+
+        /// <summary>
+        /// Will occurs when the descripor get loaded state.
         /// </summary>
         public event Action<UIDescriptor> Loaded;
 
@@ -356,12 +361,17 @@ namespace WpfHandler.UI.AutoLayout
 
                 // Adding instiniated element to the layout.
                 activeLayer?.ApplyControl(control as FrameworkElement);
+
+                // Subscribe the global event handler.
+                control.ValueChanged += OnValueChangedCallback;
             }
             catch(Exception ex) 
-            { MessageBox.Show(
+            { 
+                MessageBox.Show(
                 "Control sign up failed.\n\n" +
                 "Member: " + member.Name + "\n" + 
-                "Details: " + ex.Message); }
+                "Details: " + ex.Message); 
+            }
         }
 
         /// <summary>
@@ -468,6 +478,16 @@ namespace WpfHandler.UI.AutoLayout
         }
 
         /// <summary>
+        /// Handels the IGuiField.ValueChanged event and forward to the global one.
+        /// </summary>
+        /// <param name="sender"></param>
+        protected virtual void OnValueChangedCallback(IGUIField sender)
+        {
+            // Inform subscribers.
+            ValueChanged?.Invoke(this, sender);
+        }
+
+        /// <summary>
         /// Handling tasks with members suitable for UI descriptor's operations.
         /// </summary>
         public static class MembersHandler
@@ -527,13 +547,13 @@ namespace WpfHandler.UI.AutoLayout
             /// </summary>
             /// <param name="member">PropertyInfo ot FieldInfo instance.</param>
             /// <param name="target">Object that contains member.</param>
-            public static void GetValue(MemberInfo member, object target)
+            public static object GetValue(MemberInfo member, object target)
             {
                 // Trying to get specified memebers.
                 if (GetSpecifiedMemberInfo(member, out PropertyInfo pi, out FieldInfo fi))
                 {
-                    if (pi != null) pi.GetValue(target); // Operate as property.
-                    else fi.GetValue(target); // Operate as field.
+                    if (pi != null) return pi.GetValue(target); // Operate as property.
+                    else return fi.GetValue(target); // Operate as field.
                 }
                 else
                 {

@@ -97,7 +97,23 @@ namespace ExamplePanelDescriptor
         public string city;
         public string country;
 
-        // Callback that occurs whe UI is ready.
+        [EndGroup]
+        [Header("Buttons")]
+        [BeginHorizontalGroup]
+        [HorizontalAlign(HorizontalAlignment.Center)]
+        [Background("Orange")]
+        [Foreground("Black")]
+        [FontWeight(FontWeightAttribute.WeightType.Bold)]
+        // Source for the button.
+        public Action sampleActionHandler = delegate() { MessageBox.Show("Simple action activated."); };
+
+        // Source for button handled by routed event.
+        [HorizontalAlign(HorizontalAlignment.Center)]
+        public RoutedEventHandler routedEventHandler  = 
+            delegate (object sednder, RoutedEventArgs args) 
+            { MessageBox.Show("Routed event handled."); };
+
+        // Callback that occurs when the UI is ready.
         public override void OnLoaded()
         {
             // Receiving the IGUIField generated from the state member.
