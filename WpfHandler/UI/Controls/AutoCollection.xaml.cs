@@ -39,8 +39,8 @@ namespace WpfHandler.UI.Controls
     /// Creating UI element for work with binded collections.
     /// </summary>
     [TypesCompatible(typeof(Object))]
-    [IListCompatible]
-    public partial class AutoCollection : CollectionControl
+    [ListCompatible]
+    public partial class AutoCollection : CollectionControl, IPaletteCompatible
     {
         #region Dependency properties
         /// <summary>
@@ -192,6 +192,31 @@ namespace WpfHandler.UI.Controls
         /// Bindted lsit element that will manage items.
         /// </summary>
         public override ListBox ListContent => contentPanel;
+
+        /// <summary>
+        /// Palette applyed to the element.
+        /// </summary>
+        public Brush[] Palette
+        {
+            get
+            {
+                return new Brush[]
+                {
+                    Background,
+                    Foreground,
+                    BackplateBackground,
+                    SpliterColor
+                };
+            }
+            set
+            {
+                try { Background = value[0] ?? Background; } catch { };
+                try { Foreground = value[1] ?? Foreground; } catch { };
+                try { BackplateBackground = value[2] ?? BackplateBackground; } catch { };
+                try { SpliterColor = value[3] ?? SpliterColor; } catch { };
+            }
+        }
+
 
         /// <summary>
         /// The delegate that will be called during Add button click.

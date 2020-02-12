@@ -25,6 +25,7 @@ namespace BusinessLogic.Descriptros
     /// </summary>
     [Foreground("White")]
     [Background("#C1625F")]
+    [LabelWidth(100)]
     public class NewItemTabDescriptor : UIDescriptor
     {
         [Content("Back", null, "nit_back")]
@@ -34,8 +35,6 @@ namespace BusinessLogic.Descriptros
         [Width(400)]
         public SubPanel form = new SubPanel();
 
-        [Foreground("White")]
-        [LabelWidth(100)]
         public class SubPanel : UIDescriptor
         {
             [Space(25)]

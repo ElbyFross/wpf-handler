@@ -38,6 +38,12 @@ namespace WpfHandler.UI.AutoLayout
         public bool IsLoaded { get; private set; }
 
         /// <summary>
+        /// Options applyed during initialization.
+        /// </summary>
+        public ISharableGUILayoutOption[] SharedLayoutOptions { get; set; } =
+            new ISharableGUILayoutOption[0];
+
+        /// <summary>
         /// Occurs when come of UI elemets binded to the descriptor was updated.
         /// </summary>
         public event Action<UIDescriptor, IGUIField> ValueChanged;
@@ -46,7 +52,7 @@ namespace WpfHandler.UI.AutoLayout
         /// Will occurs when the descripor get loaded state.
         /// </summary>
         public event Action<UIDescriptor> Loaded;
-
+        
         /// <summary>
         /// Current active UI layer.
         /// </summary>
@@ -60,7 +66,7 @@ namespace WpfHandler.UI.AutoLayout
         /// </summary>
         [HideInInspector]
         Hashtable RegistredFields { get; set; } = new Hashtable();
-
+        
         /// <summary>
         /// Insiniate UI by descriptor's attributes map and add it as child to parent element.
         /// </summary>
@@ -103,6 +109,39 @@ namespace WpfHandler.UI.AutoLayout
             // Sorting disordered members by metadata.
             var disorderedMembers = members.Where(f => f.GetCustomAttribute<OrderAttribute>() == null).
                 OrderBy(f => f.MetadataToken);
+            #endregion
+
+            #region Definig handler
+            // The handler that will apply options to the element.
+            void ApplyOptionsHandler(
+                FrameworkElement element,
+                IEnumerable<Attribute> localAttributes)
+            {
+                if (element == null) return;
+
+                // Applying global options
+                foreach (IGUILayoutOption option in globalOptions)
+                {
+                    option.ApplyLayoutOption(element);
+                }
+
+                // Perform options attributes.
+                foreach (Attribute attr in localAttributes)
+                {
+                    // Skip if not an option.
+                    if (!(attr is IGUILayoutOption option)) continue;
+
+                    // Applying option to the element.
+                    option.ApplyLayoutOption(element);
+                }
+
+                // Applying the shared options.
+                foreach (ISharableGUILayoutOption option in SharedLayoutOptions)
+                {
+                    // Applying option to the element.
+                    option.ApplyLayoutOption(element);
+                }
+            }
             #endregion
 
             // Sort in declaretion order.
@@ -156,8 +195,17 @@ namespace WpfHandler.UI.AutoLayout
                 }
                 else
                 {
-                    // Set binded type like target to instiniation.
-                    controlType = LayoutHandler.GetBindedControl(memberType, true);
+                    // Looking for the certain control only for derect defined descriptors.
+                    if (memberType.IsSubclassOf(typeof(UIDescriptor)))
+                    {
+                        // Set binded type like target to instiniation.
+                        controlType = LayoutHandler.GetBindedControl(memberType, false);
+                    }
+                    else
+                    {
+                        // Set binded type like target to instiniation.
+                        controlType = LayoutHandler.GetBindedControl(memberType, true);
+                    }
                 }
                 #endregion
 
@@ -196,21 +244,8 @@ namespace WpfHandler.UI.AutoLayout
                     // Check if spawned control is framework element.
                     if (control is FrameworkElement fEl)
                     {
-                        // Applying global options
-                        foreach(IGUILayoutOption option in globalOptions)
-                        {
-                            option.ApplyLayoutOption(fEl);
-                        }
-
-                        // Perform options attributes.
-                        foreach (Attribute attr in attributes)
-                        {
-                            // Skip if not an option.
-                            if (!(attr is IGUILayoutOption option)) continue;
-
-                            // Applying option to the element.
-                            option.ApplyLayoutOption(fEl);
-                        }
+                        // Applying options to the element.
+                        ApplyOptionsHandler(fEl, attributes);
                     }
                     #endregion
 
@@ -230,20 +265,25 @@ namespace WpfHandler.UI.AutoLayout
                     // Check if that just other descriptor.
                     if (memberType.IsSubclassOf(typeof(UIDescriptor)))
                     {
-                        #region Configurating layout
-                        // Add horizontal shift for sub descriptor.
-                        new BeginHorizontalGroupAttribute().OnLayout(ref activeLayer);
-                        new Controls.SpaceAttribute(10).OnLayout(ref activeLayer);
+                        //#region Configurating layout
+                        //// Add horizontal shift for sub descriptor.
+                        //new BeginHorizontalGroupAttribute().OnLayout(ref activeLayer);
+                        //new Controls.SpaceAttribute().OnLayout(ref activeLayer);
 
                         // Add vertical group.
                         var vertGroup = new BeginVerticalGroupAttribute();
                         vertGroup.OnLayout(ref activeLayer);
+                        //#endregion
+
+                        #region Applying options to the new root
+                        // Applying options to the element.
+                        ApplyOptionsHandler(vertGroup.Layer.root as FrameworkElement, attributes);
                         #endregion
 
                         #region Looking for descriptor object.
                         // Bufer that will contain value of the descriptor.
                         UIDescriptor subDesc = null;
-
+                        
                         // Trying to get value via reflection.
                         subDesc = prop != null ? 
                             prop.GetValue(this) as UIDescriptor : // Operate like property.
@@ -272,10 +312,18 @@ namespace WpfHandler.UI.AutoLayout
                             if (prop != null) prop.SetValue(this, subDesc);
                             else field.SetValue(this, subDesc);
                         }
+                        
+                        // Defining the sharable options.
+                        var sharableOption = InsertSharableOptions(SharedLayoutOptions, globalOptions, true);
+                        sharableOption = InsertSharableOptions(sharableOption, attributes, false);
+                        subDesc.SharedLayoutOptions = sharableOption.ToArray();
                         #endregion
-
+                        
                         // Binding descriptor to the UI.
                         subDesc.BindTo((Panel)activeLayer.root);
+                        
+                        // End descriptor layer.
+                        new EndGroupAttribute().OnLayout(ref activeLayer);
                     }
                 }
             }
@@ -287,7 +335,58 @@ namespace WpfHandler.UI.AutoLayout
             OnLoaded();
 
             // Inform subscribers.
-            Loaded?.Invoke(this);
+            Loaded?.Invoke(this);            
+        }
+
+        /// <summary>
+        /// Inserting ISharableGUILayoutOption instances that still not included to the top options. 
+        /// </summary>
+        /// <param name="topOptions">Priority options from the topper layer.</param>
+        /// <param name="localOptions">Enumerable coolaction of objects that contains options for that layer.</param>
+        /// <param name="instance">Is output coolection must be a new instance of the data will insterted into existed one.</param>
+        /// <returns>Collection with sharable attributes suitable for sharing to the next deeper layer.</returns>
+        public static ICollection<ISharableGUILayoutOption> InsertSharableOptions(
+            ICollection<ISharableGUILayoutOption> topOptions,
+            IEnumerable localOptions,
+            bool instance)
+        {
+            // Copining content.
+            ICollection<ISharableGUILayoutOption> resultCollection;
+
+            // Instiniating new collection if requested.
+            if (instance)
+                resultCollection = new List<ISharableGUILayoutOption>(topOptions);
+            // Set base as reference.
+            else
+                resultCollection = topOptions;
+
+            // Checking local options.
+            foreach(IGUILayoutOption option in localOptions)
+            {
+                // Check is is Sharable option.
+                if(option is ISharableGUILayoutOption sharableOption)
+                {
+                    bool conflicted = false;
+
+                    // Chacking if the same type already included to the list.
+                    foreach(ISharableGUILayoutOption topSO in topOptions)
+                    {
+                        if(topSO.GetType().Equals(option.GetType()))
+                        {
+                            conflicted = true;
+                            break;
+                        }
+                    }
+                    
+                    // Add to sharable options list in case if not conflicted by the type.
+                    if(!conflicted)
+                    {
+                        resultCollection.Add(sharableOption);
+                    }
+                }
+            }
+
+            return resultCollection;
         }
 
         /// <summary>

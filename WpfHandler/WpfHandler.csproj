@@ -63,7 +63,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UI\AutoLayout\FormDescriptor.cs" />
+    <Compile Include="UI\AutoLayout\Interfaces\IPaletteCompatible.cs" />
+    <Compile Include="UI\AutoLayout\Interfaces\ISharableGUILayoutOption.cs" />
     <Compile Include="UI\AutoLayout\Options\FontWeightAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Options\PaletteAttribute.cs" />
     <Compile Include="UI\Controls\CatalogView.xaml.cs">
       <DependentUpon>CatalogView.xaml</DependentUpon>
     </Compile>
@@ -74,7 +77,7 @@
     <Compile Include="UI\Controls\Logon\DefaultRegistrationPanelDescriptor.cs" />
     <Compile Include="UI\LocalizationHandler.cs" />
     <Compile Include="UI\AutoLayout\Configuration\ContentAttribute.cs" />
-    <Compile Include="UI\AutoLayout\Markups\IListCompatibleAttribute.cs" />
+    <Compile Include="UI\AutoLayout\Markups\ListCompatibleAttribute.cs" />
     <Compile Include="UI\AutoLayout\Markups\EnumsCompatibleAttribute.cs" />
     <Compile Include="UI\AutoLayout\Markups\IGUIElementBindingAttribute.cs" />
     <Compile Include="UI\AutoLayout\Options\AutoCollectionPropertiesAttribute.cs" />

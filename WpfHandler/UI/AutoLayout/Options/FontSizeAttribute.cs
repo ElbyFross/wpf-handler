@@ -29,7 +29,7 @@ namespace WpfHandler.UI.AutoLayout.Options
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property |
                     AttributeTargets.Class | AttributeTargets.Struct,
                     AllowMultiple = false, Inherited = true)]
-    public class FontSizeAttribute : Attribute, IGUILayoutOption, ILayoutSize
+    public class FontSizeAttribute : Attribute, ISharableGUILayoutOption, ILayoutSize
     {
         /// <summary>
         /// Size of the font in points.

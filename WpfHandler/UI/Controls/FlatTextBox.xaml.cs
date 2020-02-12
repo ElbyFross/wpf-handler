@@ -36,7 +36,7 @@ namespace WpfHandler.UI.Controls
     /// Interaction logic for FlatTextBox.xaml
     /// </summary>
     [TypesCompatible(typeof(int), typeof(float), typeof(double), typeof(string))]
-    public partial class FlatTextBox : TextFieldControl, IGUIField
+    public partial class FlatTextBox : TextFieldControl, IGUIField, IPaletteCompatible
     {
         #region Properties
         /// <summary>
@@ -59,6 +59,30 @@ namespace WpfHandler.UI.Controls
         /// Returns reference to the field block of UI element.
         /// </summary>
         public override FrameworkElement FieldElement { get { return fieldElement; } }
+
+        /// <summary>
+        /// A color palette applied to the element.
+        /// </summary>
+        public Brush[] Palette
+        {
+            get
+            {
+                return new Brush[]
+                {
+                    Background,
+                    Foreground,
+                    TextBoxBackground,
+                    TextBoxForeground
+                };
+            }
+            set
+            {
+                try { Background = value[0]; } catch { }
+                try { Foreground = value[1]; } catch { }
+                try { TextBoxBackground = value[2]; } catch { }
+                try { TextBoxForeground = value[3]; } catch { }
+            }
+        }
         #endregion
 
         #region Local members

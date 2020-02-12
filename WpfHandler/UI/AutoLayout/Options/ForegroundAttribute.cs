@@ -29,7 +29,7 @@ namespace WpfHandler.UI.AutoLayout.Options
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property |
                     AttributeTargets.Class | AttributeTargets.Struct,
                     AllowMultiple = false, Inherited = true)]
-    public class ForegroundAttribute : ColorAttribute, IGUILayoutOption
+    public class ForegroundAttribute : ColorAttribute, ISharableGUILayoutOption
     {
         /// <summary>
         /// Instiniating attribute with applied brush.
@@ -73,6 +73,10 @@ namespace WpfHandler.UI.AutoLayout.Options
             if (element is System.Windows.Controls.Control control)
             {
                 control.Foreground = Brush;
+            }
+            else if (element is System.Windows.Controls.Panel panel)
+            {
+                panel.Background = Brush;
             }
         }
     }

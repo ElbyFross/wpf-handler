@@ -64,7 +64,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Descriptros\DataTableDescriptor.cs" />
-    <Compile Include="Descriptros\HeaderDescriptor.cs" />
     <Compile Include="Descriptros\NewItemTabDescriptor.cs" />
     <Compile Include="Descriptros\TableRowDescriptor.cs" />
     <Compile Include="MainWindow.xaml.cs">

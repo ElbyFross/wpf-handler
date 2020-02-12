@@ -18,16 +18,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Media;
 
-namespace WpfHandler.UI.AutoLayout.Markups
+namespace WpfHandler.UI.AutoLayout
 {
     /// <summary>
-    /// Marks a GUI element as compatible with <see cref="IList"/> members.
+    /// Marks a GUI element as fully compatible with a complex color palette defined via the <see cref="Options.PaletteAttribute"/>.
     /// </summary>
-    /// <remarks>
-    /// Class with that attribute will be allowed only for displaying IList members.
-    /// Any other specifing will not has any effect.
-    /// </remarks>
-    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = true, Inherited = true)]
-    public class IListCompatibleAttribute : Attribute, IGUIElementBindingAttribute { }
+    public interface IPaletteCompatible
+    {
+        /// <summary>
+        /// Color pallete applyed to a GUI element.
+        /// </summary>
+        Brush[] Palette { get; set; }
+    }
 }

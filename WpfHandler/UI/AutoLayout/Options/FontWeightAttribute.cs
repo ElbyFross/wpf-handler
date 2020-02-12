@@ -29,7 +29,7 @@ namespace WpfHandler.UI.AutoLayout.Options
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property |
                     AttributeTargets.Class | AttributeTargets.Struct,
                     AllowMultiple = false, Inherited = true)]
-    public class FontWeightAttribute : Attribute, IGUILayoutOption
+    public class FontWeightAttribute : Attribute, ISharableGUILayoutOption
     {
         /// <summary>
         /// Defines the font weight.

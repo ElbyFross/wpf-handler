@@ -28,15 +28,17 @@ using WpfHandler.UI.AutoLayout.Controls;
 namespace BusinessLogic.Descriptros
 {
     // Defining thge text color for content of that descriptor.
-    [Foreground("White")]
+    [Palette("#A69272", "#FCFEFF", "#D8E6F2", "#F2E8D8", "#8396A6")]
     public class DataTableDescriptor : UIDescriptor
     {
+        #region Sub-descriptors
         // Definig foreground collor for this descriptor.
         // Because the fact that descriptor is isolated UI entity the attributes of descriptor from
         // the top will not affect the internal content.
         [Foreground("White")]
 
-        // Setting alighn to the center (left by default).
+        // The descriptor for the top control panel at the tab.
+        // Setting align to the center (left by default).
         [HorizontalAlign(HorizontalAlignment.Center)]
         public class ControlPanel : UIDescriptor
         {
@@ -51,26 +53,48 @@ namespace BusinessLogic.Descriptros
             [Content("Add element", null, "dtt_add")]
             public Action NewItemTab;
         }
-        
-        // Applying custom background color to the control panel.
-        [Background("#C1625F")]
-        public ControlPanel controlPanel = new ControlPanel();
 
-        [Background("#C1625F")]
+        // The descriptor for the table's header.
+        // Defines a GUIContent labels that describes the columns of the table.
+        public class HeaderDescriptor : UIDescriptor
+        {
+            [BeginHorizontalGroup]
+            [Width(50)]
+            public GUIContent idLabel = new GUIContent("| ID", null, "th_id");
+            [Width(250)]
+            public GUIContent titleLabel = new GUIContent("| Title", null, "th_title");
+            public GUIContent descLabel = new GUIContent("| Description", null, "th_desc");
+            [Width(64)]
+            public GUIContent priceLabel = new GUIContent("| Price", null, "th_price");
+        }
+        #endregion
+
+        #region UI members
+        // Applying custom background color to the control panel.
+        public ControlPanel controlPanel;
+
         // Casomizing the font weight for the header pabel.
         [FontWeight(FontWeightAttribute.WeightType.DemiBold)]
-        public HeaderDescriptor header = new HeaderDescriptor();
-
-        // Making a space into layout.
-        [Space]
-
+        public HeaderDescriptor header;
+        
         // Limiting the element height.
         [MaxHeight(200)]
+
         // Configurating AutoCollection element.
         [AutoCollectionProperties(
             AddButtonVisibile = false, // Disabling add button. Element will be added via the another tab.
-            DragAllowed = false, // Disablin elements reorder, because user not controls an order of the database source.
-            BackplateBackground = "SteelBlue")] // defining backplate color of the collection element.
+            DragAllowed = false)] // Disabling elements reorder, because user not controls an order of the database source.
+
+        // Redefining background to the `Transperent.
+        // Skiping foreground color by using the null value.
+        // Redefining backplate color to the `#A69272`.
+        [Palette("Transparent", null, "#A69272")]
         public List<TableRowDescriptor> table = new List<TableRowDescriptor>();
+        #endregion
+
+        public DataTableDescriptor()
+        {
+            table.Add(new TableRowDescriptor());
+        }
     }
 }

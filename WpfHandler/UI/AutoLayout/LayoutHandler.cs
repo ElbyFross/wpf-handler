@@ -285,7 +285,7 @@ namespace WpfHandler.UI.AutoLayout
                     else
                     {
                         // Is focused on work with collections.
-                        var isList = type.GetCustomAttribute<IListCompatibleAttribute>();
+                        var isList = type.GetCustomAttribute<ListCompatibleAttribute>();
                         if (isList != null) targetTable = ListControlsBindings;
                         else targetTable = DefaultControlsBindings; // Not specified.
                     }

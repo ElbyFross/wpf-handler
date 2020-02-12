@@ -31,7 +31,7 @@ namespace WpfHandler.UI.AutoLayout.Options
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property |
                     AttributeTargets.Class | AttributeTargets.Struct,
                     AllowMultiple = false, Inherited = true)]
-    public class LabelWidthAttribute : LayoutSizeAttribute, IGUILayoutOption
+    public class LabelWidthAttribute : LayoutSizeAttribute, ISharableGUILayoutOption
     {
         /// <summary>
         /// Lalbe binded to that attribute.
