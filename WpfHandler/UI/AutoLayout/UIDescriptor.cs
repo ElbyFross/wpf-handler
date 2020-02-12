@@ -254,7 +254,7 @@ namespace WpfHandler.UI.AutoLayout
                     TryToBindControl(control, this, member);
 
                     // Initialize control.
-                    control.OnLayout(ref activeLayer, this, member);
+                    control.OnLayout(ref activeLayer, this, member, globalOptions, attributes);
 
                     // Adding field to the registration table.
                     RegistredFields.Add(member, control);
@@ -272,7 +272,7 @@ namespace WpfHandler.UI.AutoLayout
 
                         // Add vertical group.
                         var vertGroup = new BeginVerticalGroupAttribute();
-                        vertGroup.OnLayout(ref activeLayer);
+                        vertGroup.OnLayout(ref activeLayer, this, member);
                         //#endregion
 
                         #region Applying options to the new root
@@ -314,8 +314,8 @@ namespace WpfHandler.UI.AutoLayout
                         }
                         
                         // Defining the sharable options.
-                        var sharableOption = InsertSharableOptions(SharedLayoutOptions, globalOptions, true);
-                        sharableOption = InsertSharableOptions(sharableOption, attributes, false);
+                        var sharableOption = InsertSharableOptions(SharedLayoutOptions, attributes, true);
+                        sharableOption = InsertSharableOptions(sharableOption, globalOptions, false);
                         subDesc.SharedLayoutOptions = sharableOption.ToArray();
                         #endregion
                         
@@ -339,39 +339,38 @@ namespace WpfHandler.UI.AutoLayout
         }
 
         /// <summary>
-        /// Inserting ISharableGUILayoutOption instances that still not included to the top options. 
+        /// Inserts ISharableGUILayoutOption instances that still not included to the top options. 
         /// </summary>
         /// <param name="topOptions">Priority options from the topper layer.</param>
         /// <param name="localOptions">Enumerable coolaction of objects that contains options for that layer.</param>
         /// <param name="instance">Is output coolection must be a new instance of the data will insterted into existed one.</param>
         /// <returns>Collection with sharable attributes suitable for sharing to the next deeper layer.</returns>
-        public static ICollection<ISharableGUILayoutOption> InsertSharableOptions(
-            ICollection<ISharableGUILayoutOption> topOptions,
+        public static IList<ISharableGUILayoutOption> InsertSharableOptions(
+            IList<ISharableGUILayoutOption> topOptions,
             IEnumerable localOptions,
             bool instance)
         {
             // Copining content.
-            ICollection<ISharableGUILayoutOption> resultCollection;
+            IList<ISharableGUILayoutOption> resultCollection;
 
-            // Instiniating new collection if requested.
-            if (instance)
-                resultCollection = new List<ISharableGUILayoutOption>(topOptions);
-            // Set base as reference.
-            else
-                resultCollection = topOptions;
+
+            List<ISharableGUILayoutOption> bufer = new List<ISharableGUILayoutOption>();
 
             // Checking local options.
-            foreach(IGUILayoutOption option in localOptions)
+            foreach(object attribute in localOptions)
             {
+                if (!(attribute is IGUILayoutOption option)) continue;
+
                 // Check is is Sharable option.
                 if(option is ISharableGUILayoutOption sharableOption)
                 {
                     bool conflicted = false;
+                    var optionType = option.GetType();
 
                     // Chacking if the same type already included to the list.
-                    foreach(ISharableGUILayoutOption topSO in topOptions)
+                    foreach (ISharableGUILayoutOption topSO in topOptions)
                     {
-                        if(topSO.GetType().Equals(option.GetType()))
+                        if(topSO.GetType().Equals(optionType))
                         {
                             conflicted = true;
                             break;
@@ -381,8 +380,30 @@ namespace WpfHandler.UI.AutoLayout
                     // Add to sharable options list in case if not conflicted by the type.
                     if(!conflicted)
                     {
-                        resultCollection.Add(sharableOption);
+                        bufer.Add(sharableOption);
                     }
+                }
+            }
+
+
+            // Instiniating new collection if requested.
+            if (instance)
+            {
+                // Copying collection.
+                resultCollection = new List<ISharableGUILayoutOption>(topOptions);
+                // Concating bufer with the collection.
+                resultCollection = bufer.Concat(resultCollection).ToList();
+            }
+            // Set base as reference.
+            else
+            {
+                // Applying top collection as current.
+                resultCollection = topOptions;
+
+                // Inserting the data from bufer.
+                for (int i = 0; i < bufer.Count; i++)
+                {
+                    resultCollection.Insert(i, bufer[i]);
                 }
             }
 

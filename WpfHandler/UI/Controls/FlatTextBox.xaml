@@ -42,7 +42,7 @@ limitations under the License.-->
                Foreground="{Binding Foreground}" 
                Content="{Binding Label}" 
                IsHitTestVisible="False"/>
-        <Grid x:Name="spliter" Grid.Column="1"  Background="#00171f"/>
+        <Grid x:Name="spliter" Grid.Column="1"  Background="{Binding SpliterBrush}"/>
         <Grid x:Name="fieldElement" Grid.Column="2" Grid.ColumnSpan="3"
               Background="{Binding TextBoxBackground}" 
               Margin="3.5,2,4,2">

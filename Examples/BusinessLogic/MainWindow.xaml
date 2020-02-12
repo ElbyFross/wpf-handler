@@ -8,7 +8,6 @@
         xmlns:wpfh="clr-namespace:WpfHandler.UI.Controls;assembly=WpfHandler"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="#D8E6F2">
-        <wpfh:SwitchPanel x:Name="switchPanel" Grid.Row="1"/>
-    </Grid>
+        
+    <wpfh:SwitchPanel x:Name="switchPanel" Grid.Row="1" Background="#D8E6F2"/>
 </Window>

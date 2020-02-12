@@ -32,7 +32,7 @@ namespace WpfHandler.UI.AutoLayout.Options
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property |
                     AttributeTargets.Class | AttributeTargets.Struct,
                     AllowMultiple = false, Inherited = true)]
-    public class PaletteAttribute : Attribute,  ISharableGUILayoutOption
+    public class PaletteAttribute : Attribute, ISharableGUILayoutOption
     {
         /// <summary>
         /// Array that contains the list of color codes that defines the palette.
@@ -67,7 +67,7 @@ namespace WpfHandler.UI.AutoLayout.Options
                     colorBufer = (Color)ColorConverter.ConvertFromString(colorCode);
                 }
                 catch
-                { 
+                {
                     // Applying transperent in case of failure.
                     Palette[i] = Brushes.Transparent;
                     continue;
@@ -88,7 +88,7 @@ namespace WpfHandler.UI.AutoLayout.Options
         /// </remarks>
         public void ApplyLayoutOption(FrameworkElement element)
         {
-            if(element is IPaletteCompatible paletteElement)
+            if (element is IPaletteCompatible paletteElement)
             {
                 paletteElement.Palette = Palette;
             }
@@ -96,13 +96,14 @@ namespace WpfHandler.UI.AutoLayout.Options
             {
                 try
                 {
-                    control.Background = Palette[0];
-                    control.Foreground = Palette[1];
+                    control.Background = Palette[0] ?? control.Background;
+                    control.Foreground = Palette[1] ?? control.Foreground;
                 }
                 catch { };
-            } else if(element is System.Windows.Controls.Panel panel)
+            }
+            else if (element is System.Windows.Controls.Panel panel)
             {
-                try { panel.Background = Palette[0]; } catch { }
+                try { panel.Background = Palette[0] ?? panel.Background; } catch { }
             }
         }
     }

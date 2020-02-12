@@ -21,6 +21,8 @@ namespace BusinessLogic.Descriptros
     {
         [BeginHorizontalGroup]
         [Width(50)]
+        // Forcing using GUIContentLable element instead the default FlatTextBox.
+        [CustomControl(typeof(WpfHandler.UI.Controls.GUIContentLabel))]
         public int id = -1;
 
         [Width(250)]

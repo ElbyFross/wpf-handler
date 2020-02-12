@@ -61,7 +61,24 @@ namespace WpfHandler.UI.Controls
         public override FrameworkElement FieldElement { get { return fieldElement; } }
 
         /// <summary>
+        /// Property that bridging control's property between XAML and code.
+        /// </summary>
+        public static readonly DependencyProperty SpliterBrushProperty = DependencyProperty.Register(
+          "SpliterBrush", typeof(Brush), typeof(AutoCollection),
+          new PropertyMetadata(new SolidColorBrush((Color)ColorConverter.ConvertFromString("#00171f"))));
+
+        /// <summary>
+        /// Brush applied to the spliter.
+        /// </summary>
+        public Brush SpliterBrush
+        {
+            get { return (Brush)GetValue(SpliterBrushProperty); }
+            set { SetValue(SpliterBrushProperty, value); }
+        }
+
+        /// <summary>
         /// A color palette applied to the element.
+        /// [0] - Background; [1] - Foreground; [2] - TextBoxBackground; [3] - TextBoxForeground;
         /// </summary>
         public Brush[] Palette
         {
@@ -72,7 +89,8 @@ namespace WpfHandler.UI.Controls
                     Background,
                     Foreground,
                     TextBoxBackground,
-                    TextBoxForeground
+                    TextBoxForeground,
+                    SpliterBrush
                 };
             }
             set
@@ -81,6 +99,7 @@ namespace WpfHandler.UI.Controls
                 try { Foreground = value[1]; } catch { }
                 try { TextBoxBackground = value[2]; } catch { }
                 try { TextBoxForeground = value[3]; } catch { }
+                try { SpliterBrush = value[4]; } catch { }
             }
         }
         #endregion

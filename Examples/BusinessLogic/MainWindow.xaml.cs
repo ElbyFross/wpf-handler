@@ -28,19 +28,24 @@ namespace BusinessLogic
     public partial class MainWindow : Window
     {
         readonly DataTableDescriptor tableDescriptor = new DataTableDescriptor();
-        readonly NewItemTabDescriptor newElementDescriptor = new NewItemTabDescriptor()
-        {
-            SharedLayoutOptions = new ISharableGUILayoutOption[]
-            {
-                new BackgroundAttribute("#A69272")
-            }
-        };
+        readonly NewItemTabDescriptor newElementDescriptor = new NewItemTabDescriptor();
         readonly AutoLayoutVeiw tableView = new AutoLayoutVeiw();
         readonly AutoLayoutVeiw newElementView = new AutoLayoutVeiw();
 
         public MainWindow()
         {
             InitializeComponent();
+
+            // Declaring Palette as global sharable option.
+            var sharedOptions = new ISharableGUILayoutOption[] 
+            { new PaletteAttribute("#A69272", "#FCFEFF", "#D8E6F2", "#8396A6", "#F2E8D8")};
+
+            // Applying sharable objects to the descriptors.
+            // In that case sharable options will affect not only elements instantiated by descriptor
+            // but also the descriptor Panel itself.
+            //tableDescriptor.SharedLayoutOptions = sharedOptions;
+            newElementDescriptor.SharedLayoutOptions = sharedOptions;
+
 
             // Appllying descriptor instances to the AutoLayoutVeiw.
             tableView.Descriptor = tableDescriptor;
@@ -52,18 +57,14 @@ namespace BusinessLogic
             tableDescriptor.controlPanel.NewItemTab += async delegate ()
             {
                 // Switches to the `New item` tab.
-                await switchPanel.SwitchToAsync(
-                    newElementView,
-                    WpfHandler.UI.Controls.SwitchPanel.AnimationType.None);
+                await switchPanel.SwitchToAsync(newElementView);
             };
 
             // Defining behavior for `ToTableTab` action at the `New item` form.
             newElementDescriptor.ToTableTab += async delegate ()
             {
                 // Switches back to the `Table` tab.
-                await switchPanel.SwitchToAsync(
-                    tableView,
-                    WpfHandler.UI.Controls.SwitchPanel.AnimationType.None);
+                await switchPanel.SwitchToAsync(tableView);
             };
         }
     }

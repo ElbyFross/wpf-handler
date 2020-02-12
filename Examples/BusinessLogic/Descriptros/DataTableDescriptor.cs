@@ -88,7 +88,7 @@ namespace BusinessLogic.Descriptros
         // Redefining background to the `Transperent.
         // Skiping foreground color by using the null value.
         // Redefining backplate color to the `#A69272`.
-        [Palette("Transparent", null, "#A69272")]
+        [Palette("Transparent", null, "#8396A6", "#FCFEFF", "#D8E6F2")]
         public List<TableRowDescriptor> table = new List<TableRowDescriptor>();
         #endregion
 

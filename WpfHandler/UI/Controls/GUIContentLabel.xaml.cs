@@ -48,9 +48,23 @@ namespace WpfHandler.UI.Controls
 
         /// <summary>
         /// Curent value of the element.
-        /// Allows only <see cref="GUIContent"/> instances.
+        /// Allows only <see cref="GUIContent"/> or `string` instances.
         /// </summary>
-        public object Value { get => LabelContent; set => LabelContent = value as GUIContent; }
+        public object Value
+        {
+            get => LabelContent;
+            set
+            {
+                if (value is GUIContent content)
+                {
+                    LabelContent = content;
+                }
+                else
+                {
+                    LabelContent = new GUIContent(value.ToString());
+                }
+            }
+        }
 
         /// <summary>
         /// The content binded to the label.
@@ -75,10 +89,15 @@ namespace WpfHandler.UI.Controls
         /// </summary>
         public string Label { get => (string)label.Content; set => label.Content = value; }
 
+        ///// <summary>
+        ///// Manages the width of the entire element.
+        ///// </summary>
+        //public float LabelWidth { get => (float)Width; set => Width = value; }
+
         /// <summary>
-        /// Manages the width of the entire element.
+        /// Not supported.
         /// </summary>
-        public float LabelWidth { get => (float)Width; set => Width = value; }
+        public float LabelWidth { get => throw new NotSupportedException(); set => throw new NotSupportedException(); }
 
         /// <summary>
         /// Occurs when <see cref="LabelContent"/> of <see cref="Value"/> property is changed.

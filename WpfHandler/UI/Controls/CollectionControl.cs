@@ -49,6 +49,14 @@ namespace WpfHandler.UI.Controls
         public static readonly DependencyProperty DragAllowedProperty = DependencyProperty.Register(
           "DragAllowed", typeof(bool), typeof(CollectionControl),
           new PropertyMetadata(true));
+
+
+        /// <summary>
+        /// Property that bridging control's property between XAML and code.
+        /// </summary>
+        public static readonly DependencyProperty ApplySharableOptionsToChildsProperty = DependencyProperty.Register(
+          "ApplySharableOptionsToChilds", typeof(bool), typeof(CollectionControl),
+          new PropertyMetadata(true));
         #endregion
 
         #region Public properties
@@ -69,6 +77,16 @@ namespace WpfHandler.UI.Controls
                 // Reconfigurating a style of the list.
                 ConfigurateStyles();
             }
+        }
+
+        /// <summary>
+        /// Defines is the collection will share applyed <see cref="ISharableGUILayoutOption"/>
+        /// to the child elements or not.
+        /// </summary>
+        public virtual bool ApplySharableOptionsToChilds
+        {
+            get => (bool)this.GetValue(ApplySharableOptionsToChildsProperty);
+            set => this.SetValue(ApplySharableOptionsToChildsProperty, value);
         }
 
         /// <summary>
@@ -98,8 +116,8 @@ namespace WpfHandler.UI.Controls
                 ValueChanged?.Invoke(this);
 
                 // Class the GUI.
-                var layer = new LayoutLayer();
-                OnLayout(ref layer, null);
+                //var layer = new LayoutLayer();
+                //OnLayout(ref layer, null);
             }
         }
 
@@ -187,6 +205,11 @@ namespace WpfHandler.UI.Controls
         /// Source that is binded to the current UI.
         /// </summary>
         protected IList bindedSource;
+
+        /// <summary>
+        /// Sharable options applied to an element instance.
+        /// </summary>
+        protected List<ISharableGUILayoutOption> appliedSharableOptions;
         #endregion
 
 
@@ -475,6 +498,34 @@ namespace WpfHandler.UI.Controls
         /// <param name="args"></param>
         public virtual void OnLayout(ref LayoutLayer layer, params object[] args)
         {
+            try
+            {
+                // Lookinf for the sahrable options attributes.
+                if (args != null &&
+                    ApplySharableOptionsToChilds)
+                {
+                    #region Looking for shared data
+                    // Find required referendes.
+                    UIDescriptor desc = args[0] as UIDescriptor;
+                    MemberInfo member = args[1] as MemberInfo;
+
+                    // Looking for sharable attributes applied to the descriptor type.
+                    var globalAttributes = ((IEnumerable<Attribute>)args[2]).
+                        Where(m => m.GetType().GetInterface(typeof(ISharableGUILayoutOption).FullName) != null);
+
+                    // Looking for sharable attributes applied to the member.
+                    var localAttributes = ((IEnumerable<Attribute>)args[3]).
+                        Where(m => m.GetType().GetInterface(typeof(ISharableGUILayoutOption).FullName) != null);
+
+                    appliedSharableOptions = new List<ISharableGUILayoutOption>();
+                    foreach (Attribute attr in globalAttributes) appliedSharableOptions.Add(attr as ISharableGUILayoutOption);
+                    foreach (Attribute attr in localAttributes) appliedSharableOptions.Add(attr as ISharableGUILayoutOption);
+                    foreach (ISharableGUILayoutOption attr in desc.SharedLayoutOptions) appliedSharableOptions.Add(attr);
+                    #endregion
+                }
+            }
+            catch { }
+
             // Drop if the source already binded.
             if (source.Equals(bindedSource))
                 return;
@@ -579,28 +630,50 @@ namespace WpfHandler.UI.Controls
             // Getting data.
             var obj = source[index];
 
+            // Gettign member type.
+            var memberType = obj.GetType();
+
             // Gettign type of the binded UI element.
-            var controlType = LayoutHandler.GetBindedControl(obj.GetType(), true);
+            var controlType = LayoutHandler.GetBindedControl(memberType, true);
 
             // Drop if control not available.
             if (controlType == null) return null;
 
             // Instiniating UI element.
-            var element = (IGUIField)Activator.CreateInstance(controlType);
+            var field = (IGUIField)Activator.CreateInstance(controlType);
+
+            // Getting element.
+            var element = (FrameworkElement)field;
+
+            // Applying cross options in case if requested.
+            if (ApplySharableOptionsToChilds && appliedSharableOptions != null)
+            {
+                foreach (ISharableGUILayoutOption sOption in appliedSharableOptions)
+                {
+                    if (memberType.IsSubclassOf(typeof(UIDescriptor)))
+                    {
+                        ((UIDescriptor)obj).SharedLayoutOptions = appliedSharableOptions.ToArray();
+                    }
+                    else
+                    {
+                        sOption.ApplyLayoutOption(element);
+                    }
+                }
+            }
 
             // Applying default value.
-            element.Value = obj;
+            field.Value = obj;
 
             // Adding ellement to the maping table.
-            indexMap.Add(element, index);
+            indexMap.Add(field, index);
 
             // Adding reference to the field.
-            Fields.Add(element);
+            Fields.Add(field);
 
             // Subscribing on the index of the value changing.
-            element.ValueChanged += CollectionElementValueChanged;
-
-            return (FrameworkElement)element;
+            field.ValueChanged += CollectionElementValueChanged;
+            
+            return element;
         }
 
         /// <summary>

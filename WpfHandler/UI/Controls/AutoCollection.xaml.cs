@@ -302,7 +302,7 @@ namespace WpfHandler.UI.Controls
             var element = base.ItemRegistration(index);
 
             // Adding spliters if requested.
-            if(SplitersDraw)
+            if (SplitersDraw)
             {
                 // Instiniating panel that will contains the layout.
                 var panel = new StackPanel()

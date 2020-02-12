@@ -31,6 +31,8 @@ namespace BusinessLogic.Descriptros
         [Content("Back", null, "nit_back")]
         public Action ToTableTab;
 
+        [Space(5)]
+
         [HorizontalAlign(System.Windows.HorizontalAlignment.Center)]
         [Width(400)]
         public SubPanel form = new SubPanel();
