@@ -109,7 +109,31 @@ namespace WpfHandler.UI.Controls
         /// Bufer that contains last valid stored text from textbox.
         /// </summary>
         private string textPropertyBufer;
+
+        /// <summary>
+        /// Bufer with a style loaded from resources.
+        /// </summary>
+        private static readonly Style loadedStyle;
         #endregion
+
+        /// <summary>
+        /// Static cinstructor. Loads resources.
+        /// </summary>
+        static FlatTextBox()
+        {
+            // Try to load default style
+            try
+            {
+                if (Application.Current.FindResource("FlatTextBox") is Style style)
+                {
+                    loadedStyle = style;
+                }
+            }
+            catch
+            {
+                // Not found in dictionary. Not important.
+            }
+        }
 
         /// <summary>
         /// Default constructor.
@@ -120,18 +144,7 @@ namespace WpfHandler.UI.Controls
             InitializeComponent();
             DataContext = this;
 
-            // Try to load default style
-            try
-            {
-                if (Application.Current.FindResource("FlatTextBox") is Style style)
-                {
-                    Style = style;
-                }
-            }
-            catch
-            {
-                // Not found in dictionary. Not important.
-            }
+            if (loadedStyle != null) Style = loadedStyle;
 
             // Subscribe on events.
             textBox.TextChanged += TextBox_TextChanged;

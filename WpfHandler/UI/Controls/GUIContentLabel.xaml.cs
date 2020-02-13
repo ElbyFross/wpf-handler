@@ -97,7 +97,7 @@ namespace WpfHandler.UI.Controls
         /// <summary>
         /// Not supported.
         /// </summary>
-        public float LabelWidth { get => throw new NotSupportedException(); set => throw new NotSupportedException(); }
+        public float LabelWidth { get => throw new NotSupportedException(); set { } }
 
         /// <summary>
         /// Occurs when <see cref="LabelContent"/> of <see cref="Value"/> property is changed.

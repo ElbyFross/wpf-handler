@@ -92,11 +92,12 @@ limitations under the License.-->
                        StrokeThickness="0"
                        RadiusX="{Binding CornerRadius}" 
                        RadiusY="{Binding CornerRadius}"/>
-
+           
             <ScrollViewer x:Name="scrollView"
                           Background="Transparent"
                           VerticalScrollBarVisibility="Auto"
-                          HorizontalScrollBarVisibility="Disabled">
+                          HorizontalScrollBarVisibility="Disabled"
+                          Margin="0.5,0,0.5,0">
                 <!--<StackPanel x:Name="contentPanel">
                 </StackPanel>-->
 
@@ -109,6 +110,8 @@ limitations under the License.-->
                 </ListBox>
 
             </ScrollViewer>
+
+            <!--<ScrollBar x:Name="scrollBar" ViewportSize="20" HorizontalAlignment="Right"/>-->
         </Grid>
 
     </Grid>

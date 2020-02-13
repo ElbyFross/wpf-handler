@@ -63,11 +63,9 @@ namespace WpfHandler.UI
         /// <param name="description">Description of that element.</param>
         public GUIContentAttribute(string title, string description) : base()
         {
-            Content = new GUIContent
-            {
-                DefaultTitle = title,
-                DefaultDescription = description
-            };
+            Content = new GUIContent(
+                title,
+                description);
         }
 
         /// <summary>
@@ -81,12 +79,10 @@ namespace WpfHandler.UI
             string defaultDescription,
             string decriptionLocalizationResourseKey) : base()
         {
-            Content = new GUIContent
-            {
-                DefaultTitle = defaultTitle,
-                DefaultDescription = defaultDescription,
-                DecriptionLocalizationResourseKey = decriptionLocalizationResourseKey
-            };
+            Content = new GUIContent(
+                defaultTitle,
+                defaultDescription,
+                decriptionLocalizationResourseKey);
         }
 
         /// <summary>
@@ -102,13 +98,11 @@ namespace WpfHandler.UI
             string titleLocalizationResourseKey,
             string decriptionLocalizationResourseKey) : base()
         {
-            Content = new GUIContent
-            {
-                DefaultTitle = defaultTitle,
-                DefaultDescription = defaultDescription,
-                TitleLocalizationResourseKey = titleLocalizationResourseKey,
-                DecriptionLocalizationResourseKey = decriptionLocalizationResourseKey
-            };
+            Content = new GUIContent(
+                defaultTitle,
+                defaultDescription,
+                titleLocalizationResourseKey,
+                decriptionLocalizationResourseKey);
         }
 
     }

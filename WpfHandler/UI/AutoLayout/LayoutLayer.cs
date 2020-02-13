@@ -108,7 +108,7 @@ namespace WpfHandler.UI.AutoLayout
             };
 
             // Define orientation of the layout group.
-            if (nextLayerRoot is StackPanel)
+            if (nextLayerRoot is VirtualizingStackPanel)
                 newLayer.orientation = Orientation.Vertical;
             else
                 newLayer.orientation = Orientation.Horizontal;

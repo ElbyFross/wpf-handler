@@ -120,7 +120,7 @@ namespace WpfHandler.UI.AutoLayout
         public static void VerticalLayoutAddChild(IAddChild parent, FrameworkElement element)
         {
             // Validate type cast.
-            if (!(parent is StackPanel panel))
+            if (!(parent is VirtualizingStackPanel panel))
             {
                 throw new InvalidCastException("Parent mast be `" + typeof(StackPanel).FullName + "`.");
             }
@@ -151,6 +151,7 @@ namespace WpfHandler.UI.AutoLayout
             //Grid.SetRow(element, grid.RowDefinitions.Count - 1);
         }
 
+
         /// <summary>
         /// Registrating bool property into auto layout ui.
         /// </summary>
@@ -166,9 +167,13 @@ namespace WpfHandler.UI.AutoLayout
             {
                 try
                 {
-                    // Instiniating the default value.
-                    defautltValue = Activator.CreateInstance(
-                        UIDescriptor.MembersHandler.GetSpecifiedMemberType(member));
+                    var type = UIDescriptor.MembersHandler.GetSpecifiedMemberType(member);
+
+                    if (type.GetConstructor(new Type[0]) != null)
+                    {
+                        // Instiniating the default value.
+                        defautltValue = Activator.CreateInstance(type);
+                    }
                 }
                 catch { };
             }
@@ -416,6 +421,22 @@ namespace WpfHandler.UI.AutoLayout
                 return null;
             }
             #endregion
+        }
+
+        /// <summary>
+        /// Checks does an element visible for user in the given  container.
+        /// </summary>
+        /// <param name="element">Element for check.</param>
+        /// <param name="container">Container that defines visibility area bounds.</param>
+        /// <returns>Result of check.</returns>
+        public static bool IsUserVisible(FrameworkElement element, FrameworkElement container)
+        {
+            if (!element.IsVisible)
+                return false;
+
+            Rect bounds = element.TransformToAncestor(container).TransformBounds(new Rect(0.0, 0.0, element.ActualWidth, element.ActualHeight));
+            Rect rect = new Rect(0.0, 0.0, container.ActualWidth, container.ActualHeight);
+            return rect.Contains(bounds.TopLeft) || rect.Contains(bounds.BottomRight);
         }
     }
 }

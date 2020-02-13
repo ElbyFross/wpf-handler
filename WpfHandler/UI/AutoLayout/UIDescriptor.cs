@@ -86,7 +86,7 @@ namespace WpfHandler.UI.AutoLayout
         /// Insiniate UI by descriptor's attributes map and add it as child to parent element.
         /// </summary>
         /// <param name="layer">UI layer that will used as a root for the descriptor's elements.</param>
-        public void BindTo(LayoutLayer layer)
+        public /*async*/ void BindTo(LayoutLayer layer)
         {
             // Storing layer.
             activeLayer = layer;
@@ -244,8 +244,15 @@ namespace WpfHandler.UI.AutoLayout
                     // Check if spawned control is framework element.
                     if (control is FrameworkElement fEl)
                     {
-                        // Applying options to the element.
-                        ApplyOptionsHandler(fEl, attributes);
+                        //fEl.IsVisibleChanged += delegate (object sender, DependencyPropertyChangedEventArgs args)
+                        //{
+
+                        //fEl.Loaded += delegate (object sender, RoutedEventArgs args)
+                        //{
+
+                            // Applying options to the element.
+                            ApplyOptionsHandler(fEl, attributes);
+                        //};
                     }
                     #endregion
 
@@ -259,6 +266,8 @@ namespace WpfHandler.UI.AutoLayout
                     // Adding field to the registration table.
                     RegistredFields.Add(member, control);
                     #endregion
+
+                    //await Task.Yield();
                 }
                 else
                 {

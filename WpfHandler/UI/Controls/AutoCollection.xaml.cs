@@ -232,6 +232,31 @@ namespace WpfHandler.UI.Controls
         #endregion
 
         #region Constructor & destructors
+
+        /// <summary>
+        /// Bufer with a style loaded from resources.
+        /// </summary>
+        private static readonly Style loadedStyle;
+
+        /// <summary>
+        /// Static cinstructor. Loads resources.
+        /// </summary>
+        static AutoCollection()
+        {
+            // Try to load default style
+            try
+            {
+                if (Application.Current.FindResource("AutoCollection") is Style style)
+                {
+                    loadedStyle = style;
+                }
+            }
+            catch
+            {
+                // Not found in dictionary. Not important.
+            }
+        }
+
         /// <summary>
         /// Initialize that component.
         /// Looking for the `AutoCollection` Style resource. Use default if not found.
@@ -241,18 +266,7 @@ namespace WpfHandler.UI.Controls
             InitializeComponent();
             base.DataContext = this;
 
-            // Try to load default style
-            try
-            {
-                if (Application.Current.FindResource("AutoCollection") is Style style)
-                {
-                    Style = style;
-                }
-            }
-            catch
-            {
-                // Not found in dictionary. Not important.
-            }
+            if (loadedStyle != null) Style = loadedStyle;
 
             Loaded += AutoCollection_Loaded;
         }
@@ -305,7 +319,7 @@ namespace WpfHandler.UI.Controls
             if (SplitersDraw)
             {
                 // Instiniating panel that will contains the layout.
-                var panel = new StackPanel()
+                var panel = new VirtualizingStackPanel()
                 {
                     Orientation = Orientation.Vertical
                 };

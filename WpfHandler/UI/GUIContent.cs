@@ -85,6 +85,9 @@ namespace WpfHandler.UI
             get { return _TitleLocalizationResourseKey; }
             set
             {
+                LocalizationHandler.LanguagesDictionariesUpdated -= API_LanguagesDictionariesUpdated;
+                LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
+
                 _TitleLocalizationResourseKey = value;
                 ContentUpdated?.Invoke(this);
             }
@@ -98,6 +101,9 @@ namespace WpfHandler.UI
             get { return _DecriptionLocalizationResourseKey; }
             set
             {
+                LocalizationHandler.LanguagesDictionariesUpdated -= API_LanguagesDictionariesUpdated;
+                LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
+
                 _DecriptionLocalizationResourseKey = value;
                 ContentUpdated?.Invoke(this);
             }
@@ -148,6 +154,11 @@ namespace WpfHandler.UI
         /// Key of resource from dynamic dictionary that would be used for loading of localized description.
         /// </summary>
         private string _DecriptionLocalizationResourseKey = null;
+
+        /// <summary>
+        /// Is content can be changed by dictionaeires?
+        /// </summary>
+        private readonly bool isDynamicContent = true;
         #endregion
 
         #region Constructors & destructor
@@ -157,7 +168,7 @@ namespace WpfHandler.UI
         public GUIContent() 
         {
             // Subscribe on events.
-            LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
+            //LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
         }
 
         /// <summary>
@@ -166,10 +177,12 @@ namespace WpfHandler.UI
         /// <param name="title">Title of the element.</param>
         public GUIContent(string title) : base()
         {
+            isDynamicContent = false;
+
             DefaultTitle = title;
 
             // Subscribe on events.
-            LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
+            //LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
         }
 
         /// <summary>
@@ -179,11 +192,13 @@ namespace WpfHandler.UI
         /// <param name="description">Description of that element.</param>
         public GUIContent(string title, string description) : base()
         {
+            isDynamicContent = false;
+
             DefaultTitle = title;
             DefaultDescription = description;
 
             // Subscribe on events.
-            LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
+            //LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
         }
 
         /// <summary>
@@ -265,6 +280,8 @@ namespace WpfHandler.UI
         /// <returns>Relevant title of the member.</returns>
         public string GetTitle(MemberInfo member)
         {
+            if (!isDynamicContent || TitleLocalizationResourseKey == null) return DefaultTitle;
+
             if (_Title == null)
             {
                 try
@@ -295,6 +312,8 @@ namespace WpfHandler.UI
         /// <returns>Relevant description of the member.</returns>
         public string GetDescription()
         {
+            if (!isDynamicContent) return _DefaultDescription;
+
             if (_Description == null)
             {
                 try

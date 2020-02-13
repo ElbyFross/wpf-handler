@@ -402,7 +402,7 @@ namespace WpfHandler.UI.Controls
             else
             {
                 // Instiniating the panel.
-                ItemsPanel = new StackPanel()
+                ItemsPanel = new VirtualizingStackPanel()
                 { Orientation = Orientation.Vertical };
 
                 // Applying elements to the new layout.

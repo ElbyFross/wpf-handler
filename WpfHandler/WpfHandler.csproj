@@ -196,6 +196,7 @@
     <Compile Include="UI\Effects\RectBlurEffect.cs" />
     <Compile Include="UI\GUIContentAttribute.cs" />
     <Compile Include="UI\Controls\TextFieldControl.cs" />
+    <Compile Include="UI\Virtualization\IVirtualizedCollection.cs" />
     <None Include="WpfHandler.nuspec" />
     <Page Include="UI\Controls\CatalogView.xaml">
       <SubType>Designer</SubType>

@@ -69,6 +69,30 @@ namespace WpfHandler.UI.Controls
         #endregion
 
         /// <summary>
+        /// Bufer with a style loaded from resources.
+        /// </summary>
+        private static readonly Style loadedStyle;
+
+        /// <summary>
+        /// Static cinstructor. Loads resources.
+        /// </summary>
+        static FlatPasswordBox()
+        {
+            // Try to load default style
+            try
+            {
+                if (Application.Current.FindResource("FlatPasswordBox") is Style style)
+                {
+                    loadedStyle = style;
+                }
+            }
+            catch
+            {
+                // Not found in dictionary. Not important.
+            }
+        }
+
+        /// <summary>
         /// Defalut constructor.
         /// 
         /// Trying to load `FlatPasswordBox` as @Style resource.
@@ -78,18 +102,7 @@ namespace WpfHandler.UI.Controls
             InitializeComponent();
             DataContext = this;
 
-            // Try to load default style
-            try
-            {
-                if (Application.Current.FindResource("FlatPasswordBox") is Style style)
-                {
-                    this.Style = style;
-                }
-            }
-            catch
-            {
-                // Not found in dictionary. Not important.}
-            }
+            if (loadedStyle != null) Style = loadedStyle;
         }
 
         /// <summary>

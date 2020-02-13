@@ -26,7 +26,7 @@ limitations under the License.-->
              d:DesignHeight="25" d:DesignWidth="150"          
              MinWidth="20"
              Width="Auto" Height="24">
-    <Grid Background="{Binding Background}" x:Name="flatButton" Margin="0,0.1">
+    <Grid Background="{Binding Background}" x:Name="root" Margin="0,0.1">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="{Binding LabelWidth}"></ColumnDefinition>
             <ColumnDefinition Width="0.5" MaxWidth="0.5"/>
