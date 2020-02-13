@@ -122,7 +122,7 @@ namespace WpfHandler.UI.AutoLayout
             // Validate type cast.
             if (!(parent is VirtualizingStackPanel panel))
             {
-                throw new InvalidCastException("Parent mast be `" + typeof(StackPanel).FullName + "`.");
+                throw new InvalidCastException("Parent mast be `" + typeof(VirtualizingStackPanel).FullName + "`.");
             }
 
             // Set element to the parent panel.
@@ -159,7 +159,9 @@ namespace WpfHandler.UI.AutoLayout
         /// <param name="descriptor">Descriptor that hold fields or properties.</param>
         /// <param name="member">Member in descriptor instance that will be used as target for value update.</param>
         /// <param name="defautltValue">Value that will be setted by default.</param>
-        public static void RegistrateField(this IGUIField control, UIDescriptor descriptor, MemberInfo member, object defautltValue)
+        public static void RegistrateField(
+            this IGUIField control, UIDescriptor descriptor,
+            MemberInfo member, object defautltValue)
         {
             #region Declaretion & Initializtion
             // Preventing the null field.
@@ -434,8 +436,8 @@ namespace WpfHandler.UI.AutoLayout
             if (!element.IsVisible)
                 return false;
 
-            Rect bounds = element.TransformToAncestor(container).TransformBounds(new Rect(0.0, 0.0, element.ActualWidth, element.ActualHeight));
-            Rect rect = new Rect(0.0, 0.0, container.ActualWidth, container.ActualHeight);
+            Rect bounds = element.TransformToAncestor(container).TransformBounds(new Rect(0.0, 0.0, element.RenderSize.Width, element.RenderSize.Height));
+            Rect rect = new Rect(0.0, 0.0, container.RenderSize.Width, container.RenderSize.Height);
             return rect.Contains(bounds.TopLeft) || rect.Contains(bounds.BottomRight);
         }
     }

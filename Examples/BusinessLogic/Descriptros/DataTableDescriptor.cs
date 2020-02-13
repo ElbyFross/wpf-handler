@@ -76,7 +76,8 @@ namespace BusinessLogic.Descriptros
         // Casomizing the font weight for the header pabel.
         [FontWeight(FontWeightAttribute.WeightType.DemiBold)]
         public HeaderDescriptor header;
-        
+
+
         // Limiting the element height.
         [MaxHeight(200)]
 
@@ -87,14 +88,14 @@ namespace BusinessLogic.Descriptros
 
         // Redefining background to the `Transperent.
         // Skiping foreground color by using the null value.
-        // Redefining backplate color to the `#A69272`.
+        // Redefining backplate color to the `#8396A6`.
         [Palette("Transparent", null, "#8396A6", "#FCFEFF", "#D8E6F2")]
         public List<TableRowDescriptor> table = new List<TableRowDescriptor>();
         #endregion
 
         public DataTableDescriptor()
         {
-            for (int i = 0; i < 50; i++)
+            for (int i = 0; i < 5; i++)
             {
                 table.Add(new TableRowDescriptor() { id = i, title = "Item " + i});
             }

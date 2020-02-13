@@ -133,7 +133,7 @@
     <Compile Include="Dictionaries\LocalizableContentAttribute.cs" />
     <Compile Include="UI\AutoLayout\LayoutHandler.cs" />
     <Compile Include="UI\AutoLayout\LayoutLayer.cs" />
-    <Compile Include="UI\AutoLayout\UIDescriptor.cs" />
+    <Compile Include="UI\AutoLayout\UIDescriptorCore.cs" />
     <Compile Include="UI\Controls\CatalogButton.xaml.cs">
       <DependentUpon>CatalogButton.xaml</DependentUpon>
     </Compile>
@@ -196,6 +196,7 @@
     <Compile Include="UI\Effects\RectBlurEffect.cs" />
     <Compile Include="UI\GUIContentAttribute.cs" />
     <Compile Include="UI\Controls\TextFieldControl.cs" />
+    <Compile Include="UI\AutoLayout\UIDescriptorVirtualization.cs" />
     <Compile Include="UI\Virtualization\IVirtualizedCollection.cs" />
     <None Include="WpfHandler.nuspec" />
     <Page Include="UI\Controls\CatalogView.xaml">

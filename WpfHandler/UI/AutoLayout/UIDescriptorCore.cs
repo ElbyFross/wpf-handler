@@ -29,7 +29,7 @@ namespace WpfHandler.UI.AutoLayout
     /// <summary>
     /// Class that provides adopting of members by AutoLayout UI.
     /// </summary>
-    public abstract class UIDescriptor
+    public abstract partial class UIDescriptor
     {
         /// <summary>
         /// Is that descriptor loaded?
@@ -40,8 +40,15 @@ namespace WpfHandler.UI.AutoLayout
         /// <summary>
         /// Options applyed during initialization.
         /// </summary>
+        [HideInInspector]
         public ISharableGUILayoutOption[] SharedLayoutOptions { get; set; } =
             new ISharableGUILayoutOption[0];
+
+        /// <summary>
+        /// A root layer for that descriptor.
+        /// </summary>
+        [HideInInspector]
+        public LayoutLayer RootLayer { get; private set; }
 
         /// <summary>
         /// Occurs when come of UI elemets binded to the descriptor was updated.
@@ -86,9 +93,10 @@ namespace WpfHandler.UI.AutoLayout
         /// Insiniate UI by descriptor's attributes map and add it as child to parent element.
         /// </summary>
         /// <param name="layer">UI layer that will used as a root for the descriptor's elements.</param>
-        public /*async*/ void BindTo(LayoutLayer layer)
+        public void BindTo(LayoutLayer layer)
         {
             // Storing layer.
+            RootLayer = layer;
             activeLayer = layer;
 
             #region Getting descripting data
@@ -214,7 +222,7 @@ namespace WpfHandler.UI.AutoLayout
                 {
                     // Instiniating target control by the type.
                     var control = (IGUIField)Activator.CreateInstance(controlType);
-
+                    
                     #region Set prefix label
                     // Is spawned elelment has a label.
                     if (control is UI.Controls.ILabel label)
@@ -244,15 +252,8 @@ namespace WpfHandler.UI.AutoLayout
                     // Check if spawned control is framework element.
                     if (control is FrameworkElement fEl)
                     {
-                        //fEl.IsVisibleChanged += delegate (object sender, DependencyPropertyChangedEventArgs args)
-                        //{
-
-                        //fEl.Loaded += delegate (object sender, RoutedEventArgs args)
-                        //{
-
-                            // Applying options to the element.
-                            ApplyOptionsHandler(fEl, attributes);
-                        //};
+                        // Applying options to the element.
+                        ApplyOptionsHandler(fEl, attributes);
                     }
                     #endregion
 

@@ -51,8 +51,18 @@ namespace WpfHandler.UI.AutoLayout.Controls
                 // Finalizes current GUI.
                 _Descriptor?.UnbindFrom(root);
 
-                // Instiniates new one.
-                value?.BindTo(root);
+                if (value != null)
+                {
+                    // Binding the descriptor to the `root`.
+                    if (value.IsVirtualized)
+                    {
+                        _ = value.BindToAsync(root);
+                    }
+                    else
+                    {
+                        value.BindTo(root);
+                    }
+                }
 
                 // Updates stored value.
                 _Descriptor = value;

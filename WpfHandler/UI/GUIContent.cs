@@ -280,7 +280,10 @@ namespace WpfHandler.UI
         /// <returns>Relevant title of the member.</returns>
         public string GetTitle(MemberInfo member)
         {
-            if (!isDynamicContent || TitleLocalizationResourseKey == null) return DefaultTitle;
+            if (!isDynamicContent || TitleLocalizationResourseKey == null)
+            {
+                return DefaultTitle ?? GetGeneratedTitle(member);
+            }
 
             if (_Title == null)
             {
@@ -291,19 +294,29 @@ namespace WpfHandler.UI
                 }
                 catch
                 {
-                    if (member != null)
-                    {
-                        // Set default title or dict code if title not found.
-                        _Title = DefaultTitle ?? Format(member.Name);
-                    }
-                    else
-                    {
-                        _Title = DefaultTitle;
-                    }
+                    _Title = GetGeneratedTitle(member);
                 }
             }
 
             return _Title;
+        }
+
+        /// <summary>
+        /// Returns the title suitable for the member.
+        /// </summary>
+        /// <param name="member">Target member.</param>
+        /// <returns>Content's title.</returns>
+        public string GetGeneratedTitle(MemberInfo member)
+        {
+            if (member != null)
+            {
+                // Set default title or dict code if title not found.
+                return DefaultTitle ?? Format(member.Name);
+            }
+            else
+            {
+                return DefaultTitle;
+            }
         }
 
         /// <summary>
