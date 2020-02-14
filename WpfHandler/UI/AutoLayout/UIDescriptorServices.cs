@@ -109,7 +109,7 @@ namespace WpfHandler.UI.AutoLayout
         /// <param name="member">Target member.</param>
         /// <param name="globalOptions">Options of the descriptor.</param>
         /// <returns></returns>
-        private IGUIField InstantiateMember(ref LayoutLayer layer,
+        private object InstantiateMember(ref LayoutLayer layer,
             MemberInfo member,
             IEnumerable<Attribute> globalOptions)
         {
@@ -123,7 +123,7 @@ namespace WpfHandler.UI.AutoLayout
         /// <param name="memberMeta">Target member.</param>
         /// <param name="globalOptions">Options of the descriptor.</param>
         /// <returns></returns>
-        private IGUIField InstantiateMember(ref LayoutLayer layer,
+        private object InstantiateMember(ref LayoutLayer layer,
             MembersHandler.MemberMeta memberMeta,
             IEnumerable<Attribute> globalOptions)
         {
@@ -320,13 +320,16 @@ namespace WpfHandler.UI.AutoLayout
                     #endregion
 
                     // Binding descriptor to the UI.
-                    subDesc.BindTo((Panel)activeLayer.root);
+                    Panel subPanel = (Panel)activeLayer.root;
+                    subDesc.BindTo(subPanel);
 
                     // End descriptor layer.
                     new EndGroupAttribute().OnLayout(ref layer);
 
                     // Subscribing on the sub descriptor changed update.
                     subDesc.ValueChanged += OnValueChangedCallback;
+
+                    return subPanel;
                 }
             }
 

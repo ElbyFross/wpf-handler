@@ -76,7 +76,7 @@ namespace BusinessLogic.Descriptros
         // Casomizing the font weight for the header pabel.
         [FontWeight(FontWeightAttribute.WeightType.DemiBold)]
         public HeaderDescriptor header;
-        
+
         // Limiting the element height.
         [MaxHeight(200)]
 
