@@ -46,6 +46,21 @@ namespace BusinessLogic
             //tableDescriptor.SharedLayoutOptions = sharedOptions;
             newElementDescriptor.SharedLayoutOptions = sharedOptions;
 
+            tableDescriptor.Loaded += delegate (UIDescriptor _)
+            {
+                tableDescriptor.controlPanel.NewItemTab += async delegate ()
+                {
+                    // Switches to the `New item` tab.
+                    await switchPanel.SwitchToAsync(newElementView);
+                };
+            };
+            
+            // Defining behavior for `ToTableTab` action at the `New item` form.
+            newElementDescriptor.ToTableTab += async delegate ()
+            {
+                // Switches back to the `Table` tab.
+                await switchPanel.SwitchToAsync(tableView);
+            };
 
             // Appllying descriptor instances to the AutoLayoutVeiw.
             tableView.Descriptor = tableDescriptor;
@@ -53,19 +68,6 @@ namespace BusinessLogic
 
             // Defining current active tab.
             switchPanel.Current = tableView;
-
-            tableDescriptor.controlPanel.NewItemTab += async delegate ()
-            {
-                // Switches to the `New item` tab.
-                await switchPanel.SwitchToAsync(newElementView);
-            };
-
-            // Defining behavior for `ToTableTab` action at the `New item` form.
-            newElementDescriptor.ToTableTab += async delegate ()
-            {
-                // Switches back to the `Table` tab.
-                await switchPanel.SwitchToAsync(tableView);
-            };
         }
     }
 }

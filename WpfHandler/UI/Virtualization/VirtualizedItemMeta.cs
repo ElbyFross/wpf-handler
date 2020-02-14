@@ -12,7 +12,6 @@
 //See the License for the specific language governing permissions and
 //limitations under the License.
 
-
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -23,34 +22,48 @@ using System.Windows;
 using System.Windows.Markup;
 using System.Reflection;
 using System.Windows.Controls;
-using WpfHandler.UI.AutoLayout.Configuration;
+using WpfHandler.UI.AutoLayout;
 
 
 namespace WpfHandler.UI.Virtualization
 {
     /// <summary>
-    /// Collection that will descplay only the elements displayed at the visible page.
+    /// Metadata that describes a virtualized UI element.
     /// </summary>
-    public interface IVirtualizedCollection
+    public class VirtualizedItemMeta
     {
         /// <summary>
-        /// Defines is virtalization enable or not.
+        /// Instantiated UI element.
         /// </summary>
-        bool IsVirtualized { get; set; }
+        public FrameworkElement Element { get; protected set; }
 
         /// <summary>
-        /// How many items will instatiated during one tic.
+        /// Instantiated field element.
         /// </summary>
-        int VirtualizedItemsPack { get; set; }
+        public IGUIField Field { get; protected set; }
 
         /// <summary>
-        /// List with virtualized items.
+        /// Root layer that currently hod element.
         /// </summary>
-        List<VirtualizedItemMeta> VirtualizedElements { get; }
+        public LayoutLayer Root { get; protected set; }
 
         /// <summary>
-        /// Is collection must uncload and descroy controls out of the view bounds?
+        /// Binded member.
         /// </summary>
-        bool UnloadHidded { get; set; }
+        public MemberInfo Member { get; protected set; }
+
+        /// <summary>
+        /// Default constructor.
+        /// </summary>
+        /// <param name="element">Instantiated element.</param>
+        /// <param name="layer">Current root layout layer.</param>
+        /// <param name="member">Binded member.</param>
+        public VirtualizedItemMeta(object element, ref LayoutLayer layer, MemberInfo member)
+        {
+            Element = element as FrameworkElement;
+            Field = element as IGUIField;
+            Root = layer;
+            Member = member;
+        }
     }
 }

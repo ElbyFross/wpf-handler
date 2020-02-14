@@ -199,6 +199,7 @@
     <Compile Include="UI\Controls\TextFieldControl.cs" />
     <Compile Include="UI\AutoLayout\UIDescriptorVirtualization.cs" />
     <Compile Include="UI\Virtualization\IVirtualizedCollection.cs" />
+    <Compile Include="UI\Virtualization\VirtualizedItemMeta.cs" />
     <None Include="WpfHandler.nuspec" />
     <Page Include="UI\Controls\CatalogView.xaml">
       <SubType>Designer</SubType>

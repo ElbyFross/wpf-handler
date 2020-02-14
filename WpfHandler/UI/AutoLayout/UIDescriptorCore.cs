@@ -283,15 +283,30 @@ namespace WpfHandler.UI.AutoLayout
                 }
                 else
                 {
-                    // TODO Virtualizing field.
+                    // Creating virtual layer.
+                    var virtualLayer = new LayoutLayer()
+                    { root = new VirtualizingStackPanel() };
+
+                    // Getting options applied to the descriptor.
+                    var globalOptions = Attribute.GetCustomAttributes(GetType(), typeof(Attribute)).Where
+                        (f => f.GetType().GetInterface(typeof(IGUILayoutOption).FullName) != null);
+
+                    // Virtualizing field.
+                    var element = InstantiateMember(ref virtualLayer, member, globalOptions);
+
+                    // Generating metadata.
+                    var meta = new Virtualization.VirtualizedItemMeta(element, ref virtualLayer, member);
+
+                    // Registring via the virtualized elements.
+                    VirtualizedElements.Add(meta);
+
+                    return meta.Field;
                 }
             }
             else
             {
                 return RegistredFields[member] as IGUIField;
             }
-
-            return null;
         }
 
         /// <summary>

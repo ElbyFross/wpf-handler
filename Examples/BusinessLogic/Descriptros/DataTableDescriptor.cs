@@ -94,16 +94,12 @@ namespace BusinessLogic.Descriptros
 
         public DataTableDescriptor()
         {
-            for (int i = 0; i < 5; i++)
-            {
-                table.Add(new TableRowDescriptor() { id = i, title = "Item " + i});
-            }
-        
-            ValueChanged += DataTableDescriptor_ValueChanged;
-        }
+            //var virtualizedField = GetFieldByMember("headerfs");
 
-        private void DataTableDescriptor_ValueChanged(UIDescriptor arg1, IGUIField arg2, object[] args)
-        {
+            for (int i = 0; i < 50; i++)
+            {
+                table.Add(new TableRowDescriptor() { id = i, title = "Item " + i });
+            }
         }
     }
 }

@@ -320,8 +320,12 @@ namespace WpfHandler.UI.AutoLayout
                     #endregion
 
                     // Binding descriptor to the UI.
-                    Panel subPanel = (Panel)activeLayer.root;
-                    subDesc.BindTo(subPanel);
+                    Panel subPanel = (Panel)layer.root;
+
+                    if (subDesc.IsVirtualized)
+                        _ = subDesc.BindToAsync(subPanel);
+                    else
+                        subDesc.BindTo(subPanel);
 
                     // End descriptor layer.
                     new EndGroupAttribute().OnLayout(ref layer);

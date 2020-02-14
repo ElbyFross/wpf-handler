@@ -42,13 +42,13 @@ namespace WpfHandler.UI.AutoLayout
         /// How many members will be virtualized during one tic before validation.
         /// </summary>
         [HideInInspector]
-        public int VirtualizedItemsPack { get; set; } = 10;
+        public int VirtualizedItemsPack { get; set; } = 3;
 
         /// <summary>
         /// List with virtualized items.
         /// </summary>
         [HideInInspector]
-        public List<FrameworkElement> VirtualizedElements { get; } = new List<FrameworkElement>();
+        public List<VirtualizedItemMeta> VirtualizedElements { get; } = new List<VirtualizedItemMeta>();
 
         /// <summary>
         /// TODO: ATTENTION: Not supported
@@ -179,26 +179,52 @@ namespace WpfHandler.UI.AutoLayout
                 }
                 #endregion
 
-                var field = InstantiateMember(ref activeLayer, memberMeta, globalOptions);
+                var virtualizedElement = RegistredFields[member] as IGUIField;
 
-                // Skip in case if not instantiated.
-                if (field == null) continue;
-
-                // Applying to the layout.
-                var memberType = MembersHandler.GetSpecifiedMemberType(member);
-                if (!memberType.IsSubclassOf(typeof(UIDescriptor)))
+                if (virtualizedElement == null)
                 {
-                    // Adding instiniated element to the layout.
-                    activeLayer?.ApplyControl(field as FrameworkElement);
-                }
+                    // Instantiating a member.
+                    var field = InstantiateMember(ref activeLayer, memberMeta, globalOptions);
 
-                // Settup into virtualization system.
-                if(field is FrameworkElement fEl)
-                {
-                    lastVirtualizedElement = fEl;
-                    VirtualizedElements.Add(fEl);
-                    virtualizedPackCounter++;
+                    // Skip in case if not instantiated.
+                    if (field == null) continue;
+
+                    // Storing in virtualization meta.
+                    var meta = new VirtualizedItemMeta(
+                        field,
+                        ref activeLayer,
+                        member);
+
+                    // Settup into virtualization system.
+                    lastVirtualizedElement = meta.Element ?? lastVirtualizedElement;
+                    //VirtualizedElements.Add(meta);
+
+                    // Applying to the layout.
+                    var memberType = MembersHandler.GetSpecifiedMemberType(member);
+                    if (!memberType.IsSubclassOf(typeof(UIDescriptor)))
+                    {
+                        // Adding instiniated element to the layout.
+                        activeLayer?.ApplyControl(field as FrameworkElement);
+                    }
                 }
+                else
+                {
+                    // Getting all attributes.
+                    IEnumerable<Attribute> attributes = memberMeta.Member.GetCustomAttributes<Attribute>(true);
+
+                    virtualizedElement.OnLayout(ref layer, this, memberMeta.Member, globalOptions, attributes);
+
+                    // Applying to the layout.
+                    var memberType = MembersHandler.GetSpecifiedMemberType(member);
+                    if (!memberType.IsSubclassOf(typeof(UIDescriptor)))
+                    {
+                        // Adding instiniated element to the layout.
+                        layer?.ApplyControl(virtualizedElement as FrameworkElement);
+                    }
+                }
+                
+                // Incrementing of virtualized pack elements counter.
+                virtualizedPackCounter++;
             }
 
             // Marking as loaded.

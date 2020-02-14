@@ -175,6 +175,8 @@ namespace WpfHandler.UI.AutoLayout
                     {
                         // Instiniating the default value.
                         defautltValue = Activator.CreateInstance(type);
+
+                        UIDescriptor.MembersHandler.SetValue(member, descriptor, defautltValue);
                     }
                 }
                 catch { };
