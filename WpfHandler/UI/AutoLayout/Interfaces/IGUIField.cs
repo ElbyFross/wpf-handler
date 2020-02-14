@@ -26,8 +26,9 @@ namespace WpfHandler.UI.AutoLayout
         /// Will cause updating of the BindedMember value.
         /// 
         /// IGUIField - sender.
+        /// object[] - arguments.
         /// </summary>
-        event System.Action<IGUIField> ValueChanged;
+        event System.Action<IGUIField, object[]> ValueChanged;
 
         /// <summary>
         /// Value of that control.

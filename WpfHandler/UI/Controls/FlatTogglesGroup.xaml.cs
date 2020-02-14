@@ -235,7 +235,7 @@ namespace WpfHandler.UI.Controls
                     ((SelectableFlatButton)Elements[Index]).Selected = true;
 
                     // Inform subscribers.
-                    ValueChanged?.Invoke(this);
+                    ValueChanged?.Invoke(this, new object[0]);
                 }
             }
         }
@@ -304,7 +304,7 @@ namespace WpfHandler.UI.Controls
         /// 
         /// IGUIField - sender.
         /// </summary>
-        public event Action<IGUIField> ValueChanged;
+        public event Action<IGUIField, object[]> ValueChanged;
 
 
         /// <summary>
@@ -483,7 +483,7 @@ namespace WpfHandler.UI.Controls
                     _Index = localIndexBufer;
 
                     // Inform subscribers.
-                    ValueChanged?.Invoke(this);
+                    ValueChanged?.Invoke(this, new object[0]);
                 };
 
                 // Adding to the collection.
@@ -538,7 +538,7 @@ namespace WpfHandler.UI.Controls
                     _Index = localIndexBufer;
 
                     // Inform subscribers.
-                    ValueChanged?.Invoke(this);
+                    ValueChanged?.Invoke(this, new object[0]);
                 };
 
                 // Adding to the collection.

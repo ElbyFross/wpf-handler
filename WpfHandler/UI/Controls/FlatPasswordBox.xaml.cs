@@ -41,7 +41,7 @@ namespace WpfHandler.UI.Controls
         /// Event that will occure in case if value of the field will be changed.
         /// Will cause updating of the BindedMember value.
         /// </summary>
-        public event Action<IGUIField> ValueChanged;
+        public event Action<IGUIField, object[]> ValueChanged;
 
         /// <summary>
         /// Text in textbox.
@@ -113,7 +113,7 @@ namespace WpfHandler.UI.Controls
         private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
         {
             // Inform autolayout handler about changes.
-            ValueChanged?.Invoke(this);
+            ValueChanged?.Invoke(this, new object[0]);
         }
 
         /// <summary>

@@ -67,11 +67,13 @@ namespace WpfHandler.UI.AutoLayout.Controls
                 // Updates stored value.
                 _Descriptor = value;
 
+                _Descriptor.ValueChanged += Descriptor_ValueChanged;
+
                 // Informs subscribers.
-                ValueChanged?.Invoke(this);
+                ValueChanged?.Invoke(this, new object[0]);
             }
         }
-
+        
         /// <summary>
         /// Operate with a value of <see cref="Descriptor"/> property.
         /// </summary>
@@ -98,7 +100,7 @@ namespace WpfHandler.UI.AutoLayout.Controls
         /// <summary>
         /// Occurs when 
         /// </summary>
-        public event Action<IGUIField> ValueChanged;
+        public event Action<IGUIField, object[]> ValueChanged;
 
         /// <summary>
         /// Initialize component.
@@ -129,6 +131,18 @@ namespace WpfHandler.UI.AutoLayout.Controls
         { }
 
         /// <summary>
+        /// Occurs when one of the shild elements of descriptor is changed.
+        /// Infoms <see cref="ValueChanged"/> event subscribers about.
+        /// </summary>
+        /// <param name="sender">Sender descriptor.</param>
+        /// <param name="field">Changed field.</param>
+        /// <param name="args">Shared arguments.</param>
+        private void Descriptor_ValueChanged(UIDescriptor sender, IGUIField field, object[] args)
+        {
+            ValueChanged?.Invoke(this, new object[] {sender, field }.Concat(args).ToArray());
+        }
+
+        /// <summary>
         /// Connecting element to the UI handler.
         /// </summary>
         /// <param name="layer">Target UI layer.</param>
@@ -136,7 +150,7 @@ namespace WpfHandler.UI.AutoLayout.Controls
         /// <remarks>
         /// Allows only a `RoutedEventHandler` or an `Action` delegate as value.
         /// </remarks>
-        public void OnLayout(ref LayoutLayer layer, params object[] args)
+        public virtual void OnLayout(ref LayoutLayer layer, params object[] args)
         {
         }
     }

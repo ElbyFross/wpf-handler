@@ -69,7 +69,7 @@ namespace WpfHandler.UI.Controls
         /// Event that will occure in case if value of the field will be changed.
         /// Will cause updating of the BindedMember value.
         /// </summary>
-        public event Action<IGUIField> ValueChanged;
+        public event Action<IGUIField, object[]> ValueChanged;
 
         /// <summary>
         /// Memeber that will be used as source\target for the value into UI.
@@ -140,7 +140,7 @@ namespace WpfHandler.UI.Controls
                 listControlUi.Visibility = value ? Visibility.Visible : Visibility.Collapsed;
 
                 // Inform auto layout handler.
-                ValueChanged?.Invoke(this);
+                ValueChanged?.Invoke(this, new object[0]);
             }
         }
 

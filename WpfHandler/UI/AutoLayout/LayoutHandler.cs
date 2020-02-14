@@ -184,14 +184,14 @@ namespace WpfHandler.UI.AutoLayout
             control.Value = defautltValue;
 
             // Declaring registration params.
-            Action<IGUIField> handler = null;
+            Action<IGUIField, object[]> handler = null;
             PropertyInfo propMember = null;
             FieldInfo fieldMember = null;
             #endregion
 
             #region Handlers
             // Instiniate UI field update callback for property members.
-            void PropChangeCallback(IGUIField _)
+            void PropChangeCallback(IGUIField _, object[] __)
             {
                 // Try to set value.
                 try { propMember.SetValue(descriptor, control.Value); }
@@ -200,7 +200,7 @@ namespace WpfHandler.UI.AutoLayout
                 { MessageBox.Show("Backward member binding corupted.\n\nDetails:\n" + ex.Message); }
             }
             // Instiniate UI field update callback for fields members.
-            void FieldChangeCallback(IGUIField _)
+            void FieldChangeCallback(IGUIField _, object[] __)
             {
                 // Try to set value.
                 try { fieldMember.SetValue(descriptor, control.Value); }
@@ -243,7 +243,7 @@ namespace WpfHandler.UI.AutoLayout
             try
             {
                 // Unregistreting of registred callback.
-                control.ValueChanged -= (Action<IGUIField>)RegistredCallbacks[control];
+                control.ValueChanged -= (Action<IGUIField, object[]>)RegistredCallbacks[control];
             }
             catch
             {

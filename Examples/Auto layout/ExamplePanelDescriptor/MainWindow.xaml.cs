@@ -120,7 +120,7 @@ namespace ExamplePanelDescriptor
             var stateField = GetFieldByMember("state");
 
             // Subscribing on the state value changes.
-            stateField.ValueChanged += delegate (IGUIField objw)
+            stateField.ValueChanged += delegate (IGUIField objw, object[] _)
             {
                 SwitcherState state = (SwitcherState)objw.Value;
 

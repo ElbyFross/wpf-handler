@@ -30,7 +30,7 @@ namespace SampleShapesControlApp
             alView.Descriptor.ValueChanged += Descriptor_ValueChanged;
         }
 
-        private void Descriptor_ValueChanged(UIDescriptor sender, IGUIField changedElement)
+        private void Descriptor_ValueChanged(UIDescriptor sender, IGUIField changedElement, object[] args)
         {
             if (!(sender is ControlPanel controlPanel)) throw new NotSupportedException();
 

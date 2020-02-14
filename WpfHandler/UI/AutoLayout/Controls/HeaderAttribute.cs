@@ -93,7 +93,7 @@ namespace WpfHandler.UI.AutoLayout.Controls
             };
 
             // Remove reference to the member.
-            // In other case header value would connected to meber that just describe UI view.
+            // In other case header value would connected to member that just describe UI view.
             for(int i = 0; i < args.Length; i++)
             {
                 // Checking if the target argument.

@@ -113,7 +113,7 @@ namespace WpfHandler.UI.Controls
                 source = list;
 
                 // Inform subscribers.
-                ValueChanged?.Invoke(this);
+                ValueChanged?.Invoke(this, new object[0]);
 
                 // Class the GUI.
                 //var layer = new LayoutLayer();
@@ -185,7 +185,7 @@ namespace WpfHandler.UI.Controls
         /// <summary>
         /// Will occure when source or one from elements will change.
         /// </summary>
-        public event Action<IGUIField> ValueChanged;
+        public event Action<IGUIField, object[]> ValueChanged;
         #endregion
 
         #region Protected members
@@ -299,7 +299,7 @@ namespace WpfHandler.UI.Controls
             indexMap?.Clear();
 
             // Inform subscribers.
-            ValueChanged?.Invoke(this);
+            ValueChanged?.Invoke(this, new object[0]);
         }
 
         /// <summary>
@@ -374,7 +374,7 @@ namespace WpfHandler.UI.Controls
             }
 
             // Informing subscribers.
-            ValueChanged?.Invoke(this);                       
+            ValueChanged?.Invoke(this, new object[0]);                       
         }
 
         /// <summary>
@@ -450,7 +450,7 @@ namespace WpfHandler.UI.Controls
             field.ValueChanged -= CollectionElementValueChanged;
 
             // Informing subscribers.
-            ValueChanged?.Invoke(this);
+            ValueChanged?.Invoke(this, new object[0]);
         }
 
         /// <summary>
@@ -680,7 +680,8 @@ namespace WpfHandler.UI.Controls
         /// Occurs when field's valu will be changed via UI element.
         /// </summary>
         /// <param name="obj">The GUI element that initialize event.</param>
-        protected virtual void CollectionElementValueChanged(IGUIField obj)
+        /// <param name="args">Shared arguments.</param>
+        protected virtual void CollectionElementValueChanged(IGUIField obj, object[] args)
         {
             // If index for that element is registred.
             if (indexMap.ContainsKey(obj))
@@ -690,7 +691,7 @@ namespace WpfHandler.UI.Controls
                 source[index] = obj.Value;
                 
                 // Inform subscribers.
-                ValueChanged?.Invoke(this);
+                ValueChanged?.Invoke(this, new object[] { obj }.Concat(args).ToArray());
             }
             else
             {
@@ -742,7 +743,7 @@ namespace WpfHandler.UI.Controls
             Insert(targetIdx, dropedField);
 
             // Inform subscribers.
-            ValueChanged?.Invoke(this);
+            ValueChanged?.Invoke(this, new object[0]);
         }
         #endregion
         

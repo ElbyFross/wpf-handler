@@ -75,7 +75,7 @@ namespace WpfHandler.UI.Controls
             set
             {
                 _LabelContent = value;
-                ValueChanged?.Invoke(this);
+                ValueChanged?.Invoke(this, new object[0]);
             }
         }
 
@@ -102,7 +102,7 @@ namespace WpfHandler.UI.Controls
         /// <summary>
         /// Occurs when <see cref="LabelContent"/> of <see cref="Value"/> property is changed.
         /// </summary>
-        public event Action<IGUIField> ValueChanged;
+        public event Action<IGUIField, object[]> ValueChanged;
 
         /// <summary>
         /// Bufer that contains current content.

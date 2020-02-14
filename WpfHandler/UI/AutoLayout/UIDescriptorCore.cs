@@ -53,7 +53,7 @@ namespace WpfHandler.UI.AutoLayout
         /// <summary>
         /// Occurs when come of UI elemets binded to the descriptor was updated.
         /// </summary>
-        public event Action<UIDescriptor, IGUIField> ValueChanged;
+        public event Action<UIDescriptor, IGUIField, object[]> ValueChanged;
 
         /// <summary>
         /// Will occurs when the descripor get loaded state.
@@ -119,222 +119,35 @@ namespace WpfHandler.UI.AutoLayout
                 OrderBy(f => f.MetadataToken);
             #endregion
 
-            #region Definig handler
-            // The handler that will apply options to the element.
-            void ApplyOptionsHandler(
-                FrameworkElement element,
-                IEnumerable<Attribute> localAttributes)
-            {
-                if (element == null) return;
-
-                // Applying global options
-                foreach (IGUILayoutOption option in globalOptions)
-                {
-                    option.ApplyLayoutOption(element);
-                }
-
-                // Perform options attributes.
-                foreach (Attribute attr in localAttributes)
-                {
-                    // Skip if not an option.
-                    if (!(attr is IGUILayoutOption option)) continue;
-
-                    // Applying option to the element.
-                    option.ApplyLayoutOption(element);
-                }
-
-                // Applying the shared options.
-                foreach (ISharableGUILayoutOption option in SharedLayoutOptions)
-                {
-                    // Applying option to the element.
-                    option.ApplyLayoutOption(element);
-                }
-            }
-            #endregion
-
             // Sort in declaretion order.
             members = orderedMembers.Concat(disorderedMembers).ToArray();
             
             // Perform all descriptor map.
             foreach (MemberInfo member in members)
             {
+                var memberMeta = new MembersHandler.MemberMeta(member);
+
                 #region Validation
                 // Skip if the member is not field or property.
-                if (!MembersHandler.GetSpecifiedMemberInfo(
-                    member, out PropertyInfo prop, out FieldInfo field))
-                    continue;
-                
+                if (!memberMeta.IsValue) continue;
+
                 // Skip if member excluded from instpector.
                 if (member.GetCustomAttribute<HideInInspectorAttribute>() != null)
                     continue;
                 #endregion
 
-                // Getting all attributes.
-                IEnumerable<Attribute> attributes = member.GetCustomAttributes<Attribute>(true);
+                // Instantiating a field from member.
+                var field = InstantiateMember(ref activeLayer, memberMeta, globalOptions);
 
-                // Allocating and defining types.
+                // Skip in case if not instantiated.
+                if (field == null) continue;
+
+                // Applying to the layout.
                 var memberType = MembersHandler.GetSpecifiedMemberType(member);
-                Type controlType = null;
-
-                #region Perform general layout attributes
-                // Perform general attributes.
-                foreach (Attribute attr in attributes)
+                if (!memberType.IsSubclassOf(typeof(UIDescriptor)))
                 {
-                    // Skip if an option.
-                    if (attr is IGUILayoutOption) continue;
-
-                    // Apply layout control to GUI.
-                    if (attr is IGUIElement attrControl)
-                    {
-                        attrControl.OnLayout(ref activeLayer, this, member);
-                    }
-                }
-                #endregion
-
-
-                #region Defining UI field type
-                // Check if default control was overrided by custom one.
-                var customControlDesc = member.GetCustomAttribute<CustomControlAttribute>();
-                if (customControlDesc != null && // Is overriding requested?
-                    customControlDesc.ControlType != null) // Is target type is not null
-                {
-                    // Set redefined control like target to instinitation.
-                    controlType = customControlDesc.ControlType;
-                }
-                else
-                {
-                    // Looking for the certain control only for derect defined descriptors.
-                    if (memberType.IsSubclassOf(typeof(UIDescriptor)))
-                    {
-                        // Set binded type like target to instiniation.
-                        controlType = LayoutHandler.GetBindedControl(memberType, false);
-                    }
-                    else
-                    {
-                        // Set binded type like target to instiniation.
-                        controlType = LayoutHandler.GetBindedControl(memberType, true);
-                    }
-                }
-                #endregion
-
-                // Is control defined to that member?
-                if (controlType != null)
-                {
-                    // Instiniating target control by the type.
-                    var control = (IGUIField)Activator.CreateInstance(controlType);
-                    
-                    #region Set prefix label
-                    // Is spawned elelment has a label.
-                    if (control is UI.Controls.ILabel label)
-                    {
-                        // Instiniating handle that will provide managmend of the control.
-                        ContentAttribute localizationHandler = null;
-
-                        // Try to get described one.
-                        if(UniformDataOperator.AssembliesManagement.MembersHandler.
-                            TryToGetAttribute (member, out ContentAttribute attribute))
-                        {
-                            // Buferize if found.
-                            localizationHandler = attribute;
-                        }
-                        else
-                        {
-                            // Initialize new one.
-                            localizationHandler = ContentAttribute.Empty;
-                        }
-
-                        // Binding spawned element to the conent.
-                        localizationHandler.BindToLabel(label, member);
-                    }
-                    #endregion
-
-                    #region Perform Layout options
-                    // Check if spawned control is framework element.
-                    if (control is FrameworkElement fEl)
-                    {
-                        // Applying options to the element.
-                        ApplyOptionsHandler(fEl, attributes);
-                    }
-                    #endregion
-
-                    #region Binding to a layout
-                    // Sign up this control on desctiptor events.
-                    TryToBindControl(control, this, member);
-
-                    // Initialize control.
-                    control.OnLayout(ref activeLayer, this, member, globalOptions, attributes);
-
-                    // Adding field to the registration table.
-                    RegistredFields.Add(member, control);
-                    #endregion
-
-                    //await Task.Yield();
-                }
-                else
-                {
-                    // Check if that just other descriptor.
-                    if (memberType.IsSubclassOf(typeof(UIDescriptor)))
-                    {
-                        //#region Configurating layout
-                        //// Add horizontal shift for sub descriptor.
-                        //new BeginHorizontalGroupAttribute().OnLayout(ref activeLayer);
-                        //new Controls.SpaceAttribute().OnLayout(ref activeLayer);
-
-                        // Add vertical group.
-                        var vertGroup = new BeginVerticalGroupAttribute();
-                        vertGroup.OnLayout(ref activeLayer, this, member);
-                        //#endregion
-
-                        #region Applying options to the new root
-                        // Applying options to the element.
-                        ApplyOptionsHandler(vertGroup.Layer.root as FrameworkElement, attributes);
-                        #endregion
-
-                        #region Looking for descriptor object.
-                        // Bufer that will contain value of the descriptor.
-                        UIDescriptor subDesc = null;
-                        
-                        // Trying to get value via reflection.
-                        subDesc = prop != null ? 
-                            prop.GetValue(this) as UIDescriptor : // Operate like property.
-                            field.GetValue(this) as UIDescriptor; // Operate like fields.
-
-                        // Instiniate default in case if value is null.
-                        if(subDesc == null)
-                        {
-                            try
-                            {
-                                // Insiniate empty constructor.
-                                subDesc = Activator.CreateInstance(memberType) as UIDescriptor;
-                            }
-                            catch(Exception ex)
-                            {
-                                // Log error.
-                                MessageBox.Show("UIDescriptor must contain empty constructor, " +
-                                    "or be instiniated before calling into UI." +
-                                    "\n\nDetails:\n" + ex.Message);
-
-                                // Skip to the next member.
-                                continue;
-                            }
-
-                            // Updating stored value for current member.
-                            if (prop != null) prop.SetValue(this, subDesc);
-                            else field.SetValue(this, subDesc);
-                        }
-                        
-                        // Defining the sharable options.
-                        var sharableOption = InsertSharableOptions(SharedLayoutOptions, attributes, true);
-                        sharableOption = InsertSharableOptions(sharableOption, globalOptions, false);
-                        subDesc.SharedLayoutOptions = sharableOption.ToArray();
-                        #endregion
-                        
-                        // Binding descriptor to the UI.
-                        subDesc.BindTo((Panel)activeLayer.root);
-                        
-                        // End descriptor layer.
-                        new EndGroupAttribute().OnLayout(ref activeLayer);
-                    }
+                    // Adding instiniated element to the layout.
+                    activeLayer?.ApplyControl(field as FrameworkElement);
                 }
             }
 
@@ -346,78 +159,6 @@ namespace WpfHandler.UI.AutoLayout
 
             // Inform subscribers.
             Loaded?.Invoke(this);            
-        }
-
-        /// <summary>
-        /// Inserts ISharableGUILayoutOption instances that still not included to the top options. 
-        /// </summary>
-        /// <param name="topOptions">Priority options from the topper layer.</param>
-        /// <param name="localOptions">Enumerable coolaction of objects that contains options for that layer.</param>
-        /// <param name="instance">Is output coolection must be a new instance of the data will insterted into existed one.</param>
-        /// <returns>Collection with sharable attributes suitable for sharing to the next deeper layer.</returns>
-        public static IList<ISharableGUILayoutOption> InsertSharableOptions(
-            IList<ISharableGUILayoutOption> topOptions,
-            IEnumerable localOptions,
-            bool instance)
-        {
-            // Copining content.
-            IList<ISharableGUILayoutOption> resultCollection;
-
-
-            List<ISharableGUILayoutOption> bufer = new List<ISharableGUILayoutOption>();
-
-            // Checking local options.
-            foreach(object attribute in localOptions)
-            {
-                if (!(attribute is IGUILayoutOption option)) continue;
-
-                // Check is is Sharable option.
-                if(option is ISharableGUILayoutOption sharableOption)
-                {
-                    bool conflicted = false;
-                    var optionType = option.GetType();
-
-                    // Chacking if the same type already included to the list.
-                    foreach (ISharableGUILayoutOption topSO in topOptions)
-                    {
-                        if(topSO.GetType().Equals(optionType))
-                        {
-                            conflicted = true;
-                            break;
-                        }
-                    }
-                    
-                    // Add to sharable options list in case if not conflicted by the type.
-                    if(!conflicted)
-                    {
-                        bufer.Add(sharableOption);
-                    }
-                }
-            }
-
-
-            // Instiniating new collection if requested.
-            if (instance)
-            {
-                // Copying collection.
-                resultCollection = new List<ISharableGUILayoutOption>(topOptions);
-                // Concating bufer with the collection.
-                resultCollection = bufer.Concat(resultCollection).ToList();
-            }
-            // Set base as reference.
-            else
-            {
-                // Applying top collection as current.
-                resultCollection = topOptions;
-
-                // Inserting the data from bufer.
-                for (int i = 0; i < bufer.Count; i++)
-                {
-                    resultCollection.Insert(i, bufer[i]);
-                }
-            }
-
-            return resultCollection;
         }
 
         /// <summary>
@@ -500,10 +241,7 @@ namespace WpfHandler.UI.AutoLayout
             {
                 // Registrate member in auto layout handler.
                 control.RegistrateField(this, member, value);
-
-                // Adding instiniated element to the layout.
-                activeLayer?.ApplyControl(control as FrameworkElement);
-
+                
                 // Subscribe the global event handler.
                 control.ValueChanged += OnValueChangedCallback;
             }
@@ -537,7 +275,23 @@ namespace WpfHandler.UI.AutoLayout
         /// <returns>A GUI Field binded to the member.</returns>
         public IGUIField GetFieldByMember(MemberInfo member)
         {
-            return RegistredFields[member] as IGUIField;
+            if (IsVirtualized)
+            {
+                if (RegistredFields[member] is IGUIField field)
+                {
+                    return field;
+                }
+                else
+                {
+                    // TODO Virtualizing field.
+                }
+            }
+            else
+            {
+                return RegistredFields[member] as IGUIField;
+            }
+
+            return null;
         }
 
         /// <summary>
@@ -622,107 +376,24 @@ namespace WpfHandler.UI.AutoLayout
         /// <summary>
         /// Handels the IGuiField.ValueChanged event and forward to the global one.
         /// </summary>
-        /// <param name="sender"></param>
-        protected virtual void OnValueChangedCallback(IGUIField sender)
+        /// <param name="sender">Fieled initiated the event.</param>
+        /// <param name="args">Shared arguments.</param>
+        protected virtual void OnValueChangedCallback(IGUIField sender, object[] args)
         {
             // Inform subscribers.
-            ValueChanged?.Invoke(this, sender);
+            ValueChanged?.Invoke(this, sender, args);
         }
 
         /// <summary>
-        /// Handling tasks with members suitable for UI descriptor's operations.
+        /// Handels the UIDescriptor.ValueChanged event and forward to the ipper one.
         /// </summary>
-        public static class MembersHandler
+        /// <param name="arg1">Descriptor initiated the event initiated the event.</param>
+        /// <param name="arg2">Fieled initiated the event.</param>
+        /// <param name="args">Shared arguments</param>
+        protected void OnValueChangedCallback(UIDescriptor arg1, IGUIField arg2, object[] args)
         {
-            /// <summary>
-            /// Get info suitable for field and properties members.
-            /// </summary>
-            /// <param name="member"></param>
-            /// <param name="propInfo"></param>
-            /// <param name="fieldInfo"></param>
-            /// <returns>Is the member is property of field?</returns>
-            public static bool GetSpecifiedMemberInfo(MemberInfo member,
-                out PropertyInfo propInfo, out FieldInfo fieldInfo)
-            {
-                propInfo = null;
-                fieldInfo = null;
-
-                // Check if is property.
-                if (member is PropertyInfo propBufer)
-                {
-                    // Getting stored value.
-                    propInfo = propBufer;
-                    return true;
-                }
-                // Check if is field.
-                else if (member is FieldInfo fieldBufer)
-                {
-                    fieldInfo = fieldBufer;
-                    return true;
-                }
-
-                return false;
-            }
-
-            /// <summary>
-            /// Setingt value to the member.
-            /// </summary>
-            /// <param name="member">PropertyInfo ot FieldInfo instance.</param>
-            /// <param name="target">Object that contains member.</param>
-            /// <param name="value">Value to set.</param>
-            public static void SetValue(MemberInfo member, object target, object value)
-            {
-                // Trying to get specified memebers.
-                if(GetSpecifiedMemberInfo(member, out PropertyInfo pi, out FieldInfo fi))
-                {
-                    if (pi != null) pi.SetValue(target, value); // Operate as property.
-                    else fi.SetValue(target, value); // Operate as field.
-                }
-                else
-                {
-                    throw new NotSupportedException("SetValue can be applied only to peopreties and fields.");
-                }
-            }
-
-            /// <summary>
-            /// Getting value to the member.
-            /// </summary>
-            /// <param name="member">PropertyInfo ot FieldInfo instance.</param>
-            /// <param name="target">Object that contains member.</param>
-            public static object GetValue(MemberInfo member, object target)
-            {
-                // Trying to get specified memebers.
-                if (GetSpecifiedMemberInfo(member, out PropertyInfo pi, out FieldInfo fi))
-                {
-                    if (pi != null) return pi.GetValue(target); // Operate as property.
-                    else return fi.GetValue(target); // Operate as field.
-                }
-                else
-                {
-                    throw new NotSupportedException("SetValue can be applied only to peopreties and fields.");
-                }
-            }
-
-            /// <summary>
-            /// Getting the type of the member.
-            /// </summary>
-            /// <param name="member">
-            /// Member for looking type. Allowed PropertyInfo or FieldInfo.
-            /// </param>
-            /// <returns>Type of the member.</returns>
-            public static Type GetSpecifiedMemberType(MemberInfo member)
-            {
-                // Trying to get specified memebers.
-                if (GetSpecifiedMemberInfo(member, out PropertyInfo pi, out FieldInfo fi))
-                {
-                    if (pi != null) return pi.PropertyType; // Operate as property.
-                    else return fi.FieldType; // Operate as field.
-                }
-                else
-                {
-                    throw new NotSupportedException("Get_Type can be applied only to peopreties and fields.");
-                }
-            }
+            // Inform subscribers.
+            ValueChanged?.Invoke(arg1, arg2, args);
         }
     }
 }

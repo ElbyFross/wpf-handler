@@ -76,8 +76,7 @@ namespace BusinessLogic.Descriptros
         // Casomizing the font weight for the header pabel.
         [FontWeight(FontWeightAttribute.WeightType.DemiBold)]
         public HeaderDescriptor header;
-
-
+        
         // Limiting the element height.
         [MaxHeight(200)]
 
@@ -99,6 +98,12 @@ namespace BusinessLogic.Descriptros
             {
                 table.Add(new TableRowDescriptor() { id = i, title = "Item " + i});
             }
+        
+            ValueChanged += DataTableDescriptor_ValueChanged;
+        }
+
+        private void DataTableDescriptor_ValueChanged(UIDescriptor arg1, IGUIField arg2, object[] args)
+        {
         }
     }
 }

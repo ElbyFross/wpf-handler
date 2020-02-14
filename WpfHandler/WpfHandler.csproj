@@ -67,6 +67,7 @@
     <Compile Include="UI\AutoLayout\Interfaces\ISharableGUILayoutOption.cs" />
     <Compile Include="UI\AutoLayout\Options\FontWeightAttribute.cs" />
     <Compile Include="UI\AutoLayout\Options\PaletteAttribute.cs" />
+    <Compile Include="UI\AutoLayout\UIDescriptorServices.cs" />
     <Compile Include="UI\Controls\CatalogView.xaml.cs">
       <DependentUpon>CatalogView.xaml</DependentUpon>
     </Compile>

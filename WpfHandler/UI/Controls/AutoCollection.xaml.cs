@@ -32,6 +32,7 @@ using System.Windows.Shapes;
 using WpfHandler.UI.AutoLayout;
 using WpfHandler.UI.AutoLayout.Configuration;
 using WpfHandler.UI.AutoLayout.Markups;
+using WpfHandler.UI.Virtualization;
 
 namespace WpfHandler.UI.Controls
 {
@@ -40,7 +41,7 @@ namespace WpfHandler.UI.Controls
     /// </summary>
     [TypesCompatible(typeof(Object))]
     [ListCompatible]
-    public partial class AutoCollection : CollectionControl, IPaletteCompatible
+    public partial class AutoCollection : CollectionControl, IPaletteCompatible, IVirtualizedCollection
     {
         #region Dependency properties
         /// <summary>
@@ -216,6 +217,13 @@ namespace WpfHandler.UI.Controls
                 try { SpliterColor = value[3] ?? SpliterColor; } catch { };
             }
         }
+
+        public bool IsVirtualized { get; set; }
+        public int VirtualizedItemsPack { get; set; }
+
+        public List<FrameworkElement> VirtualizedElements { get; } = new List<FrameworkElement>();
+
+        public bool UnloadHidded { get; set; } = true;
 
 
         /// <summary>

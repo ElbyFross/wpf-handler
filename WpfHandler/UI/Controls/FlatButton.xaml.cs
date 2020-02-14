@@ -58,7 +58,7 @@ namespace WpfHandler.UI.Controls
         /// <summary>
         /// Not supported.
         /// </summary>
-        public event Action<IGUIField> ValueChanged;
+        public event Action<IGUIField, object[]> ValueChanged;
 
         /// <summary>
         /// Text that will be displayed on the button.
@@ -74,8 +74,8 @@ namespace WpfHandler.UI.Controls
         /// </summary>
         public event RoutedEventHandler Click
         {
-            add => this.AddHandler(FlatButton.ClickEvent, value);
-            remove => this.RemoveHandler(FlatButton.ClickEvent, value);
+            add => this.AddHandler(ClickEvent, value);
+            remove => this.RemoveHandler(ClickEvent, value);
         }
 
         /// <summary>
@@ -86,7 +86,7 @@ namespace WpfHandler.UI.Controls
         /// <summary>
         /// Not supported.
         /// </summary>
-        public object Value { get => throw new NotSupportedException(); set { ValueChanged?.Invoke(this); } }
+        public object Value { get => throw new NotSupportedException(); set { ValueChanged?.Invoke(this, new object[0]); } }
 
         /// <summary>
         /// AS member instance binded to the element via an UIDescriptor.
@@ -132,7 +132,7 @@ namespace WpfHandler.UI.Controls
             RoutedEventArgs e = new RoutedEventArgs(ClickEvent, this);
             RaiseEvent(e);
 
-            ValueChanged?.Invoke(this);
+            ValueChanged?.Invoke(this, new object[0]);
         }
 
         /// <summary>
