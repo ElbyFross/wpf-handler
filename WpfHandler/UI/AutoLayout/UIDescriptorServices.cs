@@ -256,7 +256,7 @@ namespace WpfHandler.UI.AutoLayout
                 control.OnLayout(ref layer, this, memberMeta.Member, globalOptions, attributes);
 
                 // Adding field to the registration table.
-                RegistredFields.Add(memberMeta, control);
+                RegistredFields.Add(memberMeta.Member, control);
                 #endregion
 
                 return control;
