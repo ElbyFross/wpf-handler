@@ -41,7 +41,7 @@ namespace WpfHandler.UI.Controls
     /// </summary>
     [TypesCompatible(typeof(Object))]
     [ListCompatible]
-    public partial class AutoCollection : CollectionControl, IPaletteCompatible, IVirtualizedCollection
+    public partial class AutoCollection : CollectionControl, IPaletteCompatible
     {
         #region Dependency properties
         /// <summary>
@@ -219,25 +219,9 @@ namespace WpfHandler.UI.Controls
         }
 
         /// <summary>
-        /// Defines is virtalization enable or not.
+        /// Reference to a scroll view that manages a list.
         /// </summary>
-        public bool IsVirtualized { get; set; }
-
-        /// <summary>
-        /// How many members will be virtualized during one tic before validation.
-        /// </summary>
-        public int VirtualizedItemsPack { get; set; }
-
-        /// <summary>
-        /// List with virtualized items.
-        /// </summary>
-        public List<VirtualizedItemMeta> VirtualizedElements { get; } = new List<VirtualizedItemMeta>();
-
-        /// <summary>
-        /// TODO: ATTENTION: Not supported
-        /// Is collection must uncload and descroy controls out of the view bounds?
-        /// </summary>
-        public bool UnloadHidded { get; set; } = true;
+        public override ScrollViewer Scroll => scrollView;
 
 
         /// <summary>

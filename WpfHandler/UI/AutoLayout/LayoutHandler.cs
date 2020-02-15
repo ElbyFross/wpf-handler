@@ -439,7 +439,7 @@ namespace WpfHandler.UI.AutoLayout
                 return false;
 
             Rect bounds = element.TransformToAncestor(container).TransformBounds(new Rect(0.0, 0.0, element.RenderSize.Width, element.RenderSize.Height));
-            Rect rect = new Rect(0.0, 0.0, container.RenderSize.Width, container.RenderSize.Height);
+            Rect rect = new Rect(-100.0, -100.0, container.RenderSize.Width + 100, container.RenderSize.Height + 100);
             return rect.Contains(bounds.TopLeft) || rect.Contains(bounds.BottomRight);
         }
     }

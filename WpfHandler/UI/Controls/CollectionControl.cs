@@ -29,8 +29,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 using WpfHandler.UI.AutoLayout;
 using WpfHandler.UI.AutoLayout.Configuration;
+using WpfHandler.UI.Virtualization;
 
 namespace WpfHandler.UI.Controls
 {
@@ -40,7 +42,7 @@ namespace WpfHandler.UI.Controls
     /// <remarks>
     /// Fully compatible with <see cref="UIDescriptor"/> and auto layout handlers.
     /// </remarks>
-    public abstract class CollectionControl : UserControl, IGUIField, IList
+    public abstract class CollectionControl : UserControl, IGUIField, IList, IVirtualizedCollection
     {
         #region Dependency properties
         /// <summary>
@@ -60,6 +62,11 @@ namespace WpfHandler.UI.Controls
         #endregion
 
         #region Public properties
+        /// <summary>
+        /// Reference to the ScrollViewer instance if used.
+        /// </summary>
+        public abstract ScrollViewer Scroll {get;}
+
         /// <summary>
         /// Is list allows to drag elements.
         /// </summary>
@@ -179,6 +186,27 @@ namespace WpfHandler.UI.Controls
             get => Fields[index].Value;
             set => Fields[index].Value = value;
         }
+
+        /// <summary>
+        /// Defines is virtalization enable or not.
+        /// </summary>
+        public bool IsVirtualized { get; set; } = true;
+
+        /// <summary>
+        /// How many members will be virtualized during one tic before validation.
+        /// </summary>
+        public int VirtualizedItemsPack { get; set; } = 5;
+
+        /// <summary>
+        /// List with virtualized items.
+        /// </summary>
+        public List<VirtualizedItemMeta> VirtualizedElements { get; } = new List<VirtualizedItemMeta>();
+
+        /// <summary>
+        /// TODO: ATTENTION: Not supported
+        /// Is collection must uncload and descroy controls out of the view bounds?
+        /// </summary>
+        public bool UnloadHidded { get; set; } = true;
         #endregion
 
         #region Events
@@ -210,6 +238,16 @@ namespace WpfHandler.UI.Controls
         /// Sharable options applied to an element instance.
         /// </summary>
         protected List<ISharableGUILayoutOption> appliedSharableOptions;
+        
+        /// <summary>
+        /// Count a current item in the pack.
+        /// </summary>
+        private int virtualizedPackCounter;
+
+        /// <summary>
+        /// Last element instantiated during virtualization.
+        /// </summary>
+        private FrameworkElement lastVirtualizedElement;
         #endregion
 
 
@@ -537,22 +575,113 @@ namespace WpfHandler.UI.Controls
             indexMap?.Clear();
             Fields?.Clear();
             Elements?.Clear();
-            
-            // Update GUI.
-            for (int i = 0; i < source.Count; i++)
+
+            // Applying elements as source.
+            ListContent.ItemsSource = Elements;
+            LayoutLayer rootLayer = layer;
+
+            if (IsVirtualized)
+            {
+                Dispatcher.Invoke(DispatcherPriority.Background,
+                      new Action(async delegate ()
+                      {
+                          for (int i = 0; i < source.Count; i++)
+                          {
+                              #region Virtualization
+                              // Suspending virtualization
+                              if (virtualizedPackCounter == VirtualizedItemsPack)
+                              {
+                                  // Droping the counter.
+                                  virtualizedPackCounter = 0;
+
+                                  // Waiting till loading.
+                                  while (!lastVirtualizedElement.IsLoaded)
+                                  {
+                                      await Task.Delay(5);
+                                  }
+
+                                  Panel rootPanel = (Panel)rootLayer.root;
+
+                                  // Checking if the last element still in the visible bounds.
+                                  bool isVisible = LayoutHandler.IsUserVisible(lastVirtualizedElement, Window.GetWindow(lastVirtualizedElement));
+
+                                  // Suspending if the last not visible till view update.
+                                  if (!isVisible)
+                                  {
+                                      // Marker that using for blocking the thread.
+                                      bool unlocked = false;
+
+                                      // Subscribing on scroll view change event.
+                                      if(Scroll != null)
+                                        Scroll.ScrollChanged += ScrollChangedHandler;
+
+                                      // Waiting till the root will change a size.
+                                      rootPanel.SizeChanged += SizeChangedHandler;
+                                      
+                                      void ScrollChangedHandler(object sender, ScrollChangedEventArgs e)
+                                      {
+                                          VirtValHandler();
+                                      }
+
+                                      void SizeChangedHandler(object sender, SizeChangedEventArgs e)
+                                      {
+                                          VirtValHandler();
+                                      }
+
+                                      void VirtValHandler()
+                                      {
+                                          // Checking if the last element is already visible.
+                                          isVisible = LayoutHandler.IsUserVisible(lastVirtualizedElement, Window.GetWindow(lastVirtualizedElement));
+                                          if (isVisible)
+                                          {
+                                              // Unsubscribing from events.
+                                              rootPanel.SizeChanged -= SizeChangedHandler;
+                                              if (Scroll != null)
+                                                  Scroll.ScrollChanged -= ScrollChangedHandler;
+
+                                              // Unblocking the thread.
+                                              unlocked = true;
+                                          }
+                                      }
+
+                                      // Unblocking instantiation of next group of elements.
+                                      while (!unlocked)
+                                      {
+                                          await Task.Delay(5);
+                                      }
+                                  }
+                              }
+
+                              // Adding a next element.
+                              HandleElement(i);
+                          }
+                      }));
+                #endregion
+            }
+            else
+            {
+                // Update GUI.
+                for (int i = 0; i < source.Count; i++)
+                {
+                    HandleElement(i);
+                }
+            }
+
+            void HandleElement(int index)
             {
                 // Instinating an element.
-                var element = ItemRegistration(i);
+                var element = ItemRegistration(index);
+
+                // Virtualization
+                lastVirtualizedElement = element;
+                virtualizedPackCounter++;
 
                 // Apply to the layout.
-                Fields[i].OnLayout(ref layer, args);
+                Fields[index].OnLayout(ref rootLayer, args);
 
                 // Adding element to the list.
                 if (element != null) Elements.Add(element);
             }
-
-            // Applying elements as source.
-            ListContent.ItemsSource = Elements;
         }
         
         #region Local
