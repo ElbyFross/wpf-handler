@@ -40,9 +40,9 @@ namespace SampleShapesControlApp
         /// </summary>
         public void ToDefault()
         {
-            GetFieldByMember("width").Value = 150;
-            GetFieldByMember("height").Value = 150;
-            GetFieldByMember("shapeType").Value = ShapeType.Ellipse;
+            GetField("width").Value = 150;
+            GetField("height").Value = 150;
+            GetField("shapeType").Value = ShapeType.Ellipse;
         }
     }
 }

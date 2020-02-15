@@ -100,7 +100,7 @@ namespace TogglesGroupExample
         public override void OnLoaded()
         {
             // Getting the field binded to the 'highlightState' member.
-            var field = GetFieldByMember("highlightState");
+            var field = GetField("highlightState");
 
             // Subsribing on the value change event.
             field.ValueChanged += delegate (IGUIField objw, object[] args)

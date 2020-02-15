@@ -117,7 +117,7 @@ namespace ExamplePanelDescriptor
         public override void OnLoaded()
         {
             // Receiving the IGUIField generated from the state member.
-            var stateField = GetFieldByMember("state");
+            var stateField = GetField("state");
 
             // Subscribing on the state value changes.
             stateField.ValueChanged += delegate (IGUIField objw, object[] _)

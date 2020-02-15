@@ -110,7 +110,7 @@ namespace AutoCollectionExample
         private void ACExample_Loaded(UIDescriptor obj)
         {
             // Looking for the UI field binded to the `flexibleCollection` member.
-            var field = GetFieldByMember("flexibleCollection");
+            var field = GetField("flexibleCollection");
 
             // Subscribing on the value changed event.
             field.ValueChanged += Field_ValueChanged;

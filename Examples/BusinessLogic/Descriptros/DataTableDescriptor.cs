@@ -24,6 +24,7 @@ using WpfHandler.UI.AutoLayout.Options;
 using WpfHandler.UI.AutoLayout.Markups;
 using WpfHandler.UI.AutoLayout.Configuration;
 using WpfHandler.UI.AutoLayout.Controls;
+using WpfHandler.UI.Controls;
 
 namespace BusinessLogic.Descriptros
 {
@@ -98,6 +99,14 @@ namespace BusinessLogic.Descriptros
             {
                 table.Add(new TableRowDescriptor() { id = i, title = "Item " + i });
             }
+
+            ValueChanged += DataTableDescriptor_ValueChanged;
+        }
+
+        private void DataTableDescriptor_ValueChanged(UIDescriptor arg1, IGUIField arg2, object[] arg3)
+        {
+            ((UIDescriptor)(GetField<CollectionControl>("table")).Fields[4].Value).
+                GetField("description").Value = "update";
         }
     }
 }

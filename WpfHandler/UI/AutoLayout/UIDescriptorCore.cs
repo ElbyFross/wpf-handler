@@ -250,25 +250,51 @@ namespace WpfHandler.UI.AutoLayout
         }
 
         /// <summary>
-        /// Return an UI field binded to the member.
+        /// Returns an UI field binded to the member.
         /// </summary>
+        /// <typeparam name="T">Expected type of the field.</typeparam>
         /// <param name="memberName">The name of the member from the source descriptor.</param>
         /// <returns>A GUI Field binded to the member.</returns>
-        public IGUIField GetFieldByMember(string memberName)
+        public T GetField<T>(string memberName)
         {
             // Looking for the member.
             MemberInfo member = GetType().GetField(memberName); // via felds.
             if (member == null) member = GetType().GetProperty(memberName); // via properties.
 
-            return GetFieldByMember(member);
+            return GetField<T>(member);
         }
 
         /// <summary>
-        /// Return an UI field binded to the member.
+        /// Returns an UI field binded to the member.
+        /// </summary>
+        /// <typeparam name="T">Expected type of the field.</typeparam>
+        /// <param name="member">Source member</param>
+        /// <returns>A GUI Field binded to the member.</returns>
+        public T GetField<T>(MemberInfo member)
+        {
+            return (T)GetField(member);
+        }
+
+        /// <summary>
+        /// Returns an UI field binded to the member.
+        /// </summary>
+        /// <param name="memberName">The name of the member from the source descriptor.</param>
+        /// <returns>A GUI Field binded to the member.</returns>
+        public IGUIField GetField(string memberName)
+        {
+            // Looking for the member.
+            MemberInfo member = GetType().GetField(memberName); // via felds.
+            if (member == null) member = GetType().GetProperty(memberName); // via properties.
+
+            return GetField(member);
+        }
+
+        /// <summary>
+        /// Returns an UI field binded to the member.
         /// </summary>
         /// <param name="member">The member from the source descriptor.</param>
         /// <returns>A GUI Field binded to the member.</returns>
-        public IGUIField GetFieldByMember(MemberInfo member)
+        public IGUIField GetField(MemberInfo member)
         {
             if (IsVirtualized)
             {
