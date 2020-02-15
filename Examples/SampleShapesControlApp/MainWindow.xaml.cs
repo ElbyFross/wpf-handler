@@ -26,7 +26,7 @@ namespace SampleShapesControlApp
         {
             InitializeComponent();
 
-            alView.Descriptor = new ControlPanel();
+            alView.OnLayout(new ControlPanel());
             alView.Descriptor.ValueChanged += Descriptor_ValueChanged;
         }
 

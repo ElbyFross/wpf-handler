@@ -59,7 +59,7 @@ namespace WpfHandler.UI.AutoLayout
         /// Will occurs when the descripor get loaded state.
         /// </summary>
         public event Action<UIDescriptor> Loaded;
-        
+
         /// <summary>
         /// Current active UI layer.
         /// </summary>
@@ -73,7 +73,7 @@ namespace WpfHandler.UI.AutoLayout
         /// </summary>
         [HideInInspector]
         Hashtable RegistredFields { get; set; } = new Hashtable();
-        
+
         /// <summary>
         /// Insiniate UI by descriptor's attributes map and add it as child to parent element.
         /// </summary>
@@ -121,7 +121,7 @@ namespace WpfHandler.UI.AutoLayout
 
             // Sort in declaretion order.
             members = orderedMembers.Concat(disorderedMembers).ToArray();
-            
+
             // Perform all descriptor map.
             foreach (MemberInfo member in members)
             {
@@ -143,22 +143,17 @@ namespace WpfHandler.UI.AutoLayout
                 if (field == null) continue;
 
                 // Applying to the layout.
-                var memberType = MembersHandler.GetSpecifiedMemberType(member);
-                if (!memberType.IsSubclassOf(typeof(UIDescriptor)))
-                {
-                    // Adding instiniated element to the layout.
-                    activeLayer?.ApplyControl(field as FrameworkElement);
-                }
+                activeLayer?.ApplyControl(field as FrameworkElement);
             }
 
             // Marking as loaded.
             IsLoaded = true;
-            
+
             // Calling the local handler.
             OnLoaded();
 
             // Inform subscribers.
-            Loaded?.Invoke(this);            
+            Loaded?.Invoke(this);
         }
 
         /// <summary>
@@ -184,10 +179,10 @@ namespace WpfHandler.UI.AutoLayout
                     #region Validation
                     // Checking is the binded memeber is a part of the descriptor.
                     bool thisDesc = false;
-                    foreach(var member in members)
+                    foreach (var member in members)
                     {
                         // Check if binded member is the one from the descriptor.
-                        if(member.Equals(control.BindedMember))
+                        if (member.Equals(control.BindedMember))
                         {
                             thisDesc = true;
                             break;
@@ -206,7 +201,7 @@ namespace WpfHandler.UI.AutoLayout
                     root.Children.RemoveAt(i);
                     i--;
                     #endregion
-                    
+
                     #region Sub descriptor processing
                     // If member is UI descriptor.
                     if (control is Panel subPanel &&
@@ -217,7 +212,7 @@ namespace WpfHandler.UI.AutoLayout
                             // Requiest descriptor unbinding.
                             ((UIDescriptor)control.Value).UnbindFrom(subPanel);
                         }
-                        catch(Exception ex)
+                        catch (Exception ex)
                         {
                             // Log error.
                             MessageBox.Show("Subpanel UIDescriptor unbind operation failed." +
@@ -241,16 +236,16 @@ namespace WpfHandler.UI.AutoLayout
             {
                 // Registrate member in auto layout handler.
                 control.RegistrateField(this, member, value);
-                
+
                 // Subscribe the global event handler.
                 control.ValueChanged += OnValueChangedCallback;
             }
-            catch(Exception ex) 
-            { 
+            catch (Exception ex)
+            {
                 MessageBox.Show(
                 "Control sign up failed.\n\n" +
-                "Member: " + member.Name + "\n" + 
-                "Details: " + ex.Message); 
+                "Member: " + member.Name + "\n" +
+                "Details: " + ex.Message);
             }
         }
 
@@ -263,7 +258,7 @@ namespace WpfHandler.UI.AutoLayout
         {
             // Looking for the member.
             MemberInfo member = GetType().GetField(memberName); // via felds.
-            if(member == null) member = GetType().GetProperty(memberName); // via properties.
+            if (member == null) member = GetType().GetProperty(memberName); // via properties.
 
             return GetFieldByMember(member);
         }

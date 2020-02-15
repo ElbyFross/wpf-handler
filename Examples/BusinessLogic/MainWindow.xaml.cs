@@ -38,7 +38,7 @@ namespace BusinessLogic
 
             // Declaring Palette as global sharable option.
             var sharedOptions = new ISharableGUILayoutOption[] 
-            { new PaletteAttribute("#A69272", "#FCFEFF", "#D8E6F2", "#8396A6", "#F2E8D8")};
+            { new PaletteAttribute("#ff4757", "#FCFEFF", "#D8E6F2", "#2f3542", "#F2E8D8")};
 
             // Applying sharable objects to the descriptors.
             // In that case sharable options will affect not only elements instantiated by descriptor
@@ -46,28 +46,25 @@ namespace BusinessLogic
             //tableDescriptor.SharedLayoutOptions = sharedOptions;
             newElementDescriptor.SharedLayoutOptions = sharedOptions;
 
-            tableDescriptor.Loaded += delegate (UIDescriptor _)
+            // Appllying descriptor instances to the AutoLayoutVeiw.
+            tableView.OnLayout(tableDescriptor);
+            newElementView.OnLayout(newElementDescriptor);
+
+            // Defining current active tab.
+            switchPanel.Current = tableView;
+
+            tableDescriptor.controlPanel.NewItemTab += async delegate ()
             {
-                tableDescriptor.controlPanel.NewItemTab += async delegate ()
-                {
-                    // Switches to the `New item` tab.
-                    await switchPanel.SwitchToAsync(newElementView);
-                };
+                // Switches to the `New item` tab.
+                await switchPanel.SwitchToAsync(newElementView);
             };
-            
+
             // Defining behavior for `ToTableTab` action at the `New item` form.
             newElementDescriptor.ToTableTab += async delegate ()
             {
                 // Switches back to the `Table` tab.
                 await switchPanel.SwitchToAsync(tableView);
             };
-
-            // Appllying descriptor instances to the AutoLayoutVeiw.
-            tableView.Descriptor = tableDescriptor;
-            newElementView.Descriptor = newElementDescriptor;
-
-            // Defining current active tab.
-            switchPanel.Current = tableView;
         }
     }
 }

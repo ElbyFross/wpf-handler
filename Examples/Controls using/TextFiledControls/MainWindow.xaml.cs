@@ -30,7 +30,7 @@ namespace TextFiledControls
 
             // Applying the descriptor to the autolayot view.
             // After that the view will generate and bind the fields.
-            alView.Descriptor = descriptor;
+            alView.OnLayout(descriptor);
             #endregion
 
 
@@ -49,7 +49,7 @@ namespace TextFiledControls
         /// Occurs when filed's value is changed.
         /// </summary>
         /// <param name="obj">The reference to the sender field.</param>
-        private void FlatPasswordBox_ValueChanged(WpfHandler.UI.AutoLayout.IGUIField obj)
+        private void FlatPasswordBox_ValueChanged(WpfHandler.UI.AutoLayout.IGUIField obj, object[] _)
         {
             output.Content = obj.Value;
         }

@@ -191,13 +191,13 @@ namespace WpfHandler.UI.AutoLayout
             }
             else
             {
-                // Looking for the certain control only for derect defined descriptors.
-                if (memberMeta.SourceType.IsSubclassOf(typeof(UIDescriptor)))
-                {
-                    // Set binded type like target to instiniation.
-                    controlType = LayoutHandler.GetBindedControl(memberMeta.SourceType, false);
-                }
-                else
+                //// Looking for the certain control only for derect defined descriptors.
+                //if (memberMeta.SourceType.IsSubclassOf(typeof(UIDescriptor)))
+                //{
+                //    // Set binded type like target to instiniation.
+                //    controlType = LayoutHandler.GetBindedControl(memberMeta.SourceType, false);
+                //}
+                //else
                 {
                     // Set binded type like target to instiniation.
                     controlType = LayoutHandler.GetBindedControl(memberMeta.SourceType, true);

@@ -49,7 +49,7 @@ namespace ExamplePanelDescriptor
             var descriptor = new ExampleDescriptor();
 
             // Binding the descriptor to the auto layout view from the XAML.
-            alView.Descriptor = descriptor;
+            alView.OnLayout(descriptor);
         }
     }
 

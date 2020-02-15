@@ -544,6 +544,9 @@ namespace WpfHandler.UI.Controls
                 // Instinating an element.
                 var element = ItemRegistration(i);
 
+                // Apply to the layout.
+                Fields[i].OnLayout(ref layer, args);
+
                 // Adding element to the list.
                 if (element != null) Elements.Add(element);
             }

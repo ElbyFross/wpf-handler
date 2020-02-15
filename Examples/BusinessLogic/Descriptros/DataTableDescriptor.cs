@@ -28,7 +28,7 @@ using WpfHandler.UI.AutoLayout.Controls;
 namespace BusinessLogic.Descriptros
 {
     // Defining thge text color for content of that descriptor.
-    [Palette("#A69272", "#FCFEFF", "#D8E6F2", "#F2E8D8", "#8396A6")]
+    [Palette("#ff4757", "#FCFEFF", "#D8E6F2", "#2f3542", "#F2E8D8")]
     public class DataTableDescriptor : UIDescriptor
     {
         #region Sub-descriptors
@@ -88,14 +88,12 @@ namespace BusinessLogic.Descriptros
         // Redefining background to the `Transperent.
         // Skiping foreground color by using the null value.
         // Redefining backplate color to the `#8396A6`.
-        [Palette("Transparent", null, "#8396A6", "#FCFEFF", "#D8E6F2")]
+        [Palette("Transparent", null, "#a4b0be", "#FCFEFF", "#D8E6F2")]
         public List<TableRowDescriptor> table = new List<TableRowDescriptor>();
         #endregion
 
         public DataTableDescriptor()
         {
-            //var virtualizedField = GetFieldByMember("headerfs");
-
             for (int i = 0; i < 50; i++)
             {
                 table.Add(new TableRowDescriptor() { id = i, title = "Item " + i });

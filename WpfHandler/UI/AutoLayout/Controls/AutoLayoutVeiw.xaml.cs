@@ -50,23 +50,11 @@ namespace WpfHandler.UI.AutoLayout.Controls
             {
                 // Finalizes current GUI.
                 _Descriptor?.UnbindFrom(root);
-
-                if (value != null)
-                {
-                    // Binding the descriptor to the `root`.
-                    if (value.IsVirtualized)
-                    {
-                        _ = value.BindToAsync(root);
-                    }
-                    else
-                    {
-                        value.BindTo(root);
-                    }
-                }
-
+                
                 // Updates stored value.
                 _Descriptor = value;
 
+                // Subscribing on events.
                 _Descriptor.ValueChanged += Descriptor_ValueChanged;
 
                 // Informs subscribers.
@@ -149,6 +137,20 @@ namespace WpfHandler.UI.AutoLayout.Controls
         protected List<ISharableGUILayoutOption> appliedSharableOptions;
 
         /// <summary>
+        /// Binds descriptor to the layout.
+        /// </summary>
+        /// <param name="descriptor">Source descriptor.</param>
+        public virtual void OnLayout(UIDescriptor descriptor)
+        {
+            Descriptor = descriptor;
+
+            var layer = new LayoutLayer()
+            { root = root };
+
+            OnLayout(ref layer, _Descriptor, null, new Attribute[0], new Attribute[0]);
+        }
+
+        /// <summary>
         /// Connecting element to the UI handler.
         /// </summary>
         /// <param name="layer">Target UI layer.</param>
@@ -158,50 +160,48 @@ namespace WpfHandler.UI.AutoLayout.Controls
         /// </remarks>
         public virtual void OnLayout(ref LayoutLayer layer, params object[] args)
         {
-            //try
-            //{
-            //    // Lookinf for the sahrable options attributes.
-            //    if (args != null)
-            //    {
-            //        #region Looking for shared data
-            //        // Find required referendes.
-            //        UIDescriptor desc = args[0] as UIDescriptor;
-            //        MemberInfo member = args[1] as MemberInfo;
+            try
+            {
+                // Lookinf for the sahrable options attributes.
+                if (args != null)
+                {
+                    #region Looking for shared data
+                    // Find required referendes.
+                    UIDescriptor desc = args[0] as UIDescriptor;
 
-            //        // Looking for sharable attributes applied to the descriptor type.
-            //        var globalAttributes = ((IEnumerable<Attribute>)args[2]).
-            //            Where(m => m.GetType().GetInterface(typeof(ISharableGUILayoutOption).FullName) != null);
+                    // Looking for sharable attributes applied to the descriptor type.
+                    var globalAttributes = ((IEnumerable<Attribute>)args[2]).
+                        Where(m => m.GetType().GetInterface(typeof(ISharableGUILayoutOption).FullName) != null);
 
-            //        // Looking for sharable attributes applied to the member.
-            //        var localAttributes = ((IEnumerable<Attribute>)args[3]).
-            //            Where(m => m.GetType().GetInterface(typeof(ISharableGUILayoutOption).FullName) != null);
+                    // Looking for sharable attributes applied to the member.
+                    var localAttributes = ((IEnumerable<Attribute>)args[3]).
+                        Where(m => m.GetType().GetInterface(typeof(ISharableGUILayoutOption).FullName) != null);
 
-            //        appliedSharableOptions = new List<ISharableGUILayoutOption>();
-            //        foreach (Attribute attr in globalAttributes) appliedSharableOptions.Add(attr as ISharableGUILayoutOption);
-            //        foreach (Attribute attr in localAttributes) appliedSharableOptions.Add(attr as ISharableGUILayoutOption);
-            //        foreach (ISharableGUILayoutOption attr in desc.SharedLayoutOptions) appliedSharableOptions.Add(attr);
-            //        #endregion
-            //    }
-            //}
-            //catch { }
+                    appliedSharableOptions = new List<ISharableGUILayoutOption>();
+                    foreach (Attribute attr in globalAttributes) appliedSharableOptions.Add(attr as ISharableGUILayoutOption);
+                    foreach (Attribute attr in localAttributes) appliedSharableOptions.Add(attr as ISharableGUILayoutOption);
+                    foreach (ISharableGUILayoutOption attr in desc.SharedLayoutOptions) appliedSharableOptions.Add(attr);
+                    #endregion
+                }
+            }
+            catch { }
 
-            //if (_Descriptor != null)
-            //{
-            //    if (appliedSharableOptions != null)
-            //    {
-            //        _Descriptor.SharedLayoutOptions = appliedSharableOptions.ToArray();
-            //    }
-            //    // Binding the descriptor to the `root`.
-            //    if (_Descriptor.IsVirtualized)
-            //    {
-            //        //value.BindTo(root);
-            //        _ = _Descriptor.BindToAsync(root);
-            //    }
-            //    else
-            //    {
-            //        _Descriptor.BindTo(root);
-            //    }
-            //}
+            if (_Descriptor != null)
+            {
+                if (appliedSharableOptions != null)
+                {
+                    _Descriptor.SharedLayoutOptions = appliedSharableOptions.ToArray();
+                }
+                // Binding the descriptor to the `root`.
+                if (_Descriptor.IsVirtualized)
+                {
+                    _ = _Descriptor.BindToAsync(root);
+                }
+                else
+                {
+                    _Descriptor.BindTo(root);
+                }
+            }
         }
 
     }

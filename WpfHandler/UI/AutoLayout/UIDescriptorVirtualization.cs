@@ -81,7 +81,7 @@ namespace WpfHandler.UI.AutoLayout
 
             await BindToAsync(layer);
         }
-        
+
         /// <summary>
         /// Binding UIDescriptor content to the layer's root.
         /// </summary>
@@ -111,7 +111,7 @@ namespace WpfHandler.UI.AutoLayout
             var disorderedMembers = members.Where(f => f.GetCustomAttribute<OrderAttribute>() == null).
                 OrderBy(f => f.MetadataToken);
             #endregion
-          
+
             // Sort in declaretion order.
             members = orderedMembers.Concat(disorderedMembers).ToArray();
 
@@ -160,7 +160,7 @@ namespace WpfHandler.UI.AutoLayout
                         {
                             // Checking if the last element is already visible.
                             isVisible = LayoutHandler.IsUserVisible(lastVirtualizedElement, Window.GetWindow(lastVirtualizedElement));
-                            if(isVisible)
+                            if (isVisible)
                             {
                                 // Unsubscribing from event.
                                 rootPanel.SizeChanged -= VirtValHandler;
@@ -171,7 +171,7 @@ namespace WpfHandler.UI.AutoLayout
                         }
 
                         // Unblocking instantiation of next group of elements.
-                        while(!unlocked)
+                        while (!unlocked)
                         {
                             await Task.Delay(5);
                         }
@@ -200,12 +200,7 @@ namespace WpfHandler.UI.AutoLayout
                     //VirtualizedElements.Add(meta);
 
                     // Applying to the layout.
-                    var memberType = MembersHandler.GetSpecifiedMemberType(member);
-                    if (!memberType.IsSubclassOf(typeof(UIDescriptor)))
-                    {
-                        // Adding instiniated element to the layout.
-                        activeLayer?.ApplyControl(field as FrameworkElement);
-                    }
+                    activeLayer?.ApplyControl(field as FrameworkElement);
                 }
                 else
                 {
@@ -215,14 +210,9 @@ namespace WpfHandler.UI.AutoLayout
                     virtualizedElement.OnLayout(ref layer, this, memberMeta.Member, globalOptions, attributes);
 
                     // Applying to the layout.
-                    var memberType = MembersHandler.GetSpecifiedMemberType(member);
-                    if (!memberType.IsSubclassOf(typeof(UIDescriptor)))
-                    {
-                        // Adding instiniated element to the layout.
-                        layer?.ApplyControl(virtualizedElement as FrameworkElement);
-                    }
+                    layer?.ApplyControl(virtualizedElement as FrameworkElement);
                 }
-                
+
                 // Incrementing of virtualized pack elements counter.
                 virtualizedPackCounter++;
             }

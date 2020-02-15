@@ -25,8 +25,8 @@ limitations under the License.-->
     <Grid Margin="3,3">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
-            <ColumnDefinition Width="25"/>
-            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="17"/>
+            <ColumnDefinition Width="17"/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>

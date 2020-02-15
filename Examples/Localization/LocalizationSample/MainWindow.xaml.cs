@@ -48,7 +48,7 @@ namespace LocalizationSample
         /// Occurs when user decide to change the current app's language.
         /// </summary>
         /// <param name="obj"></param>
-        private void LangPanel_ValueChanged(IGUIField obj)
+        private void LangPanel_ValueChanged(IGUIField obj, object[] args)
         {
             var togglePanel = obj as FlatTogglesGroup;
 

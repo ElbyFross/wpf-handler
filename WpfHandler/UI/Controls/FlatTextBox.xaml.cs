@@ -102,6 +102,24 @@ namespace WpfHandler.UI.Controls
                 try { SpliterBrush = value[4]; } catch { }
             }
         }
+
+        /// <summary>
+        /// Uniform value.
+        /// Allowed type depends from `ValueMode` property.
+        /// </summary>
+        public override object Value 
+        { 
+            get => base.Value; 
+            set
+            {
+                base.Value = value;
+                if(!IsLoaded)
+                {
+                    textBox.Text = base.Value.ToString();
+                    TextBox_TextChanged(null, null);
+                }
+            }
+        }
         #endregion
 
         #region Local members

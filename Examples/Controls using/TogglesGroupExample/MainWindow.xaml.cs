@@ -49,10 +49,10 @@ namespace TogglesGroupExample
             var descriptor = new ExampleDescripotor();
 
             // Applying the descriptor as the source of auto layout view from the xaml.
-            alView.Descriptor = descriptor;
+            alView.OnLayout(descriptor);
         }
 
-        private void FlatTogglesGroup_ValueChanged(IGUIField obj)
+        private void FlatTogglesGroup_ValueChanged(IGUIField obj, object[] _)
         {
             var group = obj as FlatTogglesGroup;
             MessageBox.Show("\"" + group.Value + "\" is selected.");
@@ -103,7 +103,7 @@ namespace TogglesGroupExample
             var field = GetFieldByMember("highlightState");
 
             // Subsribing on the value change event.
-            field.ValueChanged += delegate (IGUIField objw)
+            field.ValueChanged += delegate (IGUIField objw, object[] args)
             {
                 StateEnum state = (StateEnum)objw.Value;
 
