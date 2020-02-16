@@ -177,11 +177,10 @@ namespace WpfHandler.UI.AutoLayout
                         }
                     }
                 }
+
                 #endregion
 
-                var virtualizedElement = RegistredFields[member] as IGUIField;
-
-                if (virtualizedElement == null)
+                if (!(RegistredFields[member] is IGUIField virtualizedElement))
                 {
                     // Instantiating a member.
                     var field = InstantiateMember(ref activeLayer, memberMeta, globalOptions);

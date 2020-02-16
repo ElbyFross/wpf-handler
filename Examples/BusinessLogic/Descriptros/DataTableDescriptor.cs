@@ -92,21 +92,5 @@ namespace BusinessLogic.Descriptros
         [Palette("Transparent", null, "#a4b0be", "#FCFEFF", "#D8E6F2")]
         public List<TableRowDescriptor> table = new List<TableRowDescriptor>();
         #endregion
-
-        public DataTableDescriptor()
-        {
-            for (int i = 0; i < 2000; i++)
-            {
-                table.Add(new TableRowDescriptor() { id = i, title = "Item " + i });
-            }
-
-            ValueChanged += DataTableDescriptor_ValueChanged;
-        }
-
-        private void DataTableDescriptor_ValueChanged(UIDescriptor arg1, IGUIField arg2, object[] arg3)
-        {
-            ((UIDescriptor)(GetField<CollectionControl>("table")).Fields[4].Value).
-                GetField("description").Value = "update";
-        }
     }
 }

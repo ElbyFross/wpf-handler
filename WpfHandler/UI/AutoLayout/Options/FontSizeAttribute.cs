@@ -37,6 +37,15 @@ namespace WpfHandler.UI.AutoLayout.Options
         public double Size { get; set; } = 14;
 
         /// <summary>
+        /// Default constructor.
+        /// </summary>
+        /// <param name="size">Target font size.</param>
+        public FontSizeAttribute(double size)
+        {
+            Size = size;
+        }
+
+        /// <summary>
         /// Define GUI element's text font size.
         /// </summary>
         /// <param name="element">

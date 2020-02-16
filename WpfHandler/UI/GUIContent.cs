@@ -96,7 +96,7 @@ namespace WpfHandler.UI
         /// <summary>
         /// Key of resource from dynamic dictionary that would be used for loading of localized description.
         /// </summary>
-        public string DecriptionLocalizationResourseKey
+        public string DescriptionLocalizationResourseKey
         {
             get { return _DecriptionLocalizationResourseKey; }
             set
@@ -206,15 +206,15 @@ namespace WpfHandler.UI
         /// </summary>
         /// <param name="defaultTitle">Title that would be used by default if localization dictionary not found.</param>
         /// <param name="defaultDescription">Default description if localization dictionary not found.</param>
-        /// <param name="decriptionLocalizationResourseKey">Key of description content in localized dynamic dictionary.</param>
+        /// <param name="titleLocalizationResourseKey">Key of title content in localized dynamic dictionary.</param>
         public GUIContent(
             string defaultTitle,
             string defaultDescription,
-            string decriptionLocalizationResourseKey) : base()
+            string titleLocalizationResourseKey) : base()
         {
             this.DefaultTitle = defaultTitle;
             this.DefaultDescription = defaultDescription;
-            this.DecriptionLocalizationResourseKey = decriptionLocalizationResourseKey;
+            this.TitleLocalizationResourseKey = titleLocalizationResourseKey;
 
             // Subscribe on events.
             LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;
@@ -226,17 +226,17 @@ namespace WpfHandler.UI
         /// <param name="defaultTitle">Title that would be used by default if localization dictionary not found.</param>
         /// <param name="defaultDescription">Default description if localization dictionary not found.</param>
         /// <param name="titleLocalizationResourseKey">Key of title content in localized dynamic dictionary.</param>
-        /// <param name="decriptionLocalizationResourseKey">Key of description content in localized dynamic dictionary.</param>
+        /// <param name="descriptionLocalizationResourseKey">Key of description content in localized dynamic dictionary.</param>
         public GUIContent(
             string defaultTitle, 
             string defaultDescription, 
             string titleLocalizationResourseKey,
-            string decriptionLocalizationResourseKey) : base()
+            string descriptionLocalizationResourseKey) : base()
         {
             this.DefaultTitle = defaultTitle;
             this.DefaultDescription = defaultDescription;
             this.TitleLocalizationResourseKey = titleLocalizationResourseKey;
-            this.DecriptionLocalizationResourseKey = decriptionLocalizationResourseKey;
+            this.DescriptionLocalizationResourseKey = descriptionLocalizationResourseKey;
 
             // Subscribe on events.
             LocalizationHandler.LanguagesDictionariesUpdated += API_LanguagesDictionariesUpdated;

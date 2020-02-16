@@ -223,6 +223,15 @@ namespace WpfHandler.UI.Controls
         /// </summary>
         public override ScrollViewer Scroll => scrollView;
 
+        /// <summary>
+        /// Index of current selected item. -1 if not selected.
+        /// </summary>
+        public int SelectedIndex => ListContent.SelectedIndex;
+
+        /// <summary>
+        /// Current selected field. Null if not selected.
+        /// </summary>
+        public IGUIField SelectedField => SelectedIndex >= 0 ? Fields[SelectedIndex] : null;
 
         /// <summary>
         /// The delegate that will be called during Add button click.

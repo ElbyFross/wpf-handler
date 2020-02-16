@@ -248,6 +248,9 @@ namespace WpfHandler.UI.Controls
         /// Last element instantiated during virtualization.
         /// </summary>
         private FrameworkElement lastVirtualizedElement;
+
+        private LayoutLayer bindedLayer;
+        private object[] appliedArguments;
         #endregion
 
 
@@ -395,6 +398,13 @@ namespace WpfHandler.UI.Controls
                 // Add to the elements.
                 Elements.Insert(index, GetRoot((FrameworkElement)field));
 
+                try
+                {
+                    // Apply to the layout.
+                    Fields[index].OnLayout(ref bindedLayer, appliedArguments);
+                }
+                catch { }
+
                 // Subscribing on the index of the value changing.
                 field.ValueChanged += CollectionElementValueChanged;
             }
@@ -406,6 +416,13 @@ namespace WpfHandler.UI.Controls
 
                 // Calling an item registration.
                 var element = ItemRegistration(index);
+
+                try
+                {
+                    // Apply to the layout.
+                    Fields[index].OnLayout(ref bindedLayer, appliedArguments);
+                }
+                catch { }
 
                 // Adding element to the list.
                 if (element != null) Elements.Add(element);
@@ -536,6 +553,9 @@ namespace WpfHandler.UI.Controls
         /// <param name="args"></param>
         public virtual void OnLayout(ref LayoutLayer layer, params object[] args)
         {
+            bindedLayer = layer;
+            appliedArguments = args;
+
             try
             {
                 // Lookinf for the sahrable options attributes.
