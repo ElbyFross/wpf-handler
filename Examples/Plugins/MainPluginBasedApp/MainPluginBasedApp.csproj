@@ -132,14 +132,6 @@
       <Project>{9a1f206b-1f7a-43df-8a08-d86f26b8fc81}</Project>
       <Name>WpfHandler</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ExamplePlugin1\ExamplePlugin1.csproj">
-      <Project>{10ca68c3-8d2a-44ed-8e02-6c8752b5a6b9}</Project>
-      <Name>ExamplePlugin1</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ExamplePlugin2\ExamplePlugin2.csproj">
-      <Project>{026c951d-a994-4c97-8b19-0eda9eb9af7b}</Project>
-      <Name>ExamplePlugin2</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

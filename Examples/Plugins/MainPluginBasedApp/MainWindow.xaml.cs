@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Reflection;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +15,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Collections.ObjectModel;
-using WpfHandler.Plugins;
 
 namespace MainPluginBasedApp
 {
@@ -27,14 +28,9 @@ namespace MainPluginBasedApp
         /// </summary>
         public MainWindow()
         {
-            #region Only for example
-            _ = new ExamplePlugin1.MainPluginControl();
-            _ = new ExamplePlugin2.PluginControl();
-            #endregion
-
-            // Loading assemblies for a plugins directory.
+            // Loading assemblies for a plugins directory located at the source project folder.
             UniformDataOperator.AssembliesManagement.AssembliesHandler.LoadAssemblies(
-                AppDomain.CurrentDomain.BaseDirectory + "plugins\\");
+                Directory.GetParent(Assembly.GetExecutingAssembly().Location).Parent.Parent.FullName + "\\plugins\\");
 
             // Looking for replaced types that could be used by handlers.
             UniformDataOperator.AssembliesManagement.Modifiers.TypeReplacer.RescanAssemblies();
