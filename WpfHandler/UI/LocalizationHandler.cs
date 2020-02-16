@@ -82,11 +82,26 @@ namespace WpfHandler.UI
         /// <param name="culturesOrder">Array of cultures reuested to loading in the priiority oreder.</param>
         public static void LoadDictionaries(params CultureInfo[] culturesOrder)
         {
+            LoadDictionaries(Plugins.Constants.PLUGINS_DIR, culturesOrder);
+        }
+
+        /// <summary>
+        /// Scaning for language dictionaries in XAML files stored into the shared directory,
+        /// and loading them to Merged dictionaries.
+        /// Loading only relative to the new culture if found. Leave a previous culture if not.
+        /// 
+        /// Require files format: *.lang.CULTURE_CODE.xaml, where culture code equal current translation of the app. 
+        /// Example: plugin.feed.lang.en-US.xaml
+        /// </summary>
+        /// <param name="path">Path to directory with dictionaries.</param>
+        /// <param name="culturesOrder">Array of cultures reuested to loading in the priiority oreder.</param>
+        public static void LoadDictionaries(string path, params CultureInfo[] culturesOrder)
+        {
             #region Validate and fix base conditions
             // Validate directory.
-            if (!Directory.Exists(Plugins.Constants.PLUGINS_DIR))
+            if (!Directory.Exists(path))
             {
-                Directory.CreateDirectory(Plugins.Constants.PLUGINS_DIR);
+                Directory.CreateDirectory(path);
                 Console.WriteLine("PLUGINS DIRECTORY NOT FOUND. NEW ONE WAS CREATED.");
             }
             #endregion
@@ -100,7 +115,7 @@ namespace WpfHandler.UI
             }
 
             // Request dictionaries update.
-            Dictionaries.API.UpdateDictionariesGroup(Plugins.Constants.PLUGINS_DIR, "lang", cutureKeys);
+            Dictionaries.API.UpdateDictionariesGroup(path, "lang", cutureKeys);
 
             // Update culture.
             System.Threading.Thread.CurrentThread.CurrentUICulture = culturesOrder[0];
