@@ -179,7 +179,16 @@ namespace WpfHandler.UI.AutoLayout
                         UIDescriptor.MembersHandler.SetValue(member, descriptor, defautltValue);
                     }
                 }
-                catch { };
+                catch (Exception ex)
+                {
+                    MessageBox.Show(string.Format("Custructor crash!" +
+                        "\nMember: {0}\n" +
+                        "Descriptor: {1}\n\n" +
+                        "Details: {2}",
+                    member.Name,
+                    descriptor.GetType().FullName,
+                    ex.Message));
+                };
             }
 
             // Apply default value.

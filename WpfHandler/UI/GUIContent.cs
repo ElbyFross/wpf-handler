@@ -332,7 +332,7 @@ namespace WpfHandler.UI
                 try
                 {
                     // load title from dictionary.
-                    _Description = FindResource(TitleLocalizationResourseKey) as string;
+                    _Description = FindResource(DescriptionLocalizationResourseKey) as string;
                 }
                 catch
                 {

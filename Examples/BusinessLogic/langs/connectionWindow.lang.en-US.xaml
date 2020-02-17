@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+	
+    <v:String x:Key="serverCon_header">Configurate connection params</v:String>
+    <v:String x:Key="serverCon_desc">Set the parameters required to connection a MySQL server.</v:String>
+    <v:String x:Key="serverCon_server">Server</v:String>
+    <v:String x:Key="serverCon_db">Database</v:String>
+    <v:String x:Key="serverCon_port">Port</v:String>
+    <v:String x:Key="serverCon_uid">User ID</v:String>
+    <v:String x:Key="serverCon_pass">Password</v:String>
+    <v:String x:Key="serverCon_cancel">Cancel</v:String>
+    <v:String x:Key="serverCon_connect">Connect</v:String>
+</ResourceDictionary>

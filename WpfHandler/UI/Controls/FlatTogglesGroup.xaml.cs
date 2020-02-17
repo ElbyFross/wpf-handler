@@ -372,6 +372,8 @@ namespace WpfHandler.UI.Controls
         /// </summary>
         public void UpdateElementsLayout()
         {
+            if (_Elements == null) return;
+
             // Finilising old layout if exist.
             if (ItemsPanel != null)
             {

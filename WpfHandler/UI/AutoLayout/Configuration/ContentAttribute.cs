@@ -76,13 +76,13 @@ namespace WpfHandler.UI.AutoLayout.Configuration
         /// Title that would be used by default if localization dictionary not found.</param>
         /// <param name="defaultDescription">
         /// Default description if localization dictionary not found.</param>
-        /// <param name="decriptionLocalizationResourseKey">
-        /// Key of description content in localized dynamic dictionary.</param>
+        /// <param name="titleLocalizationResourseKey">
+        /// Key of title content in localized dynamic dictionary.</param>
         public ContentAttribute(
             string defaultTitle,
             string defaultDescription,
-            string decriptionLocalizationResourseKey) :
-            base(defaultTitle, defaultDescription, decriptionLocalizationResourseKey) { }
+            string titleLocalizationResourseKey) :
+            base(defaultTitle, defaultDescription, titleLocalizationResourseKey) { }
 
         /// <summary>
         /// Initialize all allowed fields.
@@ -110,6 +110,12 @@ namespace WpfHandler.UI.AutoLayout.Configuration
         /// </summary>
         public override void LanguagesDictionariesUpdated()
         {
+            if (BindedLabel == null)
+            {
+                LocalizationHandler.LanguagesDictionariesUpdated -= LanguagesDictionariesUpdated;
+                return;
+            }
+
             // Updating label.
             if (Content != null)
             {
@@ -153,6 +159,9 @@ namespace WpfHandler.UI.AutoLayout.Configuration
 
             // Udate content.
             LanguagesDictionariesUpdated();
+                       
+            LocalizationHandler.LanguagesDictionariesUpdated -= LanguagesDictionariesUpdated;
+            LocalizationHandler.LanguagesDictionariesUpdated += LanguagesDictionariesUpdated;
         }
     }
 }

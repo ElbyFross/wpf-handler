@@ -154,16 +154,31 @@ namespace WpfHandler.UI.AutoLayout
                         // Marker that using for blocking the thread.
                         bool unlocked = false;
 
+                        var window = Window.GetWindow(lastVirtualizedElement);
+
                         // Waiting till the root will change a size/
-                        rootPanel.SizeChanged += VirtValHandler;
-                        void VirtValHandler(object sender, SizeChangedEventArgs e)
+                        window.Activated += Activated;
+                        rootPanel.SizeChanged += SizeChanged;
+
+                        void Activated (object sender, EventArgs e)
+                        {
+                            VirtValHandler();
+                        };
+
+                        void SizeChanged(object sender, SizeChangedEventArgs e)
+                        {
+                            VirtValHandler();
+                        };
+
+                        void VirtValHandler()
                         {
                             // Checking if the last element is already visible.
-                            isVisible = LayoutHandler.IsUserVisible(lastVirtualizedElement, Window.GetWindow(lastVirtualizedElement));
+                            isVisible = LayoutHandler.IsUserVisible(lastVirtualizedElement, window);
                             if (isVisible)
                             {
                                 // Unsubscribing from event.
-                                rootPanel.SizeChanged -= VirtValHandler;
+                                window.Activated -= Activated;
+                                rootPanel.SizeChanged -= SizeChanged;
 
                                 // Unblocking the thread.
                                 unlocked = true;

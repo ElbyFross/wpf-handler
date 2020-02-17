@@ -40,10 +40,16 @@ namespace BusinessLogic.Descriptros
         public class SubPanel : UIDescriptor
         {
             [Space(25)]
+            [Content("Title", null, "nit_title")]
             public string title = "New item";
+
+            [Content("Description", null, "nit_desc")]
             public string description;
+
+            [Content("Price", null, "nit_price")]
             public float price;
 
+            [Content("Add item", null, "nit_add")]
             [FontWeight(FontWeightAttribute.WeightType.ExtraBold)]
             [HorizontalAlign(System.Windows.HorizontalAlignment.Center)]
             public Action AddItem;

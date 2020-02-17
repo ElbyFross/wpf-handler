@@ -65,7 +65,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Descriptros\DataTableDescriptor.cs" />
-    <Compile Include="Descriptros\MySqlConnectionForm.cs" />
+    <Compile Include="Descriptros\LangPanelDescriptor.cs" />
+    <Compile Include="Descriptros\MySqlConnectionFormDescriptor.cs" />
     <Compile Include="Descriptros\NewItemTabDescriptor.cs" />
     <Compile Include="Descriptros\TableRowDescriptor.cs" />
     <Compile Include="MainWindow.xaml.cs">

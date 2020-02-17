@@ -35,7 +35,7 @@ namespace BusinessLogic
 
         readonly DataTableDescriptor tableDescriptor = new DataTableDescriptor();
         readonly NewItemTabDescriptor newElementDescriptor = new NewItemTabDescriptor();
-        readonly MySqlConnectionForm serverCnnectionFormDescriptor = new MySqlConnectionForm();
+        readonly MySqlConnectionFormDescriptor serverCnnectionFormDescriptor = new MySqlConnectionFormDescriptor();
         readonly AutoLayoutVeiw tableView = new AutoLayoutVeiw();
         readonly AutoLayoutVeiw newElementView = new AutoLayoutVeiw();
 
@@ -132,7 +132,7 @@ namespace BusinessLogic
             };
 
             // Validating connection.
-            serverCnnectionFormDescriptor.confirm = delegate ()
+            serverCnnectionFormDescriptor.Connect = delegate ()
             {
                 bool result = ValidateConnection();
 

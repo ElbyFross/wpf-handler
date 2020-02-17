@@ -15,6 +15,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
+using System.Globalization;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -91,6 +94,6 @@ namespace BusinessLogic.Descriptros
         // Redefining backplate color to the `#8396A6`.
         [Palette("Transparent", null, "#a4b0be", "#FCFEFF", "#D8E6F2")]
         public List<TableRowDescriptor> table = new List<TableRowDescriptor>();
-        #endregion
+        #endregion       
     }
 }

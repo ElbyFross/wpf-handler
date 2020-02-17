@@ -2,3 +2,4 @@ Before start you must establish MySql server and aplly forward engineering to th
 
 After start the app will ask you about entry parameters required for connection.
 
+All localization dictionaries storat at the `PROJECT_FOLDER\langs` folder.

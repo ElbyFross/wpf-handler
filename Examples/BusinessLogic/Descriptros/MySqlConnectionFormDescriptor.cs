@@ -31,41 +31,60 @@ namespace BusinessLogic.Descriptros
     /// <summary>
     /// Descriptor for MySql server connection form.
     /// </summary>
-    public class MySqlConnectionForm : UIDescriptor
+    public class MySqlConnectionFormDescriptor : UIDescriptor
     {
-        [MinWidth(350)]
-        [HorizontalAlign(HorizontalAlignment.Center)]
-        [Background("#ff4757")]
-        [Foreground("#FCFEFF")]
-        [FontSize(20)]
-        public GUIContent header = new GUIContent("Configurate connection params");
+        [BeginHorizontalGroup]
+
+            [MinWidth(350)]
+            [HorizontalAlign(HorizontalAlignment.Center)]
+            [Background("#ff4757")]
+            [Foreground("#FCFEFF")]
+            [FontSize(20)]
+            public GUIContent header = new GUIContent("Configurate connection params", null, "serverCon_header");
+        
+            [Width(40)]
+            [Background("#ff4757")]
+            public LangPanelDescriptor lang;
+
+        [EndGroup]
 
         [MinWidth(350)]
         [HorizontalAlign(HorizontalAlignment.Center)]
         [Background("#D8E6F2")]
         public GUIContent description = new GUIContent(
-            "Set the parameters required to connection a MySQL server.", null, "severCon_desc");
+            "Set the parameters required to connection a MySQL server.", null, "serverCon_desc");
 
         [Space(20)]
 
         [Width(250)]
+        [Content("Server", null, "serverCon_server")]
         public string server = "127.0.0.1";
+
         [Width(250)]
+        [Content("Database", null, "serverCon_db")]
         public string database = "wpfh-examples";
+
         [Width(250)]
+        [Content("Port", null, "serverCon_port")]
         public int port = 3306;
+
         [Width(250)]
+        [Content("User ID", null, "serverCon_uid")]
         public string userId = "root";
+
         [Width(250)]
+        [Content("Password", null, "serverCon_pass")]
         public string password;
 
         [Space]
 
         [HorizontalAlign(HorizontalAlignment.Center)]
         [BeginHorizontalGroup]
+        [Content("Cancel", null, "serverCon_cancel")]
         public Action cancel;
 
         [HorizontalAlign(HorizontalAlignment.Center)]
-        public Action confirm;
+        [Content("Connect", null, "serverCon_connect")]
+        public Action Connect;
     }
 }
