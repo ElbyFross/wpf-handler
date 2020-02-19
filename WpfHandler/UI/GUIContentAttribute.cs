@@ -63,11 +63,9 @@ namespace WpfHandler.UI
         /// <param name="description">Description of that element.</param>
         public GUIContentAttribute(string title, string description) : base()
         {
-            Content = new GUIContent
-            {
-                DefaultTitle = title,
-                DefaultDescription = description
-            };
+            Content = new GUIContent(
+                title,
+                description);
         }
 
         /// <summary>
@@ -75,18 +73,16 @@ namespace WpfHandler.UI
         /// </summary>
         /// <param name="defaultTitle">Title that would be used by default if localization dictionary not found.</param>
         /// <param name="defaultDescription">Default description if localization dictionary not found.</param>
-        /// <param name="decriptionLocalizationResourseKey">Key of description content in localized dynamic dictionary.</param>
+        /// <param name="titleLocalizationResourseKey">Key of title content in localized dynamic dictionary.</param>
         public GUIContentAttribute(
             string defaultTitle,
             string defaultDescription,
-            string decriptionLocalizationResourseKey) : base()
+            string titleLocalizationResourseKey) : base()
         {
-            Content = new GUIContent
-            {
-                DefaultTitle = defaultTitle,
-                DefaultDescription = defaultDescription,
-                DecriptionLocalizationResourseKey = decriptionLocalizationResourseKey
-            };
+            Content = new GUIContent(
+                defaultTitle,
+                defaultDescription,
+                titleLocalizationResourseKey);
         }
 
         /// <summary>
@@ -102,13 +98,11 @@ namespace WpfHandler.UI
             string titleLocalizationResourseKey,
             string decriptionLocalizationResourseKey) : base()
         {
-            Content = new GUIContent
-            {
-                DefaultTitle = defaultTitle,
-                DefaultDescription = defaultDescription,
-                TitleLocalizationResourseKey = titleLocalizationResourseKey,
-                DecriptionLocalizationResourseKey = decriptionLocalizationResourseKey
-            };
+            Content = new GUIContent(
+                defaultTitle,
+                defaultDescription,
+                titleLocalizationResourseKey,
+                decriptionLocalizationResourseKey);
         }
 
     }

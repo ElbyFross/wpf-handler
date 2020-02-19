@@ -1,4 +1,6 @@
 ﻿using System.Windows;
+using System.IO;
+using System.Reflection;
 using System.Globalization;
 using WpfHandler.UI;
 using WpfHandler.UI.AutoLayout;
@@ -11,6 +13,8 @@ namespace LocalizationSample
     /// </summary>
     public partial class MainWindow : Window
     {
+        public string langDictsPath = Directory.GetParent(Assembly.GetExecutingAssembly().Location).Parent.Parent.FullName + "\\langs\\";
+
         public int LangIndex { get; protected set; } = 0;
 
         public MainWindow()
@@ -34,6 +38,8 @@ namespace LocalizationSample
 
             #region Loading localization dictionaries
             LocalizationHandler.LoadDictionaries(
+                // Getting local lang folder from the source project.
+                langDictsPath,
                 // Request english localization as prior.
                 new CultureInfo("en-US"), 
                 // Request russian localization as secondary in case if english not found.
@@ -48,18 +54,18 @@ namespace LocalizationSample
         /// Occurs when user decide to change the current app's language.
         /// </summary>
         /// <param name="obj"></param>
-        private void LangPanel_ValueChanged(IGUIField obj)
+        private void LangPanel_ValueChanged(IGUIField obj, object[] args)
         {
             var togglePanel = obj as FlatTogglesGroup;
 
             switch (togglePanel.Index)
             {
                 case 0: 
-                    LocalizationHandler.LoadDictionaries(new CultureInfo("en-US"));
+                    LocalizationHandler.LoadDictionaries(langDictsPath, new CultureInfo("en-US"));
                     break;
 
                 case 1:
-                    LocalizationHandler.LoadDictionaries(new CultureInfo("ru-RU"));
+                    LocalizationHandler.LoadDictionaries(langDictsPath, new CultureInfo("ru-RU"));
                     break;
 
                 default:

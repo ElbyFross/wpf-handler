@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+	
+    <v:String x:Key="nit_back">Назад</v:String>
+    <v:String x:Key="nit_title">Название</v:String>
+    <v:String x:Key="nit_desc">Описание</v:String>
+    <v:String x:Key="nit_price">Цена</v:String>
+    <v:String x:Key="nit_add">Добавить</v:String>
+</ResourceDictionary>

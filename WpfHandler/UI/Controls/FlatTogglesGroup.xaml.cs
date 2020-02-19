@@ -153,11 +153,17 @@ namespace WpfHandler.UI.Controls
         /// <summary>
         /// Width of label field.
         /// </summary>
+        /// <remarks>
+        /// Not affective in case if <see cref="Orientation"/> is non the <see cref="System.Windows.Controls.Orientation.Horizontal"/>.
+        /// </remarks>
         public float LabelWidth
         {
             get { return (float)GetValue(LabelWidthProperty); }
             set
             {
+                // Drops in case if orientation not is horizontal.
+                if (Orientation != Orientation.Horizontal) return;
+
                 // Buferize requested value.
                 LastLabelWidth = value;
 
@@ -229,7 +235,7 @@ namespace WpfHandler.UI.Controls
                     ((SelectableFlatButton)Elements[Index]).Selected = true;
 
                     // Inform subscribers.
-                    ValueChanged?.Invoke(this);
+                    ValueChanged?.Invoke(this, new object[0]);
                 }
             }
         }
@@ -298,7 +304,7 @@ namespace WpfHandler.UI.Controls
         /// 
         /// IGUIField - sender.
         /// </summary>
-        public event Action<IGUIField> ValueChanged;
+        public event Action<IGUIField, object[]> ValueChanged;
 
 
         /// <summary>
@@ -366,6 +372,8 @@ namespace WpfHandler.UI.Controls
         /// </summary>
         public void UpdateElementsLayout()
         {
+            if (_Elements == null) return;
+
             // Finilising old layout if exist.
             if (ItemsPanel != null)
             {
@@ -396,7 +404,7 @@ namespace WpfHandler.UI.Controls
             else
             {
                 // Instiniating the panel.
-                ItemsPanel = new StackPanel()
+                ItemsPanel = new VirtualizingStackPanel()
                 { Orientation = Orientation.Vertical };
 
                 // Applying elements to the new layout.
@@ -477,7 +485,7 @@ namespace WpfHandler.UI.Controls
                     _Index = localIndexBufer;
 
                     // Inform subscribers.
-                    ValueChanged?.Invoke(this);
+                    ValueChanged?.Invoke(this, new object[0]);
                 };
 
                 // Adding to the collection.
@@ -532,7 +540,7 @@ namespace WpfHandler.UI.Controls
                     _Index = localIndexBufer;
 
                     // Inform subscribers.
-                    ValueChanged?.Invoke(this);
+                    ValueChanged?.Invoke(this, new object[0]);
                 };
 
                 // Adding to the collection.

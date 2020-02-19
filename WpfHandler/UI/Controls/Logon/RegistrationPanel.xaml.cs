@@ -344,10 +344,8 @@ namespace WpfHandler.UI.Controls.Logon
             }
 
             // Instiniatin a new view.
-            alview = new AutoLayoutVeiw
-            {
-                Descriptor = descriptor
-            };
+            alview = new AutoLayoutVeiw();
+            alview.OnLayout(descriptor);
 
             // Buferizing into the hashtable.
             FormToElement.Add(descriptor, alview);

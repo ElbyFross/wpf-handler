@@ -132,6 +132,15 @@ namespace WpfHandler.UI.Controls
         /// Requesting switch of UI to new Element.
         /// </summary>
         /// <param name="element">Element that would be showed instead current.</param>
+        public async Task SwitchToAsync(UIElement element)
+        {
+            await SwitchToAsync(element, AnimationType.None);
+        }
+
+        /// <summary>
+        /// Requesting switch of UI to new Element.
+        /// </summary>
+        /// <param name="element">Element that would be showed instead current.</param>
         /// <param name="animationType">The type of an animation that will be used during elemetns switching.</param>
         public async Task SwitchToAsync(UIElement element, AnimationType animationType)
         {
@@ -198,7 +207,7 @@ namespace WpfHandler.UI.Controls
             Animations.FloatAnimation.StartStoryboard(
                 current,
                 current.Name,
-                new PropertyPath(Control.OpacityProperty),
+                new PropertyPath(OpacityProperty),
                 Duration,
                 FillBehavior.Stop,
                 1, 0);
@@ -207,7 +216,7 @@ namespace WpfHandler.UI.Controls
             Animations.ThinknessAnimation.StartStoryboard(
                 current,
                 current.Name,
-                new PropertyPath(Control.MarginProperty),
+                new PropertyPath(MarginProperty),
                 Duration,
                 current.Margin,
                 new Thickness(ActualWidth,
@@ -228,7 +237,7 @@ namespace WpfHandler.UI.Controls
                 Animations.FloatAnimation.StartStoryboard(
                     switchPanel,
                     switchPanel.Name,
-                    new PropertyPath(Control.OpacityProperty),
+                    new PropertyPath(OpacityProperty),
                     Duration,
                     FillBehavior.Stop,
                     1, 0,

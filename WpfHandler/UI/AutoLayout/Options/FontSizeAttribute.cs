@@ -29,12 +29,21 @@ namespace WpfHandler.UI.AutoLayout.Options
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property |
                     AttributeTargets.Class | AttributeTargets.Struct,
                     AllowMultiple = false, Inherited = true)]
-    public class FontSizeAttribute : Attribute, IGUILayoutOption, ILayoutSize
+    public class FontSizeAttribute : Attribute, ISharableGUILayoutOption, ILayoutSize
     {
         /// <summary>
         /// Size of the font in points.
         /// </summary>
         public double Size { get; set; } = 14;
+
+        /// <summary>
+        /// Default constructor.
+        /// </summary>
+        /// <param name="size">Target font size.</param>
+        public FontSizeAttribute(double size)
+        {
+            Size = size;
+        }
 
         /// <summary>
         /// Define GUI element's text font size.

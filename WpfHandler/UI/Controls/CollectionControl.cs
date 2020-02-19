@@ -29,8 +29,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 using WpfHandler.UI.AutoLayout;
 using WpfHandler.UI.AutoLayout.Configuration;
+using WpfHandler.UI.Virtualization;
 
 namespace WpfHandler.UI.Controls
 {
@@ -40,7 +42,7 @@ namespace WpfHandler.UI.Controls
     /// <remarks>
     /// Fully compatible with <see cref="UIDescriptor"/> and auto layout handlers.
     /// </remarks>
-    public abstract class CollectionControl : UserControl, IGUIField, IList
+    public abstract class CollectionControl : UserControl, IGUIField, IList, IVirtualizedCollection
     {
         #region Dependency properties
         /// <summary>
@@ -49,9 +51,22 @@ namespace WpfHandler.UI.Controls
         public static readonly DependencyProperty DragAllowedProperty = DependencyProperty.Register(
           "DragAllowed", typeof(bool), typeof(CollectionControl),
           new PropertyMetadata(true));
+
+
+        /// <summary>
+        /// Property that bridging control's property between XAML and code.
+        /// </summary>
+        public static readonly DependencyProperty ApplySharableOptionsToChildsProperty = DependencyProperty.Register(
+          "ApplySharableOptionsToChilds", typeof(bool), typeof(CollectionControl),
+          new PropertyMetadata(true));
         #endregion
 
         #region Public properties
+        /// <summary>
+        /// Reference to the ScrollViewer instance if used.
+        /// </summary>
+        public abstract ScrollViewer Scroll {get;}
+
         /// <summary>
         /// Is list allows to drag elements.
         /// </summary>
@@ -69,6 +84,16 @@ namespace WpfHandler.UI.Controls
                 // Reconfigurating a style of the list.
                 ConfigurateStyles();
             }
+        }
+
+        /// <summary>
+        /// Defines is the collection will share applyed <see cref="ISharableGUILayoutOption"/>
+        /// to the child elements or not.
+        /// </summary>
+        public virtual bool ApplySharableOptionsToChilds
+        {
+            get => (bool)this.GetValue(ApplySharableOptionsToChildsProperty);
+            set => this.SetValue(ApplySharableOptionsToChildsProperty, value);
         }
 
         /// <summary>
@@ -95,11 +120,11 @@ namespace WpfHandler.UI.Controls
                 source = list;
 
                 // Inform subscribers.
-                ValueChanged?.Invoke(this);
+                ValueChanged?.Invoke(this, new object[0]);
 
                 // Class the GUI.
-                var layer = new LayoutLayer();
-                OnLayout(ref layer, null);
+                //var layer = new LayoutLayer();
+                //OnLayout(ref layer, null);
             }
         }
 
@@ -161,13 +186,34 @@ namespace WpfHandler.UI.Controls
             get => Fields[index].Value;
             set => Fields[index].Value = value;
         }
+
+        /// <summary>
+        /// Defines is virtalization enable or not.
+        /// </summary>
+        public bool IsVirtualized { get; set; } = true;
+
+        /// <summary>
+        /// How many members will be virtualized during one tic before validation.
+        /// </summary>
+        public int VirtualizedItemsPack { get; set; } = 5;
+
+        /// <summary>
+        /// List with virtualized items.
+        /// </summary>
+        public List<VirtualizedItemMeta> VirtualizedElements { get; } = new List<VirtualizedItemMeta>();
+
+        /// <summary>
+        /// TODO: ATTENTION: Not supported
+        /// Is collection must uncload and descroy controls out of the view bounds?
+        /// </summary>
+        public bool UnloadHidded { get; set; } = true;
         #endregion
 
         #region Events
         /// <summary>
         /// Will occure when source or one from elements will change.
         /// </summary>
-        public event Action<IGUIField> ValueChanged;
+        public event Action<IGUIField, object[]> ValueChanged;
         #endregion
 
         #region Protected members
@@ -187,6 +233,24 @@ namespace WpfHandler.UI.Controls
         /// Source that is binded to the current UI.
         /// </summary>
         protected IList bindedSource;
+
+        /// <summary>
+        /// Sharable options applied to an element instance.
+        /// </summary>
+        protected List<ISharableGUILayoutOption> appliedSharableOptions;
+        
+        /// <summary>
+        /// Count a current item in the pack.
+        /// </summary>
+        private int virtualizedPackCounter;
+
+        /// <summary>
+        /// Last element instantiated during virtualization.
+        /// </summary>
+        private FrameworkElement lastVirtualizedElement;
+
+        private LayoutLayer bindedLayer;
+        private object[] appliedArguments;
         #endregion
 
 
@@ -276,7 +340,7 @@ namespace WpfHandler.UI.Controls
             indexMap?.Clear();
 
             // Inform subscribers.
-            ValueChanged?.Invoke(this);
+            ValueChanged?.Invoke(this, new object[0]);
         }
 
         /// <summary>
@@ -334,6 +398,13 @@ namespace WpfHandler.UI.Controls
                 // Add to the elements.
                 Elements.Insert(index, GetRoot((FrameworkElement)field));
 
+                try
+                {
+                    // Apply to the layout.
+                    Fields[index].OnLayout(ref bindedLayer, appliedArguments);
+                }
+                catch { }
+
                 // Subscribing on the index of the value changing.
                 field.ValueChanged += CollectionElementValueChanged;
             }
@@ -346,12 +417,19 @@ namespace WpfHandler.UI.Controls
                 // Calling an item registration.
                 var element = ItemRegistration(index);
 
+                try
+                {
+                    // Apply to the layout.
+                    Fields[index].OnLayout(ref bindedLayer, appliedArguments);
+                }
+                catch { }
+
                 // Adding element to the list.
                 if (element != null) Elements.Add(element);
             }
 
             // Informing subscribers.
-            ValueChanged?.Invoke(this);                       
+            ValueChanged?.Invoke(this, new object[0]);                       
         }
 
         /// <summary>
@@ -427,7 +505,7 @@ namespace WpfHandler.UI.Controls
             field.ValueChanged -= CollectionElementValueChanged;
 
             // Informing subscribers.
-            ValueChanged?.Invoke(this);
+            ValueChanged?.Invoke(this, new object[0]);
         }
 
         /// <summary>
@@ -475,6 +553,37 @@ namespace WpfHandler.UI.Controls
         /// <param name="args"></param>
         public virtual void OnLayout(ref LayoutLayer layer, params object[] args)
         {
+            bindedLayer = layer;
+            appliedArguments = args;
+
+            try
+            {
+                // Lookinf for the sahrable options attributes.
+                if (args != null &&
+                    ApplySharableOptionsToChilds)
+                {
+                    #region Looking for shared data
+                    // Find required referendes.
+                    UIDescriptor desc = args[0] as UIDescriptor;
+                    MemberInfo member = args[1] as MemberInfo;
+
+                    // Looking for sharable attributes applied to the descriptor type.
+                    var globalAttributes = ((IEnumerable<Attribute>)args[2]).
+                        Where(m => m.GetType().GetInterface(typeof(ISharableGUILayoutOption).FullName) != null);
+
+                    // Looking for sharable attributes applied to the member.
+                    var localAttributes = ((IEnumerable<Attribute>)args[3]).
+                        Where(m => m.GetType().GetInterface(typeof(ISharableGUILayoutOption).FullName) != null);
+
+                    appliedSharableOptions = new List<ISharableGUILayoutOption>();
+                    foreach (Attribute attr in globalAttributes) appliedSharableOptions.Add(attr as ISharableGUILayoutOption);
+                    foreach (Attribute attr in localAttributes) appliedSharableOptions.Add(attr as ISharableGUILayoutOption);
+                    foreach (ISharableGUILayoutOption attr in desc.SharedLayoutOptions) appliedSharableOptions.Add(attr);
+                    #endregion
+                }
+            }
+            catch { }
+
             // Drop if the source already binded.
             if (source.Equals(bindedSource))
                 return;
@@ -486,19 +595,113 @@ namespace WpfHandler.UI.Controls
             indexMap?.Clear();
             Fields?.Clear();
             Elements?.Clear();
-            
-            // Update GUI.
-            for (int i = 0; i < source.Count; i++)
+
+            // Applying elements as source.
+            ListContent.ItemsSource = Elements;
+            LayoutLayer rootLayer = layer;
+
+            if (IsVirtualized)
+            {
+                Dispatcher.Invoke(DispatcherPriority.Background,
+                      new Action(async delegate ()
+                      {
+                          for (int i = 0; i < source.Count; i++)
+                          {
+                              #region Virtualization
+                              // Suspending virtualization
+                              if (virtualizedPackCounter == VirtualizedItemsPack)
+                              {
+                                  // Droping the counter.
+                                  virtualizedPackCounter = 0;
+
+                                  // Waiting till loading.
+                                  while (!lastVirtualizedElement.IsLoaded)
+                                  {
+                                      await Task.Delay(5);
+                                  }
+
+                                  Panel rootPanel = (Panel)rootLayer.root;
+
+                                  // Checking if the last element still in the visible bounds.
+                                  bool isVisible = LayoutHandler.IsUserVisible(lastVirtualizedElement, Window.GetWindow(lastVirtualizedElement));
+
+                                  // Suspending if the last not visible till view update.
+                                  if (!isVisible)
+                                  {
+                                      // Marker that using for blocking the thread.
+                                      bool unlocked = false;
+
+                                      // Subscribing on scroll view change event.
+                                      if(Scroll != null)
+                                        Scroll.ScrollChanged += ScrollChangedHandler;
+
+                                      // Waiting till the root will change a size.
+                                      rootPanel.SizeChanged += SizeChangedHandler;
+                                      
+                                      void ScrollChangedHandler(object sender, ScrollChangedEventArgs e)
+                                      {
+                                          VirtValHandler();
+                                      }
+
+                                      void SizeChangedHandler(object sender, SizeChangedEventArgs e)
+                                      {
+                                          VirtValHandler();
+                                      }
+
+                                      void VirtValHandler()
+                                      {
+                                          // Checking if the last element is already visible.
+                                          isVisible = LayoutHandler.IsUserVisible(lastVirtualizedElement, Window.GetWindow(lastVirtualizedElement));
+                                          if (isVisible)
+                                          {
+                                              // Unsubscribing from events.
+                                              rootPanel.SizeChanged -= SizeChangedHandler;
+                                              if (Scroll != null)
+                                                  Scroll.ScrollChanged -= ScrollChangedHandler;
+
+                                              // Unblocking the thread.
+                                              unlocked = true;
+                                          }
+                                      }
+
+                                      // Unblocking instantiation of next group of elements.
+                                      while (!unlocked)
+                                      {
+                                          await Task.Delay(5);
+                                      }
+                                  }
+                              }
+
+                              // Adding a next element.
+                              HandleElement(i);
+                          }
+                      }));
+                #endregion
+            }
+            else
+            {
+                // Update GUI.
+                for (int i = 0; i < source.Count; i++)
+                {
+                    HandleElement(i);
+                }
+            }
+
+            void HandleElement(int index)
             {
                 // Instinating an element.
-                var element = ItemRegistration(i);
+                var element = ItemRegistration(index);
+
+                // Virtualization
+                lastVirtualizedElement = element;
+                virtualizedPackCounter++;
+
+                // Apply to the layout.
+                Fields[index].OnLayout(ref rootLayer, args);
 
                 // Adding element to the list.
                 if (element != null) Elements.Add(element);
             }
-
-            // Applying elements as source.
-            ListContent.ItemsSource = Elements;
         }
         
         #region Local
@@ -579,35 +782,58 @@ namespace WpfHandler.UI.Controls
             // Getting data.
             var obj = source[index];
 
+            // Gettign member type.
+            var memberType = obj.GetType();
+
             // Gettign type of the binded UI element.
-            var controlType = LayoutHandler.GetBindedControl(obj.GetType(), true);
+            var controlType = LayoutHandler.GetBindedControl(memberType, true);
 
             // Drop if control not available.
             if (controlType == null) return null;
 
             // Instiniating UI element.
-            var element = (IGUIField)Activator.CreateInstance(controlType);
+            var field = (IGUIField)Activator.CreateInstance(controlType);
+
+            // Getting element.
+            var element = (FrameworkElement)field;
+
+            // Applying cross options in case if requested.
+            if (ApplySharableOptionsToChilds && appliedSharableOptions != null)
+            {
+                foreach (ISharableGUILayoutOption sOption in appliedSharableOptions)
+                {
+                    if (memberType.IsSubclassOf(typeof(UIDescriptor)))
+                    {
+                        ((UIDescriptor)obj).SharedLayoutOptions = appliedSharableOptions.ToArray();
+                    }
+                    else
+                    {
+                        sOption.ApplyLayoutOption(element);
+                    }
+                }
+            }
 
             // Applying default value.
-            element.Value = obj;
+            field.Value = obj;
 
             // Adding ellement to the maping table.
-            indexMap.Add(element, index);
+            indexMap.Add(field, index);
 
             // Adding reference to the field.
-            Fields.Add(element);
+            Fields.Add(field);
 
             // Subscribing on the index of the value changing.
-            element.ValueChanged += CollectionElementValueChanged;
-
-            return (FrameworkElement)element;
+            field.ValueChanged += CollectionElementValueChanged;
+            
+            return element;
         }
 
         /// <summary>
         /// Occurs when field's valu will be changed via UI element.
         /// </summary>
         /// <param name="obj">The GUI element that initialize event.</param>
-        protected virtual void CollectionElementValueChanged(IGUIField obj)
+        /// <param name="args">Shared arguments.</param>
+        protected virtual void CollectionElementValueChanged(IGUIField obj, object[] args)
         {
             // If index for that element is registred.
             if (indexMap.ContainsKey(obj))
@@ -617,7 +843,7 @@ namespace WpfHandler.UI.Controls
                 source[index] = obj.Value;
                 
                 // Inform subscribers.
-                ValueChanged?.Invoke(this);
+                ValueChanged?.Invoke(this, new object[] { obj }.Concat(args).ToArray());
             }
             else
             {
@@ -669,7 +895,7 @@ namespace WpfHandler.UI.Controls
             Insert(targetIdx, dropedField);
 
             // Inform subscribers.
-            ValueChanged?.Invoke(this);
+            ValueChanged?.Invoke(this, new object[0]);
         }
         #endregion
         

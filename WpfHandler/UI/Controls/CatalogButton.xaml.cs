@@ -125,6 +125,30 @@ namespace WpfHandler.UI.Controls
         #endregion
 
         /// <summary>
+        /// Bufer with a style loaded from resources.
+        /// </summary>
+        private static readonly Style loadedStyle;
+
+        /// <summary>
+        /// Static cinstructor. Loads resources.
+        /// </summary>
+        static CatalogButton()
+        {
+            // Try to load default style
+            try
+            {
+                if (Application.Current.FindResource("MenuButton") is Style style)
+                {
+                    loadedStyle = style;
+                }
+            }
+            catch
+            {
+                // Not found in dictionary. Not important.
+            }
+        }
+
+        /// <summary>
         /// Initialisign the catalog button.
         /// </summary>
         /// <remarks>
@@ -136,18 +160,7 @@ namespace WpfHandler.UI.Controls
             InitializeComponent();
             DataContext = this;
 
-            // Try to load default style
-            try
-            {
-                if (Application.Current.FindResource("MenuButton") is Style style)
-                {
-                    this.Style = style;
-                }
-            }
-            catch
-            { 
-                // Not found in dictionary. Not important.
-            }
+            if (loadedStyle != null) Style = loadedStyle;
         }
 
         /// <summary>

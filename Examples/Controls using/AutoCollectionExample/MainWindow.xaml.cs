@@ -35,7 +35,7 @@ namespace AutoCollectionExample
             col2.Value = intCollection;
 
             var descripor = new ACExample();
-            alView.Descriptor = descripor;
+            alView.OnLayout(descripor);
         }
     }
 
@@ -110,7 +110,7 @@ namespace AutoCollectionExample
         private void ACExample_Loaded(UIDescriptor obj)
         {
             // Looking for the UI field binded to the `flexibleCollection` member.
-            var field = GetFieldByMember("flexibleCollection");
+            var field = GetField("flexibleCollection");
 
             // Subscribing on the value changed event.
             field.ValueChanged += Field_ValueChanged;
@@ -125,7 +125,7 @@ namespace AutoCollectionExample
         }
 
         // Occurs when `flexibleCollection` changed from UI.
-        private void Field_ValueChanged(IGUIField obj)
+        private void Field_ValueChanged(IGUIField obj, object[] args)
         {
             // Do something.
         }

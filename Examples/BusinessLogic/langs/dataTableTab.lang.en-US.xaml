@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+	
+    <v:String x:Key="dtt_refresh">Refresh</v:String>
+    <v:String x:Key="dtt_add">Add item</v:String>
+	
+    <v:String x:Key="th_title">| Title</v:String>
+    <v:String x:Key="th_desc">| Description</v:String>
+    <v:String x:Key="th_price">| Price</v:String>
+</ResourceDictionary>

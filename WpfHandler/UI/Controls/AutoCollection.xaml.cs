@@ -32,6 +32,7 @@ using System.Windows.Shapes;
 using WpfHandler.UI.AutoLayout;
 using WpfHandler.UI.AutoLayout.Configuration;
 using WpfHandler.UI.AutoLayout.Markups;
+using WpfHandler.UI.Virtualization;
 
 namespace WpfHandler.UI.Controls
 {
@@ -39,8 +40,8 @@ namespace WpfHandler.UI.Controls
     /// Creating UI element for work with binded collections.
     /// </summary>
     [TypesCompatible(typeof(Object))]
-    [IListCompatible]
-    public partial class AutoCollection : CollectionControl
+    [ListCompatible]
+    public partial class AutoCollection : CollectionControl, IPaletteCompatible
     {
         #region Dependency properties
         /// <summary>
@@ -194,6 +195,45 @@ namespace WpfHandler.UI.Controls
         public override ListBox ListContent => contentPanel;
 
         /// <summary>
+        /// Palette applyed to the element.
+        /// </summary>
+        public Brush[] Palette
+        {
+            get
+            {
+                return new Brush[]
+                {
+                    Background,
+                    Foreground,
+                    BackplateBackground,
+                    SpliterColor
+                };
+            }
+            set
+            {
+                try { Background = value[0] ?? Background; } catch { };
+                try { Foreground = value[1] ?? Foreground; } catch { };
+                try { BackplateBackground = value[2] ?? BackplateBackground; } catch { };
+                try { SpliterColor = value[3] ?? SpliterColor; } catch { };
+            }
+        }
+
+        /// <summary>
+        /// Reference to a scroll view that manages a list.
+        /// </summary>
+        public override ScrollViewer Scroll => scrollView;
+
+        /// <summary>
+        /// Index of current selected item. -1 if not selected.
+        /// </summary>
+        public int SelectedIndex => ListContent.SelectedIndex;
+
+        /// <summary>
+        /// Current selected field. Null if not selected.
+        /// </summary>
+        public IGUIField SelectedField => SelectedIndex >= 0 ? Fields[SelectedIndex] : null;
+
+        /// <summary>
         /// The delegate that will be called during Add button click.
         /// In case if initialized then will be called instead default.
         /// </summary>
@@ -207,6 +247,31 @@ namespace WpfHandler.UI.Controls
         #endregion
 
         #region Constructor & destructors
+
+        /// <summary>
+        /// Bufer with a style loaded from resources.
+        /// </summary>
+        private static readonly Style loadedStyle;
+
+        /// <summary>
+        /// Static cinstructor. Loads resources.
+        /// </summary>
+        static AutoCollection()
+        {
+            // Try to load default style
+            try
+            {
+                if (Application.Current.FindResource("AutoCollection") is Style style)
+                {
+                    loadedStyle = style;
+                }
+            }
+            catch
+            {
+                // Not found in dictionary. Not important.
+            }
+        }
+
         /// <summary>
         /// Initialize that component.
         /// Looking for the `AutoCollection` Style resource. Use default if not found.
@@ -216,18 +281,7 @@ namespace WpfHandler.UI.Controls
             InitializeComponent();
             base.DataContext = this;
 
-            // Try to load default style
-            try
-            {
-                if (Application.Current.FindResource("AutoCollection") is Style style)
-                {
-                    Style = style;
-                }
-            }
-            catch
-            {
-                // Not found in dictionary. Not important.
-            }
+            if (loadedStyle != null) Style = loadedStyle;
 
             Loaded += AutoCollection_Loaded;
         }
@@ -277,10 +331,10 @@ namespace WpfHandler.UI.Controls
             var element = base.ItemRegistration(index);
 
             // Adding spliters if requested.
-            if(SplitersDraw)
+            if (SplitersDraw)
             {
                 // Instiniating panel that will contains the layout.
-                var panel = new StackPanel()
+                var panel = new VirtualizingStackPanel()
                 {
                     Orientation = Orientation.Vertical
                 };

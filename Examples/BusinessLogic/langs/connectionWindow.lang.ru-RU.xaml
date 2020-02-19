@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+	
+    <v:String x:Key="serverCon_header">Настройте подключение</v:String>
+    <v:String x:Key="serverCon_desc">Настройки нужны для доступа к серверу.</v:String>
+    <v:String x:Key="serverCon_server">Сервер</v:String>
+    <v:String x:Key="serverCon_db">Базаданных</v:String>
+    <v:String x:Key="serverCon_port">Порт</v:String>
+    <v:String x:Key="serverCon_uid">ID пользователя</v:String>
+    <v:String x:Key="serverCon_pass">Пароль</v:String>
+    <v:String x:Key="serverCon_cancel">Отмена</v:String>
+    <v:String x:Key="serverCon_connect">Подключится</v:String>
+</ResourceDictionary>

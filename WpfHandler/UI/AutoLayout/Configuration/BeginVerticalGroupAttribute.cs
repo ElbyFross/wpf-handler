@@ -52,7 +52,7 @@ namespace WpfHandler.UI.AutoLayout.Configuration
         public void OnLayout(ref LayoutLayer layer, params object[] args)
         {
             // Creating stack panel.
-            IAddChild root = new StackPanel()
+            IAddChild root = new VirtualizingStackPanel()
             {
                 Orientation = Orientation.Vertical
             };

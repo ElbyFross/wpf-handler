@@ -15,6 +15,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -26,13 +27,18 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfHandler.UI.Controls;
+using WpfHandler.UI.AutoLayout;
+using WpfHandler.UI.AutoLayout.Configuration;
+using WpfHandler.UI.AutoLayout.Markups;
 
 namespace WpfHandler.UI.AutoLayout.Controls
 {
     /// <summary>
     /// Allow to connect auto generated GUI to the XAML descriptor.
     /// </summary>
-    public partial class AutoLayoutVeiw : UserControl
+    [TypesCompatible(typeof(UIDescriptor))]
+    public partial class AutoLayoutVeiw : UserControl, IGUIField
     {
         /// <summary>
         /// Descriptor binded to the view.
@@ -42,21 +48,47 @@ namespace WpfHandler.UI.AutoLayout.Controls
             get { return _Descriptor; }
             set
             {
-                // Finalize current GUI.
+                // Finalizes current GUI.
                 _Descriptor?.UnbindFrom(root);
-
-                // Instiniate new one.
-                value?.BindTo(root);
-
-                // Update stored value.
+                
+                // Updates stored value.
                 _Descriptor = value;
+
+                // Subscribing on events.
+                _Descriptor.ValueChanged += Descriptor_ValueChanged;
+
+                // Informs subscribers.
+                ValueChanged?.Invoke(this, new object[0]);
+            }
+        }
+        
+        /// <summary>
+        /// Operate with a value of <see cref="Descriptor"/> property.
+        /// </summary>
+        public object Value
+        {
+            get => Descriptor;
+            set
+            {
+                // Trying to get descriptor.
+                if (value is UIDescriptor desc) Descriptor = desc;
             }
         }
 
         /// <summary>
+        /// The UI Descriptor member binded as a source for the element.
+        /// </summary>
+        public MemberInfo BindedMember { get; set; }
+        
+        /// <summary>
         /// BUfer that contains connected descriptor.
         /// </summary>
         protected UIDescriptor _Descriptor;
+
+        /// <summary>
+        /// Occurs when 
+        /// </summary>
+        public event Action<IGUIField, object[]> ValueChanged;
 
         /// <summary>
         /// Initialize component.
@@ -85,5 +117,92 @@ namespace WpfHandler.UI.AutoLayout.Controls
         /// <param name="e"></param>
         private void Main_Loaded(object sender, RoutedEventArgs e)
         { }
+
+        /// <summary>
+        /// Occurs when one of the shild elements of descriptor is changed.
+        /// Infoms <see cref="ValueChanged"/> event subscribers about.
+        /// </summary>
+        /// <param name="sender">Sender descriptor.</param>
+        /// <param name="field">Changed field.</param>
+        /// <param name="args">Shared arguments.</param>
+        private void Descriptor_ValueChanged(UIDescriptor sender, IGUIField field, object[] args)
+        {
+            ValueChanged?.Invoke(this, new object[] {sender, field }.Concat(args).ToArray());
+        }
+
+        
+        /// <summary>
+        /// Sharable options applied to an element instance.
+        /// </summary>
+        protected List<ISharableGUILayoutOption> appliedSharableOptions;
+
+        /// <summary>
+        /// Binds descriptor to the layout.
+        /// </summary>
+        /// <param name="descriptor">Source descriptor.</param>
+        public virtual void OnLayout(UIDescriptor descriptor)
+        {
+            Descriptor = descriptor;
+
+            var layer = new LayoutLayer()
+            { root = root };
+
+            OnLayout(ref layer, _Descriptor, null, new Attribute[0], new Attribute[0]);
+        }
+
+        /// <summary>
+        /// Connecting element to the UI handler.
+        /// </summary>
+        /// <param name="layer">Target UI layer.</param>
+        /// <param name="args">Must contains: <see cref="UIDescriptor"/> and <see cref="MemberInfo"/></param>
+        /// <remarks>
+        /// Allows only a `RoutedEventHandler` or an `Action` delegate as value.
+        /// </remarks>
+        public virtual void OnLayout(ref LayoutLayer layer, params object[] args)
+        {
+            try
+            {
+                // Lookinf for the sahrable options attributes.
+                if (args != null)
+                {
+                    #region Looking for shared data
+                    // Find required referendes.
+                    UIDescriptor desc = args[0] as UIDescriptor;
+
+                    // Looking for sharable attributes applied to the descriptor type.
+                    var globalAttributes = ((IEnumerable<Attribute>)args[2]).
+                        Where(m => m.GetType().GetInterface(typeof(ISharableGUILayoutOption).FullName) != null);
+
+                    // Looking for sharable attributes applied to the member.
+                    var localAttributes = ((IEnumerable<Attribute>)args[3]).
+                        Where(m => m.GetType().GetInterface(typeof(ISharableGUILayoutOption).FullName) != null);
+
+                    appliedSharableOptions = new List<ISharableGUILayoutOption>();
+                    foreach (Attribute attr in globalAttributes) appliedSharableOptions.Add(attr as ISharableGUILayoutOption);
+                    foreach (Attribute attr in localAttributes) appliedSharableOptions.Add(attr as ISharableGUILayoutOption);
+                    foreach (ISharableGUILayoutOption attr in desc.SharedLayoutOptions) appliedSharableOptions.Add(attr);
+                    #endregion
+                }
+            }
+            catch { }
+
+            if (_Descriptor != null)
+            {
+                if (appliedSharableOptions != null)
+                {
+                    _Descriptor.SharedLayoutOptions = appliedSharableOptions.ToArray();
+                }
+                // Binding the descriptor to the `root`.
+                if (_Descriptor.IsVirtualized)
+                {
+                    _ = _Descriptor.BindToAsync(root);
+                }
+                else
+                {
+                    _Descriptor.BindTo(root);
+                }
+            }
+        }
+
     }
 }

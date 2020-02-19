@@ -49,7 +49,7 @@ namespace ExamplePanelDescriptor
             var descriptor = new ExampleDescriptor();
 
             // Binding the descriptor to the auto layout view from the XAML.
-            alView.Descriptor = descriptor;
+            alView.OnLayout(descriptor);
         }
     }
 
@@ -97,14 +97,30 @@ namespace ExamplePanelDescriptor
         public string city;
         public string country;
 
-        // Callback that occurs whe UI is ready.
+        [EndGroup]
+        [Header("Buttons")]
+        [BeginHorizontalGroup]
+        [HorizontalAlign(HorizontalAlignment.Center)]
+        [Background("Orange")]
+        [Foreground("Black")]
+        [FontWeight(FontWeightAttribute.WeightType.Bold)]
+        // Source for the button.
+        public Action sampleActionHandler = delegate() { MessageBox.Show("Simple action activated."); };
+
+        // Source for button handled by routed event.
+        [HorizontalAlign(HorizontalAlignment.Center)]
+        public RoutedEventHandler routedEventHandler  = 
+            delegate (object sednder, RoutedEventArgs args) 
+            { MessageBox.Show("Routed event handled."); };
+
+        // Callback that occurs when the UI is ready.
         public override void OnLoaded()
         {
             // Receiving the IGUIField generated from the state member.
-            var stateField = GetFieldByMember("state");
+            var stateField = GetField("state");
 
             // Subscribing on the state value changes.
-            stateField.ValueChanged += delegate (IGUIField objw)
+            stateField.ValueChanged += delegate (IGUIField objw, object[] _)
             {
                 SwitcherState state = (SwitcherState)objw.Value;
 

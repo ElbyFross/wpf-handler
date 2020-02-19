@@ -90,8 +90,15 @@ namespace WpfHandler.UI.AutoLayout
                 throw new NullReferenceException("Root element can't be null.");
             }
 
-            // Add shared root as child on current layer.
-            root.AddChild(nextLayerRoot);
+            if (nextLayerRoot is FrameworkElement element)
+            {
+                ApplyControl(element);
+            }
+            else
+            {
+                // Add shared root as child on current layer.
+                root.AddChild(nextLayerRoot);
+            }
 
             // Configurate new layer.
             var newLayer = new LayoutLayer()
@@ -101,7 +108,7 @@ namespace WpfHandler.UI.AutoLayout
             };
 
             // Define orientation of the layout group.
-            if (nextLayerRoot is StackPanel)
+            if (nextLayerRoot is VirtualizingStackPanel)
                 newLayer.orientation = Orientation.Vertical;
             else
                 newLayer.orientation = Orientation.Horizontal;

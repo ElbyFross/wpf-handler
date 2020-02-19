@@ -120,14 +120,37 @@ namespace WpfHandler.UI.AutoLayout
         public static void VerticalLayoutAddChild(IAddChild parent, FrameworkElement element)
         {
             // Validate type cast.
-            if(!(parent is StackPanel panel))
+            if (!(parent is VirtualizingStackPanel panel))
             {
-                throw new InvalidCastException("Parent mast be `" + typeof(StackPanel).FullName + "`.");
+                throw new InvalidCastException("Parent mast be `" + typeof(VirtualizingStackPanel).FullName + "`.");
             }
 
             // Set element to the parent panel.
             panel.Children.Add(element);
+
+            //// Drop ivalid elelment.
+            //if (!(parent is Grid grid))
+            //{
+            //    throw new InvalidCastException("Parent must be `" + typeof(Grid).FullName + "`.");
+            //}
+
+            //// Add new column fo element.
+            //grid.RowDefinitions.Add(new RowDefinition()
+            //{
+            //    // define required width.
+            //    // Auto - if width of element less or equals 0, or is NaN.
+            //    // Shared element's width in case if defined.
+            //    Height = double.IsNaN(element.Height) || element.Height <= 0 ?
+            //            new GridLength(1, GridUnitType.Star) : new GridLength(element.Height)
+            //});
+
+            //// Add element as child.
+            //parent.AddChild(element);
+
+            //// Set als column as target for element.
+            //Grid.SetRow(element, grid.RowDefinitions.Count - 1);
         }
+
 
         /// <summary>
         /// Registrating bool property into auto layout ui.
@@ -136,7 +159,9 @@ namespace WpfHandler.UI.AutoLayout
         /// <param name="descriptor">Descriptor that hold fields or properties.</param>
         /// <param name="member">Member in descriptor instance that will be used as target for value update.</param>
         /// <param name="defautltValue">Value that will be setted by default.</param>
-        public static void RegistrateField(this IGUIField control, UIDescriptor descriptor, MemberInfo member, object defautltValue)
+        public static void RegistrateField(
+            this IGUIField control, UIDescriptor descriptor,
+            MemberInfo member, object defautltValue)
         {
             #region Declaretion & Initializtion
             // Preventing the null field.
@@ -144,35 +169,54 @@ namespace WpfHandler.UI.AutoLayout
             {
                 try
                 {
-                    // Instiniating the default value.
-                    defautltValue = Activator.CreateInstance(
-                        UIDescriptor.MembersHandler.GetSpecifiedMemberType(member));
+                    var type = UIDescriptor.MembersHandler.GetSpecifiedMemberType(member);
+
+                    if (type.GetConstructor(new Type[0]) != null)
+                    {
+                        // Instiniating the default value.
+                        defautltValue = Activator.CreateInstance(type);
+
+                        UIDescriptor.MembersHandler.SetValue(member, descriptor, defautltValue);
+                    }
                 }
-                catch { };
+                catch (Exception ex)
+                {
+                    MessageBox.Show(string.Format("Custructor crash!" +
+                        "\nMember: {0}\n" +
+                        "Descriptor: {1}\n\n" +
+                        "Details: {2}",
+                    member.Name,
+                    descriptor.GetType().FullName,
+                    ex.Message));
+                };
             }
 
             // Apply default value.
             control.Value = defautltValue;
 
             // Declaring registration params.
-            Action<IGUIField> handler = null;
+            Action<IGUIField, object[]> handler = null;
             PropertyInfo propMember = null;
             FieldInfo fieldMember = null;
             #endregion
 
             #region Handlers
             // Instiniate UI field update callback for property members.
-            void PropChangeCallback(IGUIField _)
+            void PropChangeCallback(IGUIField _, object[] __)
             {
                 // Try to set value.
-                try { propMember.SetValue(descriptor, control.Value); } catch(Exception ex)
+                try { propMember.SetValue(descriptor, control.Value); }
+                catch (NotSupportedException) { }
+                catch (Exception ex)
                 { MessageBox.Show("Backward member binding corupted.\n\nDetails:\n" + ex.Message); }
             }
             // Instiniate UI field update callback for fields members.
-            void FieldChangeCallback(IGUIField _)
+            void FieldChangeCallback(IGUIField _, object[] __)
             {
                 // Try to set value.
-                try { fieldMember.SetValue(descriptor, control.Value); } catch(Exception ex)
+                try { fieldMember.SetValue(descriptor, control.Value); }
+                catch (NotSupportedException) { }
+                catch (Exception ex)
                 { MessageBox.Show("Backward member binding corupted.\n\nDetails:\n" + ex.Message); }
             }
             #endregion
@@ -210,7 +254,7 @@ namespace WpfHandler.UI.AutoLayout
             try
             {
                 // Unregistreting of registred callback.
-                control.ValueChanged -= (Action<IGUIField>)RegistredCallbacks[control];
+                control.ValueChanged -= (Action<IGUIField, object[]>)RegistredCallbacks[control];
             }
             catch
             {
@@ -259,7 +303,7 @@ namespace WpfHandler.UI.AutoLayout
                     else
                     {
                         // Is focused on work with collections.
-                        var isList = type.GetCustomAttribute<IListCompatibleAttribute>();
+                        var isList = type.GetCustomAttribute<ListCompatibleAttribute>();
                         if (isList != null) targetTable = ListControlsBindings;
                         else targetTable = DefaultControlsBindings; // Not specified.
                     }
@@ -390,6 +434,22 @@ namespace WpfHandler.UI.AutoLayout
                 return null;
             }
             #endregion
+        }
+
+        /// <summary>
+        /// Checks does an element visible for user in the given  container.
+        /// </summary>
+        /// <param name="element">Element for check.</param>
+        /// <param name="container">Container that defines visibility area bounds.</param>
+        /// <returns>Result of check.</returns>
+        public static bool IsUserVisible(FrameworkElement element, FrameworkElement container)
+        {
+            if (!element.IsVisible)
+                return false;
+
+            Rect bounds = element.TransformToAncestor(container).TransformBounds(new Rect(0.0, 0.0, element.RenderSize.Width, element.RenderSize.Height));
+            Rect rect = new Rect(-100.0, -100.0, container.RenderSize.Width + 100, container.RenderSize.Height + 100);
+            return rect.Contains(bounds.TopLeft) || rect.Contains(bounds.BottomRight);
         }
     }
 }

@@ -13,3 +13,7 @@
 **/packages
 **/Debug
 **/Release
+nuget.config
+*.nupkg
+nuget.exe
+*.nuspec

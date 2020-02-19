@@ -36,14 +36,14 @@ namespace WpfHandler.UI.Controls
     /// Interaction logic for FlatTextBox.xaml
     /// </summary>
     [TypesCompatible(typeof(int), typeof(float), typeof(double), typeof(string))]
-    public partial class FlatTextBox : TextFieldControl, IGUIField
+    public partial class FlatTextBox : TextFieldControl, IGUIField, IPaletteCompatible
     {
         #region Properties
         /// <summary>
         /// Event that will occure in case if value of the field will be changed.
         /// Will cause updating of the BindedMember value.
         /// </summary>
-        public event Action<IGUIField> ValueChanged;
+        public event Action<IGUIField, object[]> ValueChanged;
         
         /// <summary>
         /// Memeber that will be used as source\target for the value into UI.
@@ -59,6 +59,67 @@ namespace WpfHandler.UI.Controls
         /// Returns reference to the field block of UI element.
         /// </summary>
         public override FrameworkElement FieldElement { get { return fieldElement; } }
+
+        /// <summary>
+        /// Property that bridging control's property between XAML and code.
+        /// </summary>
+        public static readonly DependencyProperty SpliterBrushProperty = DependencyProperty.Register(
+          "SpliterBrush", typeof(Brush), typeof(AutoCollection),
+          new PropertyMetadata(new SolidColorBrush((Color)ColorConverter.ConvertFromString("#00171f"))));
+
+        /// <summary>
+        /// Brush applied to the spliter.
+        /// </summary>
+        public Brush SpliterBrush
+        {
+            get { return (Brush)GetValue(SpliterBrushProperty); }
+            set { SetValue(SpliterBrushProperty, value); }
+        }
+
+        /// <summary>
+        /// A color palette applied to the element.
+        /// [0] - Background; [1] - Foreground; [2] - TextBoxBackground; [3] - TextBoxForeground;
+        /// </summary>
+        public Brush[] Palette
+        {
+            get
+            {
+                return new Brush[]
+                {
+                    Background,
+                    Foreground,
+                    TextBoxBackground,
+                    TextBoxForeground,
+                    SpliterBrush
+                };
+            }
+            set
+            {
+                try { Background = value[0]; } catch { }
+                try { Foreground = value[1]; } catch { }
+                try { TextBoxBackground = value[2]; } catch { }
+                try { TextBoxForeground = value[3]; } catch { }
+                try { SpliterBrush = value[4]; } catch { }
+            }
+        }
+
+        /// <summary>
+        /// Uniform value.
+        /// Allowed type depends from `ValueMode` property.
+        /// </summary>
+        public override object Value 
+        { 
+            get => base.Value; 
+            set
+            {
+                base.Value = value;
+                if(!IsLoaded)
+                {
+                    textBox.Text = base.Value.ToString();
+                    TextBox_TextChanged(null, null);
+                }
+            }
+        }
         #endregion
 
         #region Local members
@@ -66,7 +127,31 @@ namespace WpfHandler.UI.Controls
         /// Bufer that contains last valid stored text from textbox.
         /// </summary>
         private string textPropertyBufer;
+
+        /// <summary>
+        /// Bufer with a style loaded from resources.
+        /// </summary>
+        private static readonly Style loadedStyle;
         #endregion
+
+        /// <summary>
+        /// Static cinstructor. Loads resources.
+        /// </summary>
+        static FlatTextBox()
+        {
+            // Try to load default style
+            try
+            {
+                if (Application.Current.FindResource("FlatTextBox") is Style style)
+                {
+                    loadedStyle = style;
+                }
+            }
+            catch
+            {
+                // Not found in dictionary. Not important.
+            }
+        }
 
         /// <summary>
         /// Default constructor.
@@ -77,18 +162,7 @@ namespace WpfHandler.UI.Controls
             InitializeComponent();
             DataContext = this;
 
-            // Try to load default style
-            try
-            {
-                if (Application.Current.FindResource("FlatTextBox") is Style style)
-                {
-                    Style = style;
-                }
-            }
-            catch
-            {
-                // Not found in dictionary. Not important.
-            }
+            if (loadedStyle != null) Style = loadedStyle;
 
             // Subscribe on events.
             textBox.TextChanged += TextBox_TextChanged;
@@ -96,7 +170,7 @@ namespace WpfHandler.UI.Controls
 
         #region API
         /// <summary>
-        /// Configurate GUI element and bind it to auto layout handler.
+        /// Configurates GUI element and bind it to auto layout handler.
         /// </summary>
         /// <param name="layer">Target UI layer.</param>
         /// <param name="args">Must contains: <see cref="UIDescriptor"/> and <see cref="MemberInfo"/></param>
@@ -177,7 +251,7 @@ namespace WpfHandler.UI.Controls
             textPropertyBufer = Text;
 
             // Inform autolayout handler about changes.
-            ValueChanged?.Invoke(this);
+            ValueChanged?.Invoke(this, new object[0]);
         }
 
         /// <summary>

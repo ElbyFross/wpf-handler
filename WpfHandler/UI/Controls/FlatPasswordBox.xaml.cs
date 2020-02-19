@@ -41,7 +41,7 @@ namespace WpfHandler.UI.Controls
         /// Event that will occure in case if value of the field will be changed.
         /// Will cause updating of the BindedMember value.
         /// </summary>
-        public event Action<IGUIField> ValueChanged;
+        public event Action<IGUIField, object[]> ValueChanged;
 
         /// <summary>
         /// Text in textbox.
@@ -69,6 +69,30 @@ namespace WpfHandler.UI.Controls
         #endregion
 
         /// <summary>
+        /// Bufer with a style loaded from resources.
+        /// </summary>
+        private static readonly Style loadedStyle;
+
+        /// <summary>
+        /// Static cinstructor. Loads resources.
+        /// </summary>
+        static FlatPasswordBox()
+        {
+            // Try to load default style
+            try
+            {
+                if (Application.Current.FindResource("FlatPasswordBox") is Style style)
+                {
+                    loadedStyle = style;
+                }
+            }
+            catch
+            {
+                // Not found in dictionary. Not important.
+            }
+        }
+
+        /// <summary>
         /// Defalut constructor.
         /// 
         /// Trying to load `FlatPasswordBox` as @Style resource.
@@ -78,18 +102,7 @@ namespace WpfHandler.UI.Controls
             InitializeComponent();
             DataContext = this;
 
-            // Try to load default style
-            try
-            {
-                if (Application.Current.FindResource("FlatPasswordBox") is Style style)
-                {
-                    this.Style = style;
-                }
-            }
-            catch
-            {
-                // Not found in dictionary. Not important.}
-            }
+            if (loadedStyle != null) Style = loadedStyle;
         }
 
         /// <summary>
@@ -100,7 +113,7 @@ namespace WpfHandler.UI.Controls
         private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
         {
             // Inform autolayout handler about changes.
-            ValueChanged?.Invoke(this);
+            ValueChanged?.Invoke(this, new object[0]);
         }
 
         /// <summary>
